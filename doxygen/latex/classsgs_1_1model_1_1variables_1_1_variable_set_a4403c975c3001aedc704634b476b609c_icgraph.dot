@@ -1,0 +1,15 @@
+digraph "sgs.model.variables.VariableSet.VariableSet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.variables.Variable\lSet.VariableSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.model.variables.Variable\lSet.combine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_variable_set.html#a1f617e7c69a54f340bfdf6bf5aeb8cc7"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.model.variables.Variable\lSet.copyKeepProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_variable_set.html#a1fb0c9fb20db2d68b06abec31af40d69"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.model.variables.Variable\lSet.makeDefaultVariableSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_variable_set.html#a3e0eb26dac85adff36a7d168b6a665de"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="sgs.model.variables.Variable\lSet.getVisibles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_variable_set.html#a1f84a91f4bef081e4bd7c04c7d2e8f52"];
+}

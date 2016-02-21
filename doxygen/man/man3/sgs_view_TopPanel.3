@@ -1,0 +1,117 @@
+.TH "sgs.view.TopPanel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.view.TopPanel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits JToolBar\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTopPanel\fP ()"
+.br
+.ti -1c
+.RI "JButton \fBaddControl_TopButton\fP (String name, ActionListener l)"
+.br
+.ti -1c
+.RI "JToggleButton \fBaddControl_TopToggle\fP (String name, ActionListener l)"
+.br
+.ti -1c
+.RI "void \fBupdateDateAndTime\fP (\fBWeather\fP currentWeather, GregorianCalendar currentTime)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "JPanel \fBbuttonPanel\fP = new JPanel(new FlowLayout(CENTER))"
+.br
+.ti -1c
+.RI "DateAndTimePanel \fBdateAndTimePanel\fP = new DateAndTimePanel()"
+.br
+.ti -1c
+.RI "LogoPanel \fBlogoPanel\fP = new LogoPanel((int) 1)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Panel with all elements at the top of the GUI\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 25 of file TopPanel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.view\&.TopPanel\&.TopPanel ()"
+
+.PP
+Definition at line 32 of file TopPanel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "JButton sgs\&.view\&.TopPanel\&.addControl_TopButton (Stringname, ActionListenerl)"
+Make JButton, add Action listener, add the button to the view\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP - button name 
+.br
+\fIl\fP - ActionListener to add, can be null\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+JButton 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file TopPanel\&.java\&.
+.SS "JToggleButton sgs\&.view\&.TopPanel\&.addControl_TopToggle (Stringname, ActionListenerl)"
+Make JToggleButton, add Action listener, add the button to the view\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP - button name 
+.br
+\fIl\fP - ActionListener to add, can be null\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+JButton 
+.RE
+.PP
+
+.PP
+Definition at line 64 of file TopPanel\&.java\&.
+.SS "void sgs\&.view\&.TopPanel\&.updateDateAndTime (\fBWeather\fPcurrentWeather, GregorianCalendarcurrentTime)"
+Update time and weather label\&. 
+.PP
+Definition at line 79 of file TopPanel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "JPanel sgs\&.view\&.TopPanel\&.buttonPanel = new JPanel(new FlowLayout(CENTER))"
+
+.PP
+Definition at line 28 of file TopPanel\&.java\&.
+.SS "DateAndTimePanel sgs\&.view\&.TopPanel\&.dateAndTimePanel = new DateAndTimePanel()"
+
+.PP
+Definition at line 29 of file TopPanel\&.java\&.
+.SS "LogoPanel sgs\&.view\&.TopPanel\&.logoPanel = new LogoPanel((int) 1)"
+
+.PP
+Definition at line 30 of file TopPanel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

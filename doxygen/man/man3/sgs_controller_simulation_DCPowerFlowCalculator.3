@@ -1,0 +1,153 @@
+.TH "sgs.controller.simulation.DCPowerFlowCalculator" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.DCPowerFlowCalculator \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDCPowerFlowCalculator\fP (\fBGridController\fP gridController)"
+.br
+.ti -1c
+.RI "void \fBinitializeAlgorithm\fP ()"
+.br
+.ti -1c
+.RI "void \fBcalculationStep\fP ()"
+.br
+.ti -1c
+.RI "void \fBgridChanged\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetDescription\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStarted\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStopped\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetPropertiesForVariables\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPropertiesForBusAndPath\fP ()"
+.br
+.ti -1c
+.RI "void \fBunloadAlgorithm\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+DC-Flow-Algorithm 
+.PP
+\fBAuthor:\fP
+.RS 4
+Benjamin Breiling 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+TheoreticalStuff/DCPowerFlowEquations\&.pdf 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file DCPowerFlowCalculator\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.DCPowerFlowCalculator (\fBGridController\fPgridController)"
+
+.PP
+Definition at line 36 of file DCPowerFlowCalculator\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.calculationStep ()\fC [virtual]\fP"
+solves the DC-Power-Flow-Equations input: (1) Susceptance-Matrix (2) Netto real power production on every bus
+.PP
+output:(3) real power flow on the power lines (4) phase angle on the buses
+.PP
+\fBSee Also:\fP
+.RS 4
+TheoreticalStuff/DCPowerFlowEquations\&.pdf 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 71 of file DCPowerFlowCalculator\&.java\&.
+.SS "String sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.getDescription ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+description of the specific algorithm used for the 'Info' button 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 281 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.gridChanged ()\fC [virtual]\fP"
+Is called if the Grid is modified\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 275 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.initializeAlgorithm ()"
+
+.PP
+Definition at line 41 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.setPropertiesForBusAndPath ()\fC [protected]\fP, \fC [virtual]\fP"
+Set \fBSgsGridModel\&.resistanceAttributes\fP, busVariableCollection, pathVariableCollection if used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 263 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.setPropertiesForVariables ()\fC [protected]\fP, \fC [virtual]\fP"
+Set the algorithm specific variables with help of the super class methods\&. 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBselectClass(Class)\fP, \fBsetProperties(boolean,boolean,EnumPV[])\fP, \fBinitializeVariables()\fP 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 249 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.simulationStarted ()\fC [virtual]\fP"
+Called by time thread\&. Write interesting contents of the simulation to a file\&. Called directly after the simulation was started\&. Use this to make a LOG file if one is used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 292 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.simulationStopped ()\fC [virtual]\fP"
+Called directly after the simulation was stopped\&. Use this to flush/close a log file if one was used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 305 of file DCPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.DCPowerFlowCalculator\&.unloadAlgorithm ()\fC [protected]\fP, \fC [virtual]\fP"
+Free external resources used by this algorithm\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 269 of file DCPowerFlowCalculator\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

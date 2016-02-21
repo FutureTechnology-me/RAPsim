@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant" kind="class" prot="public">
+    <compoundname>sgs::model::gridObjects::SolarPowerPlant</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant" prot="public" virt="non-virtual">sgs.model.gridObjects.PowerPlant</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a81ca1c7d67a96fd98afaa004787bdeeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridObjects.SolarPowerPlant.SolarPowerPlant</definition>
+        <argsstring>()</argsstring>
+        <name>SolarPowerPlant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" bodystart="16" bodyend="21"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a889e96a01ce8c0498f7654498191c824" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>GridDataEnum sgs.model.gridObjects.SolarPowerPlant.getEnum</definition>
+        <argsstring>()</argsstring>
+        <name>getEnum</name>
+        <reimplements refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49">getEnum</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>corresponding enum for this object. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" bodystart="24" bodyend="26"/>
+        <references refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8812134f8ff9dbeb2915d572c5313daf" compoundref="_grid_data_enum_8java" startline="62">sgs.model.gridData.GridDataEnum.SOLAR_POWER_PLANT</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4170">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4168">
+        <label>sgs.model.gridObjects.SolarPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant"/>
+        <childnode refid="4169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4172">
+        <label>GridObject</label>
+      </node>
+      <node id="4173">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4169">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4174">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4171">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4172" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4173" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4174" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4216">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="4208">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="4190">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="4177">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4188">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4192">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="4193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4194" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="4195" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="4190" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="4178" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="4196" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="4198" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="4199" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="4200" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="4201" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="4202" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="4220" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="4221" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="4175">
+        <label>sgs.model.gridObjects.SolarPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant"/>
+        <childnode refid="4176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4179">
+        <label>GridObject</label>
+      </node>
+      <node id="4184">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="4185" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="4186" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4194">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="4200">
+        <label>JFrame</label>
+      </node>
+      <node id="4189">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="4190" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="4189" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="4191" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="4186" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4222">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="4180">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4218">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4217">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4218" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4219" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4219">
+        <label>Random</label>
+      </node>
+      <node id="4202">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4203" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4204" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="4214" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="4216" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="4217" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="4199">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="4193">
+        <label>GridModel</label>
+      </node>
+      <node id="4186">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4188" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4210">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4212">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4206">
+        <label>Application</label>
+      </node>
+      <node id="4176">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4213">
+        <label>File</label>
+      </node>
+      <node id="4183">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="4201">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="4221">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="4204">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="4205" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="4192" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4209" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="4211" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="4208" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4207">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4185">
+        <label>ImageIcon</label>
+      </node>
+      <node id="4211">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="4212" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="4213" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4215">
+        <label>JDialog</label>
+      </node>
+      <node id="4209">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="4210" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="4208" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4203">
+        <label>Thread</label>
+      </node>
+      <node id="4181">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4205">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="4206" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4207" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="4208" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4214">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4215" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4197">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="4178">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4179" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4180" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4182" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="4184" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="4189" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="4192" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4222" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="4186" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4198">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="4187">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="4195">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="4182">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="4183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4196">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="4197" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4191">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="4220">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SolarPowerPlant.java" bodystart="11" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54a026a3347df89d8dd4e47a625db88c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>addWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>closeAllWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>draggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1df529325f3acfd35897ae2b5774c275" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>factory</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae8bdc2184254269c1a259f136af9b6a6" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getBus</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7a1416e45c36c61b1cdcc805d7716704" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad15e88279d11216fca5b158018f514a2" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad8ca87adf1436bc10304603da700de17" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54c1d37b28f3b598abe635627fa6a571" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getData</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a889e96a01ce8c0498f7654498191c824" prot="public" virt="virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a98c13be7c02e926ba5092994e2ca1c0b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a89e6711cd4cfc4ce52d3601438362224" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getMaxPowerTransport</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1af6c211687829562d813d043d15821be7" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a262c5a7010f8f7ca2547d450a911215e" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getObjectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4bb57a5690a7c612dbb5b79872981f16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getParameterOfSGO</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5d4f90f9ed1c3cb2ef3b7dc619090c20" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1b330e324f54ac8256da42cfd983b84f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getPowerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a38b86c8e0825c7fb0d31562bfcc502a1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1cd87a4e5474dc6de4fdc3a3b278a45d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7aeabf9c0b5b3a93c631b9d5bb665c2b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getTransportPowerDecrement</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>getVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4652fb1a16e502b31aff75686f3b3e75" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a3dad540a8c17c2bbd724f84a905dfeee" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>isDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>model</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab1fdc83f9086dda3d3be3984a1e563f3" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>objectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a84827fa0f7834650292e9655e67076a2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>overlays</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1e4441a0a8004af70f2626723c597fc8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>ownedWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1a8eedcc5a7473d738d072b2e35e777273" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>PowerPlant</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a00fe30d15dc24e05bcb406962ef8bd99" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>ProSumer</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>removeWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>resetCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8d5703aa46cb9fe362cbfbaa931fd1cc" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>selectedNode</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab6e73c06a9c7332f289bbd885d5c41ca" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0c03efa78e2066bbf5f61702c49d6193" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a026f6229a75caa6ff916c7602b7d8ec2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a86bc79e907ee061f83b09c67ba481c8d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1ae2c7c5a6b167926a6099f9026b0c6e26" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a92c1bf6efcc57ae3acddc503dc60ae41" prot="public" virt="non-virtual" ambiguityscope="sgs::model::gridObjects::ProSumer."><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a96606b65df224d13090562e68e60f659" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0143b19bf953fb4f1d49c85df2e2fd7c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8708fce37b2a022b7e5d8d9123d35fc2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setPowerLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1d551cd4ebc8949455051b876a408ec0" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a880025d424bfe13f38d8abd4a8533efb" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a955defefa383f56174146d9a1a0d8225" prot="public" virt="virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setProductionToWeatherAndTime</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>setResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac9a1a7e550abdb48afd69dfe669a3fa5" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>SmartGridObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a81ca1c7d67a96fd98afaa004787bdeeb" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>SolarPowerPlant</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a74d1946ece91a28fb6fe5a5402978fd9" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4d8ce62cbe114ac99de2bce46aed3d39" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>updateObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SolarPowerPlant</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

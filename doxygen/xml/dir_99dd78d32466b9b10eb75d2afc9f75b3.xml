@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_99dd78d32466b9b10eb75d2afc9f75b3" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller</compoundname>
+    <innerdir refid="dir_127aa4ac8168d7e14a48395997148833">RAPSim/src/sgs/controller/fileManagement</innerdir>
+    <innerdir refid="dir_0570df259d320e063bb24d5ea492d463">RAPSim/src/sgs/controller/interfaces</innerdir>
+    <innerdir refid="dir_11c07a346c0bc8bfbfc57bbc0fe68289">RAPSim/src/sgs/controller/simulation</innerdir>
+    <innerdir refid="dir_e560290bfc356acf130a897f402ed296">RAPSim/src/sgs/controller/undoableEdit</innerdir>
+    <innerfile refid="_button_controller_8java">ButtonController.java</innerfile>
+    <innerfile refid="_color_overlay_controller_8java">ColorOverlayController.java</innerfile>
+    <innerfile refid="_edit_function_controller_8java">EditFunctionController.java</innerfile>
+    <innerfile refid="_grid_controller_8java">GridController.java</innerfile>
+    <innerfile refid="_grid_map_listener_8java">GridMapListener.java</innerfile>
+    <innerfile refid="_grid_pop_up_menu_controller_8java">GridPopUpMenuController.java</innerfile>
+    <innerfile refid="_menu_controller_8java">MenuController.java</innerfile>
+    <innerfile refid="_primary_controller_8java">PrimaryController.java</innerfile>
+    <innerfile refid="_reflection_stuff_8java">ReflectionStuff.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/"/>
+  </compounddef>
+</doxygen>

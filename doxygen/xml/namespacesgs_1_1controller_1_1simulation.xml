@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1controller_1_1simulation" kind="namespace">
+    <compoundname>sgs::controller::simulation</compoundname>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm" prot="public">sgs::controller::simulation::_TestingAlgorithm</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" prot="public">sgs::controller::simulation::AbstractDistributionAlgorithm</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator" prot="public">sgs::controller::simulation::ACPowerFlowCalculator</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_bus_netto_power_comparator" prot="public">sgs::controller::simulation::BusNettoPowerComparator</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator" prot="public">sgs::controller::simulation::DCPowerFlowCalculator</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser" prot="public">sgs::controller::simulation::NetworkAnalyser</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution" prot="public">sgs::controller::simulation::SimplePowerDistribution</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" prot="public">sgs::controller::simulation::TimeThread</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1simulation_1_1_weather" prot="public">sgs::controller::simulation::Weather</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller_1_1simulation_1_1calculation">sgs::controller::simulation::calculation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,267 @@
+.TH "sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBactionfor_cancelButton\fP ()"
+.br
+.ti -1c
+.RI "void \fBactionfor_saveButton\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddNodeChoosenObjectTree\fP (CheckBoxTreeItem< String > node)"
+.br
+.ti -1c
+.RI "void \fBaddNodeChoosenCollectionTree\fP (CheckBoxTreeItem< String > node, TreeItem< String > list, TreeItem< String > node2)"
+.br
+.ti -1c
+.RI "void \fBchangeNodeInCheckBoxTree\fP (CheckBoxTreeItem< String >node)"
+.br
+.ti -1c
+.RI "boolean \fBgetFoundInconsistency\fP ()"
+.br
+.ti -1c
+.RI "TreeItem< String > \fBgetSavedObject\fP ()"
+.br
+.ti -1c
+.RI "TreeItem< String > \fBgetSavedCollection\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisHaveData\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhaveDataC\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisSavedChanges\fP ()"
+.br
+.ti -1c
+.RI "void \fBrecAllLeafes\fP (TreeItem< String > list, TreeItem< String > choosenTree)"
+.br
+.ti -1c
+.RI "void \fBremoveNodeChoosenObjectTree\fP (CheckBoxTreeItem< String > node, CheckBoxTreeItem< String > objectTree)"
+.br
+.ti -1c
+.RI "void \fBremoveNodeChoosenCollectionTree\fP (CheckBoxTreeItem< String > node, TreeItem< String > list, TreeItem< String > node2)"
+.br
+.ti -1c
+.RI "void \fBsetCollectionTree\fP (CheckBoxTreeItem< String > collTree)"
+.br
+.ti -1c
+.RI "void \fBsetObjectTree\fP (CheckBoxTreeItem< String > objTree)"
+.br
+.ti -1c
+.RI "void \fBsetDataChanged\fP (boolean b)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static TreeItem< String > \fBgetResultsCollection\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Sabrina Huber the actionListener for the checkBoxActions in the Tab\&. when a checkBox is selected or unselected, the actionlistener will add the node into the correct choosenTree it also clicks onto the equivalent object in the other tree\&. check if the number of objects on the grid, is the same number in our trees 
+.RE
+.PP
+
+.PP
+Definition at line 13 of file CheckBoxActionListener\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.actionfor_cancelButton ()"
+set the choosenCollectionTree back, to the old values, that are stored in the savedTree\&. set haveData back to false\&. 
+.PP
+Definition at line 41 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.actionfor_saveButton ()"
+actions for save Button set savedChanges to true set dataChanged to false set haveData to false 
+.PP
+Definition at line 58 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.addNodeChoosenCollectionTree (CheckBoxTreeItem< String >node, TreeItem< String >list, TreeItem< String >node2)"
+add a node to a TreeItem given in the param list from Collections 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInode\fP - node from the CheckBoxTree that trows the ActionListener 
+.br
+\fIlist\fP - in which Tree (without CeckBoxes) we want to add a node 
+.br
+\fInode2\fP - a node(should be leaf) from the choosenCollectionTree 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.addNodeChoosenObjectTree (CheckBoxTreeItem< String >node)"
+add a TreeItem to the ChoosenObjectTree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInode\fP 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.changeNodeInCheckBoxTree (CheckBoxTreeItem< String >node)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlist\fP 
+.br
+\fInode\fP one methode for adding and removing nodes from the choosenDataTrees\&. At first check if the node\&.getParent() is an all-node or a sgo-node\&. If it's an all-node, the node can only be in the objectTab, because only there are the nodes with the Titel 'all \&.\&.' \&.
+.br
+\fInode\fP - the node from the Tree that throws the actionlistener 
+.RE
+.PP
+
+.PP
+Definition at line 327 of file CheckBoxActionListener\&.java\&.
+.SS "boolean sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.getFoundInconsistency ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+foundInconsitency - boolean to tell if the user wanted to save data from an object, that he/she delayed later from the grid 
+.RE
+.PP
+
+.PP
+Definition at line 443 of file CheckBoxActionListener\&.java\&.
+.SS "static TreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.getResultsCollection ()\fC [static]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the choosenCollectionTree; 
+.RE
+.PP
+
+.PP
+Definition at line 452 of file CheckBoxActionListener\&.java\&.
+.SS "TreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.getSavedCollection ()"
+clear the choosenObjectTree call recAllLeafes function to search for the leaves in the choosenCollectionTree, and save them in the savedTreeCollection call recExpandTree function to expand each node of the tree 
+.PP
+\fBReturns:\fP
+.RS 4
+choosenCollectionTree 
+.RE
+.PP
+
+.PP
+Definition at line 473 of file CheckBoxActionListener\&.java\&.
+.SS "TreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.getSavedObject ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+choosenObjectTree 
+.RE
+.PP
+
+.PP
+Definition at line 461 of file CheckBoxActionListener\&.java\&.
+.SS "boolean sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.haveDataC ()"
+this is a getter - Method for the Controller\&. in some possibilities the JavaFx has not initialized and would throw an exception
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 506 of file CheckBoxActionListener\&.java\&.
+.SS "boolean sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.isHaveData ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+haveData - boolean to check if a notification to save the changes is needed 
+.RE
+.PP
+
+.PP
+Definition at line 491 of file CheckBoxActionListener\&.java\&.
+.SS "boolean sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.isSavedChanges ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+savedChanges - 
+.RE
+.PP
+
+.PP
+Definition at line 515 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.recAllLeafes (TreeItem< String >list, TreeItem< String >choosenTree)"
+the recAllLeaves in the GiveDataCollections, put all leafs into a list, we want here to put it into a new tree\&. also if it found the leaf, it should check if the path even exists in the checkboxtree Collection and set the isSelected to true\&. 
+.PP
+Definition at line 527 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.removeNodeChoosenCollectionTree (CheckBoxTreeItem< String >node, TreeItem< String >list, TreeItem< String >node2)"
+remove a node + parents if necessary from the choosenCollectionTree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInode\fP 
+.RE
+.PP
+
+.PP
+Definition at line 701 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.removeNodeChoosenObjectTree (CheckBoxTreeItem< String >node, CheckBoxTreeItem< String >objectTree)"
+remove nodes and the parents if necessary from the choosenObjectTree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInode\fP - selected Node throws the action listener 
+.br
+\fIobjectTree\fP - 
+.RE
+.PP
+
+.PP
+Definition at line 647 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.setCollectionTree (CheckBoxTreeItem< String >collTree)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcollTree\fP 
+.RE
+.PP
+
+.PP
+Definition at line 766 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.setDataChanged (booleanb)"
+
+.PP
+Definition at line 796 of file CheckBoxActionListener\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CheckBoxActionListener\&.setObjectTree (CheckBoxTreeItem< String >objTree)"
+set the objTree into the objectTree, and so the actionListener to the address of the tree 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjTree\fP 
+.RE
+.PP
+
+.PP
+Definition at line 791 of file CheckBoxActionListener\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

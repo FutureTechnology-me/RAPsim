@@ -1,0 +1,301 @@
+\section{sgs.\-model.\-Sgs\-Grid\-Model Class Reference}
+\label{classsgs_1_1model_1_1_sgs_grid_model}\index{sgs.\-model.\-Sgs\-Grid\-Model@{sgs.\-model.\-Sgs\-Grid\-Model}}
+
+
+Inheritance diagram for sgs.\-model.\-Sgs\-Grid\-Model\-:
+
+
+Collaboration diagram for sgs.\-model.\-Sgs\-Grid\-Model\-:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf Overlay\-Mode}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Sgs\-Grid\-Model} (int nr\-Of\-Cells\-Width, int nr\-Of\-Cells\-Height, int grid\-Width, int grid\-Height)
+\item 
+int {\bf get\-Nr\-Of\-Cells\-Width} ()
+\item 
+int {\bf get\-Nr\-Of\-Cells\-Height} ()
+\item 
+void {\bf lock\-Buses\-Paths} ()
+\item 
+void {\bf unlock\-Buses\-Paths} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int[$\,$][$\,$][$\,$] {\bf grid\-Data3\-D}
+\item 
+{\bf Smart\-Grid\-Object}[$\,$][$\,$] {\bf grid\-Objects}
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf grid\-Object\-List}
+\item 
+boolean {\bf overlay\-Use} = false
+\item 
+{\bf Overlay\-Mode} {\bf overlay\-Mode} = {\bf Overlay\-Mode.\-A\-U\-T\-O\-M\-A\-T\-I\-C}
+\item 
+{\bf Grid\-Data\-Enum} {\bf current\-Pointer}
+\item 
+Constructor$<$?$>$ {\bf model\-Constructor}
+\item 
+boolean {\bf save\-Sim\-Results\-To\-File} = false
+\item 
+Linked\-List$<$ {\bf Bus} $>$ {\bf buses} = new Linked\-List$<$$>$()
+\item 
+Linked\-List$<$ {\bf Path} $>$ {\bf paths} = new Linked\-List$<$$>$()
+\item 
+Tree\-Set$<$ {\bf Enum\-P\-V} $>$ {\bf resistance\-Attributes} = new Tree\-Set$<${\bf Enum\-P\-V}$>$()
+\item 
+{\bf Variable\-Collection} {\bf bus\-Variable\-Collection} = null
+\item 
+{\bf Variable\-Collection} {\bf path\-Variable\-Collection} = null
+\item 
+{\bf Time\-Thread} {\bf time\-Thread}
+\item 
+{\bf Program\-Parameters\-Saved} {\bf program\-Parameters} = null
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static J\-Frame {\bf main\-View}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The model for the S\-G\-S which is extending J\-Grid\-Maps Grid\-Model class, i.\-e. all displayed data shown in the Grid. It contains the list with all the Grid\-Objects. It contains a list for the Collections, witch are Buses and Paths. It contains the settings for Color\-Overlays.
+
+Most methods for for editing the Grid\-Model are provided by the Grid\-Controller.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 30 of file Sgs\-Grid\-Model.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!Sgs\-Grid\-Model@{Sgs\-Grid\-Model}}
+\index{Sgs\-Grid\-Model@{Sgs\-Grid\-Model}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{Sgs\-Grid\-Model}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-Sgs\-Grid\-Model.\-Sgs\-Grid\-Model (
+\begin{DoxyParamCaption}
+\item[{int}]{nr\-Of\-Cells\-Width, }
+\item[{int}]{nr\-Of\-Cells\-Height, }
+\item[{int}]{grid\-Width, }
+\item[{int}]{grid\-Height}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_sgs_grid_model_a2bc3e8792827e071f9ccd8218f066a13}
+Constructor\-: full 
+\begin{DoxyParams}{Parameters}
+{\em nr\-Of\-Cells\-Width} & -\/ amount of cells, width \\
+\hline
+{\em nr\-Of\-Cells\-Height} & -\/ amount of cells , height \\
+\hline
+{\em grid\-Width} & -\/ initial width in pixels \\
+\hline
+{\em grid\-Height} & -\/ initial height in pixels \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 111 of file Sgs\-Grid\-Model.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!get\-Nr\-Of\-Cells\-Height@{get\-Nr\-Of\-Cells\-Height}}
+\index{get\-Nr\-Of\-Cells\-Height@{get\-Nr\-Of\-Cells\-Height}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{get\-Nr\-Of\-Cells\-Height}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-Sgs\-Grid\-Model.\-get\-Nr\-Of\-Cells\-Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_sgs_grid_model_a613cb09777314eba824339598dd709d7}
+\begin{DoxyReturn}{Returns}
+amount of cells, height 
+\end{DoxyReturn}
+
+
+Definition at line 143 of file Sgs\-Grid\-Model.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!get\-Nr\-Of\-Cells\-Width@{get\-Nr\-Of\-Cells\-Width}}
+\index{get\-Nr\-Of\-Cells\-Width@{get\-Nr\-Of\-Cells\-Width}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{get\-Nr\-Of\-Cells\-Width}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-Sgs\-Grid\-Model.\-get\-Nr\-Of\-Cells\-Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_sgs_grid_model_a4d559d431e6bffbf998e8a23d26f466f}
+\begin{DoxyReturn}{Returns}
+amount of cells, width 
+\end{DoxyReturn}
+
+
+Definition at line 139 of file Sgs\-Grid\-Model.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!lock\-Buses\-Paths@{lock\-Buses\-Paths}}
+\index{lock\-Buses\-Paths@{lock\-Buses\-Paths}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{lock\-Buses\-Paths}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-Sgs\-Grid\-Model.\-lock\-Buses\-Paths (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_sgs_grid_model_ae9f8163c9bc5a86ea689eb22080e0665}
+Locks buses and paths lists for read and write.
+\begin{DoxyCode}
+lockedBusesPaths = \textcolor{keyword}{true}; 
+\end{DoxyCode}
+ 
+
+Definition at line 150 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!unlock\-Buses\-Paths@{unlock\-Buses\-Paths}}
+\index{unlock\-Buses\-Paths@{unlock\-Buses\-Paths}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{unlock\-Buses\-Paths}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-Sgs\-Grid\-Model.\-unlock\-Buses\-Paths (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_sgs_grid_model_a28d568783f7cbe3213d67d2727eeeaaa}
+Unlocks buses and paths lists after read and write.
+\begin{DoxyCode}
+lockedBusesPaths = \textcolor{keyword}{false}; 
+\end{DoxyCode}
+ 
+
+Definition at line 165 of file Sgs\-Grid\-Model.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!buses@{buses}}
+\index{buses@{buses}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{buses}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Bus}$>$ sgs.\-model.\-Sgs\-Grid\-Model.\-buses = new Linked\-List$<$$>$()}\label{classsgs_1_1model_1_1_sgs_grid_model_a69cc42a53259eb1a9ec9120be308466e}
+File for simulation results, when
+\begin{DoxyCode}
+saveSimResultsToFile = \textcolor{keyword}{true}; 
+\end{DoxyCode}
+ manual by the user in the simulation =$>$ \doxyref{Program\-Parameters\-Saved}{p.}{classsgs_1_1model_1_1_program_parameters_saved} A bus is a list of Grid\-Objects which are directly connected, meaning they have the same voltage and no resistance in between. 
+
+Definition at line 80 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!bus\-Variable\-Collection@{bus\-Variable\-Collection}}
+\index{bus\-Variable\-Collection@{bus\-Variable\-Collection}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{bus\-Variable\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collection} sgs.\-model.\-Sgs\-Grid\-Model.\-bus\-Variable\-Collection = null}\label{classsgs_1_1model_1_1_sgs_grid_model_a3114ef7b1f78c5898b1024becf808b39}
+Variable\-Collection for bus 
+
+Definition at line 95 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!current\-Pointer@{current\-Pointer}}
+\index{current\-Pointer@{current\-Pointer}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{current\-Pointer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Grid\-Data\-Enum} sgs.\-model.\-Sgs\-Grid\-Model.\-current\-Pointer}\label{classsgs_1_1model_1_1_sgs_grid_model_aeb558e1c8c6d0fb32801ab396d9fbba2}
+What tool is currently activated. When clicked creates a house etc. according to the buttons which were pressed before 
+
+Definition at line 62 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!grid\-Data3\-D@{grid\-Data3\-D}}
+\index{grid\-Data3\-D@{grid\-Data3\-D}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{grid\-Data3\-D}]{\setlength{\rightskip}{0pt plus 5cm}int [$\,$][$\,$][$\,$] sgs.\-model.\-Sgs\-Grid\-Model.\-grid\-Data3\-D}\label{classsgs_1_1model_1_1_sgs_grid_model_af2326b1fe72eb68995c4bfd70e5e6817}
+slider dialog (change simulation speed etc.) for reference Drawing data for J\-Grid\-Map, int-\/values refer to images in the J\-G\-M 
+
+Definition at line 46 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!grid\-Object\-List@{grid\-Object\-List}}
+\index{grid\-Object\-List@{grid\-Object\-List}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{grid\-Object\-List}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-Sgs\-Grid\-Model.\-grid\-Object\-List}\label{classsgs_1_1model_1_1_sgs_grid_model_a49f2ed942c2558a214b6f197e0899aa5}
+List of all Grid\-Objects (redundant to \doxyref{grid\-Objects}{p.}{namespacesgs_1_1model_1_1grid_objects}) 
+
+Definition at line 50 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!grid\-Objects@{grid\-Objects}}
+\index{grid\-Objects@{grid\-Objects}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{grid\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Smart\-Grid\-Object} [$\,$][$\,$] sgs.\-model.\-Sgs\-Grid\-Model.\-grid\-Objects}\label{classsgs_1_1model_1_1_sgs_grid_model_a0ff5ac6be7e8487b771b132c8925001e}
+Actual objects in Grid at corresponding position 
+
+Definition at line 48 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!main\-View@{main\-View}}
+\index{main\-View@{main\-View}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{main\-View}]{\setlength{\rightskip}{0pt plus 5cm}J\-Frame sgs.\-model.\-Sgs\-Grid\-Model.\-main\-View\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1_sgs_grid_model_ada3b79b029e40e88b05513dbcd17f573}
+Frame for adjusting window positions 
+
+Definition at line 41 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!model\-Constructor@{model\-Constructor}}
+\index{model\-Constructor@{model\-Constructor}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{model\-Constructor}]{\setlength{\rightskip}{0pt plus 5cm}Constructor$<$?$>$ sgs.\-model.\-Sgs\-Grid\-Model.\-model\-Constructor}\label{classsgs_1_1model_1_1_sgs_grid_model_a32db0d036821a95c7352735c55ba54be}
+
+
+Definition at line 66 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!overlay\-Mode@{overlay\-Mode}}
+\index{overlay\-Mode@{overlay\-Mode}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{overlay\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Overlay\-Mode} sgs.\-model.\-Sgs\-Grid\-Model.\-overlay\-Mode = {\bf Overlay\-Mode.\-A\-U\-T\-O\-M\-A\-T\-I\-C}}\label{classsgs_1_1model_1_1_sgs_grid_model_ae497140136b731d54ff958e1cf8c0d5c}
+Overlay can be (a) automatically defined by Grid\-Controller or (b) manually by the Algorithm. 
+
+Definition at line 55 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!overlay\-Use@{overlay\-Use}}
+\index{overlay\-Use@{overlay\-Use}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{overlay\-Use}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-Sgs\-Grid\-Model.\-overlay\-Use = false}\label{classsgs_1_1model_1_1_sgs_grid_model_aec6e8131b57f5cb70fe422ec8d79aad6}
+true if overlays should be drawn 
+
+Definition at line 53 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!paths@{paths}}
+\index{paths@{paths}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{paths}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Path}$>$ sgs.\-model.\-Sgs\-Grid\-Model.\-paths = new Linked\-List$<$$>$()}\label{classsgs_1_1model_1_1_sgs_grid_model_ae898274312dcb3a6c6c6c4677a0a9116}
+Paths are connections between buses. They have for example an electrical resistance. 
+
+Definition at line 85 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!path\-Variable\-Collection@{path\-Variable\-Collection}}
+\index{path\-Variable\-Collection@{path\-Variable\-Collection}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{path\-Variable\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collection} sgs.\-model.\-Sgs\-Grid\-Model.\-path\-Variable\-Collection = null}\label{classsgs_1_1model_1_1_sgs_grid_model_ac75ef201e047ac3d05dfae2f368731e1}
+Variable\-Collection for path 
+
+Definition at line 97 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!program\-Parameters@{program\-Parameters}}
+\index{program\-Parameters@{program\-Parameters}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{program\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Program\-Parameters\-Saved} sgs.\-model.\-Sgs\-Grid\-Model.\-program\-Parameters = null}\label{classsgs_1_1model_1_1_sgs_grid_model_ad870f378fae7469b29d8786e7308b4a2}
+saved parameters for adjusting the program to the specific user 
+
+Definition at line 101 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!resistance\-Attributes@{resistance\-Attributes}}
+\index{resistance\-Attributes@{resistance\-Attributes}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{resistance\-Attributes}]{\setlength{\rightskip}{0pt plus 5cm}Tree\-Set$<${\bf Enum\-P\-V}$>$ sgs.\-model.\-Sgs\-Grid\-Model.\-resistance\-Attributes = new Tree\-Set$<${\bf Enum\-P\-V}$>$()}\label{classsgs_1_1model_1_1_sgs_grid_model_a44245cedb90ee93a539e1b095a042776}
+Defines where to split Buses (visible, $>$0) for Network\-Analyzer 
+
+Definition at line 93 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!save\-Sim\-Results\-To\-File@{save\-Sim\-Results\-To\-File}}
+\index{save\-Sim\-Results\-To\-File@{save\-Sim\-Results\-To\-File}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{save\-Sim\-Results\-To\-File}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-Sgs\-Grid\-Model.\-save\-Sim\-Results\-To\-File = false}\label{classsgs_1_1model_1_1_sgs_grid_model_ac613def50451f40a6ff3fa1835907a7a}
+true if results should be saved 
+
+Definition at line 68 of file Sgs\-Grid\-Model.\-java.
+
+\index{sgs\-::model\-::\-Sgs\-Grid\-Model@{sgs\-::model\-::\-Sgs\-Grid\-Model}!time\-Thread@{time\-Thread}}
+\index{time\-Thread@{time\-Thread}!sgs::model::SgsGridModel@{sgs\-::model\-::\-Sgs\-Grid\-Model}}
+\subsubsection[{time\-Thread}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Time\-Thread} sgs.\-model.\-Sgs\-Grid\-Model.\-time\-Thread}\label{classsgs_1_1model_1_1_sgs_grid_model_a7b877b0b80dc030f317b9bdd90bb52ad}
+currently used instance of Time\-Thread, set by Time\-Thread, may be null. 
+
+Definition at line 99 of file Sgs\-Grid\-Model.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/{\bf Sgs\-Grid\-Model.\-java}\end{DoxyCompactItemize}

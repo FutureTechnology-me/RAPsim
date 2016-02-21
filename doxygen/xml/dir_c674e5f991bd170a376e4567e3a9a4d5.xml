@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_c674e5f991bd170a376e4567e3a9a4d5" kind="dir">
+    <compoundname>RAPSim/src</compoundname>
+    <innerdir refid="dir_01a8656010585e8207038536504a8624">RAPSim/src/sgs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/"/>
+  </compounddef>
+</doxygen>

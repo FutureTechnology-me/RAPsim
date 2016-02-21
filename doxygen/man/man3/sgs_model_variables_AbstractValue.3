@@ -1,0 +1,179 @@
+.TH "sgs.model.variables.AbstractValue" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.AbstractValue \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract void \fBsetValue\fP (String value)"
+.br
+.ti -1c
+.RI "abstract void \fBsetValue\fP (double d)"
+.br
+.ti -1c
+.RI "abstract void \fBsetValue\fP (Complex complex)"
+.br
+.ti -1c
+.RI "abstract void \fBsetValue\fP (\fBNumericValue\fP numericValue)"
+.br
+.ti -1c
+.RI "abstract String \fBgetValue\fP ()"
+.br
+.ti -1c
+.RI "abstract double \fBgetValueDouble\fP ()"
+.br
+.ti -1c
+.RI "abstract Complex \fBgetValueComplex\fP ()"
+.br
+.ti -1c
+.RI "abstract \fBNumericValue\fP \fBgetValueNumeric\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "abstract \fBAbstractValue\fP \fBcopy\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Abstract class for values in OneAttribute\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file AbstractValue\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract \fBAbstractValue\fP sgs\&.model\&.variables\&.AbstractValue\&.copy ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a Copy up to primitive variables from this Value\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract String sgs\&.model\&.variables\&.AbstractValue\&.getValue ()\fC [pure virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a object the specific value class\&. Should be of correct type\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a string representation of the value 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract Complex sgs\&.model\&.variables\&.AbstractValue\&.getValueComplex ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a complex representation of the value, zero for non numeric values 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract double sgs\&.model\&.variables\&.AbstractValue\&.getValueDouble ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a double representation of the value, zero for non numeric values\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract \fBNumericValue\fP sgs\&.model\&.variables\&.AbstractValue\&.getValueNumeric ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a value object, handle with care 
+.PP
+a \fBNumericValue\fP object or null 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract void sgs\&.model\&.variables\&.AbstractValue\&.setValue (Stringvalue)\fC [pure virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a String representation of the specific value class\&. Should be parsable\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract void sgs\&.model\&.variables\&.AbstractValue\&.setValue (doubled)\fC [pure virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fId\fP - a double value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract void sgs\&.model\&.variables\&.AbstractValue\&.setValue (Complexcomplex)\fC [pure virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcomplex\fP - a Complex value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "abstract void sgs\&.model\&.variables\&.AbstractValue\&.setValue (\fBNumericValue\fPnumericValue)\fC [pure virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumericValue\fP - {real,imaginary}\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.NumericValue\fP, and \fBsgs\&.model\&.variables\&.StringValue\fP\&.
+.SS "String sgs\&.model\&.variables\&.AbstractValue\&.toString ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+A string representation of the value, similar to 'String getValue()' 
+.RE
+.PP
+
+.PP
+Definition at line 36 of file AbstractValue\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

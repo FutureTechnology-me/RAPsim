@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1model_1_1other_1_1_window_owner" kind="interface" prot="public">
+    <compoundname>sgs::model::other::WindowOwner</compoundname>
+    <derivedcompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" prot="public" virt="non-virtual">sgs.model.gridObjects.SmartGridObject</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacesgs_1_1model_1_1other_1_1_window_owner_1a2c78f74c29328a28a6743e65539dc7b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.other.WindowOwner.addWindow</definition>
+        <argsstring>(Window w)</argsstring>
+        <name>addWindow</name>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54a026a3347df89d8dd4e47a625db88c">addWindow</reimplementedby>
+        <param>
+          <type>Window</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a window w which is owned exclusively by this object. The window should be closed if this object stops to exist or will not be used any more.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>like in <ref refid="" kindref="compound">LinkedList#add</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a779f1b6f8d199252666935a14857d0d1" kindref="member">removeWindow()</ref> </para><simplesectsep/><para><ref refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a8a2da339635a3fc74562f5b99f47be34" kindref="member">closeAllWindows()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/WindowOwner.java" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacesgs_1_1model_1_1other_1_1_window_owner_1a779f1b6f8d199252666935a14857d0d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.other.WindowOwner.removeWindow</definition>
+        <argsstring>(Window w)</argsstring>
+        <name>removeWindow</name>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1">removeWindow</reimplementedby>
+        <param>
+          <type>Window</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a window w which was owned exclusively by this object. Should also call w.dispose().</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>like in <ref refid="" kindref="compound">LinkedList#remove</ref> </para></simplesect>
+<simplesect kind="see"><para>#removeAllWindows() </para><simplesectsep/><para>#add(Window) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/WindowOwner.java" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacesgs_1_1model_1_1other_1_1_window_owner_1a8a2da339635a3fc74562f5b99f47be34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.other.WindowOwner.closeAllWindows</definition>
+        <argsstring>()</argsstring>
+        <name>closeAllWindows</name>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897">closeAllWindows</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Will close all windows owned exclusively by this object. Close is executed by calling  Window.dispose()}</para><para><simplesect kind="return"><para>number of windows. </para></simplesect>
+<simplesect kind="see"><para>#add(Window) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/WindowOwner.java" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Objects may be directly related to windows, which means the window should stop to exist of this object stops to exist.</para><para>This is a simple concept which could be advanced with adding a call to a special window interface, which would store the lated data and handle other closing relevant actions. (Not necessary in current context, therefore the simpler solution)</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4476">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4475">
+        <label>sgs.model.gridObjects.PowerLine</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_line"/>
+        <childnode refid="4473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4484">
+        <label>sgs.model.gridObjects.SolarPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant"/>
+        <childnode refid="4481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4485">
+        <label>sgs.model.gridObjects.WindTurbinePowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant"/>
+        <childnode refid="4481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4471">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4480">
+        <label>sgs.model.gridObjects.GridPower</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power"/>
+        <childnode refid="4476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4479">
+        <label>sgs.model.gridObjects.House</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_house"/>
+        <childnode refid="4477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4473">
+        <label>sgs.model.gridObjects.PowerTransport</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport"/>
+        <childnode refid="4472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4483">
+        <label>sgs.model.gridObjects.FossilFuelPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant"/>
+        <childnode refid="4481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4481">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4478">
+        <label>sgs.model.gridObjects.CustomConsumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer"/>
+        <childnode refid="4477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4472">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4471" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4477">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="4476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4474">
+        <label>sgs.model.gridObjects.Connector</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_connector"/>
+        <childnode refid="4473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4482">
+        <label>sgs.model.gridObjects.CustomPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant"/>
+        <childnode refid="4481" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/WindowOwner.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/WindowOwner.java" bodystart="16" bodyend="56"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a2c78f74c29328a28a6743e65539dc7b0" prot="public" virt="non-virtual"><scope>sgs::model::other::WindowOwner</scope><name>addWindow</name></member>
+      <member refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a8a2da339635a3fc74562f5b99f47be34" prot="public" virt="non-virtual"><scope>sgs::model::other::WindowOwner</scope><name>closeAllWindows</name></member>
+      <member refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a779f1b6f8d199252666935a14857d0d1" prot="public" virt="non-virtual"><scope>sgs::model::other::WindowOwner</scope><name>removeWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

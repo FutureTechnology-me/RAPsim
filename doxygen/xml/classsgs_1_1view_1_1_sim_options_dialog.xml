@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_sim_options_dialog" kind="class" prot="public">
+    <compoundname>sgs::view::SimOptionsDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1af2539bced611c0c2db69a5a623ee5c3d" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.SimOptionsDialog.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a99ce3c9c5121d28e97b1b7ea31d8d643" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String sgs.view.SimOptionsDialog.startTimeString</definition>
+        <argsstring></argsstring>
+        <name>startTimeString</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="38" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a2c1095407d1dba63dc70cba153322ea0" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String sgs.view.SimOptionsDialog.endTimeString</definition>
+        <argsstring></argsstring>
+        <name>endTimeString</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a2b925d52f4f64d0d5af40abe0316464f" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.view.SimOptionsDialog.confirmed</definition>
+        <argsstring></argsstring>
+        <name>confirmed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a66ebbc542944072f627da344182a8d84" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.view.SimOptionsDialog.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1af6418a697c5556a5d333773723512760" prot="private" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.view.SimOptionsDialog.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <initializer>= new GregorianCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a0ddb42ed4e1015be8c141e654a5cbe74" prot="private" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.view.SimOptionsDialog.endTime</definition>
+        <argsstring></argsstring>
+        <name>endTime</name>
+        <initializer>= new GregorianCalendar()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a39a81aac1ebce655c540e9fc3d06c80e" prot="private" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.view.SimOptionsDialog.tempCalendar</definition>
+        <argsstring></argsstring>
+        <name>tempCalendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a243efdcad2dde0e50fad6ccc395e6ed5" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+        <definition>final TimeThread sgs.view.SimOptionsDialog.timeThread</definition>
+        <argsstring></argsstring>
+        <name>timeThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a4f8b5e420ff865bd0d6b74a5df514474" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.view.SimOptionsDialog.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a56f2fe04ac25067ea634c6b498d331ad" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.SimOptionsDialog.endDateLabel</definition>
+        <argsstring></argsstring>
+        <name>endDateLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a2bdf4a252becca0b75ead323d23c88de" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.SimOptionsDialog.startDateLabel</definition>
+        <argsstring></argsstring>
+        <name>startDateLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1ae7fc05bd4733f6f8989f89ed1456220c" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.SimOptionsDialog.resolutionLabel</definition>
+        <argsstring></argsstring>
+        <name>resolutionLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a6cba5e26d09a9481650b115a19070f80" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField sgs.view.SimOptionsDialog.endDateTextField</definition>
+        <argsstring></argsstring>
+        <name>endDateTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1ad3fc8c09c81ecbaf6d3b53f9ea9f2fbb" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField sgs.view.SimOptionsDialog.resolutionTextField</definition>
+        <argsstring></argsstring>
+        <name>resolutionTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="55" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a09e8e0aa2b5e9897ad41bc4165f69585" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField sgs.view.SimOptionsDialog.saveToTextField</definition>
+        <argsstring></argsstring>
+        <name>saveToTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1aef6f78abf30147a22abca7e5c3c74cc5" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField sgs.view.SimOptionsDialog.startDateTextfield</definition>
+        <argsstring></argsstring>
+        <name>startDateTextfield</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1ad487ad805cb57b12fba4a49763190c85" prot="private" static="no" mutable="no">
+        <type>JCheckBox</type>
+        <definition>JCheckBox sgs.view.SimOptionsDialog.gatherResultsCheckBox</definition>
+        <argsstring></argsstring>
+        <name>gatherResultsCheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a7754ffbfc6a21fac2fbd630bf89c25bf" prot="private" static="no" mutable="no">
+        <type>JCheckBox</type>
+        <definition>JCheckBox sgs.view.SimOptionsDialog.realTimeCheckBox</definition>
+        <argsstring></argsstring>
+        <name>realTimeCheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="60" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a341c0a4b4eaf9d26b096fe2e76ba2193" prot="private" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField sgs.view.SimOptionsDialog.fileTextField</definition>
+        <argsstring></argsstring>
+        <name>fileTextField</name>
+        <initializer>= new JTextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1a71d0cb5f72e8f960630ce17b9aa15cf7" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.SimOptionsDialog.timePanel</definition>
+        <argsstring></argsstring>
+        <name>timePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="67" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1aae1f856601a0356a20bf699ab2e9e89a" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.SimOptionsDialog.resultsPanel</definition>
+        <argsstring></argsstring>
+        <name>resultsPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="68" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1aa276d8b74552ac810dd1bf11861a5367" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kindref="compound">CSVController</ref></type>
+        <definition>final CSVController sgs.view.SimOptionsDialog.csvController</definition>
+        <argsstring></argsstring>
+        <name>csvController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="71" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_sim_options_dialog_1ae1323fc79ad08ed6b849c5829d823a28" prot="public" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton sgs.view.SimOptionsDialog.startSimButton</definition>
+        <argsstring></argsstring>
+        <name>startSimButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="66" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_sim_options_dialog_1a4a1cef09eda27d78e54502bda3d2f9d6" compoundref="_sim_options_dialog_8java" startline="78" endline="94">sgs.view.SimOptionsDialog.SimOptionsDialog</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_sim_options_dialog_1a4a1cef09eda27d78e54502bda3d2f9d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.SimOptionsDialog.SimOptionsDialog</definition>
+        <argsstring>(TimeThread timeThread, SgsGridModel gridModel)</argsstring>
+        <name>SimOptionsDialog</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+          <declname>timeThread</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeThread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>csvController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="78" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="78" bodyend="94"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ada3b79b029e40e88b05513dbcd17f573" compoundref="_sgs_grid_model_8java" startline="41">sgs.model.SgsGridModel.mainView</references>
+        <references refid="classsgs_1_1view_1_1_sim_options_dialog_1ae1323fc79ad08ed6b849c5829d823a28" compoundref="_sim_options_dialog_8java" startline="66">sgs.view.SimOptionsDialog.startSimButton</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_sim_options_dialog_1accc7b28104f8b9198633980200eec56b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.SimOptionsDialog.initComponents</definition>
+        <argsstring>()</argsstring>
+        <name>initComponents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>options panel, the view of the Simulation Options </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="101" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Gets Simulation options. Writes <ref refid="classsgs_1_1model_1_1_sgs_grid_model_1ac613def50451f40a6ff3fa1835907a7a" kindref="member">SgsGridModel.saveSimResultsToFile</ref></para><para><simplesect kind="author"><para>Tobi, Kristofer Schweiger, Huber Sabrina </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4032">
+        <label>sgs.view.SimOptionsDialog</label>
+        <link refid="classsgs_1_1view_1_1_sim_options_dialog"/>
+        <childnode refid="4033" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4033">
+        <label>javax::swing::JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4034">
+        <label>sgs.view.SimOptionsDialog</label>
+        <link refid="classsgs_1_1view_1_1_sim_options_dialog"/>
+        <childnode refid="4035" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4036" relation="usage">
+          <edgelabel>startSimButton</edgelabel>
+        </childnode>
+      </node>
+      <node id="4035">
+        <label>javax::swing::JDialog</label>
+      </node>
+      <node id="4036">
+        <label>JButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SimOptionsDialog.java" bodystart="33" bodyend="570"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a2b925d52f4f64d0d5af40abe0316464f" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>confirmed</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1aa276d8b74552ac810dd1bf11861a5367" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>csvController</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a56f2fe04ac25067ea634c6b498d331ad" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>endDateLabel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a6cba5e26d09a9481650b115a19070f80" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>endDateTextField</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a0ddb42ed4e1015be8c141e654a5cbe74" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>endTime</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a2c1095407d1dba63dc70cba153322ea0" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>endTimeString</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a341c0a4b4eaf9d26b096fe2e76ba2193" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>fileTextField</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1ad487ad805cb57b12fba4a49763190c85" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>gatherResultsCheckBox</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a4f8b5e420ff865bd0d6b74a5df514474" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1accc7b28104f8b9198633980200eec56b" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>initComponents</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a7754ffbfc6a21fac2fbd630bf89c25bf" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>realTimeCheckBox</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a66ebbc542944072f627da344182a8d84" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>resolution</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1ae7fc05bd4733f6f8989f89ed1456220c" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>resolutionLabel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1ad3fc8c09c81ecbaf6d3b53f9ea9f2fbb" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>resolutionTextField</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1aae1f856601a0356a20bf699ab2e9e89a" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>resultsPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a09e8e0aa2b5e9897ad41bc4165f69585" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>saveToTextField</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1af2539bced611c0c2db69a5a623ee5c3d" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a4a1cef09eda27d78e54502bda3d2f9d6" prot="public" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>SimOptionsDialog</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a2bdf4a252becca0b75ead323d23c88de" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>startDateLabel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1aef6f78abf30147a22abca7e5c3c74cc5" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>startDateTextfield</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1ae1323fc79ad08ed6b849c5829d823a28" prot="public" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>startSimButton</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1af6418a697c5556a5d333773723512760" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>startTime</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a99ce3c9c5121d28e97b1b7ea31d8d643" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>startTimeString</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a39a81aac1ebce655c540e9fc3d06c80e" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>tempCalendar</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a71d0cb5f72e8f960630ce17b9aa15cf7" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>timePanel</name></member>
+      <member refid="classsgs_1_1view_1_1_sim_options_dialog_1a243efdcad2dde0e50fad6ccc395e6ed5" prot="private" virt="non-virtual"><scope>sgs::view::SimOptionsDialog</scope><name>timeThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

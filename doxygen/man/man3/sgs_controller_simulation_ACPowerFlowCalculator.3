@@ -1,0 +1,223 @@
+.TH "sgs.controller.simulation.ACPowerFlowCalculator" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.ACPowerFlowCalculator \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBbusTypes\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBACPowerFlowCalculator\fP (\fBGridController\fP gridController)"
+.br
+.ti -1c
+.RI "void \fBinitializeAlgorithm\fP ()"
+.br
+.ti -1c
+.RI "void \fBgridChanged\fP ()"
+.br
+.ti -1c
+.RI "void \fBcalculationStep\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetDescription\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStarted\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStopped\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisSwingBus\fP (\fBBus\fP b)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBNumericValue\fP[] \fBcreateDefaultVector\fP (int x)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBswingBusNumber\fP"
+.br
+.ti -1c
+.RI "String \fBdata\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBTEST_OVERLAYS\fP = false"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetPropertiesForVariables\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPropertiesForBusAndPath\fP ()"
+.br
+.ti -1c
+.RI "void \fBunloadAlgorithm\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Distributes and calculates the whole power in the system\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Lukas Felician Krasel, Manfred Pöchacker, Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file ACPowerFlowCalculator\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.ACPowerFlowCalculator (\fBGridController\fPgridController)"
+
+.PP
+Definition at line 54 of file ACPowerFlowCalculator\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.calculationStep ()\fC [virtual]\fP"
+execution of a calculation step (= feeding the solver, write results back) 
+.PP
+\fBAuthor:\fP
+.RS 4
+hs make string for csv and sent it to model
+.PP
+hs make string for csv and sent it to model
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 133 of file ACPowerFlowCalculator\&.java\&.
+.SS "static \fBNumericValue\fP [] sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.createDefaultVector (intx)\fC [static]\fP"
+This method returns an default vector with the size x
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+matrix 
+.RE
+.PP
+
+.PP
+Definition at line 226 of file ACPowerFlowCalculator\&.java\&.
+.SS "String sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.getDescription ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+description of the specific algorithm used for the 'Info' button 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 244 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.gridChanged ()\fC [virtual]\fP"
+Is called if the Grid is modified\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 123 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.initializeAlgorithm ()"
+
+.PP
+Definition at line 74 of file ACPowerFlowCalculator\&.java\&.
+.SS "boolean sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.isSwingBus (\fBBus\fPb)"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if this bus was defined as the swing bus (only a single swing bus can exist) 
+.RE
+.PP
+
+.PP
+Definition at line 286 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.setPropertiesForBusAndPath ()\fC [protected]\fP, \fC [virtual]\fP"
+Set \fBSgsGridModel\&.resistanceAttributes\fP, busVariableCollection, pathVariableCollection if used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 116 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.setPropertiesForVariables ()\fC [protected]\fP, \fC [virtual]\fP"
+Set the algorithm specific variables with help of the super class methods\&. 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBselectClass(Class)\fP, \fBsetProperties(boolean,boolean,EnumPV[])\fP, \fBinitializeVariables()\fP 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 89 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.simulationStarted ()\fC [virtual]\fP"
+Called by time thread\&. Write interesting contents of the simulation to a file\&. Called directly after the simulation was started\&. Use this to make a LOG file if one is used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 265 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.simulationStopped ()\fC [virtual]\fP"
+Called directly after the simulation was stopped\&. Use this to flush/close a log file if one was used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 278 of file ACPowerFlowCalculator\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.unloadAlgorithm ()\fC [protected]\fP, \fC [virtual]\fP"
+Free external resources used by this algorithm\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 237 of file ACPowerFlowCalculator\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "String sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.data"
+
+.PP
+Definition at line 127 of file ACPowerFlowCalculator\&.java\&.
+.SS "int sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.swingBusNumber"
+Swing bus defined specifically for this algorithm 
+.PP
+Definition at line 48 of file ACPowerFlowCalculator\&.java\&.
+.SS "boolean sgs\&.controller\&.simulation\&.ACPowerFlowCalculator\&.TEST_OVERLAYS = false\fC [static]\fP"
+
+.PP
+Definition at line 37 of file ACPowerFlowCalculator\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

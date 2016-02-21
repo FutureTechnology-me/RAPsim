@@ -1,0 +1,163 @@
+.TH "sgs.model.CSVModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.CSVModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetPermission\fP (boolean value)"
+.br
+.ti -1c
+.RI "\fBCSVModel\fP (\fBSgsGridModel\fP gridModel)"
+.br
+.ti -1c
+.RI "void \fBcreateCSVLine\fP (String currentTime, \fBWeather\fP currentWeather)"
+.br
+.ti -1c
+.RI "void \fBrun\fP (List< String > choosenData, boolean permissionToSave, StringBuilder header)"
+.br
+.ti -1c
+.RI "void \fBsetCSVFile\fP (File file)"
+.br
+.ti -1c
+.RI "String \fBgetFileName\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "File \fBnewCSVFile\fP = new File('')"
+.br
+.ti -1c
+.RI "\fBEnumPV\fP[] \fBenums\fP = EnumPV\&.values()"
+.br
+.ti -1c
+.RI "boolean \fBsetNewFileName\fP = true"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static File \fBcsv\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Huber Sabrina Model to create the csv file from the list 'data' it collects all necessary infos to know from which objects, which parameter it needs, and write them into the csv file 
+.RE
+.PP
+
+.PP
+Definition at line 25 of file CSVModel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.CSVModel\&.CSVModel (\fBSgsGridModel\fPgridModel)"
+constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file CSVModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.model\&.CSVModel\&.createCSVLine (StringcurrentTime, \fBWeather\fPcurrentWeather)"
+write all other data, without a header 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhead\fP Header 
+.br
+\fIdata\fP every data that algorithem gives 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIIOException\fP e 
+.RE
+.PP
+
+.PP
+Definition at line 161 of file CSVModel\&.java\&.
+.SS "String sgs\&.model\&.CSVModel\&.getFileName ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the name of the csvfile 
+.RE
+.PP
+
+.PP
+Definition at line 297 of file CSVModel\&.java\&.
+.SS "void sgs\&.model\&.CSVModel\&.run (List< String >choosenData, booleanpermissionToSave, StringBuilderheader)"
+start csv Model and duty 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIchoosenData\fP - to save the list from GiveDataCollections 
+.br
+\fIheader\fP 
+.RE
+.PP
+
+.PP
+Definition at line 274 of file CSVModel\&.java\&.
+.SS "void sgs\&.model\&.CSVModel\&.setCSVFile (Filefile)"
+receive file from the gui \fBResultsCSVView\&.java\fP 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfile\fP - selected path + filename + \&.csv file format 
+.RE
+.PP
+
+.PP
+Definition at line 287 of file CSVModel\&.java\&.
+.SS "void sgs\&.model\&.CSVModel\&.setPermission (booleanvalue)"
+the user needs to activate the option to save the specified data into a csvfile, with activating a checkbox in the simulationStart window\&. if its checked true, we have the permission to save the specified data\&. we need that, so that the timeThread stop doing anything, bevor its starts\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file CSVModel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "File sgs\&.model\&.CSVModel\&.csv\fC [static]\fP"
+
+.PP
+Definition at line 27 of file CSVModel\&.java\&.
+.SS "\fBEnumPV\fP [] sgs\&.model\&.CSVModel\&.enums = EnumPV\&.values()"
+
+.PP
+Definition at line 29 of file CSVModel\&.java\&.
+.SS "File sgs\&.model\&.CSVModel\&.newCSVFile = new File('')"
+
+.PP
+Definition at line 28 of file CSVModel\&.java\&.
+.SS "boolean sgs\&.model\&.CSVModel\&.setNewFileName = true"
+
+.PP
+Definition at line 34 of file CSVModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

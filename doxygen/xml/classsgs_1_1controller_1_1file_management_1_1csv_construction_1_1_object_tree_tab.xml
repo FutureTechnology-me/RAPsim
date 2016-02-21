@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab" kind="class" prot="public">
+    <compoundname>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a9ff325bbcbe0e75b4eabccea336bcdd1" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" kindref="compound">CheckBoxActionListener</ref></type>
+        <definition>CheckBoxActionListener sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.cbActionListener</definition>
+        <argsstring></argsstring>
+        <name>cbActionListener</name>
+        <initializer>= new <ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" kindref="compound">CheckBoxActionListener</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ac349a86002c511fe5a66bd880872ca85" prot="public" static="no" mutable="no">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.objectTree</definition>
+        <argsstring></argsstring>
+        <name>objectTree</name>
+        <initializer>= new CheckBoxTreeItem&lt;&gt;(&quot;Object&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TreeItem goes back to GiveDataCollection </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1aa1769a07be35b2c8d21ff166cc83c759" compoundref="_object_tree_tab_8java" startline="183" endline="216">sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.getResultsTab</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a29ce34f2d3591294aa4f345dfd8334e4" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ab65a43afd6f84ca0315f55e88bc1d24f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.pkgSize</definition>
+        <argsstring></argsstring>
+        <name>pkgSize</name>
+        <initializer>= <ref refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" kindref="member">ReflectionStuff.getClassesForPackage</ref>(SmartGridObject.class).size()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ab5df4aaa03bb441cc4cc36970d09bf4e" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref>[]</type>
+        <definition>SmartGridObject [] sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.objectArrayList</definition>
+        <argsstring></argsstring>
+        <name>objectArrayList</name>
+        <initializer>= new <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref>[<ref refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" kindref="member">ReflectionStuff.getClassesForPackage</ref>(SmartGridObject.class).size()]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>pkgSize for the maximum size of the array. we can only have so many different sgo&apos;s as we have classes in the package this list contains has a slot for every possible different sgo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a0fe1d0577ea0cb0a4bc20c40664978f1" prot="private" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref>[]</type>
+        <definition>EnumPV [] sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.enums</definition>
+        <argsstring></argsstring>
+        <name>enums</name>
+        <initializer>= EnumPV.values()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a86d217b92f9b980a60ce08b1d7dadc25" prot="private" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.allParameters</definition>
+        <argsstring></argsstring>
+        <name>allParameters</name>
+        <initializer>= new String[enums.length]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a7f0fd3fd5c809bc5dcd16c9e7cedaf8f" prot="private" static="no" mutable="no">
+        <type>TreeView&lt; String &gt;</type>
+        <definition>TreeView&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.objectsTreeView</definition>
+        <argsstring></argsstring>
+        <name>objectsTreeView</name>
+        <initializer>= new TreeView&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1afb78490421a1f614238161e7e0baa8c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.ObjectTreeTab</definition>
+        <argsstring>(SgsGridModel gridModel)</argsstring>
+        <name>ObjectTreeTab</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1aa1769a07be35b2c8d21ff166cc83c759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tab</type>
+        <definition>Tab sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.getResultsTab</definition>
+        <argsstring>()</argsstring>
+        <name>getResultsTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>resultsTab - in this Tab is the ObjectTree </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="183" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="183" bodyend="216"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ac349a86002c511fe5a66bd880872ca85" compoundref="_object_tree_tab_8java" startline="39">sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.objectTree</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a837dca102f7bb6079ad2d29c948a2694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tab</type>
+        <definition>Tab sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.getChoosenTab</definition>
+        <argsstring>()</argsstring>
+        <name>getChoosenTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the Tree with selected CheckBoxTreeItems <simplesect kind="return"><para>resultsTab </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="224" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="224" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a20e3c7ed856919694b5de653db59f899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TreeView&lt; String &gt;</type>
+        <definition>TreeView&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.getCollectionTreeView</definition>
+        <argsstring>()</argsstring>
+        <name>getCollectionTreeView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="251" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="251" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a317af7a11f8159ec243a80ea20fa2429" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.createCheckBoxObjectTree</definition>
+        <argsstring>()</argsstring>
+        <name>createCheckBoxObjectTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For each object on each position we check if we already saved it in the true List. The Collection Tree needs every single Object with position and value. For the Object Tree, first we only need every single object on the grid just once, into that object we can add all siblings. Here we check if the object is already in the trueOnGridListArray, if it isnt we add it to the array. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="62" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a1b5010bf6eb67c2fcb06ebfd4924872b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.makeEventListener</definition>
+        <argsstring>(final CheckBoxTreeItem&lt; String &gt; node)</argsstring>
+        <name>makeEventListener</name>
+        <param>
+          <type>final CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add a listener to every node in the CheckboxTree. this listener check from the clicked node, is it a leaf, is it the last parent? create a sub tree, and add it to the existend TreeItem in choosenObjectTree,</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="263" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="263" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a15a8e669a9ea3739389c7b0fe461f0f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.paramObjectTree</definition>
+        <argsstring>(SmartGridObject sgo, CheckBoxTreeItem&lt; String &gt; allItem)</argsstring>
+        <name>paramObjectTree</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>allItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="283" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="283" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a79a9ce053627ecbdc09e74c8c35778ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.ObjectTreeTab.getParameterForAll</definition>
+        <argsstring>()</argsstring>
+        <name>getParameterForAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>It walks trough the array allParamters, and convert every single item that is not null into a CheckBoxTreeItem and return it after that to the caller <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allParameters2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>allParameters </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="332" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="332" bodyend="350"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Sabrina creates the checkBoxObjectsTree. add it to a tab ,and return it to the csvController. </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3543">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="3542">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3541">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="3542" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="3543" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/ObjectTreeTab.java" bodystart="26" bodyend="353"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a86d217b92f9b980a60ce08b1d7dadc25" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>allParameters</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a9ff325bbcbe0e75b4eabccea336bcdd1" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>cbActionListener</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a317af7a11f8159ec243a80ea20fa2429" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>createCheckBoxObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a0fe1d0577ea0cb0a4bc20c40664978f1" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>enums</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a837dca102f7bb6079ad2d29c948a2694" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>getChoosenTab</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a20e3c7ed856919694b5de653db59f899" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>getCollectionTreeView</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a79a9ce053627ecbdc09e74c8c35778ba" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>getParameterForAll</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1aa1769a07be35b2c8d21ff166cc83c759" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>getResultsTab</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a29ce34f2d3591294aa4f345dfd8334e4" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a1b5010bf6eb67c2fcb06ebfd4924872b" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>makeEventListener</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ab5df4aaa03bb441cc4cc36970d09bf4e" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>objectArrayList</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a7f0fd3fd5c809bc5dcd16c9e7cedaf8f" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>objectsTreeView</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ac349a86002c511fe5a66bd880872ca85" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>objectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1afb78490421a1f614238161e7e0baa8c5" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>ObjectTreeTab</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1a15a8e669a9ea3739389c7b0fe461f0f0" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>paramObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab_1ab65a43afd6f84ca0315f55e88bc1d24f" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</scope><name>pkgSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kind="class" prot="public" abstract="yes">
+    <compoundname>sgs::model::gridObjects::SmartGridObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GridObject</basecompoundref>
+    <basecompoundref refid="interfacesgs_1_1model_1_1other_1_1_window_owner" prot="public" virt="non-virtual">sgs.model.other.WindowOwner</basecompoundref>
+    <basecompoundref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableOwner</basecompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" prot="public" virt="non-virtual">sgs.model.gridObjects.PowerTransport</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer" prot="public" virt="non-virtual">sgs.model.gridObjects.ProSumer</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.gridObjects.SmartGridObject.variableSet</definition>
+        <argsstring></argsstring>
+        <name>variableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" compoundref="_simple_power_distribution_8java" startline="63" endline="164">sgs.controller.simulation.SimplePowerDistribution.calculationStep</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac9a1a7e550abdb48afd69dfe669a3fa5" compoundref="_smart_grid_object_8java" startline="58" endline="61">sgs.model.gridObjects.SmartGridObject.SmartGridObject</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" compoundref="_smart_grid_object_8java" startline="309" endline="317">sgs.model.gridObjects.SmartGridObject.getData</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f" compoundref="_smart_grid_object_8java" startline="362" endline="364">sgs.model.gridObjects.SmartGridObject.getVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a84827fa0f7834650292e9655e67076a2" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list" kindref="compound">OverlayList</ref></type>
+        <definition>OverlayList sgs.model.gridObjects.SmartGridObject.overlays</definition>
+        <argsstring></argsstring>
+        <name>overlays</name>
+        <initializer>= new <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list" kindref="compound">OverlayList</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1e4441a0a8004af70f2626723c597fc8" prot="public" static="no" mutable="no">
+        <type>LinkedList&lt; Window &gt;</type>
+        <definition>LinkedList&lt;Window&gt; sgs.model.gridObjects.SmartGridObject.ownedWindows</definition>
+        <argsstring></argsstring>
+        <name>ownedWindows</name>
+        <initializer>= new LinkedList&lt;Window&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holds windows owned inly by this specific object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1ab4246bcba82c625bef049eed6e0a1200" compoundref="_grid_controller_8java" startline="653" endline="664">sgs.controller.GridController.refreshAllObjectParameterWindows</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" compoundref="_smart_grid_object_8java" startline="338" endline="345">sgs.model.gridObjects.SmartGridObject.closeAllWindows</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8d5703aa46cb9fe362cbfbaa931fd1cc" prot="protected" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" kindref="compound">GridDataNode</ref></type>
+        <definition>GridDataNode sgs.model.gridObjects.SmartGridObject.selectedNode</definition>
+        <argsstring></argsstring>
+        <name>selectedNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" compoundref="_smart_grid_object_8java" startline="262" endline="280">sgs.model.gridObjects.SmartGridObject.setProperties</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" prot="protected" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref></type>
+        <definition>AbstractModel sgs.model.gridObjects.SmartGridObject.model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a2b7837fa42f6f9499d548e9ea97195d4" compoundref="_consumer_8java" startline="23" endline="25">sgs.model.gridObjects.Consumer.setModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1af6c211687829562d813d043d15821be7" compoundref="_power_plant_8java" startline="22" endline="24">sgs.model.gridObjects.PowerPlant.getModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1ae2c7c5a6b167926a6099f9026b0c6e26" compoundref="_power_plant_8java" startline="25" endline="27">sgs.model.gridObjects.PowerPlant.setModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5f3a15cf34b127772a3734c7be83c6d8" compoundref="_smart_grid_object_8java" startline="100" endline="102">sgs.model.gridObjects.SmartGridObject.getModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a92c1bf6efcc57ae3acddc503dc60ae41" compoundref="_smart_grid_object_8java" startline="104" endline="106">sgs.model.gridObjects.SmartGridObject.setModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab1fdc83f9086dda3d3be3984a1e563f3" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.gridObjects.SmartGridObject.objectName</definition>
+        <argsstring></argsstring>
+        <name>objectName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="38" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridObjects.SmartGridObject.draggable</definition>
+        <argsstring></argsstring>
+        <name>draggable</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if this object can be dragged in the grid </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a3dad540a8c17c2bbd724f84a905dfeee" compoundref="_smart_grid_object_8java" startline="350" endline="352">sgs.model.gridObjects.SmartGridObject.isDraggable</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a86bc79e907ee061f83b09c67ba481c8d" compoundref="_smart_grid_object_8java" startline="354" endline="356">sgs.model.gridObjects.SmartGridObject.setDraggable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac7b9ef74a64a6e2a182d49b6b019bc17" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.gridObjects.SmartGridObject.busNumber</definition>
+        <argsstring></argsstring>
+        <name>busNumber</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Simulation relevant parameter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4652fb1a16e502b31aff75686f3b3e75" prot="public" static="yes" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>SgsGridModel sgs.model.gridObjects.SmartGridObject.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Model is static, so it doesn&apos;t need to be set for every object extra </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac9a1a7e550abdb48afd69dfe669a3fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridObjects.SmartGridObject.SmartGridObject</definition>
+        <argsstring>()</argsstring>
+        <name>SmartGridObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New Constructor for variable set. <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> adds all default values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="58" bodyend="61"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" compoundref="_smart_grid_object_8java" startline="35">sgs.model.gridObjects.SmartGridObject.variableSet</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7a1416e45c36c61b1cdcc805d7716704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridObjects.SmartGridObject.getBusNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getBusNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the busNumber </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="66" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab6e73c06a9c7332f289bbd885d5c41ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setBusNumber</definition>
+        <argsstring>(int busNumber)</argsstring>
+        <name>setBusNumber</name>
+        <param>
+          <type>int</type>
+          <declname>busNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>busNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the clusterNumber to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="73" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae8bdc2184254269c1a259f136af9b6a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.model.gridObjects.SmartGridObject.getBus</definition>
+        <argsstring>()</argsstring>
+        <name>getBus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the Bus corresponding to the busNumber. May result in an Error if data is not up to date. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="80" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5f3a15cf34b127772a3734c7be83c6d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref></type>
+        <definition>AbstractModel sgs.model.gridObjects.SmartGridObject.getModel</definition>
+        <argsstring>()</argsstring>
+        <name>getModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the current model </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="100" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="100" bodyend="102"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" compoundref="_smart_grid_object_8java" startline="37">sgs.model.gridObjects.SmartGridObject.model</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a92c1bf6efcc57ae3acddc503dc60ae41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setModel</definition>
+        <argsstring>(AbstractModel model)</argsstring>
+        <name>setModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref></type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="104" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="104" bodyend="106"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" compoundref="_smart_grid_object_8java" startline="37">sgs.model.gridObjects.SmartGridObject.model</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad8ca87adf1436bc10304603da700de17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getCurrentPowerConsumption</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPowerConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>current power consumption of this object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="110" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="110" bodyend="113"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setCurrentPowerConsumption</definition>
+        <argsstring>(NumericValue numeric)</argsstring>
+        <name>setCurrentPowerConsumption</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>numeric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numeric</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new charge value for this element </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="118" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="118" bodyend="121"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0c03efa78e2066bbf5f61702c49d6193" compoundref="_smart_grid_object_8java" startline="123" endline="125">sgs.model.gridObjects.SmartGridObject.setCurrentPowerConsumption</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0c03efa78e2066bbf5f61702c49d6193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setCurrentPowerConsumption</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setCurrentPowerConsumption</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="123" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="123" bodyend="125"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" compoundref="_smart_grid_object_8java" startline="118" endline="121">sgs.model.gridObjects.SmartGridObject.setCurrentPowerConsumption</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.resetCurrentPowerConsumption</definition>
+        <argsstring>()</argsstring>
+        <name>resetCurrentPowerConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets current power consumption </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="130" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="130" bodyend="134"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a38b86c8e0825c7fb0d31562bfcc502a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getPowerProduction</definition>
+        <argsstring>()</argsstring>
+        <name>getPowerProduction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>power production of this object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="139" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="139" bodyend="142"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1d551cd4ebc8949455051b876a408ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setPowerProduction</definition>
+        <argsstring>(double powerProduction)</argsstring>
+        <name>setPowerProduction</name>
+        <param>
+          <type>double</type>
+          <declname>powerProduction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Producer method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>powerProduction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="148" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="148" bodyend="150"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a880025d424bfe13f38d8abd4a8533efb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setPowerProduction</definition>
+        <argsstring>(NumericValue powerProduction)</argsstring>
+        <name>setPowerProduction</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>powerProduction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Producer method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>powerProduction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="156" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="156" bodyend="158"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a96606b65df224d13090562e68e60f659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setPeakPower</definition>
+        <argsstring>(NumericValue ratedPower)</argsstring>
+        <name>setPeakPower</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>ratedPower</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Producer method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ratedPower</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="164" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="164" bodyend="166"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0143b19bf953fb4f1d49c85df2e2fd7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setPeakPower</definition>
+        <argsstring>(double ratedPower)</argsstring>
+        <name>setPeakPower</name>
+        <param>
+          <type>double</type>
+          <declname>ratedPower</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Producer method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>powerProduction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="171" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="171" bodyend="173"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5d4f90f9ed1c3cb2ef3b7dc619090c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getPeakPower</definition>
+        <argsstring>()</argsstring>
+        <name>getPeakPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Producer method <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="179" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="179" bodyend="181"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1b330e324f54ac8256da42cfd983b84f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getPowerDemand</definition>
+        <argsstring>()</argsstring>
+        <name>getPowerDemand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>power usage of this object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="185" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="185" bodyend="188"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a89e6711cd4cfc4ce52d3601438362224" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.gridObjects.SmartGridObject.getMaxPowerTransport</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxPowerTransport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>maximum energy this object can &quot;transport&quot; (?) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="193" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="193" bodyend="196"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a53cb9460ed9e7652da700abf7d111dc6" compoundref="_enum_p_v_8java" startline="24">sgs.model.variables.EnumPV.maxPowerTransport</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7aeabf9c0b5b3a93c631b9d5bb665c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.gridObjects.SmartGridObject.getTransportPowerDecrement</definition>
+        <argsstring>()</argsstring>
+        <name>getTransportPowerDecrement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Energy decrement factor e.g. 0.01 = 1 percent energy decrement </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="202" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="202" bodyend="204"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a8fbc35b51ea37605a3a1e3f243691f24" compoundref="_enum_p_v_8java" startline="25">sgs.model.variables.EnumPV.transportPowerDecrement</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setResistance</definition>
+        <argsstring>(NumericValue resistance)</argsstring>
+        <name>setResistance</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>resistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="206" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="206" bodyend="208"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" compoundref="_enum_p_v_8java" startline="26">sgs.model.variables.EnumPV.resistance</references>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1a7d3580fceba9936f6273073c7220382d" compoundref="_connector_8java" startline="16" endline="21">sgs.model.gridObjects.Connector.Connector</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1a46e85ea453a8dcfd78b02d34c5781cac" compoundref="_power_line_8java" startline="20" endline="27">sgs.model.gridObjects.PowerLine.PowerLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1cd87a4e5474dc6de4fdc3a3b278a45d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getResistance</definition>
+        <argsstring>()</argsstring>
+        <name>getResistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="210" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="210" bodyend="212"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" compoundref="_enum_p_v_8java" startline="26">sgs.model.variables.EnumPV.resistance</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54c1d37b28f3b598abe635627fa6a571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getCurrentVoltage</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentVoltage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="214" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="214" bodyend="219"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" compoundref="_enum_p_v_8java" startline="20">sgs.model.variables.EnumPV.currentVoltage</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a026f6229a75caa6ff916c7602b7d8ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setCurrentVoltage</definition>
+        <argsstring>(double currentVoltage)</argsstring>
+        <name>setCurrentVoltage</name>
+        <param>
+          <type>double</type>
+          <declname>currentVoltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="221" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="221" bodyend="223"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" compoundref="_enum_p_v_8java" startline="20">sgs.model.variables.EnumPV.currentVoltage</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setCurrentVoltage</definition>
+        <argsstring>(NumericValue currentVoltage)</argsstring>
+        <name>setCurrentVoltage</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>currentVoltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set current voltage and calculated angle. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentVoltage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="229" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="229" bodyend="234"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" compoundref="_enum_p_v_8java" startline="21">sgs.model.variables.EnumPV.voltageAngle</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" compoundref="_enum_p_v_8java" startline="20">sgs.model.variables.EnumPV.currentVoltage</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8708fce37b2a022b7e5d8d9123d35fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setPowerLineCharge</definition>
+        <argsstring>(NumericValue powerLineCharge)</argsstring>
+        <name>setPowerLineCharge</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>powerLineCharge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="254" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="254" bodyend="256"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" compoundref="_enum_p_v_8java" startline="27">sgs.model.variables.EnumPV.powerLineCharge</references>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1a46e85ea453a8dcfd78b02d34c5781cac" compoundref="_power_line_8java" startline="20" endline="27">sgs.model.gridObjects.PowerLine.PowerLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a98c13be7c02e926ba5092994e2ca1c0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.gridObjects.SmartGridObject.getLineCharge</definition>
+        <argsstring>()</argsstring>
+        <name>getLineCharge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="258" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="258" bodyend="260"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" compoundref="_enum_p_v_8java" startline="27">sgs.model.variables.EnumPV.powerLineCharge</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4d8ce62cbe114ac99de2bce46aed3d39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.updateObject</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int simulationResolutionMinutes)</argsstring>
+        <name>updateObject</name>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>simulationResolutionMinutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="285" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="285" bodyend="293"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49">sgs.model.gridObjects.SmartGridObject.getEnum</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a606292981670d6d1e015020956bf5bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.gridObjects.SmartGridObject.setProductionToWeatherAndTime</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather)</argsstring>
+        <name>setProductionToWeatherAndTime</name>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power_1a7bb96eac837772af4a9c88f6a3c17ed1">setProductionToWeatherAndTime</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport_1a3f7d77079f8bbf141be30d2199131b5b">setProductionToWeatherAndTime</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a955defefa383f56174146d9a1a0d8225">setProductionToWeatherAndTime</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_house_1a334c50d1f6967d470eb0ab122edd666a">setProductionToWeatherAndTime</reimplementedby>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adjusts energy production to specific weather and time. Depends on <ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" kindref="member">EnumPV.powerProductionOptimal</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>weather</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.gridObjects.SmartGridObject.getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>VariableSet of this object </para></simplesect>
+<xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>use the getVisibles() method of the VariableSet.class </para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="309" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="309" bodyend="317"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" compoundref="_smart_grid_object_8java" startline="35">sgs.model.gridObjects.SmartGridObject.variableSet</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" compoundref="_variable_set_8java" startline="37" endline="45">sgs.model.variables.VariableSet.add</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54a026a3347df89d8dd4e47a625db88c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridObjects.SmartGridObject.addWindow</definition>
+        <argsstring>(Window w)</argsstring>
+        <name>addWindow</name>
+        <reimplements refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a2c78f74c29328a28a6743e65539dc7b0">addWindow</reimplements>
+        <param>
+          <type>Window</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a window w which is owned exclusively by this object. The window should be closed if this object stops to exist or will not be used any more.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>like in <ref refid="" kindref="compound">LinkedList#add</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" kindref="member">removeWindow()</ref> </para><simplesectsep/><para><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" kindref="member">closeAllWindows()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="327" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="327" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridObjects.SmartGridObject.removeWindow</definition>
+        <argsstring>(Window w)</argsstring>
+        <name>removeWindow</name>
+        <reimplements refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a779f1b6f8d199252666935a14857d0d1">removeWindow</reimplements>
+        <param>
+          <type>Window</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a window w which was owned exclusively by this object. Should also call w.dispose().</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>like in <ref refid="" kindref="compound">LinkedList#remove</ref> </para></simplesect>
+<simplesect kind="see"><para>#removeAllWindows() </para><simplesectsep/><para>#add(Window) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="332" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="332" bodyend="335"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" compoundref="_smart_grid_object_8java" startline="338" endline="345">sgs.model.gridObjects.SmartGridObject.closeAllWindows</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridObjects.SmartGridObject.closeAllWindows</definition>
+        <argsstring>()</argsstring>
+        <name>closeAllWindows</name>
+        <reimplements refid="interfacesgs_1_1model_1_1other_1_1_window_owner_1a8a2da339635a3fc74562f5b99f47be34">closeAllWindows</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Will close all windows owned exclusively by this object. Close is executed by calling  Window.dispose()}</para><para><simplesect kind="return"><para>number of windows. </para></simplesect>
+<simplesect kind="see"><para>#add(Window) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="338" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="338" bodyend="345"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1e4441a0a8004af70f2626723c597fc8" compoundref="_smart_grid_object_8java" startline="48">sgs.model.gridObjects.SmartGridObject.ownedWindows</references>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" compoundref="_smart_grid_object_8java" startline="332" endline="335">sgs.model.gridObjects.SmartGridObject.removeWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a3dad540a8c17c2bbd724f84a905dfeee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridObjects.SmartGridObject.isDraggable</definition>
+        <argsstring>()</argsstring>
+        <name>isDraggable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="350" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="350" bodyend="352"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" compoundref="_smart_grid_object_8java" startline="50">sgs.model.gridObjects.SmartGridObject.draggable</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a86bc79e907ee061f83b09c67ba481c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setDraggable</definition>
+        <argsstring>(boolean draggable)</argsstring>
+        <name>setDraggable</name>
+        <param>
+          <type>boolean</type>
+          <declname>draggable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="354" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="354" bodyend="356"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" compoundref="_smart_grid_object_8java" startline="50">sgs.model.gridObjects.SmartGridObject.draggable</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.gridObjects.SmartGridObject.getVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>getVariableSet</name>
+        <reimplements refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c">getVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the VariableSet owned by this object; or null (no owned variable set) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="362" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="362" bodyend="364"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" compoundref="_smart_grid_object_8java" startline="35">sgs.model.gridObjects.SmartGridObject.variableSet</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>abstract GridDataEnum sgs.model.gridObjects.SmartGridObject.getEnum</definition>
+        <argsstring>()</argsstring>
+        <name>getEnum</name>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a0a994ac9b9a0bc3da62a8bef0fe36a31">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a889e96a01ce8c0498f7654498191c824">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant_1abe9795cd99c9d3e16daf442572bca0f6">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1aa03b5f004ce32959f1bf38a6453c45bd">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant_1a308b5f5c96da7ec7d3d92f2230e98540">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power_1a17b4340779002ef8b1853b376a3c1b55">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_house_1ae7e723c8113d1bdc0d3065e4cf5a9919">getEnum</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1afb8c029e0e2ae4e938e03e4bdcdd75f5">getEnum</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>corresponding enum for this object. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="395" column="1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1adadf8d7ceb2a752e51c5575c948c794c" compoundref="_grid_controller_8java" startline="72" endline="92">sgs.controller.GridController.actionfor_pasteCopiedObject</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4d8ce62cbe114ac99de2bce46aed3d39" compoundref="_smart_grid_object_8java" startline="285" endline="293">sgs.model.gridObjects.SmartGridObject.updateObject</referencedby>
+        <referencedby refid="classsgs_1_1view_1_1_properties_dialog_1ac9acb7d617cd6f6588376d2903f05e83" compoundref="_properties_dialog_8java" startline="89" endline="160">sgs.view.PropertiesDialog.PropertiesDialog</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a74d1946ece91a28fb6fe5a5402978fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridObjects.SmartGridObject.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="398" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="398" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a262c5a7010f8f7ca2547d450a911215e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridObjects.SmartGridObject.getObjectName</definition>
+        <argsstring>()</argsstring>
+        <name>getObjectName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="402" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4bb57a5690a7c612dbb5b79872981f16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridObjects.SmartGridObject.getParameterOfSGO</definition>
+        <argsstring>()</argsstring>
+        <name>getParameterOfSGO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid initializing VariableSet and SingleVariable in the CSV Class GiveDataObject and GiveDataParam, only return visible parameters in a string for the TreeNodes <simplesect kind="return"><para>sgoParameter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="412" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="412" bodyend="424"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad15e88279d11216fca5b158018f514a2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.gridObjects.SmartGridObject.getBusVoltage</definition>
+        <argsstring>()</argsstring>
+        <name>getBusVoltage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="87" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridObjects.SmartGridObject.setProperties</definition>
+        <argsstring>(boolean visible, boolean editable, EnumPV...variables)</argsstring>
+        <name>setProperties</name>
+        <param>
+          <type>boolean</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>editable</declname>
+        </param>
+        <param>
+          <type>EnumPV...</type>
+          <declname>variables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="262" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="262" bodyend="280"/>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8d5703aa46cb9fe362cbfbaa931fd1cc" compoundref="_smart_grid_object_8java" startline="36">sgs.model.gridObjects.SmartGridObject.selectedNode</references>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a6ea2e56fca3ed3c1c6aaa74bfaf37eda" compoundref="_grid_data_node_8java" startline="20">sgs.model.gridData.GridDataNode.nodeVariableSet</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a219fbfc24a4b164123f57b15ca56f7d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double sgs.model.gridObjects.SmartGridObject.roundC</definition>
+        <argsstring>(double value)</argsstring>
+        <name>roundC</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="237" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="237" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8e9989bbd25b36a93c2487e690be3c58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.gridObjects.SmartGridObject.rad2deg</definition>
+        <argsstring>(double rad)</argsstring>
+        <name>rad2deg</name>
+        <param>
+          <type>double</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="243" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad786af864563c9c0955db00540f0572a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.gridObjects.SmartGridObject.deg2rad</definition>
+        <argsstring>(double deg)</argsstring>
+        <name>deg2rad</name>
+        <param>
+          <type>double</type>
+          <declname>deg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="248" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="248" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1df529325f3acfd35897ae2b5774c275" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+        <definition>static SmartGridObject sgs.model.gridObjects.SmartGridObject.factory</definition>
+        <argsstring>(GridDataEnum enu)</argsstring>
+        <name>factory</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+          <declname>enu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enu</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>new grid data object for GridDataEnum. Mind to set coordinates if needed! </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="374" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="374" bodyend="390"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1adadf8d7ceb2a752e51c5575c948c794c" compoundref="_grid_controller_8java" startline="72" endline="92">sgs.controller.GridController.actionfor_pasteCopiedObject</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simulation/Application specific object representing the most important simulation dependent values and functions.</para><para>Variables: Adds all default variables with default values. Values and visibility may be changed by sub classes. Visibility may be changed by Algorithms. (TODO)</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4056">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4049" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4055">
+        <label>sgs.model.gridObjects.PowerLine</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_line"/>
+        <childnode refid="4053" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4064">
+        <label>sgs.model.gridObjects.SolarPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant"/>
+        <childnode refid="4061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4065">
+        <label>sgs.model.gridObjects.WindTurbinePowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant"/>
+        <childnode refid="4061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4050">
+        <label>GridObject</label>
+      </node>
+      <node id="4051">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4060">
+        <label>sgs.model.gridObjects.GridPower</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power"/>
+        <childnode refid="4056" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4059">
+        <label>sgs.model.gridObjects.House</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_house"/>
+        <childnode refid="4057" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4053">
+        <label>sgs.model.gridObjects.PowerTransport</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport"/>
+        <childnode refid="4049" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4063">
+        <label>sgs.model.gridObjects.FossilFuelPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant"/>
+        <childnode refid="4061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4061">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4056" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4058">
+        <label>sgs.model.gridObjects.CustomConsumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer"/>
+        <childnode refid="4057" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4052">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4049">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4050" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4051" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4052" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4057">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="4056" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4054">
+        <label>sgs.model.gridObjects.Connector</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_connector"/>
+        <childnode refid="4053" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4062">
+        <label>sgs.model.gridObjects.CustomPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant"/>
+        <childnode refid="4061" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4104">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="4096">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="4078">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="4076">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4080">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="4081" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4082" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="4083" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="4078" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="4066" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="4084" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="4086" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="4087" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="4088" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="4089" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="4090" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="4108" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="4109" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="4067">
+        <label>GridObject</label>
+      </node>
+      <node id="4072">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="4073" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="4074" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4082">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="4088">
+        <label>JFrame</label>
+      </node>
+      <node id="4077">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="4078" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="4077" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="4079" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="4074" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4110">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="4068">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4106">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4105">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4106" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4107" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4107">
+        <label>Random</label>
+      </node>
+      <node id="4090">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4091" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4092" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="4102" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="4104" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="4105" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="4087">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="4081">
+        <label>GridModel</label>
+      </node>
+      <node id="4074">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4075" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4076" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4098">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4100">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4094">
+        <label>Application</label>
+      </node>
+      <node id="4101">
+        <label>File</label>
+      </node>
+      <node id="4071">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="4089">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="4109">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="4092">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="4093" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="4080" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4097" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="4099" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="4096" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4095">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4073">
+        <label>ImageIcon</label>
+      </node>
+      <node id="4099">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="4100" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="4101" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4103">
+        <label>JDialog</label>
+      </node>
+      <node id="4097">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="4098" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="4096" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4091">
+        <label>Thread</label>
+      </node>
+      <node id="4069">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4093">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="4094" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4095" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="4096" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4102">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4085">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="4066">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4067" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4068" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4069" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4070" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="4072" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="4077" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="4080" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4110" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="4074" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4086">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="4075">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="4083">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="4070">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="4071" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4084">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="4085" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4079">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="4108">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/SmartGridObject.java" bodystart="33" bodyend="425"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54a026a3347df89d8dd4e47a625db88c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>addWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac7b9ef74a64a6e2a182d49b6b019bc17" prot="private" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>busNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>closeAllWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad786af864563c9c0955db00540f0572a" prot="private" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>deg2rad</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>draggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1df529325f3acfd35897ae2b5774c275" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>factory</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae8bdc2184254269c1a259f136af9b6a6" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getBus</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7a1416e45c36c61b1cdcc805d7716704" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad15e88279d11216fca5b158018f514a2" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad8ca87adf1436bc10304603da700de17" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54c1d37b28f3b598abe635627fa6a571" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getData</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49" prot="public" virt="pure-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a98c13be7c02e926ba5092994e2ca1c0b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a89e6711cd4cfc4ce52d3601438362224" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getMaxPowerTransport</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5f3a15cf34b127772a3734c7be83c6d8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a262c5a7010f8f7ca2547d450a911215e" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getObjectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4bb57a5690a7c612dbb5b79872981f16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getParameterOfSGO</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5d4f90f9ed1c3cb2ef3b7dc619090c20" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1b330e324f54ac8256da42cfd983b84f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getPowerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a38b86c8e0825c7fb0d31562bfcc502a1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1cd87a4e5474dc6de4fdc3a3b278a45d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7aeabf9c0b5b3a93c631b9d5bb665c2b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getTransportPowerDecrement</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>getVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4652fb1a16e502b31aff75686f3b3e75" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a3dad540a8c17c2bbd724f84a905dfeee" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>isDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>model</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab1fdc83f9086dda3d3be3984a1e563f3" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>objectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a84827fa0f7834650292e9655e67076a2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>overlays</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1e4441a0a8004af70f2626723c597fc8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>ownedWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8e9989bbd25b36a93c2487e690be3c58" prot="private" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>rad2deg</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>removeWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>resetCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a219fbfc24a4b164123f57b15ca56f7d2" prot="private" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>roundC</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8d5703aa46cb9fe362cbfbaa931fd1cc" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>selectedNode</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab6e73c06a9c7332f289bbd885d5c41ca" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0c03efa78e2066bbf5f61702c49d6193" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a026f6229a75caa6ff916c7602b7d8ec2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a86bc79e907ee061f83b09c67ba481c8d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a92c1bf6efcc57ae3acddc503dc60ae41" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a96606b65df224d13090562e68e60f659" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0143b19bf953fb4f1d49c85df2e2fd7c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8708fce37b2a022b7e5d8d9123d35fc2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setPowerLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1d551cd4ebc8949455051b876a408ec0" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a880025d424bfe13f38d8abd4a8533efb" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a606292981670d6d1e015020956bf5bbc" prot="public" virt="pure-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setProductionToWeatherAndTime</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>setResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac9a1a7e550abdb48afd69dfe669a3fa5" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>SmartGridObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a74d1946ece91a28fb6fe5a5402978fd9" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4d8ce62cbe114ac99de2bce46aed3d39" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>updateObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::SmartGridObject</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

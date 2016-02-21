@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_power_transport_8java" kind="file">
+    <compoundname>PowerTransport.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" prot="public">sgs::model::gridObjects::PowerTransport</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1grid_objects">sgs::model::gridObjects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.gridObjects;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.GregorianCalendar;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">sgs.controller.simulation.Weather</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" kindref="compound">PowerTransport</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport_1ac82145f5bfe331db966c42bc997f2c81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport_1ac82145f5bfe331db966c42bc997f2c81" kindref="member">PowerTransport</ref>(){</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Override<sp/>---<sp/>----------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>@Override</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>public<sp/>LinkedHashMap&lt;String,<sp/>String&gt;<sp/>getDataAsMap()<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>LinkedHashMap&lt;String,<sp/>String&gt;<sp/>map<sp/>=<sp/>new<sp/>LinkedHashMap&lt;&gt;();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>//map.put(&quot;Maximal<sp/>Energy&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>maxTransportEnergy));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>//map.put(&quot;Energy<sp/>Decrement<sp/>(%)&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>energyTransportDecrement));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>map.put(&quot;Current<sp/>Power<sp/>Flow&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>currentPowerConsumption));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>map.put(&quot;Resistance<sp/>R&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>powerLineResistance.getReal()));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>map.put(&quot;Reactance<sp/>X&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>powerLineResistance.getImaginary()));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>map.put(&quot;LineCharge<sp/>C&quot;,<sp/>String.format(&quot;%.2f&quot;,<sp/>powerLineCharge));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>map;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="38" refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport_1a3f7d77079f8bbf141be30d2199131b5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport_1a3f7d77079f8bbf141be30d2199131b5b" kindref="member">setProductionToWeatherAndTime</ref>(GregorianCalendar<sp/>currentTime,<sp/><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref><sp/>weather)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//no<sp/>change<sp/>at<sp/>power<sp/>transport</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/PowerTransport.java"/>
+  </compounddef>
+</doxygen>

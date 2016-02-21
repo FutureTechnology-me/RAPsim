@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs" kind="namespace">
+    <compoundname>sgs</compoundname>
+    <innerclass refid="classsgs_1_1___main__" prot="public">sgs::_Main_</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller">sgs::controller</innernamespace>
+    <innernamespace refid="namespacesgs_1_1model">sgs::model</innernamespace>
+    <innernamespace refid="namespacesgs_1_1view">sgs::view</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

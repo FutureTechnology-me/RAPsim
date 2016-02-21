@@ -1,0 +1,15 @@
+digraph "sgs.model.gridObjects.PowerLine.PowerLine"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.gridObjects.Power\lLine.PowerLine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.model.gridObjects.Power\lLine.setMaxPowerTransport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_power_line.html#abdf4852fadcea19487e21067bfe4d620"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.model.gridObjects.Power\lLine.setTransportPowerDecrement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_power_line.html#a59d7de0555857fe43fbb9d7e9e75741b"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgs.model.gridObjects.Smart\lGridObject.setResistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object.html#a0e5592828ffc4b0265ee542792bd5ce8"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgs.model.gridObjects.Smart\lGridObject.setPowerLineCharge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object.html#a8708fce37b2a022b7e5d8d9123d35fc2"];
+}

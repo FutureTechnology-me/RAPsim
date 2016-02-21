@@ -1,0 +1,618 @@
+\section{sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum Enum Reference}
+\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum}\index{sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum@{sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf Type}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Grid\-Data\-Enum} (String img\-Name, String {\bf img\-Extension}, String {\bf tool\-Tip})
+\item 
+{\bf Grid\-Data\-Enum} (String img\-Name, String {\bf tool\-Tip})
+\item 
+{\bf Grid\-Data\-Enum} (String img\-Name, String {\bf tool\-Tip}, Class$<$?extends {\bf Smart\-Grid\-Object} $>$ c)
+\item 
+{\bf Grid\-Data\-Enum} (String img\-Name, String {\bf tool\-Tip}, Class$<$?extends {\bf Smart\-Grid\-Object} $>$ c, Class$<$?extends {\bf Abstract\-Model} $>$ m)
+\item 
+int {\bf get\-I\-D} ()
+\item 
+int {\bf get\-Max\-I\-D} ()
+\item 
+boolean {\bf less\-Or\-Equal} (int other\-I\-D)
+\item 
+boolean {\bf greater\-Or\-Equal} (int other\-I\-D)
+\item 
+boolean {\bf includes\-I\-D} (int id)
+\item 
+int {\bf get\-I\-D} ({\bf Type} type)
+\item 
+String {\bf get\-Image} ({\bf Type} type)
+\item 
+String {\bf get\-Icon} ()
+\item 
+String {\bf get\-Tool\-Tip} ()
+\item 
+Array\-List$<$ {\bf Type} $>$ {\bf get\-Existing\-Types} ()
+\item 
+boolean {\bf is\-Map\-Element} ()
+\item 
+boolean {\bf exists} ({\bf Type} type)
+\item 
+int {\bf nr\-Of\-Images} ()
+\item 
+Class$<$?extends {\bf Smart\-Grid\-Object} $>$ {\bf get\-Mapped\-Class} ()
+\item 
+Class$<$?extends {\bf Abstract\-Model} $>$ {\bf get\-Mapped\-Model} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bf get\-Grid\-Data\-Size} ()
+\item 
+static {\bf Grid\-Data\-Enum} {\bf get\-Enum} (String name)
+\item 
+static {\bf Grid\-Data\-Enum} {\bf get\-Mapped\-Enum} (Class$<$?extends {\bf Smart\-Grid\-Object} $>$ c)
+\item 
+static Class$<$?extends \\*
+{\bf Smart\-Grid\-Object} $>$ {\bf get\-Mapped\-Class} ({\bf Grid\-Data\-Enum} enu)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf E\-M\-P\-T\-Y} =(null,null)
+\item 
+{\bf M\-O\-V\-E\-\_\-\-G\-E\-A\-R} =(\char`\"{}Move\char`\"{}, \char`\"{}Use this to Navigate\char`\"{})
+\item 
+{\bf D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R} =(\char`\"{}Delete\char`\"{}, \char`\"{}Delete Objects\char`\"{})
+\item 
+{\bf P\-L\-I\-N\-E} =(\char`\"{}P\-Line\char`\"{}, \char`\"{}Resistance of a powerline\char`\"{}, Power\-Line.\-class)
+\item 
+{\bf S\-P\-L\-I\-N\-E} =(\char`\"{}s\-Pline\char`\"{}, \char`\"{}Lossless Connectors\char`\"{}, Connector.\-class)
+\item 
+{\bf C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R} =(\char`\"{}House\char`\"{}, \char`\"{}Residential consumption\char`\"{}, Custom\-Consumer.\-class, Abstract\-Custom\-Consumer\-Model.\-class)
+\item 
+{\bf S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T} =(\char`\"{}Solar\-Power\-Plant\char`\"{}, \char`\"{}P\-V Generation\char`\"{}, Solar\-Power\-Plant.\-class, Abstract\-Solar\-Power\-Plant\-Model.\-class)
+\item 
+{\bf W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T} =(\char`\"{}Wind\-Turbine\-Power\-Plant\char`\"{}, \char`\"{}Windturbine\char`\"{}, Wind\-Turbine\-Power\-Plant.\-class, Abstract\-Wind\-Power\-Plant\-Model.\-class)
+\item 
+{\bf F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T} =(\char`\"{}Fossil\-Fuel\-Power\-Plant\char`\"{}, \char`\"{}Fuels Generator\char`\"{}, Fossil\-Fuel\-Power\-Plant.\-class , Abstract\-Fossil\-Fuel\-Power\-Plant\-Model.\-class)
+\item 
+{\bf C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T} =(\char`\"{}Power\-Plant\char`\"{}, \char`\"{}Any other Powerplant\char`\"{}, Custom\-Power\-Plant.\-class, Abstract\-Custom\-Power\-Plant\-Model.\-class)
+\item 
+{\bf G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R} =(\char`\"{}Grid\-Power\char`\"{}, \char`\"{}Grid connection\-: Marks Reference-\/{\bf Bus}\char`\"{}, Grid\-Power.\-class)
+\item 
+String {\bf img\-Extension}
+\item 
+String {\bf tool\-Tip}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int {\bf I\-D\-\_\-\-S\-T\-A\-R\-T} =0
+\item 
+staticfinal int {\bf I\-D\-\_\-\-R\-A\-N\-G\-E} =Type.\-values().length
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Holds\-: $>$ all button images -\/$>$ Control buttons -\/$>$ Buttons for Grid\-Objects
+
+$>$ all images for J\-G\-M
+
+Ideas for future\-:
+\begin{DoxyItemize}
+\item Buffer/\-Store images or image information in Enum for faster start up.
+\item Better automated system for handling different images for a single grid object. (encapsulate in a new class)
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 40 of file Grid\-Data\-Enum.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!Grid\-Data\-Enum@{Grid\-Data\-Enum}}
+\index{Grid\-Data\-Enum@{Grid\-Data\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{Grid\-Data\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-Grid\-Data\-Enum (
+\begin{DoxyParamCaption}
+\item[{String}]{img\-Name, }
+\item[{String}]{img\-Extension, }
+\item[{String}]{tool\-Tip}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a0fe5a62880a15952c50c8d6e3deca233}
+Full constructor 
+\begin{DoxyParams}{Parameters}
+{\em img\-Name} & \\
+\hline
+{\em img\-Extension} & \\
+\hline
+{\em tool\-Tip} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!Grid\-Data\-Enum@{Grid\-Data\-Enum}}
+\index{Grid\-Data\-Enum@{Grid\-Data\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{Grid\-Data\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-Grid\-Data\-Enum (
+\begin{DoxyParamCaption}
+\item[{String}]{img\-Name, }
+\item[{String}]{tool\-Tip}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a7bc200ab636318d708585d3d0b394f84}
+Simple constructor\-: png is default file extension. 
+
+Definition at line 116 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!Grid\-Data\-Enum@{Grid\-Data\-Enum}}
+\index{Grid\-Data\-Enum@{Grid\-Data\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{Grid\-Data\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-Grid\-Data\-Enum (
+\begin{DoxyParamCaption}
+\item[{String}]{img\-Name, }
+\item[{String}]{tool\-Tip, }
+\item[{Class$<$?extends {\bf Smart\-Grid\-Object} $>$}]{c}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a189ad60a6f4d06be753ebce9b4ce6c71}
+
+\begin{DoxyParams}{Parameters}
+{\em img\-Name} & \\
+\hline
+{\em tool\-Tip} & \\
+\hline
+{\em c} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 127 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!Grid\-Data\-Enum@{Grid\-Data\-Enum}}
+\index{Grid\-Data\-Enum@{Grid\-Data\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{Grid\-Data\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-Grid\-Data\-Enum (
+\begin{DoxyParamCaption}
+\item[{String}]{img\-Name, }
+\item[{String}]{tool\-Tip, }
+\item[{Class$<$?extends {\bf Smart\-Grid\-Object} $>$}]{c, }
+\item[{Class$<$?extends {\bf Abstract\-Model} $>$}]{m}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a9c91001e9faac4b4bcbe044a6e28cfbe}
+
+
+Definition at line 145 of file Grid\-Data\-Enum.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!exists@{exists}}
+\index{exists@{exists}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{exists}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-exists (
+\begin{DoxyParamCaption}
+\item[{{\bf Type}}]{type}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a3706be52f49b145109daa151e162d2b1}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if image file with this type exists. 
+\end{DoxyReturn}
+
+
+Definition at line 304 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Enum@{get\-Enum}}
+\index{get\-Enum@{get\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Grid\-Data\-Enum} sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Enum (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_af3be08087294300114fe51eaae39ccea}
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Enum corresponding to name or null. 
+\end{DoxyReturn}
+
+
+Definition at line 329 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Existing\-Types@{get\-Existing\-Types}}
+\index{get\-Existing\-Types@{get\-Existing\-Types}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Existing\-Types}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Type}$>$ sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Existing\-Types (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_ab31070398737abe7fb42240724b9ce31}
+\begin{DoxyReturn}{Returns}
+a array with all types of E\-X\-I\-S\-T\-I\-N\-G images. 
+\end{DoxyReturn}
+
+
+Definition at line 273 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Grid\-Data\-Size@{get\-Grid\-Data\-Size}}
+\index{get\-Grid\-Data\-Size@{get\-Grid\-Data\-Size}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Grid\-Data\-Size}]{\setlength{\rightskip}{0pt plus 5cm}static int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Grid\-Data\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a183d455952ba02cb9339be15593ed7c3}
+\begin{DoxyReturn}{Returns}
+Number of grid data indices used with regard to all different types. 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Icon@{get\-Icon}}
+\index{get\-Icon@{get\-Icon}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Icon}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Icon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a30dcc8693730e57ec41c1288766ad7fc}
+\begin{DoxyReturn}{Returns}
+path + full\-Icon\-File\-Name 
+\end{DoxyReturn}
+
+
+Definition at line 259 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-I\-D@{get\-I\-D}}
+\index{get\-I\-D@{get\-I\-D}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-I\-D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a49277e6ee993e089a33cb77497a36992}
+Get the Base-\/\-I\-D of the enum.
+
+\begin{DoxyReturn}{Returns}
+the base I\-D for this group of images, ordinal$\ast$\-I\-D\-\_\-\-R\-A\-N\-G\-E+\-I\-D\-\_\-\-S\-T\-A\-R\-T. 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-I\-D@{get\-I\-D}}
+\index{get\-I\-D@{get\-I\-D}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-I\-D (
+\begin{DoxyParamCaption}
+\item[{{\bf Type}}]{type}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aa9b23b360dbc4405bb03eb6d935d3a3d}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the unique I\-D for the specified Type/picture of this \doxyref{Grid\-Data\-Enum}{p.}{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum}. 
+\end{DoxyReturn}
+
+
+Definition at line 239 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Image@{get\-Image}}
+\index{get\-Image@{get\-Image}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Image}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Image (
+\begin{DoxyParamCaption}
+\item[{{\bf Type}}]{type}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aa9d62ea4105ae9e73369002afefe773b}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+path + full\-File\-Name 
+\end{DoxyReturn}
+
+
+Definition at line 251 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Mapped\-Class@{get\-Mapped\-Class}}
+\index{get\-Mapped\-Class@{get\-Mapped\-Class}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Mapped\-Class}]{\setlength{\rightskip}{0pt plus 5cm}static Class$<$? extends {\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Mapped\-Class (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Data\-Enum}}]{enu}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a146f09c888b5a2ccd3979f7860899dc9}
+
+
+Definition at line 348 of file Grid\-Data\-Enum.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Mapped\-Class@{get\-Mapped\-Class}}
+\index{get\-Mapped\-Class@{get\-Mapped\-Class}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Mapped\-Class}]{\setlength{\rightskip}{0pt plus 5cm}Class$<$? extends {\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Mapped\-Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_ad6028ff130df919fda3cfb55044dbb7f}
+
+
+Definition at line 352 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Mapped\-Enum@{get\-Mapped\-Enum}}
+\index{get\-Mapped\-Enum@{get\-Mapped\-Enum}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Mapped\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Grid\-Data\-Enum} sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Mapped\-Enum (
+\begin{DoxyParamCaption}
+\item[{Class$<$?extends {\bf Smart\-Grid\-Object} $>$}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a3273288634b234cac645bfeaadbd602a}
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 344 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Mapped\-Model@{get\-Mapped\-Model}}
+\index{get\-Mapped\-Model@{get\-Mapped\-Model}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Mapped\-Model}]{\setlength{\rightskip}{0pt plus 5cm}Class$<$? extends {\bf Abstract\-Model}$>$ sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Mapped\-Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a6967d79719b22361f3eb89a0a5a62de1}
+
+
+Definition at line 355 of file Grid\-Data\-Enum.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Max\-I\-D@{get\-Max\-I\-D}}
+\index{get\-Max\-I\-D@{get\-Max\-I\-D}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Max\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Max\-I\-D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a6f19984ff72ec92bf031e8494b63118c}
+\begin{DoxyReturn}{Returns}
+maximum possible I\-D for this \doxyref{Grid\-Data\-Enum}{p.}{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum} 
+\end{DoxyReturn}
+
+
+Definition at line 192 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!get\-Tool\-Tip@{get\-Tool\-Tip}}
+\index{get\-Tool\-Tip@{get\-Tool\-Tip}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{get\-Tool\-Tip}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-get\-Tool\-Tip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a9859b40edb885c06fc5a84033dac1a3d}
+\begin{DoxyReturn}{Returns}
+predefined tool tip text. 
+\end{DoxyReturn}
+
+
+Definition at line 266 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!greater\-Or\-Equal@{greater\-Or\-Equal}}
+\index{greater\-Or\-Equal@{greater\-Or\-Equal}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{greater\-Or\-Equal}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-greater\-Or\-Equal (
+\begin{DoxyParamCaption}
+\item[{int}]{other\-I\-D}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a8ed6b2a27243b326a00ad86d12f995c1}
+Test if this Enum is equal and defined after the other. I\-D is used as parameter for enabling the usage with any I\-D obtained before from an Enum.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other\-I\-D} & -\/ the I\-D of another Grid\-Enum obtained via a getter function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this Enum includes other\-I\-D or is defined after it. 
+\end{DoxyReturn}
+
+
+Definition at line 217 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!includes\-I\-D@{includes\-I\-D}}
+\index{includes\-I\-D@{includes\-I\-D}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{includes\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-includes\-I\-D (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aa6d1d960be92483d6c8014cc0bc07d6d}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this \doxyref{Grid\-Data\-Enum}{p.}{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum} includes this unique I\-D. 
+\end{DoxyReturn}
+
+
+Definition at line 228 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!is\-Map\-Element@{is\-Map\-Element}}
+\index{is\-Map\-Element@{is\-Map\-Element}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{is\-Map\-Element}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-is\-Map\-Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a4153a65df8d1098666f63f5275f966de}
+\begin{DoxyReturn}{Returns}
+true if this is also a map element. (map images exist) 
+\end{DoxyReturn}
+
+
+Definition at line 290 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!less\-Or\-Equal@{less\-Or\-Equal}}
+\index{less\-Or\-Equal@{less\-Or\-Equal}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{less\-Or\-Equal}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-less\-Or\-Equal (
+\begin{DoxyParamCaption}
+\item[{int}]{other\-I\-D}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a32e248d6abc72f179b8f6778bfcd1bf0}
+Test if this Enum is equal and defined before the other. I\-D is used as parameter for enabling the usage with any I\-D obtained before from an Enum.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other\-I\-D} & -\/ the I\-D of another Grid\-Enum obtained via a getter function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this Enum includes other\-I\-D or is defined before. 
+\end{DoxyReturn}
+
+
+Definition at line 203 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!nr\-Of\-Images@{nr\-Of\-Images}}
+\index{nr\-Of\-Images@{nr\-Of\-Images}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{nr\-Of\-Images}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-nr\-Of\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a6123a369edb12fff72f9d66ada75f6d1}
+\begin{DoxyReturn}{Returns}
+number of existing image files for this Enum. 
+\end{DoxyReturn}
+
+
+Definition at line 312 of file Grid\-Data\-Enum.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R@{C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R}}
+\index{C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R@{C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-C\-U\-S\-T\-O\-M\-\_\-\-C\-O\-N\-S\-U\-M\-E\-R =(\char`\"{}House\char`\"{}, \char`\"{}Residential consumption\char`\"{}, Custom\-Consumer.\-class, Abstract\-Custom\-Consumer\-Model.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a81436f6525c31c22d727bb88ce77a59b}
+
+
+Definition at line 59 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}}
+\index{C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-C\-U\-S\-T\-O\-M\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T =(\char`\"{}Power\-Plant\char`\"{}, \char`\"{}Any other Powerplant\char`\"{}, Custom\-Power\-Plant.\-class, Abstract\-Custom\-Power\-Plant\-Model.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a3d53778a5ad430bc763a844b551ad64f}
+
+
+Definition at line 65 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R@{D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R}}
+\index{D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R@{D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-D\-E\-L\-E\-T\-E\-\_\-\-G\-E\-A\-R =(\char`\"{}Delete\char`\"{}, \char`\"{}Delete Objects\char`\"{})}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a85c3a1a8194a515c0afadcfb5b4eec3a}
+
+
+Definition at line 53 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!E\-M\-P\-T\-Y@{E\-M\-P\-T\-Y}}
+\index{E\-M\-P\-T\-Y@{E\-M\-P\-T\-Y}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{E\-M\-P\-T\-Y}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-E\-M\-P\-T\-Y =(null,null)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a2ddfc8abc08bc49357ee35e6cad24bc4}
+
+
+Definition at line 50 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}}
+\index{F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-F\-O\-S\-S\-I\-L\-\_\-\-F\-U\-E\-L\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T =(\char`\"{}Fossil\-Fuel\-Power\-Plant\char`\"{}, \char`\"{}Fuels Generator\char`\"{}, Fossil\-Fuel\-Power\-Plant.\-class , Abstract\-Fossil\-Fuel\-Power\-Plant\-Model.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aab13e8947ec3b1009f9a7c6acfdd1ffa}
+
+
+Definition at line 64 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R@{G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R}}
+\index{G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R@{G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-G\-R\-I\-D\-\_\-\-P\-O\-W\-E\-R =(\char`\"{}Grid\-Power\char`\"{}, \char`\"{}Grid connection\-: Marks Reference-\/{\bf Bus}\char`\"{}, Grid\-Power.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a1611cc07fc5548036b985a2a96e3502b}
+
+
+Definition at line 67 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!I\-D\-\_\-\-R\-A\-N\-G\-E@{I\-D\-\_\-\-R\-A\-N\-G\-E}}
+\index{I\-D\-\_\-\-R\-A\-N\-G\-E@{I\-D\-\_\-\-R\-A\-N\-G\-E}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{I\-D\-\_\-\-R\-A\-N\-G\-E}]{\setlength{\rightskip}{0pt plus 5cm} static  final int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-I\-D\-\_\-\-R\-A\-N\-G\-E =Type.\-values().length\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aaf84ed3fa432e099c83cbb95642d1c1d}
+
+
+Definition at line 85 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!I\-D\-\_\-\-S\-T\-A\-R\-T@{I\-D\-\_\-\-S\-T\-A\-R\-T}}
+\index{I\-D\-\_\-\-S\-T\-A\-R\-T@{I\-D\-\_\-\-S\-T\-A\-R\-T}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{I\-D\-\_\-\-S\-T\-A\-R\-T}]{\setlength{\rightskip}{0pt plus 5cm}final int sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-I\-D\-\_\-\-S\-T\-A\-R\-T =0\hspace{0.3cm}{\ttfamily [static]}}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_aa030ad4a09d195125619366b674562fa}
+I\-D\-\_\-\-S\-T\-A\-R\-T ... I\-D of the first \doxyref{Grid\-Data\-Enum}{p.}{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum}. I\-D\-\_\-\-R\-A\-N\-G\-E ... number of possible Types/\-Pictures for every \doxyref{Grid\-Data\-Enum}{p.}{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum}. 
+
+Definition at line 85 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!img\-Extension@{img\-Extension}}
+\index{img\-Extension@{img\-Extension}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{img\-Extension}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-img\-Extension}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_ac9e97ef08e7aed37f092a137e02e5bd0}
+
+
+Definition at line 68 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!M\-O\-V\-E\-\_\-\-G\-E\-A\-R@{M\-O\-V\-E\-\_\-\-G\-E\-A\-R}}
+\index{M\-O\-V\-E\-\_\-\-G\-E\-A\-R@{M\-O\-V\-E\-\_\-\-G\-E\-A\-R}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{M\-O\-V\-E\-\_\-\-G\-E\-A\-R}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-M\-O\-V\-E\-\_\-\-G\-E\-A\-R =(\char`\"{}Move\char`\"{}, \char`\"{}Use this to Navigate\char`\"{})}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a8b112ee7b6f0b0146cd4588a1539e589}
+
+
+Definition at line 52 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!P\-L\-I\-N\-E@{P\-L\-I\-N\-E}}
+\index{P\-L\-I\-N\-E@{P\-L\-I\-N\-E}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{P\-L\-I\-N\-E}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-P\-L\-I\-N\-E =(\char`\"{}P\-Line\char`\"{}, \char`\"{}Resistance of a powerline\char`\"{}, Power\-Line.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a81efe618839306f5505b5283984cef3a}
+
+
+Definition at line 56 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}}
+\index{S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-S\-O\-L\-A\-R\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T =(\char`\"{}Solar\-Power\-Plant\char`\"{}, \char`\"{}P\-V Generation\char`\"{}, Solar\-Power\-Plant.\-class, Abstract\-Solar\-Power\-Plant\-Model.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a8812134f8ff9dbeb2915d572c5313daf}
+
+
+Definition at line 62 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!S\-P\-L\-I\-N\-E@{S\-P\-L\-I\-N\-E}}
+\index{S\-P\-L\-I\-N\-E@{S\-P\-L\-I\-N\-E}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{S\-P\-L\-I\-N\-E}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-S\-P\-L\-I\-N\-E =(\char`\"{}s\-Pline\char`\"{}, \char`\"{}Lossless Connectors\char`\"{}, Connector.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a3c84b96bb3d26909ec5b4518e32673bf}
+
+
+Definition at line 57 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!tool\-Tip@{tool\-Tip}}
+\index{tool\-Tip@{tool\-Tip}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{tool\-Tip}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-tool\-Tip}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a6e58af19b1531d476d4dbbe18569ca8b}
+
+
+Definition at line 68 of file Grid\-Data\-Enum.\-java.
+
+\index{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}!W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}}
+\index{W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T@{W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}!sgs::model::gridData::GridDataEnum@{sgs\-::model\-::grid\-Data\-::\-Grid\-Data\-Enum}}
+\subsubsection[{W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Data.\-Grid\-Data\-Enum.\-W\-I\-N\-D\-\_\-\-T\-U\-R\-B\-I\-N\-E\-\_\-\-P\-O\-W\-E\-R\-\_\-\-P\-L\-A\-N\-T =(\char`\"{}Wind\-Turbine\-Power\-Plant\char`\"{}, \char`\"{}Windturbine\char`\"{}, Wind\-Turbine\-Power\-Plant.\-class, Abstract\-Wind\-Power\-Plant\-Model.\-class)}\label{enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_a0e5fbe71f411509423dea40496b9aa0e}
+
+
+Definition at line 63 of file Grid\-Data\-Enum.\-java.
+
+
+
+The documentation for this enum was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/grid\-Data/{\bf Grid\-Data\-Enum.\-java}\end{DoxyCompactItemize}

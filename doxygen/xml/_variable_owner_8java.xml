@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_variable_owner_8java" kind="file">
+    <compoundname>VariableOwner.java</compoundname>
+    <innerclass refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" prot="public">sgs::model::variables::collector::VariableOwner</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1variables_1_1collector">sgs::model::variables::collector</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.variables.collector;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">sgs.model.variables.VariableSet</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kindref="compound">VariableOwner</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref><sp/><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c" kindref="member">getVariableSet</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/**</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>*<sp/>@return<sp/>a<sp/>list<sp/>of<sp/>other,<sp/>contained<sp/>VariableOwners;<sp/>or<sp/>null<sp/>(no<sp/>other<sp/>variable<sp/>owners)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>public<sp/>LinkedList&lt;?<sp/>extends<sp/>VariableOwner&gt;<sp/>getSubOwners();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableOwner.java"/>
+  </compounddef>
+</doxygen>

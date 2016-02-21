@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1_weather" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::Weather</compoundname>
+    <innerclass refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r" prot="public">sgs::controller::simulation::Weather::WEATHER</innerclass>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1aee10e9b55ad4d2856dd8f7a56fa13c2d" prot="protected" static="yes" mutable="no">
+        <type>final Random</type>
+        <definition>final Random sgs.controller.simulation.Weather.RAND</definition>
+        <argsstring></argsstring>
+        <name>RAND</name>
+        <initializer>= SmartGridObject.RAND</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a6870bcd7ef48f8cc3986da36b9004db7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.cloudFactor</definition>
+        <argsstring></argsstring>
+        <name>cloudFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a86d2e4178ddf4b86ad202506e53ecc8e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a550963dbf19e20257054fc681c200ed6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.windSpeed</definition>
+        <argsstring></argsstring>
+        <name>windSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a04210b0bb7de9e2692ebc99a01166c58" prot="private" static="no" mutable="no">
+        <type>WeibullDistribution</type>
+        <definition>WeibullDistribution sgs.controller.simulation.Weather.windSpeedDistribution</definition>
+        <argsstring></argsstring>
+        <name>windSpeedDistribution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1ae3a4d82e2457d40ff65f35be81c59192" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.cloudChangeMean</definition>
+        <argsstring></argsstring>
+        <name>cloudChangeMean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a3215ff314f668de65aa34ea050e0e125" prot="public" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r" kindref="compound">WEATHER</ref></type>
+        <definition>WEATHER sgs.controller.simulation.Weather.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1a27c04422d4cd7abda8b5265cd1931919" compoundref="_random_wind_turbine_model_8java" startline="40" endline="74">sgs.model.objectModels.RandomWindTurbineModel.updateVariables</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a933172ff9e97c84576822553104aac51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.Weather.Weather</definition>
+        <argsstring>()</argsstring>
+        <name>Weather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="27" bodyend="37"/>
+        <references refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1abfd5e1962fe7a1b6d114e8fde6375cb2" compoundref="_weather_8java" startline="20">sgs.controller.simulation.Weather.WEATHER.cloudy</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a0928ff61c6a722bf23ca3810707e2f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.Weather.setRandSeed</definition>
+        <argsstring>(long seed)</argsstring>
+        <name>setRandSeed</name>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1afecfed1791c37b6d9fe13be4f3594cc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.getCloudFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getCloudFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the cloudFactor </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a5152d8ce1f78b226ba2879451d26ed06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.getTemperature</definition>
+        <argsstring>()</argsstring>
+        <name>getTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the temperature </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a9d36b8f3f17b3f343fae34e0bf7ed23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.Weather.getWindSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>getWindSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the windSpeed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="68" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="68" bodyend="72"/>
+        <referencedby refid="classsgs_1_1model_1_1_c_s_v_model_1ad813d09f3ecd96155bfecf3a07f07466" compoundref="_c_s_v_model_8java" startline="161" endline="189">sgs.model.CSVModel.createCSVLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1a18f222b2a64bbb3191995b82543d6b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.Weather.newWindSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>newWindSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="76" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_weather_1af8700c1c089fd43cb89b2d0912b086ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.Weather.newCloudFactor</definition>
+        <argsstring>()</argsstring>
+        <name>newCloudFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the cloudFactor to a new value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="86" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="86" bodyend="113"/>
+        <references refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1ab89d21fa8e6d8d155522feefd6f0fb22" compoundref="_weather_8java" startline="20">sgs.controller.simulation.Weather.WEATHER.rainy</references>
+        <references refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1abfd5e1962fe7a1b6d114e8fde6375cb2" compoundref="_weather_8java" startline="20">sgs.controller.simulation.Weather.WEATHER.cloudy</references>
+        <references refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1af3a224fd6543b002f991e47b945c800e" compoundref="_weather_8java" startline="20">sgs.controller.simulation.Weather.WEATHER.clear</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4467">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4466">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4467" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4468" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4468">
+        <label>Random</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="11" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1ae3a4d82e2457d40ff65f35be81c59192" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>cloudChangeMean</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a6870bcd7ef48f8cc3986da36b9004db7" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>cloudFactor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1afecfed1791c37b6d9fe13be4f3594cc9" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>getCloudFactor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a5152d8ce1f78b226ba2879451d26ed06" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>getTemperature</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a9d36b8f3f17b3f343fae34e0bf7ed23b" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>getWindSpeed</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1af8700c1c089fd43cb89b2d0912b086ed" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>newCloudFactor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a18f222b2a64bbb3191995b82543d6b28" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>newWindSpeed</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1aee10e9b55ad4d2856dd8f7a56fa13c2d" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>RAND</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a0928ff61c6a722bf23ca3810707e2f15" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>setRandSeed</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a3215ff314f668de65aa34ea050e0e125" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>state</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a86d2e4178ddf4b86ad202506e53ecc8e" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>temperature</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a933172ff9e97c84576822553104aac51" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>Weather</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a550963dbf19e20257054fc681c200ed6" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>windSpeed</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a04210b0bb7de9e2692ebc99a01166c58" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::Weather</scope><name>windSpeedDistribution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

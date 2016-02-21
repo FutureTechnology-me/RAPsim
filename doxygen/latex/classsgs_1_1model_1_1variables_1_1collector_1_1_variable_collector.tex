@@ -1,0 +1,204 @@
+\section{sgs.\-model.\-variables.\-collector.\-Variable\-Collector Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector}\index{sgs.\-model.\-variables.\-collector.\-Variable\-Collector@{sgs.\-model.\-variables.\-collector.\-Variable\-Collector}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Collector} ({\bf Enum\-P\-V} {\bf variable\-Name})
+\item 
+{\bf Single\-Variable} {\bf get\-Single\-Variable} ()
+\item 
+{\bf Enum\-P\-V} {\bf get\-Variable\-Name} ()
+\item 
+abstract {\bf Numeric\-Value} {\bf get\-Value} ()
+\item 
+abstract int {\bf get\-Number\-Of\-Values} ()
+\item 
+abstract void {\bf rest\-Values} ()
+\item 
+abstract boolean {\bf collect\-From} ({\bf Variable\-Owner} owner)
+\item 
+abstract {\bf Variable\-Collector} {\bf copy} ()
+\item 
+String {\bf to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final {\bf Enum\-P\-V} {\bf variable\-Name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Variable\-Collector.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!Variable\-Collector@{Variable\-Collector}}
+\index{Variable\-Collector@{Variable\-Collector}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{Variable\-Collector}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-Variable\-Collector (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af5ca5b1481c5433ba4ca9d75a8501206}
+Basic abstract constructor with the variable name. 
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Variable\-Collector.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!collect\-From@{collect\-From}}
+\index{collect\-From@{collect\-From}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{collect\-From}]{\setlength{\rightskip}{0pt plus 5cm}abstract boolean sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-collect\-From (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Owner}}]{owner}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a7771a65b96725beb168579ff6003f6e6}
+Adds interesting variable values from the variable owner 
+\begin{DoxyParams}{Parameters}
+{\em owner1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a value was collected 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a8a4de567b52c4d6ea940d0bbf8a6ad6f}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Max} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_a45ed58245b0492167a22789f6be25dd4}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Min} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_aa0fe40a9823aceb23fb722865d88a685}, and {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a4c76b1bd73bca0e41218404b61b3eec6}.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Variable\-Collector} sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af657fdd311577e7f5f155283a8e816ff}
+\begin{DoxyReturn}{Returns}
+a copy of this Collector 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a5d39690ac71ac46bfff6f16a60f184f0}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Max} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_a802b12c45a248381d8c04e5e15861077}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Min} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_ad0a5a4bfdff13da40993710a23d61d8a}, and {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a6478994329df7aa2537e932f458650b9}.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!get\-Number\-Of\-Values@{get\-Number\-Of\-Values}}
+\index{get\-Number\-Of\-Values@{get\-Number\-Of\-Values}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{get\-Number\-Of\-Values}]{\setlength{\rightskip}{0pt plus 5cm}abstract int sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-get\-Number\-Of\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af7069a996dfec379cbc334f294b5511a}
+\begin{DoxyReturn}{Returns}
+the number of collected values 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a61e5766327fa1d008e2fa0be5139ab02}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Max} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_aa0af1b3c935b54b55c916e63b3154249}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Min} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_a8e56f9b219443cf55c24ae40f9a282d9}, and {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a90325799de732e7b4537c09508b005c9}.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!get\-Single\-Variable@{get\-Single\-Variable}}
+\index{get\-Single\-Variable@{get\-Single\-Variable}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{get\-Single\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-get\-Single\-Variable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a6812701367b992972241901ca2e6d5c4}
+\begin{DoxyReturn}{Returns}
+\doxyref{Single\-Variable}{p.}{classsgs_1_1model_1_1variables_1_1_single_variable} from this collector 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file Variable\-Collector.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Numeric\-Value} sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-get\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_aafa53635c29d137ed70912b31fe75e6a}
+\begin{DoxyReturn}{Returns}
+the collected numeric value 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a60eba25ad500837d28142d1e0d018813}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Max} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_ac500ee54a97a2f522ebab2fbe1e2a8dc}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Min} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_a6a2b9934e3703ca747694e479bee0d66}, and {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_ada41437c5497b71c2da0c337ae2c1dcf}.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!get\-Variable\-Name@{get\-Variable\-Name}}
+\index{get\-Variable\-Name@{get\-Variable\-Name}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{get\-Variable\-Name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enum\-P\-V} sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-get\-Variable\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_adc69dc2f026ba66dd7838f970661c56a}
+\begin{DoxyReturn}{Returns}
+the variable name which should be collected. 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Variable\-Collector.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!rest\-Values@{rest\-Values}}
+\index{rest\-Values@{rest\-Values}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{rest\-Values}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-rest\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a54200215ba9e58439e720502bbedb507}
+resets values to zero. 
+
+Implemented in {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a11eaddd18e8811a3a96f5812882c76c4}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Max} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_a4368be246b5718395027ba28defb4a4e}, {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Min} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_af9d00b3bfb365ebbe3eef7d5a506c757}, and {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_adbc18741513067dd5b26f9b3834a1771}.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a0b595f78b3304a12f5a3538c8ea40f27}
+
+
+Definition at line 63 of file Variable\-Collector.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}!variable\-Name@{variable\-Name}}
+\index{variable\-Name@{variable\-Name}!sgs::model::variables::collector::VariableCollector@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector}}
+\subsubsection[{variable\-Name}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Enum\-P\-V} sgs.\-model.\-variables.\-collector.\-Variable\-Collector.\-variable\-Name}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a74d0063f34aee84055449e78ff1dac65}
+The variable to collect 
+
+Definition at line 10 of file Variable\-Collector.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/collector/{\bf Variable\-Collector.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,104 @@
+.TH "sgs.model.FileChooserModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.FileChooserModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBcreateHead\fP (int algo)"
+.br
+.ti -1c
+.RI "static void \fBcreateCSV\fP (String data)"
+.br
+.ti -1c
+.RI "static void \fBdeleteCSV\fP ()"
+.br
+.ti -1c
+.RI "static File \fBgetCSV\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static File \fBcsv\fP = new File('\&./simulation\&.csv')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+hs Model to create the csv file 
+.RE
+.PP
+
+.PP
+Definition at line 14 of file FileChooserModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static void sgs\&.model\&.FileChooserModel\&.createCSV (Stringdata)\fC [static]\fP"
+write all other data, without a header 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhead\fP Header 
+.br
+\fIdata\fP every data that algorithem gives 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIIOException\fP e 
+.RE
+.PP
+
+.PP
+Definition at line 57 of file FileChooserModel\&.java\&.
+.SS "static void sgs\&.model\&.FileChooserModel\&.createHead (intalgo)\fC [static]\fP"
+create the header in the csv-file 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhead\fP 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIIOException\fP e 
+.RE
+.PP
+
+.PP
+Definition at line 23 of file FileChooserModel\&.java\&.
+.SS "static void sgs\&.model\&.FileChooserModel\&.deleteCSV ()\fC [static]\fP"
+delete the CSV-File 
+.PP
+Definition at line 74 of file FileChooserModel\&.java\&.
+.SS "static File sgs\&.model\&.FileChooserModel\&.getCSV ()\fC [static]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+csv type 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file FileChooserModel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "File sgs\&.model\&.FileChooserModel\&.csv = new File('\&./simulation\&.csv')\fC [static]\fP"
+
+.PP
+Definition at line 16 of file FileChooserModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

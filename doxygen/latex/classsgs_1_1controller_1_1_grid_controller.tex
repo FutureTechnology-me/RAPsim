@@ -1,0 +1,571 @@
+\section{sgs.\-controller.\-Grid\-Controller Class Reference}
+\label{classsgs_1_1controller_1_1_grid_controller}\index{sgs.\-controller.\-Grid\-Controller@{sgs.\-controller.\-Grid\-Controller}}
+
+
+Collaboration diagram for sgs.\-controller.\-Grid\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Grid\-Controller} ({\bf Sgs\-Grid\-Model} {\bf grid\-Model}, Primary\-View\-I view)
+\item 
+void {\bf actionfor\-\_\-paste\-Copied\-Object} ()
+\item 
+void {\bf add\-Grid\-Object} ({\bf Grid\-Data\-Enum} enu, int x, int y)
+\item 
+{\bf Smart\-Grid\-Object} {\bf add\-Grid\-Object} ({\bf Smart\-Grid\-Object} sso, int x, int y)
+\item 
+void {\bf calculate\-Power\-Lines} (int x, int y, int check\-Neighbours)
+\item 
+void {\bf calculate\-Supra\-Lines} (int x, int y, int Check\-Neighbours)
+\item 
+void {\bf clear\-Grid} ()
+\item 
+void {\bf close\-All\-Object\-Parameter\-Windows} ()
+\item 
+void {\bf actionfor\-\_\-copy\-Grid\-Object} ()
+\item 
+void {\bf actionfor\-\_\-delete\-Object} ()
+\item 
+void {\bf actionfor\-\_\-cut\-Off\-Object} ()
+\item 
+void {\bf delete\-Grid\-Object} (int x, int y)
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf get\-All\-Neighbors\-From} (Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ to\-Visit, {\bf Smart\-Grid\-Object} sgo)
+\item 
+boolean {\bf get\-Cell\-Status} (int x, int y)
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf get\-Direct\-Neighbors\-From} (Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ to\-Visit, {\bf Smart\-Grid\-Object} sgo)
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf get\-Direct\-Neighbors\-From} (Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ not\-Visited, Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ start\-Objects)
+\item 
+{\bf Sgs\-Grid\-Model} {\bf get\-Model} ()
+\item 
+void {\bf refresh\-All\-Object\-Parameter\-Windows} ()
+\item 
+void {\bf set\-Undo\-Manager} (Undo\-Manager {\bf undo\-Manager})
+\item 
+void {\bf actionfor\-\_\-undo} ()
+\item 
+void {\bf actionfor\-\_\-redo} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final {\bf Grid\-Map\-Listener} {\bf grid\-Map\-Listener}
+\item 
+final {\bf Sgs\-Grid\-Model} {\bf grid\-Model}
+\item 
+final {\bf Color\-Overlay\-Controller} {\bf color\-Overlay\-Controller}
+\item 
+int[$\,$] {\bf temp\-Remember\-Mark\-Object}
+\item 
+Undo\-Manager {\bf undo\-Manager} = new Undo\-Manager()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides most methods for editing the Grid\-Model.
+
+Initializes the \doxyref{Grid\-Map\-Listener}{p.}{classsgs_1_1controller_1_1_grid_map_listener}. Loads images for the J\-G\-M (load\-Images\-New) Adds and deletes Grid\-Objects. Provides logics for neighbor detection and power-\/line drawing.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger, Sabrina Huber 
+\end{DoxyAuthor}
+
+
+Definition at line 38 of file Grid\-Controller.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!Grid\-Controller@{Grid\-Controller}}
+\index{Grid\-Controller@{Grid\-Controller}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{Grid\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-Grid\-Controller.\-Grid\-Controller (
+\begin{DoxyParamCaption}
+\item[{{\bf Sgs\-Grid\-Model}}]{grid\-Model, }
+\item[{Primary\-View\-I}]{view}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a978ca11d514f0772e2ac431e3853573a}
+Constructor\-:
+\begin{DoxyItemize}
+\item Creates \doxyref{Grid\-Map\-Listener}{p.}{classsgs_1_1controller_1_1_grid_map_listener}.
+\item Loads Object Images. 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Model} & \\
+\hline
+{\em view} & \\
+\hline
+\end{DoxyParams}
+
+\end{DoxyItemize}
+
+Definition at line 59 of file Grid\-Controller.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-copy\-Grid\-Object@{actionfor\-\_\-copy\-Grid\-Object}}
+\index{actionfor\-\_\-copy\-Grid\-Object@{actionfor\-\_\-copy\-Grid\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-copy\-Grid\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-copy\-Grid\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a891db4d388fa6ff886bdf2fec1139dba}
+
+
+Definition at line 402 of file Grid\-Controller.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-cut\-Off\-Object@{actionfor\-\_\-cut\-Off\-Object}}
+\index{actionfor\-\_\-cut\-Off\-Object@{actionfor\-\_\-cut\-Off\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-cut\-Off\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-cut\-Off\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_ac0e573c584ad96bad9abc43498d5ca6a}
+grid\-Controller action for cut off an object from the grid. 
+
+Definition at line 437 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-delete\-Object@{actionfor\-\_\-delete\-Object}}
+\index{actionfor\-\_\-delete\-Object@{actionfor\-\_\-delete\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-delete\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-delete\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a4fad26034fb868c4c30f94a4d32e39c9}
+grid\-Controller action for deleting an object from the grid this method only deletes an object wich has a mark on it. 
+
+Definition at line 420 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-paste\-Copied\-Object@{actionfor\-\_\-paste\-Copied\-Object}}
+\index{actionfor\-\_\-paste\-Copied\-Object@{actionfor\-\_\-paste\-Copied\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-paste\-Copied\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-paste\-Copied\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_adadf8d7ceb2a752e51c5575c948c794c}
+
+
+Definition at line 72 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-redo@{actionfor\-\_\-redo}}
+\index{actionfor\-\_\-redo@{actionfor\-\_\-redo}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-redo}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-redo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a72a0aea19a267c0baaa5fc0537641e41}
+
+
+Definition at line 692 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!actionfor\-\_\-undo@{actionfor\-\_\-undo}}
+\index{actionfor\-\_\-undo@{actionfor\-\_\-undo}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{actionfor\-\_\-undo}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-actionfor\-\_\-undo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a7388ae76755e5be1c9c069b75adb6f85}
+
+
+Definition at line 678 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!add\-Grid\-Object@{add\-Grid\-Object}}
+\index{add\-Grid\-Object@{add\-Grid\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{add\-Grid\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-add\-Grid\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Data\-Enum}}]{enu, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_af11f6a5fef2505c0e35d84dd24576140}
+Add an grid object with it's corresponding enum. Initializes the object with the choosen model 
+\begin{DoxyParams}{Parameters}
+{\em enu} & -\/ enum for an Smart\-Sim\-Object \\
+\hline
+{\em x} & -\/ new coordinate \\
+\hline
+{\em y} & -\/ new coordinate \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 101 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!add\-Grid\-Object@{add\-Grid\-Object}}
+\index{add\-Grid\-Object@{add\-Grid\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{add\-Grid\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Smart\-Grid\-Object} sgs.\-controller.\-Grid\-Controller.\-add\-Grid\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Smart\-Grid\-Object}}]{sso, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_ad47df913c488e5483a2d6e51645e115c}
+Add an grid object directly. 
+\begin{DoxyParams}{Parameters}
+{\em enu} & -\/ enum for an Smart\-Sim\-Object \\
+\hline
+{\em x} & -\/ new coordinate \\
+\hline
+{\em y} & -\/ new coordinate \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 122 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!calculate\-Power\-Lines@{calculate\-Power\-Lines}}
+\index{calculate\-Power\-Lines@{calculate\-Power\-Lines}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{calculate\-Power\-Lines}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-calculate\-Power\-Lines (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{check\-Neighbours}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_ae777470ebfbeb7842b92a4ffa2346876}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em check\-Neighbours} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 173 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!calculate\-Supra\-Lines@{calculate\-Supra\-Lines}}
+\index{calculate\-Supra\-Lines@{calculate\-Supra\-Lines}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{calculate\-Supra\-Lines}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-calculate\-Supra\-Lines (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{Check\-Neighbours}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_aa027456957639536e48a5c9edf13224c}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em Check\-Neighbours} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 236 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!clear\-Grid@{clear\-Grid}}
+\index{clear\-Grid@{clear\-Grid}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{clear\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-clear\-Grid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a24835803ad4c222706e7295013805dea}
+
+
+Definition at line 359 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!close\-All\-Object\-Parameter\-Windows@{close\-All\-Object\-Parameter\-Windows}}
+\index{close\-All\-Object\-Parameter\-Windows@{close\-All\-Object\-Parameter\-Windows}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{close\-All\-Object\-Parameter\-Windows}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-close\-All\-Object\-Parameter\-Windows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a3f64a2f938f89a44e8a35fe3a59ebcaa}
+Closes all opened parameter windows. 
+
+Definition at line 384 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!delete\-Grid\-Object@{delete\-Grid\-Object}}
+\index{delete\-Grid\-Object@{delete\-Grid\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{delete\-Grid\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-delete\-Grid\-Object (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a7ae273666f77869f15f20f960d598a14}
+Delete an instance in the J\-G\-M at the coordinates. In 2\-D Object Array, 2\-D I\-D Array and 1\-D List. 
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 451 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!get\-All\-Neighbors\-From@{get\-All\-Neighbors\-From}}
+\index{get\-All\-Neighbors\-From@{get\-All\-Neighbors\-From}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{get\-All\-Neighbors\-From}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-controller.\-Grid\-Controller.\-get\-All\-Neighbors\-From (
+\begin{DoxyParamCaption}
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{to\-Visit, }
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_ab328ef11d6524d4cccdef6c183bcfc1b}
+
+\begin{DoxyParams}{Parameters}
+{\em to\-Visit} & -\/ only these objects will be used. Null = use all grid objects \\
+\hline
+{\em sgo} & -\/ start point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all neighbors from object and from the neighbors of neighbors. 
+\end{DoxyReturn}
+
+
+Definition at line 496 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!get\-Cell\-Status@{get\-Cell\-Status}}
+\index{get\-Cell\-Status@{get\-Cell\-Status}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{get\-Cell\-Status}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-Grid\-Controller.\-get\-Cell\-Status (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_aad3f0a004b73427c07949e67dd1f7ba0}
+Doesn't just read the array but checks if it's out of the array. Furthermore, this returns true if it's not empty. 
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if coordinate is not empty, false in all other cases. 
+\end{DoxyReturn}
+
+
+Definition at line 524 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!get\-Direct\-Neighbors\-From@{get\-Direct\-Neighbors\-From}}
+\index{get\-Direct\-Neighbors\-From@{get\-Direct\-Neighbors\-From}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{get\-Direct\-Neighbors\-From}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-controller.\-Grid\-Controller.\-get\-Direct\-Neighbors\-From (
+\begin{DoxyParamCaption}
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{to\-Visit, }
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a17ab80fb364ca37e00b2e51d51749be8}
+Based on all Smart\-Grid\-Objects in Model. 
+\begin{DoxyParams}{Parameters}
+{\em to\-Visit} & -\/ only these objects will be used. Found objects will be removed. Null = use all grid objects \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of neighbors which were in the list 
+\end{DoxyReturn}
+
+
+Definition at line 543 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!get\-Direct\-Neighbors\-From@{get\-Direct\-Neighbors\-From}}
+\index{get\-Direct\-Neighbors\-From@{get\-Direct\-Neighbors\-From}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{get\-Direct\-Neighbors\-From}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-controller.\-Grid\-Controller.\-get\-Direct\-Neighbors\-From (
+\begin{DoxyParamCaption}
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{not\-Visited, }
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{start\-Objects}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_af9c4b0e1c87a9cc3fbefb413b9c5e095}
+
+\begin{DoxyParams}{Parameters}
+{\em not\-Visited} & -\/ only these objects will be \char`\"{}visited\char`\"{}, may also be start\-Objects. null... use all grid objects E\-X\-C\-L\-U\-D\-I\-N\-G start\-Objects. \\
+\hline
+{\em start\-Objects} & -\/ objects to start from (normally a cluster of objects), not changed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List with direct neighbors of objects in sgos. 
+\end{DoxyReturn}
+
+
+Definition at line 571 of file Grid\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!get\-Model@{get\-Model}}
+\index{get\-Model@{get\-Model}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{get\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sgs\-Grid\-Model} sgs.\-controller.\-Grid\-Controller.\-get\-Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a67ad362866e0315031fd18203cbe505c}
+
+
+Definition at line 588 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!refresh\-All\-Object\-Parameter\-Windows@{refresh\-All\-Object\-Parameter\-Windows}}
+\index{refresh\-All\-Object\-Parameter\-Windows@{refresh\-All\-Object\-Parameter\-Windows}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{refresh\-All\-Object\-Parameter\-Windows}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-refresh\-All\-Object\-Parameter\-Windows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_ab4246bcba82c625bef049eed6e0a1200}
+Closes all opened parameter windows. 
+
+Definition at line 653 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!set\-Undo\-Manager@{set\-Undo\-Manager}}
+\index{set\-Undo\-Manager@{set\-Undo\-Manager}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{set\-Undo\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Grid\-Controller.\-set\-Undo\-Manager (
+\begin{DoxyParamCaption}
+\item[{Undo\-Manager}]{undo\-Manager}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_grid_controller_a11ef93dab2ef0e18a38e7d89750b3ac2}
+\begin{DoxyAuthor}{Author}
+Sabrina Huber received from the \doxyref{Primary\-Controller}{p.}{classsgs_1_1controller_1_1_primary_controller} an Undo\-Manger, Set the correct undo manager 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em undo\-Manager} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 672 of file Grid\-Controller.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!color\-Overlay\-Controller@{color\-Overlay\-Controller}}
+\index{color\-Overlay\-Controller@{color\-Overlay\-Controller}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{color\-Overlay\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Color\-Overlay\-Controller} sgs.\-controller.\-Grid\-Controller.\-color\-Overlay\-Controller}\label{classsgs_1_1controller_1_1_grid_controller_a890283a58628bb422a953d93ea60397b}
+
+
+Definition at line 42 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!grid\-Map\-Listener@{grid\-Map\-Listener}}
+\index{grid\-Map\-Listener@{grid\-Map\-Listener}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{grid\-Map\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Grid\-Map\-Listener} sgs.\-controller.\-Grid\-Controller.\-grid\-Map\-Listener}\label{classsgs_1_1controller_1_1_grid_controller_aaf2fb77dbd1b055887ce210c0bad8da2}
+
+
+Definition at line 40 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!grid\-Model@{grid\-Model}}
+\index{grid\-Model@{grid\-Model}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{grid\-Model}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Sgs\-Grid\-Model} sgs.\-controller.\-Grid\-Controller.\-grid\-Model}\label{classsgs_1_1controller_1_1_grid_controller_a0de79380caddcd9f3002e31a04e68d68}
+
+
+Definition at line 41 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!temp\-Remember\-Mark\-Object@{temp\-Remember\-Mark\-Object}}
+\index{temp\-Remember\-Mark\-Object@{temp\-Remember\-Mark\-Object}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{temp\-Remember\-Mark\-Object}]{\setlength{\rightskip}{0pt plus 5cm}int [$\,$] sgs.\-controller.\-Grid\-Controller.\-temp\-Remember\-Mark\-Object}\label{classsgs_1_1controller_1_1_grid_controller_a80bf55a6d1efeb8c0114d36256bc2b44}
+
+
+Definition at line 47 of file Grid\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Grid\-Controller@{sgs\-::controller\-::\-Grid\-Controller}!undo\-Manager@{undo\-Manager}}
+\index{undo\-Manager@{undo\-Manager}!sgs::controller::GridController@{sgs\-::controller\-::\-Grid\-Controller}}
+\subsubsection[{undo\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Undo\-Manager sgs.\-controller.\-Grid\-Controller.\-undo\-Manager = new Undo\-Manager()}\label{classsgs_1_1controller_1_1_grid_controller_a45b56b590f556e6a817061dc5a2f7596}
+
+
+Definition at line 48 of file Grid\-Controller.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/{\bf Grid\-Controller.\-java}\end{DoxyCompactItemize}

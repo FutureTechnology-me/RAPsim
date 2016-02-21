@@ -1,0 +1,17 @@
+digraph "sgs.model.variables.SingleVariable.copyKeepProperties"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.variables.Single\lVariable.copyKeepProperties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.model.variables.Single\lVariable.SingleVariable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_single_variable.html#afce2cf6c1b9a102610913967f3d473ea"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.model.variables.Single\lVariable.name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_single_variable.html#a6b227ad216f90a6b340e9d5b479433b7"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.model.variables.Single\lVariable.value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_single_variable.html#a3e3144cc9b6cb32790a315aa88bbda31"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="sgs.model.variables.Single\lVariable.unit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_single_variable.html#a3884cb1e57a105fdddbd8794c399b61e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+}

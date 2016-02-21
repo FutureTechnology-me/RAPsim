@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_b23003d7924a12d8dc324a51cf627a32" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/variables</compoundname>
+    <innerdir refid="dir_6c31ab5fdac2611d1bca327d645f4b83">RAPSim/src/sgs/model/variables/collector</innerdir>
+    <innerfile refid="_abstract_value_8java">AbstractValue.java</innerfile>
+    <innerfile refid="_enum_p_v_8java">EnumPV.java</innerfile>
+    <innerfile refid="_enum_unit_8java">EnumUnit.java</innerfile>
+    <innerfile refid="_numeric_value_8java">NumericValue.java</innerfile>
+    <innerfile refid="_single_variable_8java">SingleVariable.java</innerfile>
+    <innerfile refid="_string_value_8java">StringValue.java</innerfile>
+    <innerfile refid="_variable_properties_8java">VariableProperties.java</innerfile>
+    <innerfile refid="_variable_set_8java">VariableSet.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/"/>
+  </compounddef>
+</doxygen>

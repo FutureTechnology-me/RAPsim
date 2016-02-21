@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_91f1ede7c937e1f930005bcd8bc1b745" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/objectModels</compoundname>
+    <innerfile refid="_abstract_consumer_model_8java">AbstractConsumerModel.java</innerfile>
+    <innerfile refid="_abstract_custom_consumer_model_8java">AbstractCustomConsumerModel.java</innerfile>
+    <innerfile refid="_abstract_custom_power_plant_model_8java">AbstractCustomPowerPlantModel.java</innerfile>
+    <innerfile refid="_abstract_fossil_fuel_power_plant_model_8java">AbstractFossilFuelPowerPlantModel.java</innerfile>
+    <innerfile refid="_abstract_model_8java">AbstractModel.java</innerfile>
+    <innerfile refid="_abstract_power_line_model_8java">AbstractPowerLineModel.java</innerfile>
+    <innerfile refid="_abstract_power_plant_model_8java">AbstractPowerPlantModel.java</innerfile>
+    <innerfile refid="_abstract_solar_power_plant_model_8java">AbstractSolarPowerPlantModel.java</innerfile>
+    <innerfile refid="_abstract_wind_power_plant_model_8java">AbstractWindPowerPlantModel.java</innerfile>
+    <innerfile refid="_constant_demand_model_8java">ConstantDemandModel.java</innerfile>
+    <innerfile refid="_constant_power_model_8java">ConstantPowerModel.java</innerfile>
+    <innerfile refid="_fossil_fuel_model_8java">FossilFuelModel.java</innerfile>
+    <innerfile refid="_pi_equivalent_power_line_8java">PiEquivalentPowerLine.java</innerfile>
+    <innerfile refid="_random_wind_turbine_model_8java">RandomWindTurbineModel.java</innerfile>
+    <innerfile refid="_residential_average_load_curve_model_8java">ResidentialAverageLoadCurveModel.java</innerfile>
+    <innerfile refid="_solar_peak_power_model_8java">SolarPeakPowerModel.java</innerfile>
+    <innerfile refid="_solar_square_meter_model_8java">SolarSquareMeterModel.java</innerfile>
+    <innerfile refid="_time_series_model_8java">TimeSeriesModel.java</innerfile>
+    <innerfile refid="_usual_wind_turbine_model_8java">UsualWindTurbineModel.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/"/>
+  </compounddef>
+</doxygen>

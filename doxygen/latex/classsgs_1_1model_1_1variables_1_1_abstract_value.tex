@@ -1,0 +1,213 @@
+\section{sgs.\-model.\-variables.\-Abstract\-Value Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1_abstract_value}\index{sgs.\-model.\-variables.\-Abstract\-Value@{sgs.\-model.\-variables.\-Abstract\-Value}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-Abstract\-Value\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void {\bf set\-Value} (String value)
+\item 
+abstract void {\bf set\-Value} (double d)
+\item 
+abstract void {\bf set\-Value} (Complex complex)
+\item 
+abstract void {\bf set\-Value} ({\bf Numeric\-Value} numeric\-Value)
+\item 
+abstract String {\bf get\-Value} ()
+\item 
+abstract double {\bf get\-Value\-Double} ()
+\item 
+abstract Complex {\bf get\-Value\-Complex} ()
+\item 
+abstract {\bf Numeric\-Value} {\bf get\-Value\-Numeric} ()
+\item 
+String {\bf to\-String} ()
+\item 
+abstract {\bf Abstract\-Value} {\bf copy} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract class for values in One\-Attribute.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 10 of file Abstract\-Value.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Abstract\-Value} sgs.\-model.\-variables.\-Abstract\-Value.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_af49900974715ee7e126a5ff1a2447e54}
+\begin{DoxyReturn}{Returns}
+a Copy up to primitive variables from this Value. 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_a67b3d7415b97441e6873dd0a7baf2faa}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_aa201d795aad9e77ac976628dfe28b3fe}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract String sgs.\-model.\-variables.\-Abstract\-Value.\-get\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_a3a5d5a21d3bd1495a1838b8c80577ced}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ a object the specific value class. Should be of correct type. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a string representation of the value 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_a94328f735bb9f46802eaaaac3d1be22a}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_ab89df3aa96602c11511410c246c31eb3}.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!get\-Value\-Complex@{get\-Value\-Complex}}
+\index{get\-Value\-Complex@{get\-Value\-Complex}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{get\-Value\-Complex}]{\setlength{\rightskip}{0pt plus 5cm}abstract Complex sgs.\-model.\-variables.\-Abstract\-Value.\-get\-Value\-Complex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_ab64f2f85962cbd5f64a3d6fcec48c7f7}
+\begin{DoxyReturn}{Returns}
+a complex representation of the value, zero for non numeric values 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_a86e37d661cc4037723e741a72381548a}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_ad6b7e1c3e52a043d41552168143eef5c}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!get\-Value\-Double@{get\-Value\-Double}}
+\index{get\-Value\-Double@{get\-Value\-Double}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{get\-Value\-Double}]{\setlength{\rightskip}{0pt plus 5cm}abstract double sgs.\-model.\-variables.\-Abstract\-Value.\-get\-Value\-Double (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_a32847acbd987b208d7476d27533b03aa}
+\begin{DoxyReturn}{Returns}
+a double representation of the value, zero for non numeric values. 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_aef1deef65282bd1a11e38b13ff28c170}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_a1f952cd7a2f52c76aad33fdc89734d08}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!get\-Value\-Numeric@{get\-Value\-Numeric}}
+\index{get\-Value\-Numeric@{get\-Value\-Numeric}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{get\-Value\-Numeric}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Numeric\-Value} sgs.\-model.\-variables.\-Abstract\-Value.\-get\-Value\-Numeric (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_afac060f54bacf38fadef479f2fdaa3e7}
+\begin{DoxyReturn}{Returns}
+a value object, handle with care 
+
+a \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value} object or null 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_ab6641fd048ee59f445583d0766146fc1}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_aec5c8de18518603fb47cc8648682fb3d}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-variables.\-Abstract\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_a2fa5c112dbbda6b5ccd79ec01b1f60ef}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ a String representation of the specific value class. Should be parsable. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_a517ee688776cd27ed63dd757b2c6eb2a}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_a163ca690f6738526d89d5a98bec608cc}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-variables.\-Abstract\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_ae9f192f5db113e7a60c6d0aa3ecf0f49}
+
+\begin{DoxyParams}{Parameters}
+{\em d} & -\/ a double value. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_a43bb45b608188594bbf7b64cb6477ed9}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_af532a2248086df7bdeb3bcc50fca0957}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-variables.\-Abstract\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{Complex}]{complex}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_a485cf1c7245763fe5a9fc9f7f129e319}
+
+\begin{DoxyParams}{Parameters}
+{\em complex} & -\/ a Complex value. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_ac36c5aeceb7a8fc4b1ff3fda50a8f084}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_acde2371da032f0f3644ab8433ceb043b}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-variables.\-Abstract\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{numeric\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_ae8d35bb0e455101bdc967dbe93d64302}
+
+\begin{DoxyParams}{Parameters}
+{\em numeric\-Value} & -\/ \{real,imaginary\}. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in {\bf sgs.\-model.\-variables.\-Numeric\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value_aca633fddcade38eaf819194831eaea29}, and {\bf sgs.\-model.\-variables.\-String\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_string_value_a0cd82d2ad64d37991c8ff2cb2ad42eaa}.
+
+\index{sgs\-::model\-::variables\-::\-Abstract\-Value@{sgs\-::model\-::variables\-::\-Abstract\-Value}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::AbstractValue@{sgs\-::model\-::variables\-::\-Abstract\-Value}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Abstract\-Value.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_abstract_value_ad30f0aea88e8fd715b7783caf5448f8a}
+\begin{DoxyReturn}{Returns}
+A string representation of the value, similar to \char`\"{}\-String get\-Value()\char`\"{} 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file Abstract\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/{\bf Abstract\-Value.\-java}\end{DoxyCompactItemize}

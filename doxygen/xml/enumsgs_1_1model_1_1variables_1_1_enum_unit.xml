@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1variables_1_1_enum_unit" kind="enum" prot="public">
+    <compoundname>sgs::model::variables::EnumUnit</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.watt</definition>
+        <argsstring></argsstring>
+        <name>watt</name>
+        <initializer>=(&quot;W&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="14" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a4795c541d8635e4f1a0e9c77c8f0ff4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.volt</definition>
+        <argsstring></argsstring>
+        <name>volt</name>
+        <initializer>=(&quot;V&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1a148bb5187fa70a3561decb9f255d3f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.ampere</definition>
+        <argsstring></argsstring>
+        <name>ampere</name>
+        <initializer>=(&quot;A&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2ec1aada0f421879b28f9cb7cf3ccf64" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.ohm</definition>
+        <argsstring></argsstring>
+        <name>ohm</name>
+        <initializer>=(&quot;OHM&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line_1a603787f23aaf1fa6edd75d87a73e125e" compoundref="_pi_equivalent_power_line_8java" startline="47" endline="52">sgs.model.objectModels.PiEquivalentPowerLine.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1206ae6f8f049f75552f47d9f4aeeea3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.degree</definition>
+        <argsstring></argsstring>
+        <name>degree</name>
+        <initializer>=(&quot;°&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" compoundref="_solar_peak_power_model_8java" startline="54" endline="63">sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42" compoundref="_solar_square_meter_model_8java" startline="50" endline="58">sgs.model.objectModels.SolarSquareMeterModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa342b8311adf73025b6b84bc4518d16b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.squareMeters</definition>
+        <argsstring></argsstring>
+        <name>squareMeters</name>
+        <initializer>=(&quot;m²&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" compoundref="_solar_peak_power_model_8java" startline="54" endline="63">sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42" compoundref="_solar_square_meter_model_8java" startline="50" endline="58">sgs.model.objectModels.SolarSquareMeterModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1abe95bbf6b2686d399b1caeb429bab725" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.kilometers</definition>
+        <argsstring></argsstring>
+        <name>kilometers</name>
+        <initializer>=(&quot;km&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" compoundref="_solar_peak_power_model_8java" startline="54" endline="63">sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42" compoundref="_solar_square_meter_model_8java" startline="50" endline="58">sgs.model.objectModels.SolarSquareMeterModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a7634ba5fe813f73a37a37bf69b8f7fe1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <initializer>=(&quot;%&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a4b289989148665c9bb6b7efec18519ad" compoundref="_fossil_fuel_model_8java" startline="69" endline="83">sgs.model.objectModels.FossilFuelModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a5af4ec6acc5c2947ef30ed9693e1a9fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.percentDiv100</definition>
+        <argsstring></argsstring>
+        <name>percentDiv100</name>
+        <initializer>=(&quot;% /100&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" compoundref="_solar_peak_power_model_8java" startline="54" endline="63">sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42" compoundref="_solar_square_meter_model_8java" startline="50" endline="58">sgs.model.objectModels.SolarSquareMeterModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a301bf8b68dff6a4dc7f180c7dda8df9d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.none</definition>
+        <argsstring></argsstring>
+        <name>none</name>
+        <initializer>=(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1afbcfb2124fbe8d566e9b7f5d4c45f9de" compoundref="_random_wind_turbine_model_8java" startline="77" endline="80">sgs.model.objectModels.RandomWindTurbineModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa7cac3efbaa67323d19b2ca319e413b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.meterPerSecond</definition>
+        <argsstring></argsstring>
+        <name>meterPerSecond</name>
+        <initializer>=(&quot;m/s&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a22fde8ba023526cad0657666e16eb499" compoundref="_usual_wind_turbine_model_8java" startline="33" endline="40">sgs.model.objectModels.UsualWindTurbineModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a79841e3be984e7cef7de14b3c8fab1d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.kiloWattHour</definition>
+        <argsstring></argsstring>
+        <name>kiloWattHour</name>
+        <initializer>=(&quot;kWh&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a3d32dd4cbfcfdc460ac1b188eb8b9425" compoundref="_residential_average_load_curve_model_8java" startline="51" endline="54">sgs.model.objectModels.ResidentialAverageLoadCurveModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a91d2910121ea4f62288bab819a117224" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.hertz</definition>
+        <argsstring></argsstring>
+        <name>hertz</name>
+        <initializer>=(&quot;Hz&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2c5ac6d71efc9d4d16325625a7030a3e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.liter</definition>
+        <argsstring></argsstring>
+        <name>liter</name>
+        <initializer>=(&quot;l&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a4b289989148665c9bb6b7efec18519ad" compoundref="_fossil_fuel_model_8java" startline="69" endline="83">sgs.model.objectModels.FossilFuelModel.initVariableSet</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aaf699063b5685e0f942d1b71da9e4f20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.TODO</definition>
+        <argsstring></argsstring>
+        <name>TODO</name>
+        <initializer>=(&quot;???&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a065c4c9bf3891df6f492b04d675ba705" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.variables.EnumUnit.shortName</definition>
+        <argsstring></argsstring>
+        <name>shortName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a6c51a2b4868e55aa9ded046b8fba926c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.EnumUnit.EnumUnit</definition>
+        <argsstring>(String shortName)</argsstring>
+        <name>EnumUnit</name>
+        <param>
+          <type>String</type>
+          <declname>shortName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a41909af6c2c5db3138d0405b6d69dea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.EnumUnit.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unit enum to be used with <ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref>.</para><para>TODO: Add all needed units. TODO: Unit calculation, handling of multiplication etc. ? -&gt; Special unit with String-like representation?</para><para><simplesect kind="author"><para>Kristofer Schweiger, bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" line="12" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumUnit.java" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1a148bb5187fa70a3561decb9f255d3f" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>ampere</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1206ae6f8f049f75552f47d9f4aeeea3" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>degree</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a6c51a2b4868e55aa9ded046b8fba926c" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>EnumUnit</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a91d2910121ea4f62288bab819a117224" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>hertz</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1abe95bbf6b2686d399b1caeb429bab725" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>kilometers</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a79841e3be984e7cef7de14b3c8fab1d6" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>kiloWattHour</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2c5ac6d71efc9d4d16325625a7030a3e" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>liter</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa7cac3efbaa67323d19b2ca319e413b9" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>meterPerSecond</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a301bf8b68dff6a4dc7f180c7dda8df9d" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>none</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2ec1aada0f421879b28f9cb7cf3ccf64" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>ohm</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a7634ba5fe813f73a37a37bf69b8f7fe1" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>percent</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a5af4ec6acc5c2947ef30ed9693e1a9fb" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>percentDiv100</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a065c4c9bf3891df6f492b04d675ba705" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>shortName</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa342b8311adf73025b6b84bc4518d16b" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>squareMeters</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aaf699063b5685e0f942d1b71da9e4f20" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>TODO</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a41909af6c2c5db3138d0405b6d69dea6" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>toString</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a4795c541d8635e4f1a0e9c77c8f0ff4e" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>volt</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumUnit</scope><name>watt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1_numeric_value" kind="class" prot="public">
+    <compoundname>sgs::model::variables::NumericValue</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" prot="public" virt="non-virtual">sgs.model.variables.AbstractValue</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1af48c397b5e82081dd51940eb7c2d69db" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.real</definition>
+        <argsstring></argsstring>
+        <name>real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>real and imaginary part of value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1aa3adbfcf6150d5835074920c81f45431" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.imaginary</definition>
+        <argsstring></argsstring>
+        <name>imaginary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a10b25cfec3e78502927f4a63ffe1ad10" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.NumericValue.isReal</definition>
+        <argsstring></argsstring>
+        <name>isReal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True if using only real value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a75b5e86e8fbfa8a073c0db6423657744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>()</argsstring>
+        <name>NumericValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="19" bodyend="21"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a67b3d7415b97441e6873dd0a7baf2faa" compoundref="_numeric_value_8java" startline="303" endline="305">sgs.model.variables.NumericValue.copy</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a36907e69832fcd0920ab90932e20b047" compoundref="_numeric_value_8java" startline="326" endline="361">sgs.model.variables.NumericValue.main2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1aee225d937bd78a5b642a3b564eac74f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>(double real)</argsstring>
+        <name>NumericValue</name>
+        <param>
+          <type>double</type>
+          <declname>real</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="22" bodyend="24"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab2710a3b9daceb85f28a728d8888ef1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>(double real, double imaginary)</argsstring>
+        <name>NumericValue</name>
+        <param>
+          <type>double</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>imaginary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="25" bodyend="27"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ad555efe83158bbc54259688c5a0ae1c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>(Complex c)</argsstring>
+        <name>NumericValue</name>
+        <param>
+          <type>Complex</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="28" bodyend="30"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a4697714a8e3147af4c56adb1f5f3d71d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>(NumericValue n)</argsstring>
+        <name>NumericValue</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="31" bodyend="33"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac99fe155032ef15c0d14fc8cf7d8de5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.NumericValue.NumericValue</definition>
+        <argsstring>(String complexValue)</argsstring>
+        <name>NumericValue</name>
+        <param>
+          <type>String</type>
+          <declname>complexValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor with String value. Stores object value, not String. Watch out for parsing exceptions. Accepted formats: 100,200 -&gt; 100 + 200i 100 200 -&gt; 100 + 200i 100 -&gt; 100 + 200i 100,,,200 -&gt; 100 + 200i Combinations with whitespaces at start, end and middle ,200 -&gt; 0 + 200i  200 -&gt; 200 + 0i 100 -&gt; 100 + 0i</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="49" bodyend="51"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setValue</definition>
+        <argsstring>(double real)</argsstring>
+        <name>setValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae9f192f5db113e7a60c6d0aa3ecf0f49">setValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a double value. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="54" bodyend="56"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a75b5e86e8fbfa8a073c0db6423657744" compoundref="_numeric_value_8java" startline="19" endline="21">sgs.model.variables.NumericValue.NumericValue</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac36c5aeceb7a8fc4b1ff3fda50a8f084" compoundref="_numeric_value_8java" startline="59" endline="61">sgs.model.variables.NumericValue.setValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac36c5aeceb7a8fc4b1ff3fda50a8f084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setValue</definition>
+        <argsstring>(Complex c)</argsstring>
+        <name>setValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a485cf1c7245763fe5a9fc9f7f129e319">setValue</reimplements>
+        <param>
+          <type>Complex</type>
+          <declname>complex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>complex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a Complex value. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="59" bodyend="61"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1aca633fddcade38eaf819194831eaea29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setValue</definition>
+        <argsstring>(NumericValue v)</argsstring>
+        <name>setValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae8d35bb0e455101bdc967dbe93d64302">setValue</reimplements>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>numericValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numericValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- {real,imaginary}. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="63" bodyend="65"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a517ee688776cd27ed63dd757b2c6eb2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setValue</definition>
+        <argsstring>(String complex)</argsstring>
+        <name>setValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a2fa5c112dbbda6b5ccd79ec01b1f60ef">setValue</reimplements>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a String representation of the specific value class. Should be parsable. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="68" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="68" bodyend="102"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a562d445284cacc74c854adb75ebe5fea" compoundref="_numeric_value_8java" startline="162" endline="164">sgs.model.variables.NumericValue.r</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a442b745f5f0bea8cd9338d5ea7df953e" compoundref="_numeric_value_8java" startline="169" endline="171">sgs.model.variables.NumericValue.i</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" compoundref="_numeric_value_8java" startline="54" endline="56">sgs.model.variables.NumericValue.setValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a3430e4ecb634b443a1dfd4858fc2bb79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setValue</definition>
+        <argsstring>(double real, double imaginary)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>double</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>imaginary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="104" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="104" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a890ceb137403372b90478fa83212bee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setReal</definition>
+        <argsstring>(double real)</argsstring>
+        <name>setReal</name>
+        <param>
+          <type>double</type>
+          <declname>real</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="110" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a42d7037b9c29c2ade6888f3a9e6ea4af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.NumericValue.setImaginary</definition>
+        <argsstring>(double imaginary)</argsstring>
+        <name>setImaginary</name>
+        <param>
+          <type>double</type>
+          <declname>imaginary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="114" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a562d445284cacc74c854adb75ebe5fea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.r</definition>
+        <argsstring>()</argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Real part of value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="162" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="162" bodyend="164"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a517ee688776cd27ed63dd757b2c6eb2a" compoundref="_numeric_value_8java" startline="68" endline="102">sgs.model.variables.NumericValue.setValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a1871255b3da82d2740d30bcc8cf8ed69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.getReal</definition>
+        <argsstring>()</argsstring>
+        <name>getReal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="165" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="165" bodyend="167"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" compoundref="_bus_8java" startline="157" endline="167">sgs.model.simulation.Bus.getBusVoltage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a442b745f5f0bea8cd9338d5ea7df953e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.i</definition>
+        <argsstring>()</argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>imaginary part of value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="169" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="169" bodyend="171"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a517ee688776cd27ed63dd757b2c6eb2a" compoundref="_numeric_value_8java" startline="68" endline="102">sgs.model.variables.NumericValue.setValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.getImaginary</definition>
+        <argsstring>()</argsstring>
+        <name>getImaginary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="172" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="172" bodyend="174"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" compoundref="_smart_grid_object_8java" startline="229" endline="234">sgs.model.gridObjects.SmartGridObject.setCurrentVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" compoundref="_bus_8java" startline="157" endline="167">sgs.model.simulation.Bus.getBusVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1abe757864eb97592e2a2292e1fb264829" compoundref="_numeric_value_8java" startline="234" endline="241">sgs.model.variables.NumericValue.add</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae1012188c65ac61454a190eaa2f442fc" compoundref="_numeric_value_8java" startline="247" endline="254">sgs.model.variables.NumericValue.subtract</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab502ae22f5d9d2f38629b2c13704410f" compoundref="_numeric_value_8java" startline="259" endline="269">sgs.model.variables.NumericValue.multiply</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a9488498e975f1d24933582c4e893696a" compoundref="_numeric_value_8java" startline="274" endline="291">sgs.model.variables.NumericValue.divide</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1a0cd82d2ad64d37991c8ff2cb2ad42eaa" compoundref="_string_value_8java" startline="33" endline="35">sgs.model.variables.StringValue.setValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae39843020dfa0a5bfdc490cdf7a85759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.abs</definition>
+        <argsstring>()</argsstring>
+        <name>abs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>sqrt(a^2+b^2) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="177" bodyend="182"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" compoundref="_numeric_value_8java" startline="184" endline="186">sgs.model.variables.NumericValue.isReal</references>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a35f6a94d7c78c81132babb0ca1f942b7" compoundref="_gauss_seidel_p_f_solver_8java" startline="66" endline="271">sgs.controller.simulation.calculation.GaussSeidelPFSolver.solve</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a8475b2bbb2d92c5f75dd0df16303c7b0" compoundref="_bus_8java" startline="145" endline="154">sgs.model.simulation.Bus.setBusVoltage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.NumericValue.isReal</definition>
+        <argsstring>()</argsstring>
+        <name>isReal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if it has real value only </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="184" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="184" bodyend="186"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae39843020dfa0a5bfdc490cdf7a85759" compoundref="_numeric_value_8java" startline="177" endline="182">sgs.model.variables.NumericValue.abs</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a94328f735bb9f46802eaaaac3d1be22a" compoundref="_numeric_value_8java" startline="203" endline="211">sgs.model.variables.NumericValue.getValue</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aef1deef65282bd1a11e38b13ff28c170" compoundref="_numeric_value_8java" startline="219" endline="224">sgs.model.variables.NumericValue.getValueDouble</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a9488498e975f1d24933582c4e893696a" compoundref="_numeric_value_8java" startline="274" endline="291">sgs.model.variables.NumericValue.divide</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a5aa9c1dfeb2aaddf8d356a4232ecf47b" compoundref="_numeric_value_8java" startline="308" endline="315">sgs.model.variables.NumericValue.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1adb490d5fa8dc08a1198e258e3ff68514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.NumericValue.isNaN</definition>
+        <argsstring>()</argsstring>
+        <name>isNaN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if real part and imaginary part are NaN </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="188" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="188" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a94328f735bb9f46802eaaaac3d1be22a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.NumericValue.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a3a5d5a21d3bd1495a1838b8c80577ced">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a object the specific value class. Should be of correct type. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representation of the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="203" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="203" bodyend="211"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" compoundref="_numeric_value_8java" startline="184" endline="186">sgs.model.variables.NumericValue.isReal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab6641fd048ee59f445583d0766146fc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.getValueNumeric</definition>
+        <argsstring>()</argsstring>
+        <name>getValueNumeric</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1afac060f54bacf38fadef479f2fdaa3e7">getValueNumeric</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a value object, handle with care </para><simplesectsep/><para>a <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref> object or null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="214" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1aef1deef65282bd1a11e38b13ff28c170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double sgs.model.variables.NumericValue.getValueDouble</definition>
+        <argsstring>()</argsstring>
+        <name>getValueDouble</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a32847acbd987b208d7476d27533b03aa">getValueDouble</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the absolute value from the complex object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="219" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="219" bodyend="224"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" compoundref="_numeric_value_8java" startline="184" endline="186">sgs.model.variables.NumericValue.isReal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a86e37d661cc4037723e741a72381548a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Complex</type>
+        <definition>Complex sgs.model.variables.NumericValue.getValueComplex</definition>
+        <argsstring>()</argsstring>
+        <name>getValueComplex</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ab64f2f85962cbd5f64a3d6fcec48c7f7">getValueComplex</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a complex representation of the value, zero for non numeric values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="226" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1abe757864eb97592e2a2292e1fb264829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.add</definition>
+        <argsstring>(NumericValue val)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add another <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref> to this value. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="234" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="234" bodyend="241"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae1012188c65ac61454a190eaa2f442fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.subtract</definition>
+        <argsstring>(NumericValue val)</argsstring>
+        <name>subtract</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtract another <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref> from this value. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="247" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="247" bodyend="254"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab502ae22f5d9d2f38629b2c13704410f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.multiply</definition>
+        <argsstring>(NumericValue val)</argsstring>
+        <name>multiply</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiply by another <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="259" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="259" bodyend="269"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a9488498e975f1d24933582c4e893696a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.divide</definition>
+        <argsstring>(NumericValue val)</argsstring>
+        <name>divide</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Divide by another <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="274" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="274" bodyend="291"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" compoundref="_numeric_value_8java" startline="184" endline="186">sgs.model.variables.NumericValue.isReal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1aa902b787bac8402d61d24e9ca9e02dd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.conjugate</definition>
+        <argsstring>()</argsstring>
+        <name>conjugate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the imaginary part minus imaginary part. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="295" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="295" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a67b3d7415b97441e6873dd0a7baf2faa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1af49900974715ee7e126a5ff1a2447e54">copy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a Copy up to primitive variables from this Value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="303" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="303" bodyend="305"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a75b5e86e8fbfa8a073c0db6423657744" compoundref="_numeric_value_8java" startline="19" endline="21">sgs.model.variables.NumericValue.NumericValue</references>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a35f6a94d7c78c81132babb0ca1f942b7" compoundref="_gauss_seidel_p_f_solver_8java" startline="66" endline="271">sgs.controller.simulation.calculation.GaussSeidelPFSolver.solve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a5aa9c1dfeb2aaddf8d356a4232ecf47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.NumericValue.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="308" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="308" bodyend="315"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" compoundref="_numeric_value_8java" startline="184" endline="186">sgs.model.variables.NumericValue.isReal</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab361d33d10de3f46d3ec5ffa69b5d6a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.NumericValue.roundValue</definition>
+        <argsstring>(int roundPower)</argsstring>
+        <name>roundValue</name>
+        <param>
+          <type>int</type>
+          <declname>roundPower</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="317" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="317" bodyend="322"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a8772c541b1e4bb02e8acb803928b9231" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>static String [] sgs.model.variables.NumericValue.numberSplit</definition>
+        <argsstring>(String s, char sep)</argsstring>
+        <name>numberSplit</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>sep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get up to two numbers separated by sep.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- trimmed string with numbers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- separator </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String array of size 0, 1 or 2 with (hopefully correct) numbers. Number format is not tested. Whitespace characters are removed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="126" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="126" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_numeric_value_1a36907e69832fcd0920ab90932e20b047" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.model.variables.NumericValue.main2</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main2</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Testing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="326" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="326" bodyend="361"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a75b5e86e8fbfa8a073c0db6423657744" compoundref="_numeric_value_8java" startline="19" endline="21">sgs.model.variables.NumericValue.NumericValue</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>New value representing Double as well as Complex.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3536">
+        <label>sgs.model.variables.NumericValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_numeric_value"/>
+        <childnode refid="3537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3537">
+        <label>sgs.model.variables.AbstractValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_abstract_value"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3538">
+        <label>sgs.model.variables.NumericValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_numeric_value"/>
+        <childnode refid="3539" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3539">
+        <label>sgs.model.variables.AbstractValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_abstract_value"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/NumericValue.java" bodystart="10" bodyend="367"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae39843020dfa0a5bfdc490cdf7a85759" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>abs</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1abe757864eb97592e2a2292e1fb264829" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>add</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aa902b787bac8402d61d24e9ca9e02dd0" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>conjugate</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a67b3d7415b97441e6873dd0a7baf2faa" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a9488498e975f1d24933582c4e893696a" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>divide</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>getImaginary</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a1871255b3da82d2740d30bcc8cf8ed69" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>getReal</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a94328f735bb9f46802eaaaac3d1be22a" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a86e37d661cc4037723e741a72381548a" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>getValueComplex</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aef1deef65282bd1a11e38b13ff28c170" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>getValueDouble</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab6641fd048ee59f445583d0766146fc1" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>getValueNumeric</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a442b745f5f0bea8cd9338d5ea7df953e" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>i</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aa3adbfcf6150d5835074920c81f45431" prot="package" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>imaginary</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1adb490d5fa8dc08a1198e258e3ff68514" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>isNaN</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a10b25cfec3e78502927f4a63ffe1ad10" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>isReal</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a93ade4560b939ba7f2e0aea70728335f" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>isReal</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a36907e69832fcd0920ab90932e20b047" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>main2</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab502ae22f5d9d2f38629b2c13704410f" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>multiply</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a8772c541b1e4bb02e8acb803928b9231" prot="private" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>numberSplit</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a75b5e86e8fbfa8a073c0db6423657744" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aee225d937bd78a5b642a3b564eac74f5" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab2710a3b9daceb85f28a728d8888ef1c" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ad555efe83158bbc54259688c5a0ae1c5" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a4697714a8e3147af4c56adb1f5f3d71d" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac99fe155032ef15c0d14fc8cf7d8de5b" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>NumericValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a562d445284cacc74c854adb75ebe5fea" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>r</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1af48c397b5e82081dd51940eb7c2d69db" prot="private" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>real</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab361d33d10de3f46d3ec5ffa69b5d6a2" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>roundValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a42d7037b9c29c2ade6888f3a9e6ea4af" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>setImaginary</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a890ceb137403372b90478fa83212bee4" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>setReal</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac36c5aeceb7a8fc4b1ff3fda50a8f084" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aca633fddcade38eaf819194831eaea29" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a517ee688776cd27ed63dd757b2c6eb2a" prot="public" virt="virtual"><scope>sgs::model::variables::NumericValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a3430e4ecb634b443a1dfd4858fc2bb79" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae1012188c65ac61454a190eaa2f442fc" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>subtract</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a5aa9c1dfeb2aaddf8d356a4232ecf47b" prot="public" virt="non-virtual"><scope>sgs::model::variables::NumericValue</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

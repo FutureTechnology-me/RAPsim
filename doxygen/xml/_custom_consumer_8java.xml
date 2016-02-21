@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_custom_consumer_8java" kind="file">
+    <compoundname>CustomConsumer.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" prot="public">sgs::model::gridObjects::CustomConsumer</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1grid_objects">sgs::model::gridObjects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.gridObjects;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">sgs.model.gridData.GridDataEnum</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model" kindref="compound">sgs.model.objectModels.ConstantDemandModel</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">sgs.model.variables.EnumPV</ref>;</highlight></codeline>
+<codeline lineno="11" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" kindref="compound">CustomConsumer</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" kindref="compound">Consumer</ref><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1a53309d440930500f912678adf5a50d99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1a53309d440930500f912678adf5a50d99" kindref="member">CustomConsumer</ref>(){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setProperties(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" kindref="member">EnumPV.powerDemand</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.objectName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;CustomConsumer&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.model<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model" kindref="compound">ConstantDemandModel</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4" kindref="member">getEnum</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>method<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81436f6525c31c22d727bb88ce77a59b" kindref="member">GridDataEnum.CUSTOM_CONSUMER</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java"/>
+  </compounddef>
+</doxygen>

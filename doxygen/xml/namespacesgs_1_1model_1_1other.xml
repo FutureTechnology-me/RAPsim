@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1other" kind="namespace">
+    <compoundname>sgs::model::other</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s" prot="public">sgs::model::other::JTableModelSGS</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables" prot="public">sgs::model::other::JTableModelVariables</innerclass>
+    <innerclass refid="interfacesgs_1_1model_1_1other_1_1_window_owner" prot="public">sgs::model::other::WindowOwner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,142 @@
+\section{sgs.\-view.\-Top\-Panel Class Reference}
+\label{classsgs_1_1view_1_1_top_panel}\index{sgs.\-view.\-Top\-Panel@{sgs.\-view.\-Top\-Panel}}
+
+
+Inheritance diagram for sgs.\-view.\-Top\-Panel\-:
+
+
+Collaboration diagram for sgs.\-view.\-Top\-Panel\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Top\-Panel} ()
+\item 
+J\-Button {\bf add\-Control\-\_\-\-Top\-Button} (String name, Action\-Listener l)
+\item 
+J\-Toggle\-Button {\bf add\-Control\-\_\-\-Top\-Toggle} (String name, Action\-Listener l)
+\item 
+void {\bf update\-Date\-And\-Time} ({\bf Weather} current\-Weather, Gregorian\-Calendar current\-Time)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+J\-Panel {\bf button\-Panel} = new J\-Panel(new Flow\-Layout(C\-E\-N\-T\-E\-R))
+\item 
+Date\-And\-Time\-Panel {\bf date\-And\-Time\-Panel} = new Date\-And\-Time\-Panel()
+\item 
+Logo\-Panel {\bf logo\-Panel} = new Logo\-Panel((int) 1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Panel with all elements at the top of the G\-U\-I.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 25 of file Top\-Panel.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!Top\-Panel@{Top\-Panel}}
+\index{Top\-Panel@{Top\-Panel}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{Top\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-view.\-Top\-Panel.\-Top\-Panel (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1view_1_1_top_panel_a067c5a54afcd71b5269515fa7d55d22e}
+
+
+Definition at line 32 of file Top\-Panel.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!add\-Control\-\_\-\-Top\-Button@{add\-Control\-\_\-\-Top\-Button}}
+\index{add\-Control\-\_\-\-Top\-Button@{add\-Control\-\_\-\-Top\-Button}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{add\-Control\-\_\-\-Top\-Button}]{\setlength{\rightskip}{0pt plus 5cm}J\-Button sgs.\-view.\-Top\-Panel.\-add\-Control\-\_\-\-Top\-Button (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{Action\-Listener}]{l}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1view_1_1_top_panel_a264483c39524224f7cfa35bb0c3a163a}
+Make J\-Button, add Action listener, add the button to the view. 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ button name \\
+\hline
+{\em l} & -\/ Action\-Listener to add, can be null. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-Button 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file Top\-Panel.\-java.
+
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!add\-Control\-\_\-\-Top\-Toggle@{add\-Control\-\_\-\-Top\-Toggle}}
+\index{add\-Control\-\_\-\-Top\-Toggle@{add\-Control\-\_\-\-Top\-Toggle}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{add\-Control\-\_\-\-Top\-Toggle}]{\setlength{\rightskip}{0pt plus 5cm}J\-Toggle\-Button sgs.\-view.\-Top\-Panel.\-add\-Control\-\_\-\-Top\-Toggle (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{Action\-Listener}]{l}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1view_1_1_top_panel_ac475601b2a4f288eda035975e7a225f5}
+Make J\-Toggle\-Button, add Action listener, add the button to the view. 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ button name \\
+\hline
+{\em l} & -\/ Action\-Listener to add, can be null. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-Button 
+\end{DoxyReturn}
+
+
+Definition at line 64 of file Top\-Panel.\-java.
+
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!update\-Date\-And\-Time@{update\-Date\-And\-Time}}
+\index{update\-Date\-And\-Time@{update\-Date\-And\-Time}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{update\-Date\-And\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-view.\-Top\-Panel.\-update\-Date\-And\-Time (
+\begin{DoxyParamCaption}
+\item[{{\bf Weather}}]{current\-Weather, }
+\item[{Gregorian\-Calendar}]{current\-Time}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1view_1_1_top_panel_a61ee0399a772fa1f4e41ef645d98c887}
+Update time and weather label. 
+
+Definition at line 79 of file Top\-Panel.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!button\-Panel@{button\-Panel}}
+\index{button\-Panel@{button\-Panel}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{button\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}J\-Panel sgs.\-view.\-Top\-Panel.\-button\-Panel = new J\-Panel(new Flow\-Layout(C\-E\-N\-T\-E\-R))}\label{classsgs_1_1view_1_1_top_panel_a032fa607b34752171d58048a7916c0f4}
+
+
+Definition at line 28 of file Top\-Panel.\-java.
+
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!date\-And\-Time\-Panel@{date\-And\-Time\-Panel}}
+\index{date\-And\-Time\-Panel@{date\-And\-Time\-Panel}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{date\-And\-Time\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}Date\-And\-Time\-Panel sgs.\-view.\-Top\-Panel.\-date\-And\-Time\-Panel = new Date\-And\-Time\-Panel()}\label{classsgs_1_1view_1_1_top_panel_a975e76bedbeb2dc3454d9d344cac608c}
+
+
+Definition at line 29 of file Top\-Panel.\-java.
+
+\index{sgs\-::view\-::\-Top\-Panel@{sgs\-::view\-::\-Top\-Panel}!logo\-Panel@{logo\-Panel}}
+\index{logo\-Panel@{logo\-Panel}!sgs::view::TopPanel@{sgs\-::view\-::\-Top\-Panel}}
+\subsubsection[{logo\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}Logo\-Panel sgs.\-view.\-Top\-Panel.\-logo\-Panel = new Logo\-Panel((int) 1)}\label{classsgs_1_1view_1_1_top_panel_aacad2ffa83f4bcbd462b416f1046ca13}
+
+
+Definition at line 30 of file Top\-Panel.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/view/{\bf Top\-Panel.\-java}\end{DoxyCompactItemize}

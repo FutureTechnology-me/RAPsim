@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1_single_variable" kind="class" prot="public">
+    <compoundname>sgs::model::variables::SingleVariable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; SingleVariable &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_single_variable_1affa82d5832a88431db408a44eb45e3f0" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String sgs.model.variables.SingleVariable.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="12" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a7b28f2eb5b2b1f7123605d8e17ccce8b" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref></type>
+        <definition>AbstractValue sgs.model.variables.SingleVariable.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_single_variable_1ac42939a2294cd446f662b1878635f8d3" prot="private" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+        <definition>EnumUnit sgs.model.variables.SingleVariable.unit</definition>
+        <argsstring></argsstring>
+        <name>unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="14" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a74813b9157fa5a684bb2b6e493593429" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_properties" kindref="compound">VariableProperties</ref></type>
+        <definition>VariableProperties sgs.model.variables.SingleVariable.properties</definition>
+        <argsstring></argsstring>
+        <name>properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1aa2678ab69b697b408d256ff6f27585e3" compoundref="_single_variable_8java" startline="120" endline="122">sgs.model.variables.SingleVariable.variableIsUsed</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a2fdfa26a267f266150fae834b699e161" compoundref="_variable_set_8java" startline="265" endline="270">sgs.model.variables.VariableSet.isUsed</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f84a91f4bef081e4bd7c04c7d2e8f52" compoundref="_variable_set_8java" startline="325" endline="332">sgs.model.variables.VariableSet.getVisibles</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.SingleVariable.SingleVariable</definition>
+        <argsstring>(String name, AbstractValue value, EnumUnit unit)</argsstring>
+        <name>SingleVariable</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: only for use in Models - not in Objects</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="" kindref="compound">ModelVariable</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="28" bodyend="34"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" compoundref="_single_variable_8java" startline="57" endline="59">sgs.model.variables.SingleVariable.name</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3e3144cc9b6cb32790a315aa88bbda31" compoundref="_single_variable_8java" startline="61" endline="63">sgs.model.variables.SingleVariable.value</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3884cb1e57a105fdddbd8794c399b61e" compoundref="_single_variable_8java" startline="65" endline="67">sgs.model.variables.SingleVariable.unit</references>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a531f56d6c274e512f3184ab0968a859c" compoundref="_single_variable_8java" startline="134" endline="140">sgs.model.variables.SingleVariable.copyKeepProperties</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a1e3fe9c4e31f36ebabca6a2b4f536419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.SingleVariable.SingleVariable</definition>
+        <argsstring>(EnumPV name, AbstractValue value)</argsstring>
+        <name>SingleVariable</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: for <ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref> types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="43" bodyend="46"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1acf4ff80316e7eab458b5fcc1ec3f44b2" compoundref="_enum_p_v_8java" startline="50" endline="52">sgs.model.variables.EnumPV.getUnit</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.SingleVariable.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the variable name </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="57" bodyend="59"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" compoundref="_single_variable_8java" startline="28" endline="34">sgs.model.variables.SingleVariable.SingleVariable</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a531f56d6c274e512f3184ab0968a859c" compoundref="_single_variable_8java" startline="134" endline="140">sgs.model.variables.SingleVariable.copyKeepProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a32a6723d93b715d4098227a7b9e8e5a6" compoundref="_single_variable_8java" startline="143" endline="145">sgs.model.variables.SingleVariable.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a3e3144cc9b6cb32790a315aa88bbda31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref></type>
+        <definition>AbstractValue sgs.model.variables.SingleVariable.value</definition>
+        <argsstring>()</argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the value object, containing the actual variable value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="61" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="61" bodyend="63"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" compoundref="_single_variable_8java" startline="28" endline="34">sgs.model.variables.SingleVariable.SingleVariable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a3884cb1e57a105fdddbd8794c399b61e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+        <definition>EnumUnit sgs.model.variables.SingleVariable.unit</definition>
+        <argsstring>()</argsstring>
+        <name>unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the unit, describing the variable and its value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="65" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="65" bodyend="67"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" compoundref="_single_variable_8java" startline="28" endline="34">sgs.model.variables.SingleVariable.SingleVariable</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a531f56d6c274e512f3184ab0968a859c" compoundref="_single_variable_8java" startline="134" endline="140">sgs.model.variables.SingleVariable.copyKeepProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a32a6723d93b715d4098227a7b9e8e5a6" compoundref="_single_variable_8java" startline="143" endline="145">sgs.model.variables.SingleVariable.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a26f554f0882d086188e860f14f63d232" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double sgs.model.variables.SingleVariable.getValueString</definition>
+        <argsstring>()</argsstring>
+        <name>getValueString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the value of the variable as String. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="71" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1afd6eb2b56a2859de9315a5babcb6371f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double sgs.model.variables.SingleVariable.getValueDouble</definition>
+        <argsstring>()</argsstring>
+        <name>getValueDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the double value of the variable, zero for non numeric values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="75" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="75" bodyend="77"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a3a42ffec9631e273d5efeac3fb799b27" compoundref="_fossil_fuel_model_8java" startline="40" endline="66">sgs.model.objectModels.FossilFuelModel.updateVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1a27c04422d4cd7abda8b5265cd1931919" compoundref="_random_wind_turbine_model_8java" startline="40" endline="74">sgs.model.objectModels.RandomWindTurbineModel.updateVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6f2947bc3e47cd6d624da591cf1e3ee9" compoundref="_solar_peak_power_model_8java" startline="40" endline="51">sgs.model.objectModels.SolarPeakPowerModel.updateVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" compoundref="_solar_peak_power_model_8java" startline="54" endline="63">sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1ab6dce7e9dc0cfb13049201a1c9e833e2" compoundref="_solar_square_meter_model_8java" startline="39" endline="47">sgs.model.objectModels.SolarSquareMeterModel.updateVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42" compoundref="_solar_square_meter_model_8java" startline="50" endline="58">sgs.model.objectModels.SolarSquareMeterModel.initVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1afc05fb95ea2dc0102b257b02ca68e570" compoundref="_usual_wind_turbine_model_8java" startline="43" endline="56">sgs.model.objectModels.UsualWindTurbineModel.updateVariables</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1afafbfae8c7a13b96e4ba9d07e1c86170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Complex</type>
+        <definition>Complex sgs.model.variables.SingleVariable.getValueComplex</definition>
+        <argsstring>()</argsstring>
+        <name>getValueComplex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the Complex value of the variable, zero for non numeric values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a3000e054d62292891eb241129948e5ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.SingleVariable.getValueNumeric</definition>
+        <argsstring>()</argsstring>
+        <name>getValueNumeric</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the numeric value, may be null for non numeric values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="83" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a2f98537eab44b325fd1241bbd2782919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.SingleVariable.setValue</definition>
+        <argsstring>(String val)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>String</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1ac172b0a17ac8d848db66b8bdd8ccc743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.SingleVariable.setValue</definition>
+        <argsstring>(double d)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set double value. May not be compatible with every subclass of <ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="98" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a8ed19c1efa3cfee987b9ba17c8c4aef6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.SingleVariable.setValue</definition>
+        <argsstring>(Complex c)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>Complex</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Complex value. May not be compatible with every subclass of <ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="106" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a398ef019aa31ddcd90142480945680a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.SingleVariable.setValue</definition>
+        <argsstring>(NumericValue v)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Numeric value. May not be compatible with every subclass of <ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="113" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1aa2678ab69b697b408d256ff6f27585e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.SingleVariable.variableIsUsed</definition>
+        <argsstring>()</argsstring>
+        <name>variableIsUsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if Variable isVisible OR isEditable (definition) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="120" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="120" bodyend="122"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a74813b9157fa5a684bb2b6e493593429" compoundref="_single_variable_8java" startline="18">sgs.model.variables.SingleVariable.properties</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1acd978d1e3d69e8f554ecef59e65ddda4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.variables.SingleVariable.compareTo</definition>
+        <argsstring>(SingleVariable attr2)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+          <declname>attr2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation for TreeSet </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="126" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="126" bodyend="129"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a0393f829d9002d1bcfcff8e1cb366022" compoundref="_variable_set_8java" startline="159" endline="168">sgs.model.variables.VariableSet.get</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a531f56d6c274e512f3184ab0968a859c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.variables.SingleVariable.copyKeepProperties</definition>
+        <argsstring>()</argsstring>
+        <name>copyKeepProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a deep Copy, except the properties. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="134" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="134" bodyend="140"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" compoundref="_single_variable_8java" startline="28" endline="34">sgs.model.variables.SingleVariable.SingleVariable</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" compoundref="_single_variable_8java" startline="57" endline="59">sgs.model.variables.SingleVariable.name</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3884cb1e57a105fdddbd8794c399b61e" compoundref="_single_variable_8java" startline="65" endline="67">sgs.model.variables.SingleVariable.unit</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1a32a6723d93b715d4098227a7b9e8e5a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.SingleVariable.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="143" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="143" bodyend="145"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" compoundref="_single_variable_8java" startline="57" endline="59">sgs.model.variables.SingleVariable.name</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3884cb1e57a105fdddbd8794c399b61e" compoundref="_single_variable_8java" startline="65" endline="67">sgs.model.variables.SingleVariable.unit</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_single_variable_1aa4c55a3d7a118701183c4d5663c7c815" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.SingleVariable.SingleVariable</definition>
+        <argsstring>(String name)</argsstring>
+        <name>SingleVariable</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: internal use <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="52" bodyend="54"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" compoundref="_single_variable_8java" startline="57" endline="59">sgs.model.variables.SingleVariable.name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Holds a single attribute, intended to use in the attribute set.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4045">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="4044">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="4045" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4048">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="4048" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4047">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="4046">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="4047" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4048" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/SingleVariable.java" bodystart="10" bodyend="146"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1acd978d1e3d69e8f554ecef59e65ddda4" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>compareTo</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a531f56d6c274e512f3184ab0968a859c" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>copyKeepProperties</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afafbfae8c7a13b96e4ba9d07e1c86170" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>getValueComplex</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afd6eb2b56a2859de9315a5babcb6371f" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>getValueDouble</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3000e054d62292891eb241129948e5ec" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>getValueNumeric</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a26f554f0882d086188e860f14f63d232" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>getValueString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1affa82d5832a88431db408a44eb45e3f0" prot="private" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>name</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a6b227ad216f90a6b340e9d5b479433b7" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>name</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a74813b9157fa5a684bb2b6e493593429" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>properties</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a2f98537eab44b325fd1241bbd2782919" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1ac172b0a17ac8d848db66b8bdd8ccc743" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a8ed19c1efa3cfee987b9ba17c8c4aef6" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a398ef019aa31ddcd90142480945680a2" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afce2cf6c1b9a102610913967f3d473ea" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>SingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a1e3fe9c4e31f36ebabca6a2b4f536419" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>SingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1aa4c55a3d7a118701183c4d5663c7c815" prot="protected" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>SingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a32a6723d93b715d4098227a7b9e8e5a6" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1ac42939a2294cd446f662b1878635f8d3" prot="private" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>unit</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3884cb1e57a105fdddbd8794c399b61e" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>unit</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a7b28f2eb5b2b1f7123605d8e17ccce8b" prot="private" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a3e3144cc9b6cb32790a315aa88bbda31" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_single_variable_1aa2678ab69b697b408d256ff6f27585e3" prot="public" virt="non-virtual"><scope>sgs::model::variables::SingleVariable</scope><name>variableIsUsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

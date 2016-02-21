@@ -1,0 +1,17 @@
+digraph "sgs.model.variables.NumericValue.setValue"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.variables.Numeric\lValue.setValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.model.variables.Numeric\lValue.NumericValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#a75b5e86e8fbfa8a073c0db6423657744"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.model.variables.Numeric\lValue.copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#a67b3d7415b97441e6873dd0a7baf2faa"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgs.controller.simulation.calculation.\lGaussSeidelPFSolver.solve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver.html#a35f6a94d7c78c81132babb0ca1f942b7"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgs.model.variables.Numeric\lValue.main2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#a36907e69832fcd0920ab90932e20b047"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgs.model.variables.Numeric\lValue.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#ac36c5aeceb7a8fc4b1ff3fda50a8f084"];
+}

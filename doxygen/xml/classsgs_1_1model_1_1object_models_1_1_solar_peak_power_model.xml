@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model" kind="class" prot="public">
+    <compoundname>sgs::model::objectModels::SolarPeakPowerModel</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractSolarPowerPlantModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a4737271a591be5fe33d21fc3aa2082e8" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.SolarPeakPowerModel.longitude</definition>
+        <argsstring></argsstring>
+        <name>longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6715de91b0838e082801503a43c9c2a2" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.SolarPeakPowerModel.latitude</definition>
+        <argsstring></argsstring>
+        <name>latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1af1698dcd54030ccb8403fb1b090cd7b8" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.SolarPeakPowerModel.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6fca4965050cb14f8fdd2d0781e91de7" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.SolarPeakPowerModel.efficiency</definition>
+        <argsstring></argsstring>
+        <name>efficiency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a10c92c5bb3d9f2518179c82e31039f73" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.SolarPeakPowerModel.squareMeters</definition>
+        <argsstring></argsstring>
+        <name>squareMeters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1ae440f3772e934ed1c1e6f0ccbd449aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.objectModels.SolarPeakPowerModel.SolarPeakPowerModel</definition>
+        <argsstring>(SolarPowerPlant powerPlant)</argsstring>
+        <name>SolarPeakPowerModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant" kindref="compound">SolarPowerPlant</ref></type>
+          <declname>powerPlant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="29" bodyend="37"/>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" compoundref="_abstract_model_8java" startline="23">sgs.model.objectModels.AbstractModel.modelName</references>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" compoundref="_abstract_model_8java" startline="24">sgs.model.objectModels.AbstractModel.description</references>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" compoundref="_abstract_model_8java" startline="25">sgs.model.objectModels.AbstractModel.icon</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6f2947bc3e47cd6d624da591cf1e3ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.SolarPeakPowerModel.updateVariables</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int resolution)</argsstring>
+        <name>updateVariables</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48">updateVariables</reimplements>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be implemented in the model to calculate new variable values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="40" bodyend="51"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afd6eb2b56a2859de9315a5babcb6371f" compoundref="_single_variable_8java" startline="75" endline="77">sgs.model.variables.SingleVariable.getValueDouble</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.SolarPeakPowerModel.initVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>initVariableSet</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27">initVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented in the model and called in the constructor of an AbstractObjectnameModel super-class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="54" bodyend="63"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1206ae6f8f049f75552f47d9f4aeeea3" compoundref="_enum_unit_8java" startline="18">sgs.model.variables.EnumUnit.degree</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1abe95bbf6b2686d399b1caeb429bab725" compoundref="_enum_unit_8java" startline="20">sgs.model.variables.EnumUnit.kilometers</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a5af4ec6acc5c2947ef30ed9693e1a9fb" compoundref="_enum_unit_8java" startline="22">sgs.model.variables.EnumUnit.percentDiv100</references>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1af9349e90d3e206f023dfa1605551bf22" compoundref="_abstract_power_plant_model_8java" startline="20">sgs.model.objectModels.AbstractPowerPlantModel.ratedPower</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afd6eb2b56a2859de9315a5babcb6371f" compoundref="_single_variable_8java" startline="75" endline="77">sgs.model.variables.SingleVariable.getValueDouble</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa342b8311adf73025b6b84bc4518d16b" compoundref="_enum_unit_8java" startline="19">sgs.model.variables.EnumUnit.squareMeters</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4112">
+        <label>sgs.model.objectModels.AbstractSolarPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model"/>
+        <childnode refid="4113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4114">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+      </node>
+      <node id="4111">
+        <label>sgs.model.objectModels.SolarPeakPowerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model"/>
+        <childnode refid="4112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4113">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="4114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4161">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="4153">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="4116">
+        <label>sgs.model.objectModels.AbstractSolarPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model"/>
+        <childnode refid="4117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4135">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="4127">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4125">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="4125" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4122">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4137">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="4138" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4139" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="4140" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="4135" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="4128" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="4141" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="4143" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="4144" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="4145" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="4146" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="4147" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="4165" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="4166" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="4129">
+        <label>GridObject</label>
+      </node>
+      <node id="4118">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="4119" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="4120" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4139">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="4145">
+        <label>JFrame</label>
+      </node>
+      <node id="4134">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="4135" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="4134" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="4136" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="4120" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4167">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="4130">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4163">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4162">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4163" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4164" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4164">
+        <label>Random</label>
+      </node>
+      <node id="4147">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4148" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4149" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="4159" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="4161" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="4162" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="4124">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="4144">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="4138">
+        <label>GridModel</label>
+      </node>
+      <node id="4123">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="4124" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4125" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4120">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4121" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4122" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4155">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4157">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4151">
+        <label>Application</label>
+      </node>
+      <node id="4126">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4158">
+        <label>File</label>
+      </node>
+      <node id="4133">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="4146">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="4166">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="4149">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="4150" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="4137" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4154" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="4156" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="4153" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4152">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4119">
+        <label>ImageIcon</label>
+      </node>
+      <node id="4156">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="4157" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="4158" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4160">
+        <label>JDialog</label>
+      </node>
+      <node id="4154">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="4155" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="4153" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4148">
+        <label>Thread</label>
+      </node>
+      <node id="4131">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4150">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="4151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4152" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="4153" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4159">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4142">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="4128">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4130" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4131" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4132" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="4118" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="4134" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="4137" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4167" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="4120" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4143">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="4121">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="4140">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="4115">
+        <label>sgs.model.objectModels.SolarPeakPowerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model"/>
+        <childnode refid="4116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4132">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="4133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4117">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="4118" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4123" relation="usage">
+          <edgelabel>powerProduction</edgelabel>
+          <edgelabel>ratedPower</edgelabel>
+        </childnode>
+        <childnode refid="4126" relation="usage">
+          <edgelabel>powerPlant</edgelabel>
+        </childnode>
+      </node>
+      <node id="4141">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="4142" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4136">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="4165">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/SolarPeakPowerModel.java" bodystart="21" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a010d71faa179084a4024888eba87fa69" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>AbstractPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model_1a47a8a439582e7b72e4940a51a4361900" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>AbstractSolarPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>description</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6fca4965050cb14f8fdd2d0781e91de7" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>efficiency</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getIcon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getModelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a86dd58f5fcf6e7b3038bcd12b47011bb" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5d597ca683c3f150bd2ab49a6e2e2e97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>getVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1af1698dcd54030ccb8403fb1b090cd7b8" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>height</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>icon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec" prot="protected" virt="virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>initVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6715de91b0838e082801503a43c9c2a2" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>latitude</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a4737271a591be5fe33d21fc3aa2082e8" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>longitude</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>modelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a8930f9cfc3db27d0c36c27daf4f6180e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>powerPlant</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1aa696e160156ef992b43e7f0632dd7744" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>powerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1af9349e90d3e206f023dfa1605551bf22" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>ratedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a99233e916c14accd59b8891a74dcbb97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a14d9ca1899b6be730ce8bca1f15fc41f" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>setRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1ae440f3772e934ed1c1e6f0ccbd449aff" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>SolarPeakPowerModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a10c92c5bb3d9f2518179c82e31039f73" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>squareMeters</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5280690e14a78779cb2ee22d6a8ded98" prot="public" virt="virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>updateModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6f2947bc3e47cd6d624da591cf1e3ee9" prot="public" virt="virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>updateVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::SolarPeakPowerModel</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

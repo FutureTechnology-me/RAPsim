@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_11c07a346c0bc8bfbfc57bbc0fe68289" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller/simulation</compoundname>
+    <innerdir refid="dir_d8e0ecfa4b71fb9593f1fbdc9c261415">RAPSim/src/sgs/controller/simulation/calculation</innerdir>
+    <innerfile refid="___testing_algorithm_8java">_TestingAlgorithm.java</innerfile>
+    <innerfile refid="_abstract_distribution_algorithm_8java">AbstractDistributionAlgorithm.java</innerfile>
+    <innerfile refid="_a_c_power_flow_calculator_8java">ACPowerFlowCalculator.java</innerfile>
+    <innerfile refid="_bus_netto_power_comparator_8java">BusNettoPowerComparator.java</innerfile>
+    <innerfile refid="_d_c_power_flow_calculator_8java">DCPowerFlowCalculator.java</innerfile>
+    <innerfile refid="_network_analyser_8java">NetworkAnalyser.java</innerfile>
+    <innerfile refid="_simple_power_distribution_8java">SimplePowerDistribution.java</innerfile>
+    <innerfile refid="_time_thread_8java">TimeThread.java</innerfile>
+    <innerfile refid="_weather_8java">Weather.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1model_1_1_program_constants" kind="interface" prot="public">
+    <compoundname>sgs::model::ProgramConstants</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" prot="public" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.ProgramConstants.dataPath</definition>
+        <argsstring></argsstring>
+        <name>dataPath</name>
+        <initializer>= &quot;Data2/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>path to image files and other application data files </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" prot="public" static="yes" mutable="no">
+        <type>File</type>
+        <definition>File sgs.model.ProgramConstants.defaultSimulationFile</definition>
+        <argsstring></argsstring>
+        <name>defaultSimulationFile</name>
+        <initializer>= new File(<ref refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" kindref="member">dataPath</ref>+&quot;data.zip&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>default file in dataPath where project is stored </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_primary_controller_1a664fe46da0e9b0e95d57937343adda83" compoundref="_primary_controller_8java" startline="52" endline="115">sgs.controller.PrimaryController.PrimaryController</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_primary_controller_1ac71e84782272d3d8b0e71bea2c8c13c4" compoundref="_primary_controller_8java" startline="121" endline="145">sgs.controller.PrimaryController.exitProgramm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" prot="public" static="yes" mutable="no">
+        <type>File</type>
+        <definition>File sgs.model.ProgramConstants.parameterFile</definition>
+        <argsstring></argsstring>
+        <name>parameterFile</name>
+        <initializer>= new File(<ref refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" kindref="member">dataPath</ref>+&quot;parameters.zip&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file in dataPath where the program configuration is stored </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_primary_controller_1a664fe46da0e9b0e95d57937343adda83" compoundref="_primary_controller_8java" startline="52" endline="115">sgs.controller.PrimaryController.PrimaryController</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_primary_controller_1ac71e84782272d3d8b0e71bea2c8c13c4" compoundref="_primary_controller_8java" startline="121" endline="145">sgs.controller.PrimaryController.exitProgramm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1_program_constants_1af65041493f5d367a414ac1332085c3ad" prot="public" static="yes" mutable="no">
+        <type>DateFormat</type>
+        <definition>DateFormat sgs.model.ProgramConstants.df</definition>
+        <argsstring></argsstring>
+        <name>df</name>
+        <initializer>= new SimpleDateFormat(&quot;yyyy.MM.dd - HH:mm&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the date format used </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface holding a few constants for the Controller. Use e.g. with static import. Variables in interface are automatically final.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3741">
+        <label>sgs.model.ProgramConstants</label>
+        <link refid="interfacesgs_1_1model_1_1_program_constants"/>
+        <childnode refid="3742" relation="usage">
+          <edgelabel>df</edgelabel>
+        </childnode>
+        <childnode refid="3743" relation="usage">
+          <edgelabel>defaultSimulationFile</edgelabel>
+          <edgelabel>parameterFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="3743">
+        <label>File</label>
+      </node>
+      <node id="3742">
+        <label>DateFormat</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java" bodystart="15" bodyend="29"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" prot="public" virt="non-virtual"><scope>sgs::model::ProgramConstants</scope><name>dataPath</name></member>
+      <member refid="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" prot="public" virt="non-virtual"><scope>sgs::model::ProgramConstants</scope><name>defaultSimulationFile</name></member>
+      <member refid="interfacesgs_1_1model_1_1_program_constants_1af65041493f5d367a414ac1332085c3ad" prot="public" virt="non-virtual"><scope>sgs::model::ProgramConstants</scope><name>df</name></member>
+      <member refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" prot="public" virt="non-virtual"><scope>sgs::model::ProgramConstants</scope><name>parameterFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

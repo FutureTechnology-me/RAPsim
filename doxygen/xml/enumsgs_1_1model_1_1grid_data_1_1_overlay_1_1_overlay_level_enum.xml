@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum" kind="enum" prot="public">
+    <compoundname>sgs::model::gridData::Overlay::OverlayLevelEnum</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1aa9dd7a1e95620ed3f67d0d34120ff528" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayLevelEnum._0</definition>
+        <argsstring></argsstring>
+        <name>_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> for marking things </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1ae137030af6e7afba7f3e985744ef2b5c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayLevelEnum._1</definition>
+        <argsstring></argsstring>
+        <name>_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Big level 1 overlay </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1a904056c29db67a4d4b717be4361b1d12" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayLevelEnum._2</definition>
+        <argsstring></argsstring>
+        <name>_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Smaller level 2 overlay </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1aba111e27e8ba3ed44ee1b88b1f0f2744" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayLevelEnum._3</definition>
+        <argsstring></argsstring>
+        <name>_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small level 3 overlay </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enum defining the dynamic overlay in the grid Only one <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> per level can be defied! </para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="37" bodyend="47"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1aa9dd7a1e95620ed3f67d0d34120ff528" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayLevelEnum</scope><name>_0</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1ae137030af6e7afba7f3e985744ef2b5c" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayLevelEnum</scope><name>_1</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1a904056c29db67a4d4b717be4361b1d12" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayLevelEnum</scope><name>_2</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum_1aba111e27e8ba3ed44ee1b88b1f0f2744" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayLevelEnum</scope><name>_3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

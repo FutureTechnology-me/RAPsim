@@ -1,0 +1,191 @@
+.TH "sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Application\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCollectionsTreeTab\fP (\fBSgsGridModel\fP gridModel)"
+.br
+.ti -1c
+.RI "CheckBoxTreeItem< String > \fBcreateObject\fP (\fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "List< String > \fBgetChoosenPathList\fP ()"
+.br
+.ti -1c
+.RI "Tab \fBgetChoosenTab\fP ()"
+.br
+.ti -1c
+.RI "StringBuilder \fBgetHeader\fP ()"
+.br
+.ti -1c
+.RI "CheckBoxTreeItem< String > \fBgetobjectTreeItem\fP ()"
+.br
+.ti -1c
+.RI "Tab \fBgetResultsTab\fP ()"
+.br
+.ti -1c
+.RI "void \fBstart\fP (Stage arg0)  throws Exception "
+.br
+.ti -1c
+.RI "void \fBsetObjectTreeItem\fP (CheckBoxTreeItem< String > newObjectTree)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCheckBoxActionListener\fP \fBcbActionListener\fP = new \fBCheckBoxActionListener\fP()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static TreeItem< String > \fBsavedTree\fP = new CheckBoxTreeItem<>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Sabrina huber creates the checkBoxCollectionTree\&. add it to a tab ,and return it to the csvController\&. 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file CollectionsTreeTab\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.CollectionsTreeTab (\fBSgsGridModel\fPgridModel)"
+constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridController\fP 
+.br
+\fIgridModel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file CollectionsTreeTab\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "CheckBoxTreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.createObject (\fBSmartGridObject\fPsgo)"
+called by GiveDataCollection, to create the objectPart of its Tree\&. first it creates the CheckBoxTreeItem for the transfered Object -> call
+.PP
+.nf
+createObjectNode(SmartGridObject sgo) 
+
+.fi
+.PP
+ second it adds the transfered SmartGridObject to the method
+.PP
+.nf
+createTrueListArray() 
+
+.fi
+.PP
+ 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsgo\fP - transfered SmartGridObject 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+objectTreeItem - for the specific transfered SmartGridObject sgo 
+.RE
+.PP
+
+.PP
+Definition at line 101 of file CollectionsTreeTab\&.java\&.
+.SS "List<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.getChoosenPathList ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+choosenPath 
+.RE
+.PP
+
+.PP
+Definition at line 113 of file CollectionsTreeTab\&.java\&.
+.SS "Tab sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.getChoosenTab ()"
+
+.PP
+Definition at line 119 of file CollectionsTreeTab\&.java\&.
+.SS "StringBuilder sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.getHeader ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+header 
+.RE
+.PP
+
+.PP
+Definition at line 188 of file CollectionsTreeTab\&.java\&.
+.SS "CheckBoxTreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.getobjectTreeItem ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+objectTreeItem 
+.RE
+.PP
+
+.PP
+Definition at line 198 of file CollectionsTreeTab\&.java\&.
+.SS "Tab sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.getResultsTab ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+resultsTab 
+.RE
+.PP
+
+.PP
+Definition at line 242 of file CollectionsTreeTab\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.setObjectTreeItem (CheckBoxTreeItem< String >newObjectTree)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewObjectTree\fP 
+.RE
+.PP
+
+.PP
+Definition at line 328 of file CollectionsTreeTab\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.start (Stagearg0) throws Exception"
+
+.PP
+Definition at line 319 of file CollectionsTreeTab\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCheckBoxActionListener\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.cbActionListener = new \fBCheckBoxActionListener\fP()"
+
+.PP
+Definition at line 44 of file CollectionsTreeTab\&.java\&.
+.SS "TreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.CollectionsTreeTab\&.savedTree = new CheckBoxTreeItem<>()\fC [static]\fP"
+
+.PP
+Definition at line 40 of file CollectionsTreeTab\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

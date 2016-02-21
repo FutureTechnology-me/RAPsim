@@ -1,0 +1,118 @@
+.TH "sgs.model.variables.collector.VariableCollectorMin" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.collector.VariableCollectorMin \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableCollectorMin\fP (\fBEnumPV\fP \fBvariableName\fP)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValue\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNumberOfValues\fP ()"
+.br
+.ti -1c
+.RI "void \fBrestValues\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcollectFrom\fP (\fBVariableOwner\fP owner)"
+.br
+.ti -1c
+.RI "\fBVariableCollectorMin\fP \fBcopy\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Definition at line 8 of file VariableCollectorMin\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.VariableCollectorMin (\fBEnumPV\fPvariableName)"
+Constructor for sum collector\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvariableName\fP 
+.RE
+.PP
+
+.PP
+Definition at line 17 of file VariableCollectorMin\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.collectFrom (\fBVariableOwner\fPowner)\fC [virtual]\fP"
+Adds interesting variable values from the variable owner 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner1\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if a value was collected 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.PP
+Definition at line 40 of file VariableCollectorMin\&.java\&.
+.SS "\fBVariableCollectorMin\fP sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.copy ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a copy of this Collector 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.PP
+Definition at line 55 of file VariableCollectorMin\&.java\&.
+.SS "int sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.getNumberOfValues ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the number of collected values 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.PP
+Definition at line 29 of file VariableCollectorMin\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.getValue ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the collected numeric value 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.PP
+Definition at line 24 of file VariableCollectorMin\&.java\&.
+.SS "void sgs\&.model\&.variables\&.collector\&.VariableCollectorMin\&.restValues ()\fC [virtual]\fP"
+resets values to zero\&. 
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableCollector\fP\&.
+.PP
+Definition at line 34 of file VariableCollectorMin\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

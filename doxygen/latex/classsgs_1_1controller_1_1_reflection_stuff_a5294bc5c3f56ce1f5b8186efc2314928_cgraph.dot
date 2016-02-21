@@ -1,0 +1,11 @@
+digraph "sgs.controller.ReflectionStuff.mainTest"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.Reflection\lStuff.mainTest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.Reflection\lStuff.getClassesForPackage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_reflection_stuff.html#a136f418c61dc52f9fd9225e76e576231"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.Reflection\lStuff.getSubClasses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_reflection_stuff.html#a5095a89bb614c63d62936e9b0af0cc1a"];
+}

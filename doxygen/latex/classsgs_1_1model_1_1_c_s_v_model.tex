@@ -1,0 +1,197 @@
+\section{sgs.\-model.\-C\-S\-V\-Model Class Reference}
+\label{classsgs_1_1model_1_1_c_s_v_model}\index{sgs.\-model.\-C\-S\-V\-Model@{sgs.\-model.\-C\-S\-V\-Model}}
+
+
+Collaboration diagram for sgs.\-model.\-C\-S\-V\-Model\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf set\-Permission} (boolean value)
+\item 
+{\bf C\-S\-V\-Model} ({\bf Sgs\-Grid\-Model} grid\-Model)
+\item 
+void {\bf create\-C\-S\-V\-Line} (String current\-Time, {\bf Weather} current\-Weather)
+\item 
+void {\bf run} (List$<$ String $>$ choosen\-Data, boolean permission\-To\-Save, String\-Builder header)
+\item 
+void {\bf set\-C\-S\-V\-File} (File file)
+\item 
+String {\bf get\-File\-Name} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+File {\bf new\-C\-S\-V\-File} = new File(\char`\"{}\char`\"{})
+\item 
+{\bf Enum\-P\-V}[$\,$] {\bf enums} = Enum\-P\-V.\-values()
+\item 
+boolean {\bf set\-New\-File\-Name} = true
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static File {\bf csv}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Huber Sabrina Model to create the csv file from the list \char`\"{}data\char`\"{} it collects all necessary infos to know from which objects, which parameter it needs, and write them into the csv file 
+\end{DoxyAuthor}
+
+
+Definition at line 25 of file C\-S\-V\-Model.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!C\-S\-V\-Model@{C\-S\-V\-Model}}
+\index{C\-S\-V\-Model@{C\-S\-V\-Model}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{C\-S\-V\-Model}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-C\-S\-V\-Model.\-C\-S\-V\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Sgs\-Grid\-Model}}]{grid\-Model}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_af40ca509fddec6ef87f96ddcfc292796}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Model} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file C\-S\-V\-Model.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!create\-C\-S\-V\-Line@{create\-C\-S\-V\-Line}}
+\index{create\-C\-S\-V\-Line@{create\-C\-S\-V\-Line}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{create\-C\-S\-V\-Line}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-C\-S\-V\-Model.\-create\-C\-S\-V\-Line (
+\begin{DoxyParamCaption}
+\item[{String}]{current\-Time, }
+\item[{{\bf Weather}}]{current\-Weather}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_ad813d09f3ecd96155bfecf3a07f07466}
+write all other data, without a header 
+\begin{DoxyParams}{Parameters}
+{\em head} & Header \\
+\hline
+{\em data} & every data that algorithem gives \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & e \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 161 of file C\-S\-V\-Model.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!get\-File\-Name@{get\-File\-Name}}
+\index{get\-File\-Name@{get\-File\-Name}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{get\-File\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-C\-S\-V\-Model.\-get\-File\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_ab29693258ad0b1572075095762b328fc}
+\begin{DoxyReturn}{Returns}
+the name of the csvfile 
+\end{DoxyReturn}
+
+
+Definition at line 297 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!run@{run}}
+\index{run@{run}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-C\-S\-V\-Model.\-run (
+\begin{DoxyParamCaption}
+\item[{List$<$ String $>$}]{choosen\-Data, }
+\item[{boolean}]{permission\-To\-Save, }
+\item[{String\-Builder}]{header}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_a1d5a8a83616038f4c0eb453ecf83dd83}
+start csv Model and duty 
+\begin{DoxyParams}{Parameters}
+{\em choosen\-Data} & -\/ to save the list from Give\-Data\-Collections \\
+\hline
+{\em header} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 274 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!set\-C\-S\-V\-File@{set\-C\-S\-V\-File}}
+\index{set\-C\-S\-V\-File@{set\-C\-S\-V\-File}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{set\-C\-S\-V\-File}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-C\-S\-V\-Model.\-set\-C\-S\-V\-File (
+\begin{DoxyParamCaption}
+\item[{File}]{file}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_ab88a87a056bf05522c487ee1b44f1dd9}
+receive file from the gui \doxyref{Results\-C\-S\-V\-View.\-java}{p.}{_results_c_s_v_view_8java} 
+\begin{DoxyParams}{Parameters}
+{\em file} & -\/ selected path + filename + .csv file format \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 287 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!set\-Permission@{set\-Permission}}
+\index{set\-Permission@{set\-Permission}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{set\-Permission}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-C\-S\-V\-Model.\-set\-Permission (
+\begin{DoxyParamCaption}
+\item[{boolean}]{value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1_c_s_v_model_a2a7dfdc3a2b3604977fe2d69959cf8f6}
+the user needs to activate the option to save the specified data into a csvfile, with activating a checkbox in the simulation\-Start window. if its checked true, we have the permission to save the specified data. we need that, so that the time\-Thread stop doing anything, bevor its starts. 
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file C\-S\-V\-Model.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!csv@{csv}}
+\index{csv@{csv}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{csv}]{\setlength{\rightskip}{0pt plus 5cm}File sgs.\-model.\-C\-S\-V\-Model.\-csv\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1_c_s_v_model_a590c5de80e35c244860e80abd647f015}
+
+
+Definition at line 27 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!enums@{enums}}
+\index{enums@{enums}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{enums}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enum\-P\-V} [$\,$] sgs.\-model.\-C\-S\-V\-Model.\-enums = Enum\-P\-V.\-values()}\label{classsgs_1_1model_1_1_c_s_v_model_a5b83360188c3c79a5c408f31e300c891}
+
+
+Definition at line 29 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!new\-C\-S\-V\-File@{new\-C\-S\-V\-File}}
+\index{new\-C\-S\-V\-File@{new\-C\-S\-V\-File}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{new\-C\-S\-V\-File}]{\setlength{\rightskip}{0pt plus 5cm}File sgs.\-model.\-C\-S\-V\-Model.\-new\-C\-S\-V\-File = new File(\char`\"{}\char`\"{})}\label{classsgs_1_1model_1_1_c_s_v_model_acc17700fe6091fe7a1902a0b115c3b4b}
+
+
+Definition at line 28 of file C\-S\-V\-Model.\-java.
+
+\index{sgs\-::model\-::\-C\-S\-V\-Model@{sgs\-::model\-::\-C\-S\-V\-Model}!set\-New\-File\-Name@{set\-New\-File\-Name}}
+\index{set\-New\-File\-Name@{set\-New\-File\-Name}!sgs::model::CSVModel@{sgs\-::model\-::\-C\-S\-V\-Model}}
+\subsubsection[{set\-New\-File\-Name}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-C\-S\-V\-Model.\-set\-New\-File\-Name = true}\label{classsgs_1_1model_1_1_c_s_v_model_a41aab41fc205f03eab57cc213073895a}
+
+
+Definition at line 34 of file C\-S\-V\-Model.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/{\bf C\-S\-V\-Model.\-java}\end{DoxyCompactItemize}

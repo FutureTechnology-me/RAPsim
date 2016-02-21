@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_connector_8java" kind="file">
+    <compoundname>Connector.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_connector" prot="public">sgs::model::gridObjects::Connector</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1grid_objects">sgs::model::gridObjects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesgs_1_1model_1_1grid_objects" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.gridObjects;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">sgs.model.gridData.GridDataEnum</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">sgs.model.variables.EnumPV</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">sgs.model.variables.NumericValue</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classsgs_1_1model_1_1grid_objects_1_1_connector" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1grid_objects_1_1_connector" kindref="compound">Connector</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" kindref="compound">PowerTransport</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Default_MaxPowerTransport<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>Double.POSITIVE_INFINITY;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Default_TransportPowerDecrement<sp/>=<sp/>0.0d;<sp/></highlight><highlight class="comment">//<sp/>0<sp/>Percent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1a7d3580fceba9936f6273073c7220382d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1a7d3580fceba9936f6273073c7220382d" kindref="member">Connector</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>variableSet.set(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a53cb9460ed9e7652da700abf7d111dc6" kindref="member">EnumPV.maxPowerTransport</ref>,<sp/>Default_MaxPowerTransport);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>variableSet.set(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a8fbc35b51ea37605a3a1e3f243691f24" kindref="member">EnumPV.transportPowerDecrement</ref>,<sp/>Default_TransportPowerDecrement);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" kindref="member">setResistance</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>(0));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Override<sp/>---<sp/>----------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="27" refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1aa03b5f004ce32959f1bf38a6453c45bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1aa03b5f004ce32959f1bf38a6453c45bd" kindref="member">getEnum</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3c84b96bb3d26909ec5b4518e32673bf" kindref="member">GridDataEnum.SPLINE</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/Connector.java"/>
+  </compounddef>
+</doxygen>

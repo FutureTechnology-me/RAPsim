@@ -1,0 +1,877 @@
+\section{sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object Class Reference}
+\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object}\index{sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object@{sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object}}
+
+
+Inheritance diagram for sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object\-:
+
+
+Collaboration diagram for sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Smart\-Grid\-Object} ()
+\item 
+int {\bf get\-Bus\-Number} ()
+\item 
+void {\bf set\-Bus\-Number} (int bus\-Number)
+\item 
+{\bf Bus} {\bf get\-Bus} ()
+\item 
+{\bf Abstract\-Model} {\bf get\-Model} ()
+\item 
+void {\bf set\-Model} ({\bf Abstract\-Model} {\bf model})
+\item 
+{\bf Numeric\-Value} {\bf get\-Current\-Power\-Consumption} ()
+\item 
+void {\bf set\-Current\-Power\-Consumption} ({\bf Numeric\-Value} numeric)
+\item 
+void {\bf set\-Current\-Power\-Consumption} (double value)
+\item 
+void {\bf reset\-Current\-Power\-Consumption} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Power\-Production} ()
+\item 
+void {\bf set\-Power\-Production} (double power\-Production)
+\item 
+void {\bf set\-Power\-Production} ({\bf Numeric\-Value} power\-Production)
+\item 
+void {\bf set\-Peak\-Power} ({\bf Numeric\-Value} rated\-Power)
+\item 
+void {\bf set\-Peak\-Power} (double rated\-Power)
+\item 
+{\bf Numeric\-Value} {\bf get\-Peak\-Power} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Power\-Demand} ()
+\item 
+double {\bf get\-Max\-Power\-Transport} ()
+\item 
+double {\bf get\-Transport\-Power\-Decrement} ()
+\item 
+void {\bf set\-Resistance} ({\bf Numeric\-Value} resistance)
+\item 
+{\bf Numeric\-Value} {\bf get\-Resistance} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Current\-Voltage} ()
+\item 
+void {\bf set\-Current\-Voltage} (double current\-Voltage)
+\item 
+void {\bf set\-Current\-Voltage} ({\bf Numeric\-Value} current\-Voltage)
+\item 
+void {\bf set\-Power\-Line\-Charge} ({\bf Numeric\-Value} power\-Line\-Charge)
+\item 
+double {\bf get\-Line\-Charge} ()
+\item 
+void {\bf update\-Object} (Gregorian\-Calendar current\-Time, {\bf Weather} weather, int simulation\-Resolution\-Minutes)
+\item 
+abstract void {\bf set\-Production\-To\-Weather\-And\-Time} (Gregorian\-Calendar current\-Time, {\bf Weather} weather)
+\item 
+{\bf Variable\-Set} {\bf get\-Data} ()
+\item 
+boolean {\bf add\-Window} (Window w)
+\item 
+boolean {\bf remove\-Window} (Window w)
+\item 
+int {\bf close\-All\-Windows} ()
+\item 
+boolean {\bf is\-Draggable} ()
+\item 
+void {\bf set\-Draggable} (boolean {\bf draggable})
+\item 
+{\bf Variable\-Set} {\bf get\-Variable\-Set} ()
+\item 
+abstract {\bf Grid\-Data\-Enum} {\bf get\-Enum} ()
+\item 
+String {\bf to\-String} ()
+\item 
+String {\bf get\-Object\-Name} ()
+\item 
+String {\bf get\-Parameter\-Of\-S\-G\-O} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf Smart\-Grid\-Object} {\bf factory} ({\bf Grid\-Data\-Enum} enu)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Set} {\bf variable\-Set}
+\item 
+{\bf Overlay\-List} {\bf overlays} = new {\bf Overlay\-List}()
+\item 
+Linked\-List$<$ Window $>$ {\bf owned\-Windows} = new Linked\-List$<$Window$>$()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf Sgs\-Grid\-Model} {\bf grid\-Model}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Numeric\-Value} {\bf get\-Bus\-Voltage} ()
+\item 
+void {\bf set\-Properties} (boolean visible, boolean editable, Enum\-P\-V...\-variables)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Grid\-Data\-Node} {\bf selected\-Node}
+\item 
+{\bf Abstract\-Model} {\bf model}
+\item 
+String {\bf object\-Name}
+\item 
+boolean {\bf draggable} = true
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simulation/\-Application specific object representing the most important simulation dependent values and functions.
+
+Variables\-: Adds all default variables with default values. Values and visibility may be changed by sub classes. Visibility may be changed by Algorithms. (T\-O\-D\-O)
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 33 of file Smart\-Grid\-Object.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!Smart\-Grid\-Object@{Smart\-Grid\-Object}}
+\index{Smart\-Grid\-Object@{Smart\-Grid\-Object}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{Smart\-Grid\-Object}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-Smart\-Grid\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ac9a1a7e550abdb48afd69dfe669a3fa5}
+New Constructor for variable set. \doxyref{Smart\-Grid\-Object}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object} adds all default values 
+
+Definition at line 58 of file Smart\-Grid\-Object.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!add\-Window@{add\-Window}}
+\index{add\-Window@{add\-Window}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{add\-Window}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-add\-Window (
+\begin{DoxyParamCaption}
+\item[{Window}]{w}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a54a026a3347df89d8dd4e47a625db88c}
+Adds a window w which is owned exclusively by this object. The window should be closed if this object stops to exist or will not be used any more.
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+like in \doxyref{Linked\-List\#add}{p.}{} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{remove\-Window()}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a47eb62632690ed9e17471d9123b277b1} 
+
+\doxyref{close\-All\-Windows()}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_acf800ec949fa142f0883b7cb7386a897} 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-model.\-other.\-Window\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1other_1_1_window_owner_a2c78f74c29328a28a6743e65539dc7b0}.
+
+
+
+Definition at line 327 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!close\-All\-Windows@{close\-All\-Windows}}
+\index{close\-All\-Windows@{close\-All\-Windows}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{close\-All\-Windows}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-close\-All\-Windows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_acf800ec949fa142f0883b7cb7386a897}
+Will close all windows owned exclusively by this object. Close is executed by calling  Window.\-dispose()\}
+
+\begin{DoxyReturn}{Returns}
+number of windows. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\#add(\-Window) 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-model.\-other.\-Window\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1other_1_1_window_owner_a8a2da339635a3fc74562f5b99f47be34}.
+
+
+
+Definition at line 338 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!factory@{factory}}
+\index{factory@{factory}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{factory}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Smart\-Grid\-Object} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-factory (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Data\-Enum}}]{enu}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a1df529325f3acfd35897ae2b5774c275}
+
+\begin{DoxyParams}{Parameters}
+{\em enu} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new grid data object for Grid\-Data\-Enum. Mind to set coordinates if needed! 
+\end{DoxyReturn}
+
+
+Definition at line 374 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Bus@{get\-Bus}}
+\index{get\-Bus@{get\-Bus}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Bus}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bus} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Bus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ae8bdc2184254269c1a259f136af9b6a6}
+\begin{DoxyReturn}{Returns}
+the Bus corresponding to the bus\-Number. May result in an Error if data is not up to date. 
+\end{DoxyReturn}
+
+
+Definition at line 80 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Bus\-Number@{get\-Bus\-Number}}
+\index{get\-Bus\-Number@{get\-Bus\-Number}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Bus\-Number}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Bus\-Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a7a1416e45c36c61b1cdcc805d7716704}
+\begin{DoxyReturn}{Returns}
+the bus\-Number 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Bus\-Voltage@{get\-Bus\-Voltage}}
+\index{get\-Bus\-Voltage@{get\-Bus\-Voltage}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Bus\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Bus\-Voltage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ad15e88279d11216fca5b158018f514a2}
+
+
+Definition at line 87 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Current\-Power\-Consumption@{get\-Current\-Power\-Consumption}}
+\index{get\-Current\-Power\-Consumption@{get\-Current\-Power\-Consumption}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Current\-Power\-Consumption}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Current\-Power\-Consumption (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ad8ca87adf1436bc10304603da700de17}
+\begin{DoxyReturn}{Returns}
+current power consumption of this object 
+\end{DoxyReturn}
+
+
+Definition at line 110 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Current\-Voltage@{get\-Current\-Voltage}}
+\index{get\-Current\-Voltage@{get\-Current\-Voltage}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Current\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Current\-Voltage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a54c1d37b28f3b598abe635627fa6a571}
+
+
+Definition at line 214 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Data@{get\-Data}}
+\index{get\-Data@{get\-Data}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Data}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_abf83ed7908852229d62060e7c4016634}
+\begin{DoxyReturn}{Returns}
+Variable\-Set of this object 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[{\bf Deprecated}]use the get\-Visibles() method of the Variable\-Set.\-class \end{DoxyRefDesc}
+
+
+Definition at line 309 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Enum@{get\-Enum}}
+\index{get\-Enum@{get\-Enum}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Grid\-Data\-Enum} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Enum (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_aad248e3bdbae03a7d6222fb6927a8a49}
+\begin{DoxyReturn}{Returns}
+corresponding enum for this object. 
+\end{DoxyReturn}
+
+
+Implemented in {\bf sgs.\-model.\-grid\-Objects.\-Power\-Line} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_power_line_afb8c029e0e2ae4e938e03e4bdcdd75f5}, {\bf sgs.\-model.\-grid\-Objects.\-House} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_house_ae7e723c8113d1bdc0d3065e4cf5a9919}, {\bf sgs.\-model.\-grid\-Objects.\-Grid\-Power} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_grid_power_a17b4340779002ef8b1853b376a3c1b55}, {\bf sgs.\-model.\-grid\-Objects.\-Fossil\-Fuel\-Power\-Plant} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant_a308b5f5c96da7ec7d3d92f2230e98540}, {\bf sgs.\-model.\-grid\-Objects.\-Connector} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_connector_aa03b5f004ce32959f1bf38a6453c45bd}, {\bf sgs.\-model.\-grid\-Objects.\-Wind\-Turbine\-Power\-Plant} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant_abe9795cd99c9d3e16daf442572bca0f6}, {\bf sgs.\-model.\-grid\-Objects.\-Solar\-Power\-Plant} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_a889e96a01ce8c0498f7654498191c824}, {\bf sgs.\-model.\-grid\-Objects.\-Custom\-Power\-Plant} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_a0a994ac9b9a0bc3da62a8bef0fe36a31}, and {\bf sgs.\-model.\-grid\-Objects.\-Custom\-Consumer} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_ae4c25801f0b5dc12bb64300dd41e3de4}.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Line\-Charge@{get\-Line\-Charge}}
+\index{get\-Line\-Charge@{get\-Line\-Charge}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Line\-Charge}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Line\-Charge (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a98c13be7c02e926ba5092994e2ca1c0b}
+
+
+Definition at line 258 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Max\-Power\-Transport@{get\-Max\-Power\-Transport}}
+\index{get\-Max\-Power\-Transport@{get\-Max\-Power\-Transport}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Max\-Power\-Transport}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Max\-Power\-Transport (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a89e6711cd4cfc4ce52d3601438362224}
+\begin{DoxyReturn}{Returns}
+maximum energy this object can \char`\"{}transport\char`\"{} (?) 
+\end{DoxyReturn}
+
+
+Definition at line 193 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Model@{get\-Model}}
+\index{get\-Model@{get\-Model}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Model} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a5f3a15cf34b127772a3734c7be83c6d8}
+\begin{DoxyReturn}{Returns}
+the current model 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Object\-Name@{get\-Object\-Name}}
+\index{get\-Object\-Name@{get\-Object\-Name}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Object\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Object\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a262c5a7010f8f7ca2547d450a911215e}
+
+
+Definition at line 402 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Parameter\-Of\-S\-G\-O@{get\-Parameter\-Of\-S\-G\-O}}
+\index{get\-Parameter\-Of\-S\-G\-O@{get\-Parameter\-Of\-S\-G\-O}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Parameter\-Of\-S\-G\-O}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Parameter\-Of\-S\-G\-O (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a4bb57a5690a7c612dbb5b79872981f16}
+To avoid initializing Variable\-Set and Single\-Variable in the C\-S\-V Class Give\-Data\-Object and Give\-Data\-Param, only return visible parameters in a string for the Tree\-Nodes \begin{DoxyReturn}{Returns}
+sgo\-Parameter 
+\end{DoxyReturn}
+
+
+Definition at line 412 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Peak\-Power@{get\-Peak\-Power}}
+\index{get\-Peak\-Power@{get\-Peak\-Power}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Peak\-Power}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Peak\-Power (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a5d4f90f9ed1c3cb2ef3b7dc619090c20}
+Producer method \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 179 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Power\-Demand@{get\-Power\-Demand}}
+\index{get\-Power\-Demand@{get\-Power\-Demand}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Power\-Demand}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Power\-Demand (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a1b330e324f54ac8256da42cfd983b84f}
+\begin{DoxyReturn}{Returns}
+power usage of this object 
+\end{DoxyReturn}
+
+
+Definition at line 185 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Power\-Production@{get\-Power\-Production}}
+\index{get\-Power\-Production@{get\-Power\-Production}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Power\-Production (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a38b86c8e0825c7fb0d31562bfcc502a1}
+\begin{DoxyReturn}{Returns}
+power production of this object 
+\end{DoxyReturn}
+
+
+Definition at line 139 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Resistance@{get\-Resistance}}
+\index{get\-Resistance@{get\-Resistance}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Resistance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Resistance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a1cd87a4e5474dc6de4fdc3a3b278a45d}
+
+
+Definition at line 210 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Transport\-Power\-Decrement@{get\-Transport\-Power\-Decrement}}
+\index{get\-Transport\-Power\-Decrement@{get\-Transport\-Power\-Decrement}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Transport\-Power\-Decrement}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Transport\-Power\-Decrement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a7aeabf9c0b5b3a93c631b9d5bb665c2b}
+\begin{DoxyReturn}{Returns}
+Energy decrement factor e.\-g. 0.\-01 = 1 percent energy decrement 
+\end{DoxyReturn}
+
+
+Definition at line 202 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!get\-Variable\-Set@{get\-Variable\-Set}}
+\index{get\-Variable\-Set@{get\-Variable\-Set}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{get\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-get\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_abb2f5f3db9e03418f8189eb6d020200f}
+\begin{DoxyReturn}{Returns}
+the Variable\-Set owned by this object; or null (no owned variable set) 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_ae9768e375d5653aa6d8acc8e3e13a47c}.
+
+
+
+Definition at line 362 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!is\-Draggable@{is\-Draggable}}
+\index{is\-Draggable@{is\-Draggable}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{is\-Draggable}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-is\-Draggable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a3dad540a8c17c2bbd724f84a905dfeee}
+
+
+Definition at line 350 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!remove\-Window@{remove\-Window}}
+\index{remove\-Window@{remove\-Window}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{remove\-Window}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-remove\-Window (
+\begin{DoxyParamCaption}
+\item[{Window}]{w}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a47eb62632690ed9e17471d9123b277b1}
+Remove a window w which was owned exclusively by this object. Should also call w.\-dispose().
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+like in \doxyref{Linked\-List\#remove}{p.}{} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\#remove\-All\-Windows() 
+
+\#add(\-Window) 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-model.\-other.\-Window\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1other_1_1_window_owner_a779f1b6f8d199252666935a14857d0d1}.
+
+
+
+Definition at line 332 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!reset\-Current\-Power\-Consumption@{reset\-Current\-Power\-Consumption}}
+\index{reset\-Current\-Power\-Consumption@{reset\-Current\-Power\-Consumption}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{reset\-Current\-Power\-Consumption}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-reset\-Current\-Power\-Consumption (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a185f462b343367ffa8fa2345649cf895}
+Resets current power consumption 
+
+Definition at line 130 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Bus\-Number@{set\-Bus\-Number}}
+\index{set\-Bus\-Number@{set\-Bus\-Number}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Bus\-Number}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Bus\-Number (
+\begin{DoxyParamCaption}
+\item[{int}]{bus\-Number}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ab6e73c06a9c7332f289bbd885d5c41ca}
+
+\begin{DoxyParams}{Parameters}
+{\em bus\-Number} & the cluster\-Number to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 73 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Current\-Power\-Consumption@{set\-Current\-Power\-Consumption}}
+\index{set\-Current\-Power\-Consumption@{set\-Current\-Power\-Consumption}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Current\-Power\-Consumption}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Current\-Power\-Consumption (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{numeric}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a62f393fa6e1f88601efa388995639578}
+
+\begin{DoxyParams}{Parameters}
+{\em numeric} & -\/ the new charge value for this element \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 118 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Current\-Power\-Consumption@{set\-Current\-Power\-Consumption}}
+\index{set\-Current\-Power\-Consumption@{set\-Current\-Power\-Consumption}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Current\-Power\-Consumption}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Current\-Power\-Consumption (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a0c03efa78e2066bbf5f61702c49d6193}
+
+
+Definition at line 123 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Current\-Voltage@{set\-Current\-Voltage}}
+\index{set\-Current\-Voltage@{set\-Current\-Voltage}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Current\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Current\-Voltage (
+\begin{DoxyParamCaption}
+\item[{double}]{current\-Voltage}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a026f6229a75caa6ff916c7602b7d8ec2}
+
+
+Definition at line 221 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Current\-Voltage@{set\-Current\-Voltage}}
+\index{set\-Current\-Voltage@{set\-Current\-Voltage}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Current\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Current\-Voltage (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{current\-Voltage}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ae46e489d906d0d7965e6d6a4253eeadc}
+Set current voltage and calculated angle. 
+\begin{DoxyParams}{Parameters}
+{\em current\-Voltage} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 229 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Draggable@{set\-Draggable}}
+\index{set\-Draggable@{set\-Draggable}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Draggable}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Draggable (
+\begin{DoxyParamCaption}
+\item[{boolean}]{draggable}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a86bc79e907ee061f83b09c67ba481c8d}
+
+
+Definition at line 354 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Model@{set\-Model}}
+\index{set\-Model@{set\-Model}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Model}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Abstract\-Model}}]{model}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a92c1bf6efcc57ae3acddc503dc60ae41}
+
+
+Definition at line 104 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Peak\-Power@{set\-Peak\-Power}}
+\index{set\-Peak\-Power@{set\-Peak\-Power}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Peak\-Power}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Peak\-Power (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{rated\-Power}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a96606b65df224d13090562e68e60f659}
+Producer method 
+\begin{DoxyParams}{Parameters}
+{\em rated\-Power} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 164 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Peak\-Power@{set\-Peak\-Power}}
+\index{set\-Peak\-Power@{set\-Peak\-Power}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Peak\-Power}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Peak\-Power (
+\begin{DoxyParamCaption}
+\item[{double}]{rated\-Power}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a0143b19bf953fb4f1d49c85df2e2fd7c}
+Producer method 
+\begin{DoxyParams}{Parameters}
+{\em power\-Production} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 171 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Power\-Line\-Charge@{set\-Power\-Line\-Charge}}
+\index{set\-Power\-Line\-Charge@{set\-Power\-Line\-Charge}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Power\-Line\-Charge}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Power\-Line\-Charge (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{power\-Line\-Charge}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a8708fce37b2a022b7e5d8d9123d35fc2}
+
+
+Definition at line 254 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Power\-Production@{set\-Power\-Production}}
+\index{set\-Power\-Production@{set\-Power\-Production}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Power\-Production (
+\begin{DoxyParamCaption}
+\item[{double}]{power\-Production}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a1d551cd4ebc8949455051b876a408ec0}
+Producer method 
+\begin{DoxyParams}{Parameters}
+{\em power\-Production} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 148 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Power\-Production@{set\-Power\-Production}}
+\index{set\-Power\-Production@{set\-Power\-Production}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Power\-Production (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{power\-Production}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a880025d424bfe13f38d8abd4a8533efb}
+Producer method 
+\begin{DoxyParams}{Parameters}
+{\em power\-Production} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 156 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Production\-To\-Weather\-And\-Time@{set\-Production\-To\-Weather\-And\-Time}}
+\index{set\-Production\-To\-Weather\-And\-Time@{set\-Production\-To\-Weather\-And\-Time}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Production\-To\-Weather\-And\-Time}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Production\-To\-Weather\-And\-Time (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a606292981670d6d1e015020956bf5bbc}
+Adjusts energy production to specific weather and time. Depends on \doxyref{Enum\-P\-V.\-power\-Production\-Optimal}{p.}{enumsgs_1_1model_1_1variables_1_1_enum_p_v_ac8d6bec5240c68cd91017eb5646b30c3}
+
+
+\begin{DoxyParams}{Parameters}
+{\em weather} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in {\bf sgs.\-model.\-grid\-Objects.\-House} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_house_a334c50d1f6967d470eb0ab122edd666a}, {\bf sgs.\-model.\-grid\-Objects.\-Pro\-Sumer} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_a955defefa383f56174146d9a1a0d8225}, {\bf sgs.\-model.\-grid\-Objects.\-Power\-Transport} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_power_transport_a3f7d77079f8bbf141be30d2199131b5b}, and {\bf sgs.\-model.\-grid\-Objects.\-Grid\-Power} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_grid_power_a7bb96eac837772af4a9c88f6a3c17ed1}.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Properties@{set\-Properties}}
+\index{set\-Properties@{set\-Properties}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Properties}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Properties (
+\begin{DoxyParamCaption}
+\item[{boolean}]{visible, }
+\item[{boolean}]{editable, }
+\item[{Enum\-P\-V...}]{variables}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a03dd4b7e4dcdb83cba0e63482aa62e9c}
+
+
+Definition at line 262 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!set\-Resistance@{set\-Resistance}}
+\index{set\-Resistance@{set\-Resistance}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{set\-Resistance}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-set\-Resistance (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{resistance}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a0e5592828ffc4b0265ee542792bd5ce8}
+
+
+Definition at line 206 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a74d1946ece91a28fb6fe5a5402978fd9}
+
+
+Definition at line 398 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!update\-Object@{update\-Object}}
+\index{update\-Object@{update\-Object}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{update\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-update\-Object (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather, }
+\item[{int}]{simulation\-Resolution\-Minutes}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a4d8ce62cbe114ac99de2bce46aed3d39}
+
+
+Definition at line 285 of file Smart\-Grid\-Object.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!draggable@{draggable}}
+\index{draggable@{draggable}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{draggable}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-draggable = true\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a9530781fc61505d9376829f897325301}
+true if this object can be dragged in the grid 
+
+Definition at line 50 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!grid\-Model@{grid\-Model}}
+\index{grid\-Model@{grid\-Model}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{grid\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sgs\-Grid\-Model} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-grid\-Model\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a4652fb1a16e502b31aff75686f3b3e75}
+Model is static, so it doesn't need to be set for every object extra 
+
+Definition at line 52 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!model@{model}}
+\index{model@{model}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Model} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-model\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ab39e23c1e7f0f7fae31f557ce85c0e23}
+
+
+Definition at line 37 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!object\-Name@{object\-Name}}
+\index{object\-Name@{object\-Name}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{object\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-object\-Name\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_ab1fdc83f9086dda3d3be3984a1e563f3}
+
+
+Definition at line 38 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!overlays@{overlays}}
+\index{overlays@{overlays}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{overlays}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Overlay\-List} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-overlays = new {\bf Overlay\-List}()}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a84827fa0f7834650292e9655e67076a2}
+
+
+Definition at line 44 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!owned\-Windows@{owned\-Windows}}
+\index{owned\-Windows@{owned\-Windows}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{owned\-Windows}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<$Window$>$ sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-owned\-Windows = new Linked\-List$<$Window$>$()}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a1e4441a0a8004af70f2626723c597fc8}
+Holds windows owned inly by this specific object 
+
+Definition at line 48 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!selected\-Node@{selected\-Node}}
+\index{selected\-Node@{selected\-Node}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{selected\-Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Grid\-Data\-Node} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-selected\-Node\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a8d5703aa46cb9fe362cbfbaa931fd1cc}
+
+
+Definition at line 36 of file Smart\-Grid\-Object.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}!variable\-Set@{variable\-Set}}
+\index{variable\-Set@{variable\-Set}!sgs::model::gridObjects::SmartGridObject@{sgs\-::model\-::grid\-Objects\-::\-Smart\-Grid\-Object}}
+\subsubsection[{variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object.\-variable\-Set}\label{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a75d5cbe5ec21a625a3fcf21cf5b8ec16}
+
+
+Definition at line 35 of file Smart\-Grid\-Object.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/grid\-Objects/{\bf Smart\-Grid\-Object.\-java}\end{DoxyCompactItemize}

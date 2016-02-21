@@ -1,0 +1,160 @@
+\section{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg}\index{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg@{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Collector\-Avg} ({\bf Enum\-P\-V} {\bf variable\-Name})
+\item 
+{\bf Numeric\-Value} {\bf get\-Value} ()
+\item 
+int {\bf get\-Number\-Of\-Values} ()
+\item 
+void {\bf rest\-Values} ()
+\item 
+boolean {\bf collect\-From} ({\bf Variable\-Owner} owner)
+\item 
+{\bf Variable\-Collector\-Avg} {\bf copy} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Variable\-Collector\-Avg.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!Variable\-Collector\-Avg@{Variable\-Collector\-Avg}}
+\index{Variable\-Collector\-Avg@{Variable\-Collector\-Avg}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{Variable\-Collector\-Avg}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-Variable\-Collector\-Avg (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a916b093f794eb8f36a540eb56b3b4e1e}
+Constructor for average collector. 
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Variable\-Collector\-Avg.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!collect\-From@{collect\-From}}
+\index{collect\-From@{collect\-From}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{collect\-From}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-collect\-From (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Owner}}]{owner}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a8a4de567b52c4d6ea940d0bbf8a6ad6f}
+Adds interesting variable values from the variable owner 
+\begin{DoxyParams}{Parameters}
+{\em owner1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a value was collected 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a7771a65b96725beb168579ff6003f6e6}.
+
+
+
+Definition at line 51 of file Variable\-Collector\-Avg.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collector\-Avg} sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a5d39690ac71ac46bfff6f16a60f184f0}
+\begin{DoxyReturn}{Returns}
+a copy of this Collector 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af657fdd311577e7f5f155283a8e816ff}.
+
+
+
+Definition at line 58 of file Variable\-Collector\-Avg.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!get\-Number\-Of\-Values@{get\-Number\-Of\-Values}}
+\index{get\-Number\-Of\-Values@{get\-Number\-Of\-Values}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{get\-Number\-Of\-Values}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-get\-Number\-Of\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a61e5766327fa1d008e2fa0be5139ab02}
+\begin{DoxyReturn}{Returns}
+the number of collected values 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af7069a996dfec379cbc334f294b5511a}.
+
+
+
+Definition at line 39 of file Variable\-Collector\-Avg.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-get\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a60eba25ad500837d28142d1e0d018813}
+\begin{DoxyReturn}{Returns}
+the collected numeric value 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_aafa53635c29d137ed70912b31fe75e6a}.
+
+
+
+Definition at line 24 of file Variable\-Collector\-Avg.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}!rest\-Values@{rest\-Values}}
+\index{rest\-Values@{rest\-Values}!sgs::model::variables::collector::VariableCollectorAvg@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Avg}}
+\subsubsection[{rest\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Avg.\-rest\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_a11eaddd18e8811a3a96f5812882c76c4}
+resets values to zero. 
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a54200215ba9e58439e720502bbedb507}.
+
+
+
+Definition at line 44 of file Variable\-Collector\-Avg.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/collector/{\bf Variable\-Collector\-Avg.\-java}\end{DoxyCompactItemize}

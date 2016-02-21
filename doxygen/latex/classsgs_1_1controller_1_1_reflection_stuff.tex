@@ -1,0 +1,175 @@
+\section{sgs.\-controller.\-Reflection\-Stuff Class Reference}
+\label{classsgs_1_1controller_1_1_reflection_stuff}\index{sgs.\-controller.\-Reflection\-Stuff@{sgs.\-controller.\-Reflection\-Stuff}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf main\-Test} (String[$\,$] args)  throws File\-Not\-Found\-Exception
+\item 
+static Array\-List$<$ Class$<$?$>$ $>$ {\bf get\-Sub\-Classes} (Class$<$?$>$ top\-Class, Array\-List$<$ Class$<$?$>$$>$ classes, boolean can\-Be\-Abstract)
+\item 
+static Array\-List$<$ Class$<$?$>$ $>$ {\bf get\-Classes\-For\-Package} (Class$<$?$>$ top\-Class)
+\item 
+static Array\-List$<$ Class$<$?$>$ $>$ {\bf get\-Classes\-For\-Package} (Package pkg)
+\item 
+static Array\-List$<$ Class$<$?$>$ $>$ {\bf get\-Classes\-For\-Package} (String pkg\-Name)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static boolean {\bf use\-Sub\-Packages} = true
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 17 of file Reflection\-Stuff.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!get\-Classes\-For\-Package@{get\-Classes\-For\-Package}}
+\index{get\-Classes\-For\-Package@{get\-Classes\-For\-Package}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{get\-Classes\-For\-Package}]{\setlength{\rightskip}{0pt plus 5cm}static Array\-List$<$Class$<$?$>$ $>$ sgs.\-controller.\-Reflection\-Stuff.\-get\-Classes\-For\-Package (
+\begin{DoxyParamCaption}
+\item[{Class$<$?$>$}]{top\-Class}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_a136f418c61dc52f9fd9225e76e576231}
+
+\begin{DoxyParams}{Parameters}
+{\em top\-Class} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all classes in the same package. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{get\-Classes\-For\-Package(\-String pkg\-Name)}{p.}{classsgs_1_1controller_1_1_reflection_stuff_aa4c2f21a28dfdad9f1fc7f8ea16b4800} 
+\end{DoxySeeAlso}
+
+
+Definition at line 72 of file Reflection\-Stuff.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!get\-Classes\-For\-Package@{get\-Classes\-For\-Package}}
+\index{get\-Classes\-For\-Package@{get\-Classes\-For\-Package}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{get\-Classes\-For\-Package}]{\setlength{\rightskip}{0pt plus 5cm}static Array\-List$<$Class$<$?$>$ $>$ sgs.\-controller.\-Reflection\-Stuff.\-get\-Classes\-For\-Package (
+\begin{DoxyParamCaption}
+\item[{Package}]{pkg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_a83b9568754368838a97b1fc547eb4122}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{get\-Classes\-For\-Package(\-String pkg\-Name)}{p.}{classsgs_1_1controller_1_1_reflection_stuff_aa4c2f21a28dfdad9f1fc7f8ea16b4800} 
+\end{DoxySeeAlso}
+
+
+Definition at line 79 of file Reflection\-Stuff.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!get\-Classes\-For\-Package@{get\-Classes\-For\-Package}}
+\index{get\-Classes\-For\-Package@{get\-Classes\-For\-Package}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{get\-Classes\-For\-Package}]{\setlength{\rightskip}{0pt plus 5cm}static Array\-List$<$Class$<$?$>$ $>$ sgs.\-controller.\-Reflection\-Stuff.\-get\-Classes\-For\-Package (
+\begin{DoxyParamCaption}
+\item[{String}]{pkg\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_aa4c2f21a28dfdad9f1fc7f8ea16b4800}
+\begin{DoxyAuthor}{Author}
+Original from Dave Dopson, {\tt https\-://github.\-com/ddopson/java-\/class-\/enumerator} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em pkg\-Name} & -\/ e.\-g. \char`\"{}sgs.\-controller.\-interfaces\char`\"{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all classes in the package. 
+\end{DoxyReturn}
+
+
+Definition at line 88 of file Reflection\-Stuff.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!get\-Sub\-Classes@{get\-Sub\-Classes}}
+\index{get\-Sub\-Classes@{get\-Sub\-Classes}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{get\-Sub\-Classes}]{\setlength{\rightskip}{0pt plus 5cm}static Array\-List$<$Class$<$?$>$ $>$ sgs.\-controller.\-Reflection\-Stuff.\-get\-Sub\-Classes (
+\begin{DoxyParamCaption}
+\item[{Class$<$?$>$}]{top\-Class, }
+\item[{Array\-List$<$ Class$<$?$>$$>$}]{classes, }
+\item[{boolean}]{can\-Be\-Abstract}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_a5095a89bb614c63d62936e9b0af0cc1a}
+Returns a list of sub-\/classes from the defined list of classes. 
+\begin{DoxyParams}{Parameters}
+{\em top\-Class} & \\
+\hline
+{\em classes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sub-\/classes of top\-Class, excluding top\-Class, excluding abstract classes 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{get\-Classes\-For\-Package(\-String pkg\-Name)}{p.}{classsgs_1_1controller_1_1_reflection_stuff_aa4c2f21a28dfdad9f1fc7f8ea16b4800} 
+\end{DoxySeeAlso}
+
+
+Definition at line 51 of file Reflection\-Stuff.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!main\-Test@{main\-Test}}
+\index{main\-Test@{main\-Test}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{main\-Test}]{\setlength{\rightskip}{0pt plus 5cm}static void sgs.\-controller.\-Reflection\-Stuff.\-main\-Test (
+\begin{DoxyParamCaption}
+\item[{String[$\,$]}]{args}
+\end{DoxyParamCaption}
+) throws File\-Not\-Found\-Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_a5294bc5c3f56ce1f5b8186efc2314928}
+Testing 
+\begin{DoxyParams}{Parameters}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\-Not\-Found\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 27 of file Reflection\-Stuff.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::\-Reflection\-Stuff@{sgs\-::controller\-::\-Reflection\-Stuff}!use\-Sub\-Packages@{use\-Sub\-Packages}}
+\index{use\-Sub\-Packages@{use\-Sub\-Packages}!sgs::controller::ReflectionStuff@{sgs\-::controller\-::\-Reflection\-Stuff}}
+\subsubsection[{use\-Sub\-Packages}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-Reflection\-Stuff.\-use\-Sub\-Packages = true\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1_reflection_stuff_a8ab589b69ba666991e1f44e80110bcb2}
+Flag defining if packages below the (parameter) package should be used at related functions 
+
+Definition at line 20 of file Reflection\-Stuff.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/{\bf Reflection\-Stuff.\-java}\end{DoxyCompactItemize}

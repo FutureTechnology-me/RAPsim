@@ -1,0 +1,67 @@
+.TH "sgs.model.gridObjects.PowerTransport" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridObjects.PowerTransport \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.PP
+Inherited by \fBsgs\&.model\&.gridObjects\&.Connector\fP, and \fBsgs\&.model\&.gridObjects\&.PowerLine\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPowerTransport\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetProductionToWeatherAndTime\fP (GregorianCalendar currentTime, \fBWeather\fP weather)"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+An Abstract Class for all Objects, that Transport Energy 
+.PP
+\fBAuthor:\fP
+.RS 4
+tobi, Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file PowerTransport\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridObjects\&.PowerTransport\&.PowerTransport ()"
+Abstract constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrentPowerConsumption\fP 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file PowerTransport\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.model\&.gridObjects\&.PowerTransport\&.setProductionToWeatherAndTime (GregorianCalendarcurrentTime, \fBWeather\fPweather)\fC [virtual]\fP"
+Adjusts energy production to specific weather and time\&. Depends on \fBEnumPV\&.powerProductionOptimal\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIweather\fP 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.PP
+Definition at line 38 of file PowerTransport\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

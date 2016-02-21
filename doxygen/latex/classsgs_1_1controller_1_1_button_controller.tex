@@ -1,0 +1,150 @@
+\section{sgs.\-controller.\-Button\-Controller Class Reference}
+\label{classsgs_1_1controller_1_1_button_controller}\index{sgs.\-controller.\-Button\-Controller@{sgs.\-controller.\-Button\-Controller}}
+
+
+Collaboration diagram for sgs.\-controller.\-Button\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Button\-Controller} (Primary\-View\-I primary\-View, {\bf Grid\-Controller} grid\-Controller)
+\item 
+void {\bf action\-For\-\_\-b\-Start\-Stop\-Sim} (Action\-Event arg0)
+\item 
+void {\bf set\-Time\-Thread} ({\bf Time\-Thread} time\-Thread)
+\item 
+void {\bf reset\-Start\-Stop\-Sim\-Button} ()
+\item 
+void {\bf update\-Date\-And\-Time} ({\bf Weather} current\-Weather, Gregorian\-Calendar current\-Time)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Top\-Panel} {\bf top\-Panel} = new {\bf Top\-Panel}()
+\item 
+{\bf Bottom\-Panel} {\bf bottom\-Panel} = new {\bf Bottom\-Panel}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Controller for Button\-Manager\-View. Sets up the button panels on top and bottom. \begin{DoxyAuthor}{Author}
+Kristofer Schweiger, Breiling 
+\end{DoxyAuthor}
+
+
+Definition at line 32 of file Button\-Controller.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!Button\-Controller@{Button\-Controller}}
+\index{Button\-Controller@{Button\-Controller}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{Button\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-Button\-Controller.\-Button\-Controller (
+\begin{DoxyParamCaption}
+\item[{Primary\-View\-I}]{primary\-View, }
+\item[{{\bf Grid\-Controller}}]{grid\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_button_controller_a81a85971dd72e117601a32ce691bfbce}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em primary\-View} & set\-J\-Component top\-Panel to Border\-Layout.\-N\-O\-R\-T\-H, bottom\-Panel to Border\-Layout.\-S\-O\-U\-T\-H \\
+\hline
+{\em grid\-Controller} & \\
+\hline
+{\em csv\-Controller} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file Button\-Controller.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!action\-For\-\_\-b\-Start\-Stop\-Sim@{action\-For\-\_\-b\-Start\-Stop\-Sim}}
+\index{action\-For\-\_\-b\-Start\-Stop\-Sim@{action\-For\-\_\-b\-Start\-Stop\-Sim}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{action\-For\-\_\-b\-Start\-Stop\-Sim}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Button\-Controller.\-action\-For\-\_\-b\-Start\-Stop\-Sim (
+\begin{DoxyParamCaption}
+\item[{Action\-Event}]{arg0}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_button_controller_a2462c7d35f6aace7c98aa3f31b4922ab}
+private method, start and stop simulation 
+\begin{DoxyParams}{Parameters}
+{\em arg0} & -\/ unused if
+\begin{DoxyCode}
+bStartStopSim.isSelected() 
+\end{DoxyCode}
+ start simulation and create a new Dialog, with time\-Thread and grid\-Model.\\
+\hline
+\end{DoxyParams}
+if creation of Dialog is confirmed, instruct the view to provide field for Start\-Time, end\-Time, current\-Time and the Start or Stop button 
+
+Definition at line 247 of file Button\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!reset\-Start\-Stop\-Sim\-Button@{reset\-Start\-Stop\-Sim\-Button}}
+\index{reset\-Start\-Stop\-Sim\-Button@{reset\-Start\-Stop\-Sim\-Button}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{reset\-Start\-Stop\-Sim\-Button}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Button\-Controller.\-reset\-Start\-Stop\-Sim\-Button (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_button_controller_a3b683d701069fd0ba31908dff33b1bbe}
+set Text for the Start/\-Stop Simulation Button \char`\"{}\-Start Sim\char`\"{} when Simulations has been stopped 
+
+Definition at line 288 of file Button\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!set\-Time\-Thread@{set\-Time\-Thread}}
+\index{set\-Time\-Thread@{set\-Time\-Thread}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{set\-Time\-Thread}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Button\-Controller.\-set\-Time\-Thread (
+\begin{DoxyParamCaption}
+\item[{{\bf Time\-Thread}}]{time\-Thread}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_button_controller_a872e3c2362e3aede2927256d2af4340e}
+
+\begin{DoxyParams}{Parameters}
+{\em time\-Thread} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 280 of file Button\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!update\-Date\-And\-Time@{update\-Date\-And\-Time}}
+\index{update\-Date\-And\-Time@{update\-Date\-And\-Time}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{update\-Date\-And\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Button\-Controller.\-update\-Date\-And\-Time (
+\begin{DoxyParamCaption}
+\item[{{\bf Weather}}]{current\-Weather, }
+\item[{Gregorian\-Calendar}]{current\-Time}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_button_controller_ac56f4e7aa03faf9e5de8947a66fa08ce}
+
+\begin{DoxyParams}{Parameters}
+{\em current\-Weather} & \\
+\hline
+{\em current\-Time} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 299 of file Button\-Controller.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!bottom\-Panel@{bottom\-Panel}}
+\index{bottom\-Panel@{bottom\-Panel}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{bottom\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bottom\-Panel} sgs.\-controller.\-Button\-Controller.\-bottom\-Panel = new {\bf Bottom\-Panel}()}\label{classsgs_1_1controller_1_1_button_controller_a5657f82a32f7446c0d2f2c53c0b15a6a}
+
+
+Definition at line 43 of file Button\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Button\-Controller@{sgs\-::controller\-::\-Button\-Controller}!top\-Panel@{top\-Panel}}
+\index{top\-Panel@{top\-Panel}!sgs::controller::ButtonController@{sgs\-::controller\-::\-Button\-Controller}}
+\subsubsection[{top\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Top\-Panel} sgs.\-controller.\-Button\-Controller.\-top\-Panel = new {\bf Top\-Panel}()}\label{classsgs_1_1controller_1_1_button_controller_ab5657e2e6b692ea7e1c46e68ef2ec5d0}
+
+
+Definition at line 42 of file Button\-Controller.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/{\bf Button\-Controller.\-java}\end{DoxyCompactItemize}

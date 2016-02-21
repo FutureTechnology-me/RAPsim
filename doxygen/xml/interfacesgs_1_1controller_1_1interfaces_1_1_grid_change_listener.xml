@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" kind="interface" prot="public">
+    <compoundname>sgs::controller::interfaces::GridChangeListener</compoundname>
+    <derivedcompoundref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" prot="public" virt="non-virtual">sgs.controller.simulation.AbstractDistributionAlgorithm</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener_1a0d6cee580d406e7ab3fad2e8ac87e350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.interfaces.GridChangeListener.gridChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridChanged</name>
+        <reimplementedby refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1ae9cccb9df63ca93edd420fbda2d9a208">gridChanged</reimplementedby>
+        <reimplementedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1aa0fa0056f25245ebdd85fc298bc6ed71">gridChanged</reimplementedby>
+        <reimplementedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a1448c4593f3a851aa5e524b7e4316c0d">gridChanged</reimplementedby>
+        <reimplementedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ae27c7d5988ac5d1492dcd7c253fffa95">gridChanged</reimplementedby>
+        <reimplementedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abb3e03aa020719c4c5682f50dba72603">gridChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Notifies the Object, that the grid has changed in some way. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/GridChangeListener.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3317">
+        <label>sgs.controller.simulation.SimplePowerDistribution</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution"/>
+        <childnode refid="3313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3313">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="3312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3314">
+        <label>sgs.controller.simulation._TestingAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm"/>
+        <childnode refid="3313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3312">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+      <node id="3315">
+        <label>sgs.controller.simulation.ACPowerFlowCalculator</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator"/>
+        <childnode refid="3313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3316">
+        <label>sgs.controller.simulation.DCPowerFlowCalculator</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator"/>
+        <childnode refid="3313" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/GridChangeListener.java" line="3" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/GridChangeListener.java" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener_1a0d6cee580d406e7ab3fad2e8ac87e350" prot="public" virt="non-virtual"><scope>sgs::controller::interfaces::GridChangeListener</scope><name>gridChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

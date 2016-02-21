@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_custom_power_plant_8java" kind="file">
+    <compoundname>CustomPowerPlant.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant" prot="public">sgs::model::gridObjects::CustomPowerPlant</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1grid_objects">sgs::model::gridObjects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.gridObjects;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">sgs.model.gridData.GridDataEnum</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" kindref="compound">sgs.model.objectModels.ConstantPowerModel</ref>;</highlight></codeline>
+<codeline lineno="10" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant" kindref="compound">CustomPowerPlant</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant" kindref="compound">PowerPlant</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>private<sp/>static<sp/>final<sp/>NumericValue<sp/>Default_PowerProduction<sp/>=<sp/>new<sp/>NumericValue(2.0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a6b0c844440cb69d86f3ca85eb72d513a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a6b0c844440cb69d86f3ca85eb72d513a" kindref="member">CustomPowerPlant</ref>(){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.objectName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;CustomPowerPlant&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.model<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" kindref="compound">ConstantPowerModel</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>setPowerProduction(Default_PowerProduction);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//variableSet.set(EnumPV.powerProduction,<sp/>Default_PowerProduction);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>setPeakPower(<sp/>CustomPowerPlant.Default_PowerProduction<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a0a994ac9b9a0bc3da62a8bef0fe36a31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a0a994ac9b9a0bc3da62a8bef0fe36a31" kindref="member">getEnum</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3d53778a5ad430bc763a844b551ad64f" kindref="member">GridDataEnum.CUSTOM_POWER_PLANT</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomPowerPlant.java"/>
+  </compounddef>
+</doxygen>

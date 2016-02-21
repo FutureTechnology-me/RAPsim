@@ -1,0 +1,224 @@
+\section{sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager Class Reference}
+\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager}\index{sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager@{sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager}}
+
+
+Inheritance diagram for sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager\-:
+
+
+Collaboration diagram for sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Undo\-Redo\-Manager} ({\bf Grid\-Controller} gc, {\bf Smart\-Grid\-Object} sgs, boolean object\-Status)
+\item 
+boolean {\bf add\-Edit} (Undoable\-Edit arg0)
+\item 
+boolean {\bf can\-Redo} ()
+\item 
+boolean {\bf can\-Undo} ()
+\item 
+void {\bf die} ()
+\item 
+String {\bf get\-Presentation\-Name} ()
+\item 
+String {\bf get\-Redo\-Presentation\-Name} ()
+\item 
+String {\bf get\-Undo\-Presentation\-Name} ()
+\item 
+boolean {\bf is\-Significant} ()
+\item 
+void {\bf redo} ()  throws Cannot\-Redo\-Exception 
+\item 
+boolean {\bf replace\-Edit} (Undoable\-Edit arg0)
+\item 
+void {\bf undo} ()  throws Cannot\-Undo\-Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file Undo\-Redo\-Manager.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!Undo\-Redo\-Manager@{Undo\-Redo\-Manager}}
+\index{Undo\-Redo\-Manager@{Undo\-Redo\-Manager}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{Undo\-Redo\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-Undo\-Redo\-Manager (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{gc, }
+\item[{{\bf Smart\-Grid\-Object}}]{sgs, }
+\item[{boolean}]{object\-Status}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a10c80729b67cddf9ee03ff7e71a27fd9}
+Constructor for undoing an delete action in the Grid\-Map 
+\begin{DoxyParams}{Parameters}
+{\em gc} & \\
+\hline
+{\em sgs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file Undo\-Redo\-Manager.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!add\-Edit@{add\-Edit}}
+\index{add\-Edit@{add\-Edit}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{add\-Edit}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-add\-Edit (
+\begin{DoxyParamCaption}
+\item[{Undoable\-Edit}]{arg0}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a50e4bb6b7e477c7398bd870067f2e54e}
+
+
+Definition at line 36 of file Undo\-Redo\-Manager.\-java.
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!can\-Redo@{can\-Redo}}
+\index{can\-Redo@{can\-Redo}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{can\-Redo}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-can\-Redo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_aa240a4b02252c5d8f2f2dffb90cdc29c}
+
+
+Definition at line 42 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!can\-Undo@{can\-Undo}}
+\index{can\-Undo@{can\-Undo}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{can\-Undo}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-can\-Undo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a621df7dfc3ce3778faf7c7647f8c6945}
+
+
+Definition at line 47 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!die@{die}}
+\index{die@{die}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{die}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-die (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_ab1e6611f0147dd52678ddb749707ab02}
+
+
+Definition at line 52 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!get\-Presentation\-Name@{get\-Presentation\-Name}}
+\index{get\-Presentation\-Name@{get\-Presentation\-Name}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{get\-Presentation\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-get\-Presentation\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_af3c99fde8560e204bed0502112ad4a6e}
+
+
+Definition at line 59 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!get\-Redo\-Presentation\-Name@{get\-Redo\-Presentation\-Name}}
+\index{get\-Redo\-Presentation\-Name@{get\-Redo\-Presentation\-Name}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{get\-Redo\-Presentation\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-get\-Redo\-Presentation\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a89ed1d95c14e80b4455a482ada0a543b}
+
+
+Definition at line 64 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!get\-Undo\-Presentation\-Name@{get\-Undo\-Presentation\-Name}}
+\index{get\-Undo\-Presentation\-Name@{get\-Undo\-Presentation\-Name}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{get\-Undo\-Presentation\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-get\-Undo\-Presentation\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a5f9194d2f313b62b0a10583fd6e1c9ca}
+
+
+Definition at line 69 of file Undo\-Redo\-Manager.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!is\-Significant@{is\-Significant}}
+\index{is\-Significant@{is\-Significant}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{is\-Significant}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-is\-Significant (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_afd754f2fbf423f5e0a7c11617288b6eb}
+
+
+Definition at line 74 of file Undo\-Redo\-Manager.\-java.
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!redo@{redo}}
+\index{redo@{redo}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{redo}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-redo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Cannot\-Redo\-Exception}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a5cd34d41ad1c7731c8d2f08aa63deed9}
+
+
+Definition at line 79 of file Undo\-Redo\-Manager.\-java.
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!replace\-Edit@{replace\-Edit}}
+\index{replace\-Edit@{replace\-Edit}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{replace\-Edit}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-replace\-Edit (
+\begin{DoxyParamCaption}
+\item[{Undoable\-Edit}]{arg0}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a6f6c4b47bc482825c4b923069c8958a0}
+
+
+Definition at line 100 of file Undo\-Redo\-Manager.\-java.
+
+\index{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}!undo@{undo}}
+\index{undo@{undo}!sgs::controller::undoableEdit::UndoRedoManager@{sgs\-::controller\-::undoable\-Edit\-::\-Undo\-Redo\-Manager}}
+\subsubsection[{undo}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-undoable\-Edit.\-Undo\-Redo\-Manager.\-undo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Cannot\-Undo\-Exception}\label{classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_a724fe107503b930fcbdde78c1e82d9c2}
+
+
+Definition at line 105 of file Undo\-Redo\-Manager.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/undoable\-Edit/{\bf Undo\-Redo\-Manager.\-java}\end{DoxyCompactItemize}

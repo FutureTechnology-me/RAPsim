@@ -1,0 +1,12 @@
+digraph "sgs.controller.simulation.TimeThread.isRunning"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.simulation.\lTimeThread.isRunning",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.simulation.\lTimeThread.startOrStop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1_time_thread.html#a057eb8af126cce41d5c79960824abf2f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.simulation.\lTimeThread.run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1_time_thread.html#a6507d1cd731e226a9c550c272425d169"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}

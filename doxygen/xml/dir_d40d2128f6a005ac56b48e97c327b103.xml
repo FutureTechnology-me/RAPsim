@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_d40d2128f6a005ac56b48e97c327b103" kind="dir">
+    <compoundname>RAPSim/src/sgs/view</compoundname>
+    <innerfile refid="_about_dialog_8java">AboutDialog.java</innerfile>
+    <innerfile refid="_algorithm_description_dialog_8java">AlgorithmDescriptionDialog.java</innerfile>
+    <innerfile refid="_bottom_panel_8java">BottomPanel.java</innerfile>
+    <innerfile refid="_color_legend_panel_8java">ColorLegendPanel.java</innerfile>
+    <innerfile refid="_first_start_window_8java">FirstStartWindow.java</innerfile>
+    <innerfile refid="_grid_pop_up_menu_8java">GridPopUpMenu.java</innerfile>
+    <innerfile refid="_j_table_s_g_s_8java">JTableSGS.java</innerfile>
+    <innerfile refid="_properties_dialog_8java">PropertiesDialog.java</innerfile>
+    <innerfile refid="_results_c_s_v_view_8java">ResultsCSVView.java</innerfile>
+    <innerfile refid="show_results_c_s_v_view_8java">showResultsCSVView.java</innerfile>
+    <innerfile refid="_sim_options_dialog_8java">SimOptionsDialog.java</innerfile>
+    <innerfile refid="_speed_changer_8java">SpeedChanger.java</innerfile>
+    <innerfile refid="_top_panel_8java">TopPanel.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+.TH "sgs.controller.GridMapListener" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.GridMapListener \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits JGridMapEventListener\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBMouseKey\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGridMapListener\fP (\fBGridController\fP gridController, \fBSgsGridModel\fP gridModel, JFrame view)"
+.br
+.ti -1c
+.RI "void \fBhandleJGridMapMouseEvent\fP (JGridMapMouseEvent e)"
+.br
+.ti -1c
+.RI "\fBGridChangeListener\fP \fBsetGridChangeListenerAlgorithm\fP (\fBGridChangeListener\fP algorithm)"
+.br
+.ti -1c
+.RI "void \fBhandleJGridMapKeyBoardEvent\fP (JGridMapKeyEvent event)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "final \fBNetworkAnalyser\fP \fBnetworkAnalyser\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Handles all Grid Events (user interaction) directly\&. Works over the \fBGridController\fP\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Tobi, Schweiger, Huber 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file GridMapListener\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.GridMapListener\&.GridMapListener (\fBGridController\fPgridController, \fBSgsGridModel\fPgridModel, JFrameview)"
+Constructor: 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridController\fP 
+.br
+\fIgridModel\fP 
+.br
+\fIview\fP 
+.RE
+.PP
+
+.PP
+Definition at line 57 of file GridMapListener\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.GridMapListener\&.handleJGridMapKeyBoardEvent (JGridMapKeyEventevent)"
+
+.PP
+Definition at line 413 of file GridMapListener\&.java\&.
+.SS "void sgs\&.controller\&.GridMapListener\&.handleJGridMapMouseEvent (JGridMapMouseEvente)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIe\fP type JGRidMapEvent 
+.RE
+.PP
+
+.PP
+Definition at line 70 of file GridMapListener\&.java\&.
+.SS "\fBGridChangeListener\fP sgs\&.controller\&.GridMapListener\&.setGridChangeListenerAlgorithm (\fBGridChangeListener\fPalgorithm)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIalgorithm\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+last GridChangeListener 
+.RE
+.PP
+
+.PP
+Definition at line 123 of file GridMapListener\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final \fBNetworkAnalyser\fP sgs\&.controller\&.GridMapListener\&.networkAnalyser"
+NetworkAnalyser used 
+.PP
+Definition at line 37 of file GridMapListener\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

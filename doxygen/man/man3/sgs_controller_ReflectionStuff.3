@@ -1,0 +1,141 @@
+.TH "sgs.controller.ReflectionStuff" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.ReflectionStuff \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmainTest\fP (String[] args)  throws FileNotFoundException"
+.br
+.ti -1c
+.RI "static ArrayList< Class<?> > \fBgetSubClasses\fP (Class<?> topClass, ArrayList< Class<?>> classes, boolean canBeAbstract)"
+.br
+.ti -1c
+.RI "static ArrayList< Class<?> > \fBgetClassesForPackage\fP (Class<?> topClass)"
+.br
+.ti -1c
+.RI "static ArrayList< Class<?> > \fBgetClassesForPackage\fP (Package pkg)"
+.br
+.ti -1c
+.RI "static ArrayList< Class<?> > \fBgetClassesForPackage\fP (String pkgName)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBuseSubPackages\fP = true"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 17 of file ReflectionStuff\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static ArrayList<Class<?> > sgs\&.controller\&.ReflectionStuff\&.getClassesForPackage (Class<?>topClass)\fC [static]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItopClass\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+all classes in the same package\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBgetClassesForPackage(String pkgName)\fP 
+.RE
+.PP
+
+.PP
+Definition at line 72 of file ReflectionStuff\&.java\&.
+.SS "static ArrayList<Class<?> > sgs\&.controller\&.ReflectionStuff\&.getClassesForPackage (Packagepkg)\fC [static]\fP"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBgetClassesForPackage(String pkgName)\fP 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file ReflectionStuff\&.java\&.
+.SS "static ArrayList<Class<?> > sgs\&.controller\&.ReflectionStuff\&.getClassesForPackage (StringpkgName)\fC [static]\fP"
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Original from Dave Dopson, https://github.com/ddopson/java-class-enumerator 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpkgName\fP - e\&.g\&. 'sgs\&.controller\&.interfaces' 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+all classes in the package\&. 
+.RE
+.PP
+
+.PP
+Definition at line 88 of file ReflectionStuff\&.java\&.
+.SS "static ArrayList<Class<?> > sgs\&.controller\&.ReflectionStuff\&.getSubClasses (Class<?>topClass, ArrayList< Class<?>>classes, booleancanBeAbstract)\fC [static]\fP"
+Returns a list of sub-classes from the defined list of classes\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItopClass\fP 
+.br
+\fIclasses\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+sub-classes of topClass, excluding topClass, excluding abstract classes 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBgetClassesForPackage(String pkgName)\fP 
+.RE
+.PP
+
+.PP
+Definition at line 51 of file ReflectionStuff\&.java\&.
+.SS "static void sgs\&.controller\&.ReflectionStuff\&.mainTest (String[]args) throws FileNotFoundException\fC [static]\fP"
+Testing 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIargs\fP 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIFileNotFoundException\fP 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file ReflectionStuff\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean sgs\&.controller\&.ReflectionStuff\&.useSubPackages = true\fC [static]\fP"
+Flag defining if packages below the (parameter) package should be used at related functions 
+.PP
+Definition at line 20 of file ReflectionStuff\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

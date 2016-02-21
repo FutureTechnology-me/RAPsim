@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_e560290bfc356acf130a897f402ed296" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller/undoableEdit</compoundname>
+    <innerfile refid="_undo_redo_manager_8java">UndoRedoManager.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/"/>
+  </compounddef>
+</doxygen>

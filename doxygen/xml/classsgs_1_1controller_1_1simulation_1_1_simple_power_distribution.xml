@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::SimplePowerDistribution</compoundname>
+    <basecompoundref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" prot="public" virt="non-virtual">sgs.controller.simulation.AbstractDistributionAlgorithm</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a8771a6ae60f1fce3999322564930f710" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.simulation.SimplePowerDistribution.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1add6f3cc83c3d68b2dd6e73a438038dae" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.simulation.SimplePowerDistribution.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b76429bbeaa77d76246cbcb225748c6" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+        <definition>TimeThread sgs.controller.simulation.SimplePowerDistribution.timeThread</definition>
+        <argsstring></argsstring>
+        <name>timeThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1aae371fe9acd979a2970d7311023e5320" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long sgs.controller.simulation.SimplePowerDistribution.calcCount</definition>
+        <argsstring></argsstring>
+        <name>calcCount</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1adc2e459a84258a3c68f3f78c2dbdc4cc" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.SimplePowerDistribution.TEST_OVERLAYS</definition>
+        <argsstring></argsstring>
+        <name>TEST_OVERLAYS</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a9fba5574df08e3941fdb03fba1d9428a" compoundref="_simple_power_distribution_8java" startline="46" endline="56">sgs.controller.simulation.SimplePowerDistribution.SimplePowerDistribution</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a9fba5574df08e3941fdb03fba1d9428a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.SimplePowerDistribution.SimplePowerDistribution</definition>
+        <argsstring>(GridController gridController)</argsstring>
+        <name>SimplePowerDistribution</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for reflection. Must (only) use parameter <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref>. <simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="46" bodyend="56"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1adc2e459a84258a3c68f3f78c2dbdc4cc" compoundref="_simple_power_distribution_8java" startline="30">sgs.controller.simulation.SimplePowerDistribution.TEST_OVERLAYS</references>
+        <references refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode_1ae17ee3cfcffd37763d977afa1444d0c4" compoundref="_sgs_grid_model_8java" startline="61">sgs.model.SgsGridModel.OverlayMode.BY_ALGORITHM</references>
+        <references refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode_1a07138582f1081e6f1b42d1bc68c45cc4" compoundref="_sgs_grid_model_8java" startline="59">sgs.model.SgsGridModel.OverlayMode.AUTOMATIC</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.calculationStep</definition>
+        <argsstring>()</argsstring>
+        <name>calculationStep</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac4c9507877dc020250921cddc16ba2ef">calculationStep</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate grid for one simulation step. <blockquote><para>Buses and Paths are locked before. Grid/View-Repaint is automatically called after the function. </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="63" bodyend="164"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" compoundref="_abstract_distribution_algorithm_8java" startline="32">sgs.controller.simulation.AbstractDistributionAlgorithm.log</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" compoundref="_smart_grid_object_8java" startline="35">sgs.model.gridObjects.SmartGridObject.variableSet</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a2fdfa26a267f266150fae834b699e161" compoundref="_variable_set_8java" startline="265" endline="270">sgs.model.variables.VariableSet.isUsed</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af9fa561c705145b0b9fe04c981c3d822" compoundref="_enum_p_v_8java" startline="17">sgs.model.variables.EnumPV.powerProductionNeeded</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1aa85531b2c3ceb414f72e305059316259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.initializeAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>initializeAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="215" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="215" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ae27c7d5988ac5d1492dcd7c253fffa95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.gridChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridChanged</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a1448c4593f3a851aa5e524b7e4316c0d">gridChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is called if the Grid is modified. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="250" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="250" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1abb11e56f4df4d069de116101a60ee35e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.simulationStarted</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStarted</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a38463f403753d238505c4db484394650">simulationStarted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a LOG file if one is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="255" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="255" bodyend="265"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ac613def50451f40a6ff3fa1835907a7a" compoundref="_sgs_grid_model_8java" startline="68">sgs.model.SgsGridModel.saveSimResultsToFile</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" compoundref="_abstract_distribution_algorithm_8java" startline="32">sgs.controller.simulation.AbstractDistributionAlgorithm.log</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ab6514ab26075a1840932a05fc7d44ee7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.simulationStopped</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStopped</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a665185f0afb464260b8237a0fb43846a">simulationStopped</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="268" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="268" bodyend="270"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" compoundref="_abstract_distribution_algorithm_8java" startline="232" endline="243">sgs.controller.simulation.AbstractDistributionAlgorithm.closeLog</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a25c70cf04dd65cb59d56efb40e64482f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>String</type>
+        <definition>String sgs.controller.simulation.SimplePowerDistribution.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1afb5870e926bf78477e3d31ae34ab9432">getDescription</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>description of the specific algorithm used for the &quot;Info&quot; button </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="282" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="282" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForVariables</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac2928692dc590133f3373ce29fb333fc">setPropertiesForVariables</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>give( readable, editable, variablename) variablename is out of EnumPV </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="171" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="171" bodyend="186"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af9fa561c705145b0b9fe04c981c3d822" compoundref="_enum_p_v_8java" startline="17">sgs.model.variables.EnumPV.powerProductionNeeded</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" compoundref="_enum_p_v_8java" startline="26">sgs.model.variables.EnumPV.resistance</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" compoundref="_enum_p_v_8java" startline="27">sgs.model.variables.EnumPV.powerLineCharge</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b1deb0cc320391398ba028c53824fc5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.setPropertiesForBusAndPath</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForBusAndPath</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ae6eb61da1d9e7259cf934108bce0f4db">setPropertiesForBusAndPath</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classsgs_1_1model_1_1_sgs_grid_model_1a44245cedb90ee93a539e1b095a042776" kindref="member">SgsGridModel.resistanceAttributes</ref>, busVariableCollection, pathVariableCollection if used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="189" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="189" bodyend="207"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a25a37ccde51c32084a664a6d5a6bdc58" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.SimplePowerDistribution.unloadAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>unloadAlgorithm</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a3458f6694fbfac2ccbb686749eaae2c0">unloadAlgorithm</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Free external resources used by this algorithm. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="240" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="240" bodyend="242"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" compoundref="_abstract_distribution_algorithm_8java" startline="232" endline="243">sgs.controller.simulation.AbstractDistributionAlgorithm.closeLog</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4037">
+        <label>sgs.controller.simulation.SimplePowerDistribution</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution"/>
+        <childnode refid="4038" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4038">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="4039" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4039">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4040">
+        <label>sgs.controller.simulation.SimplePowerDistribution</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution"/>
+        <childnode refid="4041" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4041">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="4042" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4043" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="4042">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+      <node id="4043">
+        <label>OutputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/SimplePowerDistribution.java" bodystart="21" bodyend="320"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ad7d52c1647f862aa01232a5930044dbe" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>AbstractDistributionAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1aae371fe9acd979a2970d7311023e5320" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>calcCount</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" prot="public" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>calculationStep</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>closeLog</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a79f480bfda7396c6043ef4ef4b0f6c78" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>description</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a2dfe9c574dde7d3ee10d46b106929830" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>generateList</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a25c70cf04dd65cb59d56efb40e64482f" prot="public" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a45b56e832736dde35a35af8827c3a1dc" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>getName</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ae27c7d5988ac5d1492dcd7c253fffa95" prot="public" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>gridChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a8771a6ae60f1fce3999322564930f710" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1add6f3cc83c3d68b2dd6e73a438038dae" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1aa85531b2c3ceb414f72e305059316259" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>initializeAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac713997f4092fbb4c687f18978095cb9" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>initializeFull</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a0f79de668e228b3d47319c70af85c9e3" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a647ef6cec86956a575772e303f1018a9" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>selectClass</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>setDefaultPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a68eee367fab4fbf191d571648de50ea5" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b1deb0cc320391398ba028c53824fc5" prot="protected" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>setPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" prot="protected" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>setPropertiesForVariables</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a9fba5574df08e3941fdb03fba1d9428a" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>SimplePowerDistribution</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1abb11e56f4df4d069de116101a60ee35e" prot="public" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>simulationStarted</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ab6514ab26075a1840932a05fc7d44ee7" prot="public" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>simulationStopped</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1adc2e459a84258a3c68f3f78c2dbdc4cc" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>TEST_OVERLAYS</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b76429bbeaa77d76246cbcb225748c6" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>timeThread</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a25a37ccde51c32084a664a6d5a6bdc58" prot="protected" virt="virtual"><scope>sgs::controller::simulation::SimplePowerDistribution</scope><name>unloadAlgorithm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

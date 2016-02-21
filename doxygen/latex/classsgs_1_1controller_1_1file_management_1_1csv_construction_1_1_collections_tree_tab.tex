@@ -1,0 +1,231 @@
+\section{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab Class Reference}
+\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab}\index{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab@{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab}}
+
+
+Inheritance diagram for sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab\-:
+
+
+Collaboration diagram for sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Collections\-Tree\-Tab} ({\bf Sgs\-Grid\-Model} grid\-Model)
+\item 
+Check\-Box\-Tree\-Item$<$ String $>$ {\bf create\-Object} ({\bf Smart\-Grid\-Object} sgo)
+\item 
+List$<$ String $>$ {\bf get\-Choosen\-Path\-List} ()
+\item 
+Tab {\bf get\-Choosen\-Tab} ()
+\item 
+String\-Builder {\bf get\-Header} ()
+\item 
+Check\-Box\-Tree\-Item$<$ String $>$ {\bf getobject\-Tree\-Item} ()
+\item 
+Tab {\bf get\-Results\-Tab} ()
+\item 
+void {\bf start} (Stage arg0)  throws Exception 
+\item 
+void {\bf set\-Object\-Tree\-Item} (Check\-Box\-Tree\-Item$<$ String $>$ new\-Object\-Tree)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Check\-Box\-Action\-Listener} {\bf cb\-Action\-Listener} = new {\bf Check\-Box\-Action\-Listener}()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Tree\-Item$<$ String $>$ {\bf saved\-Tree} = new Check\-Box\-Tree\-Item$<$$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Sabrina huber creates the check\-Box\-Collection\-Tree. add it to a tab ,and return it to the csv\-Controller. 
+\end{DoxyAuthor}
+
+
+Definition at line 29 of file Collections\-Tree\-Tab.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!Collections\-Tree\-Tab@{Collections\-Tree\-Tab}}
+\index{Collections\-Tree\-Tab@{Collections\-Tree\-Tab}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{Collections\-Tree\-Tab}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-Collections\-Tree\-Tab (
+\begin{DoxyParamCaption}
+\item[{{\bf Sgs\-Grid\-Model}}]{grid\-Model}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_ace408b2ec41bf8ce93d58ea91eafc4f7}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Controller} & \\
+\hline
+{\em grid\-Model} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file Collections\-Tree\-Tab.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!create\-Object@{create\-Object}}
+\index{create\-Object@{create\-Object}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{create\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Check\-Box\-Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-create\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a7d72027bed00326f147bcf684fc5fe15}
+called by Give\-Data\-Collection, to create the object\-Part of its Tree. first it creates the Check\-Box\-Tree\-Item for the transfered Object -\/$>$ call
+\begin{DoxyCode}
+createObjectNode(SmartGridObject sgo) 
+\end{DoxyCode}
+ second it adds the transfered Smart\-Grid\-Object to the method
+\begin{DoxyCode}
+createTrueListArray() 
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em sgo} & -\/ transfered Smart\-Grid\-Object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object\-Tree\-Item -\/ for the specific transfered Smart\-Grid\-Object sgo 
+\end{DoxyReturn}
+
+
+Definition at line 101 of file Collections\-Tree\-Tab.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!get\-Choosen\-Path\-List@{get\-Choosen\-Path\-List}}
+\index{get\-Choosen\-Path\-List@{get\-Choosen\-Path\-List}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{get\-Choosen\-Path\-List}]{\setlength{\rightskip}{0pt plus 5cm}List$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-get\-Choosen\-Path\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a14a6373f5e4da8e9dd0b644adf07a21b}
+\begin{DoxyReturn}{Returns}
+choosen\-Path 
+\end{DoxyReturn}
+
+
+Definition at line 113 of file Collections\-Tree\-Tab.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!get\-Choosen\-Tab@{get\-Choosen\-Tab}}
+\index{get\-Choosen\-Tab@{get\-Choosen\-Tab}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{get\-Choosen\-Tab}]{\setlength{\rightskip}{0pt plus 5cm}Tab sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-get\-Choosen\-Tab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_aa82d568a1118c74dd3498c91ce944841}
+
+
+Definition at line 119 of file Collections\-Tree\-Tab.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!get\-Header@{get\-Header}}
+\index{get\-Header@{get\-Header}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{get\-Header}]{\setlength{\rightskip}{0pt plus 5cm}String\-Builder sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-get\-Header (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a4a7d39fc2df1f0e849e8537dc73c92bd}
+\begin{DoxyReturn}{Returns}
+header 
+\end{DoxyReturn}
+
+
+Definition at line 188 of file Collections\-Tree\-Tab.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!getobject\-Tree\-Item@{getobject\-Tree\-Item}}
+\index{getobject\-Tree\-Item@{getobject\-Tree\-Item}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{getobject\-Tree\-Item}]{\setlength{\rightskip}{0pt plus 5cm}Check\-Box\-Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-getobject\-Tree\-Item (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a694b2a592e4ce6112b38f1cd38272fbb}
+\begin{DoxyReturn}{Returns}
+object\-Tree\-Item 
+\end{DoxyReturn}
+
+
+Definition at line 198 of file Collections\-Tree\-Tab.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!get\-Results\-Tab@{get\-Results\-Tab}}
+\index{get\-Results\-Tab@{get\-Results\-Tab}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{get\-Results\-Tab}]{\setlength{\rightskip}{0pt plus 5cm}Tab sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-get\-Results\-Tab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_aec1948aec5d89a2dbfac60439ecd6326}
+\begin{DoxyReturn}{Returns}
+results\-Tab 
+\end{DoxyReturn}
+
+
+Definition at line 242 of file Collections\-Tree\-Tab.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!set\-Object\-Tree\-Item@{set\-Object\-Tree\-Item}}
+\index{set\-Object\-Tree\-Item@{set\-Object\-Tree\-Item}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{set\-Object\-Tree\-Item}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-set\-Object\-Tree\-Item (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{new\-Object\-Tree}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_acaf9447561a3b53c6929785900cfd654}
+
+\begin{DoxyParams}{Parameters}
+{\em new\-Object\-Tree} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 328 of file Collections\-Tree\-Tab.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!start@{start}}
+\index{start@{start}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-start (
+\begin{DoxyParamCaption}
+\item[{Stage}]{arg0}
+\end{DoxyParamCaption}
+) throws Exception}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a6d8ff06399b2b765132e1f9faf6862bb}
+
+
+Definition at line 319 of file Collections\-Tree\-Tab.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!cb\-Action\-Listener@{cb\-Action\-Listener}}
+\index{cb\-Action\-Listener@{cb\-Action\-Listener}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{cb\-Action\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Check\-Box\-Action\-Listener} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-cb\-Action\-Listener = new {\bf Check\-Box\-Action\-Listener}()}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a1382b921c1e8ef2c5a53e12b3552f2a1}
+
+
+Definition at line 44 of file Collections\-Tree\-Tab.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}!saved\-Tree@{saved\-Tree}}
+\index{saved\-Tree@{saved\-Tree}!sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Collections\-Tree\-Tab}}
+\subsubsection[{saved\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Collections\-Tree\-Tab.\-saved\-Tree = new Check\-Box\-Tree\-Item$<$$>$()\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_a3e88059f73b869a39dbc92cc35ed067a}
+
+
+Definition at line 40 of file Collections\-Tree\-Tab.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/file\-Management/csv\-Construction/{\bf Collections\-Tree\-Tab.\-java}\end{DoxyCompactItemize}

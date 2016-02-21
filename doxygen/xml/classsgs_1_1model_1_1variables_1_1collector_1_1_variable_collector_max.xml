@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max" kind="class" prot="public">
+    <compoundname>sgs::model::variables::collector::VariableCollectorMax</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableCollector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a8454af7105bf6c440104e2d5d093fe7a" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorMax.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a254e07cec0a2b2e30f80a45b9aaedeb5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorMax.nrOfValues</definition>
+        <argsstring></argsstring>
+        <name>nrOfValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1aa18edb53be6053df5f896d6be944bff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.collector.VariableCollectorMax.VariableCollectorMax</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>VariableCollectorMax</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for sum collector. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="17" bodyend="21"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a802b12c45a248381d8c04e5e15861077" compoundref="_variable_collector_max_8java" startline="55" endline="60">sgs.model.variables.collector.VariableCollectorMax.copy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1ac500ee54a97a2f522ebab2fbe1e2a8dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorMax.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1aafa53635c29d137ed70912b31fe75e6a">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the collected numeric value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1aa0af1b3c935b54b55c916e63b3154249" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorMax.getNumberOfValues</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af7069a996dfec379cbc334f294b5511a">getNumberOfValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of collected values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a4368be246b5718395027ba28defb4a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.collector.VariableCollectorMax.restValues</definition>
+        <argsstring>()</argsstring>
+        <name>restValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a54200215ba9e58439e720502bbedb507">restValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets values to zero. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a45ed58245b0492167a22789f6be25dd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.collector.VariableCollectorMax.collectFrom</definition>
+        <argsstring>(VariableOwner owner)</argsstring>
+        <name>collectFrom</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a7771a65b96725beb168579ff6003f6e6">collectFrom</reimplements>
+        <param>
+          <type><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kindref="compound">VariableOwner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds interesting variable values from the variable owner <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a value was collected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="40" bodyend="52"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a802b12c45a248381d8c04e5e15861077" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max" kindref="compound">VariableCollectorMax</ref></type>
+        <definition>VariableCollectorMax sgs.model.variables.collector.VariableCollectorMax.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af657fdd311577e7f5f155283a8e816ff">copy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a copy of this Collector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="55" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="55" bodyend="60"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1aa18edb53be6053df5f896d6be944bff6" compoundref="_variable_collector_max_8java" startline="17" endline="21">sgs.model.variables.collector.VariableCollectorMax.VariableCollectorMax</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4426">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+      </node>
+      <node id="4425">
+        <label>sgs.model.variables.collector.VariableCollectorMax</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max"/>
+        <childnode refid="4426" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4428">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+        <childnode refid="4429" relation="usage">
+          <edgelabel>variableName</edgelabel>
+        </childnode>
+      </node>
+      <node id="4429">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4427">
+        <label>sgs.model.variables.collector.VariableCollectorMax</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max"/>
+        <childnode refid="4428" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" line="8" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMax.java" bodystart="8" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a45ed58245b0492167a22789f6be25dd4" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>collectFrom</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a802b12c45a248381d8c04e5e15861077" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1aa0af1b3c935b54b55c916e63b3154249" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>getNumberOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a6812701367b992972241901ca2e6d5c4" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>getSingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1ac500ee54a97a2f522ebab2fbe1e2a8dc" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1adc69dc2f026ba66dd7838f970661c56a" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>getVariableName</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a254e07cec0a2b2e30f80a45b9aaedeb5" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>nrOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a4368be246b5718395027ba28defb4a4e" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>restValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a0b595f78b3304a12f5a3538c8ea40f27" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1a8454af7105bf6c440104e2d5d093fe7a" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af5ca5b1481c5433ba4ca9d75a8501206" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>VariableCollector</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max_1aa18edb53be6053df5f896d6be944bff6" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>VariableCollectorMax</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMax</scope><name>variableName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

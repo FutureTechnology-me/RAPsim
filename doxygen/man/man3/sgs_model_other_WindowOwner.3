@@ -1,0 +1,105 @@
+.TH "sgs.model.other.WindowOwner" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.other.WindowOwner \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "boolean \fBaddWindow\fP (Window w)"
+.br
+.ti -1c
+.RI "boolean \fBremoveWindow\fP (Window w)"
+.br
+.ti -1c
+.RI "int \fBcloseAllWindows\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Objects may be directly related to windows, which means the window should stop to exist of this object stops to exist\&.
+.PP
+This is a simple concept which could be advanced with adding a call to a special window interface, which would store the lated data and handle other closing relevant actions\&. (Not necessary in current context, therefore the simpler solution)
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file WindowOwner\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.other\&.WindowOwner\&.addWindow (Windoww)"
+Adds a window w which is owned exclusively by this object\&. The window should be closed if this object stops to exist or will not be used any more\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIw\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+like in \fBLinkedList#add\fP 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBremoveWindow()\fP 
+.PP
+\fBcloseAllWindows()\fP 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.SS "int sgs\&.model\&.other\&.WindowOwner\&.closeAllWindows ()"
+Will close all windows owned exclusively by this object\&. Close is executed by calling  Window\&.dispose()}
+.PP
+\fBReturns:\fP
+.RS 4
+number of windows\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+#add(Window) 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.SS "boolean sgs\&.model\&.other\&.WindowOwner\&.removeWindow (Windoww)"
+Remove a window w which was owned exclusively by this object\&. Should also call w\&.dispose()\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIw\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+like in \fBLinkedList#remove\fP 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+#removeAllWindows() 
+.PP
+#add(Window) 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

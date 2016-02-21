@@ -1,0 +1,175 @@
+.TH "sgs.controller.fileManagement.csvConstruction.CSVController" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.fileManagement.csvConstruction.CSVController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCSVController\fP (\fBSgsGridModel\fP \fBgridModel\fP)"
+.br
+.ti -1c
+.RI "void \fBinitRest\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "TabPane \fBgetChoiceTabPane\fP ()"
+.br
+.ti -1c
+.RI "TabPane \fBgetChoosenTabPane\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCSVSpecifications\fP (File file)"
+.br
+.ti -1c
+.RI "File \fBgetCSVFile\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisHaveData\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCollectionsTreeTab\fP \fBdataColl\fP"
+.br
+.ti -1c
+.RI "\fBObjectTreeTab\fP \fBdataObj\fP"
+.br
+.ti -1c
+.RI "\fBCheckBoxActionListener\fP \fBcbActionListener\fP = new \fBCheckBoxActionListener\fP()"
+.br
+.ti -1c
+.RI "\fBCSVModel\fP \fBcsvModel\fP"
+.br
+.ti -1c
+.RI "\fBSgsGridModel\fP \fBgridModel\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Huber Sabrina its a bridge between the view and the java classes that generates and fill the TabPane with data\&. it also saves the the from the user specified filename and the path \&. 
+.RE
+.PP
+
+.PP
+Definition at line 17 of file CSVController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.CSVController (\fBSgsGridModel\fPgridModel)"
+constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file CSVController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "TabPane sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.getChoiceTabPane ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+resultsPanes - in it are all Pane on the left Side of the window\&. in this we can choose what we want to save 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file CSVController\&.java\&.
+.SS "TabPane sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.getChoosenTabPane ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+trueListPanes - in it are all Panes on the right side\&. It shows what we have choosen\&. 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file CSVController\&.java\&.
+.SS "File sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.getCSVFile ()"
+
+.PP
+Definition at line 115 of file CSVController\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.initRest ()"
+
+.PP
+Definition at line 43 of file CSVController\&.java\&.
+.SS "boolean sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.isHaveData ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+csvFilename - the filename of the csv, specified by the user
+.PP
+csvFilePath - the FilePath 
+.RE
+.PP
+
+.PP
+Definition at line 141 of file CSVController\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.run ()"
+start creating the csv file 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file CSVController\&.java\&.
+.SS "void sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.setCSVSpecifications (Filefile)"
+set the from user defined filename and the location where the file will be saved 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfilename\fP 
+.br
+\fIpathOfSaveLocation\fP 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file CSVController\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCheckBoxActionListener\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.cbActionListener = new \fBCheckBoxActionListener\fP()"
+
+.PP
+Definition at line 21 of file CSVController\&.java\&.
+.SS "\fBCSVModel\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.csvModel"
+
+.PP
+Definition at line 24 of file CSVController\&.java\&.
+.SS "\fBCollectionsTreeTab\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.dataColl"
+
+.PP
+Definition at line 19 of file CSVController\&.java\&.
+.SS "\fBObjectTreeTab\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.dataObj"
+
+.PP
+Definition at line 20 of file CSVController\&.java\&.
+.SS "\fBSgsGridModel\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.CSVController\&.gridModel"
+
+.PP
+Definition at line 25 of file CSVController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

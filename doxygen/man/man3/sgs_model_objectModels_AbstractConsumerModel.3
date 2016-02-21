@@ -1,0 +1,90 @@
+.TH "sgs.model.objectModels.AbstractConsumerModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.objectModels.AbstractConsumerModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.objectModels\&.AbstractModel\fP\&.
+.PP
+Inherited by \fBsgs\&.model\&.objectModels\&.AbstractCustomConsumerModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractConsumerModel\fP (\fBConsumer\fP \fBconsumer\fP)"
+.br
+.ti -1c
+.RI "void \fBupdateModel\fP (GregorianCalendar currentTime, \fBWeather\fP weather, int resolution)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetPowerDemand\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPowerDemand\fP (\fBNumericValue\fP demand)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBConsumer\fP \fBconsumer\fP"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBpowerDemand\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Initializes the variableSet\&. Initializes the variable powerDemand with values from the Object\&. Handles the update of the object variables (rounded to 4 digits) and provides set- and get-methods for that variables\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+bbreilin, Poechacker 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file AbstractConsumerModel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.AbstractConsumerModel (\fBConsumer\fPconsumer)"
+
+.PP
+Definition at line 22 of file AbstractConsumerModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBNumericValue\fP sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.getPowerDemand ()\fC [protected]\fP"
+
+.PP
+Definition at line 44 of file AbstractConsumerModel\&.java\&.
+.SS "void sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.setPowerDemand (\fBNumericValue\fPdemand)\fC [protected]\fP"
+
+.PP
+Definition at line 48 of file AbstractConsumerModel\&.java\&.
+.SS "void sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.updateModel (GregorianCalendarcurrentTime, \fBWeather\fPweather, intresolution)\fC [virtual]\fP"
+The method calls \fBupdateVariables()\fP and forwards the variable values for to the Consumer Object 
+.PP
+Implements \fBsgs\&.model\&.objectModels\&.AbstractModel\fP\&.
+.PP
+Definition at line 37 of file AbstractConsumerModel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBConsumer\fP sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.consumer\fC [protected]\fP"
+
+.PP
+Definition at line 19 of file AbstractConsumerModel\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.objectModels\&.AbstractConsumerModel\&.powerDemand\fC [protected]\fP"
+
+.PP
+Definition at line 20 of file AbstractConsumerModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

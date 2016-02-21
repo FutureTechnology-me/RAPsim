@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1variables" kind="namespace">
+    <compoundname>sgs::model::variables</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_abstract_value" prot="public">sgs::model::variables::AbstractValue</innerclass>
+    <innerclass refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" prot="public">sgs::model::variables::EnumPV</innerclass>
+    <innerclass refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" prot="public">sgs::model::variables::EnumUnit</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_numeric_value" prot="public">sgs::model::variables::NumericValue</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_single_variable" prot="public">sgs::model::variables::SingleVariable</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_string_value" prot="public">sgs::model::variables::StringValue</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_variable_properties" prot="public">sgs::model::variables::VariableProperties</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1_variable_set" prot="public">sgs::model::variables::VariableSet</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1variables_1_1collector">sgs::model::variables::collector</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

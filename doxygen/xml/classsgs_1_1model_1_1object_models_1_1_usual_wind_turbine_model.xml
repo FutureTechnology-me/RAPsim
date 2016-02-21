@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model" kind="class" prot="public">
+    <compoundname>sgs::model::objectModels::UsualWindTurbineModel</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractWindPowerPlantModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a69f08447ff81530291fbad951bb6eb6f" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.UsualWindTurbineModel.cutInSpeed</definition>
+        <argsstring></argsstring>
+        <name>cutInSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a56c98e55ac3fe02e8b3da29ad623811f" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.UsualWindTurbineModel.ratedSpeed</definition>
+        <argsstring></argsstring>
+        <name>ratedSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1aacb8ecfcb5f46dd5a65f7d17a4a227e9" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.UsualWindTurbineModel.cutOutSpeed</definition>
+        <argsstring></argsstring>
+        <name>cutOutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ababd6debbe6313dbee71e692e46f80ee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.model.objectModels.UsualWindTurbineModel.c1</definition>
+        <argsstring></argsstring>
+        <name>c1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ad8bee32ef609211caa15bcfbff8eef2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.objectModels.UsualWindTurbineModel.UsualWindTurbineModel</definition>
+        <argsstring>(WindTurbinePowerPlant powerPlant)</argsstring>
+        <name>UsualWindTurbineModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant" kindref="compound">WindTurbinePowerPlant</ref></type>
+          <declname>powerPlant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="23" bodyend="30"/>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" compoundref="_abstract_model_8java" startline="23">sgs.model.objectModels.AbstractModel.modelName</references>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" compoundref="_abstract_model_8java" startline="24">sgs.model.objectModels.AbstractModel.description</references>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" compoundref="_abstract_model_8java" startline="25">sgs.model.objectModels.AbstractModel.icon</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1afc05fb95ea2dc0102b257b02ca68e570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.UsualWindTurbineModel.updateVariables</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int resolution)</argsstring>
+        <name>updateVariables</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48">updateVariables</reimplements>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be implemented in the model to calculate new variable values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="43" bodyend="56"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1afd6eb2b56a2859de9315a5babcb6371f" compoundref="_single_variable_8java" startline="75" endline="77">sgs.model.variables.SingleVariable.getValueDouble</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a22fde8ba023526cad0657666e16eb499" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.UsualWindTurbineModel.initVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>initVariableSet</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27">initVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented in the model and called in the constructor of an AbstractObjectnameModel super-class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="33" bodyend="40"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1aa7cac3efbaa67323d19b2ca319e413b9" compoundref="_enum_unit_8java" startline="24">sgs.model.variables.EnumUnit.meterPerSecond</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4356">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+      </node>
+      <node id="4353">
+        <label>sgs.model.objectModels.UsualWindTurbineModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model"/>
+        <childnode refid="4354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4354">
+        <label>sgs.model.objectModels.AbstractWindPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model"/>
+        <childnode refid="4355" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4355">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="4356" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4403">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="4395">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="4377">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="4369">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4370" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4367">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="4367" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4364">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4379">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="4380" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4381" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="4382" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="4377" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="4370" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="4383" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="4385" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="4386" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="4387" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="4388" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="4389" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="4407" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="4408" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="4371">
+        <label>GridObject</label>
+      </node>
+      <node id="4360">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="4361" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="4362" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4381">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="4387">
+        <label>JFrame</label>
+      </node>
+      <node id="4376">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="4377" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="4376" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="4378" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="4362" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4409">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="4372">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4405">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4404">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4405" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4406" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4406">
+        <label>Random</label>
+      </node>
+      <node id="4357">
+        <label>sgs.model.objectModels.UsualWindTurbineModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model"/>
+        <childnode refid="4358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4389">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4390" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4391" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="4401" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="4403" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="4404" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="4366">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="4386">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="4380">
+        <label>GridModel</label>
+      </node>
+      <node id="4365">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="4366" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4367" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+      </node>
+      <node id="4362">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4364" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4397">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4399">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4393">
+        <label>Application</label>
+      </node>
+      <node id="4368">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4369" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4400">
+        <label>File</label>
+      </node>
+      <node id="4375">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="4388">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="4408">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="4391">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="4392" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="4379" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4396" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="4398" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="4395" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4394">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4358">
+        <label>sgs.model.objectModels.AbstractWindPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model"/>
+        <childnode refid="4359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4361">
+        <label>ImageIcon</label>
+      </node>
+      <node id="4398">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="4399" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="4400" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4402">
+        <label>JDialog</label>
+      </node>
+      <node id="4396">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="4397" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="4395" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4390">
+        <label>Thread</label>
+      </node>
+      <node id="4373">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4392">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="4393" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4394" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="4395" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4401">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4402" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4384">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="4370">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4371" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4372" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4373" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4374" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="4360" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="4376" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="4379" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4409" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="4362" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4385">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="4363">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="4382">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="4374">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="4375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4359">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="4360" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4365" relation="usage">
+          <edgelabel>powerProduction</edgelabel>
+          <edgelabel>ratedPower</edgelabel>
+        </childnode>
+        <childnode refid="4368" relation="usage">
+          <edgelabel>powerPlant</edgelabel>
+        </childnode>
+      </node>
+      <node id="4383">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="4384" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4378">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="4407">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/UsualWindTurbineModel.java" bodystart="13" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a010d71faa179084a4024888eba87fa69" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>AbstractPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model_1a281dd50513a57dda42672de8df10ed87" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>AbstractWindPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ababd6debbe6313dbee71e692e46f80ee" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>c1</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a69f08447ff81530291fbad951bb6eb6f" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>cutInSpeed</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1aacb8ecfcb5f46dd5a65f7d17a4a227e9" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>cutOutSpeed</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>description</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getIcon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getModelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a86dd58f5fcf6e7b3038bcd12b47011bb" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5d597ca683c3f150bd2ab49a6e2e2e97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>getVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>icon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a22fde8ba023526cad0657666e16eb499" prot="protected" virt="virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>initVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>modelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a8930f9cfc3db27d0c36c27daf4f6180e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>powerPlant</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1aa696e160156ef992b43e7f0632dd7744" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>powerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1af9349e90d3e206f023dfa1605551bf22" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>ratedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a56c98e55ac3fe02e8b3da29ad623811f" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>ratedSpeed</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a99233e916c14accd59b8891a74dcbb97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a14d9ca1899b6be730ce8bca1f15fc41f" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>setRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5280690e14a78779cb2ee22d6a8ded98" prot="public" virt="virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>updateModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1afc05fb95ea2dc0102b257b02ca68e570" prot="public" virt="virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>updateVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ad8bee32ef609211caa15bcfbff8eef2b" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>UsualWindTurbineModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::UsualWindTurbineModel</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+digraph "sgs.controller.GridController.addGridObject"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.GridController.add\lGridObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.GridController.calculate\lPowerLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#ae777470ebfbeb7842b92a4ffa2346876"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.GridController.calculate\lSupraLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#aa027456957639536e48a5c9edf13224c"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.controller.GridController.get\lCellStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#aad3f0a004b73427c07949e67dd1f7ba0"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="sgs.model.SgsGridModel.get\lNrOfCellsWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1_sgs_grid_model.html#a4d559d431e6bffbf998e8a23d26f466f"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="sgs.model.SgsGridModel.get\lNrOfCellsHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1_sgs_grid_model.html#a613cb09777314eba824339598dd709d7"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+}

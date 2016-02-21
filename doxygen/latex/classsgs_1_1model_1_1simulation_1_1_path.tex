@@ -1,0 +1,324 @@
+\section{sgs.\-model.\-simulation.\-Path Class Reference}
+\label{classsgs_1_1model_1_1simulation_1_1_path}\index{sgs.\-model.\-simulation.\-Path@{sgs.\-model.\-simulation.\-Path}}
+
+
+Inheritance diagram for sgs.\-model.\-simulation.\-Path\-:
+
+
+Collaboration diagram for sgs.\-model.\-simulation.\-Path\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Path} ({\bf Bus} bus\-A, {\bf Bus} bus\-B, Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf path\-Objects}, {\bf Variable\-Collection} {\bf variable\-Collection})
+\item 
+{\bf Path} ({\bf Variable\-Collection} {\bf variable\-Collection})
+\item 
+void {\bf set\-Buses} ({\bf Bus} bus\-A, {\bf Bus} bus\-B)
+\item 
+int {\bf get\-Nr\-Of\-Buses} ()
+\item 
+boolean {\bf add\-Bus} ({\bf Bus} bus\-X)
+\item 
+{\bf Bus} {\bf get\-Bus1} ()
+\item 
+{\bf Bus} {\bf get\-Bus2} ()
+\item 
+{\bf Variable\-Set} {\bf get\-Variable\-Set} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Value} ({\bf Enum\-P\-V} variable\-Name)
+\item 
+void {\bf refresh\-Values} ()
+\item 
+{\bf Path} {\bf copy} ()
+\item 
+String {\bf to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf path\-Objects}
+\item 
+{\bf Variable\-Collection} {\bf variable\-Collection}
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf not\-Visited\-Tmp} = null
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A path connects buses separated by resistances.
+
+\begin{DoxyAuthor}{Author}
+Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 17 of file Path.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!Path@{Path}}
+\index{Path@{Path}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{Path}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-simulation.\-Path.\-Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Bus}}]{bus\-A, }
+\item[{{\bf Bus}}]{bus\-B, }
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{path\-Objects, }
+\item[{{\bf Variable\-Collection}}]{variable\-Collection}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_ad986070ce6faf186fcd4a204fcdf34c1}
+Constructor\-: Full, T\-O\-D\-O\-: Variable\-Collection
+
+
+\begin{DoxyParams}{Parameters}
+{\em bus\-A} & -\/ not null \\
+\hline
+{\em bus\-B} & -\/ not null \\
+\hline
+{\em path\-Objects} & \\
+\hline
+{\em variable\-Collection} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file Path.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!Path@{Path}}
+\index{Path@{Path}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{Path}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-simulation.\-Path.\-Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Collection}}]{variable\-Collection}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a60d682244a18b2f352d92ff445468ba5}
+Constructor\-: Empty 
+
+Definition at line 44 of file Path.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!add\-Bus@{add\-Bus}}
+\index{add\-Bus@{add\-Bus}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{add\-Bus}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-simulation.\-Path.\-add\-Bus (
+\begin{DoxyParamCaption}
+\item[{{\bf Bus}}]{bus\-X}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a4881bedae492d076f6df2eabb004adf6}
+Add up to two buses, further buses ignored 
+\begin{DoxyParams}{Parameters}
+{\em bus\-X} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if added 
+\end{DoxyReturn}
+
+
+Definition at line 86 of file Path.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!copy@{copy}}
+\index{copy@{copy}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Path} sgs.\-model.\-simulation.\-Path.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_ab154b3b669941d152ab6a25465b59284}
+\begin{DoxyReturn}{Returns}
+a copy of this path. Depth\-: Lists/\-Collections are copied. 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Path.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!get\-Bus1@{get\-Bus1}}
+\index{get\-Bus1@{get\-Bus1}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{get\-Bus1}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bus} sgs.\-model.\-simulation.\-Path.\-get\-Bus1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_ad8dc21c228f28cd5af370f213add02b3}
+\begin{DoxyReturn}{Returns}
+the first\-Bus 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file Path.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!get\-Bus2@{get\-Bus2}}
+\index{get\-Bus2@{get\-Bus2}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{get\-Bus2}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bus} sgs.\-model.\-simulation.\-Path.\-get\-Bus2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a8f1f18581e909185e9eda6db23b3ede0}
+\begin{DoxyReturn}{Returns}
+the second\-Bus 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Path.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!get\-Nr\-Of\-Buses@{get\-Nr\-Of\-Buses}}
+\index{get\-Nr\-Of\-Buses@{get\-Nr\-Of\-Buses}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{get\-Nr\-Of\-Buses}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-simulation.\-Path.\-get\-Nr\-Of\-Buses (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a3f49b91ed62502a80b90a15447a7c9c4}
+
+
+Definition at line 72 of file Path.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-simulation.\-Path.\-get\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a02fa0a663fb6cacad98439d009f88d20}
+
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value for variable\-Name, or null if name is not found. 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Path.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!get\-Variable\-Set@{get\-Variable\-Set}}
+\index{get\-Variable\-Set@{get\-Variable\-Set}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{get\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-simulation.\-Path.\-get\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_aa3656714af28a591ca62c562efd31d54}
+\begin{DoxyReturn}{Returns}
+the Variable\-Set owned by this object; or null (no owned variable set) 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_ae9768e375d5653aa6d8acc8e3e13a47c}.
+
+
+
+Definition at line 112 of file Path.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!refresh\-Values@{refresh\-Values}}
+\index{refresh\-Values@{refresh\-Values}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{refresh\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Path.\-refresh\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a95391ed73ae981b48f83b6a36a22191f}
+Collects current simulation values with variable\-Collector 
+
+Definition at line 127 of file Path.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!set\-Buses@{set\-Buses}}
+\index{set\-Buses@{set\-Buses}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{set\-Buses}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Path.\-set\-Buses (
+\begin{DoxyParamCaption}
+\item[{{\bf Bus}}]{bus\-A, }
+\item[{{\bf Bus}}]{bus\-B}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_acdffb638574a7b252b5b10b9ede520c2}
+Stores sorted buses. Must not be null. 
+\begin{DoxyParams}{Parameters}
+{\em bus\-A} & \\
+\hline
+{\em bus\-B} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file Path.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-simulation.\-Path.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_path_a9990e003a98666d69280aabf5b6ee7fd}
+
+
+Definition at line 148 of file Path.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!not\-Visited\-Tmp@{not\-Visited\-Tmp}}
+\index{not\-Visited\-Tmp@{not\-Visited\-Tmp}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{not\-Visited\-Tmp}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-simulation.\-Path.\-not\-Visited\-Tmp = null}\label{classsgs_1_1model_1_1simulation_1_1_path_aed67bdbd13436c8d561030d54a68b1c5}
+
+
+Definition at line 25 of file Path.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!path\-Objects@{path\-Objects}}
+\index{path\-Objects@{path\-Objects}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{path\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-simulation.\-Path.\-path\-Objects}\label{classsgs_1_1model_1_1simulation_1_1_path_a9f0b4ecd648e95eed3253981438ee5a9}
+
+
+Definition at line 21 of file Path.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Path@{sgs\-::model\-::simulation\-::\-Path}!variable\-Collection@{variable\-Collection}}
+\index{variable\-Collection@{variable\-Collection}!sgs::model::simulation::Path@{sgs\-::model\-::simulation\-::\-Path}}
+\subsubsection[{variable\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collection} sgs.\-model.\-simulation.\-Path.\-variable\-Collection}\label{classsgs_1_1model_1_1simulation_1_1_path_ac3298d6af00b6a8a0266cf50f052e94d}
+
+
+Definition at line 22 of file Path.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/simulation/{\bf Path.\-java}\end{DoxyCompactItemize}

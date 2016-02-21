@@ -1,0 +1,94 @@
+.TH "sgs.controller.fileManagement.csvConstruction.ObjectTreeTab" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.fileManagement.csvConstruction.ObjectTreeTab \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBObjectTreeTab\fP (\fBSgsGridModel\fP gridModel)"
+.br
+.ti -1c
+.RI "Tab \fBgetResultsTab\fP ()"
+.br
+.ti -1c
+.RI "Tab \fBgetChoosenTab\fP ()"
+.br
+.ti -1c
+.RI "TreeView< String > \fBgetCollectionTreeView\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCheckBoxActionListener\fP \fBcbActionListener\fP = new \fBCheckBoxActionListener\fP()"
+.br
+.ti -1c
+.RI "CheckBoxTreeItem< String > \fBobjectTree\fP = new CheckBoxTreeItem<>('Object')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Sabrina creates the checkBoxObjectsTree\&. add it to a tab ,and return it to the csvController\&. 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file ObjectTreeTab\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.ObjectTreeTab (\fBSgsGridModel\fPgridModel)"
+constructor 
+.PP
+Definition at line 46 of file ObjectTreeTab\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Tab sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.getChoosenTab ()"
+the Tree with selected CheckBoxTreeItems 
+.PP
+\fBReturns:\fP
+.RS 4
+resultsTab 
+.RE
+.PP
+
+.PP
+Definition at line 224 of file ObjectTreeTab\&.java\&.
+.SS "TreeView<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.getCollectionTreeView ()"
+
+.PP
+Definition at line 251 of file ObjectTreeTab\&.java\&.
+.SS "Tab sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.getResultsTab ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+resultsTab - in this Tab is the ObjectTree 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file ObjectTreeTab\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCheckBoxActionListener\fP sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.cbActionListener = new \fBCheckBoxActionListener\fP()"
+
+.PP
+Definition at line 28 of file ObjectTreeTab\&.java\&.
+.SS "CheckBoxTreeItem<String> sgs\&.controller\&.fileManagement\&.csvConstruction\&.ObjectTreeTab\&.objectTree = new CheckBoxTreeItem<>('Object')"
+TreeItem goes back to GiveDataCollection 
+.PP
+Definition at line 39 of file ObjectTreeTab\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

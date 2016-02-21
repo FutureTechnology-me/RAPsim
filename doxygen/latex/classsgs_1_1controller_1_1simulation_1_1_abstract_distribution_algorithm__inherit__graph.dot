@@ -1,0 +1,17 @@
+digraph "sgs.controller.simulation.AbstractDistributionAlgorithm"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.simulation.\lAbstractDistributionAlgorithm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.interfaces.\lGridChangeListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.simulation.\l_TestingAlgorithm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1___testing_algorithm.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.controller.simulation.\lACPowerFlowCalculator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="sgs.controller.simulation.\lDCPowerFlowCalculator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="sgs.controller.simulation.\lSimplePowerDistribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution.html"];
+}

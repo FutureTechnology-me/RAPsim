@@ -1,0 +1,15 @@
+digraph "sgs.controller.ColorOverlayController.checkOverlayUse"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.ColorOverlay\lController.checkOverlayUse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.controller.ColorOverlay\lController.repaint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_color_overlay_controller.html#a8d83080a830c0f1c42c08dc9b8f8a25e"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.controller.ColorOverlay\lController.init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_color_overlay_controller.html#a700d41da6b76cec62401e9f446b4ccf7"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgs.controller.ColorOverlay\lController.initAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_color_overlay_controller.html#a7e3b677edb0f53e292048a07b3a005aa"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgs.controller.ColorOverlay\lController.repaintData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_color_overlay_controller.html#ae5e7769ae253e0338b8ea74dcdfe5167"];
+}

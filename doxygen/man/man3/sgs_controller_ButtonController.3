@@ -1,0 +1,128 @@
+.TH "sgs.controller.ButtonController" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.ButtonController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBButtonController\fP (PrimaryViewI primaryView, \fBGridController\fP gridController)"
+.br
+.ti -1c
+.RI "void \fBactionFor_bStartStopSim\fP (ActionEvent arg0)"
+.br
+.ti -1c
+.RI "void \fBsetTimeThread\fP (\fBTimeThread\fP timeThread)"
+.br
+.ti -1c
+.RI "void \fBresetStartStopSimButton\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdateDateAndTime\fP (\fBWeather\fP currentWeather, GregorianCalendar currentTime)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBTopPanel\fP \fBtopPanel\fP = new \fBTopPanel\fP()"
+.br
+.ti -1c
+.RI "\fBBottomPanel\fP \fBbottomPanel\fP = new \fBBottomPanel\fP()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Controller for ButtonManagerView\&. Sets up the button panels on top and bottom\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger, Breiling 
+.RE
+.PP
+
+.PP
+Definition at line 32 of file ButtonController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.ButtonController\&.ButtonController (PrimaryViewIprimaryView, \fBGridController\fPgridController)"
+Constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIprimaryView\fP setJComponent topPanel to BorderLayout\&.NORTH, bottomPanel to BorderLayout\&.SOUTH 
+.br
+\fIgridController\fP 
+.br
+\fIcsvController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file ButtonController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.ButtonController\&.actionFor_bStartStopSim (ActionEventarg0)"
+private method, start and stop simulation 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarg0\fP - unused if
+.PP
+.nf
+bStartStopSim\&.isSelected() 
+
+.fi
+.PP
+ start simulation and create a new Dialog, with timeThread and gridModel\&.
+.RE
+.PP
+if creation of Dialog is confirmed, instruct the view to provide field for StartTime, endTime, currentTime and the Start or Stop button 
+.PP
+Definition at line 247 of file ButtonController\&.java\&.
+.SS "void sgs\&.controller\&.ButtonController\&.resetStartStopSimButton ()"
+set Text for the Start/Stop Simulation Button 'Start Sim' when Simulations has been stopped 
+.PP
+Definition at line 288 of file ButtonController\&.java\&.
+.SS "void sgs\&.controller\&.ButtonController\&.setTimeThread (\fBTimeThread\fPtimeThread)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItimeThread\fP 
+.RE
+.PP
+
+.PP
+Definition at line 280 of file ButtonController\&.java\&.
+.SS "void sgs\&.controller\&.ButtonController\&.updateDateAndTime (\fBWeather\fPcurrentWeather, GregorianCalendarcurrentTime)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrentWeather\fP 
+.br
+\fIcurrentTime\fP 
+.RE
+.PP
+
+.PP
+Definition at line 299 of file ButtonController\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBBottomPanel\fP sgs\&.controller\&.ButtonController\&.bottomPanel = new \fBBottomPanel\fP()"
+
+.PP
+Definition at line 43 of file ButtonController\&.java\&.
+.SS "\fBTopPanel\fP sgs\&.controller\&.ButtonController\&.topPanel = new \fBTopPanel\fP()"
+
+.PP
+Definition at line 42 of file ButtonController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

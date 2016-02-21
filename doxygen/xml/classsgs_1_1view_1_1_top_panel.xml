@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_top_panel" kind="class" prot="public">
+    <compoundname>sgs::view::TopPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JToolBar</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_top_panel_1a614a8abd9919f685efcea793f971e275" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.TopPanel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_top_panel_1a032fa607b34752171d58048a7916c0f4" prot="public" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.TopPanel.buttonPanel</definition>
+        <argsstring></argsstring>
+        <name>buttonPanel</name>
+        <initializer>= new JPanel(new FlowLayout(CENTER))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_top_panel_1a067c5a54afcd71b5269515fa7d55d22e" compoundref="_top_panel_8java" startline="32" endline="38">sgs.view.TopPanel.TopPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_top_panel_1a975e76bedbeb2dc3454d9d344cac608c" prot="public" static="no" mutable="no">
+        <type>DateAndTimePanel</type>
+        <definition>DateAndTimePanel sgs.view.TopPanel.dateAndTimePanel</definition>
+        <argsstring></argsstring>
+        <name>dateAndTimePanel</name>
+        <initializer>= new DateAndTimePanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_top_panel_1a067c5a54afcd71b5269515fa7d55d22e" compoundref="_top_panel_8java" startline="32" endline="38">sgs.view.TopPanel.TopPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_top_panel_1aacad2ffa83f4bcbd462b416f1046ca13" prot="public" static="no" mutable="no">
+        <type>LogoPanel</type>
+        <definition>LogoPanel sgs.view.TopPanel.logoPanel</definition>
+        <argsstring></argsstring>
+        <name>logoPanel</name>
+        <initializer>= new LogoPanel((int) 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_top_panel_1a067c5a54afcd71b5269515fa7d55d22e" compoundref="_top_panel_8java" startline="32" endline="38">sgs.view.TopPanel.TopPanel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_top_panel_1a067c5a54afcd71b5269515fa7d55d22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.TopPanel.TopPanel</definition>
+        <argsstring>()</argsstring>
+        <name>TopPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="32" bodyend="38"/>
+        <references refid="classsgs_1_1view_1_1_top_panel_1a975e76bedbeb2dc3454d9d344cac608c" compoundref="_top_panel_8java" startline="29">sgs.view.TopPanel.dateAndTimePanel</references>
+        <references refid="classsgs_1_1view_1_1_top_panel_1a032fa607b34752171d58048a7916c0f4" compoundref="_top_panel_8java" startline="28">sgs.view.TopPanel.buttonPanel</references>
+        <references refid="classsgs_1_1view_1_1_top_panel_1aacad2ffa83f4bcbd462b416f1046ca13" compoundref="_top_panel_8java" startline="30">sgs.view.TopPanel.logoPanel</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_top_panel_1a264483c39524224f7cfa35bb0c3a163a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JButton</type>
+        <definition>JButton sgs.view.TopPanel.addControl_TopButton</definition>
+        <argsstring>(String name, ActionListener l)</argsstring>
+        <name>addControl_TopButton</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ActionListener</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make JButton, add Action listener, add the button to the view. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- button name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ActionListener to add, can be null. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>JButton </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="46" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_top_panel_1ac475601b2a4f288eda035975e7a225f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JToggleButton</type>
+        <definition>JToggleButton sgs.view.TopPanel.addControl_TopToggle</definition>
+        <argsstring>(String name, ActionListener l)</argsstring>
+        <name>addControl_TopToggle</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>ActionListener</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make JToggleButton, add Action listener, add the button to the view. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- button name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ActionListener to add, can be null. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>JButton </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="64" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_top_panel_1a61ee0399a772fa1f4e41ef645d98c887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.TopPanel.updateDateAndTime</definition>
+        <argsstring>(Weather currentWeather, GregorianCalendar currentTime)</argsstring>
+        <name>updateDateAndTime</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>currentWeather</declname>
+        </param>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update time and weather label. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="79" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Panel with all elements at the top of the GUI.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4338">
+        <label>sgs.view.TopPanel</label>
+        <link refid="classsgs_1_1view_1_1_top_panel"/>
+        <childnode refid="4339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4339">
+        <label>JToolBar</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4342">
+        <label>JPanel</label>
+      </node>
+      <node id="4340">
+        <label>sgs.view.TopPanel</label>
+        <link refid="classsgs_1_1view_1_1_top_panel"/>
+        <childnode refid="4341" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4342" relation="usage">
+          <edgelabel>buttonPanel</edgelabel>
+        </childnode>
+        <childnode refid="4343" relation="usage">
+          <edgelabel>logoPanel</edgelabel>
+        </childnode>
+        <childnode refid="4345" relation="usage">
+          <edgelabel>dateAndTimePanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="4346">
+        <label>JLabel</label>
+      </node>
+      <node id="4343">
+        <label>sgs.view.LogoPanel</label>
+        <childnode refid="4342" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4344" relation="usage">
+          <edgelabel>RAPSimIcon</edgelabel>
+        </childnode>
+      </node>
+      <node id="4341">
+        <label>JToolBar</label>
+      </node>
+      <node id="4345">
+        <label>sgs.view.DateAndTimePanel</label>
+        <childnode refid="4342" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4346" relation="usage">
+          <edgelabel>weatherLabel1</edgelabel>
+          <edgelabel>weatherLabel2</edgelabel>
+          <edgelabel>timeLabel</edgelabel>
+        </childnode>
+      </node>
+      <node id="4344">
+        <label>ImageIcon</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="25" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a264483c39524224f7cfa35bb0c3a163a" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>addControl_TopButton</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1ac475601b2a4f288eda035975e7a225f5" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>addControl_TopToggle</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a032fa607b34752171d58048a7916c0f4" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>buttonPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a975e76bedbeb2dc3454d9d344cac608c" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>dateAndTimePanel</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1aacad2ffa83f4bcbd462b416f1046ca13" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>logoPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a614a8abd9919f685efcea793f971e275" prot="private" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a067c5a54afcd71b5269515fa7d55d22e" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>TopPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_top_panel_1a61ee0399a772fa1f4e41ef645d98c887" prot="public" virt="non-virtual"><scope>sgs::view::TopPanel</scope><name>updateDateAndTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

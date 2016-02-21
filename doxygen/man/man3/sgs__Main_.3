@@ -1,0 +1,77 @@
+.TH "sgs._Main_" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs._Main_ \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.RI "\fIprivate static File f = PropertiesDialog\&.getf(); //deleting the lock file \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Main class for initializing and starting the SGS\&.
+.PP
+a) take care of initializing static data, e\&.g\&. for recognition of all classes implementing SmartGridObject b) initialize the model (contains JGM) c) initialize the the view with the model d) initialize controller e) final actions like making the GUI visible
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger, Sabrina Huber 
+.RE
+.PP
+
+.PP
+Definition at line 23 of file _Main_\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static void sgs\&._Main_\&.main (String[]args)\fC [static]\fP"
+
+.PP
+private static File f = PropertiesDialog\&.getf(); //deleting the lock file Initialize & Start 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIargs\fP - unused 
+.RE
+.PP
+gives Model 
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBSgsGridModel\&.java\fP 
+.PP
+.nf
+SgsGridModel gridModel = new SgsGridModel(nrOfCellsWidth, nrOfCellsHeight, gridWidth, gridHeight); 
+
+.fi
+.PP
+ gridModel => data about Width, Height and content of Cells
+.RE
+.PP
+.PP
+.nf
+PrimaryView primaryView = new PrimaryView("SGS - Smart Grid Simulator", gridModel); 
+.fi
+.PP
+ View of JGridMap and rest of the GUI, set Name to 'SGS - Smart Grid Simulator' and size of given gridModel
+.PP
+f\&.delete(); FileChooserModel\&.deleteCSV();
+.PP
+.PP
+.nf
+primaryView\&.pack(); primaryView\&.setVisible(true); 
+.fi
+.PP
+ start up, set Visible true, and causes the window to be sized to fit the preferred size and layouts 
+.PP
+Definition at line 36 of file _Main_\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

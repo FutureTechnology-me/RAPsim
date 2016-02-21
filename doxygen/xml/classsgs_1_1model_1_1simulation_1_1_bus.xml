@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1simulation_1_1_bus" kind="class" prot="public">
+    <compoundname>sgs::model::simulation::Bus</compoundname>
+    <basecompoundref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableOwner</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1aa1920862e80193bbb7db1f111cbf5e18" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.simulation.Bus.busNumber</definition>
+        <argsstring></argsstring>
+        <name>busNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1a39be426c4b411058c79a62cdc3b5e682" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Bus.currentBusVoltage</definition>
+        <argsstring></argsstring>
+        <name>currentBusVoltage</name>
+        <initializer>= new <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>(1.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1a36f8939f047525175d843ea2a4a27873" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.simulation.Bus.tmpVariableSet</definition>
+        <argsstring></argsstring>
+        <name>tmpVariableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1a24f238fca0374edae1945e907cee9978" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Bus.tmpNettoPowerProduction</definition>
+        <argsstring></argsstring>
+        <name>tmpNettoPowerProduction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" prot="public" static="no" mutable="no">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>LinkedList&lt;SmartGridObject&gt; sgs.model.simulation.Bus.busGridObjects</definition>
+        <argsstring></argsstring>
+        <name>busGridObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a43e60386a00388aa17bd2f6c7d5ce87c" compoundref="_bus_8java" startline="34" endline="38">sgs.model.simulation.Bus.Bus</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5fed173fed07d9f4875db6122ea3d3f0" compoundref="_bus_8java" startline="99" endline="109">sgs.model.simulation.Bus.containsInstanceOf</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1aee9bdcea5012dbff39b56dd825965f85" compoundref="_bus_8java" startline="130" endline="132">sgs.model.simulation.Bus.getGridObjects</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a8475b2bbb2d92c5f75dd0df16303c7b0" compoundref="_bus_8java" startline="145" endline="154">sgs.model.simulation.Bus.setBusVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" compoundref="_bus_8java" startline="157" endline="167">sgs.model.simulation.Bus.getBusVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1aafd3420743f326f4a84cdb4b10e9979c" compoundref="_bus_8java" startline="185" endline="192">sgs.model.simulation.Bus.refreshValues</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_bus_1a1eee43c43c675d075c94aa5986a39188" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" kindref="compound">VariableCollection</ref></type>
+        <definition>VariableCollection sgs.model.simulation.Bus.variableCollection</definition>
+        <argsstring></argsstring>
+        <name>variableCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a43e60386a00388aa17bd2f6c7d5ce87c" compoundref="_bus_8java" startline="34" endline="38">sgs.model.simulation.Bus.Bus</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a43e60386a00388aa17bd2f6c7d5ce87c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.simulation.Bus.Bus</definition>
+        <argsstring>(int busNumber, LinkedList&lt; SmartGridObject &gt; busGridObjects, VariableCollection variableCollection)</argsstring>
+        <name>Bus</name>
+        <param>
+          <type>int</type>
+          <declname>busNumber</declname>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>busGridObjects</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" kindref="compound">VariableCollection</ref></type>
+          <declname>variableCollection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>busGridObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="34" bodyend="38"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a1eee43c43c675d075c94aa5986a39188" compoundref="_bus_8java" startline="22">sgs.model.simulation.Bus.variableCollection</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a2787087e28a6f8104c4d77ceae579602" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.simulation.Bus.isLoadBus</definition>
+        <argsstring>()</argsstring>
+        <name>isLoadBus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call after values were refreshed.</para><para><simplesect kind="return"><para>true if real netto power production &lt;= 0 </para></simplesect>
+<simplesect kind="see"><para><ref refid="classsgs_1_1model_1_1simulation_1_1_bus_1aafd3420743f326f4a84cdb4b10e9979c" kindref="member">#isGeneratorBus(), #isSwingBus()</ref>} </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a657a999a1decb5ff8e647ff45a9ca74a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.simulation.Bus.isGeneratorBus</definition>
+        <argsstring>()</argsstring>
+        <name>isGeneratorBus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call after values were refreshed.</para><para><simplesect kind="return"><para>true if real netto power production &gt;= 0. false otherwise or at error. </para></simplesect>
+<simplesect kind="see"><para><ref refid="classsgs_1_1model_1_1simulation_1_1_bus_1aafd3420743f326f4a84cdb4b10e9979c" kindref="member">#isLoadBus(), #isSwingBus()</ref>} </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1abfc4dffbe73da4a7a27743542d72e90d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Bus.getNettoPowerProduction</definition>
+        <argsstring>()</argsstring>
+        <name>getNettoPowerProduction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>(powerProduction-powerDemand) or null, if values do not exist </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="68" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a417baed4428cddc7dc7379a13ddd8ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.simulation.Bus.contains</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>contains</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true, if object is contained in bus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="91" bodyend="93"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1aee9bdcea5012dbff39b56dd825965f85" compoundref="_bus_8java" startline="130" endline="132">sgs.model.simulation.Bus.getGridObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a5fed173fed07d9f4875db6122ea3d3f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.simulation.Bus.containsInstanceOf</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>containsInstanceOf</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true, if any object of the same type as sgo is contained in the bus. recommended to use with constructor as argument sgo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="99" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="99" bodyend="109"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a23362799056eecf4cfc1d229ecebbf3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.addObject</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>addObject</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add object to bus <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="116" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a3293193086ed07c704204822c4a700dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.setGridObjects</definition>
+        <argsstring>(LinkedList&lt; SmartGridObject &gt; objects)</argsstring>
+        <name>setGridObjects</name>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>objects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the objects to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="123" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1aee9bdcea5012dbff39b56dd825965f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>LinkedList&lt;SmartGridObject&gt; sgs.model.simulation.Bus.getGridObjects</definition>
+        <argsstring>()</argsstring>
+        <name>getGridObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the contained grid objects </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="130" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="130" bodyend="132"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a417baed4428cddc7dc7379a13ddd8ee9" compoundref="_bus_8java" startline="91" endline="93">sgs.model.simulation.Bus.contains</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a2296da1dcf74ec49ae2e84f422a1d297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.simulation.Bus.getNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the busNumber </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="135" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="135" bodyend="137"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1acdffb638574a7b252b5b10b9ede520c2" compoundref="_path_8java" startline="54" endline="70">sgs.model.simulation.Path.setBuses</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a1edf3b45e0c36bc99072e72d330e03f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.setBusNumber</definition>
+        <argsstring>(int busNumber)</argsstring>
+        <name>setBusNumber</name>
+        <param>
+          <type>int</type>
+          <declname>busNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>busNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- busNumber to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="140" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a8475b2bbb2d92c5f75dd0df16303c7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.setBusVoltage</definition>
+        <argsstring>(NumericValue voltage)</argsstring>
+        <name>setBusVoltage</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>voltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>voltage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- voltage to set for every object (special) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="145" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="145" bodyend="154"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae39843020dfa0a5bfdc490cdf7a85759" compoundref="_numeric_value_8java" startline="177" endline="182">sgs.model.variables.NumericValue.abs</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" compoundref="_enum_p_v_8java" startline="21">sgs.model.variables.EnumPV.voltageAngle</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Bus.getBusVoltage</definition>
+        <argsstring>()</argsstring>
+        <name>getBusVoltage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the <ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref> voltage (should be equal for whole bus), stored locally </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="157" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="157" bodyend="167"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a1871255b3da82d2740d30bcc8cf8ed69" compoundref="_numeric_value_8java" startline="165" endline="167">sgs.model.variables.NumericValue.getReal</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" compoundref="_enum_p_v_8java" startline="20">sgs.model.variables.EnumPV.currentVoltage</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a13269bae634bbbee22c86c0cc163796a" compoundref="_numeric_value_8java" startline="172" endline="174">sgs.model.variables.NumericValue.getImaginary</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1af8d5a1e3ad102e7ec8a57c660b08347d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.simulation.Bus.getVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>getVariableSet</name>
+        <reimplements refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c">getVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the VariableSet owned by this object; or null (no owned variable set) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="170" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="170" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a2c314462a818167825ac5b8f92a8bf9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Bus.getValue</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value for variableName, or null if name is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="178" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="178" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1aafd3420743f326f4a84cdb4b10e9979c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.refreshValues</definition>
+        <argsstring>()</argsstring>
+        <name>refreshValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Collects current simulation values with variableCollector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="185" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="185" bodyend="192"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" compoundref="_bus_8java" startline="21">sgs.model.simulation.Bus.busGridObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1a20d9228fe2ba106f2cfbfea445abc810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.simulation.Bus.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="195" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="195" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_bus_1afd7ba17f0352b98e1cc514862f35a8f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Bus.calculateNettoPowerProduction</definition>
+        <argsstring>()</argsstring>
+        <name>calculateNettoPowerProduction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate netto power from VariableSet (uses powerProduction, powerDemand) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="75" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="75" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A bus combines multiple (1 or more) grid objects, which are not seperated by any resistance.</para><para>(Was named Cluster before) <simplesect kind="author"><para>Tobi, Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2738">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="2737">
+        <label>sgs.model.simulation.Bus</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_bus"/>
+        <childnode refid="2738" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2740">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="2742">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="2741">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="2742" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2743">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+      <node id="2739">
+        <label>sgs.model.simulation.Bus</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_bus"/>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2741" relation="usage">
+          <edgelabel>variableCollection</edgelabel>
+        </childnode>
+        <childnode refid="2743" relation="usage">
+          <edgelabel>busGridObjects</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Bus.java" bodystart="18" bodyend="198"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a23362799056eecf4cfc1d229ecebbf3e" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>addObject</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a43e60386a00388aa17bd2f6c7d5ce87c" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>Bus</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a4cd025e5e16ddc41403c703ca5ec602e" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>busGridObjects</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1aa1920862e80193bbb7db1f111cbf5e18" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>busNumber</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1afd7ba17f0352b98e1cc514862f35a8f3" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>calculateNettoPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a417baed4428cddc7dc7379a13ddd8ee9" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>contains</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5fed173fed07d9f4875db6122ea3d3f0" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>containsInstanceOf</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a39be426c4b411058c79a62cdc3b5e682" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>currentBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1aee9bdcea5012dbff39b56dd825965f85" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getGridObjects</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1abfc4dffbe73da4a7a27743542d72e90d" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getNettoPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a2296da1dcf74ec49ae2e84f422a1d297" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getNumber</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a2c314462a818167825ac5b8f92a8bf9c" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1af8d5a1e3ad102e7ec8a57c660b08347d" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>getVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a657a999a1decb5ff8e647ff45a9ca74a" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>isGeneratorBus</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a2787087e28a6f8104c4d77ceae579602" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>isLoadBus</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1aafd3420743f326f4a84cdb4b10e9979c" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>refreshValues</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a1edf3b45e0c36bc99072e72d330e03f5" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>setBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a8475b2bbb2d92c5f75dd0df16303c7b0" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>setBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a3293193086ed07c704204822c4a700dc" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>setGridObjects</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a24f238fca0374edae1945e907cee9978" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>tmpNettoPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a36f8939f047525175d843ea2a4a27873" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>tmpVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a20d9228fe2ba106f2cfbfea445abc810" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_bus_1a1eee43c43c675d075c94aa5986a39188" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Bus</scope><name>variableCollection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

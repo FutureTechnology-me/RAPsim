@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1_abstract_value" kind="class" prot="public" abstract="yes">
+    <compoundname>sgs::model::variables::AbstractValue</compoundname>
+    <derivedcompoundref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" prot="public" virt="non-virtual">sgs.model.variables.NumericValue</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1variables_1_1_string_value" prot="public" virt="non-virtual">sgs.model.variables.StringValue</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1a2fa5c112dbbda6b5ccd79ec01b1f60ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.variables.AbstractValue.setValue</definition>
+        <argsstring>(String value)</argsstring>
+        <name>setValue</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1a163ca690f6738526d89d5a98bec608cc">setValue</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a517ee688776cd27ed63dd757b2c6eb2a">setValue</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a String representation of the specific value class. Should be parsable. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae9f192f5db113e7a60c6d0aa3ecf0f49" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.variables.AbstractValue.setValue</definition>
+        <argsstring>(double d)</argsstring>
+        <name>setValue</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1af532a2248086df7bdeb3bcc50fca0957">setValue</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a43bb45b608188594bbf7b64cb6477ed9">setValue</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a double value. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1a485cf1c7245763fe5a9fc9f7f129e319" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.variables.AbstractValue.setValue</definition>
+        <argsstring>(Complex complex)</argsstring>
+        <name>setValue</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1acde2371da032f0f3644ab8433ceb043b">setValue</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ac36c5aeceb7a8fc4b1ff3fda50a8f084">setValue</reimplementedby>
+        <param>
+          <type>Complex</type>
+          <declname>complex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>complex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a Complex value. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae8d35bb0e455101bdc967dbe93d64302" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.variables.AbstractValue.setValue</definition>
+        <argsstring>(NumericValue numericValue)</argsstring>
+        <name>setValue</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1a0cd82d2ad64d37991c8ff2cb2ad42eaa">setValue</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aca633fddcade38eaf819194831eaea29">setValue</reimplementedby>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>numericValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numericValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- {real,imaginary}. May not be fully compatible with every value class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1a3a5d5a21d3bd1495a1838b8c80577ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract String</type>
+        <definition>abstract String sgs.model.variables.AbstractValue.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1ab89df3aa96602c11511410c246c31eb3">getValue</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a94328f735bb9f46802eaaaac3d1be22a">getValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a object the specific value class. Should be of correct type. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representation of the value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="24" column="1"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ad30f0aea88e8fd715b7783caf5448f8a" compoundref="_abstract_value_8java" startline="36" endline="38">sgs.model.variables.AbstractValue.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1a32847acbd987b208d7476d27533b03aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract double</type>
+        <definition>abstract double sgs.model.variables.AbstractValue.getValueDouble</definition>
+        <argsstring>()</argsstring>
+        <name>getValueDouble</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1a1f952cd7a2f52c76aad33fdc89734d08">getValueDouble</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1aef1deef65282bd1a11e38b13ff28c170">getValueDouble</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a double representation of the value, zero for non numeric values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1ab64f2f85962cbd5f64a3d6fcec48c7f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract Complex</type>
+        <definition>abstract Complex sgs.model.variables.AbstractValue.getValueComplex</definition>
+        <argsstring>()</argsstring>
+        <name>getValueComplex</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1ad6b7e1c3e52a043d41552168143eef5c">getValueComplex</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a86e37d661cc4037723e741a72381548a">getValueComplex</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a complex representation of the value, zero for non numeric values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1afac060f54bacf38fadef479f2fdaa3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>abstract NumericValue sgs.model.variables.AbstractValue.getValueNumeric</definition>
+        <argsstring>()</argsstring>
+        <name>getValueNumeric</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1aec5c8de18518603fb47cc8648682fb3d">getValueNumeric</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ab6641fd048ee59f445583d0766146fc1">getValueNumeric</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a value object, handle with care </para><simplesectsep/><para>a <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref> object or null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1ad30f0aea88e8fd715b7783caf5448f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.AbstractValue.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A string representation of the value, similar to &quot;String getValue()&quot; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" bodystart="36" bodyend="38"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a3a5d5a21d3bd1495a1838b8c80577ced">sgs.model.variables.AbstractValue.getValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_abstract_value_1af49900974715ee7e126a5ff1a2447e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="classsgs_1_1model_1_1variables_1_1_abstract_value" kindref="compound">AbstractValue</ref></type>
+        <definition>abstract AbstractValue sgs.model.variables.AbstractValue.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_string_value_1aa201d795aad9e77ac976628dfe28b3fe">copy</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a67b3d7415b97441e6873dd0a7baf2faa">copy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a Copy up to primitive variables from this Value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class for values in OneAttribute.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2658">
+        <label>sgs.model.variables.StringValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_string_value"/>
+        <childnode refid="2656" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2657">
+        <label>sgs.model.variables.NumericValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_numeric_value"/>
+        <childnode refid="2656" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2656">
+        <label>sgs.model.variables.AbstractValue</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_abstract_value"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/AbstractValue.java" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1af49900974715ee7e126a5ff1a2447e54" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a3a5d5a21d3bd1495a1838b8c80577ced" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ab64f2f85962cbd5f64a3d6fcec48c7f7" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>getValueComplex</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a32847acbd987b208d7476d27533b03aa" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>getValueDouble</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1afac060f54bacf38fadef479f2fdaa3e7" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>getValueNumeric</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a2fa5c112dbbda6b5ccd79ec01b1f60ef" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae9f192f5db113e7a60c6d0aa3ecf0f49" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1a485cf1c7245763fe5a9fc9f7f129e319" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ae8d35bb0e455101bdc967dbe93d64302" prot="public" virt="pure-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>setValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_abstract_value_1ad30f0aea88e8fd715b7783caf5448f8a" prot="public" virt="non-virtual"><scope>sgs::model::variables::AbstractValue</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

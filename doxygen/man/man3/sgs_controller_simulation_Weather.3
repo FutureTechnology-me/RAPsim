@@ -1,0 +1,124 @@
+.TH "sgs.controller.simulation.Weather" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.Weather \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBWEATHER\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBWeather\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetRandSeed\fP (long seed)"
+.br
+.ti -1c
+.RI "double \fBgetCloudFactor\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetTemperature\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetWindSpeed\fP ()"
+.br
+.ti -1c
+.RI "void \fBnewWindSpeed\fP ()"
+.br
+.ti -1c
+.RI "void \fBnewCloudFactor\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBWEATHER\fP \fBstate\fP"
+.br
+.in -1c
+.SS "Static Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final Random \fBRAND\fP = SmartGridObject\&.RAND"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file Weather\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.Weather\&.Weather ()"
+
+.PP
+Definition at line 27 of file Weather\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "double sgs\&.controller\&.simulation\&.Weather\&.getCloudFactor ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the cloudFactor 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Weather\&.java\&.
+.SS "double sgs\&.controller\&.simulation\&.Weather\&.getTemperature ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the temperature 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file Weather\&.java\&.
+.SS "double sgs\&.controller\&.simulation\&.Weather\&.getWindSpeed ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the windSpeed 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Weather\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.Weather\&.newCloudFactor ()"
+set the cloudFactor to a new value 
+.PP
+Definition at line 86 of file Weather\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.Weather\&.newWindSpeed ()"
+
+.PP
+Definition at line 76 of file Weather\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.Weather\&.setRandSeed (longseed)"
+
+.PP
+Definition at line 40 of file Weather\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final Random sgs\&.controller\&.simulation\&.Weather\&.RAND = SmartGridObject\&.RAND\fC [static]\fP, \fC [protected]\fP"
+
+.PP
+Definition at line 13 of file Weather\&.java\&.
+.SS "\fBWEATHER\fP sgs\&.controller\&.simulation\&.Weather\&.state"
+
+.PP
+Definition at line 20 of file Weather\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

@@ -1,0 +1,160 @@
+\section{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum}\index{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum@{sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Collector\-Sum} ({\bf Enum\-P\-V} {\bf variable\-Name})
+\item 
+{\bf Numeric\-Value} {\bf get\-Value} ()
+\item 
+int {\bf get\-Number\-Of\-Values} ()
+\item 
+void {\bf rest\-Values} ()
+\item 
+boolean {\bf collect\-From} ({\bf Variable\-Owner} owner)
+\item 
+{\bf Variable\-Collector\-Sum} {\bf copy} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Variable\-Collector\-Sum.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!Variable\-Collector\-Sum@{Variable\-Collector\-Sum}}
+\index{Variable\-Collector\-Sum@{Variable\-Collector\-Sum}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{Variable\-Collector\-Sum}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-Variable\-Collector\-Sum (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_af2cfab002ceeba0a594f1cecd150cd47}
+Constructor for sum collector. 
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 17 of file Variable\-Collector\-Sum.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!collect\-From@{collect\-From}}
+\index{collect\-From@{collect\-From}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{collect\-From}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-collect\-From (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Owner}}]{owner}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a4c76b1bd73bca0e41218404b61b3eec6}
+Adds interesting variable values from the variable owner 
+\begin{DoxyParams}{Parameters}
+{\em owner1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a value was collected 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a7771a65b96725beb168579ff6003f6e6}.
+
+
+
+Definition at line 40 of file Variable\-Collector\-Sum.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collector\-Sum} sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a6478994329df7aa2537e932f458650b9}
+\begin{DoxyReturn}{Returns}
+a copy of this Collector 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af657fdd311577e7f5f155283a8e816ff}.
+
+
+
+Definition at line 52 of file Variable\-Collector\-Sum.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!get\-Number\-Of\-Values@{get\-Number\-Of\-Values}}
+\index{get\-Number\-Of\-Values@{get\-Number\-Of\-Values}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{get\-Number\-Of\-Values}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-get\-Number\-Of\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_a90325799de732e7b4537c09508b005c9}
+\begin{DoxyReturn}{Returns}
+the number of collected values 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_af7069a996dfec379cbc334f294b5511a}.
+
+
+
+Definition at line 29 of file Variable\-Collector\-Sum.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-get\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_ada41437c5497b71c2da0c337ae2c1dcf}
+\begin{DoxyReturn}{Returns}
+the collected numeric value 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_aafa53635c29d137ed70912b31fe75e6a}.
+
+
+
+Definition at line 24 of file Variable\-Collector\-Sum.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}!rest\-Values@{rest\-Values}}
+\index{rest\-Values@{rest\-Values}!sgs::model::variables::collector::VariableCollectorSum@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collector\-Sum}}
+\subsubsection[{rest\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-collector.\-Variable\-Collector\-Sum.\-rest\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_adbc18741513067dd5b26f9b3834a1771}
+resets values to zero. 
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Collector} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_a54200215ba9e58439e720502bbedb507}.
+
+
+
+Definition at line 34 of file Variable\-Collector\-Sum.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/collector/{\bf Variable\-Collector\-Sum.\-java}\end{DoxyCompactItemize}

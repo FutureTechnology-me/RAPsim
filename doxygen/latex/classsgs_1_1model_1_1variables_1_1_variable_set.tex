@@ -1,0 +1,559 @@
+\section{sgs.\-model.\-variables.\-Variable\-Set Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1_variable_set}\index{sgs.\-model.\-variables.\-Variable\-Set@{sgs.\-model.\-variables.\-Variable\-Set}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-Variable\-Set\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-Variable\-Set\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Set} ()
+\item 
+boolean {\bf add} ({\bf Single\-Variable} a)
+\item 
+{\bf Single\-Variable} {\bf add} ({\bf Enum\-P\-V} name)
+\item 
+boolean {\bf add\-If\-Not\-Contained} ({\bf Single\-Variable} a)
+\item 
+boolean {\bf add\-All\-If\-Not\-Contained} ({\bf Variable\-Set} a)
+\item 
+boolean {\bf remove} (Object o)
+\item 
+boolean {\bf remove} ({\bf Enum\-P\-V} name)
+\item 
+boolean {\bf remove} (String name)
+\item 
+boolean {\bf remove} ({\bf Single\-Variable} a)
+\item 
+{\bf Single\-Variable} {\bf get} ({\bf Enum\-P\-V} name)
+\item 
+{\bf Single\-Variable} {\bf get} (int row)
+\item 
+boolean {\bf contains} (String name)
+\item 
+boolean {\bf contains} ({\bf Single\-Variable} a)
+\item 
+String {\bf to\-String} ()
+\item 
+String {\bf to\-String\-Full} ()
+\item 
+Object[$\,$][$\,$] {\bf get\-Object\-Array} ()
+\item 
+void {\bf set} (String name, String value)
+\item 
+void {\bf set} ({\bf Enum\-P\-V} name, Object value)
+\item 
+boolean {\bf is\-Used} ({\bf Enum\-P\-V} name)
+\item 
+{\bf Variable\-Set} {\bf copy\-Keep\-Properties} ()
+\item 
+{\bf Variable\-Set} {\bf get\-Visibles} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf Variable\-Set} {\bf combine} ({\bf Variable\-Set} a, {\bf Variable\-Set} b)
+\item 
+static {\bf Variable\-Set} {\bf make\-Default\-Variable\-Set} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Single\-Variable} {\bf get} (String name)
+\item 
+boolean {\bf contains} ({\bf Enum\-P\-V} name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Linked\-List$<$ String $>$ {\bf modified} = new Linked\-List$<$String$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Based an Tree\-Set. Holds a set of variables for grid objects.
+
+Only one variable with a certain name (ignore case) is allowed in the set. Remove variables before overwriting them.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 18 of file Variable\-Set.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!Variable\-Set@{Variable\-Set}}
+\index{Variable\-Set@{Variable\-Set}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Variable\-Set.\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a4403c975c3001aedc704634b476b609c}
+Constructor\-: Empty 
+
+Definition at line 27 of file Variable\-Set.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!add@{add}}
+\index{add@{add}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Variable}}]{a}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a77709c7a2d4b064f2549d408c1683cd7}
+Does not allow overwriting names! \begin{DoxyReturn}{Returns}
+true. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Security\-Exception} & if you try to overwrite a name. \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 37 of file Variable\-Set.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!add@{add}}
+\index{add@{add}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-Variable\-Set.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a01d583642db39cdba8cd4761ff271cdf}
+Factory method 
+\begin{DoxyParams}{Parameters}
+{\em currentpowerconsumption} & \\
+\hline
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \doxyref{Single\-Variable}{p.}{classsgs_1_1model_1_1variables_1_1_single_variable} 
+\end{DoxyReturn}
+
+
+Definition at line 53 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!add\-All\-If\-Not\-Contained@{add\-All\-If\-Not\-Contained}}
+\index{add\-All\-If\-Not\-Contained@{add\-All\-If\-Not\-Contained}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{add\-All\-If\-Not\-Contained}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-add\-All\-If\-Not\-Contained (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Set}}]{a}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a435dd68b0b4727cce8fc4ed2df0f0b37}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+see \doxyref{add()}{p.}{classsgs_1_1model_1_1variables_1_1_variable_set_a77709c7a2d4b064f2549d408c1683cd7} 
+
+true if name was not contained (added) 
+\end{DoxyReturn}
+
+
+Definition at line 103 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!add\-If\-Not\-Contained@{add\-If\-Not\-Contained}}
+\index{add\-If\-Not\-Contained@{add\-If\-Not\-Contained}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{add\-If\-Not\-Contained}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-add\-If\-Not\-Contained (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Variable}}]{a}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a9a16f44d2e26fe6351f09c93acbeeddc}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+see \doxyref{add()}{p.}{classsgs_1_1model_1_1variables_1_1_variable_set_a77709c7a2d4b064f2549d408c1683cd7} 
+
+true if name was not contained (added) 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!combine@{combine}}
+\index{combine@{combine}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{combine}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Variable\-Set} sgs.\-model.\-variables.\-Variable\-Set.\-combine (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Set}}]{a, }
+\item[{{\bf Variable\-Set}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a1f617e7c69a54f340bfdf6bf5aeb8cc7}
+Get combined variable set. Makes no deep copy! 
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new set with variables from a and b. Prefers variables in b. 
+\end{DoxyReturn}
+
+
+Definition at line 279 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!contains@{contains}}
+\index{contains@{contains}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-contains (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a09bd53e876470a32ad3139b8d142b9f2}
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if name is contained in set 
+\end{DoxyReturn}
+
+
+Definition at line 174 of file Variable\-Set.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!contains@{contains}}
+\index{contains@{contains}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-contains (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_aa96ce3a470c263da3e488512aa7d20f4}
+\begin{DoxySeeAlso}{See Also}
+contains(\-Predefined\-Variables\-Enum) 
+\end{DoxySeeAlso}
+
+
+Definition at line 180 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!contains@{contains}}
+\index{contains@{contains}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-contains (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Variable}}]{a}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a843d2c9e016aa28507b14e79cda69a0c}
+\begin{DoxySeeAlso}{See Also}
+contains(\-Predefined\-Variables\-Enum) 
+\end{DoxySeeAlso}
+
+
+Definition at line 186 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!copy\-Keep\-Properties@{copy\-Keep\-Properties}}
+\index{copy\-Keep\-Properties@{copy\-Keep\-Properties}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{copy\-Keep\-Properties}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-variables.\-Variable\-Set.\-copy\-Keep\-Properties (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a1fb0c9fb20db2d68b06abec31af40d69}
+\begin{DoxyReturn}{Returns}
+a Copy up to value from this Set. 
+\end{DoxyReturn}
+
+
+Definition at line 296 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!get@{get}}
+\index{get@{get}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-Variable\-Set.\-get (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a72d2e18285ede6d20ac73cbea7fe1821}
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+attribute with 'name' or null. 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!get@{get}}
+\index{get@{get}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-Variable\-Set.\-get (
+\begin{DoxyParamCaption}
+\item[{int}]{row}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_ae87af0fab94e11039a9f21b368e862d7}
+
+
+Definition at line 145 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!get@{get}}
+\index{get@{get}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-Variable\-Set.\-get (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a0393f829d9002d1bcfcff8e1cb366022}
+\begin{DoxySeeAlso}{See Also}
+get(\-Predefined\-Variables\-Enum) 
+\end{DoxySeeAlso}
+
+
+Definition at line 159 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!get\-Object\-Array@{get\-Object\-Array}}
+\index{get\-Object\-Array@{get\-Object\-Array}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{get\-Object\-Array}]{\setlength{\rightskip}{0pt plus 5cm}Object [$\,$][$\,$] sgs.\-model.\-variables.\-Variable\-Set.\-get\-Object\-Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_abe34ca54b6acd52c74f0d8c42c532afc}
+\begin{DoxyReturn}{Returns}
+Object array with dimensions [size][2] where array[i][0] = name array[i][1] = value 
+\end{DoxyReturn}
+
+
+Definition at line 224 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!get\-Visibles@{get\-Visibles}}
+\index{get\-Visibles@{get\-Visibles}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{get\-Visibles}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-variables.\-Variable\-Set.\-get\-Visibles (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a1f84a91f4bef081e4bd7c04c7d2e8f52}
+\begin{DoxyReturn}{Returns}
+a variable set containing only the visible ones. 
+\end{DoxyReturn}
+
+
+Definition at line 325 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!is\-Used@{is\-Used}}
+\index{is\-Used@{is\-Used}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{is\-Used}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-is\-Used (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a2fdfa26a267f266150fae834b699e161}
+
+\begin{DoxyParams}{Parameters}
+{\em sv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if Variable exists A\-N\-D is\-Visible O\-R is\-Editable (definition) 
+\end{DoxyReturn}
+
+
+Definition at line 265 of file Variable\-Set.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!make\-Default\-Variable\-Set@{make\-Default\-Variable\-Set}}
+\index{make\-Default\-Variable\-Set@{make\-Default\-Variable\-Set}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{make\-Default\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Variable\-Set} sgs.\-model.\-variables.\-Variable\-Set.\-make\-Default\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a3e0eb26dac85adff36a7d168b6a665de}
+\begin{DoxyReturn}{Returns}
+a variable\-Set with all possible variables 
+\end{DoxyReturn}
+
+
+Definition at line 309 of file Variable\-Set.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!remove@{remove}}
+\index{remove@{remove}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-remove (
+\begin{DoxyParamCaption}
+\item[{Object}]{o}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_affa9555fdc4fdf7b98421d54cdbb3797}
+
+
+Definition at line 109 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!remove@{remove}}
+\index{remove@{remove}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_adb6e82e354ae2354e0dd12f29fb065f8}
+Remove attribute with name. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success 
+\end{DoxyReturn}
+
+
+Definition at line 119 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!remove@{remove}}
+\index{remove@{remove}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-remove (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_ac70ad7287d4f4645b3a341917e95bb86}
+\begin{DoxySeeAlso}{See Also}
+remove(\-Predefined\-Variables\-Enum) 
+\end{DoxySeeAlso}
+
+
+Definition at line 125 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!remove@{remove}}
+\index{remove@{remove}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Variable\-Set.\-remove (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Variable}}]{a}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_ad1787a80b16fdd5dffb06947f24dd18c}
+\begin{DoxySeeAlso}{See Also}
+remove(\-Predefined\-Variables\-Enum) 
+\end{DoxySeeAlso}
+
+
+Definition at line 131 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!set@{set}}
+\index{set@{set}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Variable\-Set.\-set (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{String}]{value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_af5bfd99d6d5ccbfdd99163e7960a2f41}
+Set an E\-X\-I\-S\-T\-I\-N\-G variable with name 'name'. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 244 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!set@{set}}
+\index{set@{set}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Variable\-Set.\-set (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name, }
+\item[{Object}]{value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a7c0d9d518a45bd4ecb83d0848066aa8e}
+Set an E\-X\-I\-S\-T\-I\-N\-G variable with name 'name'. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 257 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Variable\-Set.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a1759b3dce7f191f146c2a2373377aadd}
+
+
+Definition at line 191 of file Variable\-Set.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!to\-String\-Full@{to\-String\-Full}}
+\index{to\-String\-Full@{to\-String\-Full}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{to\-String\-Full}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Variable\-Set.\-to\-String\-Full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a5a3dc6101985b4e5d2b6b96313451ffe}
+\begin{DoxyReturn}{Returns}
+full content of set. 
+\end{DoxyReturn}
+
+
+Definition at line 206 of file Variable\-Set.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::variables\-::\-Variable\-Set@{sgs\-::model\-::variables\-::\-Variable\-Set}!modified@{modified}}
+\index{modified@{modified}!sgs::model::variables::VariableSet@{sgs\-::model\-::variables\-::\-Variable\-Set}}
+\subsubsection[{modified}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<$String$>$ sgs.\-model.\-variables.\-Variable\-Set.\-modified = new Linked\-List$<$String$>$()\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1variables_1_1_variable_set_a5f6430e7138398169d9c0eae2970ffbf}
+
+
+Definition at line 22 of file Variable\-Set.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/{\bf Variable\-Set.\-java}\end{DoxyCompactItemize}

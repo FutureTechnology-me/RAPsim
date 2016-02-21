@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1controller" kind="namespace">
+    <compoundname>sgs::controller</compoundname>
+    <innerclass refid="classsgs_1_1controller_1_1_button_controller" prot="public">sgs::controller::ButtonController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_color_overlay_controller" prot="public">sgs::controller::ColorOverlayController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_edit_function_controller" prot="public">sgs::controller::EditFunctionController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_grid_controller" prot="public">sgs::controller::GridController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_grid_map_listener" prot="public">sgs::controller::GridMapListener</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_grid_pop_up_menu_controller" prot="public">sgs::controller::GridPopUpMenuController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_menu_controller" prot="public">sgs::controller::MenuController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_primary_controller" prot="public">sgs::controller::PrimaryController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1_reflection_stuff" prot="public">sgs::controller::ReflectionStuff</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller_1_1file_management">sgs::controller::fileManagement</innernamespace>
+    <innernamespace refid="namespacesgs_1_1controller_1_1interfaces">sgs::controller::interfaces</innernamespace>
+    <innernamespace refid="namespacesgs_1_1controller_1_1simulation">sgs::controller::simulation</innernamespace>
+    <innernamespace refid="namespacesgs_1_1controller_1_1undoable_edit">sgs::controller::undoableEdit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

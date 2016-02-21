@@ -1,0 +1,203 @@
+\section{sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm}\index{sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm@{sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm}}
+
+
+Inheritance diagram for sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm\-:
+
+
+Collaboration diagram for sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-\_\-\-Testing\-Algorithm} ({\bf Grid\-Controller} grid\-Controller)
+\item 
+void {\bf initialize\-Algorithm} ()
+\item 
+void {\bf grid\-Changed} ()
+\item 
+void {\bf calculation\-Step} ()
+\item 
+String {\bf get\-Description} ()
+\item 
+void {\bf simulation\-Started} ()
+\item 
+void {\bf simulation\-Stopped} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf set\-Properties\-For\-Variables} ()
+\item 
+void {\bf set\-Properties\-For\-Bus\-And\-Path} ()
+\item 
+void {\bf unload\-Algorithm} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!\-\_\-\-Testing\-Algorithm@{\-\_\-\-Testing\-Algorithm}}
+\index{\-\_\-\-Testing\-Algorithm@{\-\_\-\-Testing\-Algorithm}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{\-\_\-\-Testing\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-\_\-\-Testing\-Algorithm (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a2a665e54a2da5ffd6d65d8bab59f50ae}
+Constructor for reflection. Must (only) use parameter \doxyref{Grid\-Controller}{p.}{classsgs_1_1controller_1_1_grid_controller}. 
+
+Definition at line 24 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!calculation\-Step@{calculation\-Step}}
+\index{calculation\-Step@{calculation\-Step}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{calculation\-Step}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-calculation\-Step (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a356829b6b1de6fccefe03454e004d448}
+Calculate grid for one simulation step. \begin{quotation}
+Buses and Paths are locked before. Grid/\-View-\/\-Repaint is automatically called after the function. \end{quotation}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac4c9507877dc020250921cddc16ba2ef}.
+
+
+
+Definition at line 62 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!get\-Description@{get\-Description}}
+\index{get\-Description@{get\-Description}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{get\-Description}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-get\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a3052597c1c8927c07c57e6f52617aa3a}
+\begin{DoxyReturn}{Returns}
+description of the specific algorithm used for the \char`\"{}\-Info\char`\"{} button 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_afb5870e926bf78477e3d31ae34ab9432}.
+
+
+
+Definition at line 79 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!grid\-Changed@{grid\-Changed}}
+\index{grid\-Changed@{grid\-Changed}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{grid\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-grid\-Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_ae9cccb9df63ca93edd420fbda2d9a208}
+Is called if the Grid is modified. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a1448c4593f3a851aa5e524b7e4316c0d}.
+
+
+
+Definition at line 41 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!initialize\-Algorithm@{initialize\-Algorithm}}
+\index{initialize\-Algorithm@{initialize\-Algorithm}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{initialize\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-initialize\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_aa48f24c53659c9142c48ce6a02d40b54}
+
+
+Definition at line 32 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}}
+\index{set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{set\-Properties\-For\-Bus\-And\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-set\-Properties\-For\-Bus\-And\-Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_acf7e7fa02026b6990f939938e9c7868a}
+Set \doxyref{Sgs\-Grid\-Model.\-resistance\-Attributes}{p.}{classsgs_1_1model_1_1_sgs_grid_model_a44245cedb90ee93a539e1b095a042776}, bus\-Variable\-Collection, path\-Variable\-Collection if used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ae6eb61da1d9e7259cf934108bce0f4db}.
+
+
+
+Definition at line 56 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}}
+\index{set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{set\-Properties\-For\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-set\-Properties\-For\-Variables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a92f631fad5cc2a2d0d69569380142a79}
+Set the algorithm specific variables with help of the super class methods. \begin{DoxySeeAlso}{See Also}
+\doxyref{select\-Class(\-Class)}{p.}{}, \doxyref{set\-Properties(boolean,boolean,\-Enum\-P\-V[$\,$])}{p.}{}, \doxyref{initialize\-Variables()}{p.}{} 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac2928692dc590133f3373ce29fb333fc}.
+
+
+
+Definition at line 46 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!simulation\-Started@{simulation\-Started}}
+\index{simulation\-Started@{simulation\-Started}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{simulation\-Started}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-simulation\-Started (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a0e7fca22dca2f386a6925cd51e6af715}
+Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a L\-O\-G file if one is used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a38463f403753d238505c4db484394650}.
+
+
+
+Definition at line 84 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!simulation\-Stopped@{simulation\-Stopped}}
+\index{simulation\-Stopped@{simulation\-Stopped}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{simulation\-Stopped}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-simulation\-Stopped (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a53d6f28a1557802b95dcdcd17b436330}
+Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a665185f0afb464260b8237a0fb43846a}.
+
+
+
+Definition at line 89 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}!unload\-Algorithm@{unload\-Algorithm}}
+\index{unload\-Algorithm@{unload\-Algorithm}!sgs::controller::simulation::_TestingAlgorithm@{sgs\-::controller\-::simulation\-::\-\_\-\-Testing\-Algorithm}}
+\subsubsection[{unload\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-\_\-\-Testing\-Algorithm.\-unload\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_a5182855a5fb5bccf9ddb5efc3b640cb0}
+Free external resources used by this algorithm. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a3458f6694fbfac2ccbb686749eaae2c0}.
+
+
+
+Definition at line 74 of file \-\_\-\-Testing\-Algorithm.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/{\bf \-\_\-\-Testing\-Algorithm.\-java}\end{DoxyCompactItemize}

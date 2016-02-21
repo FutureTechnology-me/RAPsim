@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1_variable_properties" kind="class" prot="public">
+    <compoundname>sgs::model::variables::VariableProperties</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a36125602dd07579c92ea34a8bb8f704d" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1variables_1_1_variable_properties" kindref="compound">VariableProperties</ref></type>
+        <definition>final VariableProperties sgs.model.variables.VariableProperties.DefaultProperties</definition>
+        <argsstring></argsstring>
+        <name>DefaultProperties</name>
+        <initializer>= new <ref refid="classsgs_1_1model_1_1variables_1_1_variable_properties" kindref="compound">VariableProperties</ref>(false,false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="5" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" compoundref="_variable_properties_8java" startline="49" endline="56">sgs.model.variables.VariableProperties.set</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1ae81bacbd343bf39f971bf13d8506bb8a" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableProperties.isVisible</definition>
+        <argsstring></argsstring>
+        <name>isVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if variable should be visible for the user </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0abe93ff0a5e6a7c4dce7adc4a15faa6" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableProperties.isEditable</definition>
+        <argsstring></argsstring>
+        <name>isEditable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if variable should be editable for the user, or true if not visible and variable is used internally </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad3e891d5dc335c8c4eae310054df624f" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableProperties.isSet</definition>
+        <argsstring></argsstring>
+        <name>isSet</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if properties were set </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" compoundref="_variable_properties_8java" startline="49" endline="56">sgs.model.variables.VariableProperties.set</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a4c18fc3fc008ea7ed5c531138f65e8d2" compoundref="_variable_properties_8java" startline="60" endline="64">sgs.model.variables.VariableProperties.reset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1adce52304cf1bdddbc60f0679fd3e5697" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.VariableProperties.VariableProperties</definition>
+        <argsstring>()</argsstring>
+        <name>VariableProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a583bcbbaf20814d1bb6db083cee6988b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.VariableProperties.VariableProperties</definition>
+        <argsstring>(boolean isVisible, boolean isEditable)</argsstring>
+        <name>VariableProperties</name>
+        <param>
+          <type>boolean</type>
+          <declname>isVisible</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isEditable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use false/true if variable is used internally, but not by the user.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isVisible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isEditable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="26" bodyend="29"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad6a5fe2e57ca581d5266006ac27974a7" compoundref="_variable_properties_8java" startline="36" endline="38">sgs.model.variables.VariableProperties.isVisible</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0279b63e90ff62dd6e8b2225dedf534e" compoundref="_variable_properties_8java" startline="42" endline="44">sgs.model.variables.VariableProperties.isEditable</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad6a5fe2e57ca581d5266006ac27974a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableProperties.isVisible</definition>
+        <argsstring>()</argsstring>
+        <name>isVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if variable should be visible to user </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="36" bodyend="38"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a583bcbbaf20814d1bb6db083cee6988b" compoundref="_variable_properties_8java" startline="26" endline="29">sgs.model.variables.VariableProperties.VariableProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" compoundref="_variable_properties_8java" startline="49" endline="56">sgs.model.variables.VariableProperties.set</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a4c18fc3fc008ea7ed5c531138f65e8d2" compoundref="_variable_properties_8java" startline="60" endline="64">sgs.model.variables.VariableProperties.reset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0279b63e90ff62dd6e8b2225dedf534e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableProperties.isEditable</definition>
+        <argsstring>()</argsstring>
+        <name>isEditable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if variable should be editable by user </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="42" bodyend="44"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a583bcbbaf20814d1bb6db083cee6988b" compoundref="_variable_properties_8java" startline="26" endline="29">sgs.model.variables.VariableProperties.VariableProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" compoundref="_variable_properties_8java" startline="49" endline="56">sgs.model.variables.VariableProperties.set</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a4c18fc3fc008ea7ed5c531138f65e8d2" compoundref="_variable_properties_8java" startline="60" endline="64">sgs.model.variables.VariableProperties.reset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.VariableProperties.set</definition>
+        <argsstring>(boolean visible, boolean editable)</argsstring>
+        <name>set</name>
+        <param>
+          <type>boolean</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>editable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="49" bodyend="56"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a36125602dd07579c92ea34a8bb8f704d" compoundref="_variable_properties_8java" startline="5">sgs.model.variables.VariableProperties.DefaultProperties</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad6a5fe2e57ca581d5266006ac27974a7" compoundref="_variable_properties_8java" startline="36" endline="38">sgs.model.variables.VariableProperties.isVisible</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0279b63e90ff62dd6e8b2225dedf534e" compoundref="_variable_properties_8java" startline="42" endline="44">sgs.model.variables.VariableProperties.isEditable</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad3e891d5dc335c8c4eae310054df624f" compoundref="_variable_properties_8java" startline="15">sgs.model.variables.VariableProperties.isSet</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_properties_1a4c18fc3fc008ea7ed5c531138f65e8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.VariableProperties.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="60" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="60" bodyend="64"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad6a5fe2e57ca581d5266006ac27974a7" compoundref="_variable_properties_8java" startline="36" endline="38">sgs.model.variables.VariableProperties.isVisible</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0279b63e90ff62dd6e8b2225dedf534e" compoundref="_variable_properties_8java" startline="42" endline="44">sgs.model.variables.VariableProperties.isEditable</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad3e891d5dc335c8c4eae310054df624f" compoundref="_variable_properties_8java" startline="15">sgs.model.variables.VariableProperties.isSet</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4459">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="4459" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" line="3" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableProperties.java" bodystart="3" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a36125602dd07579c92ea34a8bb8f704d" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>DefaultProperties</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0abe93ff0a5e6a7c4dce7adc4a15faa6" prot="private" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>isEditable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a0279b63e90ff62dd6e8b2225dedf534e" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>isEditable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad3e891d5dc335c8c4eae310054df624f" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>isSet</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ae81bacbd343bf39f971bf13d8506bb8a" prot="private" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>isVisible</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1ad6a5fe2e57ca581d5266006ac27974a7" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>isVisible</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a4c18fc3fc008ea7ed5c531138f65e8d2" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>reset</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a550e8d1b43e815512b017d5e5c1c40c2" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>set</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1adce52304cf1bdddbc60f0679fd3e5697" prot="package" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>VariableProperties</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_properties_1a583bcbbaf20814d1bb6db083cee6988b" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableProperties</scope><name>VariableProperties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

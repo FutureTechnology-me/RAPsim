@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1_network_analyser" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::NetworkAnalyser</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a0bdda623bffcd12158c5a101a7293e82" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>GridController sgs.controller.simulation.NetworkAnalyser.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a471e8210992d65c2d1ca8a521c1df40f" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>SgsGridModel sgs.controller.simulation.NetworkAnalyser.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1aaa27b8d3e28d17e6a4f2167ba05467ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.NetworkAnalyser.NetworkAnalyser</definition>
+        <argsstring>(GridController gridController)</argsstring>
+        <name>NetworkAnalyser</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a12610c4ac2fe29b9f1d22d298364eac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.NetworkAnalyser.createBusesAndFindPaths</definition>
+        <argsstring>()</argsstring>
+        <name>createBusesAndFindPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Locks Buses and Paths. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="40" bodyend="61"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1a49f2ed942c2558a214b6f197e0899aa5" compoundref="_sgs_grid_model_8java" startline="50">sgs.model.SgsGridModel.gridObjectList</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a3358c650d35e301d8cb390bbd7a31aa8" compoundref="_network_analyser_8java" startline="86" endline="88">sgs.controller.simulation.NetworkAnalyser.valueUpdate</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a3358c650d35e301d8cb390bbd7a31aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.NetworkAnalyser.valueUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>valueUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Similar to <ref refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a12610c4ac2fe29b9f1d22d298364eac3" kindref="member">createBusesAndFindPaths()</ref>, but does updates for new values only. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="86" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="86" bodyend="88"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a12610c4ac2fe29b9f1d22d298364eac3" compoundref="_network_analyser_8java" startline="40" endline="61">sgs.controller.simulation.NetworkAnalyser.createBusesAndFindPaths</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6d5fe010ab0db0ee3d8091044f5c2e15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.NetworkAnalyser.resetPowerConsumption</definition>
+        <argsstring>()</argsstring>
+        <name>resetPowerConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Old method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="294" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="294" bodyend="298"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1a49f2ed942c2558a214b6f197e0899aa5" compoundref="_sgs_grid_model_8java" startline="50">sgs.model.SgsGridModel.gridObjectList</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a1100e08fbe2c033ef75c912b9f45b864" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.NetworkAnalyser.valueUpdate</definition>
+        <argsstring>(boolean withLock)</argsstring>
+        <name>valueUpdate</name>
+        <param>
+          <type>boolean</type>
+          <declname>withLock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>withLock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Locks Buses and Paths if &apos;withLock&apos;. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a3358c650d35e301d8cb390bbd7a31aa8" kindref="member">valueUpdate()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="67" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="67" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1ac317892c211bed447df380c53cf4f609" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref> &gt;</type>
+        <definition>LinkedList&lt;Bus&gt; sgs.controller.simulation.NetworkAnalyser.findBuses</definition>
+        <argsstring>()</argsstring>
+        <name>findBuses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>list with all buses </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="93" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="93" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a30d7847a2ecb47ae43ba1d717d2319cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.NetworkAnalyser.isResistor</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>isResistor</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if grid object uses defined resistance attributes. </para></simplesect>
+<simplesect kind="see"><para><ref refid="" kindref="compound">gridModel.resistanceAttributes</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="121" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="121" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1acecab2557503bbe3fb70d02dd6b62663" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.controller.simulation.NetworkAnalyser.createBus</definition>
+        <argsstring>(SmartGridObject startSgo, LinkedList&lt; SmartGridObject &gt; allBusObjects, int busNumber)</argsstring>
+        <name>createBus</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>startSgo</declname>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>allBusObjects</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>busNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new bus. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startSgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allBusObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>busNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Bus with &apos;busNumber&apos; and all &apos;allBusObjects&apos; connected to &apos;startSgo&apos; including &apos;startSgo&apos; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="138" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="138" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a67d463045ad5da143cb6e3cbbea56a4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref> &gt;</type>
+        <definition>LinkedList&lt;Path&gt; sgs.controller.simulation.NetworkAnalyser.findPaths</definition>
+        <argsstring>(LinkedList&lt; Bus &gt; buses)</argsstring>
+        <name>findPaths</name>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref> &gt;</type>
+          <declname>buses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all paths for buses </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="157" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="157" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a235725a9333bf59acc016c83180276e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref> &gt;</type>
+        <definition>LinkedList&lt;Path&gt; sgs.controller.simulation.NetworkAnalyser.findPaths</definition>
+        <argsstring>(Bus b)</argsstring>
+        <name>findPaths</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds all paths for the Bus &apos;b&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all paths for one bus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="179" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="179" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6913bda2c92b2f3cada13b7ef8670494" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref></type>
+        <definition>Path sgs.controller.simulation.NetworkAnalyser.handleNeighbor</definition>
+        <argsstring>(Path path, SmartGridObject nb)</argsstring>
+        <name>handleNeighbor</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref></type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle found neighbor object. Adds found resistor or connects to found bus.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- current path, the first bus of the path is already set. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- neighbor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>unfinished path (pathObject added) or finished path (2nd bus added). Allows empty finished paths. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="274" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="274" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6290ac31caf340ab5ae5a8824ff27b45" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.controller.simulation.NetworkAnalyser.handleLists</definition>
+        <argsstring>(Path path, LinkedList&lt; Path &gt; toCheck, LinkedList&lt; Path &gt; foundPaths)</argsstring>
+        <name>handleLists</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref></type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref> &gt;</type>
+          <declname>toCheck</declname>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref> &gt;</type>
+          <declname>foundPaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add path to correct list or discard it. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- path with more than one objects </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- incomplete paths </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>foundPaths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- complete paths </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="241" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="241" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class helps to find Buses and Paths as dynamically as possible. It uses the<programlisting><codeline><highlight class="normal">gridModel.lockBusesPaths()<sp/></highlight></codeline>
+</programlisting> method for not manipulating the objects at the same time as they are used.</para><para>If the specific GridObject uses an attribute from<programlisting><codeline><highlight class="normal">gridModel.resistanceAttributes<sp/></highlight></codeline>
+</programlisting> , &quot;uses&quot; defined by VariableSet.isUsed(name), then it is handled as a resistor.</para><para><simplesect kind="author"><para>tobi, Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/NetworkAnalyser.java" bodystart="24" bodyend="299"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1acecab2557503bbe3fb70d02dd6b62663" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>createBus</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a12610c4ac2fe29b9f1d22d298364eac3" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>createBusesAndFindPaths</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1ac317892c211bed447df380c53cf4f609" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>findBuses</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a67d463045ad5da143cb6e3cbbea56a4b" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>findPaths</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a235725a9333bf59acc016c83180276e3" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>findPaths</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a0bdda623bffcd12158c5a101a7293e82" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a471e8210992d65c2d1ca8a521c1df40f" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6290ac31caf340ab5ae5a8824ff27b45" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>handleLists</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6913bda2c92b2f3cada13b7ef8670494" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>handleNeighbor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a30d7847a2ecb47ae43ba1d717d2319cc" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>isResistor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1aaa27b8d3e28d17e6a4f2167ba05467ae" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>NetworkAnalyser</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a6d5fe010ab0db0ee3d8091044f5c2e15" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>resetPowerConsumption</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a1100e08fbe2c033ef75c912b9f45b864" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>valueUpdate</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser_1a3358c650d35e301d8cb390bbd7a31aa8" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::NetworkAnalyser</scope><name>valueUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,418 @@
+\section{sgs.\-model.\-variables.\-Single\-Variable Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1_single_variable}\index{sgs.\-model.\-variables.\-Single\-Variable@{sgs.\-model.\-variables.\-Single\-Variable}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-Single\-Variable\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-Single\-Variable\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Single\-Variable} (String name, {\bf Abstract\-Value} value, {\bf Enum\-Unit} unit)
+\item 
+{\bf Single\-Variable} ({\bf Enum\-P\-V} name, {\bf Abstract\-Value} value)
+\item 
+String {\bf name} ()
+\item 
+{\bf Abstract\-Value} {\bf value} ()
+\item 
+{\bf Enum\-Unit} {\bf unit} ()
+\item 
+Double {\bf get\-Value\-String} ()
+\item 
+Double {\bf get\-Value\-Double} ()
+\item 
+Complex {\bf get\-Value\-Complex} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Value\-Numeric} ()
+\item 
+void {\bf set\-Value} (String val)
+\item 
+void {\bf set\-Value} (double d)
+\item 
+void {\bf set\-Value} (Complex c)
+\item 
+void {\bf set\-Value} ({\bf Numeric\-Value} v)
+\item 
+boolean {\bf variable\-Is\-Used} ()
+\item 
+int {\bf compare\-To} ({\bf Single\-Variable} attr2)
+\item 
+{\bf Single\-Variable} {\bf copy\-Keep\-Properties} ()
+\item 
+String {\bf to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Properties} {\bf properties}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Single\-Variable} (String name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Holds a single attribute, intended to use in the attribute set.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 10 of file Single\-Variable.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!Single\-Variable@{Single\-Variable}}
+\index{Single\-Variable@{Single\-Variable}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{Single\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Single\-Variable.\-Single\-Variable (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{{\bf Abstract\-Value}}]{value, }
+\item[{{\bf Enum\-Unit}}]{unit}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_afce2cf6c1b9a102610913967f3d473ea}
+Constructor\-: only for use in Models -\/ not in Objects
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em value} & \\
+\hline
+{\em unit} & \doxyref{Model\-Variable}{p.}{}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Single\-Variable.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!Single\-Variable@{Single\-Variable}}
+\index{Single\-Variable@{Single\-Variable}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{Single\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Single\-Variable.\-Single\-Variable (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{name, }
+\item[{{\bf Abstract\-Value}}]{value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a1e3fe9c4e31f36ebabca6a2b4f536419}
+Constructor\-: for \doxyref{Enum\-P\-V}{p.}{enumsgs_1_1model_1_1variables_1_1_enum_p_v} types
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em value} & \\
+\hline
+{\em unit} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file Single\-Variable.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!Single\-Variable@{Single\-Variable}}
+\index{Single\-Variable@{Single\-Variable}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{Single\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Single\-Variable.\-Single\-Variable (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1variables_1_1_single_variable_aa4c55a3d7a118701183c4d5663c7c815}
+Constructor\-: internal use 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file Single\-Variable.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!compare\-To@{compare\-To}}
+\index{compare\-To@{compare\-To}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{compare\-To}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-variables.\-Single\-Variable.\-compare\-To (
+\begin{DoxyParamCaption}
+\item[{{\bf Single\-Variable}}]{attr2}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_acd978d1e3d69e8f554ecef59e65ddda4}
+Implementation for Tree\-Set 
+
+Definition at line 126 of file Single\-Variable.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!copy\-Keep\-Properties@{copy\-Keep\-Properties}}
+\index{copy\-Keep\-Properties@{copy\-Keep\-Properties}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{copy\-Keep\-Properties}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-variables.\-Single\-Variable.\-copy\-Keep\-Properties (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a531f56d6c274e512f3184ab0968a859c}
+\begin{DoxyReturn}{Returns}
+a deep Copy, except the properties. 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file Single\-Variable.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!get\-Value\-Complex@{get\-Value\-Complex}}
+\index{get\-Value\-Complex@{get\-Value\-Complex}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{get\-Value\-Complex}]{\setlength{\rightskip}{0pt plus 5cm}Complex sgs.\-model.\-variables.\-Single\-Variable.\-get\-Value\-Complex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_afafbfae8c7a13b96e4ba9d07e1c86170}
+\begin{DoxyReturn}{Returns}
+the Complex value of the variable, zero for non numeric values. 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!get\-Value\-Double@{get\-Value\-Double}}
+\index{get\-Value\-Double@{get\-Value\-Double}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{get\-Value\-Double}]{\setlength{\rightskip}{0pt plus 5cm}Double sgs.\-model.\-variables.\-Single\-Variable.\-get\-Value\-Double (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_afd6eb2b56a2859de9315a5babcb6371f}
+\begin{DoxyReturn}{Returns}
+the double value of the variable, zero for non numeric values. 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file Single\-Variable.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!get\-Value\-Numeric@{get\-Value\-Numeric}}
+\index{get\-Value\-Numeric@{get\-Value\-Numeric}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{get\-Value\-Numeric}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Single\-Variable.\-get\-Value\-Numeric (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a3000e054d62292891eb241129948e5ec}
+\begin{DoxyReturn}{Returns}
+the numeric value, may be null for non numeric values. 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!get\-Value\-String@{get\-Value\-String}}
+\index{get\-Value\-String@{get\-Value\-String}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{get\-Value\-String}]{\setlength{\rightskip}{0pt plus 5cm}Double sgs.\-model.\-variables.\-Single\-Variable.\-get\-Value\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a26f554f0882d086188e860f14f63d232}
+\begin{DoxyReturn}{Returns}
+the value of the variable as String. 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!name@{name}}
+\index{name@{name}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Single\-Variable.\-name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a6b227ad216f90a6b340e9d5b479433b7}
+\begin{DoxyReturn}{Returns}
+the variable name 
+\end{DoxyReturn}
+
+
+Definition at line 57 of file Single\-Variable.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Single\-Variable.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{val}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a2f98537eab44b325fd1241bbd2782919}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 91 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Single\-Variable.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{d}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_ac172b0a17ac8d848db66b8bdd8ccc743}
+Set double value. May not be compatible with every subclass of \doxyref{Abstract\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value}. 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Single\-Variable.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{Complex}]{c}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a8ed19c1efa3cfee987b9ba17c8c4aef6}
+Set Complex value. May not be compatible with every subclass of \doxyref{Abstract\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value}. 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 106 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Single\-Variable.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{v}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a398ef019aa31ddcd90142480945680a2}
+Set Numeric value. May not be compatible with every subclass of \doxyref{Abstract\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value}. 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 113 of file Single\-Variable.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Single\-Variable.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a32a6723d93b715d4098227a7b9e8e5a6}
+
+
+Definition at line 143 of file Single\-Variable.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!unit@{unit}}
+\index{unit@{unit}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{unit}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enum\-Unit} sgs.\-model.\-variables.\-Single\-Variable.\-unit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a3884cb1e57a105fdddbd8794c399b61e}
+\begin{DoxyReturn}{Returns}
+the unit, describing the variable and its value 
+\end{DoxyReturn}
+
+
+Definition at line 65 of file Single\-Variable.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!value@{value}}
+\index{value@{value}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Value} sgs.\-model.\-variables.\-Single\-Variable.\-value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a3e3144cc9b6cb32790a315aa88bbda31}
+\begin{DoxyReturn}{Returns}
+the value object, containing the actual variable value 
+\end{DoxyReturn}
+
+
+Definition at line 61 of file Single\-Variable.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!variable\-Is\-Used@{variable\-Is\-Used}}
+\index{variable\-Is\-Used@{variable\-Is\-Used}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{variable\-Is\-Used}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Single\-Variable.\-variable\-Is\-Used (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_single_variable_aa2678ab69b697b408d256ff6f27585e3}
+\begin{DoxyReturn}{Returns}
+true if Variable is\-Visible O\-R is\-Editable (definition) 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Single\-Variable.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::variables\-::\-Single\-Variable@{sgs\-::model\-::variables\-::\-Single\-Variable}!properties@{properties}}
+\index{properties@{properties}!sgs::model::variables::SingleVariable@{sgs\-::model\-::variables\-::\-Single\-Variable}}
+\subsubsection[{properties}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Properties} sgs.\-model.\-variables.\-Single\-Variable.\-properties}\label{classsgs_1_1model_1_1variables_1_1_single_variable_a74813b9157fa5a684bb2b6e493593429}
+
+
+Definition at line 18 of file Single\-Variable.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/{\bf Single\-Variable.\-java}\end{DoxyCompactItemize}

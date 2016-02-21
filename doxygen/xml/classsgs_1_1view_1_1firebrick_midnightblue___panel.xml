@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1firebrick_midnightblue___panel" kind="class" prot="package">
+    <compoundname>sgs::view::firebrickMidnightblue_Panel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a3e965d39a907c33e3741438c3b567228" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.firebrickMidnightblue_Panel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="196" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a21c848e1dadcc04c8769fc716fca4567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.firebrickMidnightblue_Panel.firebrickMidnightblue_Panel</definition>
+        <argsstring>()</argsstring>
+        <name>firebrickMidnightblue_Panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="198" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="198" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a0617a06dda5ab8cdf8b233a98f810cb7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.firebrickMidnightblue_Panel.paintComponent</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>paintComponent</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="204" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="204" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3185">
+        <label>JPanel</label>
+      </node>
+      <node id="3184">
+        <label>sgs.view.firebrickMidnightblue_Panel</label>
+        <childnode refid="3185" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3187">
+        <label>JPanel</label>
+      </node>
+      <node id="3186">
+        <label>sgs.view.firebrickMidnightblue_Panel</label>
+        <childnode refid="3187" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="192" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="192" bodyend="240"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a21c848e1dadcc04c8769fc716fca4567" prot="public" virt="non-virtual"><scope>sgs::view::firebrickMidnightblue_Panel</scope><name>firebrickMidnightblue_Panel</name></member>
+      <member refid="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a0617a06dda5ab8cdf8b233a98f810cb7" prot="protected" virt="non-virtual"><scope>sgs::view::firebrickMidnightblue_Panel</scope><name>paintComponent</name></member>
+      <member refid="classsgs_1_1view_1_1firebrick_midnightblue___panel_1a3e965d39a907c33e3741438c3b567228" prot="private" virt="non-virtual"><scope>sgs::view::firebrickMidnightblue_Panel</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

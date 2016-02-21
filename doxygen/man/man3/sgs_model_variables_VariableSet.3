@@ -1,0 +1,436 @@
+.TH "sgs.model.variables.VariableSet" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.VariableSet \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits TreeSet< SingleVariable >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableSet\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBadd\fP (\fBSingleVariable\fP a)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBadd\fP (\fBEnumPV\fP name)"
+.br
+.ti -1c
+.RI "boolean \fBaddIfNotContained\fP (\fBSingleVariable\fP a)"
+.br
+.ti -1c
+.RI "boolean \fBaddAllIfNotContained\fP (\fBVariableSet\fP a)"
+.br
+.ti -1c
+.RI "boolean \fBremove\fP (Object o)"
+.br
+.ti -1c
+.RI "boolean \fBremove\fP (\fBEnumPV\fP name)"
+.br
+.ti -1c
+.RI "boolean \fBremove\fP (String name)"
+.br
+.ti -1c
+.RI "boolean \fBremove\fP (\fBSingleVariable\fP a)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBget\fP (\fBEnumPV\fP name)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBget\fP (int row)"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (String name)"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (\fBSingleVariable\fP a)"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoStringFull\fP ()"
+.br
+.ti -1c
+.RI "Object[][] \fBgetObjectArray\fP ()"
+.br
+.ti -1c
+.RI "void \fBset\fP (String name, String value)"
+.br
+.ti -1c
+.RI "void \fBset\fP (\fBEnumPV\fP name, Object value)"
+.br
+.ti -1c
+.RI "boolean \fBisUsed\fP (\fBEnumPV\fP name)"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBcopyKeepProperties\fP ()"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVisibles\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBVariableSet\fP \fBcombine\fP (\fBVariableSet\fP a, \fBVariableSet\fP b)"
+.br
+.ti -1c
+.RI "static \fBVariableSet\fP \fBmakeDefaultVariableSet\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSingleVariable\fP \fBget\fP (String name)"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (\fBEnumPV\fP name)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "LinkedList< String > \fBmodified\fP = new LinkedList<String>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Based an TreeSet\&. Holds a set of variables for grid objects\&.
+.PP
+Only one variable with a certain name (ignore case) is allowed in the set\&. Remove variables before overwriting them\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file VariableSet\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.VariableSet\&.VariableSet ()"
+Constructor: Empty 
+.PP
+Definition at line 27 of file VariableSet\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.add (\fBSingleVariable\fPa)"
+Does not allow overwriting names! 
+.PP
+\fBReturns:\fP
+.RS 4
+true\&. 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fISecurityException\fP if you try to overwrite a name\&. 
+.RE
+.PP
+
+.PP
+Definition at line 37 of file VariableSet\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.VariableSet\&.add (\fBEnumPV\fPname)"
+Factory method 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrentpowerconsumption\fP 
+.br
+\fId\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the \fBSingleVariable\fP 
+.RE
+.PP
+
+.PP
+Definition at line 53 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.addAllIfNotContained (\fBVariableSet\fPa)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIa\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+see \fBadd()\fP 
+.PP
+true if name was not contained (added) 
+.RE
+.PP
+
+.PP
+Definition at line 103 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.addIfNotContained (\fBSingleVariable\fPa)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIa\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+see \fBadd()\fP 
+.PP
+true if name was not contained (added) 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file VariableSet\&.java\&.
+.SS "static \fBVariableSet\fP sgs\&.model\&.variables\&.VariableSet\&.combine (\fBVariableSet\fPa, \fBVariableSet\fPb)\fC [static]\fP"
+Get combined variable set\&. Makes no deep copy! 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIa\fP 
+.br
+\fIb\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+new set with variables from a and b\&. Prefers variables in b\&. 
+.RE
+.PP
+
+.PP
+Definition at line 279 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.contains (\fBEnumPV\fPname)\fC [protected]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if name is contained in set 
+.RE
+.PP
+
+.PP
+Definition at line 174 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.contains (Stringname)"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+contains(PredefinedVariablesEnum) 
+.RE
+.PP
+
+.PP
+Definition at line 180 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.contains (\fBSingleVariable\fPa)"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+contains(PredefinedVariablesEnum) 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file VariableSet\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.variables\&.VariableSet\&.copyKeepProperties ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a Copy up to value from this Set\&. 
+.RE
+.PP
+
+.PP
+Definition at line 296 of file VariableSet\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.VariableSet\&.get (\fBEnumPV\fPname)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+attribute with 'name' or null\&. 
+.RE
+.PP
+
+.PP
+Definition at line 140 of file VariableSet\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.VariableSet\&.get (introw)"
+
+.PP
+Definition at line 145 of file VariableSet\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.VariableSet\&.get (Stringname)\fC [protected]\fP"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+get(PredefinedVariablesEnum) 
+.RE
+.PP
+
+.PP
+Definition at line 159 of file VariableSet\&.java\&.
+.SS "Object [][] sgs\&.model\&.variables\&.VariableSet\&.getObjectArray ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Object array with dimensions [size][2] where array[i][0] = name array[i][1] = value 
+.RE
+.PP
+
+.PP
+Definition at line 224 of file VariableSet\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.variables\&.VariableSet\&.getVisibles ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a variable set containing only the visible ones\&. 
+.RE
+.PP
+
+.PP
+Definition at line 325 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.isUsed (\fBEnumPV\fPname)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsv\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if Variable exists AND isVisible OR isEditable (definition) 
+.RE
+.PP
+
+.PP
+Definition at line 265 of file VariableSet\&.java\&.
+.SS "static \fBVariableSet\fP sgs\&.model\&.variables\&.VariableSet\&.makeDefaultVariableSet ()\fC [static]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a variableSet with all possible variables 
+.RE
+.PP
+
+.PP
+Definition at line 309 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.remove (Objecto)"
+
+.PP
+Definition at line 109 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.remove (\fBEnumPV\fPname)"
+Remove attribute with name\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if success 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.remove (Stringname)"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+remove(PredefinedVariablesEnum) 
+.RE
+.PP
+
+.PP
+Definition at line 125 of file VariableSet\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.VariableSet\&.remove (\fBSingleVariable\fPa)"
+
+.PP
+\fBSee Also:\fP
+.RS 4
+remove(PredefinedVariablesEnum) 
+.RE
+.PP
+
+.PP
+Definition at line 131 of file VariableSet\&.java\&.
+.SS "void sgs\&.model\&.variables\&.VariableSet\&.set (Stringname, Stringvalue)"
+Set an EXISTING variable with name 'name'\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 244 of file VariableSet\&.java\&.
+.SS "void sgs\&.model\&.variables\&.VariableSet\&.set (\fBEnumPV\fPname, Objectvalue)"
+Set an EXISTING variable with name 'name'\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 257 of file VariableSet\&.java\&.
+.SS "String sgs\&.model\&.variables\&.VariableSet\&.toString ()"
+
+.PP
+Definition at line 191 of file VariableSet\&.java\&.
+.SS "String sgs\&.model\&.variables\&.VariableSet\&.toStringFull ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+full content of set\&. 
+.RE
+.PP
+
+.PP
+Definition at line 206 of file VariableSet\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "LinkedList<String> sgs\&.model\&.variables\&.VariableSet\&.modified = new LinkedList<String>()\fC [protected]\fP"
+
+.PP
+Definition at line 22 of file VariableSet\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_edit_function_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::EditFunctionController</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_edit_function_controller_1a9f77cd8272c2a5be4402aa8a16dea7ff" prot="package" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_edit_function_controller_1a6e74d2aeae2d3872afbdadab34e29b93" kindref="member">UndoManager</ref></type>
+        <definition>final UndoManager sgs.controller.EditFunctionController.m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <initializer>= new <ref refid="classsgs_1_1controller_1_1_edit_function_controller_1a6e74d2aeae2d3872afbdadab34e29b93" kindref="member">UndoManager</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_edit_function_controller_1a5f8493fb7ffd568e83c9fca3420f9ef4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.EditFunctionController.EditFunctionController</definition>
+        <argsstring>(SmartGridObject[][] gridObjects, LinkedList&lt; SmartGridObject &gt; gridObjectList, SmartGridObject gObj, SgsGridModel gridModel)</argsstring>
+        <name>EditFunctionController</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>gridObjects</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>gridObjectList</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>gObj</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridObjectList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gObj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_edit_function_controller_1a6e74d2aeae2d3872afbdadab34e29b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.EditFunctionController.UndoManager</definition>
+        <argsstring>(SmartGridObject gobj)</argsstring>
+        <name>UndoManager</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>gobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gobj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_edit_function_controller_1a4649399dbd8b70249edeb8aec73fb18e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.EditFunctionController.EditUndoFunction</definition>
+        <argsstring>()</argsstring>
+        <name>EditUndoFunction</name>
+        <exceptions> throws CannotUndoException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>hs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_edit_function_controller_1af2e04e705b18b83520f5e5d385351607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.EditFunctionController.EditRedoFunction</definition>
+        <argsstring>()</argsstring>
+        <name>EditRedoFunction</name>
+        <exceptions> throws CannotRedoException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="73" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="73" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_edit_function_controller_1a3a2a4deaa75d51d6d1ca2be485d47aca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.EditFunctionController.AddEdit</definition>
+        <argsstring>(SmartGridObject gobj)</argsstring>
+        <name>AddEdit</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>gobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add the SmartGridObjects to the Manager, so that he knows what to undo <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gobj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3175">
+        <label>sgs.controller.EditFunctionController</label>
+        <link refid="classsgs_1_1controller_1_1_edit_function_controller"/>
+        <childnode refid="3176" relation="usage">
+          <edgelabel>m</edgelabel>
+        </childnode>
+      </node>
+      <node id="3176">
+        <label>UndoManager</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/EditFunctionController.java" bodystart="21" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1a3a2a4deaa75d51d6d1ca2be485d47aca" prot="private" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>AddEdit</name></member>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1a5f8493fb7ffd568e83c9fca3420f9ef4" prot="public" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>EditFunctionController</name></member>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1af2e04e705b18b83520f5e5d385351607" prot="public" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>EditRedoFunction</name></member>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1a4649399dbd8b70249edeb8aec73fb18e" prot="public" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>EditUndoFunction</name></member>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1a9f77cd8272c2a5be4402aa8a16dea7ff" prot="package" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>m</name></member>
+      <member refid="classsgs_1_1controller_1_1_edit_function_controller_1a6e74d2aeae2d3872afbdadab34e29b93" prot="public" virt="non-virtual"><scope>sgs::controller::EditFunctionController</scope><name>UndoManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_127aa4ac8168d7e14a48395997148833" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller/fileManagement</compoundname>
+    <innerdir refid="dir_380013c129f2e56345bd801f5c869791">RAPSim/src/sgs/controller/fileManagement/csvConstruction</innerdir>
+    <innerfile refid="_file_manager_8java">FileManager.java</innerfile>
+    <innerfile refid="_safe_s_a_x_8java">SafeSAX.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/"/>
+  </compounddef>
+</doxygen>

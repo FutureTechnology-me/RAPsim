@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_results_c_s_v_view" kind="class" prot="public">
+    <compoundname>sgs::view::ResultsCSVView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a66e0484c6d04b9b7b655f612333268bb" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.ResultsCSVView.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a179c790db2db894045ef7674c76e32c1" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String sgs.view.ResultsCSVView.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a8fd93fb3cc00978ab5bfa03b32076a8f" prot="private" static="yes" mutable="no">
+        <type>JFXPanel</type>
+        <definition>JFXPanel sgs.view.ResultsCSVView.resultsFXPanel</definition>
+        <argsstring></argsstring>
+        <name>resultsFXPanel</name>
+        <initializer>= new JFXPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a9a1922feef38750e4551191611cb09fc" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kindref="compound">CSVController</ref></type>
+        <definition>CSVController sgs.view.ResultsCSVView.csvController</definition>
+        <argsstring></argsstring>
+        <name>csvController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_results_c_s_v_view_1a1933a87c5ae89fb2d2007d9dd8fcf2a4" compoundref="_results_c_s_v_view_8java" startline="67" endline="70">sgs.view.ResultsCSVView.ResultsCSVView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a7f1635826ecbd13e98b08dcc128a3372" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.view.ResultsCSVView.haveDestination</definition>
+        <argsstring></argsstring>
+        <name>haveDestination</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a75ff7c972fc9e13a0497a68302bc7df2" prot="private" static="no" mutable="no">
+        <type>JFrame</type>
+        <definition>JFrame sgs.view.ResultsCSVView.resultsFrame</definition>
+        <argsstring></argsstring>
+        <name>resultsFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1aacec6bbc4e91b4bc9777d9511e751ab3" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button sgs.view.ResultsCSVView.saveFXButton</definition>
+        <argsstring></argsstring>
+        <name>saveFXButton</name>
+        <initializer>= new Button()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="55" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1ac359ecfe409bc542a782088d3c33de39" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button sgs.view.ResultsCSVView.cancelFXButton</definition>
+        <argsstring></argsstring>
+        <name>cancelFXButton</name>
+        <initializer>= new Button()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a3d0b7543f58f3d07f86d8fbd1246ddda" prot="private" static="no" mutable="no">
+        <type>File</type>
+        <definition>File sgs.view.ResultsCSVView.file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_results_c_s_v_view_1a096a646b2f2220c3fed282e447c423ae" prot="private" static="no" mutable="no">
+        <type>VBox</type>
+        <definition>VBox sgs.view.ResultsCSVView.vBox</definition>
+        <argsstring></argsstring>
+        <name>vBox</name>
+        <initializer>= new VBox()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a1933a87c5ae89fb2d2007d9dd8fcf2a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.ResultsCSVView.ResultsCSVView</definition>
+        <argsstring>(SgsGridModel gridModel, CSVController csvController)</argsstring>
+        <name>ResultsCSVView</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kindref="compound">CSVController</ref></type>
+          <declname>csvController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in it are all other hBoxes constructor builds a bridge between Java Swing and JavaFX. It starts the Swing Utilities in which the FX Utilities are included as Panel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="67" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="67" bodyend="70"/>
+        <references refid="classsgs_1_1view_1_1_results_c_s_v_view_1a9a1922feef38750e4551191611cb09fc" compoundref="_results_c_s_v_view_8java" startline="46">sgs.view.ResultsCSVView.csvController</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a13480da233ba2292db33acb3dd9b85d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.startResultsView</definition>
+        <argsstring>()</argsstring>
+        <name>startResultsView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="74" bodyend="138"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ada3b79b029e40e88b05513dbcd17f573" compoundref="_sgs_grid_model_8java" startline="41">sgs.model.SgsGridModel.mainView</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1ab045f0328b72cee6db31f46e749ec709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.setVisible</definition>
+        <argsstring>(boolean b)</argsstring>
+        <name>setVisible</name>
+        <param>
+          <type>boolean</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize the Swing Frame and add to it the JavaFX Panel resultsFXPanel set the resultsFrame visible true or false <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="428" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="428" bodyend="430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a30b4411ad346322413ea2280de195ee4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.actionfor_cancel</definition>
+        <argsstring>()</argsstring>
+        <name>actionfor_cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>actionfor_cancel look if you changed something and didn&apos;t saved it. if you did, it reminds you, that all changes will be lost. Gives you the chance to save it now. setVisible(false) no matter what you choose </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="145" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="145" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a07d5eeeaedc71d0b25bb407dee8b0790" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.actionfor_saveButton</definition>
+        <argsstring>()</argsstring>
+        <name>actionfor_saveButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>action for the save button. ceck if there are data from the tree and a destination where to save the file. if everything is fine, save it </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="186" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="186" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a7ee1b4736c9183061f6e61d73cf665c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HBox</type>
+        <definition>HBox sgs.view.ResultsCSVView.addHboxTabs</definition>
+        <argsstring>()</argsstring>
+        <name>addHboxTabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>it calls the methods to create the TabPanes. In them there are the trees. this tabs will be sorted horizontal with the help of an horizontalBox <simplesect kind="return"><para>hBoxTabs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="217" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="217" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1ae200f4b3c191c22cde6bb837bb855cc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HBox</type>
+        <definition>HBox sgs.view.ResultsCSVView.addHboxSaveFile</definition>
+        <argsstring>()</argsstring>
+        <name>addHboxSaveFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In this horizontal Box is the File Chooser. you can decide where you and under which name you want to save the File. <simplesect kind="return"><para>hboxSaveFile </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="241" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="241" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a22ed0ff5881318bfde4dd28c2214226a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HBox</type>
+        <definition>HBox sgs.view.ResultsCSVView.addHboxButtons</definition>
+        <argsstring>()</argsstring>
+        <name>addHboxButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>specifies the buttons cancel and save <simplesect kind="return"><para>hboxButtons - horizontal sorted Buttons </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="310" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="310" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1aaa6a8f0ac947deee35bf87ecc268c504" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VBox</type>
+        <definition>VBox sgs.view.ResultsCSVView.addVBox</definition>
+        <argsstring>(HBox hbox1, HBox hbox2, HBox hbox3)</argsstring>
+        <name>addVBox</name>
+        <param>
+          <type>HBox</type>
+          <declname>hbox1</declname>
+        </param>
+        <param>
+          <type>HBox</type>
+          <declname>hbox2</declname>
+        </param>
+        <param>
+          <type>HBox</type>
+          <declname>hbox3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hbox1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hbox2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hbox3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vBox - Tabs, saveFile and Buttons are on one vertical line </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="351" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="351" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a207d94ad198582dfcf0c549fe5dc4715" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.closeView</definition>
+        <argsstring>()</argsstring>
+        <name>closeView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>close <ref refid="classsgs_1_1view_1_1_results_c_s_v_view" kindref="compound">ResultsCSVView</ref> Frame and enable he mainView from SgsGridModel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="371" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="371" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1abefe0b0339769842505687be804e42c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Scene</type>
+        <definition>Scene sgs.view.ResultsCSVView.createScene</definition>
+        <argsstring>()</argsstring>
+        <name>createScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create scene, organise the content in the view <simplesect kind="return"><para>the resultsScene </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="382" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="382" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_results_c_s_v_view_1a6c30c91d2ea641d2831fdd709c1d4d76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ResultsCSVView.initFX</definition>
+        <argsstring>(JFXPanel fxPanel)</argsstring>
+        <name>initFX</name>
+        <param>
+          <type>JFXPanel</type>
+          <declname>fxPanel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add the scene into the fxPanel <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fxPanel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="407" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="407" bodyend="413"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Sabrina Huber The <ref refid="classsgs_1_1view_1_1_results_c_s_v_view" kindref="compound">ResultsCSVView</ref> show us the Results Window the class unites java swing and javafx . the constructor acts as a bridge between the two libraries. every JavaFX objects has a FX in its name, to seperate it from the normal Swing Objects. </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3931">
+        <label>JFrame</label>
+      </node>
+      <node id="3930">
+        <label>sgs.view.ResultsCSVView</label>
+        <link refid="classsgs_1_1view_1_1_results_c_s_v_view"/>
+        <childnode refid="3931" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3967">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="3938">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="3943">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="3954">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="3939">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="3940" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3941" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="3942" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="3943" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="3944" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="3958" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="3960" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="3961" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="3933" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="3962" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="3963" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="3971" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="3972" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="3945">
+        <label>GridObject</label>
+      </node>
+      <node id="3950">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="3951" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="3952" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3941">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="3933">
+        <label>JFrame</label>
+      </node>
+      <node id="3955">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="3943" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="3955" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="3956" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="3952" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3957">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="3946">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="3969">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="3932">
+        <label>sgs.view.ResultsCSVView</label>
+        <link refid="classsgs_1_1view_1_1_results_c_s_v_view"/>
+        <childnode refid="3933" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3934" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+      </node>
+      <node id="3968">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="3969" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="3970" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="3970">
+        <label>Random</label>
+      </node>
+      <node id="3963">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="3964" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3934" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="3965" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="3967" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="3968" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="3961">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="3940">
+        <label>GridModel</label>
+      </node>
+      <node id="3952">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="3953" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3954" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="3974">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3976">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="3936">
+        <label>Application</label>
+      </node>
+      <node id="3977">
+        <label>File</label>
+      </node>
+      <node id="3949">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3962">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="3972">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="3934">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="3935" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="3939" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3973" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="3975" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="3938" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3937">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3951">
+        <label>ImageIcon</label>
+      </node>
+      <node id="3975">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="3976" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="3977" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="3966">
+        <label>JDialog</label>
+      </node>
+      <node id="3973">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="3974" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="3938" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3964">
+        <label>Thread</label>
+      </node>
+      <node id="3947">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3935">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="3936" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3937" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="3938" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3965">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="3966" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3959">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="3944">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="3945" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3946" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3947" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3948" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="3950" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="3955" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="3939" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3957" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="3952" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3960">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="3953">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="3942">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="3948">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3949" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3958">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="3959" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="3956">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="3971">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ResultsCSVView.java" bodystart="40" bodyend="434"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a30b4411ad346322413ea2280de195ee4" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>actionfor_cancel</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a07d5eeeaedc71d0b25bb407dee8b0790" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>actionfor_saveButton</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a22ed0ff5881318bfde4dd28c2214226a" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>addHboxButtons</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1ae200f4b3c191c22cde6bb837bb855cc5" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>addHboxSaveFile</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a7ee1b4736c9183061f6e61d73cf665c4" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>addHboxTabs</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1aaa6a8f0ac947deee35bf87ecc268c504" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>addVBox</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1ac359ecfe409bc542a782088d3c33de39" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>cancelFXButton</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a207d94ad198582dfcf0c549fe5dc4715" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>closeView</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1abefe0b0339769842505687be804e42c7" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>createScene</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a9a1922feef38750e4551191611cb09fc" prot="public" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>csvController</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a3d0b7543f58f3d07f86d8fbd1246ddda" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>file</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a179c790db2db894045ef7674c76e32c1" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>filename</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a7f1635826ecbd13e98b08dcc128a3372" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>haveDestination</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a6c30c91d2ea641d2831fdd709c1d4d76" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>initFX</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a1933a87c5ae89fb2d2007d9dd8fcf2a4" prot="public" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>ResultsCSVView</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a75ff7c972fc9e13a0497a68302bc7df2" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>resultsFrame</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a8fd93fb3cc00978ab5bfa03b32076a8f" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>resultsFXPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1aacec6bbc4e91b4bc9777d9511e751ab3" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>saveFXButton</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a66e0484c6d04b9b7b655f612333268bb" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1ab045f0328b72cee6db31f46e749ec709" prot="public" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>setVisible</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a13480da233ba2292db33acb3dd9b85d3" prot="public" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>startResultsView</name></member>
+      <member refid="classsgs_1_1view_1_1_results_c_s_v_view_1a096a646b2f2220c3fed282e447c423ae" prot="private" virt="non-virtual"><scope>sgs::view::ResultsCSVView</scope><name>vBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

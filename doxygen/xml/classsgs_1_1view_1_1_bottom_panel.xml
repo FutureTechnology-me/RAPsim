@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_bottom_panel" kind="class" prot="public">
+    <compoundname>sgs::view::BottomPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JToolBar</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_bottom_panel_1a51208cd79bd9954c0b6944f00e967c29" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.BottomPanel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_bottom_panel_1a792a33d896b8c737493b44e7cca8bb38" prot="public" static="yes" mutable="no">
+        <type>Dimension</type>
+        <definition>Dimension sgs.view.BottomPanel.defaultButtonDimension</definition>
+        <argsstring></argsstring>
+        <name>defaultButtonDimension</name>
+        <initializer>= new Dimension(85,60)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_bottom_panel_1ac62adc67359c4b19904f238573065b6a" compoundref="_bottom_panel_8java" startline="27" endline="44">sgs.view.BottomPanel.addControl_BottomButton</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_bottom_panel_1ac62adc67359c4b19904f238573065b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JButton</type>
+        <definition>JButton sgs.view.BottomPanel.addControl_BottomButton</definition>
+        <argsstring>(String iconPath, String toolTip, ActionListener l)</argsstring>
+        <name>addControl_BottomButton</name>
+        <param>
+          <type>String</type>
+          <declname>iconPath</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toolTip</declname>
+        </param>
+        <param>
+          <type>ActionListener</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make button, add Action listener button, add the button to the view. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iconPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- path to icon (+name) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ActionListener to add, can be null. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>JButton </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" bodystart="27" bodyend="44"/>
+        <references refid="classsgs_1_1view_1_1_bottom_panel_1a792a33d896b8c737493b44e7cca8bb38" compoundref="_bottom_panel_8java" startline="19">sgs.view.BottomPanel.defaultButtonDimension</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Panel with all elements at the bottom of the GUI.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2733">
+        <label>JToolBar</label>
+      </node>
+      <node id="2732">
+        <label>sgs.view.BottomPanel</label>
+        <link refid="classsgs_1_1view_1_1_bottom_panel"/>
+        <childnode refid="2733" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2736">
+        <label>Dimension</label>
+      </node>
+      <node id="2735">
+        <label>JToolBar</label>
+      </node>
+      <node id="2734">
+        <label>sgs.view.BottomPanel</label>
+        <link refid="classsgs_1_1view_1_1_bottom_panel"/>
+        <childnode refid="2735" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2736" relation="usage">
+          <edgelabel>defaultButtonDimension</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/BottomPanel.java" bodystart="16" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_bottom_panel_1ac62adc67359c4b19904f238573065b6a" prot="public" virt="non-virtual"><scope>sgs::view::BottomPanel</scope><name>addControl_BottomButton</name></member>
+      <member refid="classsgs_1_1view_1_1_bottom_panel_1a792a33d896b8c737493b44e7cca8bb38" prot="public" virt="non-virtual"><scope>sgs::view::BottomPanel</scope><name>defaultButtonDimension</name></member>
+      <member refid="classsgs_1_1view_1_1_bottom_panel_1a51208cd79bd9954c0b6944f00e967c29" prot="private" virt="non-virtual"><scope>sgs::view::BottomPanel</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

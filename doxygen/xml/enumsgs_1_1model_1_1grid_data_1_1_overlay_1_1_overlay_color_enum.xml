@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum" kind="enum" prot="public">
+    <compoundname>sgs::model::gridData::Overlay::OverlayColorEnum</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a257d93f4bc83ca94344b96439b10845e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.RED</definition>
+        <argsstring></argsstring>
+        <name>RED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a0dc32e008c5ec94f95d372dc5cffa3be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.ORANGE</definition>
+        <argsstring></argsstring>
+        <name>ORANGE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1aacaa9062021cc1f379681eec046bff92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.YELLOW</definition>
+        <argsstring></argsstring>
+        <name>YELLOW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1acc95230103e937ff4c39385f502f2426" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.GREEN</definition>
+        <argsstring></argsstring>
+        <name>GREEN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a3c7301913f31fb55808c96db0378009b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.TURQUOIS</definition>
+        <argsstring></argsstring>
+        <name>TURQUOIS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a63b58ff9dd8f3398d461cb329452a199" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.BLUE</definition>
+        <argsstring></argsstring>
+        <name>BLUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1abb7a851a30eae1cde855095ae50429ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.VIOLET</definition>
+        <argsstring></argsstring>
+        <name>VIOLET</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a2b63795d56df581396b23796335100f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.RED_GREEN</definition>
+        <argsstring></argsstring>
+        <name>RED_GREEN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a1b228780aedb202be8fff48336af7a86" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.BLACK_BLUE</definition>
+        <argsstring></argsstring>
+        <name>BLACK_BLUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1ada6efb8716689d267a7e55701810f536" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.BLACK_WHITE</definition>
+        <argsstring></argsstring>
+        <name>BLACK_WHITE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1af7f08e3dab9158a163b43739935950bc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.RED_BLUE</definition>
+        <argsstring></argsstring>
+        <name>RED_BLUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1acb61e02a4464711ade787c6538d9d83a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.RED_GREEN_BLUE</definition>
+        <argsstring></argsstring>
+        <name>RED_GREEN_BLUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a451a6c96dfe8a9ffe55b884f2a4404ff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.GREEN_YELLOW_RED</definition>
+        <argsstring></argsstring>
+        <name>GREEN_YELLOW_RED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1afbd2961e0e83bedb7cdcd46680c92b59" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.BLACK_WHITE_BLACK</definition>
+        <argsstring></argsstring>
+        <name>BLACK_WHITE_BLACK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a919d2694c09f0d503e24d1255f7ab48e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.OverlayColorEnum.RED_WHITE_BLUE</definition>
+        <argsstring></argsstring>
+        <name>RED_WHITE_BLUE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enum defining the dynamic overlay color in the grid </para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="15" bodyend="32"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a1b228780aedb202be8fff48336af7a86" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>BLACK_BLUE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1ada6efb8716689d267a7e55701810f536" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>BLACK_WHITE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1afbd2961e0e83bedb7cdcd46680c92b59" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>BLACK_WHITE_BLACK</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a63b58ff9dd8f3398d461cb329452a199" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>BLUE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1acc95230103e937ff4c39385f502f2426" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>GREEN</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a451a6c96dfe8a9ffe55b884f2a4404ff" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>GREEN_YELLOW_RED</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a0dc32e008c5ec94f95d372dc5cffa3be" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>ORANGE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a257d93f4bc83ca94344b96439b10845e" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>RED</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1af7f08e3dab9158a163b43739935950bc" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>RED_BLUE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a2b63795d56df581396b23796335100f9" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>RED_GREEN</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1acb61e02a4464711ade787c6538d9d83a" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>RED_GREEN_BLUE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a919d2694c09f0d503e24d1255f7ab48e" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>RED_WHITE_BLUE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1a3c7301913f31fb55808c96db0378009b" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>TURQUOIS</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1abb7a851a30eae1cde855095ae50429ae" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>VIOLET</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum_1aacaa9062021cc1f379681eec046bff92" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay::OverlayColorEnum</scope><name>YELLOW</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

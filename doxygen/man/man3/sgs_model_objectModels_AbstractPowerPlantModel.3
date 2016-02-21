@@ -1,0 +1,111 @@
+.TH "sgs.model.objectModels.AbstractPowerPlantModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.objectModels.AbstractPowerPlantModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.objectModels\&.AbstractModel\fP\&.
+.PP
+Inherited by \fBsgs\&.model\&.objectModels\&.AbstractCustomPowerPlantModel\fP, \fBsgs\&.model\&.objectModels\&.AbstractFossilFuelPowerPlantModel\fP, \fBsgs\&.model\&.objectModels\&.AbstractSolarPowerPlantModel\fP, and \fBsgs\&.model\&.objectModels\&.AbstractWindPowerPlantModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractPowerPlantModel\fP (\fBPowerPlant\fP \fBpowerPlant\fP)"
+.br
+.ti -1c
+.RI "void \fBupdateModel\fP (GregorianCalendar currentTime, \fBWeather\fP weather, int resolution)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetRatedPower\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetRatedPower\fP (\fBNumericValue\fP peakPower)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetPowerProduction\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPowerProduction\fP (\fBNumericValue\fP \fBpowerProduction\fP)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSingleVariable\fP \fBratedPower\fP"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBpowerProduction\fP"
+.br
+.ti -1c
+.RI "\fBPowerPlant\fP \fBpowerPlant\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Initializes the variableSet\&. Initializes the variables powerProductionOptimal and powerProduction with values from the Object\&. Handles the update of the object variables (rounded to 4 digits) and provides set- and get-methods for the two variables\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+bbreilin, Poechacker 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file AbstractPowerPlantModel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.AbstractPowerPlantModel (\fBPowerPlant\fPpowerPlant)"
+
+.PP
+Definition at line 24 of file AbstractPowerPlantModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBNumericValue\fP sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.getPowerProduction ()\fC [protected]\fP"
+
+.PP
+Definition at line 59 of file AbstractPowerPlantModel\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.getRatedPower ()\fC [protected]\fP"
+
+.PP
+Definition at line 51 of file AbstractPowerPlantModel\&.java\&.
+.SS "void sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.setPowerProduction (\fBNumericValue\fPpowerProduction)\fC [protected]\fP"
+
+.PP
+Definition at line 63 of file AbstractPowerPlantModel\&.java\&.
+.SS "void sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.setRatedPower (\fBNumericValue\fPpeakPower)\fC [protected]\fP"
+
+.PP
+Definition at line 55 of file AbstractPowerPlantModel\&.java\&.
+.SS "void sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.updateModel (GregorianCalendarcurrentTime, \fBWeather\fPweather, intresolution)\fC [virtual]\fP"
+The method calls \fBupdateVariables()\fP and sets the variable values for to the PowerPlant Object 
+.PP
+Implements \fBsgs\&.model\&.objectModels\&.AbstractModel\fP\&.
+.PP
+Definition at line 45 of file AbstractPowerPlantModel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBPowerPlant\fP sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.powerPlant\fC [protected]\fP"
+
+.PP
+Definition at line 22 of file AbstractPowerPlantModel\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.powerProduction\fC [protected]\fP"
+
+.PP
+Definition at line 21 of file AbstractPowerPlantModel\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.objectModels\&.AbstractPowerPlantModel\&.ratedPower\fC [protected]\fP"
+
+.PP
+Definition at line 20 of file AbstractPowerPlantModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

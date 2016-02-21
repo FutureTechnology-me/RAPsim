@@ -1,0 +1,231 @@
+\section{sgs.\-model.\-object\-Models.\-Abstract\-Model Class Reference}
+\label{classsgs_1_1model_1_1object_models_1_1_abstract_model}\index{sgs.\-model.\-object\-Models.\-Abstract\-Model@{sgs.\-model.\-object\-Models.\-Abstract\-Model}}
+
+
+Inheritance diagram for sgs.\-model.\-object\-Models.\-Abstract\-Model\-:
+
+
+Collaboration diagram for sgs.\-model.\-object\-Models.\-Abstract\-Model\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void {\bf update\-Model} (Gregorian\-Calendar current\-Time, {\bf Weather} weather, int resolution)
+\item 
+{\bf Variable\-Set} {\bf get\-Variables} ()
+\item 
+String {\bf get\-Model\-Name} ()
+\item 
+String {\bf get\-Description} ()
+\item 
+Image\-Icon {\bf get\-Icon} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void {\bf update\-Variables} (Gregorian\-Calendar current\-Time, {\bf Weather} weather, int resolution)
+\item 
+abstract void {\bf init\-Variable\-Set} ()
+\item 
+{\bf Single\-Variable} {\bf init\-Variable} (String name, {\bf Numeric\-Value} init\-Value, {\bf Enum\-Unit} unit, boolean visible, boolean editable)
+\item 
+{\bf Single\-Variable} {\bf init\-Variable} (String name, {\bf Numeric\-Value} init\-Value, {\bf Enum\-Unit} unit)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String {\bf model\-Name}
+\item 
+String {\bf description}
+\item 
+Image\-Icon {\bf icon}
+\item 
+{\bf Variable\-Set} {\bf variable\-Set}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The A\-M describes all parameters for Model administration in R\-A\-P\-Sim. The attributes are\-: model\-Name, description, icon and variable\-Set. For all four are get-\/methods implemented further methods are init\-Varible()
+
+\begin{DoxyAuthor}{Author}
+bbreilin, mpoechacker 
+\end{DoxyAuthor}
+
+
+Definition at line 21 of file Abstract\-Model.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!get\-Description@{get\-Description}}
+\index{get\-Description@{get\-Description}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{get\-Description}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-object\-Models.\-Abstract\-Model.\-get\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_aab6b6e3456c4a6f6731cbf45b5c6aba8}
+
+
+Definition at line 50 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!get\-Icon@{get\-Icon}}
+\index{get\-Icon@{get\-Icon}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{get\-Icon}]{\setlength{\rightskip}{0pt plus 5cm}Image\-Icon sgs.\-model.\-object\-Models.\-Abstract\-Model.\-get\-Icon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a719cdbd820ce2ed5df6edfa2a37eead9}
+
+
+Definition at line 53 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!get\-Model\-Name@{get\-Model\-Name}}
+\index{get\-Model\-Name@{get\-Model\-Name}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{get\-Model\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-object\-Models.\-Abstract\-Model.\-get\-Model\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_aa3bd398efe49804f0c68f756d5c84979}
+
+
+Definition at line 47 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!get\-Variables@{get\-Variables}}
+\index{get\-Variables@{get\-Variables}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{get\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-object\-Models.\-Abstract\-Model.\-get\-Variables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a7fffe02d2cba9bad73d71aefae936d5d}
+
+
+Definition at line 43 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!init\-Variable@{init\-Variable}}
+\index{init\-Variable@{init\-Variable}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{init\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-object\-Models.\-Abstract\-Model.\-init\-Variable (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{{\bf Numeric\-Value}}]{init\-Value, }
+\item[{{\bf Enum\-Unit}}]{unit, }
+\item[{boolean}]{visible, }
+\item[{boolean}]{editable}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_ab9e982f18974b03326dcd48c26409c57}
+Initialize a single variable and specify whether it is visible and editable in the property window for the model. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em init\-Value} & \\
+\hline
+{\em unit} & \\
+\hline
+{\em visible} & \\
+\hline
+{\em editable} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 66 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!init\-Variable@{init\-Variable}}
+\index{init\-Variable@{init\-Variable}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{init\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-object\-Models.\-Abstract\-Model.\-init\-Variable (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{{\bf Numeric\-Value}}]{init\-Value, }
+\item[{{\bf Enum\-Unit}}]{unit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_ac34fb3a929dd9b483cc2664ea65fefdf}
+Initialize a single variable for the model which is visible and editable. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em init\-Value} & \\
+\hline
+{\em unit} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!init\-Variable\-Set@{init\-Variable\-Set}}
+\index{init\-Variable\-Set@{init\-Variable\-Set}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{init\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-object\-Models.\-Abstract\-Model.\-init\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_abd4dc9fead63435958473208e0879b27}
+Implemented in the model and called in the constructor of an Abstract\-Objectname\-Model super-\/class 
+
+Implemented in {\bf sgs.\-model.\-object\-Models.\-Random\-Wind\-Turbine\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_afbcfb2124fbe8d566e9b7f5d4c45f9de}, {\bf sgs.\-model.\-object\-Models.\-Fossil\-Fuel\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_a4b289989148665c9bb6b7efec18519ad}, {\bf sgs.\-model.\-object\-Models.\-Solar\-Peak\-Power\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_aad26ae7ec3fd490a98318765a88018ec}, {\bf sgs.\-model.\-object\-Models.\-Residential\-Average\-Load\-Curve\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_a3d32dd4cbfcfdc460ac1b188eb8b9425}, {\bf sgs.\-model.\-object\-Models.\-Solar\-Square\-Meter\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_a1038bfa7ad2e4dd4bcebaf5ce412ea42}, {\bf sgs.\-model.\-object\-Models.\-Pi\-Equivalent\-Power\-Line} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line_a603787f23aaf1fa6edd75d87a73e125e}, {\bf sgs.\-model.\-object\-Models.\-Constant\-Power\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_constant_power_model_a7855e461916a37357e26f1a98438e3dc}, {\bf sgs.\-model.\-object\-Models.\-Usual\-Wind\-Turbine\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_a22fde8ba023526cad0657666e16eb499}, and {\bf sgs.\-model.\-object\-Models.\-Constant\-Demand\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_constant_demand_model_aad75a5e7ffbd19f213c7f77a4974620f}.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!update\-Model@{update\-Model}}
+\index{update\-Model@{update\-Model}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{update\-Model}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-object\-Models.\-Abstract\-Model.\-update\-Model (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather, }
+\item[{int}]{resolution}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a0167b994a0f88c2b632cee4f8452feea}
+Should be implemented in the Abstract\-Objectname\-Model and must contain the \doxyref{update\-Variables()}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_model_a50d89fc66ccf8147a9270fdabb2a3a48} method 
+
+Implemented in {\bf sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a5280690e14a78779cb2ee22d6a8ded98}, {\bf sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a8051101801dd350888d114d88b1f811b}, and {\bf sgs.\-model.\-object\-Models.\-Abstract\-Power\-Line\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_power_line_model_aaff5aecf67fad4f354cd04473aad9569}.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!update\-Variables@{update\-Variables}}
+\index{update\-Variables@{update\-Variables}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{update\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}abstract void sgs.\-model.\-object\-Models.\-Abstract\-Model.\-update\-Variables (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather, }
+\item[{int}]{resolution}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a50d89fc66ccf8147a9270fdabb2a3a48}
+Should be implemented in the model to calculate new variable values 
+
+Implemented in {\bf sgs.\-model.\-object\-Models.\-Residential\-Average\-Load\-Curve\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_a2f52a22c77506cb141a37eb6b914ed8a}, {\bf sgs.\-model.\-object\-Models.\-Usual\-Wind\-Turbine\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_afc05fb95ea2dc0102b257b02ca68e570}, {\bf sgs.\-model.\-object\-Models.\-Fossil\-Fuel\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_a3a42ffec9631e273d5efeac3fb799b27}, {\bf sgs.\-model.\-object\-Models.\-Random\-Wind\-Turbine\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_a27c04422d4cd7abda8b5265cd1931919}, {\bf sgs.\-model.\-object\-Models.\-Solar\-Peak\-Power\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_a6f2947bc3e47cd6d624da591cf1e3ee9}, {\bf sgs.\-model.\-object\-Models.\-Pi\-Equivalent\-Power\-Line} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line_a7f2f2d9e2bc3ee5d7aace6eea976f8b0}, {\bf sgs.\-model.\-object\-Models.\-Solar\-Square\-Meter\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_ab6dce7e9dc0cfb13049201a1c9e833e2}, {\bf sgs.\-model.\-object\-Models.\-Constant\-Power\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_constant_power_model_a32fbb2a2c5bdef3d7f18788daeb02ae3}, and {\bf sgs.\-model.\-object\-Models.\-Constant\-Demand\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_constant_demand_model_ae3121d975630b1d65644c3f7308468c3}.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!description@{description}}
+\index{description@{description}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{description}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-object\-Models.\-Abstract\-Model.\-description\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a13a13e6bce3ec245e7b7ccac125d64f0}
+
+
+Definition at line 24 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!icon@{icon}}
+\index{icon@{icon}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{icon}]{\setlength{\rightskip}{0pt plus 5cm}Image\-Icon sgs.\-model.\-object\-Models.\-Abstract\-Model.\-icon\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_aa669bcbbe5a64b3fe83b1de9d2a4c1a9}
+
+
+Definition at line 25 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!model\-Name@{model\-Name}}
+\index{model\-Name@{model\-Name}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{model\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-object\-Models.\-Abstract\-Model.\-model\-Name\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_a1953db914d79f57124614d8a1a9ec57e}
+
+
+Definition at line 23 of file Abstract\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}!variable\-Set@{variable\-Set}}
+\index{variable\-Set@{variable\-Set}!sgs::model::objectModels::AbstractModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Model}}
+\subsubsection[{variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-object\-Models.\-Abstract\-Model.\-variable\-Set\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_model_aba199cfd7731c02c44ec8058095ba57c}
+
+
+Definition at line 26 of file Abstract\-Model.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/object\-Models/{\bf Abstract\-Model.\-java}\end{DoxyCompactItemize}

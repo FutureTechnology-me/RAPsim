@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1object_models_1_1_abstract_model" kind="class" prot="public" abstract="yes">
+    <compoundname>sgs::model::objectModels::AbstractModel</compoundname>
+    <derivedcompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractConsumerModel</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_line_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractPowerLineModel</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractPowerPlantModel</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.objectModels.AbstractModel.modelName</definition>
+        <argsstring></argsstring>
+        <name>modelName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" compoundref="_abstract_model_8java" startline="47" endline="49">sgs.model.objectModels.AbstractModel.getModelName</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a79f21330c2a4def426770953b8902300" compoundref="_constant_power_model_8java" startline="18" endline="27">sgs.model.objectModels.ConstantPowerModel.ConstantPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a7d3415480891cc528932f6a06b5bce70" compoundref="_fossil_fuel_model_8java" startline="28" endline="37">sgs.model.objectModels.FossilFuelModel.FossilFuelModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1ada557bd97fb6b29d5b99b1bee36d9625" compoundref="_random_wind_turbine_model_8java" startline="29" endline="37">sgs.model.objectModels.RandomWindTurbineModel.RandomWindTurbineModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1ae440f3772e934ed1c1e6f0ccbd449aff" compoundref="_solar_peak_power_model_8java" startline="29" endline="37">sgs.model.objectModels.SolarPeakPowerModel.SolarPeakPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1aa441a7f0822762c2e4c29fbacaed830a" compoundref="_solar_square_meter_model_8java" startline="29" endline="36">sgs.model.objectModels.SolarSquareMeterModel.SolarSquareMeterModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ad8bee32ef609211caa15bcfbff8eef2b" compoundref="_usual_wind_turbine_model_8java" startline="23" endline="30">sgs.model.objectModels.UsualWindTurbineModel.UsualWindTurbineModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.objectModels.AbstractModel.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" compoundref="_abstract_model_8java" startline="50" endline="52">sgs.model.objectModels.AbstractModel.getDescription</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a79f21330c2a4def426770953b8902300" compoundref="_constant_power_model_8java" startline="18" endline="27">sgs.model.objectModels.ConstantPowerModel.ConstantPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a7d3415480891cc528932f6a06b5bce70" compoundref="_fossil_fuel_model_8java" startline="28" endline="37">sgs.model.objectModels.FossilFuelModel.FossilFuelModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1ada557bd97fb6b29d5b99b1bee36d9625" compoundref="_random_wind_turbine_model_8java" startline="29" endline="37">sgs.model.objectModels.RandomWindTurbineModel.RandomWindTurbineModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1ae440f3772e934ed1c1e6f0ccbd449aff" compoundref="_solar_peak_power_model_8java" startline="29" endline="37">sgs.model.objectModels.SolarPeakPowerModel.SolarPeakPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1aa441a7f0822762c2e4c29fbacaed830a" compoundref="_solar_square_meter_model_8java" startline="29" endline="36">sgs.model.objectModels.SolarSquareMeterModel.SolarSquareMeterModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ad8bee32ef609211caa15bcfbff8eef2b" compoundref="_usual_wind_turbine_model_8java" startline="23" endline="30">sgs.model.objectModels.UsualWindTurbineModel.UsualWindTurbineModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" static="no" mutable="no">
+        <type>ImageIcon</type>
+        <definition>ImageIcon sgs.model.objectModels.AbstractModel.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" compoundref="_abstract_model_8java" startline="53" endline="55">sgs.model.objectModels.AbstractModel.getIcon</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a79f21330c2a4def426770953b8902300" compoundref="_constant_power_model_8java" startline="18" endline="27">sgs.model.objectModels.ConstantPowerModel.ConstantPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a7d3415480891cc528932f6a06b5bce70" compoundref="_fossil_fuel_model_8java" startline="28" endline="37">sgs.model.objectModels.FossilFuelModel.FossilFuelModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1ada557bd97fb6b29d5b99b1bee36d9625" compoundref="_random_wind_turbine_model_8java" startline="29" endline="37">sgs.model.objectModels.RandomWindTurbineModel.RandomWindTurbineModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1ae440f3772e934ed1c1e6f0ccbd449aff" compoundref="_solar_peak_power_model_8java" startline="29" endline="37">sgs.model.objectModels.SolarPeakPowerModel.SolarPeakPowerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1aa441a7f0822762c2e4c29fbacaed830a" compoundref="_solar_square_meter_model_8java" startline="29" endline="36">sgs.model.objectModels.SolarSquareMeterModel.SolarSquareMeterModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1ad8bee32ef609211caa15bcfbff8eef2b" compoundref="_usual_wind_turbine_model_8java" startline="23" endline="30">sgs.model.objectModels.UsualWindTurbineModel.UsualWindTurbineModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.objectModels.AbstractModel.variableSet</definition>
+        <argsstring></argsstring>
+        <name>variableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a0167b994a0f88c2b632cee4f8452feea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.objectModels.AbstractModel.updateModel</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int resolution)</argsstring>
+        <name>updateModel</name>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_line_model_1aaff5aecf67fad4f354cd04473aad9569">updateModel</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a8051101801dd350888d114d88b1f811b">updateModel</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5280690e14a78779cb2ee22d6a8ded98">updateModel</reimplementedby>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be implemented in the AbstractObjectnameModel and must contain the <ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48" kindref="member">updateVariables()</ref> method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.objectModels.AbstractModel.getVariables</definition>
+        <argsstring>()</argsstring>
+        <name>getVariables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.objectModels.AbstractModel.getModelName</definition>
+        <argsstring>()</argsstring>
+        <name>getModelName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="47" bodyend="49"/>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" compoundref="_abstract_model_8java" startline="23">sgs.model.objectModels.AbstractModel.modelName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.objectModels.AbstractModel.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="50" bodyend="52"/>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" compoundref="_abstract_model_8java" startline="24">sgs.model.objectModels.AbstractModel.description</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ImageIcon</type>
+        <definition>ImageIcon sgs.model.objectModels.AbstractModel.getIcon</definition>
+        <argsstring>()</argsstring>
+        <name>getIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="53" bodyend="55"/>
+        <references refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" compoundref="_abstract_model_8java" startline="25">sgs.model.objectModels.AbstractModel.icon</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.objectModels.AbstractModel.updateVariables</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int resolution)</argsstring>
+        <name>updateVariables</name>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model_1ae3121d975630b1d65644c3f7308468c3">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a32fbb2a2c5bdef3d7f18788daeb02ae3">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1ab6dce7e9dc0cfb13049201a1c9e833e2">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line_1a7f2f2d9e2bc3ee5d7aace6eea976f8b0">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1a6f2947bc3e47cd6d624da591cf1e3ee9">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1a27c04422d4cd7abda8b5265cd1931919">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a3a42ffec9631e273d5efeac3fb799b27">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1afc05fb95ea2dc0102b257b02ca68e570">updateVariables</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a2f52a22c77506cb141a37eb6b914ed8a">updateVariables</reimplementedby>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be implemented in the model to calculate new variable values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void sgs.model.objectModels.AbstractModel.initVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>initVariableSet</name>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model_1aad75a5e7ffbd19f213c7f77a4974620f">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model_1a22fde8ba023526cad0657666e16eb499">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a7855e461916a37357e26f1a98438e3dc">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line_1a603787f23aaf1fa6edd75d87a73e125e">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model_1a1038bfa7ad2e4dd4bcebaf5ce412ea42">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a3d32dd4cbfcfdc460ac1b188eb8b9425">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model_1aad26ae7ec3fd490a98318765a88018ec">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model_1a4b289989148665c9bb6b7efec18519ad">initVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model_1afbcfb2124fbe8d566e9b7f5d4c45f9de">initVariableSet</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented in the model and called in the constructor of an AbstractObjectnameModel super-class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.AbstractModel.initVariable</definition>
+        <argsstring>(String name, NumericValue initValue, EnumUnit unit, boolean visible, boolean editable)</argsstring>
+        <name>initVariable</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>initValue</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>editable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize a single variable and specify whether it is visible and editable in the property window for the model. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>editable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="66" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.AbstractModel.initVariable</definition>
+        <argsstring>(String name, NumericValue initValue, EnumUnit unit)</argsstring>
+        <name>initVariable</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>initValue</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize a single variable for the model which is visible and editable. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The AM describes all parameters for Model administration in RAPSim. The attributes are: modelName, description, icon and variableSet. For all four are get-methods implemented further methods are initVarible()</para><para><simplesect kind="author"><para>bbreilin, mpoechacker </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2516">
+        <label>sgs.model.objectModels.AbstractSolarPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model"/>
+        <childnode refid="2511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2520">
+        <label>sgs.model.objectModels.RandomWindTurbineModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model"/>
+        <childnode refid="2519" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2505">
+        <label>sgs.model.objectModels.AbstractConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model"/>
+        <childnode refid="2504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>sgs.model.objectModels.FossilFuelModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model"/>
+        <childnode refid="2514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2509">
+        <label>sgs.model.objectModels.AbstractPowerLineModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_line_model"/>
+        <childnode refid="2504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2504">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+      </node>
+      <node id="2513">
+        <label>sgs.model.objectModels.ConstantPowerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model"/>
+        <childnode refid="2512" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2507">
+        <label>sgs.model.objectModels.ConstantDemandModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model"/>
+        <childnode refid="2506" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2510">
+        <label>sgs.model.objectModels.PiEquivalentPowerLine</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line"/>
+        <childnode refid="2509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2521">
+        <label>sgs.model.objectModels.UsualWindTurbineModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model"/>
+        <childnode refid="2519" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2514">
+        <label>sgs.model.objectModels.AbstractFossilFuelPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model"/>
+        <childnode refid="2511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2506">
+        <label>sgs.model.objectModels.AbstractCustomConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model"/>
+        <childnode refid="2505" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2508">
+        <label>sgs.model.objectModels.ResidentialAverageLoadCurveModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model"/>
+        <childnode refid="2506" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>sgs.model.objectModels.AbstractWindPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model"/>
+        <childnode refid="2511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>sgs.model.objectModels.SolarSquareMeterModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model"/>
+        <childnode refid="2516" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2512">
+        <label>sgs.model.objectModels.AbstractCustomPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_power_plant_model"/>
+        <childnode refid="2511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2517">
+        <label>sgs.model.objectModels.SolarPeakPowerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model"/>
+        <childnode refid="2516" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2511">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="2504" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2526">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="2522">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="2523" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="2524" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="2524">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="2525" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2526" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="2523">
+        <label>ImageIcon</label>
+      </node>
+      <node id="2525">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractModel.java" bodystart="21" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>description</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>getIcon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>getModelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>getVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>icon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27" prot="protected" virt="pure-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>initVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>modelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a0167b994a0f88c2b632cee4f8452feea" prot="public" virt="pure-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>updateModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48" prot="protected" virt="pure-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>updateVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractModel</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

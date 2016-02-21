@@ -1,0 +1,30 @@
+digraph "sgs.model.SgsGridModel.getNrOfCellsHeight"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.SgsGridModel.get\lNrOfCellsHeight",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.GridController.calculate\lPowerLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#ae777470ebfbeb7842b92a4ffa2346876"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.GridController.add\lGridObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#ad47df913c488e5483a2d6e51645e115c"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.controller.GridController.calculate\lSupraLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#aa027456957639536e48a5c9edf13224c"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="sgs.controller.GridController.delete\lGridObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#a7ae273666f77869f15f20f960d598a14"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="sgs.controller.GridController.actionfor\l_deleteObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#a4fad26034fb868c4c30f94a4d32e39c9"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="sgs.controller.GridController.actionfor\l_cutOffObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#ac0e573c584ad96bad9abc43498d5ca6a"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="sgs.controller.GridController.get\lCellStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#aad3f0a004b73427c07949e67dd1f7ba0"];
+  Node8 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="sgs.controller.GridController.get\lDirectNeighborsFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#a17ab80fb364ca37e00b2e51d51749be8"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="sgs.controller.GridController.get\lAllNeighborsFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#ab328ef11d6524d4cccdef6c183bcfc1b"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="sgs.controller.GridController.get\lDirectNeighborsFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#af9c4b0e1c87a9cc3fbefb413b9c5e095"];
+}

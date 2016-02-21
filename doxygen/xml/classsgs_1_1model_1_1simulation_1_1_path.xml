@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1simulation_1_1_path" kind="class" prot="public">
+    <compoundname>sgs::model::simulation::Path</compoundname>
+    <basecompoundref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableOwner</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1a9adab0a5fa403cbf3df9a23bf25ec4ff" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.model.simulation.Path.bus1</definition>
+        <argsstring></argsstring>
+        <name>bus1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1ad0dcb1819925dcda94d13a9bc61a2020" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.model.simulation.Path.bus2</definition>
+        <argsstring></argsstring>
+        <name>bus2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1a49c7425e1b2610cac6da2fa008b4633c" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.simulation.Path.tmpVariableSet</definition>
+        <argsstring></argsstring>
+        <name>tmpVariableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1a9f0b4ecd648e95eed3253981438ee5a9" prot="public" static="no" mutable="no">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>LinkedList&lt;SmartGridObject&gt; sgs.model.simulation.Path.pathObjects</definition>
+        <argsstring></argsstring>
+        <name>pathObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ad986070ce6faf186fcd4a204fcdf34c1" compoundref="_path_8java" startline="35" endline="39">sgs.model.simulation.Path.Path</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1a95391ed73ae981b48f83b6a36a22191f" compoundref="_path_8java" startline="127" endline="133">sgs.model.simulation.Path.refreshValues</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" compoundref="_path_8java" startline="138" endline="145">sgs.model.simulation.Path.copy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1ac3298d6af00b6a8a0266cf50f052e94d" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" kindref="compound">VariableCollection</ref></type>
+        <definition>VariableCollection sgs.model.simulation.Path.variableCollection</definition>
+        <argsstring></argsstring>
+        <name>variableCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ad986070ce6faf186fcd4a204fcdf34c1" compoundref="_path_8java" startline="35" endline="39">sgs.model.simulation.Path.Path</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" compoundref="_path_8java" startline="138" endline="145">sgs.model.simulation.Path.copy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1simulation_1_1_path_1aed67bdbd13436c8d561030d54a68b1c5" prot="public" static="no" mutable="no">
+        <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>LinkedList&lt;SmartGridObject&gt; sgs.model.simulation.Path.notVisitedTmp</definition>
+        <argsstring></argsstring>
+        <name>notVisitedTmp</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" compoundref="_path_8java" startline="138" endline="145">sgs.model.simulation.Path.copy</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1ad986070ce6faf186fcd4a204fcdf34c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.simulation.Path.Path</definition>
+        <argsstring>(Bus busA, Bus busB, LinkedList&lt; SmartGridObject &gt; pathObjects, VariableCollection variableCollection)</argsstring>
+        <name>Path</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>busA</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>busB</declname>
+        </param>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>pathObjects</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" kindref="compound">VariableCollection</ref></type>
+          <declname>variableCollection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: Full, TODO: VariableCollection</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>busA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- not null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>busB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- not null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pathObjects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>variableCollection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="35" bodyend="39"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1a9f0b4ecd648e95eed3253981438ee5a9" compoundref="_path_8java" startline="21">sgs.model.simulation.Path.pathObjects</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1ac3298d6af00b6a8a0266cf50f052e94d" compoundref="_path_8java" startline="22">sgs.model.simulation.Path.variableCollection</references>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" compoundref="_path_8java" startline="138" endline="145">sgs.model.simulation.Path.copy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a60d682244a18b2f352d92ff445468ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.simulation.Path.Path</definition>
+        <argsstring>(VariableCollection variableCollection)</argsstring>
+        <name>Path</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" kindref="compound">VariableCollection</ref></type>
+          <declname>variableCollection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="44" bodyend="47"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1ac3298d6af00b6a8a0266cf50f052e94d" compoundref="_path_8java" startline="22">sgs.model.simulation.Path.variableCollection</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1acdffb638574a7b252b5b10b9ede520c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Path.setBuses</definition>
+        <argsstring>(Bus busA, Bus busB)</argsstring>
+        <name>setBuses</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>busA</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>busB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores sorted buses. Must not be null. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>busA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>busB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="54" bodyend="70"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_bus_1a2296da1dcf74ec49ae2e84f422a1d297" compoundref="_bus_8java" startline="135" endline="137">sgs.model.simulation.Bus.getNumber</references>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1a4881bedae492d076f6df2eabb004adf6" compoundref="_path_8java" startline="86" endline="95">sgs.model.simulation.Path.addBus</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a3f49b91ed62502a80b90a15447a7c9c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.simulation.Path.getNrOfBuses</definition>
+        <argsstring>()</argsstring>
+        <name>getNrOfBuses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="72" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="72" bodyend="79"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1a4881bedae492d076f6df2eabb004adf6" compoundref="_path_8java" startline="86" endline="95">sgs.model.simulation.Path.addBus</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a4881bedae492d076f6df2eabb004adf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.simulation.Path.addBus</definition>
+        <argsstring>(Bus busX)</argsstring>
+        <name>addBus</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+          <declname>busX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add up to two buses, further buses ignored <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>busX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if added </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="86" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="86" bodyend="95"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1a3f49b91ed62502a80b90a15447a7c9c4" compoundref="_path_8java" startline="72" endline="79">sgs.model.simulation.Path.getNrOfBuses</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1acdffb638574a7b252b5b10b9ede520c2" compoundref="_path_8java" startline="54" endline="70">sgs.model.simulation.Path.setBuses</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1ad8dc21c228f28cd5af370f213add02b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.model.simulation.Path.getBus1</definition>
+        <argsstring>()</argsstring>
+        <name>getBus1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the firstBus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="100" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="100" bodyend="102"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1a9990e003a98666d69280aabf5b6ee7fd" compoundref="_path_8java" startline="148" endline="150">sgs.model.simulation.Path.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a8f1f18581e909185e9eda6db23b3ede0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref></type>
+        <definition>Bus sgs.model.simulation.Path.getBus2</definition>
+        <argsstring>()</argsstring>
+        <name>getBus2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the secondBus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="107" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="107" bodyend="109"/>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_path_1a9990e003a98666d69280aabf5b6ee7fd" compoundref="_path_8java" startline="148" endline="150">sgs.model.simulation.Path.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1aa3656714af28a591ca62c562efd31d54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.simulation.Path.getVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>getVariableSet</name>
+        <reimplements refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c">getVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the VariableSet owned by this object; or null (no owned variable set) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="112" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a02fa0a663fb6cacad98439d009f88d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.simulation.Path.getValue</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value for variableName, or null if name is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="120" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a95391ed73ae981b48f83b6a36a22191f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.simulation.Path.refreshValues</definition>
+        <argsstring>()</argsstring>
+        <name>refreshValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Collects current simulation values with variableCollector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="127" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="127" bodyend="133"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1a9f0b4ecd648e95eed3253981438ee5a9" compoundref="_path_8java" startline="21">sgs.model.simulation.Path.pathObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref></type>
+        <definition>Path sgs.model.simulation.Path.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a copy of this path. Depth: Lists/Collections are copied. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="138" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="138" bodyend="145"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1ad986070ce6faf186fcd4a204fcdf34c1" compoundref="_path_8java" startline="35" endline="39">sgs.model.simulation.Path.Path</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1a9f0b4ecd648e95eed3253981438ee5a9" compoundref="_path_8java" startline="21">sgs.model.simulation.Path.pathObjects</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1ac3298d6af00b6a8a0266cf50f052e94d" compoundref="_path_8java" startline="22">sgs.model.simulation.Path.variableCollection</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_1ab73a921bd7cc0ad10efd638befbf89cf" compoundref="_variable_collection_8java" startline="71" endline="77">sgs.model.variables.collector.VariableCollection.copy</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1aed67bdbd13436c8d561030d54a68b1c5" compoundref="_path_8java" startline="25">sgs.model.simulation.Path.notVisitedTmp</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1simulation_1_1_path_1a9990e003a98666d69280aabf5b6ee7fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.simulation.Path.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="148" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="148" bodyend="150"/>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1ad8dc21c228f28cd5af370f213add02b3" compoundref="_path_8java" startline="100" endline="102">sgs.model.simulation.Path.getBus1</references>
+        <references refid="classsgs_1_1model_1_1simulation_1_1_path_1a8f1f18581e909185e9eda6db23b3ede0" compoundref="_path_8java" startline="107" endline="109">sgs.model.simulation.Path.getBus2</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A path connects buses separated by resistances.</para><para><simplesect kind="author"><para>Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3558">
+        <label>sgs.model.simulation.Path</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_path"/>
+        <childnode refid="3559" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3559">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3560">
+        <label>sgs.model.simulation.Path</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_path"/>
+        <childnode refid="3561" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3562" relation="usage">
+          <edgelabel>variableCollection</edgelabel>
+        </childnode>
+        <childnode refid="3564" relation="usage">
+          <edgelabel>pathObjects</edgelabel>
+          <edgelabel>notVisitedTmp</edgelabel>
+        </childnode>
+      </node>
+      <node id="3561">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3563">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="3562">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="3563" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="3564">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/simulation/Path.java" bodystart="17" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a4881bedae492d076f6df2eabb004adf6" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>addBus</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a9adab0a5fa403cbf3df9a23bf25ec4ff" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>bus1</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1ad0dcb1819925dcda94d13a9bc61a2020" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>bus2</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1ab154b3b669941d152ab6a25465b59284" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1ad8dc21c228f28cd5af370f213add02b3" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>getBus1</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a8f1f18581e909185e9eda6db23b3ede0" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>getBus2</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a3f49b91ed62502a80b90a15447a7c9c4" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>getNrOfBuses</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a02fa0a663fb6cacad98439d009f88d20" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1aa3656714af28a591ca62c562efd31d54" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>getVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1aed67bdbd13436c8d561030d54a68b1c5" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>notVisitedTmp</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1ad986070ce6faf186fcd4a204fcdf34c1" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>Path</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a60d682244a18b2f352d92ff445468ba5" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>Path</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a9f0b4ecd648e95eed3253981438ee5a9" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>pathObjects</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a95391ed73ae981b48f83b6a36a22191f" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>refreshValues</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1acdffb638574a7b252b5b10b9ede520c2" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>setBuses</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a49c7425e1b2610cac6da2fa008b4633c" prot="private" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>tmpVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1a9990e003a98666d69280aabf5b6ee7fd" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1simulation_1_1_path_1ac3298d6af00b6a8a0266cf50f052e94d" prot="public" virt="non-virtual"><scope>sgs::model::simulation::Path</scope><name>variableCollection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

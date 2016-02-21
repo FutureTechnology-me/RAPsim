@@ -1,0 +1,117 @@
+\section{sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model Class Reference}
+\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model}\index{sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model@{sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model}}
+
+
+Inheritance diagram for sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model\-:
+
+
+Collaboration diagram for sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Abstract\-Consumer\-Model} ({\bf Consumer} {\bf consumer})
+\item 
+void {\bf update\-Model} (Gregorian\-Calendar current\-Time, {\bf Weather} weather, int resolution)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Numeric\-Value} {\bf get\-Power\-Demand} ()
+\item 
+void {\bf set\-Power\-Demand} ({\bf Numeric\-Value} demand)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Consumer} {\bf consumer}
+\item 
+{\bf Single\-Variable} {\bf power\-Demand}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Initializes the variable\-Set. Initializes the variable power\-Demand with values from the Object. Handles the update of the object variables (rounded to 4 digits) and provides set-\/ and get-\/methods for that variables. \begin{DoxyAuthor}{Author}
+bbreilin, Poechacker 
+\end{DoxyAuthor}
+
+
+Definition at line 18 of file Abstract\-Consumer\-Model.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!Abstract\-Consumer\-Model@{Abstract\-Consumer\-Model}}
+\index{Abstract\-Consumer\-Model@{Abstract\-Consumer\-Model}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{Abstract\-Consumer\-Model}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-Abstract\-Consumer\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Consumer}}]{consumer}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a4ec30e2cb10d6108c4a7a4a404866932}
+
+
+Definition at line 22 of file Abstract\-Consumer\-Model.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!get\-Power\-Demand@{get\-Power\-Demand}}
+\index{get\-Power\-Demand@{get\-Power\-Demand}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{get\-Power\-Demand}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-get\-Power\-Demand (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a97bf119bd8051451c2125aca02519a3d}
+
+
+Definition at line 44 of file Abstract\-Consumer\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!set\-Power\-Demand@{set\-Power\-Demand}}
+\index{set\-Power\-Demand@{set\-Power\-Demand}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{set\-Power\-Demand}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-set\-Power\-Demand (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{demand}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a95d4fc48be8e3a02cc9e39dfde5dbc21}
+
+
+Definition at line 48 of file Abstract\-Consumer\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!update\-Model@{update\-Model}}
+\index{update\-Model@{update\-Model}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{update\-Model}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-update\-Model (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather, }
+\item[{int}]{resolution}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a8051101801dd350888d114d88b1f811b}
+The method calls \doxyref{update\-Variables()}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_model_a50d89fc66ccf8147a9270fdabb2a3a48} and forwards the variable values for to the Consumer Object 
+
+Implements {\bf sgs.\-model.\-object\-Models.\-Abstract\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_model_a0167b994a0f88c2b632cee4f8452feea}.
+
+
+
+Definition at line 37 of file Abstract\-Consumer\-Model.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!consumer@{consumer}}
+\index{consumer@{consumer}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{consumer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Consumer} sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-consumer\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_a999b2e3778b4facf3694bf3ca13f334f}
+
+
+Definition at line 19 of file Abstract\-Consumer\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}!power\-Demand@{power\-Demand}}
+\index{power\-Demand@{power\-Demand}!sgs::model::objectModels::AbstractConsumerModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Consumer\-Model}}
+\subsubsection[{power\-Demand}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-object\-Models.\-Abstract\-Consumer\-Model.\-power\-Demand\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_ab60f47987d6beeea54755651895393e5}
+
+
+Definition at line 20 of file Abstract\-Consumer\-Model.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/object\-Models/{\bf Abstract\-Consumer\-Model.\-java}\end{DoxyCompactItemize}

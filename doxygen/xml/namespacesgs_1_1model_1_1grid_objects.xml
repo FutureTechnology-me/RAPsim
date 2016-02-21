@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1grid_objects" kind="namespace">
+    <compoundname>sgs::model::gridObjects</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_connector" prot="public">sgs::model::gridObjects::Connector</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" prot="public">sgs::model::gridObjects::Consumer</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" prot="public">sgs::model::gridObjects::CustomConsumer</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant" prot="public">sgs::model::gridObjects::CustomPowerPlant</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant" prot="public">sgs::model::gridObjects::FossilFuelPowerPlant</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power" prot="public">sgs::model::gridObjects::GridPower</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_house" prot="public">sgs::model::gridObjects::House</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_power_line" prot="public">sgs::model::gridObjects::PowerLine</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant" prot="public">sgs::model::gridObjects::PowerPlant</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport" prot="public">sgs::model::gridObjects::PowerTransport</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer" prot="public">sgs::model::gridObjects::ProSumer</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" prot="public">sgs::model::gridObjects::SmartGridObject</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant" prot="public">sgs::model::gridObjects::SolarPowerPlant</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant" prot="public">sgs::model::gridObjects::WindTurbinePowerPlant</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/Connector.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

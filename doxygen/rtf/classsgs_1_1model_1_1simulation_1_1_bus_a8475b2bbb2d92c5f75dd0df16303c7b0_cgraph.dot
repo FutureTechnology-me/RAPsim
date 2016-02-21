@@ -1,0 +1,11 @@
+digraph "sgs.model.simulation.Bus.setBusVoltage"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.simulation.Bus.set\lBusVoltage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.model.variables.Numeric\lValue.abs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#ae39843020dfa0a5bfdc490cdf7a85759"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.model.variables.Numeric\lValue.isReal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#a93ade4560b939ba7f2e0aea70728335f"];
+}

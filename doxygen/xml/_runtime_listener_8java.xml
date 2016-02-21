@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_runtime_listener_8java" kind="file">
+    <compoundname>RuntimeListener.java</compoundname>
+    <innerclass refid="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener" prot="public">sgs::controller::interfaces::RuntimeListener</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller_1_1interfaces">sgs::controller::interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.controller.interfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.GregorianCalendar;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">sgs.controller.simulation.Weather</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener" kindref="compound">RuntimeListener</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener_1acf4cff611b79bf7d2e79333734c3e668" kindref="member">updateDateAndTime</ref>(<ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref><sp/>currentWeather,<sp/>GregorianCalendar<sp/>currentTime);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/RuntimeListener.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager" kind="class" prot="public">
+    <compoundname>sgs::controller::undoableEdit::UndoRedoManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UndoableEdit</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aca058f6bc0f1b1f15fbd216066690262" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.undoableEdit.UndoRedoManager.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="14" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a44be08d056b368a08b7cef76ff85a38d" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+        <definition>SmartGridObject sgs.controller.undoableEdit.UndoRedoManager.sgo</definition>
+        <argsstring></argsstring>
+        <name>sgo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa073e84dae489aa0e0a96f3fa7238da9" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.canRedo</definition>
+        <argsstring></argsstring>
+        <name>canRedo</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a24d5339de2f166fe4033123e6d4a4e20" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.objectDeleted</definition>
+        <argsstring></argsstring>
+        <name>objectDeleted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa49ef715deb874a50ee071d98820a0b0" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.canUndo</definition>
+        <argsstring></argsstring>
+        <name>canUndo</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a10c80729b67cddf9ee03ff7e71a27fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.undoableEdit.UndoRedoManager.UndoRedoManager</definition>
+        <argsstring>(GridController gc, SmartGridObject sgs, boolean objectStatus)</argsstring>
+        <name>UndoRedoManager</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgs</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>objectStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for undoing an delete action in the GridMap <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sgs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a50e4bb6b7e477c7398bd870067f2e54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.addEdit</definition>
+        <argsstring>(UndoableEdit arg0)</argsstring>
+        <name>addEdit</name>
+        <param>
+          <type>UndoableEdit</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa240a4b02252c5d8f2f2dffb90cdc29c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.canRedo</definition>
+        <argsstring>()</argsstring>
+        <name>canRedo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="42" bodyend="44"/>
+        <referencedby refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1ab1e6611f0147dd52678ddb749707ab02" compoundref="_undo_redo_manager_8java" startline="52" endline="56">sgs.controller.undoableEdit.UndoRedoManager.die</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a621df7dfc3ce3778faf7c7647f8c6945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.canUndo</definition>
+        <argsstring>()</argsstring>
+        <name>canUndo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="47" bodyend="49"/>
+        <referencedby refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1ab1e6611f0147dd52678ddb749707ab02" compoundref="_undo_redo_manager_8java" startline="52" endline="56">sgs.controller.undoableEdit.UndoRedoManager.die</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1ab1e6611f0147dd52678ddb749707ab02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.undoableEdit.UndoRedoManager.die</definition>
+        <argsstring>()</argsstring>
+        <name>die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="52" bodyend="56"/>
+        <references refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa240a4b02252c5d8f2f2dffb90cdc29c" compoundref="_undo_redo_manager_8java" startline="42" endline="44">sgs.controller.undoableEdit.UndoRedoManager.canRedo</references>
+        <references refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a621df7dfc3ce3778faf7c7647f8c6945" compoundref="_undo_redo_manager_8java" startline="47" endline="49">sgs.controller.undoableEdit.UndoRedoManager.canUndo</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1af3c99fde8560e204bed0502112ad4a6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.controller.undoableEdit.UndoRedoManager.getPresentationName</definition>
+        <argsstring>()</argsstring>
+        <name>getPresentationName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="59" bodyend="61"/>
+        <referencedby refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a89ed1d95c14e80b4455a482ada0a543b" compoundref="_undo_redo_manager_8java" startline="64" endline="66">sgs.controller.undoableEdit.UndoRedoManager.getRedoPresentationName</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a5f9194d2f313b62b0a10583fd6e1c9ca" compoundref="_undo_redo_manager_8java" startline="69" endline="71">sgs.controller.undoableEdit.UndoRedoManager.getUndoPresentationName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a89ed1d95c14e80b4455a482ada0a543b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.controller.undoableEdit.UndoRedoManager.getRedoPresentationName</definition>
+        <argsstring>()</argsstring>
+        <name>getRedoPresentationName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="64" bodyend="66"/>
+        <references refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1af3c99fde8560e204bed0502112ad4a6e" compoundref="_undo_redo_manager_8java" startline="59" endline="61">sgs.controller.undoableEdit.UndoRedoManager.getPresentationName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a5f9194d2f313b62b0a10583fd6e1c9ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.controller.undoableEdit.UndoRedoManager.getUndoPresentationName</definition>
+        <argsstring>()</argsstring>
+        <name>getUndoPresentationName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="69" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="69" bodyend="71"/>
+        <references refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1af3c99fde8560e204bed0502112ad4a6e" compoundref="_undo_redo_manager_8java" startline="59" endline="61">sgs.controller.undoableEdit.UndoRedoManager.getPresentationName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1afd754f2fbf423f5e0a7c11617288b6eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.isSignificant</definition>
+        <argsstring>()</argsstring>
+        <name>isSignificant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a5cd34d41ad1c7731c8d2f08aa63deed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.undoableEdit.UndoRedoManager.redo</definition>
+        <argsstring>()</argsstring>
+        <name>redo</name>
+        <exceptions> throws CannotRedoException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="79" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a6f6c4b47bc482825c4b923069c8958a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.undoableEdit.UndoRedoManager.replaceEdit</definition>
+        <argsstring>(UndoableEdit arg0)</argsstring>
+        <name>replaceEdit</name>
+        <param>
+          <type>UndoableEdit</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="100" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a724fe107503b930fcbdde78c1e82d9c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.undoableEdit.UndoRedoManager.undo</definition>
+        <argsstring>()</argsstring>
+        <name>undo</name>
+        <exceptions> throws CannotUndoException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="105" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="105" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4349">
+        <label>sgs.controller.undoableEdit.UndoRedoManager</label>
+        <link refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager"/>
+        <childnode refid="4350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4350">
+        <label>UndoableEdit</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4351">
+        <label>sgs.controller.undoableEdit.UndoRedoManager</label>
+        <link refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager"/>
+        <childnode refid="4352" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4352">
+        <label>UndoableEdit</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/undoableEdit/UndoRedoManager.java" bodystart="11" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a50e4bb6b7e477c7398bd870067f2e54e" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>addEdit</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa073e84dae489aa0e0a96f3fa7238da9" prot="private" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>canRedo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa240a4b02252c5d8f2f2dffb90cdc29c" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>canRedo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aa49ef715deb874a50ee071d98820a0b0" prot="package" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>canUndo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a621df7dfc3ce3778faf7c7647f8c6945" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>canUndo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1ab1e6611f0147dd52678ddb749707ab02" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>die</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1af3c99fde8560e204bed0502112ad4a6e" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>getPresentationName</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a89ed1d95c14e80b4455a482ada0a543b" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>getRedoPresentationName</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a5f9194d2f313b62b0a10583fd6e1c9ca" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>getUndoPresentationName</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1aca058f6bc0f1b1f15fbd216066690262" prot="private" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1afd754f2fbf423f5e0a7c11617288b6eb" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>isSignificant</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a24d5339de2f166fe4033123e6d4a4e20" prot="private" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>objectDeleted</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a5cd34d41ad1c7731c8d2f08aa63deed9" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>redo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a6f6c4b47bc482825c4b923069c8958a0" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>replaceEdit</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a44be08d056b368a08b7cef76ff85a38d" prot="private" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>sgo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a724fe107503b930fcbdde78c1e82d9c2" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>undo</name></member>
+      <member refid="classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager_1a10c80729b67cddf9ee03ff7e71a27fd9" prot="public" virt="non-virtual"><scope>sgs::controller::undoableEdit::UndoRedoManager</scope><name>UndoRedoManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

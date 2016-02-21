@@ -1,0 +1,9 @@
+digraph "RAPSim/src/sgs/model/variables/collector" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b23003d7924a12d8dc324a51cf627a32 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="variables" fontname="Helvetica", fontsize="10", URL="dir_b23003d7924a12d8dc324a51cf627a32.html"]
+  dir_6c31ab5fdac2611d1bca327d645f4b83 [shape=box, label="collector", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6c31ab5fdac2611d1bca327d645f4b83.html"];
+  }
+}

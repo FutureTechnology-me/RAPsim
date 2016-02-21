@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_constant_power_model_8java" kind="file">
+    <compoundname>ConstantPowerModel.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" prot="public">sgs::model::objectModels::ConstantPowerModel</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1object_models">sgs::model::objectModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.objectModels;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.GregorianCalendar;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.ImageIcon;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">sgs.controller.simulation.Weather</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant" kindref="compound">sgs.model.gridObjects.PowerPlant</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" kindref="compound">ConstantPowerModel</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_power_plant_model" kindref="compound">AbstractCustomPowerPlantModel</ref>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a79f21330c2a4def426770953b8902300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a79f21330c2a4def426770953b8902300" kindref="member">ConstantPowerModel</ref>(<sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant" kindref="compound">PowerPlant</ref><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a8930f9cfc3db27d0c36c27daf4f6180e" kindref="member">powerPlant</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(powerPlant);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>public<sp/>class<sp/>ConstantPowerModel<sp/>extends<sp/>AbstractFossilFuelPowerPlantModel{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>public<sp/>ConstantPowerModel(FossilFuelPowerPlant<sp/>powerPlant)<sp/>{<sp/><sp/><sp/><sp/><sp/>super(powerPlant);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>initVariableSet();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" kindref="member">icon</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ImageIcon(</highlight><highlight class="stringliteral">&quot;Data2/GeothermalPowerPlant_ICON.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" kindref="member">modelName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ConstantPowerModel&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" kindref="member">description</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Constant<sp/>generatioin<sp/>with<sp/>peak<sp/>power.<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="30" refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a32fbb2a2c5bdef3d7f18788daeb02ae3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a32fbb2a2c5bdef3d7f18788daeb02ae3" kindref="member">updateVariables</ref>(GregorianCalendar<sp/>currentTime,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref><sp/>weather,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.powerProduction<sp/>=<sp/>this.ratedPower;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>powerPlant.setPowerProduction(this.powerProduction.getValueNumeric());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>powerPlant.setPeakPower(this.ratedPower.getValueNumeric());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="40" refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a7855e461916a37357e26f1a98438e3dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model_1a7855e461916a37357e26f1a98438e3dc" kindref="member">initVariableSet</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ConstantPowerModel.java"/>
+  </compounddef>
+</doxygen>

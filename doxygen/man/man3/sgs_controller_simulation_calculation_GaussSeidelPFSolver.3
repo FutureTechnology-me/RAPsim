@@ -1,0 +1,150 @@
+.TH "sgs.controller.simulation.calculation.GaussSeidelPFSolver" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.calculation.GaussSeidelPFSolver \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGaussSeidelPFSolver\fP ()"
+.br
+.ti -1c
+.RI "void \fBsolve\fP ()  throws Exception "
+.br
+.ti -1c
+.RI "double \fBgetScaleFactor\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAdmittanceMatrix\fP (\fBNumericValue\fP[][] y)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP[][] \fBgetAdmittanceMatrix\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPowerVector\fP (\fBNumericValue\fP[] pq)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP[] \fBgetPowerVector\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetVoltageVector\fP (\fBNumericValue\fP[] u2)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP[] \fBgetVoltageVector\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBusTypes\fP (ACPowerFlowCalculator\&.busTypes[] bT)"
+.br
+.ti -1c
+.RI "ACPowerFlowCalculator\&.busTypes[] \fBgetBusTypes\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final double \fBd2r\fP = Math\&.PI / 180"
+.br
+.ti -1c
+.RI "static final double \fBw\fP = 100 * Math\&.PI"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class is used to solve the AC-power flow problem according the Gauss-Seidel method\&. It needs vectors for power P, voltage V, busTypes and the admittance matrix Y\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Lukas Felician Krasel, Manfred Pöchacker 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaximumIterations\fP gives number of steps when solver is terminated in case convergenceAcuracy can not be reached 
+.br
+\fIconvergenceAcuracy\fP is the accuracy requirenmet that iteration can be stopped 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file GaussSeidelPFSolver\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.GaussSeidelPFSolver ()"
+
+.PP
+Definition at line 47 of file GaussSeidelPFSolver\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBNumericValue\fP [][] sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.getAdmittanceMatrix ()"
+
+.PP
+Definition at line 340 of file GaussSeidelPFSolver\&.java\&.
+.SS "ACPowerFlowCalculator\&.busTypes [] sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.getBusTypes ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+busTypes 
+.RE
+.PP
+
+.PP
+Definition at line 371 of file GaussSeidelPFSolver\&.java\&.
+.SS "\fBNumericValue\fP [] sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.getPowerVector ()"
+
+.PP
+Definition at line 349 of file GaussSeidelPFSolver\&.java\&.
+.SS "double sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.getScaleFactor ()"
+
+.PP
+Definition at line 273 of file GaussSeidelPFSolver\&.java\&.
+.SS "\fBNumericValue\fP [] sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.getVoltageVector ()"
+
+.PP
+Definition at line 358 of file GaussSeidelPFSolver\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.setAdmittanceMatrix (\fBNumericValue\fPy[][])"
+
+.PP
+Definition at line 336 of file GaussSeidelPFSolver\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.setBusTypes (ACPowerFlowCalculator\&.busTypes[]bT)"
+
+.PP
+Definition at line 362 of file GaussSeidelPFSolver\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.setPowerVector (\fBNumericValue\fP[]pq)"
+
+.PP
+Definition at line 344 of file GaussSeidelPFSolver\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.setVoltageVector (\fBNumericValue\fP[]u2)"
+
+.PP
+Definition at line 353 of file GaussSeidelPFSolver\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.solve () throws Exception"
+Solves the AC-Power-Flow Problem by using the iterative Gauss-Seidel-Method Bus-Voltage is set to 1\&.0 initial For every load bus, the voltage is calculated For every generator bus, the Voltage angle and Reactive Power are calculated For every reference bus, real and reactive power are calculated 
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIException\fP 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file GaussSeidelPFSolver\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final double sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.d2r = Math\&.PI / 180\fC [static]\fP"
+
+.PP
+Definition at line 44 of file GaussSeidelPFSolver\&.java\&.
+.SS "final double sgs\&.controller\&.simulation\&.calculation\&.GaussSeidelPFSolver\&.w = 100 * Math\&.PI\fC [static]\fP"
+
+.PP
+Definition at line 45 of file GaussSeidelPFSolver\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

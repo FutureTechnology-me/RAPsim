@@ -1,0 +1,632 @@
+.TH "sgs.model.gridObjects.SmartGridObject" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridObjects.SmartGridObject \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits GridObject, \fBsgs\&.model\&.other\&.WindowOwner\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.PP
+Inherited by \fBsgs\&.model\&.gridObjects\&.PowerTransport\fP, and \fBsgs\&.model\&.gridObjects\&.ProSumer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSmartGridObject\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetBusNumber\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBusNumber\fP (int busNumber)"
+.br
+.ti -1c
+.RI "\fBBus\fP \fBgetBus\fP ()"
+.br
+.ti -1c
+.RI "\fBAbstractModel\fP \fBgetModel\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetModel\fP (\fBAbstractModel\fP \fBmodel\fP)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetCurrentPowerConsumption\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPowerConsumption\fP (\fBNumericValue\fP numeric)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPowerConsumption\fP (double value)"
+.br
+.ti -1c
+.RI "void \fBresetCurrentPowerConsumption\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetPowerProduction\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPowerProduction\fP (double powerProduction)"
+.br
+.ti -1c
+.RI "void \fBsetPowerProduction\fP (\fBNumericValue\fP powerProduction)"
+.br
+.ti -1c
+.RI "void \fBsetPeakPower\fP (\fBNumericValue\fP ratedPower)"
+.br
+.ti -1c
+.RI "void \fBsetPeakPower\fP (double ratedPower)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetPeakPower\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetPowerDemand\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetMaxPowerTransport\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetTransportPowerDecrement\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetResistance\fP (\fBNumericValue\fP resistance)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetResistance\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetCurrentVoltage\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCurrentVoltage\fP (double currentVoltage)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentVoltage\fP (\fBNumericValue\fP currentVoltage)"
+.br
+.ti -1c
+.RI "void \fBsetPowerLineCharge\fP (\fBNumericValue\fP powerLineCharge)"
+.br
+.ti -1c
+.RI "double \fBgetLineCharge\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdateObject\fP (GregorianCalendar currentTime, \fBWeather\fP weather, int simulationResolutionMinutes)"
+.br
+.ti -1c
+.RI "abstract void \fBsetProductionToWeatherAndTime\fP (GregorianCalendar currentTime, \fBWeather\fP weather)"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetData\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBaddWindow\fP (Window w)"
+.br
+.ti -1c
+.RI "boolean \fBremoveWindow\fP (Window w)"
+.br
+.ti -1c
+.RI "int \fBcloseAllWindows\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisDraggable\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDraggable\fP (boolean \fBdraggable\fP)"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVariableSet\fP ()"
+.br
+.ti -1c
+.RI "abstract \fBGridDataEnum\fP \fBgetEnum\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetObjectName\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetParameterOfSGO\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBSmartGridObject\fP \fBfactory\fP (\fBGridDataEnum\fP enu)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableSet\fP \fBvariableSet\fP"
+.br
+.ti -1c
+.RI "\fBOverlayList\fP \fBoverlays\fP = new \fBOverlayList\fP()"
+.br
+.ti -1c
+.RI "LinkedList< Window > \fBownedWindows\fP = new LinkedList<Window>()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fBSgsGridModel\fP \fBgridModel\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetBusVoltage\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetProperties\fP (boolean visible, boolean editable, EnumPV\&.\&.\&.variables)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBGridDataNode\fP \fBselectedNode\fP"
+.br
+.ti -1c
+.RI "\fBAbstractModel\fP \fBmodel\fP"
+.br
+.ti -1c
+.RI "String \fBobjectName\fP"
+.br
+.ti -1c
+.RI "boolean \fBdraggable\fP = true"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simulation/Application specific object representing the most important simulation dependent values and functions\&.
+.PP
+Variables: Adds all default variables with default values\&. Values and visibility may be changed by sub classes\&. Visibility may be changed by Algorithms\&. (TODO)
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file SmartGridObject\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridObjects\&.SmartGridObject\&.SmartGridObject ()"
+New Constructor for variable set\&. \fBSmartGridObject\fP adds all default values 
+.PP
+Definition at line 58 of file SmartGridObject\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.gridObjects\&.SmartGridObject\&.addWindow (Windoww)"
+Adds a window w which is owned exclusively by this object\&. The window should be closed if this object stops to exist or will not be used any more\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIw\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+like in \fBLinkedList#add\fP 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBremoveWindow()\fP 
+.PP
+\fBcloseAllWindows()\fP 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.other\&.WindowOwner\fP\&.
+.PP
+Definition at line 327 of file SmartGridObject\&.java\&.
+.SS "int sgs\&.model\&.gridObjects\&.SmartGridObject\&.closeAllWindows ()"
+Will close all windows owned exclusively by this object\&. Close is executed by calling  Window\&.dispose()}
+.PP
+\fBReturns:\fP
+.RS 4
+number of windows\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+#add(Window) 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.other\&.WindowOwner\fP\&.
+.PP
+Definition at line 338 of file SmartGridObject\&.java\&.
+.SS "static \fBSmartGridObject\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.factory (\fBGridDataEnum\fPenu)\fC [static]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIenu\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+new grid data object for GridDataEnum\&. Mind to set coordinates if needed! 
+.RE
+.PP
+
+.PP
+Definition at line 374 of file SmartGridObject\&.java\&.
+.SS "\fBBus\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getBus ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the Bus corresponding to the busNumber\&. May result in an Error if data is not up to date\&. 
+.RE
+.PP
+
+.PP
+Definition at line 80 of file SmartGridObject\&.java\&.
+.SS "int sgs\&.model\&.gridObjects\&.SmartGridObject\&.getBusNumber ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the busNumber 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getBusVoltage ()\fC [protected]\fP"
+
+.PP
+Definition at line 87 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getCurrentPowerConsumption ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+current power consumption of this object 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getCurrentVoltage ()"
+
+.PP
+Definition at line 214 of file SmartGridObject\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getData ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+VariableSet of this object 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+use the getVisibles() method of the VariableSet\&.class 
+.RE
+.PP
+
+.PP
+Definition at line 309 of file SmartGridObject\&.java\&.
+.SS "abstract \fBGridDataEnum\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getEnum ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+corresponding enum for this object\&. 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.gridObjects\&.PowerLine\fP, \fBsgs\&.model\&.gridObjects\&.House\fP, \fBsgs\&.model\&.gridObjects\&.GridPower\fP, \fBsgs\&.model\&.gridObjects\&.FossilFuelPowerPlant\fP, \fBsgs\&.model\&.gridObjects\&.Connector\fP, \fBsgs\&.model\&.gridObjects\&.WindTurbinePowerPlant\fP, \fBsgs\&.model\&.gridObjects\&.SolarPowerPlant\fP, \fBsgs\&.model\&.gridObjects\&.CustomPowerPlant\fP, and \fBsgs\&.model\&.gridObjects\&.CustomConsumer\fP\&.
+.SS "double sgs\&.model\&.gridObjects\&.SmartGridObject\&.getLineCharge ()"
+
+.PP
+Definition at line 258 of file SmartGridObject\&.java\&.
+.SS "double sgs\&.model\&.gridObjects\&.SmartGridObject\&.getMaxPowerTransport ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+maximum energy this object can 'transport' (?) 
+.RE
+.PP
+
+.PP
+Definition at line 193 of file SmartGridObject\&.java\&.
+.SS "\fBAbstractModel\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getModel ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the current model 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file SmartGridObject\&.java\&.
+.SS "String sgs\&.model\&.gridObjects\&.SmartGridObject\&.getObjectName ()"
+
+.PP
+Definition at line 402 of file SmartGridObject\&.java\&.
+.SS "String sgs\&.model\&.gridObjects\&.SmartGridObject\&.getParameterOfSGO ()"
+To avoid initializing VariableSet and SingleVariable in the CSV Class GiveDataObject and GiveDataParam, only return visible parameters in a string for the TreeNodes 
+.PP
+\fBReturns:\fP
+.RS 4
+sgoParameter 
+.RE
+.PP
+
+.PP
+Definition at line 412 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getPeakPower ()"
+Producer method 
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.PP
+Definition at line 179 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getPowerDemand ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+power usage of this object 
+.RE
+.PP
+
+.PP
+Definition at line 185 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getPowerProduction ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+power production of this object 
+.RE
+.PP
+
+.PP
+Definition at line 139 of file SmartGridObject\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getResistance ()"
+
+.PP
+Definition at line 210 of file SmartGridObject\&.java\&.
+.SS "double sgs\&.model\&.gridObjects\&.SmartGridObject\&.getTransportPowerDecrement ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Energy decrement factor e\&.g\&. 0\&.01 = 1 percent energy decrement 
+.RE
+.PP
+
+.PP
+Definition at line 202 of file SmartGridObject\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.getVariableSet ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the VariableSet owned by this object; or null (no owned variable set) 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.PP
+Definition at line 362 of file SmartGridObject\&.java\&.
+.SS "boolean sgs\&.model\&.gridObjects\&.SmartGridObject\&.isDraggable ()"
+
+.PP
+Definition at line 350 of file SmartGridObject\&.java\&.
+.SS "boolean sgs\&.model\&.gridObjects\&.SmartGridObject\&.removeWindow (Windoww)"
+Remove a window w which was owned exclusively by this object\&. Should also call w\&.dispose()\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIw\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+like in \fBLinkedList#remove\fP 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+#removeAllWindows() 
+.PP
+#add(Window) 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.other\&.WindowOwner\fP\&.
+.PP
+Definition at line 332 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.resetCurrentPowerConsumption ()"
+Resets current power consumption 
+.PP
+Definition at line 130 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setBusNumber (intbusNumber)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbusNumber\fP the clusterNumber to set 
+.RE
+.PP
+
+.PP
+Definition at line 73 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setCurrentPowerConsumption (\fBNumericValue\fPnumeric)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumeric\fP - the new charge value for this element 
+.RE
+.PP
+
+.PP
+Definition at line 118 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setCurrentPowerConsumption (doublevalue)"
+
+.PP
+Definition at line 123 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setCurrentVoltage (doublecurrentVoltage)"
+
+.PP
+Definition at line 221 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setCurrentVoltage (\fBNumericValue\fPcurrentVoltage)"
+Set current voltage and calculated angle\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcurrentVoltage\fP 
+.RE
+.PP
+
+.PP
+Definition at line 229 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setDraggable (booleandraggable)"
+
+.PP
+Definition at line 354 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setModel (\fBAbstractModel\fPmodel)"
+
+.PP
+Definition at line 104 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setPeakPower (\fBNumericValue\fPratedPower)"
+Producer method 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIratedPower\fP 
+.RE
+.PP
+
+.PP
+Definition at line 164 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setPeakPower (doubleratedPower)"
+Producer method 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpowerProduction\fP 
+.RE
+.PP
+
+.PP
+Definition at line 171 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setPowerLineCharge (\fBNumericValue\fPpowerLineCharge)"
+
+.PP
+Definition at line 254 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setPowerProduction (doublepowerProduction)"
+Producer method 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpowerProduction\fP 
+.RE
+.PP
+
+.PP
+Definition at line 148 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setPowerProduction (\fBNumericValue\fPpowerProduction)"
+Producer method 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpowerProduction\fP 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file SmartGridObject\&.java\&.
+.SS "abstract void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setProductionToWeatherAndTime (GregorianCalendarcurrentTime, \fBWeather\fPweather)\fC [pure virtual]\fP"
+Adjusts energy production to specific weather and time\&. Depends on \fBEnumPV\&.powerProductionOptimal\fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIweather\fP 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.gridObjects\&.House\fP, \fBsgs\&.model\&.gridObjects\&.ProSumer\fP, \fBsgs\&.model\&.gridObjects\&.PowerTransport\fP, and \fBsgs\&.model\&.gridObjects\&.GridPower\fP\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setProperties (booleanvisible, booleaneditable, EnumPV\&.\&.\&.variables)\fC [protected]\fP"
+
+.PP
+Definition at line 262 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.setResistance (\fBNumericValue\fPresistance)"
+
+.PP
+Definition at line 206 of file SmartGridObject\&.java\&.
+.SS "String sgs\&.model\&.gridObjects\&.SmartGridObject\&.toString ()"
+
+.PP
+Definition at line 398 of file SmartGridObject\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.SmartGridObject\&.updateObject (GregorianCalendarcurrentTime, \fBWeather\fPweather, intsimulationResolutionMinutes)"
+
+.PP
+Definition at line 285 of file SmartGridObject\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.gridObjects\&.SmartGridObject\&.draggable = true\fC [protected]\fP"
+true if this object can be dragged in the grid 
+.PP
+Definition at line 50 of file SmartGridObject\&.java\&.
+.SS "\fBSgsGridModel\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.gridModel\fC [static]\fP"
+Model is static, so it doesn't need to be set for every object extra 
+.PP
+Definition at line 52 of file SmartGridObject\&.java\&.
+.SS "\fBAbstractModel\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.model\fC [protected]\fP"
+
+.PP
+Definition at line 37 of file SmartGridObject\&.java\&.
+.SS "String sgs\&.model\&.gridObjects\&.SmartGridObject\&.objectName\fC [protected]\fP"
+
+.PP
+Definition at line 38 of file SmartGridObject\&.java\&.
+.SS "\fBOverlayList\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.overlays = new \fBOverlayList\fP()"
+
+.PP
+Definition at line 44 of file SmartGridObject\&.java\&.
+.SS "LinkedList<Window> sgs\&.model\&.gridObjects\&.SmartGridObject\&.ownedWindows = new LinkedList<Window>()"
+Holds windows owned inly by this specific object 
+.PP
+Definition at line 48 of file SmartGridObject\&.java\&.
+.SS "\fBGridDataNode\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.selectedNode\fC [protected]\fP"
+
+.PP
+Definition at line 36 of file SmartGridObject\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.gridObjects\&.SmartGridObject\&.variableSet"
+
+.PP
+Definition at line 35 of file SmartGridObject\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

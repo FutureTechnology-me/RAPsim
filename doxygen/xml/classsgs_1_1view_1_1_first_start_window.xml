@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_first_start_window" kind="class" prot="public">
+    <compoundname>sgs::view::FirstStartWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_first_start_window_1a7ee77ee505392ea4871c344a59d3f88c" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.FirstStartWindow.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_first_start_window_1a74d98b97c354984b687b1455ff9b82d5" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.FirstStartWindow.jLabel_IL</definition>
+        <argsstring></argsstring>
+        <name>jLabel_IL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_first_start_window_1acb95a5781c672123ec799cf6dd85e864" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.FirstStartWindow.jPanel1</definition>
+        <argsstring></argsstring>
+        <name>jPanel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_first_start_window_1a6c4a87225e5528b040fbe5362d7cbea0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.view.FirstStartWindow.start</definition>
+        <argsstring>(final JFrame parent, final ProgramParametersSaved params)</argsstring>
+        <name>start</name>
+        <param>
+          <type>final JFrame</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>final <ref refid="classsgs_1_1model_1_1_program_parameters_saved" kindref="compound">ProgramParametersSaved</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="34" bodyend="40"/>
+        <references refid="classsgs_1_1view_1_1_first_start_window_1a54930f152350e81ec244e19c81dc41e4" compoundref="_first_start_window_8java" startline="46" endline="91">sgs.view.FirstStartWindow.FirstStartWindow</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_first_start_window_1a54930f152350e81ec244e19c81dc41e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.FirstStartWindow.FirstStartWindow</definition>
+        <argsstring>(JFrame parent, final ProgramParametersSaved params)</argsstring>
+        <name>FirstStartWindow</name>
+        <param>
+          <type>JFrame</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>final <ref refid="classsgs_1_1model_1_1_program_parameters_saved" kindref="compound">ProgramParametersSaved</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="46" bodyend="91"/>
+        <referencedby refid="classsgs_1_1view_1_1_first_start_window_1a6c4a87225e5528b040fbe5362d7cbea0" compoundref="_first_start_window_8java" startline="34" endline="40">sgs.view.FirstStartWindow.start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This code was edited or generated using CloudGarden&apos;s Jigloo SWT/Swing GUI Builder, which is free for non-commercial use. If Jigloo is being used commercially (ie, by a corporation, company or business for any purpose whatever) then you should purchase a license for each developer using Jigloo. Please visit www.cloudgarden.com for details. Use of Jigloo implies acceptance of these licensing terms. A COMMERCIAL LICENSE HAS NOT BEEN PURCHASED FOR THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3188">
+        <label>sgs.view.FirstStartWindow</label>
+        <link refid="classsgs_1_1view_1_1_first_start_window"/>
+        <childnode refid="3189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3189">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3190">
+        <label>sgs.view.FirstStartWindow</label>
+        <link refid="classsgs_1_1view_1_1_first_start_window"/>
+        <childnode refid="3191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3191">
+        <label>JDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/FirstStartWindow.java" bodystart="28" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_first_start_window_1a54930f152350e81ec244e19c81dc41e4" prot="public" virt="non-virtual"><scope>sgs::view::FirstStartWindow</scope><name>FirstStartWindow</name></member>
+      <member refid="classsgs_1_1view_1_1_first_start_window_1a74d98b97c354984b687b1455ff9b82d5" prot="private" virt="non-virtual"><scope>sgs::view::FirstStartWindow</scope><name>jLabel_IL</name></member>
+      <member refid="classsgs_1_1view_1_1_first_start_window_1acb95a5781c672123ec799cf6dd85e864" prot="private" virt="non-virtual"><scope>sgs::view::FirstStartWindow</scope><name>jPanel1</name></member>
+      <member refid="classsgs_1_1view_1_1_first_start_window_1a7ee77ee505392ea4871c344a59d3f88c" prot="private" virt="non-virtual"><scope>sgs::view::FirstStartWindow</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_first_start_window_1a6c4a87225e5528b040fbe5362d7cbea0" prot="public" virt="non-virtual"><scope>sgs::view::FirstStartWindow</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,503 @@
+.TH "sgs.model.gridData.GridDataEnum" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridData.GridDataEnum \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBType\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGridDataEnum\fP (String imgName, String \fBimgExtension\fP, String \fBtoolTip\fP)"
+.br
+.ti -1c
+.RI "\fBGridDataEnum\fP (String imgName, String \fBtoolTip\fP)"
+.br
+.ti -1c
+.RI "\fBGridDataEnum\fP (String imgName, String \fBtoolTip\fP, Class<?extends \fBSmartGridObject\fP > c)"
+.br
+.ti -1c
+.RI "\fBGridDataEnum\fP (String imgName, String \fBtoolTip\fP, Class<?extends \fBSmartGridObject\fP > c, Class<?extends \fBAbstractModel\fP > m)"
+.br
+.ti -1c
+.RI "int \fBgetID\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetMaxID\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBlessOrEqual\fP (int otherID)"
+.br
+.ti -1c
+.RI "boolean \fBgreaterOrEqual\fP (int otherID)"
+.br
+.ti -1c
+.RI "boolean \fBincludesID\fP (int id)"
+.br
+.ti -1c
+.RI "int \fBgetID\fP (\fBType\fP type)"
+.br
+.ti -1c
+.RI "String \fBgetImage\fP (\fBType\fP type)"
+.br
+.ti -1c
+.RI "String \fBgetIcon\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetToolTip\fP ()"
+.br
+.ti -1c
+.RI "ArrayList< \fBType\fP > \fBgetExistingTypes\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisMapElement\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBexists\fP (\fBType\fP type)"
+.br
+.ti -1c
+.RI "int \fBnrOfImages\fP ()"
+.br
+.ti -1c
+.RI "Class<?extends \fBSmartGridObject\fP > \fBgetMappedClass\fP ()"
+.br
+.ti -1c
+.RI "Class<?extends \fBAbstractModel\fP > \fBgetMappedModel\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBgetGridDataSize\fP ()"
+.br
+.ti -1c
+.RI "static \fBGridDataEnum\fP \fBgetEnum\fP (String name)"
+.br
+.ti -1c
+.RI "static \fBGridDataEnum\fP \fBgetMappedEnum\fP (Class<?extends \fBSmartGridObject\fP > c)"
+.br
+.ti -1c
+.RI "static Class<?extends 
+.br
+\fBSmartGridObject\fP > \fBgetMappedClass\fP (\fBGridDataEnum\fP enu)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBEMPTY\fP =(null,null)"
+.br
+.ti -1c
+.RI "\fBMOVE_GEAR\fP =('Move', 'Use this to Navigate')"
+.br
+.ti -1c
+.RI "\fBDELETE_GEAR\fP =('Delete', 'Delete Objects')"
+.br
+.ti -1c
+.RI "\fBPLINE\fP =('PLine', 'Resistance of a powerline', PowerLine\&.class)"
+.br
+.ti -1c
+.RI "\fBSPLINE\fP =('sPline', 'Lossless Connectors', Connector\&.class)"
+.br
+.ti -1c
+.RI "\fBCUSTOM_CONSUMER\fP =('House', 'Residential consumption', CustomConsumer\&.class, AbstractCustomConsumerModel\&.class)"
+.br
+.ti -1c
+.RI "\fBSOLAR_POWER_PLANT\fP =('SolarPowerPlant', 'PV Generation', SolarPowerPlant\&.class, AbstractSolarPowerPlantModel\&.class)"
+.br
+.ti -1c
+.RI "\fBWIND_TURBINE_POWER_PLANT\fP =('WindTurbinePowerPlant', 'Windturbine', WindTurbinePowerPlant\&.class, AbstractWindPowerPlantModel\&.class)"
+.br
+.ti -1c
+.RI "\fBFOSSIL_FUEL_POWER_PLANT\fP =('FossilFuelPowerPlant', 'Fuels Generator', FossilFuelPowerPlant\&.class , AbstractFossilFuelPowerPlantModel\&.class)"
+.br
+.ti -1c
+.RI "\fBCUSTOM_POWER_PLANT\fP =('PowerPlant', 'Any other Powerplant', CustomPowerPlant\&.class, AbstractCustomPowerPlantModel\&.class)"
+.br
+.ti -1c
+.RI "\fBGRID_POWER\fP =('GridPower', 'Grid connection: Marks Reference-\fBBus\fP', GridPower\&.class)"
+.br
+.ti -1c
+.RI "String \fBimgExtension\fP"
+.br
+.ti -1c
+.RI "String \fBtoolTip\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBID_START\fP =0"
+.br
+.ti -1c
+.RI "staticfinal int \fBID_RANGE\fP =Type\&.values()\&.length"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Holds: > all button images -> Control buttons -> Buttons for GridObjects
+.PP
+> all images for JGM
+.PP
+Ideas for future:
+.IP "\(bu" 2
+Buffer/Store images or image information in Enum for faster start up\&.
+.IP "\(bu" 2
+Better automated system for handling different images for a single grid object\&. (encapsulate in a new class)
+.PP
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file GridDataEnum\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.GridDataEnum (StringimgName, StringimgExtension, StringtoolTip)"
+Full constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIimgName\fP 
+.br
+\fIimgExtension\fP 
+.br
+\fItoolTip\fP 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.GridDataEnum (StringimgName, StringtoolTip)"
+Simple constructor: png is default file extension\&. 
+.PP
+Definition at line 116 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.GridDataEnum (StringimgName, StringtoolTip, Class<?extends \fBSmartGridObject\fP >c)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIimgName\fP 
+.br
+\fItoolTip\fP 
+.br
+\fIc\fP 
+.RE
+.PP
+
+.PP
+Definition at line 127 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.GridDataEnum (StringimgName, StringtoolTip, Class<?extends \fBSmartGridObject\fP >c, Class<?extends \fBAbstractModel\fP >m)"
+
+.PP
+Definition at line 145 of file GridDataEnum\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.gridData\&.GridDataEnum\&.exists (\fBType\fPtype)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItype\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if image file with this type exists\&. 
+.RE
+.PP
+
+.PP
+Definition at line 304 of file GridDataEnum\&.java\&.
+.SS "static \fBGridDataEnum\fP sgs\&.model\&.gridData\&.GridDataEnum\&.getEnum (Stringname)\fC [static]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Enum corresponding to name or null\&. 
+.RE
+.PP
+
+.PP
+Definition at line 329 of file GridDataEnum\&.java\&.
+.SS "ArrayList<\fBType\fP> sgs\&.model\&.gridData\&.GridDataEnum\&.getExistingTypes ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a array with all types of EXISTING images\&. 
+.RE
+.PP
+
+.PP
+Definition at line 273 of file GridDataEnum\&.java\&.
+.SS "static int sgs\&.model\&.gridData\&.GridDataEnum\&.getGridDataSize ()\fC [static]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Number of grid data indices used with regard to all different types\&. 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file GridDataEnum\&.java\&.
+.SS "String sgs\&.model\&.gridData\&.GridDataEnum\&.getIcon ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+path + fullIconFileName 
+.RE
+.PP
+
+.PP
+Definition at line 259 of file GridDataEnum\&.java\&.
+.SS "int sgs\&.model\&.gridData\&.GridDataEnum\&.getID ()"
+Get the Base-ID of the enum\&.
+.PP
+\fBReturns:\fP
+.RS 4
+the base ID for this group of images, ordinal*ID_RANGE+ID_START\&. 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file GridDataEnum\&.java\&.
+.SS "int sgs\&.model\&.gridData\&.GridDataEnum\&.getID (\fBType\fPtype)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItype\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the unique ID for the specified Type/picture of this \fBGridDataEnum\fP\&. 
+.RE
+.PP
+
+.PP
+Definition at line 239 of file GridDataEnum\&.java\&.
+.SS "String sgs\&.model\&.gridData\&.GridDataEnum\&.getImage (\fBType\fPtype)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItype\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+path + fullFileName 
+.RE
+.PP
+
+.PP
+Definition at line 251 of file GridDataEnum\&.java\&.
+.SS "static Class<? extends \fBSmartGridObject\fP> sgs\&.model\&.gridData\&.GridDataEnum\&.getMappedClass (\fBGridDataEnum\fPenu)\fC [static]\fP"
+
+.PP
+Definition at line 348 of file GridDataEnum\&.java\&.
+.SS "Class<? extends \fBSmartGridObject\fP> sgs\&.model\&.gridData\&.GridDataEnum\&.getMappedClass ()"
+
+.PP
+Definition at line 352 of file GridDataEnum\&.java\&.
+.SS "static \fBGridDataEnum\fP sgs\&.model\&.gridData\&.GridDataEnum\&.getMappedEnum (Class<?extends \fBSmartGridObject\fP >c)\fC [static]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIc\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 344 of file GridDataEnum\&.java\&.
+.SS "Class<? extends \fBAbstractModel\fP> sgs\&.model\&.gridData\&.GridDataEnum\&.getMappedModel ()"
+
+.PP
+Definition at line 355 of file GridDataEnum\&.java\&.
+.SS "int sgs\&.model\&.gridData\&.GridDataEnum\&.getMaxID ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+maximum possible ID for this \fBGridDataEnum\fP 
+.RE
+.PP
+
+.PP
+Definition at line 192 of file GridDataEnum\&.java\&.
+.SS "String sgs\&.model\&.gridData\&.GridDataEnum\&.getToolTip ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+predefined tool tip text\&. 
+.RE
+.PP
+
+.PP
+Definition at line 266 of file GridDataEnum\&.java\&.
+.SS "boolean sgs\&.model\&.gridData\&.GridDataEnum\&.greaterOrEqual (intotherID)"
+Test if this Enum is equal and defined after the other\&. ID is used as parameter for enabling the usage with any ID obtained before from an Enum\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIotherID\fP - the ID of another GridEnum obtained via a getter function\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if this Enum includes otherID or is defined after it\&. 
+.RE
+.PP
+
+.PP
+Definition at line 217 of file GridDataEnum\&.java\&.
+.SS "boolean sgs\&.model\&.gridData\&.GridDataEnum\&.includesID (intid)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if this \fBGridDataEnum\fP includes this unique ID\&. 
+.RE
+.PP
+
+.PP
+Definition at line 228 of file GridDataEnum\&.java\&.
+.SS "boolean sgs\&.model\&.gridData\&.GridDataEnum\&.isMapElement ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if this is also a map element\&. (map images exist) 
+.RE
+.PP
+
+.PP
+Definition at line 290 of file GridDataEnum\&.java\&.
+.SS "boolean sgs\&.model\&.gridData\&.GridDataEnum\&.lessOrEqual (intotherID)"
+Test if this Enum is equal and defined before the other\&. ID is used as parameter for enabling the usage with any ID obtained before from an Enum\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIotherID\fP - the ID of another GridEnum obtained via a getter function\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if this Enum includes otherID or is defined before\&. 
+.RE
+.PP
+
+.PP
+Definition at line 203 of file GridDataEnum\&.java\&.
+.SS "int sgs\&.model\&.gridData\&.GridDataEnum\&.nrOfImages ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+number of existing image files for this Enum\&. 
+.RE
+.PP
+
+.PP
+Definition at line 312 of file GridDataEnum\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.CUSTOM_CONSUMER =('House', 'Residential consumption', CustomConsumer\&.class, AbstractCustomConsumerModel\&.class)"
+
+.PP
+Definition at line 59 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.CUSTOM_POWER_PLANT =('PowerPlant', 'Any other Powerplant', CustomPowerPlant\&.class, AbstractCustomPowerPlantModel\&.class)"
+
+.PP
+Definition at line 65 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.DELETE_GEAR =('Delete', 'Delete Objects')"
+
+.PP
+Definition at line 53 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.EMPTY =(null,null)"
+
+.PP
+Definition at line 50 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.FOSSIL_FUEL_POWER_PLANT =('FossilFuelPowerPlant', 'Fuels Generator', FossilFuelPowerPlant\&.class , AbstractFossilFuelPowerPlantModel\&.class)"
+
+.PP
+Definition at line 64 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.GRID_POWER =('GridPower', 'Grid connection: Marks Reference-\fBBus\fP', GridPower\&.class)"
+
+.PP
+Definition at line 67 of file GridDataEnum\&.java\&.
+.SS " static  final int sgs\&.model\&.gridData\&.GridDataEnum\&.ID_RANGE =Type\&.values()\&.length\fC [static]\fP"
+
+.PP
+Definition at line 85 of file GridDataEnum\&.java\&.
+.SS "final int sgs\&.model\&.gridData\&.GridDataEnum\&.ID_START =0\fC [static]\fP"
+ID_START \&.\&.\&. ID of the first \fBGridDataEnum\fP\&. ID_RANGE \&.\&.\&. number of possible Types/Pictures for every \fBGridDataEnum\fP\&. 
+.PP
+Definition at line 85 of file GridDataEnum\&.java\&.
+.SS "String sgs\&.model\&.gridData\&.GridDataEnum\&.imgExtension"
+
+.PP
+Definition at line 68 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.MOVE_GEAR =('Move', 'Use this to Navigate')"
+
+.PP
+Definition at line 52 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.PLINE =('PLine', 'Resistance of a powerline', PowerLine\&.class)"
+
+.PP
+Definition at line 56 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.SOLAR_POWER_PLANT =('SolarPowerPlant', 'PV Generation', SolarPowerPlant\&.class, AbstractSolarPowerPlantModel\&.class)"
+
+.PP
+Definition at line 62 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.SPLINE =('sPline', 'Lossless Connectors', Connector\&.class)"
+
+.PP
+Definition at line 57 of file GridDataEnum\&.java\&.
+.SS "String sgs\&.model\&.gridData\&.GridDataEnum\&.toolTip"
+
+.PP
+Definition at line 68 of file GridDataEnum\&.java\&.
+.SS "sgs\&.model\&.gridData\&.GridDataEnum\&.WIND_TURBINE_POWER_PLANT =('WindTurbinePowerPlant', 'Windturbine', WindTurbinePowerPlant\&.class, AbstractWindPowerPlantModel\&.class)"
+
+.PP
+Definition at line 63 of file GridDataEnum\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

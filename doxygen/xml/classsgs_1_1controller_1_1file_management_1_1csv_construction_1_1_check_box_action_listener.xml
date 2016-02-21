@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" kind="class" prot="public">
+    <compoundname>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a2aec812407ab8702cd953383a399d92b" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.haveData</definition>
+        <argsstring></argsstring>
+        <name>haveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad08e3de41e84d2b59919e110dc449578" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.savedChanges</definition>
+        <argsstring></argsstring>
+        <name>savedChanges</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a3161b846089b2539bbffd00ecd9f7be9" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.dataChanged</definition>
+        <argsstring></argsstring>
+        <name>dataChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a6fe8ecc8851417336b556f8672dcc665" prot="private" static="yes" mutable="no">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.choosenObjectTree</definition>
+        <argsstring></argsstring>
+        <name>choosenObjectTree</name>
+        <initializer>= new TreeItem&lt;&gt;(&quot;Objects&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aee164b326cb25520a2a36c8b2c348cbf" prot="private" static="yes" mutable="no">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.choosenCollectionTree</definition>
+        <argsstring></argsstring>
+        <name>choosenCollectionTree</name>
+        <initializer>= new TreeItem&lt;&gt;(&quot;Collections&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a59714003241c2012acc4c7cb290090d0" prot="private" static="yes" mutable="no">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.collectionTree</definition>
+        <argsstring></argsstring>
+        <name>collectionTree</name>
+        <initializer>= new CheckBoxTreeItem&lt;&gt;(&quot;Collection&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a634d4474c5a159356d07b9085152d978" prot="private" static="yes" mutable="no">
+        <type>CheckBoxTreeItem&lt; String &gt;</type>
+        <definition>CheckBoxTreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.objectTree</definition>
+        <argsstring></argsstring>
+        <name>objectTree</name>
+        <initializer>= new CheckBoxTreeItem&lt;&gt;(&quot;Object&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1af691b2784fae528a342b4c82b9c2471a" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.foundInconsistency</definition>
+        <argsstring></argsstring>
+        <name>foundInconsistency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4c9977bc28f39d5f5748438c93c18a75" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.siblingChangesAllNode</definition>
+        <argsstring></argsstring>
+        <name>siblingChangesAllNode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a67f7f70ec0aef9eb21c14a802774cabb" prot="private" static="no" mutable="no">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.savedTree</definition>
+        <argsstring></argsstring>
+        <name>savedTree</name>
+        <initializer>= new TreeItem&lt;&gt;(&quot;Collections&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adddcd9aa5bbd88b4ee8485655159e94d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.actionfor_cancelButton</definition>
+        <argsstring>()</argsstring>
+        <name>actionfor_cancelButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the choosenCollectionTree back, to the old values, that are stored in the savedTree. set haveData back to false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="41" bodyend="49"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4e7e58ec9faef79e3f8c98502ba5ff87" compoundref="_check_box_action_listener_8java" startline="796" endline="799">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setDataChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1acc98df52c58bb4cb8185c6b58a8d6527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.actionfor_saveButton</definition>
+        <argsstring>()</argsstring>
+        <name>actionfor_saveButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>actions for save Button set savedChanges to true set dataChanged to false set haveData to false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="58" bodyend="64"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4e7e58ec9faef79e3f8c98502ba5ff87" compoundref="_check_box_action_listener_8java" startline="796" endline="799">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setDataChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a2af6751d410f1f28a5e41dea52e089c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.addNodeChoosenObjectTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node)</argsstring>
+        <name>addNodeChoosenObjectTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add a TreeItem to the ChoosenObjectTree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="71" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="71" bodyend="148"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" compoundref="_check_box_action_listener_8java" startline="327" endline="379">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a23dc8d322a4aacd232cce460ddad7b23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.addNodeChoosenCollectionTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node, TreeItem&lt; String &gt; list, TreeItem&lt; String &gt; node2)</argsstring>
+        <name>addNodeChoosenCollectionTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>node2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add a node to a TreeItem given in the param list from Collections <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- node from the CheckBoxTree that trows the ActionListener </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- in which Tree (without CeckBoxes) we want to add a node </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a node(should be leaf) from the choosenCollectionTree </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="156" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="156" bodyend="264"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" compoundref="_check_box_action_listener_8java" startline="327" endline="379">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad1417902ef6b4826d44c76d2fba89e76" compoundref="_check_box_action_listener_8java" startline="527" endline="547">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recAllLeafes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt;node)</argsstring>
+        <name>changeNodeInCheckBoxTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one methode for adding and removing nodes from the choosenDataTrees. At first check if the node.getParent() is an all-node or a sgo-node. If it&apos;s an all-node, the node can only be in the objectTab, because only there are the nodes with the Titel &quot;all ..&quot; .</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the node from the Tree that throws the actionlistener </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="327" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="327" bodyend="379"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a23dc8d322a4aacd232cce460ddad7b23" compoundref="_check_box_action_listener_8java" startline="156" endline="264">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.addNodeChoosenCollectionTree</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad8900a56ca10bcbe5f9763c205845f82" compoundref="_check_box_action_listener_8java" startline="701" endline="760">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.removeNodeChoosenCollectionTree</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a2af6751d410f1f28a5e41dea52e089c9" compoundref="_check_box_action_listener_8java" startline="71" endline="148">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.addNodeChoosenObjectTree</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aef12efa7936cad302f40204301fec045" compoundref="_check_box_action_listener_8java" startline="647" endline="693">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.removeNodeChoosenObjectTree</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4e7e58ec9faef79e3f8c98502ba5ff87" compoundref="_check_box_action_listener_8java" startline="796" endline="799">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setDataChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a3bb0fd9a87e4392ea5d628def5d9960f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getFoundInconsistency</definition>
+        <argsstring>()</argsstring>
+        <name>getFoundInconsistency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>foundInconsitency - boolean to tell if the user wanted to save data from an object, that he/she delayed later from the grid </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="443" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adaa96577c22b79cf6ccbf6407d4426e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getSavedObject</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>choosenObjectTree </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="461" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="461" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1abf0b1d54c268c048b4d1ac750bb3e8d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getSavedCollection</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clear the choosenObjectTree call recAllLeafes function to search for the leaves in the choosenCollectionTree, and save them in the savedTreeCollection call recExpandTree function to expand each node of the tree <simplesect kind="return"><para>choosenCollectionTree </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="473" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="473" bodyend="483"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad1417902ef6b4826d44c76d2fba89e76" compoundref="_check_box_action_listener_8java" startline="527" endline="547">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recAllLeafes</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1acb3c9247334bb01ff3b9d6847f2d2285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.isHaveData</definition>
+        <argsstring>()</argsstring>
+        <name>isHaveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>haveData - boolean to check if a notification to save the changes is needed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="491" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="491" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad6144adc892576e04821a29b4ef94422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.haveDataC</definition>
+        <argsstring>()</argsstring>
+        <name>haveDataC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this is a getter - Method for the Controller. in some possibilities the JavaFx has not initialized and would throw an exception</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="506" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="506" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a6c36a155cef24a5e869b1cecd547673d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.isSavedChanges</definition>
+        <argsstring>()</argsstring>
+        <name>isSavedChanges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>savedChanges - </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="515" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="515" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad1417902ef6b4826d44c76d2fba89e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recAllLeafes</definition>
+        <argsstring>(TreeItem&lt; String &gt; list, TreeItem&lt; String &gt; choosenTree)</argsstring>
+        <name>recAllLeafes</name>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>choosenTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the recAllLeaves in the GiveDataCollections, put all leafs into a list, we want here to put it into a new tree. also if it found the leaf, it should check if the path even exists in the checkboxtree Collection and set the isSelected to true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="527" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="527" bodyend="547"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a23dc8d322a4aacd232cce460ddad7b23" compoundref="_check_box_action_listener_8java" startline="156" endline="264">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.addNodeChoosenCollectionTree</references>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1abf0b1d54c268c048b4d1ac750bb3e8d4" compoundref="_check_box_action_listener_8java" startline="473" endline="483">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getSavedCollection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aef12efa7936cad302f40204301fec045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.removeNodeChoosenObjectTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node, CheckBoxTreeItem&lt; String &gt; objectTree)</argsstring>
+        <name>removeNodeChoosenObjectTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>objectTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>remove nodes and the parents if necessary from the choosenObjectTree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selected Node throws the action listener </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objectTree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="647" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="647" bodyend="693"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" compoundref="_check_box_action_listener_8java" startline="327" endline="379">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad8900a56ca10bcbe5f9763c205845f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.removeNodeChoosenCollectionTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node, TreeItem&lt; String &gt; list, TreeItem&lt; String &gt; node2)</argsstring>
+        <name>removeNodeChoosenCollectionTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>node2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>remove a node + parents if necessary from the choosenCollectionTree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="701" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="701" bodyend="760"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" compoundref="_check_box_action_listener_8java" startline="327" endline="379">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a9638624e9553e5992eae5e268692138b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setCollectionTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; collTree)</argsstring>
+        <name>setCollectionTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>collTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collTree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="766" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="766" bodyend="768"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aa4a46f71f389c18e443de3c5a27db72b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setObjectTree</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; objTree)</argsstring>
+        <name>setObjectTree</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>objTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the objTree into the objectTree, and so the actionListener to the address of the tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objTree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="791" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="791" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4e7e58ec9faef79e3f8c98502ba5ff87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.setDataChanged</definition>
+        <argsstring>(boolean b)</argsstring>
+        <name>setDataChanged</name>
+        <param>
+          <type>boolean</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="796" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="796" bodyend="799"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adddcd9aa5bbd88b4ee8485655159e94d" compoundref="_check_box_action_listener_8java" startline="41" endline="49">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.actionfor_cancelButton</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1acc98df52c58bb4cb8185c6b58a8d6527" compoundref="_check_box_action_listener_8java" startline="58" endline="64">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.actionfor_saveButton</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" compoundref="_check_box_action_listener_8java" startline="327" endline="379">sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.changeNodeInCheckBoxTree</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a81c55a2b55d8563c5165a3462028e9bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.checkList</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node)</argsstring>
+        <name>checkList</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the methode looks which Tree is the mother of the selected node, to avoid activating CheckBoxes and creating choosenTrees twice <simplesect kind="return"><para>collectionTreeIsMother - is node a part of collectionTree </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="385" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="385" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1afd5e9196fe01789a7650595b7eac7c9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.checkSiblings</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node)</argsstring>
+        <name>checkSiblings</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this method checks if the siblings of a parent are also isSelected(true); if yes, then it will set the all-node also isSelected(true); other way around for isSelected(false) also <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="404" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="404" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ae141cfc860ae99c7f9b6476ff1e93221" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recSearchLeafeInCB</definition>
+        <argsstring>(TreeItem&lt; String &gt; leaf, CheckBoxTreeItem&lt; String &gt; list)</argsstring>
+        <name>recSearchLeafeInCB</name>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>leaf</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>when the user deleted one object, but has choosen paramaters from it, to save it during the simulation, its action creates an inconsistency we cant save anything, that isnt there anymore. the choosenTrees will always be new generated by each start of the frame. so we have to check if there are to many objects in the savedTree, than in the tree from the grid this function searchs rec for inconsistency <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>leaf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- from the savedTree </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the new generated choosenTree </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="560" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="560" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aa1bfdf2fc10bccf764608f9a59fc08c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recSearch</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; list, CheckBoxTreeItem&lt; String &gt; searchedNode, CheckBoxTreeItem&lt; String &gt; conditionNode)</argsstring>
+        <name>recSearch</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>searchedNode</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>conditionNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>recSearch search recursive for a spacific searchedNode in a transfered list (mostly the collectionTree or objectTree). Sometimes we want an extra conditionNode (like search all parameters where the parent of this node is a house) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a checkBoxTreeItem node, through which the algorithm is searching for a specific node </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searchedNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- is the node we are searching. at the start, the selected node which throws the actionlistener </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conditionNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- extras we want, like that the parent is a specific node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="584" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="584" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a9403434a5518e7e83483c8921d1e471f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.recExpandTree</definition>
+        <argsstring>(TreeItem&lt; String &gt; tree)</argsstring>
+        <name>recExpandTree</name>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- TreeItem the right trees from the tab on the right side from the resultswindow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the node which activated the actionlistener expands the tree </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="632" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="632" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adea05937123c63fe1aed384b00e5c50e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.selectNode</definition>
+        <argsstring>(CheckBoxTreeItem&lt; String &gt; node, CheckBoxTreeItem&lt; String &gt; setNode)</argsstring>
+        <name>selectNode</name>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>CheckBoxTreeItem&lt; String &gt;</type>
+          <declname>setNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Methode checks how the node is set (isSelected, isNotSelected), and than we set the other node also that way <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- which throws the action listener </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>setNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- node which we want be selected or unselected </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="777" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="777" bodyend="784"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a422d644a8b8672749682c6aa516ed5e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TreeItem&lt; String &gt;</type>
+        <definition>static TreeItem&lt;String&gt; sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getResultsCollection</definition>
+        <argsstring>()</argsstring>
+        <name>getResultsCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the choosenCollectionTree; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="452" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="452" bodyend="455"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Sabrina Huber the actionListener for the checkBoxActions in the Tab. when a checkBox is selected or unselected, the actionlistener will add the node into the correct choosenTree it also clicks onto the equivalent object in the other tree. check if the number of objects on the grid, is the same number in our trees </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" bodystart="13" bodyend="805"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adddcd9aa5bbd88b4ee8485655159e94d" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>actionfor_cancelButton</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1acc98df52c58bb4cb8185c6b58a8d6527" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>actionfor_saveButton</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a23dc8d322a4aacd232cce460ddad7b23" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>addNodeChoosenCollectionTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a2af6751d410f1f28a5e41dea52e089c9" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>addNodeChoosenObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a564137859ca7d143b162cf22cfa6ea50" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>changeNodeInCheckBoxTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a81c55a2b55d8563c5165a3462028e9bf" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>checkList</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1afd5e9196fe01789a7650595b7eac7c9d" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>checkSiblings</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aee164b326cb25520a2a36c8b2c348cbf" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>choosenCollectionTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a6fe8ecc8851417336b556f8672dcc665" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>choosenObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a59714003241c2012acc4c7cb290090d0" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>collectionTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a3161b846089b2539bbffd00ecd9f7be9" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>dataChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1af691b2784fae528a342b4c82b9c2471a" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>foundInconsistency</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a3bb0fd9a87e4392ea5d628def5d9960f" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>getFoundInconsistency</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a422d644a8b8672749682c6aa516ed5e2" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>getResultsCollection</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1abf0b1d54c268c048b4d1ac750bb3e8d4" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>getSavedCollection</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adaa96577c22b79cf6ccbf6407d4426e1" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>getSavedObject</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a2aec812407ab8702cd953383a399d92b" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>haveData</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad6144adc892576e04821a29b4ef94422" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>haveDataC</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1acb3c9247334bb01ff3b9d6847f2d2285" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>isHaveData</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a6c36a155cef24a5e869b1cecd547673d" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>isSavedChanges</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a634d4474c5a159356d07b9085152d978" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>objectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad1417902ef6b4826d44c76d2fba89e76" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>recAllLeafes</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a9403434a5518e7e83483c8921d1e471f" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>recExpandTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aa1bfdf2fc10bccf764608f9a59fc08c9" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>recSearch</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ae141cfc860ae99c7f9b6476ff1e93221" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>recSearchLeafeInCB</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad8900a56ca10bcbe5f9763c205845f82" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>removeNodeChoosenCollectionTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aef12efa7936cad302f40204301fec045" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>removeNodeChoosenObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1ad08e3de41e84d2b59919e110dc449578" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>savedChanges</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a67f7f70ec0aef9eb21c14a802774cabb" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>savedTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1adea05937123c63fe1aed384b00e5c50e" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>selectNode</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a9638624e9553e5992eae5e268692138b" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>setCollectionTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4e7e58ec9faef79e3f8c98502ba5ff87" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>setDataChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1aa4a46f71f389c18e443de3c5a27db72b" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>setObjectTree</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_1a4c9977bc28f39d5f5748438c93c18a75" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</scope><name>siblingChangesAllNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

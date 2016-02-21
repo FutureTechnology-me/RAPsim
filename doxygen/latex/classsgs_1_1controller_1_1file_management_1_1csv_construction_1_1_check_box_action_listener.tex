@@ -1,0 +1,389 @@
+\section{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener Class Reference}
+\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener}\index{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener@{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf actionfor\-\_\-cancel\-Button} ()
+\item 
+void {\bf actionfor\-\_\-save\-Button} ()
+\item 
+void {\bf add\-Node\-Choosen\-Object\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ node)
+\item 
+void {\bf add\-Node\-Choosen\-Collection\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ node, Tree\-Item$<$ String $>$ list, Tree\-Item$<$ String $>$ node2)
+\item 
+void {\bf change\-Node\-In\-Check\-Box\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$node)
+\item 
+boolean {\bf get\-Found\-Inconsistency} ()
+\item 
+Tree\-Item$<$ String $>$ {\bf get\-Saved\-Object} ()
+\item 
+Tree\-Item$<$ String $>$ {\bf get\-Saved\-Collection} ()
+\item 
+boolean {\bf is\-Have\-Data} ()
+\item 
+boolean {\bf have\-Data\-C} ()
+\item 
+boolean {\bf is\-Saved\-Changes} ()
+\item 
+void {\bf rec\-All\-Leafes} (Tree\-Item$<$ String $>$ list, Tree\-Item$<$ String $>$ choosen\-Tree)
+\item 
+void {\bf remove\-Node\-Choosen\-Object\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ node, Check\-Box\-Tree\-Item$<$ String $>$ object\-Tree)
+\item 
+void {\bf remove\-Node\-Choosen\-Collection\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ node, Tree\-Item$<$ String $>$ list, Tree\-Item$<$ String $>$ node2)
+\item 
+void {\bf set\-Collection\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ coll\-Tree)
+\item 
+void {\bf set\-Object\-Tree} (Check\-Box\-Tree\-Item$<$ String $>$ obj\-Tree)
+\item 
+void {\bf set\-Data\-Changed} (boolean b)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Tree\-Item$<$ String $>$ {\bf get\-Results\-Collection} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Sabrina Huber the action\-Listener for the check\-Box\-Actions in the Tab. when a check\-Box is selected or unselected, the actionlistener will add the node into the correct choosen\-Tree it also clicks onto the equivalent object in the other tree. check if the number of objects on the grid, is the same number in our trees 
+\end{DoxyAuthor}
+
+
+Definition at line 13 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!actionfor\-\_\-cancel\-Button@{actionfor\-\_\-cancel\-Button}}
+\index{actionfor\-\_\-cancel\-Button@{actionfor\-\_\-cancel\-Button}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{actionfor\-\_\-cancel\-Button}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-actionfor\-\_\-cancel\-Button (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_adddcd9aa5bbd88b4ee8485655159e94d}
+set the choosen\-Collection\-Tree back, to the old values, that are stored in the saved\-Tree. set have\-Data back to false. 
+
+Definition at line 41 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!actionfor\-\_\-save\-Button@{actionfor\-\_\-save\-Button}}
+\index{actionfor\-\_\-save\-Button@{actionfor\-\_\-save\-Button}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{actionfor\-\_\-save\-Button}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-actionfor\-\_\-save\-Button (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_acc98df52c58bb4cb8185c6b58a8d6527}
+actions for save Button set saved\-Changes to true set data\-Changed to false set have\-Data to false 
+
+Definition at line 58 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!add\-Node\-Choosen\-Collection\-Tree@{add\-Node\-Choosen\-Collection\-Tree}}
+\index{add\-Node\-Choosen\-Collection\-Tree@{add\-Node\-Choosen\-Collection\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{add\-Node\-Choosen\-Collection\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-add\-Node\-Choosen\-Collection\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{node, }
+\item[{Tree\-Item$<$ String $>$}]{list, }
+\item[{Tree\-Item$<$ String $>$}]{node2}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a23dc8d322a4aacd232cce460ddad7b23}
+add a node to a Tree\-Item given in the param list from Collections 
+\begin{DoxyParams}{Parameters}
+{\em node} & -\/ node from the Check\-Box\-Tree that trows the Action\-Listener \\
+\hline
+{\em list} & -\/ in which Tree (without Ceck\-Boxes) we want to add a node \\
+\hline
+{\em node2} & -\/ a node(should be leaf) from the choosen\-Collection\-Tree \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 156 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!add\-Node\-Choosen\-Object\-Tree@{add\-Node\-Choosen\-Object\-Tree}}
+\index{add\-Node\-Choosen\-Object\-Tree@{add\-Node\-Choosen\-Object\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{add\-Node\-Choosen\-Object\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-add\-Node\-Choosen\-Object\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{node}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a2af6751d410f1f28a5e41dea52e089c9}
+add a Tree\-Item to the Choosen\-Object\-Tree 
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!change\-Node\-In\-Check\-Box\-Tree@{change\-Node\-In\-Check\-Box\-Tree}}
+\index{change\-Node\-In\-Check\-Box\-Tree@{change\-Node\-In\-Check\-Box\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{change\-Node\-In\-Check\-Box\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-change\-Node\-In\-Check\-Box\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{node}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a564137859ca7d143b162cf22cfa6ea50}
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+{\em node} & one methode for adding and removing nodes from the choosen\-Data\-Trees. At first check if the node.\-get\-Parent() is an all-\/node or a sgo-\/node. If it's an all-\/node, the node can only be in the object\-Tab, because only there are the nodes with the Titel \char`\"{}all ..\char`\"{} .\\
+\hline
+{\em node} & -\/ the node from the Tree that throws the actionlistener \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 327 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!get\-Found\-Inconsistency@{get\-Found\-Inconsistency}}
+\index{get\-Found\-Inconsistency@{get\-Found\-Inconsistency}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{get\-Found\-Inconsistency}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-get\-Found\-Inconsistency (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a3bb0fd9a87e4392ea5d628def5d9960f}
+\begin{DoxyReturn}{Returns}
+found\-Inconsitency -\/ boolean to tell if the user wanted to save data from an object, that he/she delayed later from the grid 
+\end{DoxyReturn}
+
+
+Definition at line 443 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!get\-Results\-Collection@{get\-Results\-Collection}}
+\index{get\-Results\-Collection@{get\-Results\-Collection}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{get\-Results\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}static Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-get\-Results\-Collection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a422d644a8b8672749682c6aa516ed5e2}
+\begin{DoxyReturn}{Returns}
+the choosen\-Collection\-Tree; 
+\end{DoxyReturn}
+
+
+Definition at line 452 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!get\-Saved\-Collection@{get\-Saved\-Collection}}
+\index{get\-Saved\-Collection@{get\-Saved\-Collection}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{get\-Saved\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-get\-Saved\-Collection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_abf0b1d54c268c048b4d1ac750bb3e8d4}
+clear the choosen\-Object\-Tree call rec\-All\-Leafes function to search for the leaves in the choosen\-Collection\-Tree, and save them in the saved\-Tree\-Collection call rec\-Expand\-Tree function to expand each node of the tree \begin{DoxyReturn}{Returns}
+choosen\-Collection\-Tree 
+\end{DoxyReturn}
+
+
+Definition at line 473 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!get\-Saved\-Object@{get\-Saved\-Object}}
+\index{get\-Saved\-Object@{get\-Saved\-Object}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{get\-Saved\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Tree\-Item$<$String$>$ sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-get\-Saved\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_adaa96577c22b79cf6ccbf6407d4426e1}
+\begin{DoxyReturn}{Returns}
+choosen\-Object\-Tree 
+\end{DoxyReturn}
+
+
+Definition at line 461 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!have\-Data\-C@{have\-Data\-C}}
+\index{have\-Data\-C@{have\-Data\-C}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{have\-Data\-C}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-have\-Data\-C (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_ad6144adc892576e04821a29b4ef94422}
+this is a getter -\/ Method for the Controller. in some possibilities the Java\-Fx has not initialized and would throw an exception
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 506 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!is\-Have\-Data@{is\-Have\-Data}}
+\index{is\-Have\-Data@{is\-Have\-Data}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{is\-Have\-Data}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-is\-Have\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_acb3c9247334bb01ff3b9d6847f2d2285}
+\begin{DoxyReturn}{Returns}
+have\-Data -\/ boolean to check if a notification to save the changes is needed 
+\end{DoxyReturn}
+
+
+Definition at line 491 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!is\-Saved\-Changes@{is\-Saved\-Changes}}
+\index{is\-Saved\-Changes@{is\-Saved\-Changes}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{is\-Saved\-Changes}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-is\-Saved\-Changes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a6c36a155cef24a5e869b1cecd547673d}
+\begin{DoxyReturn}{Returns}
+saved\-Changes -\/ 
+\end{DoxyReturn}
+
+
+Definition at line 515 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!rec\-All\-Leafes@{rec\-All\-Leafes}}
+\index{rec\-All\-Leafes@{rec\-All\-Leafes}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{rec\-All\-Leafes}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-rec\-All\-Leafes (
+\begin{DoxyParamCaption}
+\item[{Tree\-Item$<$ String $>$}]{list, }
+\item[{Tree\-Item$<$ String $>$}]{choosen\-Tree}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_ad1417902ef6b4826d44c76d2fba89e76}
+the rec\-All\-Leaves in the Give\-Data\-Collections, put all leafs into a list, we want here to put it into a new tree. also if it found the leaf, it should check if the path even exists in the checkboxtree Collection and set the is\-Selected to true. 
+
+Definition at line 527 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!remove\-Node\-Choosen\-Collection\-Tree@{remove\-Node\-Choosen\-Collection\-Tree}}
+\index{remove\-Node\-Choosen\-Collection\-Tree@{remove\-Node\-Choosen\-Collection\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{remove\-Node\-Choosen\-Collection\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-remove\-Node\-Choosen\-Collection\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{node, }
+\item[{Tree\-Item$<$ String $>$}]{list, }
+\item[{Tree\-Item$<$ String $>$}]{node2}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_ad8900a56ca10bcbe5f9763c205845f82}
+remove a node + parents if necessary from the choosen\-Collection\-Tree 
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 701 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!remove\-Node\-Choosen\-Object\-Tree@{remove\-Node\-Choosen\-Object\-Tree}}
+\index{remove\-Node\-Choosen\-Object\-Tree@{remove\-Node\-Choosen\-Object\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{remove\-Node\-Choosen\-Object\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-remove\-Node\-Choosen\-Object\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{node, }
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{object\-Tree}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_aef12efa7936cad302f40204301fec045}
+remove nodes and the parents if necessary from the choosen\-Object\-Tree 
+\begin{DoxyParams}{Parameters}
+{\em node} & -\/ selected Node throws the action listener \\
+\hline
+{\em object\-Tree} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 647 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!set\-Collection\-Tree@{set\-Collection\-Tree}}
+\index{set\-Collection\-Tree@{set\-Collection\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{set\-Collection\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-set\-Collection\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{coll\-Tree}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a9638624e9553e5992eae5e268692138b}
+
+\begin{DoxyParams}{Parameters}
+{\em coll\-Tree} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 766 of file Check\-Box\-Action\-Listener.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!set\-Data\-Changed@{set\-Data\-Changed}}
+\index{set\-Data\-Changed@{set\-Data\-Changed}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{set\-Data\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-set\-Data\-Changed (
+\begin{DoxyParamCaption}
+\item[{boolean}]{b}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_a4e7e58ec9faef79e3f8c98502ba5ff87}
+
+
+Definition at line 796 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}!set\-Object\-Tree@{set\-Object\-Tree}}
+\index{set\-Object\-Tree@{set\-Object\-Tree}!sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-Check\-Box\-Action\-Listener}}
+\subsubsection[{set\-Object\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-Check\-Box\-Action\-Listener.\-set\-Object\-Tree (
+\begin{DoxyParamCaption}
+\item[{Check\-Box\-Tree\-Item$<$ String $>$}]{obj\-Tree}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener_aa4a46f71f389c18e443de3c5a27db72b}
+set the obj\-Tree into the object\-Tree, and so the action\-Listener to the address of the tree 
+\begin{DoxyParams}{Parameters}
+{\em obj\-Tree} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 791 of file Check\-Box\-Action\-Listener.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/file\-Management/csv\-Construction/{\bf Check\-Box\-Action\-Listener.\-java}\end{DoxyCompactItemize}

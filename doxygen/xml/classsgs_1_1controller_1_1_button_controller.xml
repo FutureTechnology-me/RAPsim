@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_button_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::ButtonController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a679d08bd6969f4bfabd799557adcdb86" prot="private" static="no" mutable="no">
+        <type>JToggleButton</type>
+        <definition>JToggleButton sgs.controller.ButtonController.bStartStopSim</definition>
+        <argsstring></argsstring>
+        <name>bStartStopSim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1abc6ac312d1efbc331d4ba69e6806d843" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>GridController sgs.controller.ButtonController.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1acf48cad2ed221bf10ed3f1bd93ce1fe8" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>SgsGridModel sgs.controller.ButtonController.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="38" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a424940409292ddb39c141f193dd83cdf" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+        <definition>TimeThread sgs.controller.ButtonController.timeThread</definition>
+        <argsstring></argsstring>
+        <name>timeThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1ab5657e2e6b692ea7e1c46e68ef2ec5d0" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1view_1_1_top_panel" kindref="compound">TopPanel</ref></type>
+        <definition>TopPanel sgs.controller.ButtonController.topPanel</definition>
+        <argsstring></argsstring>
+        <name>topPanel</name>
+        <initializer>= new <ref refid="classsgs_1_1view_1_1_top_panel" kindref="compound">TopPanel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_button_controller_1a81a85971dd72e117601a32ce691bfbce" compoundref="_button_controller_8java" startline="58" endline="75">sgs.controller.ButtonController.ButtonController</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a5657f82a32f7446c0d2f2c53c0b15a6a" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1view_1_1_bottom_panel" kindref="compound">BottomPanel</ref></type>
+        <definition>BottomPanel sgs.controller.ButtonController.bottomPanel</definition>
+        <argsstring></argsstring>
+        <name>bottomPanel</name>
+        <initializer>= new <ref refid="classsgs_1_1view_1_1_bottom_panel" kindref="compound">BottomPanel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_button_controller_1a81a85971dd72e117601a32ce691bfbce" compoundref="_button_controller_8java" startline="58" endline="75">sgs.controller.ButtonController.ButtonController</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a0b004368708cb31c137b9b2bef715de9" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>ArrayList&lt;Class&lt;?&gt; &gt; sgs.controller.ButtonController.modelClasses</definition>
+        <argsstring></argsstring>
+        <name>modelClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1af131e7907ba4fc9b1ae9684f2738dc03" prot="package" static="no" mutable="no">
+        <type>Class&lt;?&gt;</type>
+        <definition>Class&lt;?&gt; sgs.controller.ButtonController.abstractModelClass</definition>
+        <argsstring></argsstring>
+        <name>abstractModelClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a26352dda2a3f83d430ee6105b680990e" prot="package" static="no" mutable="no">
+        <type>Class&lt;?&gt;</type>
+        <definition>Class&lt;?&gt; sgs.controller.ButtonController.prosumerClass</definition>
+        <argsstring></argsstring>
+        <name>prosumerClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a4e6e0d35331964d1d3f703b8a0583795" prot="package" static="no" mutable="no">
+        <type>JPopupMenu</type>
+        <definition>JPopupMenu sgs.controller.ButtonController.modelmenu</definition>
+        <argsstring></argsstring>
+        <name>modelmenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_button_controller_1a8406789a2798fa720918b80de4351334" prot="package" static="no" mutable="no">
+        <type>PrimaryViewI</type>
+        <definition>PrimaryViewI sgs.controller.ButtonController.primaryView</definition>
+        <argsstring></argsstring>
+        <name>primaryView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a81a85971dd72e117601a32ce691bfbce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.ButtonController.ButtonController</definition>
+        <argsstring>(PrimaryViewI primaryView, GridController gridController)</argsstring>
+        <name>ButtonController</name>
+        <param>
+          <type>PrimaryViewI</type>
+          <declname>primaryView</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>primaryView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>setJComponent topPanel to BorderLayout.NORTH, bottomPanel to BorderLayout.SOUTH </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>csvController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="58" bodyend="75"/>
+        <references refid="classsgs_1_1controller_1_1_button_controller_1ab5657e2e6b692ea7e1c46e68ef2ec5d0" compoundref="_button_controller_8java" startline="42">sgs.controller.ButtonController.topPanel</references>
+        <references refid="classsgs_1_1controller_1_1_button_controller_1a5657f82a32f7446c0d2f2c53c0b15a6a" compoundref="_button_controller_8java" startline="43">sgs.controller.ButtonController.bottomPanel</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a2462c7d35f6aace7c98aa3f31b4922ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.actionFor_bStartStopSim</definition>
+        <argsstring>(ActionEvent arg0)</argsstring>
+        <name>actionFor_bStartStopSim</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>private method, start and stop simulation <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arg0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- unused if<programlisting><codeline><highlight class="normal">bStartStopSim.isSelected()<sp/></highlight></codeline>
+</programlisting> start simulation and create a new Dialog, with timeThread and gridModel.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+if creation of Dialog is confirmed, instruct the view to provide field for StartTime, endTime, currentTime and the Start or Stop button </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="247" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="247" bodyend="275"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0369efed7941c53c48b3d390c8e647c3" compoundref="_time_thread_8java" startline="44">sgs.controller.simulation.TimeThread.realTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a872e3c2362e3aede2927256d2af4340e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.setTimeThread</definition>
+        <argsstring>(TimeThread timeThread)</argsstring>
+        <name>setTimeThread</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+          <declname>timeThread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeThread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="280" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="280" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a3b683d701069fd0ba31908dff33b1bbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.resetStartStopSimButton</definition>
+        <argsstring>()</argsstring>
+        <name>resetStartStopSimButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set Text for the Start/Stop Simulation Button &quot;Start Sim&quot; when Simulations has been stopped </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="288" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="288" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1ac56f4e7aa03faf9e5de8947a66fa08ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.updateDateAndTime</definition>
+        <argsstring>(Weather currentWeather, GregorianCalendar currentTime)</argsstring>
+        <name>updateDateAndTime</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>currentWeather</declname>
+        </param>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentWeather</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="299" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="299" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a3a48a3a6e670be4920cf3f8f3feb581a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.initButtonsBottom</definition>
+        <argsstring>()</argsstring>
+        <name>initButtonsBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize bottom buttons with action listeners, get the enum list, init button for every enum. Add to each Icon Tooltip and actionlistener. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="81" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="81" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1adecf0a5bab139f7865c41fed33416877" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.showModelChooser</definition>
+        <argsstring>(ActionEvent arg0)</argsstring>
+        <name>showModelChooser</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arg0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>shows a menu with all available models from a certain type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="111" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="111" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_button_controller_1a3a8e616c5bb4f0d3fb6f19a3c9059e33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ButtonController.initButtonsTop</definition>
+        <argsstring>()</argsstring>
+        <name>initButtonsTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize bottom buttons with action listeners buttons: Start Sim, Clear Grid, Color Overlay and Reset Power Consumption </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="152" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="152" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Controller for ButtonManagerView. Sets up the button panels on top and bottom. <simplesect kind="author"><para>Kristofer Schweiger, Breiling </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="2758">
+        <label>JPanel</label>
+      </node>
+      <node id="2763">
+        <label>ArrayList&lt; Class&lt;?&gt; &gt;</label>
+      </node>
+      <node id="2757">
+        <label>sgs.view.TopPanel</label>
+        <link refid="classsgs_1_1view_1_1_top_panel"/>
+        <childnode refid="2754" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2758" relation="usage">
+          <edgelabel>buttonPanel</edgelabel>
+        </childnode>
+        <childnode refid="2759" relation="usage">
+          <edgelabel>logoPanel</edgelabel>
+        </childnode>
+        <childnode refid="2761" relation="usage">
+          <edgelabel>dateAndTimePanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2762">
+        <label>JLabel</label>
+      </node>
+      <node id="2759">
+        <label>sgs.view.LogoPanel</label>
+        <childnode refid="2758" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2760" relation="usage">
+          <edgelabel>RAPSimIcon</edgelabel>
+        </childnode>
+      </node>
+      <node id="2755">
+        <label>Dimension</label>
+      </node>
+      <node id="2756">
+        <label>PrimaryViewI</label>
+      </node>
+      <node id="2754">
+        <label>JToolBar</label>
+      </node>
+      <node id="2751">
+        <label>sgs.controller.ButtonController</label>
+        <link refid="classsgs_1_1controller_1_1_button_controller"/>
+        <childnode refid="2752" relation="usage">
+          <edgelabel>modelmenu</edgelabel>
+        </childnode>
+        <childnode refid="2753" relation="usage">
+          <edgelabel>bottomPanel</edgelabel>
+        </childnode>
+        <childnode refid="2756" relation="usage">
+          <edgelabel>primaryView</edgelabel>
+        </childnode>
+        <childnode refid="2757" relation="usage">
+          <edgelabel>topPanel</edgelabel>
+        </childnode>
+        <childnode refid="2763" relation="usage">
+          <edgelabel>modelClasses</edgelabel>
+        </childnode>
+      </node>
+      <node id="2761">
+        <label>sgs.view.DateAndTimePanel</label>
+        <childnode refid="2758" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2762" relation="usage">
+          <edgelabel>weatherLabel1</edgelabel>
+          <edgelabel>weatherLabel2</edgelabel>
+          <edgelabel>timeLabel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2752">
+        <label>JPopupMenu</label>
+      </node>
+      <node id="2760">
+        <label>ImageIcon</label>
+      </node>
+      <node id="2753">
+        <label>sgs.view.BottomPanel</label>
+        <link refid="classsgs_1_1view_1_1_bottom_panel"/>
+        <childnode refid="2754" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2755" relation="usage">
+          <edgelabel>defaultButtonDimension</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ButtonController.java" bodystart="32" bodyend="303"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1af131e7907ba4fc9b1ae9684f2738dc03" prot="package" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>abstractModelClass</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a2462c7d35f6aace7c98aa3f31b4922ab" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>actionFor_bStartStopSim</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a5657f82a32f7446c0d2f2c53c0b15a6a" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>bottomPanel</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a679d08bd6969f4bfabd799557adcdb86" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>bStartStopSim</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a81a85971dd72e117601a32ce691bfbce" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>ButtonController</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1abc6ac312d1efbc331d4ba69e6806d843" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1acf48cad2ed221bf10ed3f1bd93ce1fe8" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a3a48a3a6e670be4920cf3f8f3feb581a" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>initButtonsBottom</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a3a8e616c5bb4f0d3fb6f19a3c9059e33" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>initButtonsTop</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a0b004368708cb31c137b9b2bef715de9" prot="package" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>modelClasses</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a4e6e0d35331964d1d3f703b8a0583795" prot="package" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>modelmenu</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a8406789a2798fa720918b80de4351334" prot="package" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>primaryView</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a26352dda2a3f83d430ee6105b680990e" prot="package" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>prosumerClass</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a3b683d701069fd0ba31908dff33b1bbe" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>resetStartStopSimButton</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a872e3c2362e3aede2927256d2af4340e" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>setTimeThread</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1adecf0a5bab139f7865c41fed33416877" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>showModelChooser</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1a424940409292ddb39c141f193dd83cdf" prot="private" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>timeThread</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1ab5657e2e6b692ea7e1c46e68ef2ec5d0" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>topPanel</name></member>
+      <member refid="classsgs_1_1controller_1_1_button_controller_1ac56f4e7aa03faf9e5de8947a66fa08ce" prot="public" virt="non-virtual"><scope>sgs::controller::ButtonController</scope><name>updateDateAndTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

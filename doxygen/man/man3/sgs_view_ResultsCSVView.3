@@ -1,0 +1,84 @@
+.TH "sgs.view.ResultsCSVView" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.view.ResultsCSVView \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits JFrame\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBResultsCSVView\fP (\fBSgsGridModel\fP gridModel, \fBCSVController\fP \fBcsvController\fP)"
+.br
+.ti -1c
+.RI "void \fBstartResultsView\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetVisible\fP (boolean b)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCSVController\fP \fBcsvController\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Sabrina Huber The \fBResultsCSVView\fP show us the Results Window the class unites java swing and javafx \&. the constructor acts as a bridge between the two libraries\&. every JavaFX objects has a FX in its name, to seperate it from the normal Swing Objects\&. 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file ResultsCSVView\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.view\&.ResultsCSVView\&.ResultsCSVView (\fBSgsGridModel\fPgridModel, \fBCSVController\fPcsvController)"
+in it are all other hBoxes constructor builds a bridge between Java Swing and JavaFX\&. It starts the Swing Utilities in which the FX Utilities are included as Panel 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.br
+\fIgridController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 67 of file ResultsCSVView\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.view\&.ResultsCSVView\&.setVisible (booleanb)"
+initialize the Swing Frame and add to it the JavaFX Panel resultsFXPanel set the resultsFrame visible true or false 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIb\fP 
+.RE
+.PP
+
+.PP
+Definition at line 428 of file ResultsCSVView\&.java\&.
+.SS "void sgs\&.view\&.ResultsCSVView\&.startResultsView ()"
+
+.PP
+Definition at line 74 of file ResultsCSVView\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCSVController\fP sgs\&.view\&.ResultsCSVView\&.csvController"
+
+.PP
+Definition at line 46 of file ResultsCSVView\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

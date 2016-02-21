@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1_program_parameters_saved" kind="class" prot="public">
+    <compoundname>sgs::model::ProgramParametersSaved</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_program_parameters_saved_1af74969eb59cd4f53dff406fecc8dfb35" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.ProgramParametersSaved.parametersChanged</definition>
+        <argsstring></argsstring>
+        <name>parametersChanged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if parameters changed at runtime and need to be saved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1_program_parameters_saved_1a246d215d659df631032bad91bbaff68a" compoundref="_program_parameters_saved_8java" startline="50" endline="55">sgs.model.ProgramParametersSaved.setFirstStart</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_program_parameters_saved_1a72eb3b980477c02708c3cbef214c32db" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.ProgramParametersSaved.firstStart</definition>
+        <argsstring></argsstring>
+        <name>firstStart</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true if program started for the first time on this machine </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_program_parameters_saved_1a3296b7b4ae9cf985750b69c67041fe39" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.ProgramParametersSaved.simResultFile</definition>
+        <argsstring></argsstring>
+        <name>simResultFile</name>
+        <initializer>= &quot;./simulation.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>path for the simulation file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1_program_parameters_saved_1a986bd87300e9544004f7d345f42f6c9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.ProgramParametersSaved.getSimResultFile</definition>
+        <argsstring>()</argsstring>
+        <name>getSimResultFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_program_parameters_saved_1ae3d0db5c4e0635bfe984e2f0e6a72f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.ProgramParametersSaved.setSimResultFile</definition>
+        <argsstring>(String simResultFile)</argsstring>
+        <name>setSimResultFile</name>
+        <param>
+          <type>String</type>
+          <declname>simResultFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_program_parameters_saved_1aaefc719f19975324e97f17d400649373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.ProgramParametersSaved.isFirstStart</definition>
+        <argsstring>()</argsstring>
+        <name>isFirstStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if this is the first start of the program </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="44" bodyend="46"/>
+        <referencedby refid="classsgs_1_1controller_1_1_primary_controller_1a664fe46da0e9b0e95d57937343adda83" compoundref="_primary_controller_8java" startline="52" endline="115">sgs.controller.PrimaryController.PrimaryController</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_program_parameters_saved_1a246d215d659df631032bad91bbaff68a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.ProgramParametersSaved.setFirstStart</definition>
+        <argsstring>(boolean firstStart)</argsstring>
+        <name>setFirstStart</name>
+        <param>
+          <type>boolean</type>
+          <declname>firstStart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstStart</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Set the first start parameter. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="50" bodyend="55"/>
+        <references refid="classsgs_1_1model_1_1_program_parameters_saved_1af74969eb59cd4f53dff406fecc8dfb35" compoundref="_program_parameters_saved_8java" startline="15">sgs.model.ProgramParametersSaved.parametersChanged</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Program parameters which will be saved/loaded to/from a file. SAVED BY: sgs.controller.fileManagement.FileManager; FILE-Definition: <ref refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" kindref="member">ProgramConstants.parameterFile</ref></para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" line="12" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramParametersSaved.java" bodystart="12" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1a72eb3b980477c02708c3cbef214c32db" prot="private" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>firstStart</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1a986bd87300e9544004f7d345f42f6c9d" prot="public" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>getSimResultFile</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1aaefc719f19975324e97f17d400649373" prot="public" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>isFirstStart</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1af74969eb59cd4f53dff406fecc8dfb35" prot="public" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>parametersChanged</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1a246d215d659df631032bad91bbaff68a" prot="public" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>setFirstStart</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1ae3d0db5c4e0635bfe984e2f0e6a72f95" prot="public" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>setSimResultFile</name></member>
+      <member refid="classsgs_1_1model_1_1_program_parameters_saved_1a3296b7b4ae9cf985750b69c67041fe39" prot="private" virt="non-virtual"><scope>sgs::model::ProgramParametersSaved</scope><name>simResultFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

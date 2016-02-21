@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_time_series_model_8java" kind="file">
+    <compoundname>TimeSeriesModel.java</compoundname>
+    <innerclass refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" prot="public">sgs::model::objectModels::TimeSeriesModel</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1object_models">sgs::model::objectModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.objectModels;</highlight></codeline>
+<codeline lineno="7" refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" kindref="compound">TimeSeriesModel</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ace832f1b64c5cfe2563ed90867b05af2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ace832f1b64c5cfe2563ed90867b05af2" kindref="member">PERIOD_DAILY</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="9" refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a08de046ef27ce3e3336469860364a3fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a08de046ef27ce3e3336469860364a3fa" kindref="member">PERIOD_WEEKLY</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="10" refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a696c830ff94799a4beaafd8cf62c5859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a696c830ff94799a4beaafd8cf62c5859" kindref="member">PERIOD_MONTHLY</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="11" refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ae4616ed0cae9e59483cd413cde8baa39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ae4616ed0cae9e59483cd413cde8baa39" kindref="member">PERIOD_ANNUALY</ref><sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ac37085aaff6bcdb151bc3f33f1f967cc" kindref="member">loadDataFromFile</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java"/>
+  </compounddef>
+</doxygen>

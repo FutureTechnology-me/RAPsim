@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum" kind="class" prot="public">
+    <compoundname>sgs::model::variables::collector::VariableCollectorSum</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableCollector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ad4385e0a5952a5609779a01f27c705e3" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorSum.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ab05755aec0e4b9e8be6ee9c491d87649" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorSum.nrOfValues</definition>
+        <argsstring></argsstring>
+        <name>nrOfValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1af2cfab002ceeba0a594f1cecd150cd47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.collector.VariableCollectorSum.VariableCollectorSum</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>VariableCollectorSum</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for sum collector. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="17" bodyend="21"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a6478994329df7aa2537e932f458650b9" compoundref="_variable_collector_sum_8java" startline="52" endline="57">sgs.model.variables.collector.VariableCollectorSum.copy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ada41437c5497b71c2da0c337ae2c1dcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorSum.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1aafa53635c29d137ed70912b31fe75e6a">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the collected numeric value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a90325799de732e7b4537c09508b005c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorSum.getNumberOfValues</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af7069a996dfec379cbc334f294b5511a">getNumberOfValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of collected values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1adbc18741513067dd5b26f9b3834a1771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.collector.VariableCollectorSum.restValues</definition>
+        <argsstring>()</argsstring>
+        <name>restValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a54200215ba9e58439e720502bbedb507">restValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets values to zero. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a4c76b1bd73bca0e41218404b61b3eec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.collector.VariableCollectorSum.collectFrom</definition>
+        <argsstring>(VariableOwner owner)</argsstring>
+        <name>collectFrom</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a7771a65b96725beb168579ff6003f6e6">collectFrom</reimplements>
+        <param>
+          <type><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kindref="compound">VariableOwner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds interesting variable values from the variable owner <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a value was collected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="40" bodyend="49"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a6478994329df7aa2537e932f458650b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum" kindref="compound">VariableCollectorSum</ref></type>
+        <definition>VariableCollectorSum sgs.model.variables.collector.VariableCollectorSum.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af657fdd311577e7f5f155283a8e816ff">copy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a copy of this Collector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="52" bodyend="57"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1af2cfab002ceeba0a594f1cecd150cd47" compoundref="_variable_collector_sum_8java" startline="17" endline="21">sgs.model.variables.collector.VariableCollectorSum.VariableCollectorSum</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4436">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+      </node>
+      <node id="4435">
+        <label>sgs.model.variables.collector.VariableCollectorSum</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum"/>
+        <childnode refid="4436" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4438">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+        <childnode refid="4439" relation="usage">
+          <edgelabel>variableName</edgelabel>
+        </childnode>
+      </node>
+      <node id="4437">
+        <label>sgs.model.variables.collector.VariableCollectorSum</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum"/>
+        <childnode refid="4438" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4439">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" line="8" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorSum.java" bodystart="8" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a4c76b1bd73bca0e41218404b61b3eec6" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>collectFrom</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a6478994329df7aa2537e932f458650b9" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1a90325799de732e7b4537c09508b005c9" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>getNumberOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a6812701367b992972241901ca2e6d5c4" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>getSingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ada41437c5497b71c2da0c337ae2c1dcf" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1adc69dc2f026ba66dd7838f970661c56a" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>getVariableName</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ab05755aec0e4b9e8be6ee9c491d87649" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>nrOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1adbc18741513067dd5b26f9b3834a1771" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>restValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a0b595f78b3304a12f5a3538c8ea40f27" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1ad4385e0a5952a5609779a01f27c705e3" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af5ca5b1481c5433ba4ca9d75a8501206" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>VariableCollector</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum_1af2cfab002ceeba0a594f1cecd150cd47" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>VariableCollectorSum</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorSum</scope><name>variableName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

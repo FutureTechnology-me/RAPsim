@@ -1,0 +1,230 @@
+\section{sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver}\index{sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver@{sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Gauss\-Seidel\-P\-F\-Solver} ()
+\item 
+void {\bf solve} ()  throws Exception 
+\item 
+double {\bf get\-Scale\-Factor} ()
+\item 
+void {\bf set\-Admittance\-Matrix} ({\bf Numeric\-Value}[$\,$][$\,$] y)
+\item 
+{\bf Numeric\-Value}[$\,$][$\,$] {\bf get\-Admittance\-Matrix} ()
+\item 
+void {\bf set\-Power\-Vector} ({\bf Numeric\-Value}[$\,$] pq)
+\item 
+{\bf Numeric\-Value}[$\,$] {\bf get\-Power\-Vector} ()
+\item 
+void {\bf set\-Voltage\-Vector} ({\bf Numeric\-Value}[$\,$] u2)
+\item 
+{\bf Numeric\-Value}[$\,$] {\bf get\-Voltage\-Vector} ()
+\item 
+void {\bf set\-Bus\-Types} (A\-C\-Power\-Flow\-Calculator.\-bus\-Types[$\,$] b\-T)
+\item 
+A\-C\-Power\-Flow\-Calculator.\-bus\-Types[$\,$] {\bf get\-Bus\-Types} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final double {\bf d2r} = Math.\-P\-I / 180
+\item 
+static final double {\bf w} = 100 $\ast$ Math.\-P\-I
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is used to solve the A\-C-\/power flow problem according the Gauss-\/\-Seidel method. It needs vectors for power P, voltage V, bus\-Types and the admittance matrix Y.
+
+\begin{DoxyAuthor}{Author}
+Lukas Felician Krasel, Manfred Pöchacker 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em maximum\-Iterations} & gives number of steps when solver is terminated in case convergence\-Acuracy can not be reached \\
+\hline
+{\em convergence\-Acuracy} & is the accuracy requirenmet that iteration can be stopped \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!Gauss\-Seidel\-P\-F\-Solver@{Gauss\-Seidel\-P\-F\-Solver}}
+\index{Gauss\-Seidel\-P\-F\-Solver@{Gauss\-Seidel\-P\-F\-Solver}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{Gauss\-Seidel\-P\-F\-Solver}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-Gauss\-Seidel\-P\-F\-Solver (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_ab8099e3b3463fb0e2f44ee1b5a8adef5}
+
+
+Definition at line 47 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!get\-Admittance\-Matrix@{get\-Admittance\-Matrix}}
+\index{get\-Admittance\-Matrix@{get\-Admittance\-Matrix}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{get\-Admittance\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} [$\,$][$\,$] sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-get\-Admittance\-Matrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_adc2e566689f6f55e90dc879a07ad7201}
+
+
+Definition at line 340 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!get\-Bus\-Types@{get\-Bus\-Types}}
+\index{get\-Bus\-Types@{get\-Bus\-Types}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{get\-Bus\-Types}]{\setlength{\rightskip}{0pt plus 5cm}A\-C\-Power\-Flow\-Calculator.\-bus\-Types [$\,$] sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-get\-Bus\-Types (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_ace2a648ebed5d520f5be06a05acb86a4}
+\begin{DoxyReturn}{Returns}
+bus\-Types 
+\end{DoxyReturn}
+
+
+Definition at line 371 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!get\-Power\-Vector@{get\-Power\-Vector}}
+\index{get\-Power\-Vector@{get\-Power\-Vector}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{get\-Power\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} [$\,$] sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-get\-Power\-Vector (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a12238d4c7b04aa204f1b2c5c31d5b412}
+
+
+Definition at line 349 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!get\-Scale\-Factor@{get\-Scale\-Factor}}
+\index{get\-Scale\-Factor@{get\-Scale\-Factor}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{get\-Scale\-Factor}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-get\-Scale\-Factor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a78004a3bc133cf3928e9f5114f387bd3}
+
+
+Definition at line 273 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!get\-Voltage\-Vector@{get\-Voltage\-Vector}}
+\index{get\-Voltage\-Vector@{get\-Voltage\-Vector}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{get\-Voltage\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} [$\,$] sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-get\-Voltage\-Vector (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a50a278d035483bab10019f0badf097e9}
+
+
+Definition at line 358 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!set\-Admittance\-Matrix@{set\-Admittance\-Matrix}}
+\index{set\-Admittance\-Matrix@{set\-Admittance\-Matrix}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{set\-Admittance\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-set\-Admittance\-Matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{y[$\,$][$\,$]}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a2d65e3c54922fb422258ffffc5562370}
+
+
+Definition at line 336 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!set\-Bus\-Types@{set\-Bus\-Types}}
+\index{set\-Bus\-Types@{set\-Bus\-Types}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{set\-Bus\-Types}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-set\-Bus\-Types (
+\begin{DoxyParamCaption}
+\item[{A\-C\-Power\-Flow\-Calculator.\-bus\-Types[$\,$]}]{b\-T}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_af7e05119ed5471938699734f3a0dcf09}
+
+
+Definition at line 362 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!set\-Power\-Vector@{set\-Power\-Vector}}
+\index{set\-Power\-Vector@{set\-Power\-Vector}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{set\-Power\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-set\-Power\-Vector (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}[$\,$]}]{pq}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a8dcd9343442752fc31efdd3618eca8b2}
+
+
+Definition at line 344 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!set\-Voltage\-Vector@{set\-Voltage\-Vector}}
+\index{set\-Voltage\-Vector@{set\-Voltage\-Vector}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{set\-Voltage\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-set\-Voltage\-Vector (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}[$\,$]}]{u2}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_ac9785132e71cc24be975caaa33ed4577}
+
+
+Definition at line 353 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!solve@{solve}}
+\index{solve@{solve}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{solve}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-solve (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Exception}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a35f6a94d7c78c81132babb0ca1f942b7}
+Solves the A\-C-\/\-Power-\/\-Flow Problem by using the iterative Gauss-\/\-Seidel-\/\-Method Bus-\/\-Voltage is set to 1.\-0 initial For every load bus, the voltage is calculated For every generator bus, the Voltage angle and Reactive Power are calculated For every reference bus, real and reactive power are calculated 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 66 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!d2r@{d2r}}
+\index{d2r@{d2r}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{d2r}]{\setlength{\rightskip}{0pt plus 5cm}final double sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-d2r = Math.\-P\-I / 180\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_a2682e1c02e4da8c81cfe2b564608d1cf}
+
+
+Definition at line 44 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+\index{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}!w@{w}}
+\index{w@{w}!sgs::controller::simulation::calculation::GaussSeidelPFSolver@{sgs\-::controller\-::simulation\-::calculation\-::\-Gauss\-Seidel\-P\-F\-Solver}}
+\subsubsection[{w}]{\setlength{\rightskip}{0pt plus 5cm}final double sgs.\-controller.\-simulation.\-calculation.\-Gauss\-Seidel\-P\-F\-Solver.\-w = 100 $\ast$ Math.\-P\-I\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_ae7a9a6b16f8d44a896e88c1c72f428b6}
+
+
+Definition at line 45 of file Gauss\-Seidel\-P\-F\-Solver.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/calculation/{\bf Gauss\-Seidel\-P\-F\-Solver.\-java}\end{DoxyCompactItemize}

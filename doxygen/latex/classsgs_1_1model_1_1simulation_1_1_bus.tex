@@ -1,0 +1,392 @@
+\section{sgs.\-model.\-simulation.\-Bus Class Reference}
+\label{classsgs_1_1model_1_1simulation_1_1_bus}\index{sgs.\-model.\-simulation.\-Bus@{sgs.\-model.\-simulation.\-Bus}}
+
+
+Inheritance diagram for sgs.\-model.\-simulation.\-Bus\-:
+
+
+Collaboration diagram for sgs.\-model.\-simulation.\-Bus\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Bus} (int bus\-Number, Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf bus\-Grid\-Objects}, {\bf Variable\-Collection} {\bf variable\-Collection})
+\item 
+boolean {\bf is\-Load\-Bus} ()
+\item 
+boolean {\bf is\-Generator\-Bus} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Netto\-Power\-Production} ()
+\item 
+boolean {\bf contains} ({\bf Smart\-Grid\-Object} sgo)
+\item 
+boolean {\bf contains\-Instance\-Of} ({\bf Smart\-Grid\-Object} sgo)
+\item 
+void {\bf add\-Object} ({\bf Smart\-Grid\-Object} sgo)
+\item 
+void {\bf set\-Grid\-Objects} (Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ objects)
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf get\-Grid\-Objects} ()
+\item 
+int {\bf get\-Number} ()
+\item 
+void {\bf set\-Bus\-Number} (int bus\-Number)
+\item 
+void {\bf set\-Bus\-Voltage} ({\bf Numeric\-Value} voltage)
+\item 
+{\bf Numeric\-Value} {\bf get\-Bus\-Voltage} ()
+\item 
+{\bf Variable\-Set} {\bf get\-Variable\-Set} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Value} ({\bf Enum\-P\-V} variable\-Name)
+\item 
+void {\bf refresh\-Values} ()
+\item 
+String {\bf to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$ {\bf bus\-Grid\-Objects}
+\item 
+{\bf Variable\-Collection} {\bf variable\-Collection}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A bus combines multiple (1 or more) grid objects, which are not seperated by any resistance.
+
+(Was named Cluster before) \begin{DoxyAuthor}{Author}
+Tobi, Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 18 of file Bus.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!Bus@{Bus}}
+\index{Bus@{Bus}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{Bus}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-simulation.\-Bus.\-Bus (
+\begin{DoxyParamCaption}
+\item[{int}]{bus\-Number, }
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{bus\-Grid\-Objects, }
+\item[{{\bf Variable\-Collection}}]{variable\-Collection}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a43e60386a00388aa17bd2f6c7d5ce87c}
+Constructor\-: 
+\begin{DoxyParams}{Parameters}
+{\em number} & \\
+\hline
+{\em bus\-Grid\-Objects} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file Bus.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!add\-Object@{add\-Object}}
+\index{add\-Object@{add\-Object}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{add\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Bus.\-add\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a23362799056eecf4cfc1d229ecebbf3e}
+Add object to bus 
+\begin{DoxyParams}{Parameters}
+{\em sgo} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 116 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!contains@{contains}}
+\index{contains@{contains}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-simulation.\-Bus.\-contains (
+\begin{DoxyParamCaption}
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a417baed4428cddc7dc7379a13ddd8ee9}
+
+\begin{DoxyParams}{Parameters}
+{\em sgo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if object is contained in bus 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file Bus.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!contains\-Instance\-Of@{contains\-Instance\-Of}}
+\index{contains\-Instance\-Of@{contains\-Instance\-Of}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{contains\-Instance\-Of}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-simulation.\-Bus.\-contains\-Instance\-Of (
+\begin{DoxyParamCaption}
+\item[{{\bf Smart\-Grid\-Object}}]{sgo}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a5fed173fed07d9f4875db6122ea3d3f0}
+
+\begin{DoxyParams}{Parameters}
+{\em sgo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if any object of the same type as sgo is contained in the bus. recommended to use with constructor as argument sgo 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Bus\-Voltage@{get\-Bus\-Voltage}}
+\index{get\-Bus\-Voltage@{get\-Bus\-Voltage}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Bus\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-simulation.\-Bus.\-get\-Bus\-Voltage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a5c64f26a94e79f70ef372a535d94dae0}
+\begin{DoxyReturn}{Returns}
+the \doxyref{Bus}{p.}{classsgs_1_1model_1_1simulation_1_1_bus} voltage (should be equal for whole bus), stored locally 
+\end{DoxyReturn}
+
+
+Definition at line 157 of file Bus.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Grid\-Objects@{get\-Grid\-Objects}}
+\index{get\-Grid\-Objects@{get\-Grid\-Objects}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Grid\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-simulation.\-Bus.\-get\-Grid\-Objects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_aee9bdcea5012dbff39b56dd825965f85}
+\begin{DoxyReturn}{Returns}
+the contained grid objects 
+\end{DoxyReturn}
+
+
+Definition at line 130 of file Bus.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Netto\-Power\-Production@{get\-Netto\-Power\-Production}}
+\index{get\-Netto\-Power\-Production@{get\-Netto\-Power\-Production}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Netto\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-simulation.\-Bus.\-get\-Netto\-Power\-Production (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_abfc4dffbe73da4a7a27743542d72e90d}
+\begin{DoxyReturn}{Returns}
+(power\-Production-\/power\-Demand) or null, if values do not exist 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Number@{get\-Number}}
+\index{get\-Number@{get\-Number}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Number}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-simulation.\-Bus.\-get\-Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a2296da1dcf74ec49ae2e84f422a1d297}
+\begin{DoxyReturn}{Returns}
+the bus\-Number 
+\end{DoxyReturn}
+
+
+Definition at line 135 of file Bus.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-simulation.\-Bus.\-get\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a2c314462a818167825ac5b8f92a8bf9c}
+
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value for variable\-Name, or null if name is not found. 
+\end{DoxyReturn}
+
+
+Definition at line 178 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!get\-Variable\-Set@{get\-Variable\-Set}}
+\index{get\-Variable\-Set@{get\-Variable\-Set}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{get\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-simulation.\-Bus.\-get\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_af8d5a1e3ad102e7ec8a57c660b08347d}
+\begin{DoxyReturn}{Returns}
+the Variable\-Set owned by this object; or null (no owned variable set) 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-collector.\-Variable\-Owner} \doxyref{}{p.}{interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_ae9768e375d5653aa6d8acc8e3e13a47c}.
+
+
+
+Definition at line 170 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!is\-Generator\-Bus@{is\-Generator\-Bus}}
+\index{is\-Generator\-Bus@{is\-Generator\-Bus}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{is\-Generator\-Bus}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-simulation.\-Bus.\-is\-Generator\-Bus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a657a999a1decb5ff8e647ff45a9ca74a}
+Call after values were refreshed.
+
+\begin{DoxyReturn}{Returns}
+true if real netto power production $>$= 0. false otherwise or at error. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{\#is\-Load\-Bus(), \#is\-Swing\-Bus()}{p.}{classsgs_1_1model_1_1simulation_1_1_bus_aafd3420743f326f4a84cdb4b10e9979c}\} 
+\end{DoxySeeAlso}
+
+
+Definition at line 59 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!is\-Load\-Bus@{is\-Load\-Bus}}
+\index{is\-Load\-Bus@{is\-Load\-Bus}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{is\-Load\-Bus}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-simulation.\-Bus.\-is\-Load\-Bus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a2787087e28a6f8104c4d77ceae579602}
+Call after values were refreshed.
+
+\begin{DoxyReturn}{Returns}
+true if real netto power production $<$= 0 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{\#is\-Generator\-Bus(), \#is\-Swing\-Bus()}{p.}{classsgs_1_1model_1_1simulation_1_1_bus_aafd3420743f326f4a84cdb4b10e9979c}\} 
+\end{DoxySeeAlso}
+
+
+Definition at line 47 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!refresh\-Values@{refresh\-Values}}
+\index{refresh\-Values@{refresh\-Values}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{refresh\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Bus.\-refresh\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_aafd3420743f326f4a84cdb4b10e9979c}
+Collects current simulation values with variable\-Collector 
+
+Definition at line 185 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!set\-Bus\-Number@{set\-Bus\-Number}}
+\index{set\-Bus\-Number@{set\-Bus\-Number}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{set\-Bus\-Number}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Bus.\-set\-Bus\-Number (
+\begin{DoxyParamCaption}
+\item[{int}]{bus\-Number}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a1edf3b45e0c36bc99072e72d330e03f5}
+
+\begin{DoxyParams}{Parameters}
+{\em bus\-Number} & -\/ bus\-Number to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 140 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!set\-Bus\-Voltage@{set\-Bus\-Voltage}}
+\index{set\-Bus\-Voltage@{set\-Bus\-Voltage}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{set\-Bus\-Voltage}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Bus.\-set\-Bus\-Voltage (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{voltage}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a8475b2bbb2d92c5f75dd0df16303c7b0}
+
+\begin{DoxyParams}{Parameters}
+{\em voltage} & -\/ voltage to set for every object (special) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 145 of file Bus.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!set\-Grid\-Objects@{set\-Grid\-Objects}}
+\index{set\-Grid\-Objects@{set\-Grid\-Objects}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{set\-Grid\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-simulation.\-Bus.\-set\-Grid\-Objects (
+\begin{DoxyParamCaption}
+\item[{Linked\-List$<$ {\bf Smart\-Grid\-Object} $>$}]{objects}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a3293193086ed07c704204822c4a700dc}
+
+\begin{DoxyParams}{Parameters}
+{\em objects} & the objects to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 123 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-simulation.\-Bus.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1simulation_1_1_bus_a20d9228fe2ba106f2cfbfea445abc810}
+
+
+Definition at line 195 of file Bus.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!bus\-Grid\-Objects@{bus\-Grid\-Objects}}
+\index{bus\-Grid\-Objects@{bus\-Grid\-Objects}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{bus\-Grid\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}Linked\-List$<${\bf Smart\-Grid\-Object}$>$ sgs.\-model.\-simulation.\-Bus.\-bus\-Grid\-Objects}\label{classsgs_1_1model_1_1simulation_1_1_bus_a4cd025e5e16ddc41403c703ca5ec602e}
+
+
+Definition at line 21 of file Bus.\-java.
+
+\index{sgs\-::model\-::simulation\-::\-Bus@{sgs\-::model\-::simulation\-::\-Bus}!variable\-Collection@{variable\-Collection}}
+\index{variable\-Collection@{variable\-Collection}!sgs::model::simulation::Bus@{sgs\-::model\-::simulation\-::\-Bus}}
+\subsubsection[{variable\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collection} sgs.\-model.\-simulation.\-Bus.\-variable\-Collection}\label{classsgs_1_1model_1_1simulation_1_1_bus_a1eee43c43c675d075c94aa5986a39188}
+
+
+Definition at line 22 of file Bus.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/simulation/{\bf Bus.\-java}\end{DoxyCompactItemize}

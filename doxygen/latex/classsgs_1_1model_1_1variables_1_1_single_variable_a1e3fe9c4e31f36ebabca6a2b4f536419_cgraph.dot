@@ -1,0 +1,9 @@
+digraph "sgs.model.variables.SingleVariable.SingleVariable"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.variables.Single\lVariable.SingleVariable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.model.variables.Enum\lPV.getUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enumsgs_1_1model_1_1variables_1_1_enum_p_v.html#acf4ff80316e7eab458b5fcc1ec3f44b2"];
+}

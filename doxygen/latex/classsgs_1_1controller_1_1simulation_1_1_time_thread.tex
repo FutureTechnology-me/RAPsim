@@ -1,0 +1,296 @@
+\section{sgs.\-controller.\-simulation.\-Time\-Thread Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1_time_thread}\index{sgs.\-controller.\-simulation.\-Time\-Thread@{sgs.\-controller.\-simulation.\-Time\-Thread}}
+
+
+Inheritance diagram for sgs.\-controller.\-simulation.\-Time\-Thread\-:
+
+
+Collaboration diagram for sgs.\-controller.\-simulation.\-Time\-Thread\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Time\-Thread} ({\bf Grid\-Controller} grid\-Controller, {\bf Button\-Controller} button\-Controller, {\bf C\-S\-V\-Controller} {\bf csv\-Controller})
+\item 
+synchronized void {\bf start\-Or\-Stop} (boolean start)
+\item 
+{\bf Abstract\-Distribution\-Algorithm} {\bf get\-Algorithm} ()
+\item 
+synchronized void {\bf change\-Algorithm} ({\bf Abstract\-Distribution\-Algorithm} new\-Algorithm)
+\item 
+void {\bf run} ()
+\item 
+boolean {\bf is\-Do\-Run} ()
+\item 
+void {\bf set\-Do\-Run} (boolean do\-Run)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean {\bf is\-Running} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bf real\-Time} = true
+\item 
+Gregorian\-Calendar {\bf start\-Time}
+\item 
+Gregorian\-Calendar {\bf current\-Time}
+\item 
+Gregorian\-Calendar {\bf end\-Time}
+\item 
+int {\bf simulation\-Resolution\-Minutes} = 60
+\item 
+int {\bf inter\-Sim\-Step\-Mili\-Sec} = 1000
+\item 
+{\bf Weather} {\bf current\-Weather} = new {\bf Weather}()
+\item 
+final {\bf C\-S\-V\-Controller} {\bf csv\-Controller}
+\item 
+{\bf Speed\-Changer} {\bf slider\-Dialog}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Time in a running simulation. Has time-\/relevant functions and parameters. Uses \doxyref{Grid\-Controller}{p.}{classsgs_1_1controller_1_1_grid_controller} and \doxyref{Button\-Controller}{p.}{classsgs_1_1controller_1_1_button_controller} for interaction.
+
+\begin{DoxyAuthor}{Author}
+tobi, Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 24 of file Time\-Thread.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!Time\-Thread@{Time\-Thread}}
+\index{Time\-Thread@{Time\-Thread}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{Time\-Thread}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-Time\-Thread.\-Time\-Thread (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller, }
+\item[{{\bf Button\-Controller}}]{button\-Controller, }
+\item[{{\bf C\-S\-V\-Controller}}]{csv\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a27e369c067205f100ed1827012557144}
+Initialize and start time thread. Sets reference in Grid\-Model
+
+
+\begin{DoxyParams}{Parameters}
+{\em grid\-Controller} & \\
+\hline
+{\em button\-Controller} & \\
+\hline
+{\em csv\-Controller} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 76 of file Time\-Thread.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!change\-Algorithm@{change\-Algorithm}}
+\index{change\-Algorithm@{change\-Algorithm}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{change\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void sgs.\-controller.\-simulation.\-Time\-Thread.\-change\-Algorithm (
+\begin{DoxyParamCaption}
+\item[{{\bf Abstract\-Distribution\-Algorithm}}]{new\-Algorithm}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a37d7640d101dd5e92d2dfb3ffb9ec2c3}
+Change the used algorithm.
+\begin{DoxyItemize}
+\item does not stop running simulations
+\item initializes the algorithm. 
+\begin{DoxyParams}{Parameters}
+{\em new\-Algorithm} & \\
+\hline
+\end{DoxyParams}
+
+\end{DoxyItemize}
+
+Definition at line 147 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!get\-Algorithm@{get\-Algorithm}}
+\index{get\-Algorithm@{get\-Algorithm}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{get\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Abstract\-Distribution\-Algorithm} sgs.\-controller.\-simulation.\-Time\-Thread.\-get\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a640a7343c5123c59c0f9d72ed5bae3d5}
+\begin{DoxyReturn}{Returns}
+the currently used algorithm. 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!is\-Do\-Run@{is\-Do\-Run}}
+\index{is\-Do\-Run@{is\-Do\-Run}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{is\-Do\-Run}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-simulation.\-Time\-Thread.\-is\-Do\-Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a507fec7067389273059cf1535ff0dfb4}
+getter for boolean do\-Run \begin{DoxyReturn}{Returns}
+do\-Run value 
+\end{DoxyReturn}
+
+
+Definition at line 248 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!is\-Running@{is\-Running}}
+\index{is\-Running@{is\-Running}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{is\-Running}]{\setlength{\rightskip}{0pt plus 5cm}static boolean sgs.\-controller.\-simulation.\-Time\-Thread.\-is\-Running (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a04e6331dad1da069f22536dadc26737d}
+\begin{DoxyReturn}{Returns}
+true if algorithm is currently still doing something or should start to do something. 
+\end{DoxyReturn}
+
+
+Definition at line 131 of file Time\-Thread.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!run@{run}}
+\index{run@{run}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Time\-Thread.\-run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a6507d1cd731e226a9c550c272425d169}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & e if not possible File\-Chooser\-Controller.\-create\-C\-S\-V\-Controller \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 172 of file Time\-Thread.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!set\-Do\-Run@{set\-Do\-Run}}
+\index{set\-Do\-Run@{set\-Do\-Run}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{set\-Do\-Run}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Time\-Thread.\-set\-Do\-Run (
+\begin{DoxyParamCaption}
+\item[{boolean}]{do\-Run}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_aceb0274423f2635b57c9133ed7cad936}
+Setter for do\-Run Boolean 
+\begin{DoxyParams}{Parameters}
+{\em do\-Run} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 256 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!start\-Or\-Stop@{start\-Or\-Stop}}
+\index{start\-Or\-Stop@{start\-Or\-Stop}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{start\-Or\-Stop}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void sgs.\-controller.\-simulation.\-Time\-Thread.\-start\-Or\-Stop (
+\begin{DoxyParamCaption}
+\item[{boolean}]{start}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a057eb8af126cce41d5c79960824abf2f}
+Start or stop time thread.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 100 of file Time\-Thread.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!csv\-Controller@{csv\-Controller}}
+\index{csv\-Controller@{csv\-Controller}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{csv\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf C\-S\-V\-Controller} sgs.\-controller.\-simulation.\-Time\-Thread.\-csv\-Controller}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_abd1e353c5c69b1e9dad291d113d41e12}
+
+
+Definition at line 59 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!current\-Time@{current\-Time}}
+\index{current\-Time@{current\-Time}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{current\-Time}]{\setlength{\rightskip}{0pt plus 5cm}Gregorian\-Calendar sgs.\-controller.\-simulation.\-Time\-Thread.\-current\-Time}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a31563755fada2c65e118ab7df02deba1}
+simulation current time 
+
+Definition at line 48 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!current\-Weather@{current\-Weather}}
+\index{current\-Weather@{current\-Weather}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{current\-Weather}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Weather} sgs.\-controller.\-simulation.\-Time\-Thread.\-current\-Weather = new {\bf Weather}()}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a928e23ffdf86b95d503342a0c04a7beb}
+
+
+Definition at line 57 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!end\-Time@{end\-Time}}
+\index{end\-Time@{end\-Time}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{end\-Time}]{\setlength{\rightskip}{0pt plus 5cm}Gregorian\-Calendar sgs.\-controller.\-simulation.\-Time\-Thread.\-end\-Time}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a0ebd0a74406b2f4cf0a7389b767a6a68}
+simulation planned end 
+
+Definition at line 50 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!inter\-Sim\-Step\-Mili\-Sec@{inter\-Sim\-Step\-Mili\-Sec}}
+\index{inter\-Sim\-Step\-Mili\-Sec@{inter\-Sim\-Step\-Mili\-Sec}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{inter\-Sim\-Step\-Mili\-Sec}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-controller.\-simulation.\-Time\-Thread.\-inter\-Sim\-Step\-Mili\-Sec = 1000}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_ada0d013353f29066d2b335aec29fd0fe}
+Realtime between two simulationsteps 
+
+Definition at line 54 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!real\-Time@{real\-Time}}
+\index{real\-Time@{real\-Time}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{real\-Time}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-simulation.\-Time\-Thread.\-real\-Time = true}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a0369efed7941c53c48b3d390c8e647c3}
+true -\/$>$ run simulation slowly for user 
+
+Definition at line 44 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!simulation\-Resolution\-Minutes@{simulation\-Resolution\-Minutes}}
+\index{simulation\-Resolution\-Minutes@{simulation\-Resolution\-Minutes}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{simulation\-Resolution\-Minutes}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-controller.\-simulation.\-Time\-Thread.\-simulation\-Resolution\-Minutes = 60}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a5490c15de541357bc21d2de2158897ee}
+simulated time between two simulation steps in minutes, e.\-g. 1 hour = 60 
+
+Definition at line 52 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!slider\-Dialog@{slider\-Dialog}}
+\index{slider\-Dialog@{slider\-Dialog}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{slider\-Dialog}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Speed\-Changer} sgs.\-controller.\-simulation.\-Time\-Thread.\-slider\-Dialog}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_ac814812e5bfb249372131a1f91e460c0}
+
+
+Definition at line 64 of file Time\-Thread.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Time\-Thread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}!start\-Time@{start\-Time}}
+\index{start\-Time@{start\-Time}!sgs::controller::simulation::TimeThread@{sgs\-::controller\-::simulation\-::\-Time\-Thread}}
+\subsubsection[{start\-Time}]{\setlength{\rightskip}{0pt plus 5cm}Gregorian\-Calendar sgs.\-controller.\-simulation.\-Time\-Thread.\-start\-Time}\label{classsgs_1_1controller_1_1simulation_1_1_time_thread_a19b50cb2e3ab59b215f662ed7e261ea7}
+simulation start 
+
+Definition at line 46 of file Time\-Thread.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/{\bf Time\-Thread.\-java}\end{DoxyCompactItemize}

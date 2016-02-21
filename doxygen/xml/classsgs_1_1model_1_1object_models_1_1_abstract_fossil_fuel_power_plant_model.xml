@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model" kind="class" prot="public">
+    <compoundname>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractPowerPlantModel</basecompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model" prot="public" virt="non-virtual">sgs.model.objectModels.FossilFuelModel</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model_1a5021d8e642ebfb11d768f17be9eb5751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.objectModels.AbstractFossilFuelPowerPlantModel.AbstractFossilFuelPowerPlantModel</definition>
+        <argsstring>(FossilFuelPowerPlant powerplant)</argsstring>
+        <name>AbstractFossilFuelPowerPlantModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant" kindref="compound">FossilFuelPowerPlant</ref></type>
+          <declname>powerplant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractFossilFuelPowerPlantModel.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractFossilFuelPowerPlantModel.java" bodystart="11" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2451">
+        <label>sgs.model.objectModels.FossilFuelModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model"/>
+        <childnode refid="2448" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2450">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+      </node>
+      <node id="2448">
+        <label>sgs.model.objectModels.AbstractFossilFuelPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model"/>
+        <childnode refid="2449" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2449">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="2450" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2497">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="2489">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="2471">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="2463">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="2464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2461">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="2461" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="2458">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="2473">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="2474" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2475" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="2476" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="2471" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="2464" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="2477" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="2479" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="2480" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="2481" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="2482" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="2483" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="2501" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="2502" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="2465">
+        <label>GridObject</label>
+      </node>
+      <node id="2454">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="2455" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="2456" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="2475">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="2481">
+        <label>JFrame</label>
+      </node>
+      <node id="2470">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="2471" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="2470" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="2472" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="2456" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="2503">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="2466">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="2499">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="2498">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="2499" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="2500" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="2500">
+        <label>Random</label>
+      </node>
+      <node id="2483">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="2484" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2485" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="2495" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="2497" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="2498" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="2460">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="2480">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="2474">
+        <label>GridModel</label>
+      </node>
+      <node id="2459">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="2460" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2461" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+      </node>
+      <node id="2452">
+        <label>sgs.model.objectModels.AbstractFossilFuelPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model"/>
+        <childnode refid="2453" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2456">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="2457" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2458" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="2491">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="2493">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="2487">
+        <label>Application</label>
+      </node>
+      <node id="2462">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="2463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2494">
+        <label>File</label>
+      </node>
+      <node id="2469">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="2482">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="2502">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="2485">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="2486" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="2473" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="2490" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="2492" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="2489" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2488">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="2455">
+        <label>ImageIcon</label>
+      </node>
+      <node id="2492">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="2493" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="2494" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="2496">
+        <label>JDialog</label>
+      </node>
+      <node id="2490">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="2491" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="2489" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2484">
+        <label>Thread</label>
+      </node>
+      <node id="2467">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="2486">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="2487" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2488" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="2489" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2495">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="2496" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2478">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="2464">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2466" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2467" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2468" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="2454" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="2470" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="2473" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="2503" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="2456" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="2479">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="2457">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="2476">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="2468">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="2469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2453">
+        <label>sgs.model.objectModels.AbstractPowerPlantModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model"/>
+        <childnode refid="2454" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2459" relation="usage">
+          <edgelabel>powerProduction</edgelabel>
+          <edgelabel>ratedPower</edgelabel>
+        </childnode>
+        <childnode refid="2462" relation="usage">
+          <edgelabel>powerPlant</edgelabel>
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="2478" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="2501">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractFossilFuelPowerPlantModel.java" line="9" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractFossilFuelPowerPlantModel.java" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model_1a5021d8e642ebfb11d768f17be9eb5751" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>AbstractFossilFuelPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a010d71faa179084a4024888eba87fa69" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>AbstractPowerPlantModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>description</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getIcon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getModelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a86dd58f5fcf6e7b3038bcd12b47011bb" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5d597ca683c3f150bd2ab49a6e2e2e97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>getVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>icon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27" prot="protected" virt="pure-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>initVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>modelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a8930f9cfc3db27d0c36c27daf4f6180e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>powerPlant</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1aa696e160156ef992b43e7f0632dd7744" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>powerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1af9349e90d3e206f023dfa1605551bf22" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>ratedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a99233e916c14accd59b8891a74dcbb97" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a14d9ca1899b6be730ce8bca1f15fc41f" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>setRatedPower</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a5280690e14a78779cb2ee22d6a8ded98" prot="public" virt="virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>updateModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48" prot="protected" virt="pure-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>updateVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

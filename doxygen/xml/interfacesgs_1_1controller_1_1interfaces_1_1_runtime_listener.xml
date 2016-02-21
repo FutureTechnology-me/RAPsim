@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener" kind="interface" prot="public">
+    <compoundname>sgs::controller::interfaces::RuntimeListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener_1acf4cff611b79bf7d2e79333734c3e668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.interfaces.RuntimeListener.updateDateAndTime</definition>
+        <argsstring>(Weather currentWeather, GregorianCalendar currentTime)</argsstring>
+        <name>updateDateAndTime</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>currentWeather</declname>
+        </param>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>call, tells that current Weather and Time has Changed <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentWeather</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/RuntimeListener.java" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>watch over the interface </para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/RuntimeListener.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/RuntimeListener.java" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1controller_1_1interfaces_1_1_runtime_listener_1acf4cff611b79bf7d2e79333734c3e668" prot="public" virt="non-virtual"><scope>sgs::controller::interfaces::RuntimeListener</scope><name>updateDateAndTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

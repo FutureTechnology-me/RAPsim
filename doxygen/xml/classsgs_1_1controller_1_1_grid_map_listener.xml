@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_grid_map_listener" kind="class" prot="public">
+    <compoundname>sgs::controller::GridMapListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JGridMapEventListener</basecompoundref>
+    <innerclass refid="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key" prot="package">sgs::controller::GridMapListener::MouseKey</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1ae6a13632c564f849fecdb7dba4975079" prot="public" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser" kindref="compound">NetworkAnalyser</ref></type>
+        <definition>final NetworkAnalyser sgs.controller.GridMapListener.networkAnalyser</definition>
+        <argsstring></argsstring>
+        <name>networkAnalyser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NetworkAnalyser used </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a7a1ab908d7aea302b8b1af1fb1513634" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.GridMapListener.ctrlActivated</definition>
+        <argsstring></argsstring>
+        <name>ctrlActivated</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a3eabc341fe9d484deb1d3ef5e25db0df" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.GridMapListener.dragged</definition>
+        <argsstring></argsstring>
+        <name>dragged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a5e176954e6a139a1b3753201a7a249d5" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.GridMapListener.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a4a74fa6ad1ed1261535dcc7a8d401730" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.GridMapListener.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1ae1ac08f85e3c4f80051f183fb5b4d621" prot="private" static="no" mutable="no">
+        <type>final JFrame</type>
+        <definition>final JFrame sgs.controller.GridMapListener.view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a799873d129afa975b1405c53ab809077" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" kindref="compound">GridChangeListener</ref></type>
+        <definition>GridChangeListener sgs.controller.GridMapListener.gridChangeListenerAlgorithm</definition>
+        <argsstring></argsstring>
+        <name>gridChangeListenerAlgorithm</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_map_listener_1a6d10eb90759ac9bf6c069984d5cf0b3a" prot="package" static="no" mutable="no">
+        <type>MouseKey</type>
+        <definition>MouseKey sgs.controller.GridMapListener.actualKey</definition>
+        <argsstring></argsstring>
+        <name>actualKey</name>
+        <initializer>= NONE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a769f0c600a86d079c5851388df1f13bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.GridMapListener.GridMapListener</definition>
+        <argsstring>(GridController gridController, SgsGridModel gridModel, JFrame view)</argsstring>
+        <name>GridMapListener</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type>JFrame</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>view</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="57" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a8612d96f075adcd8a01c83123f8d290d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.handleJGridMapMouseEvent</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>handleJGridMapMouseEvent</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type JGRidMapEvent </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="70" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="70" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a467f74f6b28b5cca450c6e5871b8d63a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" kindref="compound">GridChangeListener</ref></type>
+        <definition>GridChangeListener sgs.controller.GridMapListener.setGridChangeListenerAlgorithm</definition>
+        <argsstring>(GridChangeListener algorithm)</argsstring>
+        <name>setGridChangeListenerAlgorithm</name>
+        <param>
+          <type><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" kindref="compound">GridChangeListener</ref></type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>last GridChangeListener </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="123" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1ac0c56612f2aa89cd528c0222ccfe5932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.handleJGridMapKeyBoardEvent</definition>
+        <argsstring>(JGridMapKeyEvent event)</argsstring>
+        <name>handleJGridMapKeyBoardEvent</name>
+        <param>
+          <type>JGridMapKeyEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="413" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="413" bodyend="493"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1aa3029daf5a6d0bca2032b2709692cdd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.gridChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stuff to do if the grid was changed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="134" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="134" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a370d595afcf84e0e811d2c1ec397cf53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.GridMapListener.isPlacementOk</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>isPlacementOk</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if placement is ok (only) regarding it&apos;s neighbors. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="147" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="147" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1aa37535c5f9bc9eb2563e86ce71432915" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.GridMapListener.isPowerLinePlaceMentOk</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>isPowerLinePlaceMentOk</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="171" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="171" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1ad3dbb6206ebf7974e4bcb20206708b21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.leftclick</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>leftclick</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="212" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="212" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1acae82cb42ceeccf4c56ed1dc64c97a83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.leftrelease</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>leftrelease</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="223" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="223" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1aef68c39fa23d955a186e45d8f7864ca6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.drag</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>drag</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="340" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="340" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1ae8c3df5fe95d47038d542e5aa3f11c09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.rightclick</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>rightclick</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="363" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="363" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a4e2d7d447fbdc644d049432b6233ed03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.rightrelease</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>rightrelease</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="375" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="375" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_map_listener_1a7f0b78f11d5edfe4d20610b9dfc25954" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.GridMapListener.rightDoubleRelease</definition>
+        <argsstring>(JGridMapMouseEvent e)</argsstring>
+        <name>rightDoubleRelease</name>
+        <param>
+          <type>JGridMapMouseEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="395" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="395" bodyend="410"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Handles all Grid Events (user interaction) directly. Works over the <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref>.</para><para><simplesect kind="author"><para>Tobi, Schweiger, Huber </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3388">
+        <label>JGridMapEventListener</label>
+      </node>
+      <node id="3387">
+        <label>sgs.controller.GridMapListener</label>
+        <link refid="classsgs_1_1controller_1_1_grid_map_listener"/>
+        <childnode refid="3388" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3392">
+        <label>sgs.controller.simulation.NetworkAnalyser</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_network_analyser"/>
+      </node>
+      <node id="3390">
+        <label>JGridMapEventListener</label>
+      </node>
+      <node id="3391">
+        <label>sgs.controller.GridMapListener.MouseKey</label>
+      </node>
+      <node id="3389">
+        <label>sgs.controller.GridMapListener</label>
+        <link refid="classsgs_1_1controller_1_1_grid_map_listener"/>
+        <childnode refid="3390" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3391" relation="usage">
+          <edgelabel>actualKey</edgelabel>
+        </childnode>
+        <childnode refid="3392" relation="usage">
+          <edgelabel>networkAnalyser</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="34" bodyend="501"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a6d10eb90759ac9bf6c069984d5cf0b3a" prot="package" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>actualKey</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a7a1ab908d7aea302b8b1af1fb1513634" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>ctrlActivated</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1aef68c39fa23d955a186e45d8f7864ca6" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>drag</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a3eabc341fe9d484deb1d3ef5e25db0df" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>dragged</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1aa3029daf5a6d0bca2032b2709692cdd4" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>gridChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a799873d129afa975b1405c53ab809077" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>gridChangeListenerAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a5e176954e6a139a1b3753201a7a249d5" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a769f0c600a86d079c5851388df1f13bf" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>GridMapListener</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a4a74fa6ad1ed1261535dcc7a8d401730" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1ac0c56612f2aa89cd528c0222ccfe5932" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>handleJGridMapKeyBoardEvent</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a8612d96f075adcd8a01c83123f8d290d" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>handleJGridMapMouseEvent</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a370d595afcf84e0e811d2c1ec397cf53" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>isPlacementOk</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1aa37535c5f9bc9eb2563e86ce71432915" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>isPowerLinePlaceMentOk</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1ad3dbb6206ebf7974e4bcb20206708b21" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>leftclick</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1acae82cb42ceeccf4c56ed1dc64c97a83" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>leftrelease</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1ae6a13632c564f849fecdb7dba4975079" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>networkAnalyser</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1ae8c3df5fe95d47038d542e5aa3f11c09" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>rightclick</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a7f0b78f11d5edfe4d20610b9dfc25954" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>rightDoubleRelease</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a4e2d7d447fbdc644d049432b6233ed03" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>rightrelease</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1a467f74f6b28b5cca450c6e5871b8d63a" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>setGridChangeListenerAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_map_listener_1ae1ac08f85e3c4f80051f183fb5b4d621" prot="private" virt="non-virtual"><scope>sgs::controller::GridMapListener</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

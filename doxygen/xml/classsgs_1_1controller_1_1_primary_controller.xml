@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_primary_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::PrimaryController</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_primary_controller_1ad55858838e2342e52a863d1d906b5c6b" prot="private" static="yes" mutable="no">
+        <type>FileManager</type>
+        <definition>FileManager sgs.controller.PrimaryController.fileManager</definition>
+        <argsstring></argsstring>
+        <name>fileManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the file manager for loading/saving data; static for providing a general and static exit method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_primary_controller_1a226984f57a9e9bbb290d14e4d25d133c" prot="private" static="yes" mutable="no">
+        <type>PrimaryView</type>
+        <definition>PrimaryView sgs.controller.PrimaryController.primaryView</definition>
+        <argsstring></argsstring>
+        <name>primaryView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the view; static for providing a general and static exit method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_primary_controller_1afafefb1801f88918448d50e5313b6f92" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.PrimaryController.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the model; final because it should never change </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_primary_controller_1a664fe46da0e9b0e95d57937343adda83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.PrimaryController.PrimaryController</definition>
+        <argsstring>(SgsGridModel gridModel, PrimaryView primaryView)</argsstring>
+        <name>PrimaryController</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type>PrimaryView</type>
+          <declname>primaryView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: Use the constructor only once, else there can be problems with static components.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>primaryView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="52" bodyend="115"/>
+        <references refid="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" compoundref="_program_constants_8java" startline="21">sgs.model.ProgramConstants.defaultSimulationFile</references>
+        <references refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" compoundref="_program_constants_8java" startline="24">sgs.model.ProgramConstants.parameterFile</references>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ad870f378fae7469b29d8786e7308b4a2" compoundref="_sgs_grid_model_8java" startline="101">sgs.model.SgsGridModel.programParameters</references>
+        <references refid="classsgs_1_1model_1_1_program_parameters_saved_1aaefc719f19975324e97f17d400649373" compoundref="_program_parameters_saved_8java" startline="44" endline="46">sgs.model.ProgramParametersSaved.isFirstStart</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_primary_controller_1a632d3c9fec15768a542751836f96c9d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>SgsGridModel sgs.controller.PrimaryController.getGridModel</definition>
+        <argsstring>()</argsstring>
+        <name>getGridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="147" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="147" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_primary_controller_1ac71e84782272d3d8b0e71bea2c8c13c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.controller.PrimaryController.exitProgramm</definition>
+        <argsstring>()</argsstring>
+        <name>exitProgramm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Static function for exit. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="121" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="121" bodyend="145"/>
+        <references refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" compoundref="_program_constants_8java" startline="24">sgs.model.ProgramConstants.parameterFile</references>
+        <references refid="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" compoundref="_program_constants_8java" startline="21">sgs.model.ProgramConstants.defaultSimulationFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Has full access to the View and the Model. (MVC)</para><para>Initializes the ColorLegendPanel</para><para>Starts and organizes other controllers: <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref> - grid interaction <ref refid="classsgs_1_1controller_1_1_button_controller" kindref="compound">ButtonController</ref> - buttons, user interaction TimeThread - simulation <ref refid="classsgs_1_1controller_1_1_menu_controller" kindref="compound">MenuController</ref> - menu, user interaction</para><para>Provides more general function: <ref refid="classsgs_1_1controller_1_1_primary_controller_1ac71e84782272d3d8b0e71bea2c8c13c4" kindref="member">exitProgramm()</ref></para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/PrimaryController.java" bodystart="34" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1ac71e84782272d3d8b0e71bea2c8c13c4" prot="public" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>exitProgramm</name></member>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1ad55858838e2342e52a863d1d906b5c6b" prot="private" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>fileManager</name></member>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1a632d3c9fec15768a542751836f96c9d5" prot="public" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>getGridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1afafefb1801f88918448d50e5313b6f92" prot="private" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1a664fe46da0e9b0e95d57937343adda83" prot="public" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>PrimaryController</name></member>
+      <member refid="classsgs_1_1controller_1_1_primary_controller_1a226984f57a9e9bbb290d14e4d25d133c" prot="private" virt="non-virtual"><scope>sgs::controller::PrimaryController</scope><name>primaryView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

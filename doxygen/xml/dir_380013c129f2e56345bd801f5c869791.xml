@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_380013c129f2e56345bd801f5c869791" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller/fileManagement/csvConstruction</compoundname>
+    <innerfile refid="_check_box_action_listener_8java">CheckBoxActionListener.java</innerfile>
+    <innerfile refid="_collections_tree_tab_8java">CollectionsTreeTab.java</innerfile>
+    <innerfile refid="_c_s_v_controller_8java">CSVController.java</innerfile>
+    <innerfile refid="_give_data_time_weather_8java">GiveDataTimeWeather.java</innerfile>
+    <innerfile refid="_object_tree_tab_8java">ObjectTreeTab.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/"/>
+  </compounddef>
+</doxygen>

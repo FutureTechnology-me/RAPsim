@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1variables_1_1collector" kind="namespace">
+    <compoundname>sgs::model::variables::collector</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection" prot="public">sgs::model::variables::collector::VariableCollection</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector" prot="public">sgs::model::variables::collector::VariableCollector</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg" prot="public">sgs::model::variables::collector::VariableCollectorAvg</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_max" prot="public">sgs::model::variables::collector::VariableCollectorMax</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min" prot="public">sgs::model::variables::collector::VariableCollectorMin</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum" prot="public">sgs::model::variables::collector::VariableCollectorSum</innerclass>
+    <innerclass refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" prot="public">sgs::model::variables::collector::VariableOwner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollection.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

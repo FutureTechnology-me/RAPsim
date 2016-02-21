@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_d8e0ecfa4b71fb9593f1fbdc9c261415" kind="dir">
+    <compoundname>RAPSim/src/sgs/controller/simulation/calculation</compoundname>
+    <innerfile refid="_gauss_seidel_p_f_solver_8java">GaussSeidelPFSolver.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/"/>
+  </compounddef>
+</doxygen>

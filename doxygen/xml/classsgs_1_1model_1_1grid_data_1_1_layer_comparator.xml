@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_data_1_1_layer_comparator" kind="class" prot="package">
+    <compoundname>sgs::model::gridData::LayerComparator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">java::util::Comparator&lt; Overlay &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_layer_comparator_1abb5bfe3ba5eb56c0504cb9549165f6a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.LayerComparator.compare</definition>
+        <argsstring>(Overlay a, Overlay b)</argsstring>
+        <name>compare</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Comparator for distinguishing the levels of Overlays. <simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3519">
+        <label>sgs.model.gridData.LayerComparator</label>
+        <childnode refid="3520" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3520">
+        <label>java::util::Comparator&lt;Overlay&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3521">
+        <label>sgs.model.gridData.LayerComparator</label>
+        <childnode refid="3522" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3522">
+        <label>java::util::Comparator&lt;Overlay&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="77" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="77" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_layer_comparator_1abb5bfe3ba5eb56c0504cb9549165f6a1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::LayerComparator</scope><name>compare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

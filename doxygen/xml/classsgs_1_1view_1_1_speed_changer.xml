@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_speed_changer" kind="class" prot="public">
+    <compoundname>sgs::view::SpeedChanger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1aea29e9ed683c5443573f52cb4a82fbd5" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.SpeedChanger.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1a2e174287479dd8844112900e308b29f9" prot="private" static="no" mutable="no">
+        <type>JSlider</type>
+        <definition>JSlider sgs.view.SpeedChanger.jSlider</definition>
+        <argsstring></argsstring>
+        <name>jSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1a824a951d4c987301199af8126c41885a" prot="private" static="no" mutable="no">
+        <type>final File</type>
+        <definition>final File sgs.view.SpeedChanger.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <initializer>= <ref refid="classsgs_1_1view_1_1_properties_dialog_1aeeb176ed1236fdaa3d1770a428063bb5" kindref="member">PropertiesDialog.getf</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1aa9990ddf45daef7f6495cadd386e944c" prot="private" static="no" mutable="no">
+        <type>final Dictionary&lt; Integer, JComponent &gt;</type>
+        <definition>final Dictionary&lt;Integer,JComponent&gt; sgs.view.SpeedChanger.labels</definition>
+        <argsstring></argsstring>
+        <name>labels</name>
+        <initializer>= new Hashtable&lt;Integer,JComponent&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1a5905248de83f91ae7f2a2e338ba872f4" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.view.SpeedChanger.isRunning</definition>
+        <argsstring></argsstring>
+        <name>isRunning</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_speed_changer_1aead5a504f34f42254a846efd974d9b2a" compoundref="_speed_changer_8java" startline="64" endline="207">sgs.view.SpeedChanger.SpeedChanger</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1a6c634525dddc0fa5bb5b3682f5359cf9" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.view.SpeedChanger.MIN</definition>
+        <argsstring></argsstring>
+        <name>MIN</name>
+        <initializer>=10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1view_1_1_speed_changer_1aead5a504f34f42254a846efd974d9b2a" compoundref="_speed_changer_8java" startline="64" endline="207">sgs.view.SpeedChanger.SpeedChanger</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_speed_changer_1a18eac91b0aa4c44561eba78c11985683" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.view.SpeedChanger.MAX</definition>
+        <argsstring></argsstring>
+        <name>MAX</name>
+        <initializer>=40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_speed_changer_1aead5a504f34f42254a846efd974d9b2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.SpeedChanger.SpeedChanger</definition>
+        <argsstring>(final TimeThread timeThread)</argsstring>
+        <name>SpeedChanger</name>
+        <param>
+          <type>final <ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+          <declname>timeThread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="64" bodyend="207"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ada3b79b029e40e88b05513dbcd17f573" compoundref="_sgs_grid_model_8java" startline="41">sgs.model.SgsGridModel.mainView</references>
+        <references refid="classsgs_1_1view_1_1_speed_changer_1a5905248de83f91ae7f2a2e338ba872f4" compoundref="_speed_changer_8java" startline="51">sgs.view.SpeedChanger.isRunning</references>
+        <references refid="classsgs_1_1view_1_1_speed_changer_1a6c634525dddc0fa5bb5b3682f5359cf9" compoundref="_speed_changer_8java" startline="56">sgs.view.SpeedChanger.MIN</references>
+        <references refid="classsgs_1_1view_1_1_speed_changer_1a10c59bfd4b3b5d12eeaef62f280f87a4" compoundref="_speed_changer_8java" startline="209" endline="213">sgs.view.SpeedChanger.mapedValue</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_speed_changer_1a10c59bfd4b3b5d12eeaef62f280f87a4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.view.SpeedChanger.mapedValue</definition>
+        <argsstring>(double expValue)</argsstring>
+        <name>mapedValue</name>
+        <param>
+          <type>double</type>
+          <declname>expValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="209" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="209" bodyend="213"/>
+        <referencedby refid="classsgs_1_1view_1_1_speed_changer_1aead5a504f34f42254a846efd974d9b2a" compoundref="_speed_changer_8java" startline="64" endline="207">sgs.view.SpeedChanger.SpeedChanger</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This code was edited or generated using CloudGarden&apos;s Jigloo SWT/Swing GUI Builder, which is free for non-commercial use. If Jigloo is being used commercially (ie, by a corporation, company or business for any purpose whatever) then you should purchase a license for each developer using Jigloo. Please visit www.cloudgarden.com for details. Use of Jigloo implies acceptance of these licensing terms. A COMMERCIAL LICENSE HAS NOT BEEN PURCHASED FOR THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE.</para><para><simplesect kind="author"><para>Tobi, Schweiger, Huber, Pöchacker </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4281">
+        <label>JDialog</label>
+      </node>
+      <node id="4280">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4283">
+        <label>JDialog</label>
+      </node>
+      <node id="4282">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/SpeedChanger.java" bodystart="46" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a824a951d4c987301199af8126c41885a" prot="private" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>f</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a5905248de83f91ae7f2a2e338ba872f4" prot="public" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>isRunning</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a2e174287479dd8844112900e308b29f9" prot="private" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>jSlider</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1aa9990ddf45daef7f6495cadd386e944c" prot="private" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>labels</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a10c59bfd4b3b5d12eeaef62f280f87a4" prot="protected" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>mapedValue</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a18eac91b0aa4c44561eba78c11985683" prot="package" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>MAX</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1a6c634525dddc0fa5bb5b3682f5359cf9" prot="public" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>MIN</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1aea29e9ed683c5443573f52cb4a82fbd5" prot="private" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_speed_changer_1aead5a504f34f42254a846efd974d9b2a" prot="public" virt="non-virtual"><scope>sgs::view::SpeedChanger</scope><name>SpeedChanger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

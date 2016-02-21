@@ -1,0 +1,21 @@
+digraph "sgs.model.variables.NumericValue.getImaginary"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.variables.Numeric\lValue.getImaginary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.model.gridObjects.Smart\lGridObject.setCurrentVoltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object.html#ae46e489d906d0d7965e6d6a4253eeadc"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.model.simulation.Bus.get\lBusVoltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1simulation_1_1_bus.html#a5c64f26a94e79f70ef372a535d94dae0"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sgs.model.variables.Numeric\lValue.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#abe757864eb97592e2a2292e1fb264829"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sgs.model.variables.Numeric\lValue.subtract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#ae1012188c65ac61454a190eaa2f442fc"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="sgs.model.variables.Numeric\lValue.multiply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#ab502ae22f5d9d2f38629b2c13704410f"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sgs.model.variables.Numeric\lValue.divide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_numeric_value.html#a9488498e975f1d24933582c4e893696a"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sgs.model.variables.String\lValue.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1variables_1_1_string_value.html#a0cd82d2ad64d37991c8ff2cb2ad42eaa"];
+}

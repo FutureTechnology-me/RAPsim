@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_date_and_time_panel" kind="class" prot="package">
+    <compoundname>sgs::view::DateAndTimePanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_date_and_time_panel_1a1ca5d6f14b871942f2fb2ea29cd4db12" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.DateAndTimePanel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="90" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_date_and_time_panel_1a76b8cd238581b339d643ca09dbcfeb5b" prot="protected" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.DateAndTimePanel.timeLabel</definition>
+        <argsstring></argsstring>
+        <name>timeLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_date_and_time_panel_1a265cf1c5163401631ea075a85a277562" prot="protected" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.DateAndTimePanel.weatherLabel1</definition>
+        <argsstring></argsstring>
+        <name>weatherLabel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="92" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_date_and_time_panel_1a1e05e1422424e65f9d7dd860b6991f68" prot="protected" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.DateAndTimePanel.weatherLabel2</definition>
+        <argsstring></argsstring>
+        <name>weatherLabel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="93" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_date_and_time_panel_1a9339998e64c0f4e714bcd331863debaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.DateAndTimePanel.DateAndTimePanel</definition>
+        <argsstring>()</argsstring>
+        <name>DateAndTimePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="96" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="96" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_date_and_time_panel_1a8ecd596ac36d6514ffacfc2876f9cdf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.DateAndTimePanel.initDateAndTime</definition>
+        <argsstring>()</argsstring>
+        <name>initDateAndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize time and weather label </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="107" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="107" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3163">
+        <label>JPanel</label>
+      </node>
+      <node id="3162">
+        <label>sgs.view.DateAndTimePanel</label>
+        <childnode refid="3163" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3165">
+        <label>JPanel</label>
+      </node>
+      <node id="3166">
+        <label>JLabel</label>
+      </node>
+      <node id="3164">
+        <label>sgs.view.DateAndTimePanel</label>
+        <childnode refid="3165" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3166" relation="usage">
+          <edgelabel>weatherLabel1</edgelabel>
+          <edgelabel>weatherLabel2</edgelabel>
+          <edgelabel>timeLabel</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="88" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="88" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a9339998e64c0f4e714bcd331863debaa" prot="public" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>DateAndTimePanel</name></member>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a8ecd596ac36d6514ffacfc2876f9cdf1" prot="private" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>initDateAndTime</name></member>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a1ca5d6f14b871942f2fb2ea29cd4db12" prot="private" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a76b8cd238581b339d643ca09dbcfeb5b" prot="protected" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>timeLabel</name></member>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a265cf1c5163401631ea075a85a277562" prot="protected" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>weatherLabel1</name></member>
+      <member refid="classsgs_1_1view_1_1_date_and_time_panel_1a1e05e1422424e65f9d7dd860b6991f68" prot="protected" virt="non-virtual"><scope>sgs::view::DateAndTimePanel</scope><name>weatherLabel2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

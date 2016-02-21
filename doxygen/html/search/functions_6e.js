@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['name',['name',['../classsgs_1_1model_1_1variables_1_1_single_variable.html#a6b227ad216f90a6b340e9d5b479433b7',1,'sgs::model::variables::SingleVariable']]],
+  ['networkanalyser',['NetworkAnalyser',['../classsgs_1_1controller_1_1simulation_1_1_network_analyser.html#aaa27b8d3e28d17e6a4f2167ba05467ae',1,'sgs::controller::simulation::NetworkAnalyser']]],
+  ['newcloudfactor',['newCloudFactor',['../classsgs_1_1controller_1_1simulation_1_1_weather.html#af8700c1c089fd43cb89b2d0912b086ed',1,'sgs::controller::simulation::Weather']]],
+  ['newwindspeed',['newWindSpeed',['../classsgs_1_1controller_1_1simulation_1_1_weather.html#a18f222b2a64bbb3191995b82543d6b28',1,'sgs::controller::simulation::Weather']]],
+  ['nrofimages',['nrOfImages',['../enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum.html#a6123a369edb12fff72f9d66ada75f6d1',1,'sgs::model::gridData::GridDataEnum']]],
+  ['numericvalue',['NumericValue',['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#a75b5e86e8fbfa8a073c0db6423657744',1,'sgs.model.variables.NumericValue.NumericValue()'],['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#aee225d937bd78a5b642a3b564eac74f5',1,'sgs.model.variables.NumericValue.NumericValue(double real)'],['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#ab2710a3b9daceb85f28a728d8888ef1c',1,'sgs.model.variables.NumericValue.NumericValue(double real, double imaginary)'],['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#ad555efe83158bbc54259688c5a0ae1c5',1,'sgs.model.variables.NumericValue.NumericValue(Complex c)'],['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#a4697714a8e3147af4c56adb1f5f3d71d',1,'sgs.model.variables.NumericValue.NumericValue(NumericValue n)'],['../classsgs_1_1model_1_1variables_1_1_numeric_value.html#ac99fe155032ef15c0d14fc8cf7d8de5b',1,'sgs.model.variables.NumericValue.NumericValue(String complexValue)']]]
+];

@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::calculation::GaussSeidelPFSolver</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1aec75f9835e72cad6b136c007a80e3862" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.controller.simulation.calculation.GaussSeidelPFSolver.Y[][]</definition>
+        <argsstring>[][]</argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a1f236ca328a1b081e35f1b0cafc7d299" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.controller.simulation.calculation.GaussSeidelPFSolver.P[]</definition>
+        <argsstring>[]</argsstring>
+        <name>P</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1adfa6f7d122be1ea0eb1a46eba33878fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.controller.simulation.calculation.GaussSeidelPFSolver.U[]</definition>
+        <argsstring>[]</argsstring>
+        <name>U</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a7fa80940e3ab888e0ed8c34228b2c09b" prot="private" static="no" mutable="no">
+        <type>ACPowerFlowCalculator.busTypes[]</type>
+        <definition>ACPowerFlowCalculator.busTypes [] sgs.controller.simulation.calculation.GaussSeidelPFSolver.busTypes</definition>
+        <argsstring></argsstring>
+        <name>busTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a3fc9a28222a8b2f315b7804e3627149b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.simulation.calculation.GaussSeidelPFSolver.noOfBuses</definition>
+        <argsstring></argsstring>
+        <name>noOfBuses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a528d46230aec95138986737dab8efcd6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.simulation.calculation.GaussSeidelPFSolver.swingIndex</definition>
+        <argsstring></argsstring>
+        <name>swingIndex</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a4be13071988f186285c6d3daba9436b4" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.calculation.GaussSeidelPFSolver.errorMessageSend</definition>
+        <argsstring></argsstring>
+        <name>errorMessageSend</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a818c1d9ad51735e4a0567288bf469bda" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.calculation.GaussSeidelPFSolver.confergenceAcuracy</definition>
+        <argsstring></argsstring>
+        <name>confergenceAcuracy</name>
+        <initializer>= 1e-6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a71e7027d849020126d91878489343479" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.simulation.calculation.GaussSeidelPFSolver.maximumIterations</definition>
+        <argsstring></argsstring>
+        <name>maximumIterations</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a6416fba5f2cacbd59908935d0a6b9870" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.calculation.GaussSeidelPFSolver.scaleFactor</definition>
+        <argsstring></argsstring>
+        <name>scaleFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a8b0f7e9aa45c3cc6ede9d63441087a88" prot="private" static="yes" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.controller.simulation.calculation.GaussSeidelPFSolver.DEFAULT_VALUE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_VALUE</name>
+        <initializer>= new <ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>(1.0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a2682e1c02e4da8c81cfe2b564608d1cf" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double sgs.controller.simulation.calculation.GaussSeidelPFSolver.d2r</definition>
+        <argsstring></argsstring>
+        <name>d2r</name>
+        <initializer>= Math.PI / 180</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ae7a9a6b16f8d44a896e88c1c72f428b6" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double sgs.controller.simulation.calculation.GaussSeidelPFSolver.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <initializer>= 100 * Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ab8099e3b3463fb0e2f44ee1b5a8adef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.calculation.GaussSeidelPFSolver.GaussSeidelPFSolver</definition>
+        <argsstring>()</argsstring>
+        <name>GaussSeidelPFSolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="47" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a35f6a94d7c78c81132babb0ca1f942b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.solve</definition>
+        <argsstring>()</argsstring>
+        <name>solve</name>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Solves the AC-Power-Flow Problem by using the iterative Gauss-Seidel-Method Bus-Voltage is set to 1.0 initial For every load bus, the voltage is calculated For every generator bus, the Voltage angle and Reactive Power are calculated For every reference bus, real and reactive power are calculated <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="66" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="66" bodyend="271"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1a67b3d7415b97441e6873dd0a7baf2faa" compoundref="_numeric_value_8java" startline="303" endline="305">sgs.model.variables.NumericValue.copy</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_numeric_value_1ae39843020dfa0a5bfdc490cdf7a85759" compoundref="_numeric_value_8java" startline="177" endline="182">sgs.model.variables.NumericValue.abs</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a78004a3bc133cf3928e9f5114f387bd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.calculation.GaussSeidelPFSolver.getScaleFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getScaleFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="273" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="273" bodyend="275"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a1569a315894a8199f05fb3095766df45" compoundref="_a_c_power_flow_calculator_8java" startline="133" endline="219">sgs.controller.simulation.ACPowerFlowCalculator.calculationStep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a2d65e3c54922fb422258ffffc5562370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.setAdmittanceMatrix</definition>
+        <argsstring>(NumericValue[][] y)</argsstring>
+        <name>setAdmittanceMatrix</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>y</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="336" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="336" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1adc2e566689f6f55e90dc879a07ad7201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[][]</type>
+        <definition>NumericValue [][] sgs.controller.simulation.calculation.GaussSeidelPFSolver.getAdmittanceMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getAdmittanceMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="340" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="340" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a8dcd9343442752fc31efdd3618eca8b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.setPowerVector</definition>
+        <argsstring>(NumericValue[] pq)</argsstring>
+        <name>setPowerVector</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+          <declname>pq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="344" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="344" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a12238d4c7b04aa204f1b2c5c31d5b412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+        <definition>NumericValue [] sgs.controller.simulation.calculation.GaussSeidelPFSolver.getPowerVector</definition>
+        <argsstring>()</argsstring>
+        <name>getPowerVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="349" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="349" bodyend="351"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a1569a315894a8199f05fb3095766df45" compoundref="_a_c_power_flow_calculator_8java" startline="133" endline="219">sgs.controller.simulation.ACPowerFlowCalculator.calculationStep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ac9785132e71cc24be975caaa33ed4577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.setVoltageVector</definition>
+        <argsstring>(NumericValue[] u2)</argsstring>
+        <name>setVoltageVector</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+          <declname>u2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="353" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="353" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a50a278d035483bab10019f0badf097e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+        <definition>NumericValue [] sgs.controller.simulation.calculation.GaussSeidelPFSolver.getVoltageVector</definition>
+        <argsstring>()</argsstring>
+        <name>getVoltageVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="358" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="358" bodyend="360"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a1569a315894a8199f05fb3095766df45" compoundref="_a_c_power_flow_calculator_8java" startline="133" endline="219">sgs.controller.simulation.ACPowerFlowCalculator.calculationStep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1af7e05119ed5471938699734f3a0dcf09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.setBusTypes</definition>
+        <argsstring>(ACPowerFlowCalculator.busTypes[] bT)</argsstring>
+        <name>setBusTypes</name>
+        <param>
+          <type>ACPowerFlowCalculator.busTypes[]</type>
+          <declname>bT</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="362" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ace2a648ebed5d520f5be06a05acb86a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ACPowerFlowCalculator.busTypes[]</type>
+        <definition>ACPowerFlowCalculator.busTypes [] sgs.controller.simulation.calculation.GaussSeidelPFSolver.getBusTypes</definition>
+        <argsstring>()</argsstring>
+        <name>getBusTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>busTypes </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="371" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="371" bodyend="373"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1aaaa812361e569ff7ce432bf0a03bbc35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgs.controller.simulation.calculation.GaussSeidelPFSolver.calcScaleExponent</definition>
+        <argsstring>()</argsstring>
+        <name>calcScaleExponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>cnt </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="281" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="281" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ad3c01bd769dc3d122747420512c73e1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.calculation.GaussSeidelPFSolver.writeBackPandU</definition>
+        <argsstring>(NumericValue[] p, NumericValue[] u)</argsstring>
+        <name>writeBackPandU</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>[]</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>u</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="302" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="302" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a563f7cdee434d923bc4b193056b83bf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.controller.simulation.calculation.GaussSeidelPFSolver.roundCtoNumVal</definition>
+        <argsstring>(NumericValue value)</argsstring>
+        <name>roundCtoNumVal</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>NumericValue(tmp) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="329" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="329" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is used to solve the AC-power flow problem according the Gauss-Seidel method. It needs vectors for power P, voltage V, busTypes and the admittance matrix Y.</para><para><simplesect kind="author"><para>Lukas Felician Krasel, Manfred Pöchacker </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maximumIterations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gives number of steps when solver is terminated in case convergenceAcuracy can not be reached </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>convergenceAcuracy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the accuracy requirenmet that iteration can be stopped </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/calculation/GaussSeidelPFSolver.java" bodystart="20" bodyend="375"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a7fa80940e3ab888e0ed8c34228b2c09b" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>busTypes</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1aaaa812361e569ff7ce432bf0a03bbc35" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>calcScaleExponent</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a818c1d9ad51735e4a0567288bf469bda" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>confergenceAcuracy</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a2682e1c02e4da8c81cfe2b564608d1cf" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>d2r</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a8b0f7e9aa45c3cc6ede9d63441087a88" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>DEFAULT_VALUE</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a4be13071988f186285c6d3daba9436b4" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>errorMessageSend</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ab8099e3b3463fb0e2f44ee1b5a8adef5" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>GaussSeidelPFSolver</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1adc2e566689f6f55e90dc879a07ad7201" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>getAdmittanceMatrix</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ace2a648ebed5d520f5be06a05acb86a4" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>getBusTypes</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a12238d4c7b04aa204f1b2c5c31d5b412" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>getPowerVector</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a78004a3bc133cf3928e9f5114f387bd3" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>getScaleFactor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a50a278d035483bab10019f0badf097e9" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>getVoltageVector</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a71e7027d849020126d91878489343479" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>maximumIterations</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a3fc9a28222a8b2f315b7804e3627149b" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>noOfBuses</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a1f236ca328a1b081e35f1b0cafc7d299" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>P</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a563f7cdee434d923bc4b193056b83bf1" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>roundCtoNumVal</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a6416fba5f2cacbd59908935d0a6b9870" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>scaleFactor</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a2d65e3c54922fb422258ffffc5562370" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>setAdmittanceMatrix</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1af7e05119ed5471938699734f3a0dcf09" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>setBusTypes</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a8dcd9343442752fc31efdd3618eca8b2" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>setPowerVector</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ac9785132e71cc24be975caaa33ed4577" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>setVoltageVector</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a35f6a94d7c78c81132babb0ca1f942b7" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>solve</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1a528d46230aec95138986737dab8efcd6" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>swingIndex</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1adfa6f7d122be1ea0eb1a46eba33878fb" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>U</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ae7a9a6b16f8d44a896e88c1c72f428b6" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>w</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1ad3c01bd769dc3d122747420512c73e1b" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>writeBackPandU</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1calculation_1_1_gauss_seidel_p_f_solver_1aec75f9835e72cad6b136c007a80e3862" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::calculation::GaussSeidelPFSolver</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

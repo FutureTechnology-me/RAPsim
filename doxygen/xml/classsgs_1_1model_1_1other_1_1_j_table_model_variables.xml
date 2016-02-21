@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1other_1_1_j_table_model_variables" kind="class" prot="public">
+    <compoundname>sgs::model::other::JTableModelVariables</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractTableModel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a7bf56d15937c20c226e099c31eb66532" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.model.other.JTableModelVariables.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a1d7e87fa006fc306500bf705b3f8fead" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.other.JTableModelVariables.variableSet</definition>
+        <argsstring></argsstring>
+        <name>variableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1afe6e244f71e6378135fa0981bce51219" prot="private" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] sgs.model.other.JTableModelVariables.columnNames</definition>
+        <argsstring></argsstring>
+        <name>columnNames</name>
+        <initializer>= new String[] {&quot;Name&quot;, &quot;Value&quot;, &quot;Unit&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1adc3ba748bc9352f24cc30c17ad004e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.other.JTableModelVariables.JTableModelVariables</definition>
+        <argsstring>(JTable table, VariableSet variableSet)</argsstring>
+        <name>JTableModelVariables</name>
+        <param>
+          <type>JTable</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>variableSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a4616f0143db2beb6e8af53e10396fcfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.other.JTableModelVariables.getColumnCount</definition>
+        <argsstring>()</argsstring>
+        <name>getColumnCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a86ccb774b791773fd56df8c81497afd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.other.JTableModelVariables.getColumnName</definition>
+        <argsstring>(int col)</argsstring>
+        <name>getColumnName</name>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter, <simplesect kind="return"><para>column name </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a9df7bfff372cf1197f310a50193f65d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.other.JTableModelVariables.getRowCount</definition>
+        <argsstring>()</argsstring>
+        <name>getRowCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1ad4698d5712f8dffebfb93f85f600b6f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.other.JTableModelVariables.setValueAt</definition>
+        <argsstring>(Object aValue, int row, int col)</argsstring>
+        <name>setValueAt</name>
+        <param>
+          <type>Object</type>
+          <declname>aValue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1ae318563b0677db7285a497b70a9deda9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object sgs.model.other.JTableModelVariables.getValueAt</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>getValueAt</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="56" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1aa936f2a07b8cc500b803299c2428ea1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.other.JTableModelVariables.getVariableAt</definition>
+        <argsstring>(int row)</argsstring>
+        <name>getVariableAt</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1abb21fa1a6fd3e27c853c821ed4537576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.other.JTableModelVariables.isCellEditable</definition>
+        <argsstring>(int row, int column)</argsstring>
+        <name>isCellEditable</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="80" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="80" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>TableModel for SGS. Should have advanced configurations of editable fields later. // TODO //</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3512">
+        <label>AbstractTableModel</label>
+      </node>
+      <node id="3511">
+        <label>sgs.model.other.JTableModelVariables</label>
+        <link refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables"/>
+        <childnode refid="3512" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3514">
+        <label>AbstractTableModel</label>
+      </node>
+      <node id="3513">
+        <label>sgs.model.other.JTableModelVariables</label>
+        <link refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables"/>
+        <childnode refid="3514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelVariables.java" bodystart="15" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1afe6e244f71e6378135fa0981bce51219" prot="private" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>columnNames</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a4616f0143db2beb6e8af53e10396fcfe" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>getColumnCount</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a86ccb774b791773fd56df8c81497afd5" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>getColumnName</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a9df7bfff372cf1197f310a50193f65d8" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>getRowCount</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1ae318563b0677db7285a497b70a9deda9" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>getValueAt</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1aa936f2a07b8cc500b803299c2428ea1a" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>getVariableAt</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1abb21fa1a6fd3e27c853c821ed4537576" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>isCellEditable</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1adc3ba748bc9352f24cc30c17ad004e7a" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>JTableModelVariables</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a7bf56d15937c20c226e099c31eb66532" prot="private" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1ad4698d5712f8dffebfb93f85f600b6f4" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>setValueAt</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_variables_1a1d7e87fa006fc306500bf705b3f8fead" prot="private" virt="non-virtual"><scope>sgs::model::other::JTableModelVariables</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

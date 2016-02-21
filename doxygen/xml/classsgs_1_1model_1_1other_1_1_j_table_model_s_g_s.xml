@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s" kind="class" prot="public">
+    <compoundname>sgs::model::other::JTableModelSGS</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DefaultTableModel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1aec4ef3d4020941f52c78a6597815df05" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.model.other.JTableModelSGS.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1ac2f096f7d9055a15788ed096754a2328" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.other.JTableModelSGS.JTableModelSGS</definition>
+        <argsstring>(Object[][] data, Object[] columnNames)</argsstring>
+        <name>JTableModelSGS</name>
+        <param>
+          <type>Object</type>
+          <declname>data</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>Object[]</type>
+          <declname>columnNames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1a1d8e41a19d45a471027edfb22244616e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.other.JTableModelSGS.isCellEditable</definition>
+        <argsstring>(int row, int column)</argsstring>
+        <name>isCellEditable</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" bodystart="21" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>TableModel for SGS. Should have advanced configurations of editable fields later. // TODO //</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3507">
+        <label>sgs.model.other.JTableModelSGS</label>
+        <link refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s"/>
+        <childnode refid="3508" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3508">
+        <label>DefaultTableModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3509">
+        <label>sgs.model.other.JTableModelSGS</label>
+        <link refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s"/>
+        <childnode refid="3510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3510">
+        <label>DefaultTableModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/JTableModelSGS.java" bodystart="11" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1a1d8e41a19d45a471027edfb22244616e" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelSGS</scope><name>isCellEditable</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1ac2f096f7d9055a15788ed096754a2328" prot="public" virt="non-virtual"><scope>sgs::model::other::JTableModelSGS</scope><name>JTableModelSGS</name></member>
+      <member refid="classsgs_1_1model_1_1other_1_1_j_table_model_s_g_s_1aec4ef3d4020941f52c78a6597815df05" prot="private" virt="non-virtual"><scope>sgs::model::other::JTableModelSGS</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

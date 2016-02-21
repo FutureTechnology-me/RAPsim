@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::_TestingAlgorithm</compoundname>
+    <basecompoundref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" prot="public" virt="non-virtual">sgs.controller.simulation.AbstractDistributionAlgorithm</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a15718a48320595b26a34010ce069329e" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.simulation._TestingAlgorithm.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1afe04626c7fb0ea725ca1a61f2a56d1d8" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.simulation._TestingAlgorithm.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a08957ba7254369dba1de412ab37c34ed" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long sgs.controller.simulation._TestingAlgorithm.calcCount</definition>
+        <argsstring></argsstring>
+        <name>calcCount</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a2a665e54a2da5ffd6d65d8bab59f50ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation._TestingAlgorithm._TestingAlgorithm</definition>
+        <argsstring>(GridController gridController)</argsstring>
+        <name>_TestingAlgorithm</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for reflection. Must (only) use parameter <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1aa48f24c53659c9142c48ce6a02d40b54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.initializeAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>initializeAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="32" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1ae9cccb9df63ca93edd420fbda2d9a208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.gridChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridChanged</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a1448c4593f3a851aa5e524b7e4316c0d">gridChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is called if the Grid is modified. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a356829b6b1de6fccefe03454e004d448" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.calculationStep</definition>
+        <argsstring>()</argsstring>
+        <name>calculationStep</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac4c9507877dc020250921cddc16ba2ef">calculationStep</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate grid for one simulation step. <blockquote><para>Buses and Paths are locked before. Grid/View-Repaint is automatically called after the function. </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="62" bodyend="71"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1a49f2ed942c2558a214b6f197e0899aa5" compoundref="_sgs_grid_model_8java" startline="50">sgs.model.SgsGridModel.gridObjectList</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a3052597c1c8927c07c57e6f52617aa3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>String</type>
+        <definition>String sgs.controller.simulation._TestingAlgorithm.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1afb5870e926bf78477e3d31ae34ab9432">getDescription</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>description of the specific algorithm used for the &quot;Info&quot; button </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a0e7fca22dca2f386a6925cd51e6af715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.simulationStarted</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStarted</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a38463f403753d238505c4db484394650">simulationStarted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a LOG file if one is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="84" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a53d6f28a1557802b95dcdcd17b436330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.simulationStopped</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStopped</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a665185f0afb464260b8237a0fb43846a">simulationStopped</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="89" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.setPropertiesForVariables</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForVariables</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac2928692dc590133f3373ce29fb333fc">setPropertiesForVariables</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the algorithm specific variables with help of the super class methods. <simplesect kind="see"><para><ref refid="" kindref="compound">selectClass(Class)</ref>, <ref refid="" kindref="compound">setProperties(boolean,boolean,EnumPV[])</ref>, <ref refid="" kindref="compound">initializeVariables()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="46" bodyend="53"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a53cb9460ed9e7652da700abf7d111dc6" compoundref="_enum_p_v_8java" startline="24">sgs.model.variables.EnumPV.maxPowerTransport</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" compoundref="_enum_p_v_8java" startline="15">sgs.model.variables.EnumPV.powerProductionOptimal</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1acf7e7fa02026b6990f939938e9c7868a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.setPropertiesForBusAndPath</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForBusAndPath</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ae6eb61da1d9e7259cf934108bce0f4db">setPropertiesForBusAndPath</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classsgs_1_1model_1_1_sgs_grid_model_1a44245cedb90ee93a539e1b095a042776" kindref="member">SgsGridModel.resistanceAttributes</ref>, busVariableCollection, pathVariableCollection if used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a5182855a5fb5bccf9ddb5efc3b640cb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation._TestingAlgorithm.unloadAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>unloadAlgorithm</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a3458f6694fbfac2ccbb686749eaae2c0">unloadAlgorithm</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Free external resources used by this algorithm. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2260">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="2261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2259">
+        <label>sgs.controller.simulation._TestingAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm"/>
+        <childnode refid="2260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2261">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2263">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="2264" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2265" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="2262">
+        <label>sgs.controller.simulation._TestingAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm"/>
+        <childnode refid="2263" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2264">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+      <node id="2265">
+        <label>OutputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/_TestingAlgorithm.java" bodystart="13" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a2a665e54a2da5ffd6d65d8bab59f50ae" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>_TestingAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ad7d52c1647f862aa01232a5930044dbe" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>AbstractDistributionAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a08957ba7254369dba1de412ab37c34ed" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>calcCount</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a356829b6b1de6fccefe03454e004d448" prot="public" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>calculationStep</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>closeLog</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a79f480bfda7396c6043ef4ef4b0f6c78" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>description</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a2dfe9c574dde7d3ee10d46b106929830" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>generateList</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a3052597c1c8927c07c57e6f52617aa3a" prot="public" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a45b56e832736dde35a35af8827c3a1dc" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>getName</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1ae9cccb9df63ca93edd420fbda2d9a208" prot="public" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>gridChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a15718a48320595b26a34010ce069329e" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1afe04626c7fb0ea725ca1a61f2a56d1d8" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1aa48f24c53659c9142c48ce6a02d40b54" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>initializeAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac713997f4092fbb4c687f18978095cb9" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>initializeFull</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a0f79de668e228b3d47319c70af85c9e3" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a647ef6cec86956a575772e303f1018a9" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>selectClass</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>setDefaultPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a68eee367fab4fbf191d571648de50ea5" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1acf7e7fa02026b6990f939938e9c7868a" prot="protected" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>setPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" prot="protected" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>setPropertiesForVariables</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a0e7fca22dca2f386a6925cd51e6af715" prot="public" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>simulationStarted</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a53d6f28a1557802b95dcdcd17b436330" prot="public" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>simulationStopped</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a5182855a5fb5bccf9ddb5efc3b640cb0" prot="protected" virt="virtual"><scope>sgs::controller::simulation::_TestingAlgorithm</scope><name>unloadAlgorithm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

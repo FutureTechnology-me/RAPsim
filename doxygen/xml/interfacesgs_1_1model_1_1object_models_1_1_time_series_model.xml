@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" kind="interface" prot="public">
+    <compoundname>sgs::model::objectModels::TimeSeriesModel</compoundname>
+    <derivedcompoundref refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model" prot="public" virt="non-virtual">sgs.model.objectModels.ResidentialAverageLoadCurveModel</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ace832f1b64c5cfe2563ed90867b05af2" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.TimeSeriesModel.PERIOD_DAILY</definition>
+        <argsstring></argsstring>
+        <name>PERIOD_DAILY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="8" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a08de046ef27ce3e3336469860364a3fa" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.TimeSeriesModel.PERIOD_WEEKLY</definition>
+        <argsstring></argsstring>
+        <name>PERIOD_WEEKLY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="9" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a696c830ff94799a4beaafd8cf62c5859" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.TimeSeriesModel.PERIOD_MONTHLY</definition>
+        <argsstring></argsstring>
+        <name>PERIOD_MONTHLY</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ae4616ed0cae9e59483cd413cde8baa39" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.TimeSeriesModel.PERIOD_ANNUALY</definition>
+        <argsstring></argsstring>
+        <name>PERIOD_ANNUALY</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ac37085aaff6bcdb151bc3f33f1f967cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.TimeSeriesModel.loadDataFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadDataFromFile</name>
+        <reimplementedby refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a5278c874fb1dab278a5f993503865879">loadDataFromFile</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4288">
+        <label>sgs.model.objectModels.TimeSeriesModel</label>
+        <link refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model"/>
+      </node>
+      <node id="4289">
+        <label>sgs.model.objectModels.ResidentialAverageLoadCurveModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model"/>
+        <childnode refid="4288" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" line="7" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/TimeSeriesModel.java" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ac37085aaff6bcdb151bc3f33f1f967cc" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::TimeSeriesModel</scope><name>loadDataFromFile</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ae4616ed0cae9e59483cd413cde8baa39" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::TimeSeriesModel</scope><name>PERIOD_ANNUALY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ace832f1b64c5cfe2563ed90867b05af2" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::TimeSeriesModel</scope><name>PERIOD_DAILY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a696c830ff94799a4beaafd8cf62c5859" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::TimeSeriesModel</scope><name>PERIOD_MONTHLY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a08de046ef27ce3e3336469860364a3fa" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::TimeSeriesModel</scope><name>PERIOD_WEEKLY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

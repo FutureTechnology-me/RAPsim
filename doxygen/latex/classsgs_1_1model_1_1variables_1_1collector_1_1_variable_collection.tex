@@ -1,0 +1,174 @@
+\section{sgs.\-model.\-variables.\-collector.\-Variable\-Collection Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection}\index{sgs.\-model.\-variables.\-collector.\-Variable\-Collection@{sgs.\-model.\-variables.\-collector.\-Variable\-Collection}}
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-collector.\-Variable\-Collection\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Variable\-Collection} (Variable\-Collector...\-collectors)
+\item 
+{\bf Numeric\-Value} {\bf get\-Value} ({\bf Enum\-P\-V} variable\-Name)
+\item 
+{\bf Variable\-Set} {\bf get\-Variable\-Set} ()
+\item 
+void {\bf rest\-Values} ()
+\item 
+boolean {\bf collect\-From} ({\bf Variable\-Owner} owner)
+\item 
+{\bf Variable\-Collection} {\bf copy} ()
+\item 
+String {\bf to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\-List$<$ {\bf Variable\-Collector} $>$ {\bf collectors}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 9 of file Variable\-Collection.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!Variable\-Collection@{Variable\-Collection}}
+\index{Variable\-Collection@{Variable\-Collection}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{Variable\-Collection}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-Variable\-Collection (
+\begin{DoxyParamCaption}
+\item[{Variable\-Collector...}]{collectors}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_aa4ac6725814fae5864479883f63b1b56}
+Constructor with 
+\begin{DoxyParams}{Parameters}
+{\em collectors} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file Variable\-Collection.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!collect\-From@{collect\-From}}
+\index{collect\-From@{collect\-From}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{collect\-From}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-collect\-From (
+\begin{DoxyParamCaption}
+\item[{{\bf Variable\-Owner}}]{owner}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_a5db950542ee39dc800c914ec0ec59801}
+
+\begin{DoxyParams}{Parameters}
+{\em owner} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if at least one value was collected 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Variable\-Collection.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Collection} sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_ab73a921bd7cc0ad10efd638befbf89cf}
+\begin{DoxyReturn}{Returns}
+a deep copy of this collector. 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file Variable\-Collection.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-get\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Enum\-P\-V}}]{variable\-Name}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_a8a2a01286b42f75a42286f16d9c13a25}
+
+\begin{DoxyParams}{Parameters}
+{\em variable\-Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value for variable or null 
+\end{DoxyReturn}
+
+
+Definition at line 29 of file Variable\-Collection.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!get\-Variable\-Set@{get\-Variable\-Set}}
+\index{get\-Variable\-Set@{get\-Variable\-Set}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{get\-Variable\-Set}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Variable\-Set} sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-get\-Variable\-Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_ad0da302dbdb484501697d8a641da686b}
+\begin{DoxyReturn}{Returns}
+\doxyref{Variable\-Set}{p.}{classsgs_1_1model_1_1variables_1_1_variable_set} build from this collection 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file Variable\-Collection.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!rest\-Values@{rest\-Values}}
+\index{rest\-Values@{rest\-Values}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{rest\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-rest\-Values (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_ae2c610a82403beb05be6df2a6d255aae}
+Reset all contained values. 
+
+Definition at line 49 of file Variable\-Collection.\-java.
+
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_a6dada874296ed97d36c856c8f7a2b8f3}
+
+
+Definition at line 80 of file Variable\-Collection.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}!collectors@{collectors}}
+\index{collectors@{collectors}!sgs::model::variables::collector::VariableCollection@{sgs\-::model\-::variables\-::collector\-::\-Variable\-Collection}}
+\subsubsection[{collectors}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Variable\-Collector}$>$ sgs.\-model.\-variables.\-collector.\-Variable\-Collection.\-collectors}\label{classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection_a7594f47c8c40442c80dffb63e5f2d6e0}
+all relevant collectors, may be added later 
+
+Definition at line 12 of file Variable\-Collection.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/collector/{\bf Variable\-Collection.\-java}\end{DoxyCompactItemize}

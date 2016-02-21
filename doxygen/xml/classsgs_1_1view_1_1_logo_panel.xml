@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_logo_panel" kind="class" prot="package">
+    <compoundname>sgs::view::LogoPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_logo_panel_1aa54b3ef8535544a335b2c36e2639631f" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.LogoPanel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="127" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_logo_panel_1a51834dfe0d1d6082fd48bfdd01e8a950" prot="package" static="no" mutable="no">
+        <type>ImageIcon</type>
+        <definition>ImageIcon sgs.view.LogoPanel.RAPSimIcon</definition>
+        <argsstring></argsstring>
+        <name>RAPSimIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="128" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_logo_panel_1a80d2ffe71a25357554f7dac12b26effb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.LogoPanel.LogoPanel</definition>
+        <argsstring>()</argsstring>
+        <name>LogoPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="130" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_logo_panel_1a5c7a87842ac425bf75f660a38f35ec84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.LogoPanel.LogoPanel</definition>
+        <argsstring>(int size)</argsstring>
+        <name>LogoPanel</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="135" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="135" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_logo_panel_1a4bf088726c9880cbe9eb77a13e60691c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.LogoPanel.paintComponent</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>paintComponent</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="152" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="152" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3524">
+        <label>JPanel</label>
+      </node>
+      <node id="3523">
+        <label>sgs.view.LogoPanel</label>
+        <childnode refid="3524" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3526">
+        <label>JPanel</label>
+      </node>
+      <node id="3525">
+        <label>sgs.view.LogoPanel</label>
+        <childnode refid="3526" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3527" relation="usage">
+          <edgelabel>RAPSimIcon</edgelabel>
+        </childnode>
+      </node>
+      <node id="3527">
+        <label>ImageIcon</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" line="125" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/TopPanel.java" bodystart="125" bodyend="157"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_logo_panel_1a80d2ffe71a25357554f7dac12b26effb" prot="public" virt="non-virtual"><scope>sgs::view::LogoPanel</scope><name>LogoPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_logo_panel_1a5c7a87842ac425bf75f660a38f35ec84" prot="public" virt="non-virtual"><scope>sgs::view::LogoPanel</scope><name>LogoPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_logo_panel_1a4bf088726c9880cbe9eb77a13e60691c" prot="protected" virt="non-virtual"><scope>sgs::view::LogoPanel</scope><name>paintComponent</name></member>
+      <member refid="classsgs_1_1view_1_1_logo_panel_1a51834dfe0d1d6082fd48bfdd01e8a950" prot="package" virt="non-virtual"><scope>sgs::view::LogoPanel</scope><name>RAPSimIcon</name></member>
+      <member refid="classsgs_1_1view_1_1_logo_panel_1aa54b3ef8535544a335b2c36e2639631f" prot="private" virt="non-virtual"><scope>sgs::view::LogoPanel</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

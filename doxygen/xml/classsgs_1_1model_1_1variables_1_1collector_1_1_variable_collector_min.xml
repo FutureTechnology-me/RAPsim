@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min" kind="class" prot="public">
+    <compoundname>sgs::model::variables::collector::VariableCollectorMin</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableCollector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1aca0e033a2c9f41b38d2044b87e4c2254" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorMin.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1abfa63472aa97f8627d39f249656c56b1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorMin.nrOfValues</definition>
+        <argsstring></argsstring>
+        <name>nrOfValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a6fae472a63654981a3f37ef9f910b52e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.collector.VariableCollectorMin.VariableCollectorMin</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>VariableCollectorMin</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for sum collector. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="17" bodyend="21"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1ad0a5a4bfdff13da40993710a23d61d8a" compoundref="_variable_collector_min_8java" startline="55" endline="60">sgs.model.variables.collector.VariableCollectorMin.copy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a6a2b9934e3703ca747694e479bee0d66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorMin.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1aafa53635c29d137ed70912b31fe75e6a">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the collected numeric value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a8e56f9b219443cf55c24ae40f9a282d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorMin.getNumberOfValues</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af7069a996dfec379cbc334f294b5511a">getNumberOfValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of collected values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1af9d00b3bfb365ebbe3eef7d5a506c757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.collector.VariableCollectorMin.restValues</definition>
+        <argsstring>()</argsstring>
+        <name>restValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a54200215ba9e58439e720502bbedb507">restValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets values to zero. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1aa0fe40a9823aceb23fb722865d88a685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.collector.VariableCollectorMin.collectFrom</definition>
+        <argsstring>(VariableOwner owner)</argsstring>
+        <name>collectFrom</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a7771a65b96725beb168579ff6003f6e6">collectFrom</reimplements>
+        <param>
+          <type><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kindref="compound">VariableOwner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds interesting variable values from the variable owner <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a value was collected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="40" bodyend="52"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1ad0a5a4bfdff13da40993710a23d61d8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min" kindref="compound">VariableCollectorMin</ref></type>
+        <definition>VariableCollectorMin sgs.model.variables.collector.VariableCollectorMin.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af657fdd311577e7f5f155283a8e816ff">copy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a copy of this Collector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="55" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="55" bodyend="60"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a6fae472a63654981a3f37ef9f910b52e" compoundref="_variable_collector_min_8java" startline="17" endline="21">sgs.model.variables.collector.VariableCollectorMin.VariableCollectorMin</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4431">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+      </node>
+      <node id="4430">
+        <label>sgs.model.variables.collector.VariableCollectorMin</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min"/>
+        <childnode refid="4431" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4433">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+        <childnode refid="4434" relation="usage">
+          <edgelabel>variableName</edgelabel>
+        </childnode>
+      </node>
+      <node id="4434">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4432">
+        <label>sgs.model.variables.collector.VariableCollectorMin</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min"/>
+        <childnode refid="4433" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" line="8" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorMin.java" bodystart="8" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1aa0fe40a9823aceb23fb722865d88a685" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>collectFrom</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1ad0a5a4bfdff13da40993710a23d61d8a" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a8e56f9b219443cf55c24ae40f9a282d9" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>getNumberOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a6812701367b992972241901ca2e6d5c4" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>getSingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a6a2b9934e3703ca747694e479bee0d66" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1adc69dc2f026ba66dd7838f970661c56a" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>getVariableName</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1abfa63472aa97f8627d39f249656c56b1" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>nrOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1af9d00b3bfb365ebbe3eef7d5a506c757" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>restValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a0b595f78b3304a12f5a3538c8ea40f27" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1aca0e033a2c9f41b38d2044b87e4c2254" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af5ca5b1481c5433ba4ca9d75a8501206" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>VariableCollector</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_min_1a6fae472a63654981a3f37ef9f910b52e" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>VariableCollectorMin</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorMin</scope><name>variableName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

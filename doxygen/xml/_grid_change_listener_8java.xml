@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_grid_change_listener_8java" kind="file">
+    <compoundname>GridChangeListener.java</compoundname>
+    <innerclass refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" prot="public">sgs::controller::interfaces::GridChangeListener</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller_1_1interfaces">sgs::controller::interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesgs_1_1controller_1_1interfaces" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.controller.interfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener" kindref="compound">GridChangeListener</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>NetworkAnalyzer<sp/>-&gt;<sp/>Algorithm.gridChanged()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener_1a0d6cee580d406e7ab3fad2e8ac87e350" kindref="member">gridChanged</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/interfaces/GridChangeListener.java"/>
+  </compounddef>
+</doxygen>

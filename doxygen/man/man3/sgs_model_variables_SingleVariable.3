@@ -1,0 +1,297 @@
+.TH "sgs.model.variables.SingleVariable" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.SingleVariable \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Comparable< SingleVariable >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSingleVariable\fP (String name, \fBAbstractValue\fP value, \fBEnumUnit\fP unit)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP (\fBEnumPV\fP name, \fBAbstractValue\fP value)"
+.br
+.ti -1c
+.RI "String \fBname\fP ()"
+.br
+.ti -1c
+.RI "\fBAbstractValue\fP \fBvalue\fP ()"
+.br
+.ti -1c
+.RI "\fBEnumUnit\fP \fBunit\fP ()"
+.br
+.ti -1c
+.RI "Double \fBgetValueString\fP ()"
+.br
+.ti -1c
+.RI "Double \fBgetValueDouble\fP ()"
+.br
+.ti -1c
+.RI "Complex \fBgetValueComplex\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValueNumeric\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (String val)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (double d)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (Complex c)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (\fBNumericValue\fP v)"
+.br
+.ti -1c
+.RI "boolean \fBvariableIsUsed\fP ()"
+.br
+.ti -1c
+.RI "int \fBcompareTo\fP (\fBSingleVariable\fP attr2)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBcopyKeepProperties\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableProperties\fP \fBproperties\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSingleVariable\fP (String name)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Holds a single attribute, intended to use in the attribute set\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file SingleVariable\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.SingleVariable\&.SingleVariable (Stringname, \fBAbstractValue\fPvalue, \fBEnumUnit\fPunit)"
+Constructor: only for use in Models - not in Objects
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIvalue\fP 
+.br
+\fIunit\fP \fBModelVariable\fP
+.RE
+.PP
+
+.PP
+Definition at line 28 of file SingleVariable\&.java\&.
+.SS "sgs\&.model\&.variables\&.SingleVariable\&.SingleVariable (\fBEnumPV\fPname, \fBAbstractValue\fPvalue)"
+Constructor: for \fBEnumPV\fP types
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIvalue\fP 
+.br
+\fIunit\fP 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file SingleVariable\&.java\&.
+.SS "sgs\&.model\&.variables\&.SingleVariable\&.SingleVariable (Stringname)\fC [protected]\fP"
+Constructor: internal use 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file SingleVariable\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int sgs\&.model\&.variables\&.SingleVariable\&.compareTo (\fBSingleVariable\fPattr2)"
+Implementation for TreeSet 
+.PP
+Definition at line 126 of file SingleVariable\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.SingleVariable\&.copyKeepProperties ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a deep Copy, except the properties\&. 
+.RE
+.PP
+
+.PP
+Definition at line 134 of file SingleVariable\&.java\&.
+.SS "Complex sgs\&.model\&.variables\&.SingleVariable\&.getValueComplex ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the Complex value of the variable, zero for non numeric values\&. 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file SingleVariable\&.java\&.
+.SS "Double sgs\&.model\&.variables\&.SingleVariable\&.getValueDouble ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the double value of the variable, zero for non numeric values\&. 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file SingleVariable\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.SingleVariable\&.getValueNumeric ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the numeric value, may be null for non numeric values\&. 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file SingleVariable\&.java\&.
+.SS "Double sgs\&.model\&.variables\&.SingleVariable\&.getValueString ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the value of the variable as String\&. 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file SingleVariable\&.java\&.
+.SS "String sgs\&.model\&.variables\&.SingleVariable\&.name ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the variable name 
+.RE
+.PP
+
+.PP
+Definition at line 57 of file SingleVariable\&.java\&.
+.SS "void sgs\&.model\&.variables\&.SingleVariable\&.setValue (Stringval)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file SingleVariable\&.java\&.
+.SS "void sgs\&.model\&.variables\&.SingleVariable\&.setValue (doubled)"
+Set double value\&. May not be compatible with every subclass of \fBAbstractValue\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fId\fP 
+.RE
+.PP
+
+.PP
+Definition at line 98 of file SingleVariable\&.java\&.
+.SS "void sgs\&.model\&.variables\&.SingleVariable\&.setValue (Complexc)"
+Set Complex value\&. May not be compatible with every subclass of \fBAbstractValue\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fId\fP 
+.RE
+.PP
+
+.PP
+Definition at line 106 of file SingleVariable\&.java\&.
+.SS "void sgs\&.model\&.variables\&.SingleVariable\&.setValue (\fBNumericValue\fPv)"
+Set Numeric value\&. May not be compatible with every subclass of \fBAbstractValue\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIv\fP 
+.RE
+.PP
+
+.PP
+Definition at line 113 of file SingleVariable\&.java\&.
+.SS "String sgs\&.model\&.variables\&.SingleVariable\&.toString ()"
+
+.PP
+Definition at line 143 of file SingleVariable\&.java\&.
+.SS "\fBEnumUnit\fP sgs\&.model\&.variables\&.SingleVariable\&.unit ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the unit, describing the variable and its value 
+.RE
+.PP
+
+.PP
+Definition at line 65 of file SingleVariable\&.java\&.
+.SS "\fBAbstractValue\fP sgs\&.model\&.variables\&.SingleVariable\&.value ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the value object, containing the actual variable value 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file SingleVariable\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.SingleVariable\&.variableIsUsed ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if Variable isVisible OR isEditable (definition) 
+.RE
+.PP
+
+.PP
+Definition at line 120 of file SingleVariable\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBVariableProperties\fP sgs\&.model\&.variables\&.SingleVariable\&.properties"
+
+.PP
+Definition at line 18 of file SingleVariable\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

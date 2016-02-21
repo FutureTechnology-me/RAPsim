@@ -1,0 +1,221 @@
+.TH "sgs.model.simulation.Path" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.simulation.Path \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPath\fP (\fBBus\fP busA, \fBBus\fP busB, LinkedList< \fBSmartGridObject\fP > \fBpathObjects\fP, \fBVariableCollection\fP \fBvariableCollection\fP)"
+.br
+.ti -1c
+.RI "\fBPath\fP (\fBVariableCollection\fP \fBvariableCollection\fP)"
+.br
+.ti -1c
+.RI "void \fBsetBuses\fP (\fBBus\fP busA, \fBBus\fP busB)"
+.br
+.ti -1c
+.RI "int \fBgetNrOfBuses\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBaddBus\fP (\fBBus\fP busX)"
+.br
+.ti -1c
+.RI "\fBBus\fP \fBgetBus1\fP ()"
+.br
+.ti -1c
+.RI "\fBBus\fP \fBgetBus2\fP ()"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVariableSet\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValue\fP (\fBEnumPV\fP variableName)"
+.br
+.ti -1c
+.RI "void \fBrefreshValues\fP ()"
+.br
+.ti -1c
+.RI "\fBPath\fP \fBcopy\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBpathObjects\fP"
+.br
+.ti -1c
+.RI "\fBVariableCollection\fP \fBvariableCollection\fP"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBnotVisitedTmp\fP = null"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A path connects buses separated by resistances\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 17 of file Path\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.simulation\&.Path\&.Path (\fBBus\fPbusA, \fBBus\fPbusB, LinkedList< \fBSmartGridObject\fP >pathObjects, \fBVariableCollection\fPvariableCollection)"
+Constructor: Full, TODO: VariableCollection
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbusA\fP - not null 
+.br
+\fIbusB\fP - not null 
+.br
+\fIpathObjects\fP 
+.br
+\fIvariableCollection\fP 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file Path\&.java\&.
+.SS "sgs\&.model\&.simulation\&.Path\&.Path (\fBVariableCollection\fPvariableCollection)"
+Constructor: Empty 
+.PP
+Definition at line 44 of file Path\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.simulation\&.Path\&.addBus (\fBBus\fPbusX)"
+Add up to two buses, further buses ignored 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbusX\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if added 
+.RE
+.PP
+
+.PP
+Definition at line 86 of file Path\&.java\&.
+.SS "\fBPath\fP sgs\&.model\&.simulation\&.Path\&.copy ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a copy of this path\&. Depth: Lists/Collections are copied\&. 
+.RE
+.PP
+
+.PP
+Definition at line 138 of file Path\&.java\&.
+.SS "\fBBus\fP sgs\&.model\&.simulation\&.Path\&.getBus1 ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the firstBus 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file Path\&.java\&.
+.SS "\fBBus\fP sgs\&.model\&.simulation\&.Path\&.getBus2 ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the secondBus 
+.RE
+.PP
+
+.PP
+Definition at line 107 of file Path\&.java\&.
+.SS "int sgs\&.model\&.simulation\&.Path\&.getNrOfBuses ()"
+
+.PP
+Definition at line 72 of file Path\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.simulation\&.Path\&.getValue (\fBEnumPV\fPvariableName)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvariableName\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+value for variableName, or null if name is not found\&. 
+.RE
+.PP
+
+.PP
+Definition at line 120 of file Path\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.simulation\&.Path\&.getVariableSet ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the VariableSet owned by this object; or null (no owned variable set) 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.PP
+Definition at line 112 of file Path\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Path\&.refreshValues ()"
+Collects current simulation values with variableCollector 
+.PP
+Definition at line 127 of file Path\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Path\&.setBuses (\fBBus\fPbusA, \fBBus\fPbusB)"
+Stores sorted buses\&. Must not be null\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbusA\fP 
+.br
+\fIbusB\fP 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file Path\&.java\&.
+.SS "String sgs\&.model\&.simulation\&.Path\&.toString ()"
+
+.PP
+Definition at line 148 of file Path\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.model\&.simulation\&.Path\&.notVisitedTmp = null"
+
+.PP
+Definition at line 25 of file Path\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.model\&.simulation\&.Path\&.pathObjects"
+
+.PP
+Definition at line 21 of file Path\&.java\&.
+.SS "\fBVariableCollection\fP sgs\&.model\&.simulation\&.Path\&.variableCollection"
+
+.PP
+Definition at line 22 of file Path\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

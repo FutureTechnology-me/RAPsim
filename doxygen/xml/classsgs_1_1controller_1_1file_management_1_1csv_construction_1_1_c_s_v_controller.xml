@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::fileManagement::csvConstruction::CSVController</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab" kindref="compound">CollectionsTreeTab</ref></type>
+        <definition>CollectionsTreeTab sgs.controller.fileManagement.csvConstruction.CSVController.dataColl</definition>
+        <argsstring></argsstring>
+        <name>dataColl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aa290209ff8584a0b61cc3cb580c1b5bd" compoundref="_c_s_v_controller_8java" startline="43" endline="54">sgs.controller.fileManagement.csvConstruction.CSVController.initRest</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a379753b4b5411a07425ecb41b57b244f" compoundref="_c_s_v_controller_8java" startline="62" endline="68">sgs.controller.fileManagement.csvConstruction.CSVController.run</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a89c9dfb54bea6946ba0484f238a18f9e" compoundref="_c_s_v_controller_8java" startline="76" endline="85">sgs.controller.fileManagement.csvConstruction.CSVController.getChoiceTabPane</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ac68c0c4f98ed7bf3bc1c160b15241f65" compoundref="_c_s_v_controller_8java" startline="91" endline="102">sgs.controller.fileManagement.csvConstruction.CSVController.getChoosenTabPane</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a56914722a14d6c429d57f4dfd680a945" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab" kindref="compound">ObjectTreeTab</ref></type>
+        <definition>ObjectTreeTab sgs.controller.fileManagement.csvConstruction.CSVController.dataObj</definition>
+        <argsstring></argsstring>
+        <name>dataObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aa290209ff8584a0b61cc3cb580c1b5bd" compoundref="_c_s_v_controller_8java" startline="43" endline="54">sgs.controller.fileManagement.csvConstruction.CSVController.initRest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a41b91914ea215c0eab1dd5315ad9de94" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" kindref="compound">CheckBoxActionListener</ref></type>
+        <definition>CheckBoxActionListener sgs.controller.fileManagement.csvConstruction.CSVController.cbActionListener</definition>
+        <argsstring></argsstring>
+        <name>cbActionListener</name>
+        <initializer>= new <ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" kindref="compound">CheckBoxActionListener</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a944a8d26b79745b8d6cc4b580922805f" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1_c_s_v_model" kindref="compound">CSVModel</ref></type>
+        <definition>CSVModel sgs.controller.fileManagement.csvConstruction.CSVController.csvModel</definition>
+        <argsstring></argsstring>
+        <name>csvModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab8dae78be7f83e4984f2f31bbf02cf80" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>SgsGridModel sgs.controller.fileManagement.csvConstruction.CSVController.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1abd770b9c66b848082e2923af0774a1c8" compoundref="_c_s_v_controller_8java" startline="34" endline="40">sgs.controller.fileManagement.csvConstruction.CSVController.CSVController</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aa290209ff8584a0b61cc3cb580c1b5bd" compoundref="_c_s_v_controller_8java" startline="43" endline="54">sgs.controller.fileManagement.csvConstruction.CSVController.initRest</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a379753b4b5411a07425ecb41b57b244f" compoundref="_c_s_v_controller_8java" startline="62" endline="68">sgs.controller.fileManagement.csvConstruction.CSVController.run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aab33104e345a99515701b4cd1003f9a4" prot="private" static="no" mutable="no">
+        <type>File</type>
+        <definition>File sgs.controller.fileManagement.csvConstruction.CSVController.csvFile</definition>
+        <argsstring></argsstring>
+        <name>csvFile</name>
+        <initializer>= new File(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1abd770b9c66b848082e2923af0774a1c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.fileManagement.csvConstruction.CSVController.CSVController</definition>
+        <argsstring>(SgsGridModel gridModel)</argsstring>
+        <name>CSVController</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="34" bodyend="40"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab8dae78be7f83e4984f2f31bbf02cf80" compoundref="_c_s_v_controller_8java" startline="25">sgs.controller.fileManagement.csvConstruction.CSVController.gridModel</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aa290209ff8584a0b61cc3cb580c1b5bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CSVController.initRest</definition>
+        <argsstring>()</argsstring>
+        <name>initRest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="43" bodyend="54"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab8dae78be7f83e4984f2f31bbf02cf80" compoundref="_c_s_v_controller_8java" startline="25">sgs.controller.fileManagement.csvConstruction.CSVController.gridModel</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" compoundref="_c_s_v_controller_8java" startline="19">sgs.controller.fileManagement.csvConstruction.CSVController.dataColl</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a56914722a14d6c429d57f4dfd680a945" compoundref="_c_s_v_controller_8java" startline="20">sgs.controller.fileManagement.csvConstruction.CSVController.dataObj</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a379753b4b5411a07425ecb41b57b244f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CSVController.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start creating the csv file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="62" bodyend="68"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" compoundref="_c_s_v_controller_8java" startline="19">sgs.controller.fileManagement.csvConstruction.CSVController.dataColl</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab8dae78be7f83e4984f2f31bbf02cf80" compoundref="_c_s_v_controller_8java" startline="25">sgs.controller.fileManagement.csvConstruction.CSVController.gridModel</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_1a4a7d39fc2df1f0e849e8537dc73c92bd" compoundref="_collections_tree_tab_8java" startline="188" endline="190">sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab.getHeader</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a89c9dfb54bea6946ba0484f238a18f9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TabPane</type>
+        <definition>TabPane sgs.controller.fileManagement.csvConstruction.CSVController.getChoiceTabPane</definition>
+        <argsstring>()</argsstring>
+        <name>getChoiceTabPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>resultsPanes - in it are all Pane on the left Side of the window. in this we can choose what we want to save </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="76" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="76" bodyend="85"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" compoundref="_c_s_v_controller_8java" startline="19">sgs.controller.fileManagement.csvConstruction.CSVController.dataColl</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_1aec1948aec5d89a2dbfac60439ecd6326" compoundref="_collections_tree_tab_8java" startline="242" endline="271">sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab.getResultsTab</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ac68c0c4f98ed7bf3bc1c160b15241f65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TabPane</type>
+        <definition>TabPane sgs.controller.fileManagement.csvConstruction.CSVController.getChoosenTabPane</definition>
+        <argsstring>()</argsstring>
+        <name>getChoosenTabPane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>trueListPanes - in it are all Panes on the right side. It shows what we have choosen. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="91" bodyend="102"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" compoundref="_c_s_v_controller_8java" startline="19">sgs.controller.fileManagement.csvConstruction.CSVController.dataColl</references>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab_1aa82d568a1118c74dd3498c91ce944841" compoundref="_collections_tree_tab_8java" startline="119" endline="139">sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab.getChoosenTab</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab0f832888dcd98d14cb6d4ea79311fba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.fileManagement.csvConstruction.CSVController.setCSVSpecifications</definition>
+        <argsstring>(File file)</argsstring>
+        <name>setCSVSpecifications</name>
+        <param>
+          <type>File</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the from user defined filename and the location where the file will be saved <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pathOfSaveLocation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="110" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ac5a6003455a22af429be23a8fe7b6dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>File</type>
+        <definition>File sgs.controller.fileManagement.csvConstruction.CSVController.getCSVFile</definition>
+        <argsstring>()</argsstring>
+        <name>getCSVFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="115" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1acd387706cc44a44d3f180923179d40be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.fileManagement.csvConstruction.CSVController.isHaveData</definition>
+        <argsstring>()</argsstring>
+        <name>isHaveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>csvFilename - the filename of the csv, specified by the user</para><simplesectsep/><para>csvFilePath - the FilePath </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="141" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="141" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Huber Sabrina its a bridge between the view and the java classes that generates and fill the TabPane with data. it also saves the the from the user specified filename and the path . </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3037">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="3007">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="3012">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="3023">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="3008">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="3009" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3010" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="3011" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="3012" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="3013" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="3027" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="3029" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="3030" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="3031" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="3032" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="3033" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="3041" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="3042" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="3014">
+        <label>GridObject</label>
+      </node>
+      <node id="3019">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="3020" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="3021" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3010">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="3031">
+        <label>JFrame</label>
+      </node>
+      <node id="3024">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="3012" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="3024" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="3025" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="3021" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3026">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="3015">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="3039">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="3038">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="3039" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="3040" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="3040">
+        <label>Random</label>
+      </node>
+      <node id="3033">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="3034" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3003" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="3035" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="3037" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="3038" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="3030">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="3009">
+        <label>GridModel</label>
+      </node>
+      <node id="3021">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="3022" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3023" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="3044">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3046">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="3005">
+        <label>Application</label>
+      </node>
+      <node id="3047">
+        <label>File</label>
+      </node>
+      <node id="3018">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3032">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="3042">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="3003">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="3004" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="3008" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3043" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="3045" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="3007" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3006">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3020">
+        <label>ImageIcon</label>
+      </node>
+      <node id="3045">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="3046" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="3047" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="3036">
+        <label>JDialog</label>
+      </node>
+      <node id="3043">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="3044" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="3007" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3034">
+        <label>Thread</label>
+      </node>
+      <node id="3016">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3004">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="3005" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3006" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="3007" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3035">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="3036" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3028">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="3013">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="3014" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3015" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3016" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3017" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="3019" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="3024" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="3008" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3026" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="3021" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3029">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="3022">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="3011">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="3017">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3018" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3027">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="3028" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="3025">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="3041">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CSVController.java" bodystart="17" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a41b91914ea215c0eab1dd5315ad9de94" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>cbActionListener</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1abd770b9c66b848082e2923af0774a1c8" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>CSVController</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aab33104e345a99515701b4cd1003f9a4" prot="private" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>csvFile</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a944a8d26b79745b8d6cc4b580922805f" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>csvModel</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab4aefa09a2420e11fcfb42c9ebf8171f" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>dataColl</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a56914722a14d6c429d57f4dfd680a945" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>dataObj</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a89c9dfb54bea6946ba0484f238a18f9e" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>getChoiceTabPane</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ac68c0c4f98ed7bf3bc1c160b15241f65" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>getChoosenTabPane</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ac5a6003455a22af429be23a8fe7b6dfc" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>getCSVFile</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab8dae78be7f83e4984f2f31bbf02cf80" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1aa290209ff8584a0b61cc3cb580c1b5bd" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>initRest</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1acd387706cc44a44d3f180923179d40be" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>isHaveData</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1a379753b4b5411a07425ecb41b57b244f" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>run</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_1ab0f832888dcd98d14cb6d4ea79311fba" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::csvConstruction::CSVController</scope><name>setCSVSpecifications</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

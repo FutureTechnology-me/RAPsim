@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1___main__" kind="class" prot="public">
+    <compoundname>sgs::_Main_</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1___main___1a37d695bc311434eb71db79efe8260848" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs._Main_.nrOfCellsWidth</definition>
+        <argsstring></argsstring>
+        <name>nrOfCellsWidth</name>
+        <initializer>=40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of Cells for width/height of the GridMap, e.g. 40/25. JGridMap counts from 0 to 39 (40 Cells), and from 0 to 25 (for 26 Cells) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1___main___1a184739de7c62fcc22627711d63f6eb76" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs._Main_.gridWidth</definition>
+        <argsstring></argsstring>
+        <name>gridWidth</name>
+        <initializer>=nrOfCellsWidth*20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Width and height in pixels </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1___main___1acd87e7784da7ee0b955fd926974f905a" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs._Main_.nrOfCellsHeight</definition>
+        <argsstring></argsstring>
+        <name>nrOfCellsHeight</name>
+        <initializer>=25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1___main___1a6e9ef4aeb272546ea993cb550c559eef" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sgs._Main_.gridHeight</definition>
+        <argsstring></argsstring>
+        <name>gridHeight</name>
+        <initializer>=nrOfCellsHeight*20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1___main___1a7408b9cc5914c06cb919cc2c20ef2383" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs._Main_.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>private static File f = PropertiesDialog.getf(); //deleting the lock file </para>        </briefdescription>
+        <detaileddescription>
+<para>Initialize &amp; Start <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- unused </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>gives Model <simplesect kind="see"><para><ref refid="_sgs_grid_model_8java" kindref="compound">SgsGridModel.java</ref> <programlisting><codeline><highlight class="normal">SgsGridModel<sp/>gridModel<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SgsGridModel(nrOfCellsWidth,<sp/>nrOfCellsHeight,<sp/>gridWidth,<sp/>gridHeight);<sp/></highlight></codeline>
+</programlisting> gridModel =&gt; data about Width, Height and content of Cells</para></simplesect>
+<programlisting><codeline><highlight class="normal">PrimaryView<sp/>primaryView<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PrimaryView(</highlight><highlight class="stringliteral">&quot;SGS<sp/>-<sp/>Smart<sp/>Grid<sp/>Simulator&quot;</highlight><highlight class="normal">,<sp/>gridModel);<sp/></highlight></codeline>
+</programlisting> View of JGridMap and rest of the GUI, set Name to &quot;SGS - Smart Grid Simulator&quot; and size of given gridModel</para><para>f.delete(); FileChooserModel.deleteCSV();</para><para><programlisting><codeline><highlight class="normal">primaryView.pack();<sp/>primaryView.setVisible(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/></highlight></codeline>
+</programlisting> start up, set Visible true, and causes the window to be sized to fit the preferred size and layouts </para>        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="36" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Main class for initializing and starting the SGS.</para><para>a) take care of initializing static data, e.g. for recognition of all classes implementing SmartGridObject b) initialize the model (contains JGM) c) initialize the the view with the model d) initialize controller e) final actions like making the GUI visible</para><para><simplesect kind="author"><para>Kristofer Schweiger, Sabrina Huber </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/_Main_.java" bodystart="23" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1___main___1a6e9ef4aeb272546ea993cb550c559eef" prot="package" virt="non-virtual"><scope>sgs::_Main_</scope><name>gridHeight</name></member>
+      <member refid="classsgs_1_1___main___1a184739de7c62fcc22627711d63f6eb76" prot="private" virt="non-virtual"><scope>sgs::_Main_</scope><name>gridWidth</name></member>
+      <member refid="classsgs_1_1___main___1a7408b9cc5914c06cb919cc2c20ef2383" prot="public" virt="non-virtual"><scope>sgs::_Main_</scope><name>main</name></member>
+      <member refid="classsgs_1_1___main___1acd87e7784da7ee0b955fd926974f905a" prot="package" virt="non-virtual"><scope>sgs::_Main_</scope><name>nrOfCellsHeight</name></member>
+      <member refid="classsgs_1_1___main___1a37d695bc311434eb71db79efe8260848" prot="private" virt="non-virtual"><scope>sgs::_Main_</scope><name>nrOfCellsWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

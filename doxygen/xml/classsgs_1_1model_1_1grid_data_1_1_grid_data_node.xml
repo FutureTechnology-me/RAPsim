@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" kind="class" prot="public">
+    <compoundname>sgs::model::gridData::GridDataNode</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a7fa18f9e351a833dcafe5fd36c9c6519" prot="public" static="no" mutable="no">
+        <type>final Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>final Class&lt;? extends SmartGridObject&gt; sgs.model.gridData.GridDataNode.nodeClass</definition>
+        <argsstring></argsstring>
+        <name>nodeClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SmartGridObject-Class for this node </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1ab80957ff2980d7f8b6e4ad90b2fc96b9" prot="public" static="no" mutable="no">
+        <type>final <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>final GridDataEnum sgs.model.gridData.GridDataNode.nodeEnum</definition>
+        <argsstring></argsstring>
+        <name>nodeEnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enum corresponding to node class. Null for (abstract) class with no corresponding enum </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1abfd4cd7ee4fd2ba9df9bf1a64b8087d4" compoundref="_grid_data_node_8java" startline="47" endline="57">sgs.model.gridData.GridDataNode.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a6ea2e56fca3ed3c1c6aaa74bfaf37eda" prot="public" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>final VariableSet sgs.model.gridData.GridDataNode.nodeVariableSet</definition>
+        <argsstring></argsstring>
+        <name>nodeVariableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Variable set corresponding to class and enum. Null for (abstract) classes with no enum </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a68eee367fab4fbf191d571648de50ea5" compoundref="_abstract_distribution_algorithm_8java" startline="114" endline="132">sgs.controller.simulation.AbstractDistributionAlgorithm.setProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" compoundref="_smart_grid_object_8java" startline="262" endline="280">sgs.model.gridObjects.SmartGridObject.setProperties</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a94b5b45ce20f7cd33aaba243710a33a6" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" kindref="compound">GridDataNode</ref></type>
+        <definition>GridDataNode sgs.model.gridData.GridDataNode.superNode</definition>
+        <argsstring></argsstring>
+        <name>superNode</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Super class (extends SmartGridObject) for this node class. Null if this is the SmartGridObject </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1abfd4cd7ee4fd2ba9df9bf1a64b8087d4" compoundref="_grid_data_node_8java" startline="47" endline="57">sgs.model.gridData.GridDataNode.toString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a599e1140e6555a4ae0d74a6a669e17d6" prot="public" static="no" mutable="no">
+        <type>final ArrayList&lt; <ref refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" kindref="compound">GridDataNode</ref> &gt;</type>
+        <definition>final ArrayList&lt;GridDataNode&gt; sgs.model.gridData.GridDataNode.subNodes</definition>
+        <argsstring></argsstring>
+        <name>subNodes</name>
+        <initializer>= new ArrayList&lt;<ref refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" kindref="compound">GridDataNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sub nodes (~sub classes) of this node </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1abfd4cd7ee4fd2ba9df9bf1a64b8087d4" compoundref="_grid_data_node_8java" startline="47" endline="57">sgs.model.gridData.GridDataNode.toString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a78c9348a31fb98a7af4341c105508d0e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataNode.GridDataNode</definition>
+        <argsstring>(Class&lt;?extends SmartGridObject &gt; nodeClass, GridDataEnum nodeEnum)</argsstring>
+        <name>GridDataNode</name>
+        <param>
+          <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>nodeClass</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+          <declname>nodeEnum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Node constructor. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nodeClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nodeEnum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- enum corresponding to class. Null if class abstract and variable set will not be used. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="32" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1abfd4cd7ee4fd2ba9df9bf1a64b8087d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataNode.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="47" bodyend="57"/>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a94b5b45ce20f7cd33aaba243710a33a6" compoundref="_grid_data_node_8java" startline="23">sgs.model.gridData.GridDataNode.superNode</references>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a599e1140e6555a4ae0d74a6a669e17d6" compoundref="_grid_data_node_8java" startline="25">sgs.model.gridData.GridDataNode.subNodes</references>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1ab80957ff2980d7f8b6e4ad90b2fc96b9" compoundref="_grid_data_node_8java" startline="18">sgs.model.gridData.GridDataNode.nodeEnum</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Node holding information of class tree ad enums.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3378">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="3382">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="3377">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="3378" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="3377" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="3379" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="3380" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3380">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="3381" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3382" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="3381">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="3379">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataNode.java" bodystart="13" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a78c9348a31fb98a7af4341c105508d0e" prot="package" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>GridDataNode</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a7fa18f9e351a833dcafe5fd36c9c6519" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>nodeClass</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1ab80957ff2980d7f8b6e4ad90b2fc96b9" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>nodeEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a6ea2e56fca3ed3c1c6aaa74bfaf37eda" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>nodeVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a599e1140e6555a4ae0d74a6a669e17d6" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>subNodes</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1a94b5b45ce20f7cd33aaba243710a33a6" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>superNode</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node_1abfd4cd7ee4fd2ba9df9bf1a64b8087d4" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataNode</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

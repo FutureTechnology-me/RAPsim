@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types" kind="enum" prot="public">
+    <compoundname>sgs::controller::simulation::ACPowerFlowCalculator::busTypes</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1a8d65c89830d40f81e740ee098e0a1c24" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.ACPowerFlowCalculator.busTypes.REFERENCE_BUS</definition>
+        <argsstring></argsstring>
+        <name>REFERENCE_BUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" line="70" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aeddee902741828c880db218ad140e2c1" compoundref="_d_c_power_flow_calculator_8java" startline="71" endline="202">sgs.controller.simulation.DCPowerFlowCalculator.calculationStep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1ac453dba07a4ec8854ba21672ea07d1ce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.ACPowerFlowCalculator.busTypes.LOAD_BUS</definition>
+        <argsstring></argsstring>
+        <name>LOAD_BUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" line="70" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1a69208ab464c00c06f7c5d96a5311af29" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.ACPowerFlowCalculator.busTypes.GENERATOR_BUS</definition>
+        <argsstring></argsstring>
+        <name>GENERATOR_BUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" line="70" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" line="70" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/ACPowerFlowCalculator.java" bodystart="70" bodyend="70"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1a69208ab464c00c06f7c5d96a5311af29" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::ACPowerFlowCalculator::busTypes</scope><name>GENERATOR_BUS</name></member>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1ac453dba07a4ec8854ba21672ea07d1ce" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::ACPowerFlowCalculator::busTypes</scope><name>LOAD_BUS</name></member>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1a8d65c89830d40f81e740ee098e0a1c24" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::ACPowerFlowCalculator::busTypes</scope><name>REFERENCE_BUS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_consumer_8java" kind="file">
+    <compoundname>Consumer.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" prot="public">sgs::model::gridObjects::Consumer</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1grid_objects">sgs::model::gridObjects</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.gridObjects;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" kindref="compound">sgs.model.objectModels.AbstractConsumerModel</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">sgs.model.variables.EnumPV</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">sgs.model.variables.NumericValue</ref>;</highlight></codeline>
+<codeline lineno="11" refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" kindref="compound">Consumer</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer" kindref="compound">ProSumer</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13" refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a1e57e12d5e1b0cc68991d290f21a8fdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a1e57e12d5e1b0cc68991d290f21a8fdb" kindref="member">Consumer</ref>(){</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.variableSet.get(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" kindref="member">EnumPV.currentVoltage</ref>).setValue(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>(1.0));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.variableSet.get(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" kindref="member">EnumPV.voltageAngle</ref>).setValue(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref>(0.0));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19" refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1af1ce3e23cd9bcdfdb7feb380d4860699" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" kindref="compound">AbstractConsumerModel</ref><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1af1ce3e23cd9bcdfdb7feb380d4860699" kindref="member">getModel</ref>(){</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" kindref="compound">AbstractConsumerModel</ref>)<sp/>this.model;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a2b7837fa42f6f9499d548e9ea97195d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a2b7837fa42f6f9499d548e9ea97195d4" kindref="member">setModel</ref>(<ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" kindref="compound">AbstractConsumerModel</ref><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" kindref="member">model</ref>){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.model<sp/>=<sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" kindref="member">model</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/Consumer.java"/>
+  </compounddef>
+</doxygen>

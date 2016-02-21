@@ -1,0 +1,85 @@
+.TH "sgs.model.ProgramParametersSaved" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.ProgramParametersSaved \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBgetSimResultFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSimResultFile\fP (String simResultFile)"
+.br
+.ti -1c
+.RI "boolean \fBisFirstStart\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetFirstStart\fP (boolean firstStart)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "boolean \fBparametersChanged\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Program parameters which will be saved/loaded to/from a file\&. SAVED BY: sgs\&.controller\&.fileManagement\&.FileManager; FILE-Definition: \fBProgramConstants\&.parameterFile\fP
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file ProgramParametersSaved\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "String sgs\&.model\&.ProgramParametersSaved\&.getSimResultFile ()"
+
+.PP
+Definition at line 28 of file ProgramParametersSaved\&.java\&.
+.SS "boolean sgs\&.model\&.ProgramParametersSaved\&.isFirstStart ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if this is the first start of the program 
+.RE
+.PP
+
+.PP
+Definition at line 44 of file ProgramParametersSaved\&.java\&.
+.SS "void sgs\&.model\&.ProgramParametersSaved\&.setFirstStart (booleanfirstStart)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfirstStart\fP - Set the first start parameter\&. 
+.RE
+.PP
+
+.PP
+Definition at line 50 of file ProgramParametersSaved\&.java\&.
+.SS "void sgs\&.model\&.ProgramParametersSaved\&.setSimResultFile (StringsimResultFile)"
+
+.PP
+Definition at line 34 of file ProgramParametersSaved\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.ProgramParametersSaved\&.parametersChanged = false"
+true if parameters changed at runtime and need to be saved 
+.PP
+Definition at line 15 of file ProgramParametersSaved\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

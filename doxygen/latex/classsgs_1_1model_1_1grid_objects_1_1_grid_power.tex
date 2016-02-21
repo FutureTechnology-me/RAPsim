@@ -1,0 +1,99 @@
+\section{sgs.\-model.\-grid\-Objects.\-Grid\-Power Class Reference}
+\label{classsgs_1_1model_1_1grid_objects_1_1_grid_power}\index{sgs.\-model.\-grid\-Objects.\-Grid\-Power@{sgs.\-model.\-grid\-Objects.\-Grid\-Power}}
+
+
+Inheritance diagram for sgs.\-model.\-grid\-Objects.\-Grid\-Power\-:
+
+
+Collaboration diagram for sgs.\-model.\-grid\-Objects.\-Grid\-Power\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Grid\-Power} ()
+\item 
+void {\bf set\-Production\-To\-Weather\-And\-Time} (Gregorian\-Calendar current\-Time, {\bf Weather} weather)
+\item 
+{\bf Grid\-Data\-Enum} {\bf get\-Enum} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \doxyref{Grid\-Power}{p.}{classsgs_1_1model_1_1grid_objects_1_1_grid_power} object represents the connection to the distribution grid. It balances the total power of the connected buses and feeds in missing or leads away surplus power. It is used as the voltage angle reference for the A\-C-\/\-Powerflow algorithm \begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em power\-Production\-Optimal} & is set to 0 by default, i.\-e. the grid is balanced. The automatic Color\-Overlay uses this. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{A\-C\-Power\-Flow\-Calculator.\-java}{p.}{_a_c_power_flow_calculator_8java} 
+\end{DoxySeeAlso}
+
+
+Definition at line 18 of file Grid\-Power.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}!Grid\-Power@{Grid\-Power}}
+\index{Grid\-Power@{Grid\-Power}!sgs::model::gridObjects::GridPower@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}}
+\subsubsection[{Grid\-Power}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-grid\-Objects.\-Grid\-Power.\-Grid\-Power (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1grid_objects_1_1_grid_power_aea4b5e4a701f6da5693b3f62cc63e7b1}
+Constructor 
+
+Definition at line 25 of file Grid\-Power.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}!get\-Enum@{get\-Enum}}
+\index{get\-Enum@{get\-Enum}!sgs::model::gridObjects::GridPower@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}}
+\subsubsection[{get\-Enum}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Grid\-Data\-Enum} sgs.\-model.\-grid\-Objects.\-Grid\-Power.\-get\-Enum (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1grid_objects_1_1_grid_power_a17b4340779002ef8b1853b376a3c1b55}
+\begin{DoxyReturn}{Returns}
+corresponding enum for this object. 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_aad248e3bdbae03a7d6222fb6927a8a49}.
+
+
+
+Definition at line 41 of file Grid\-Power.\-java.
+
+\index{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}!set\-Production\-To\-Weather\-And\-Time@{set\-Production\-To\-Weather\-And\-Time}}
+\index{set\-Production\-To\-Weather\-And\-Time@{set\-Production\-To\-Weather\-And\-Time}!sgs::model::gridObjects::GridPower@{sgs\-::model\-::grid\-Objects\-::\-Grid\-Power}}
+\subsubsection[{set\-Production\-To\-Weather\-And\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-grid\-Objects.\-Grid\-Power.\-set\-Production\-To\-Weather\-And\-Time (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1grid_objects_1_1_grid_power_a7bb96eac837772af4a9c88f6a3c17ed1}
+Adjusts energy production to specific weather and time. Depends on \doxyref{Enum\-P\-V.\-power\-Production\-Optimal}{p.}{enumsgs_1_1model_1_1variables_1_1_enum_p_v_ac8d6bec5240c68cd91017eb5646b30c3}
+
+
+\begin{DoxyParams}{Parameters}
+{\em weather} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements {\bf sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a606292981670d6d1e015020956bf5bbc}.
+
+
+
+Definition at line 35 of file Grid\-Power.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/grid\-Objects/{\bf Grid\-Power.\-java}\end{DoxyCompactItemize}

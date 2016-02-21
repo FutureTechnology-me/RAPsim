@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_reflection_stuff" kind="class" prot="public">
+    <compoundname>sgs::controller::ReflectionStuff</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_reflection_stuff_1a8ab589b69ba666991e1f44e80110bcb2" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.ReflectionStuff.useSubPackages</definition>
+        <argsstring></argsstring>
+        <name>useSubPackages</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag defining if packages below the (parameter) package should be used at related functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" compoundref="_reflection_stuff_8java" startline="88" endline="193">sgs.controller.ReflectionStuff.getClassesForPackage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_reflection_stuff_1a5294bc5c3f56ce1f5b8186efc2314928" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.controller.ReflectionStuff.mainTest</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>mainTest</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws FileNotFoundException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Testing <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="27" bodyend="42"/>
+        <references refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" compoundref="_reflection_stuff_8java" startline="72" endline="75">sgs.controller.ReflectionStuff.getClassesForPackage</references>
+        <references refid="classsgs_1_1controller_1_1_reflection_stuff_1a5095a89bb614c63d62936e9b0af0cc1a" compoundref="_reflection_stuff_8java" startline="51" endline="65">sgs.controller.ReflectionStuff.getSubClasses</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_reflection_stuff_1a5095a89bb614c63d62936e9b0af0cc1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>static ArrayList&lt;Class&lt;?&gt; &gt; sgs.controller.ReflectionStuff.getSubClasses</definition>
+        <argsstring>(Class&lt;?&gt; topClass, ArrayList&lt; Class&lt;?&gt;&gt; classes, boolean canBeAbstract)</argsstring>
+        <name>getSubClasses</name>
+        <param>
+          <type>Class&lt;?&gt;</type>
+          <declname>topClass</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; Class&lt;?&gt;&gt;</type>
+          <declname>classes</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>canBeAbstract</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of sub-classes from the defined list of classes. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>topClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>classes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>sub-classes of topClass, excluding topClass, excluding abstract classes </para></simplesect>
+<simplesect kind="see"><para><ref refid="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" kindref="member">getClassesForPackage(String pkgName)</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="51" bodyend="65"/>
+        <referencedby refid="classsgs_1_1controller_1_1_reflection_stuff_1a5294bc5c3f56ce1f5b8186efc2314928" compoundref="_reflection_stuff_8java" startline="27" endline="42">sgs.controller.ReflectionStuff.mainTest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>static ArrayList&lt;Class&lt;?&gt; &gt; sgs.controller.ReflectionStuff.getClassesForPackage</definition>
+        <argsstring>(Class&lt;?&gt; topClass)</argsstring>
+        <name>getClassesForPackage</name>
+        <param>
+          <type>Class&lt;?&gt;</type>
+          <declname>topClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>topClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all classes in the same package. </para></simplesect>
+<simplesect kind="see"><para><ref refid="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" kindref="member">getClassesForPackage(String pkgName)</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="72" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="72" bodyend="75"/>
+        <referencedby refid="classsgs_1_1controller_1_1_reflection_stuff_1a5294bc5c3f56ce1f5b8186efc2314928" compoundref="_reflection_stuff_8java" startline="27" endline="42">sgs.controller.ReflectionStuff.mainTest</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_reflection_stuff_1a83b9568754368838a97b1fc547eb4122" compoundref="_reflection_stuff_8java" startline="79" endline="81">sgs.controller.ReflectionStuff.getClassesForPackage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_reflection_stuff_1a83b9568754368838a97b1fc547eb4122" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>static ArrayList&lt;Class&lt;?&gt; &gt; sgs.controller.ReflectionStuff.getClassesForPackage</definition>
+        <argsstring>(Package pkg)</argsstring>
+        <name>getClassesForPackage</name>
+        <param>
+          <type>Package</type>
+          <declname>pkg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" kindref="member">getClassesForPackage(String pkgName)</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="79" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="79" bodyend="81"/>
+        <references refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" compoundref="_reflection_stuff_8java" startline="72" endline="75">sgs.controller.ReflectionStuff.getClassesForPackage</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>static ArrayList&lt;Class&lt;?&gt; &gt; sgs.controller.ReflectionStuff.getClassesForPackage</definition>
+        <argsstring>(String pkgName)</argsstring>
+        <name>getClassesForPackage</name>
+        <param>
+          <type>String</type>
+          <declname>pkgName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Original from Dave Dopson, <ulink url="https://github.com/ddopson/java-class-enumerator">https://github.com/ddopson/java-class-enumerator</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pkgName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- e.g. &quot;sgs.controller.interfaces&quot; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all classes in the package. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="88" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="88" bodyend="193"/>
+        <references refid="classsgs_1_1controller_1_1_reflection_stuff_1a8ab589b69ba666991e1f44e80110bcb2" compoundref="_reflection_stuff_8java" startline="20">sgs.controller.ReflectionStuff.useSubPackages</references>
+        <references refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" compoundref="_reflection_stuff_8java" startline="72" endline="75">sgs.controller.ReflectionStuff.getClassesForPackage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ReflectionStuff.java" bodystart="17" bodyend="196"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1a136f418c61dc52f9fd9225e76e576231" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>getClassesForPackage</name></member>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1a83b9568754368838a97b1fc547eb4122" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>getClassesForPackage</name></member>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1aa4c2f21a28dfdad9f1fc7f8ea16b4800" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>getClassesForPackage</name></member>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1a5095a89bb614c63d62936e9b0af0cc1a" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>getSubClasses</name></member>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1a5294bc5c3f56ce1f5b8186efc2314928" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>mainTest</name></member>
+      <member refid="classsgs_1_1controller_1_1_reflection_stuff_1a8ab589b69ba666991e1f44e80110bcb2" prot="public" virt="non-virtual"><scope>sgs::controller::ReflectionStuff</scope><name>useSubPackages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

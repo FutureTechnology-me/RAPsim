@@ -1,0 +1,836 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kind="enum" prot="public">
+    <compoundname>sgs::model::gridData::GridDataEnum</compoundname>
+    <innerclass refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" prot="public">sgs::model::gridData::GridDataEnum::Type</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a2ddfc8abc08bc49357ee35e6cad24bc4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.EMPTY</definition>
+        <argsstring></argsstring>
+        <name>EMPTY</name>
+        <initializer>=(null,null)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8b112ee7b6f0b0146cd4588a1539e589" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.MOVE_GEAR</definition>
+        <argsstring></argsstring>
+        <name>MOVE_GEAR</name>
+        <initializer>=(&quot;Move&quot;, &quot;Use this to Navigate&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a85c3a1a8194a515c0afadcfb5b4eec3a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.DELETE_GEAR</definition>
+        <argsstring></argsstring>
+        <name>DELETE_GEAR</name>
+        <initializer>=(&quot;Delete&quot;, &quot;Delete Objects&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81efe618839306f5505b5283984cef3a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.PLINE</definition>
+        <argsstring></argsstring>
+        <name>PLINE</name>
+        <initializer>=(&quot;PLine&quot;, &quot;Resistance of a powerline&quot;, PowerLine.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1afb8c029e0e2ae4e938e03e4bdcdd75f5" compoundref="_power_line_8java" startline="95" endline="97">sgs.model.gridObjects.PowerLine.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3c84b96bb3d26909ec5b4518e32673bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.SPLINE</definition>
+        <argsstring></argsstring>
+        <name>SPLINE</name>
+        <initializer>=(&quot;sPline&quot;, &quot;Lossless Connectors&quot;, Connector.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1aa03b5f004ce32959f1bf38a6453c45bd" compoundref="_connector_8java" startline="27" endline="29">sgs.model.gridObjects.Connector.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81436f6525c31c22d727bb88ce77a59b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.CUSTOM_CONSUMER</definition>
+        <argsstring></argsstring>
+        <name>CUSTOM_CONSUMER</name>
+        <initializer>=(&quot;House&quot;, &quot;Residential consumption&quot;, CustomConsumer.class, AbstractCustomConsumerModel.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4" compoundref="_custom_consumer_8java" startline="17" endline="20">sgs.model.gridObjects.CustomConsumer.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8812134f8ff9dbeb2915d572c5313daf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.SOLAR_POWER_PLANT</definition>
+        <argsstring></argsstring>
+        <name>SOLAR_POWER_PLANT</name>
+        <initializer>=(&quot;SolarPowerPlant&quot;, &quot;PV Generation&quot;, SolarPowerPlant.class, AbstractSolarPowerPlantModel.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a889e96a01ce8c0498f7654498191c824" compoundref="_solar_power_plant_8java" startline="24" endline="26">sgs.model.gridObjects.SolarPowerPlant.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a0e5fbe71f411509423dea40496b9aa0e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.WIND_TURBINE_POWER_PLANT</definition>
+        <argsstring></argsstring>
+        <name>WIND_TURBINE_POWER_PLANT</name>
+        <initializer>=(&quot;WindTurbinePowerPlant&quot;, &quot;Windturbine&quot;, WindTurbinePowerPlant.class, AbstractWindPowerPlantModel.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant_1abe9795cd99c9d3e16daf442572bca0f6" compoundref="_wind_turbine_power_plant_8java" startline="25" endline="27">sgs.model.gridObjects.WindTurbinePowerPlant.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aab13e8947ec3b1009f9a7c6acfdd1ffa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.FOSSIL_FUEL_POWER_PLANT</definition>
+        <argsstring></argsstring>
+        <name>FOSSIL_FUEL_POWER_PLANT</name>
+        <initializer>=(&quot;FossilFuelPowerPlant&quot;, &quot;Fuels Generator&quot;, FossilFuelPowerPlant.class , AbstractFossilFuelPowerPlantModel.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant_1a308b5f5c96da7ec7d3d92f2230e98540" compoundref="_fossil_fuel_power_plant_8java" startline="34" endline="36">sgs.model.gridObjects.FossilFuelPowerPlant.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3d53778a5ad430bc763a844b551ad64f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.CUSTOM_POWER_PLANT</definition>
+        <argsstring></argsstring>
+        <name>CUSTOM_POWER_PLANT</name>
+        <initializer>=(&quot;PowerPlant&quot;, &quot;Any other Powerplant&quot;, CustomPowerPlant.class, AbstractCustomPowerPlantModel.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="65" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant_1a0a994ac9b9a0bc3da62a8bef0fe36a31" compoundref="_custom_power_plant_8java" startline="22" endline="24">sgs.model.gridObjects.CustomPowerPlant.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a1611cc07fc5548036b985a2a96e3502b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.GRID_POWER</definition>
+        <argsstring></argsstring>
+        <name>GRID_POWER</name>
+        <initializer>=(&quot;GridPower&quot;, &quot;Grid connection: Marks Reference-<ref refid="classsgs_1_1model_1_1simulation_1_1_bus" kindref="compound">Bus</ref>&quot;, GridPower.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="67" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power_1a17b4340779002ef8b1853b376a3c1b55" compoundref="_grid_power_8java" startline="41" endline="43">sgs.model.gridObjects.GridPower.getEnum</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ac9e97ef08e7aed37f092a137e02e5bd0" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.imgExtension</definition>
+        <argsstring></argsstring>
+        <name>imgExtension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="73" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6e58af19b1531d476d4dbbe18569ca8b" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.toolTip</definition>
+        <argsstring></argsstring>
+        <name>toolTip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="73" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a4bb5f1cbc984e00f67672cf9bd7c1b57" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.imgName</definition>
+        <argsstring></argsstring>
+        <name>imgName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores name data and tooltip. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="73" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1af9aa6e10003b5d7f2d87fc23eb8c7e4e" prot="private" static="no" mutable="no">
+        <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>Class&lt;? extends SmartGridObject&gt; sgs.model.gridData.GridDataEnum.mappedClass</definition>
+        <argsstring></argsstring>
+        <name>mappedClass</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class mapped to this enum instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="77" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9a2feb22071c96f4428a5b1fdc0b301d" prot="private" static="no" mutable="no">
+        <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref> &gt;</type>
+        <definition>Class&lt;? extends AbstractModel&gt; sgs.model.gridData.GridDataEnum.mappedModel</definition>
+        <argsstring></argsstring>
+        <name>mappedModel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="78" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa030ad4a09d195125619366b674562fa" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.gridData.GridDataEnum.ID_START</definition>
+        <argsstring></argsstring>
+        <name>ID_START</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ID_START ... ID of the first <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref>. ID_RANGE ... number of possible Types/Pictures for every <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="85" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aaf84ed3fa432e099c83cbb95642d1c1d" prot="public" static="yes" mutable="no">
+        <type>staticfinal int</type>
+        <definition> static  final int sgs.model.gridData.GridDataEnum.ID_RANGE</definition>
+        <argsstring></argsstring>
+        <name>ID_RANGE</name>
+        <initializer>=Type.values().length</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="85" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a183d455952ba02cb9339be15593ed7c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int sgs.model.gridData.GridDataEnum.getGridDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>getGridDataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of grid data indices used with regard to all different types. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1af3be08087294300114fe51eaae39ccea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>static GridDataEnum sgs.model.gridData.GridDataEnum.getEnum</definition>
+        <argsstring>(String name)</argsstring>
+        <name>getEnum</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Enum corresponding to name or null. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="329" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="329" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3273288634b234cac645bfeaadbd602a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>static GridDataEnum sgs.model.gridData.GridDataEnum.getMappedEnum</definition>
+        <argsstring>(Class&lt;?extends SmartGridObject &gt; c)</argsstring>
+        <name>getMappedEnum</name>
+        <param>
+          <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="344" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="344" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a146f09c888b5a2ccd3979f7860899dc9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>static Class&lt;? extends SmartGridObject&gt; sgs.model.gridData.GridDataEnum.getMappedClass</definition>
+        <argsstring>(GridDataEnum enu)</argsstring>
+        <name>getMappedClass</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+          <declname>enu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="348" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="348" bodyend="350"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1af11f6a5fef2505c0e35d84dd24576140" compoundref="_grid_controller_8java" startline="101" endline="114">sgs.controller.GridController.addGridObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a0fe5a62880a15952c50c8d6e3deca233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.GridDataEnum</definition>
+        <argsstring>(String imgName, String imgExtension, String toolTip)</argsstring>
+        <name>GridDataEnum</name>
+        <param>
+          <type>String</type>
+          <declname>imgName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>imgExtension</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toolTip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Full constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imgName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imgExtension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toolTip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="105" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a7bc200ab636318d708585d3d0b394f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.GridDataEnum</definition>
+        <argsstring>(String imgName, String toolTip)</argsstring>
+        <name>GridDataEnum</name>
+        <param>
+          <type>String</type>
+          <declname>imgName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toolTip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Simple constructor: png is default file extension. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="116" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a189ad60a6f4d06be753ebce9b4ce6c71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.GridDataEnum</definition>
+        <argsstring>(String imgName, String toolTip, Class&lt;?extends SmartGridObject &gt; c)</argsstring>
+        <name>GridDataEnum</name>
+        <param>
+          <type>String</type>
+          <declname>imgName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toolTip</declname>
+        </param>
+        <param>
+          <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imgName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toolTip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="127" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="127" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9c91001e9faac4b4bcbe044a6e28cfbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.GridDataEnum</definition>
+        <argsstring>(String imgName, String toolTip, Class&lt;?extends SmartGridObject &gt; c, Class&lt;?extends AbstractModel &gt; m)</argsstring>
+        <name>GridDataEnum</name>
+        <param>
+          <type>String</type>
+          <declname>imgName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>toolTip</declname>
+        </param>
+        <param>
+          <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref> &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="145" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="145" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a49277e6ee993e089a33cb77497a36992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.GridDataEnum.getID</definition>
+        <argsstring>()</argsstring>
+        <name>getID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the Base-ID of the enum.</para><para><simplesect kind="return"><para>the base ID for this group of images, ordinal*ID_RANGE+ID_START. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="186" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6f19984ff72ec92bf031e8494b63118c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.GridDataEnum.getMaxID</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>maximum possible ID for this <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="192" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a32e248d6abc72f179b8f6778bfcd1bf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.GridDataEnum.lessOrEqual</definition>
+        <argsstring>(int otherID)</argsstring>
+        <name>lessOrEqual</name>
+        <param>
+          <type>int</type>
+          <declname>otherID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test if this Enum is equal and defined before the other. ID is used as parameter for enabling the usage with any ID obtained before from an Enum.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>otherID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the ID of another GridEnum obtained via a getter function. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if this Enum includes otherID or is defined before. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="203" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8ed6b2a27243b326a00ad86d12f995c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.GridDataEnum.greaterOrEqual</definition>
+        <argsstring>(int otherID)</argsstring>
+        <name>greaterOrEqual</name>
+        <param>
+          <type>int</type>
+          <declname>otherID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test if this Enum is equal and defined after the other. ID is used as parameter for enabling the usage with any ID obtained before from an Enum.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>otherID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the ID of another GridEnum obtained via a getter function. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if this Enum includes otherID or is defined after it. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="217" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa6d1d960be92483d6c8014cc0bc07d6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.GridDataEnum.includesID</definition>
+        <argsstring>(int id)</argsstring>
+        <name>includesID</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if this <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref> includes this unique ID. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="228" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa9b23b360dbc4405bb03eb6d935d3a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.GridDataEnum.getID</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>getID</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" kindref="compound">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the unique ID for the specified Type/picture of this <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="239" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="239" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa9d62ea4105ae9e73369002afefe773b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.getImage</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>getImage</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" kindref="compound">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>path + fullFileName </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="251" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a30dcc8693730e57ec41c1288766ad7fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.getIcon</definition>
+        <argsstring>()</argsstring>
+        <name>getIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>path + fullIconFileName </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="259" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="259" bodyend="261"/>
+        <references refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a4f7dbc1f957aaee018554c498711c4e0" compoundref="_grid_data_enum_8java" startline="174">sgs.model.gridData.GridDataEnum.Type.ICON</references>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9859b40edb885c06fc5a84033dac1a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.gridData.GridDataEnum.getToolTip</definition>
+        <argsstring>()</argsstring>
+        <name>getToolTip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>predefined tool tip text. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="266" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="266" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ab31070398737abe7fb42240724b9ce31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" kindref="compound">Type</ref> &gt;</type>
+        <definition>ArrayList&lt;Type&gt; sgs.model.gridData.GridDataEnum.getExistingTypes</definition>
+        <argsstring>()</argsstring>
+        <name>getExistingTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a array with all types of EXISTING images. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="273" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="273" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a4153a65df8d1098666f63f5275f966de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.GridDataEnum.isMapElement</definition>
+        <argsstring>()</argsstring>
+        <name>isMapElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if this is also a map element. (map images exist) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="290" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="290" bodyend="298"/>
+        <references refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1aeb9ac957a45becf808b5213ee5a68372" compoundref="_grid_data_enum_8java" startline="175">sgs.model.gridData.GridDataEnum.Type.MAP_LRUD</references>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3706be52f49b145109daa151e162d2b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.GridDataEnum.exists</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>exists</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" kindref="compound">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if image file with this type exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="304" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6123a369edb12fff72f9d66ada75f6d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.GridDataEnum.nrOfImages</definition>
+        <argsstring>()</argsstring>
+        <name>nrOfImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of existing image files for this Enum. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="312" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="312" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ad6028ff130df919fda3cfb55044dbb7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref> &gt;</type>
+        <definition>Class&lt;? extends SmartGridObject&gt; sgs.model.gridData.GridDataEnum.getMappedClass</definition>
+        <argsstring>()</argsstring>
+        <name>getMappedClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="352" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="352" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6967d79719b22361f3eb89a0a5a62de1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Class&lt;?extends <ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" kindref="compound">AbstractModel</ref> &gt;</type>
+        <definition>Class&lt;? extends AbstractModel&gt; sgs.model.gridData.GridDataEnum.getMappedModel</definition>
+        <argsstring>()</argsstring>
+        <name>getMappedModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="355" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="355" bodyend="357"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1af11f6a5fef2505c0e35d84dd24576140" compoundref="_grid_controller_8java" startline="101" endline="114">sgs.controller.GridController.addGridObject</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Holds: &gt; all button images -&gt; Control buttons -&gt; Buttons for GridObjects</para><para>&gt; all images for JGM</para><para>Ideas for future:<itemizedlist>
+<listitem><para>Buffer/Store images or image information in Enum for faster start up.</para></listitem><listitem><para>Better automated system for handling different images for a single grid object. (encapsulate in a new class)</para></listitem></itemizedlist>
+</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="40" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="40" bodyend="358"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81436f6525c31c22d727bb88ce77a59b" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>CUSTOM_CONSUMER</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3d53778a5ad430bc763a844b551ad64f" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>CUSTOM_POWER_PLANT</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a85c3a1a8194a515c0afadcfb5b4eec3a" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>DELETE_GEAR</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a2ddfc8abc08bc49357ee35e6cad24bc4" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>EMPTY</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3706be52f49b145109daa151e162d2b1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>exists</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aab13e8947ec3b1009f9a7c6acfdd1ffa" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>FOSSIL_FUEL_POWER_PLANT</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1af3be08087294300114fe51eaae39ccea" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ab31070398737abe7fb42240724b9ce31" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getExistingTypes</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a183d455952ba02cb9339be15593ed7c3" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getGridDataSize</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a30dcc8693730e57ec41c1288766ad7fc" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getIcon</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a49277e6ee993e089a33cb77497a36992" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getID</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa9b23b360dbc4405bb03eb6d935d3a3d" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getID</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa9d62ea4105ae9e73369002afefe773b" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getImage</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a146f09c888b5a2ccd3979f7860899dc9" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getMappedClass</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ad6028ff130df919fda3cfb55044dbb7f" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getMappedClass</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3273288634b234cac645bfeaadbd602a" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getMappedEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6967d79719b22361f3eb89a0a5a62de1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getMappedModel</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6f19984ff72ec92bf031e8494b63118c" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getMaxID</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9859b40edb885c06fc5a84033dac1a3d" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>getToolTip</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8ed6b2a27243b326a00ad86d12f995c1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>greaterOrEqual</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a1611cc07fc5548036b985a2a96e3502b" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>GRID_POWER</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a0fe5a62880a15952c50c8d6e3deca233" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>GridDataEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a7bc200ab636318d708585d3d0b394f84" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>GridDataEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a189ad60a6f4d06be753ebce9b4ce6c71" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>GridDataEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9c91001e9faac4b4bcbe044a6e28cfbe" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>GridDataEnum</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aaf84ed3fa432e099c83cbb95642d1c1d" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>ID_RANGE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa030ad4a09d195125619366b674562fa" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>ID_START</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1ac9e97ef08e7aed37f092a137e02e5bd0" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>imgExtension</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a4bb5f1cbc984e00f67672cf9bd7c1b57" prot="private" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>imgName</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1aa6d1d960be92483d6c8014cc0bc07d6d" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>includesID</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a4153a65df8d1098666f63f5275f966de" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>isMapElement</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a32e248d6abc72f179b8f6778bfcd1bf0" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>lessOrEqual</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1af9aa6e10003b5d7f2d87fc23eb8c7e4e" prot="private" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>mappedClass</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a9a2feb22071c96f4428a5b1fdc0b301d" prot="private" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>mappedModel</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8b112ee7b6f0b0146cd4588a1539e589" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>MOVE_GEAR</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6123a369edb12fff72f9d66ada75f6d1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>nrOfImages</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81efe618839306f5505b5283984cef3a" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>PLINE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a8812134f8ff9dbeb2915d572c5313daf" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>SOLAR_POWER_PLANT</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a3c84b96bb3d26909ec5b4518e32673bf" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>SPLINE</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a6e58af19b1531d476d4dbbe18569ca8b" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>toolTip</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a0e5fbe71f411509423dea40496b9aa0e" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum</scope><name>WIND_TURBINE_POWER_PLANT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

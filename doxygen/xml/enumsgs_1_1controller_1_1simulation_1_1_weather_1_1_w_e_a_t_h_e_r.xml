@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r" kind="enum" prot="public">
+    <compoundname>sgs::controller::simulation::Weather::WEATHER</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1af3a224fd6543b002f991e47b945c800e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.Weather.WEATHER.clear</definition>
+        <argsstring></argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_weather_1af8700c1c089fd43cb89b2d0912b086ed" compoundref="_weather_8java" startline="86" endline="113">sgs.controller.simulation.Weather.newCloudFactor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1abfd5e1962fe7a1b6d114e8fde6375cb2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.Weather.WEATHER.cloudy</definition>
+        <argsstring></argsstring>
+        <name>cloudy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a933172ff9e97c84576822553104aac51" compoundref="_weather_8java" startline="27" endline="37">sgs.controller.simulation.Weather.Weather</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_weather_1af8700c1c089fd43cb89b2d0912b086ed" compoundref="_weather_8java" startline="86" endline="113">sgs.controller.simulation.Weather.newCloudFactor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1ab89d21fa8e6d8d155522feefd6f0fb22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.simulation.Weather.WEATHER.rainy</definition>
+        <argsstring></argsstring>
+        <name>rainy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_weather_1af8700c1c089fd43cb89b2d0912b086ed" compoundref="_weather_8java" startline="86" endline="113">sgs.controller.simulation.Weather.newCloudFactor</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/Weather.java" bodystart="20" bodyend="20"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1af3a224fd6543b002f991e47b945c800e" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather::WEATHER</scope><name>clear</name></member>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1abfd5e1962fe7a1b6d114e8fde6375cb2" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather::WEATHER</scope><name>cloudy</name></member>
+      <member refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r_1ab89d21fa8e6d8d155522feefd6f0fb22" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::Weather::WEATHER</scope><name>rainy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

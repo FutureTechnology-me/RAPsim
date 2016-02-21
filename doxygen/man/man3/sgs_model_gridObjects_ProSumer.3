@@ -1,0 +1,86 @@
+.TH "sgs.model.gridObjects.ProSumer" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridObjects.ProSumer \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.PP
+Inherited by \fBsgs\&.model\&.gridObjects\&.Consumer\fP, \fBsgs\&.model\&.gridObjects\&.GridPower\fP, and \fBsgs\&.model\&.gridObjects\&.PowerPlant\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBProSumer\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetProductionToWeatherAndTime\fP (GregorianCalendar currentTime, \fBWeather\fP weather)"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+A \fBSmartGridObject\fP\&. Anyone using or providing energy 
+.PP
+\fBAuthor:\fP
+.RS 4
+tobi, Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file ProSumer\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridObjects\&.ProSumer\&.ProSumer ()"
+Constructor with shared attributes\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpowerDemand\fP 
+.br
+\fIpowerProduction\fP 
+.br
+\fIcurrentCharge\fP 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file ProSumer\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.model\&.gridObjects\&.ProSumer\&.setProductionToWeatherAndTime (GregorianCalendarcurrentTime, \fBWeather\fPweather)\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the offers TODO: test amount, remove function 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoffer\fP to add 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the profileID 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIprofileID\fP the profileID to set 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.PP
+Definition at line 66 of file ProSumer\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

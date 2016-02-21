@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_give_data_time_weather_8java" kind="file">
+    <compoundname>GiveDataTimeWeather.java</compoundname>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_give_data_time_weather" prot="public">sgs::controller::fileManagement::csvConstruction::GiveDataTimeWeather</innerclass>
+    <innernamespace refid="namespacesgs_1_1controller_1_1file_management_1_1csv_construction">sgs::controller::fileManagement::csvConstruction</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.controller.fileManagement.csvConstruction;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_give_data_time_weather" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_give_data_time_weather" kindref="compound">GiveDataTimeWeather</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/GiveDataTimeWeather.java"/>
+  </compounddef>
+</doxygen>

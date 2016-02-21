@@ -1,0 +1,219 @@
+\section{sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator}\index{sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator@{sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator}}
+
+
+Inheritance diagram for sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator\-:
+
+
+Collaboration diagram for sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf D\-C\-Power\-Flow\-Calculator} ({\bf Grid\-Controller} grid\-Controller)
+\item 
+void {\bf initialize\-Algorithm} ()
+\item 
+void {\bf calculation\-Step} ()
+\item 
+void {\bf grid\-Changed} ()
+\item 
+String {\bf get\-Description} ()
+\item 
+void {\bf simulation\-Started} ()
+\item 
+void {\bf simulation\-Stopped} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf set\-Properties\-For\-Variables} ()
+\item 
+void {\bf set\-Properties\-For\-Bus\-And\-Path} ()
+\item 
+void {\bf unload\-Algorithm} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+D\-C-\/\-Flow-\/\-Algorithm \begin{DoxyAuthor}{Author}
+Benjamin Breiling 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See Also}
+Theoretical\-Stuff/\-D\-C\-Power\-Flow\-Equations.\-pdf 
+\end{DoxySeeAlso}
+
+
+Definition at line 26 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!D\-C\-Power\-Flow\-Calculator@{D\-C\-Power\-Flow\-Calculator}}
+\index{D\-C\-Power\-Flow\-Calculator@{D\-C\-Power\-Flow\-Calculator}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{D\-C\-Power\-Flow\-Calculator}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-D\-C\-Power\-Flow\-Calculator (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a9b93dc4b65de9daf9792f8fc16c5b7bc}
+
+
+Definition at line 36 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!calculation\-Step@{calculation\-Step}}
+\index{calculation\-Step@{calculation\-Step}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{calculation\-Step}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-calculation\-Step (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_aeddee902741828c880db218ad140e2c1}
+solves the D\-C-\/\-Power-\/\-Flow-\/\-Equations input\-: (1) Susceptance-\/\-Matrix (2) Netto real power production on every bus
+
+output\-:(3) real power flow on the power lines (4) phase angle on the buses
+
+\begin{DoxySeeAlso}{See Also}
+Theoretical\-Stuff/\-D\-C\-Power\-Flow\-Equations.\-pdf 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac4c9507877dc020250921cddc16ba2ef}.
+
+
+
+Definition at line 71 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!get\-Description@{get\-Description}}
+\index{get\-Description@{get\-Description}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{get\-Description}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-get\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a2734d162449113e2f083b31bf9ea0dce}
+\begin{DoxyReturn}{Returns}
+description of the specific algorithm used for the \char`\"{}\-Info\char`\"{} button 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_afb5870e926bf78477e3d31ae34ab9432}.
+
+
+
+Definition at line 281 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!grid\-Changed@{grid\-Changed}}
+\index{grid\-Changed@{grid\-Changed}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{grid\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-grid\-Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_abb3e03aa020719c4c5682f50dba72603}
+Is called if the Grid is modified. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a1448c4593f3a851aa5e524b7e4316c0d}.
+
+
+
+Definition at line 275 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!initialize\-Algorithm@{initialize\-Algorithm}}
+\index{initialize\-Algorithm@{initialize\-Algorithm}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{initialize\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-initialize\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_ae819a11f8da8e6a0a7f4869301d9e071}
+
+
+Definition at line 41 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}}
+\index{set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{set\-Properties\-For\-Bus\-And\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-set\-Properties\-For\-Bus\-And\-Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_aa106efb623337c2c8532dee15c38c994}
+Set \doxyref{Sgs\-Grid\-Model.\-resistance\-Attributes}{p.}{classsgs_1_1model_1_1_sgs_grid_model_a44245cedb90ee93a539e1b095a042776}, bus\-Variable\-Collection, path\-Variable\-Collection if used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ae6eb61da1d9e7259cf934108bce0f4db}.
+
+
+
+Definition at line 263 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}}
+\index{set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{set\-Properties\-For\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-set\-Properties\-For\-Variables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a5c1243cb881fed45eb285836dc312cde}
+Set the algorithm specific variables with help of the super class methods. \begin{DoxySeeAlso}{See Also}
+\doxyref{select\-Class(\-Class)}{p.}{}, \doxyref{set\-Properties(boolean,boolean,\-Enum\-P\-V[$\,$])}{p.}{}, \doxyref{initialize\-Variables()}{p.}{} 
+\end{DoxySeeAlso}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac2928692dc590133f3373ce29fb333fc}.
+
+
+
+Definition at line 249 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!simulation\-Started@{simulation\-Started}}
+\index{simulation\-Started@{simulation\-Started}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{simulation\-Started}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-simulation\-Started (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a0879bdcdd80b9796db0225e670d9d58f}
+Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a L\-O\-G file if one is used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a38463f403753d238505c4db484394650}.
+
+
+
+Definition at line 292 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!simulation\-Stopped@{simulation\-Stopped}}
+\index{simulation\-Stopped@{simulation\-Stopped}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{simulation\-Stopped}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-simulation\-Stopped (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a214ef467a06c72e73e59d2b1ed751259}
+Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a665185f0afb464260b8237a0fb43846a}.
+
+
+
+Definition at line 305 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}!unload\-Algorithm@{unload\-Algorithm}}
+\index{unload\-Algorithm@{unload\-Algorithm}!sgs::controller::simulation::DCPowerFlowCalculator@{sgs\-::controller\-::simulation\-::\-D\-C\-Power\-Flow\-Calculator}}
+\subsubsection[{unload\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-D\-C\-Power\-Flow\-Calculator.\-unload\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_a2936521aebc471448a586ade21d2c571}
+Free external resources used by this algorithm. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a3458f6694fbfac2ccbb686749eaae2c0}.
+
+
+
+Definition at line 269 of file D\-C\-Power\-Flow\-Calculator.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/{\bf D\-C\-Power\-Flow\-Calculator.\-java}\end{DoxyCompactItemize}

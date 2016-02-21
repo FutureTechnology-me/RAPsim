@@ -1,0 +1,72 @@
+.TH "sgs.controller.PrimaryController" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.PrimaryController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPrimaryController\fP (\fBSgsGridModel\fP gridModel, PrimaryView primaryView)"
+.br
+.ti -1c
+.RI "\fBSgsGridModel\fP \fBgetGridModel\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBexitProgramm\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Has full access to the View and the Model\&. (MVC)
+.PP
+Initializes the ColorLegendPanel
+.PP
+Starts and organizes other controllers: \fBGridController\fP - grid interaction \fBButtonController\fP - buttons, user interaction TimeThread - simulation \fBMenuController\fP - menu, user interaction
+.PP
+Provides more general function: \fBexitProgramm()\fP
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file PrimaryController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.PrimaryController\&.PrimaryController (\fBSgsGridModel\fPgridModel, PrimaryViewprimaryView)"
+Constructor: Use the constructor only once, else there can be problems with static components\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.br
+\fIprimaryView\fP 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file PrimaryController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static void sgs\&.controller\&.PrimaryController\&.exitProgramm ()\fC [static]\fP"
+Static function for exit\&. 
+.PP
+Definition at line 121 of file PrimaryController\&.java\&.
+.SS "\fBSgsGridModel\fP sgs\&.controller\&.PrimaryController\&.getGridModel ()"
+
+.PP
+Definition at line 147 of file PrimaryController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

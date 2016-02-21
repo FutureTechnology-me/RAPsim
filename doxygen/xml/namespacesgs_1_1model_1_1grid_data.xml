@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1grid_data" kind="namespace">
+    <compoundname>sgs::model::gridData</compoundname>
+    <innerclass refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" prot="public">sgs::model::gridData::GridDataEnum</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node" prot="public">sgs::model::gridData::GridDataNode</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_tree" prot="public">sgs::model::gridData::GridDataTree</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_data_1_1_overlay" prot="public">sgs::model::gridData::Overlay</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list" prot="public">sgs::model::gridData::OverlayList</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1grid_data_1_1_layer_comparator" prot="package">sgs::model::gridData::LayerComparator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

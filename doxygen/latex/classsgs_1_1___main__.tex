@@ -1,0 +1,68 @@
+\section{sgs.\-\_\-\-Main\-\_\- Class Reference}
+\label{classsgs_1_1___main__}\index{sgs.\-\_\-\-Main\-\_\-@{sgs.\-\_\-\-Main\-\_\-}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf main} (String[$\,$] args)
+\begin{DoxyCompactList}\small\item\em private static File f = Properties\-Dialog.\-getf(); //deleting the lock file \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main class for initializing and starting the S\-G\-S.
+
+a) take care of initializing static data, e.\-g. for recognition of all classes implementing Smart\-Grid\-Object b) initialize the model (contains J\-G\-M) c) initialize the the view with the model d) initialize controller e) final actions like making the G\-U\-I visible
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger, Sabrina Huber 
+\end{DoxyAuthor}
+
+
+Definition at line 23 of file \-\_\-\-Main\-\_\-.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::\-\_\-\-Main\-\_\-@{sgs\-::\-\_\-\-Main\-\_\-}!main@{main}}
+\index{main@{main}!sgs::_Main_@{sgs\-::\-\_\-\-Main\-\_\-}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void sgs.\-\_\-\-Main\-\_\-.\-main (
+\begin{DoxyParamCaption}
+\item[{String[$\,$]}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1___main___a7408b9cc5914c06cb919cc2c20ef2383}
+
+
+private static File f = Properties\-Dialog.\-getf(); //deleting the lock file 
+
+Initialize \& Start 
+\begin{DoxyParams}{Parameters}
+{\em args} & -\/ unused \\
+\hline
+\end{DoxyParams}
+gives Model \begin{DoxySeeAlso}{See Also}
+\doxyref{Sgs\-Grid\-Model.\-java}{p.}{_sgs_grid_model_8java} 
+\begin{DoxyCode}
+SgsGridModel gridModel = \textcolor{keyword}{new} SgsGridModel(nrOfCellsWidth, nrOfCellsHeight, gridWidth, gridHeight); 
+\end{DoxyCode}
+ grid\-Model =$>$ data about Width, Height and content of Cells
+\end{DoxySeeAlso}
+
+\begin{DoxyCode}
+PrimaryView primaryView = \textcolor{keyword}{new} PrimaryView(\textcolor{stringliteral}{"SGS - Smart Grid Simulator"}, gridModel); 
+\end{DoxyCode}
+ View of J\-Grid\-Map and rest of the G\-U\-I, set Name to \char`\"{}\-S\-G\-S -\/ Smart Grid Simulator\char`\"{} and size of given grid\-Model
+
+f.\-delete(); File\-Chooser\-Model.\-delete\-C\-S\-V();
+
+
+\begin{DoxyCode}
+primaryView.pack(); primaryView.setVisible(\textcolor{keyword}{true}); 
+\end{DoxyCode}
+ start up, set Visible true, and causes the window to be sized to fit the preferred size and layouts 
+
+Definition at line 36 of file \-\_\-\-Main\-\_\-.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/{\bf \-\_\-\-Main\-\_\-.\-java}\end{DoxyCompactItemize}

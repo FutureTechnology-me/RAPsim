@@ -1,0 +1,13 @@
+digraph "sgs.model.gridObjects.SmartGridObject.getEnum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.model.gridObjects.Smart\lGridObject.getEnum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.GridController.actionfor\l_pasteCopiedObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1_grid_controller.html#adadf8d7ceb2a752e51c5575c948c794c"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.model.gridObjects.Smart\lGridObject.updateObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object.html#a4d8ce62cbe114ac99de2bce46aed3d39"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="sgs.view.PropertiesDialog.\lPropertiesDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1view_1_1_properties_dialog.html#ac9acb7d617cd6f6588376d2903f05e83"];
+}

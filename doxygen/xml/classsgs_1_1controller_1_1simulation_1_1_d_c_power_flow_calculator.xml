@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::DCPowerFlowCalculator</compoundname>
+    <basecompoundref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" prot="public" virt="non-virtual">sgs.controller.simulation.AbstractDistributionAlgorithm</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a3102a45ad47435eb5b61ebfb0cfed3db" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.simulation.DCPowerFlowCalculator.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abdb57ccb78e635ac9307b8facd7492e0" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.simulation.DCPowerFlowCalculator.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1adc825654d4e1d3aa947506c94db89253" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] sgs.controller.simulation.DCPowerFlowCalculator.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a1667218f7c71cc90f9fb0c4c3b88c900" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] sgs.controller.simulation.DCPowerFlowCalculator.realBusPower</definition>
+        <argsstring></argsstring>
+        <name>realBusPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a9c7d0e1cd9942c046d4b130e61188b15" prot="private" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types" kindref="compound">busTypes</ref>[]</type>
+        <definition>busTypes [] sgs.controller.simulation.DCPowerFlowCalculator.typesOfBuses</definition>
+        <argsstring></argsstring>
+        <name>typesOfBuses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a9b93dc4b65de9daf9792f8fc16c5b7bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.DCPowerFlowCalculator.DCPowerFlowCalculator</definition>
+        <argsstring>(GridController gridController)</argsstring>
+        <name>DCPowerFlowCalculator</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1ae819a11f8da8e6a0a7f4869301d9e071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.initializeAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>initializeAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="41" bodyend="48"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" compoundref="_abstract_distribution_algorithm_8java" startline="232" endline="243">sgs.controller.simulation.AbstractDistributionAlgorithm.closeLog</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aeddee902741828c880db218ad140e2c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.calculationStep</definition>
+        <argsstring>()</argsstring>
+        <name>calculationStep</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac4c9507877dc020250921cddc16ba2ef">calculationStep</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>solves the DC-Power-Flow-Equations input: (1) Susceptance-Matrix (2) Netto real power production on every bus</para><para>output:(3) real power flow on the power lines (4) phase angle on the buses</para><para><simplesect kind="see"><para>TheoreticalStuff/DCPowerFlowEquations.pdf </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="71" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="71" bodyend="202"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ae898274312dcb3a6c6c6c4677a0a9116" compoundref="_sgs_grid_model_8java" startline="85">sgs.model.SgsGridModel.paths</references>
+        <references refid="enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types_1a8d65c89830d40f81e740ee098e0a1c24" compoundref="_a_c_power_flow_calculator_8java" startline="70">sgs.controller.simulation.ACPowerFlowCalculator.busTypes.REFERENCE_BUS</references>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1a69cc42a53259eb1a9ec9120be308466e" compoundref="_sgs_grid_model_8java" startline="80">sgs.model.SgsGridModel.buses</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" compoundref="_abstract_distribution_algorithm_8java" startline="32">sgs.controller.simulation.AbstractDistributionAlgorithm.log</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abb3e03aa020719c4c5682f50dba72603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.gridChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridChanged</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a1448c4593f3a851aa5e524b7e4316c0d">gridChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is called if the Grid is modified. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="275" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="275" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a2734d162449113e2f083b31bf9ea0dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>String</type>
+        <definition>String sgs.controller.simulation.DCPowerFlowCalculator.getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1afb5870e926bf78477e3d31ae34ab9432">getDescription</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>description of the specific algorithm used for the &quot;Info&quot; button </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="281" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="281" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a0879bdcdd80b9796db0225e670d9d58f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.simulationStarted</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStarted</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a38463f403753d238505c4db484394650">simulationStarted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a LOG file if one is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="292" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="292" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a214ef467a06c72e73e59d2b1ed751259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.simulationStopped</definition>
+        <argsstring>()</argsstring>
+        <name>simulationStopped</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a665185f0afb464260b8237a0fb43846a">simulationStopped</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="305" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="305" bodyend="308"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1ad3aa9d5e1423660ffb16ec4bddd318a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.setPathPower</definition>
+        <argsstring>(double[][] pb, int[] referenceBusNumbers, double[] pref, double[][] angle)</argsstring>
+        <name>setPathPower</name>
+        <param>
+          <type>double</type>
+          <declname>pb</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>referenceBusNumbers</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>pref</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets: (1) the power on every path and reference bus (2) the phase angle on every bus <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array with the phase angle on every bus </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pb</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array with bus power for every bus except reference buses </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>referenceBusNumbers</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array with bus numbers of every reference bus </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pref</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array with bus power of every reference bus </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="213" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="213" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aea405b0f720d89e69d18c67b13ade27b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.setBusTypes</definition>
+        <argsstring>()</argsstring>
+        <name>setBusTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="309" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="309" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abc84e2c9cea89490b1072e608753a532" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>double [][] sgs.controller.simulation.DCPowerFlowCalculator.createSusceptanceMatrix</definition>
+        <argsstring>(LinkedList&lt; Path &gt; paths)</argsstring>
+        <name>createSusceptanceMatrix</name>
+        <param>
+          <type>LinkedList&lt; <ref refid="classsgs_1_1model_1_1simulation_1_1_path" kindref="compound">Path</ref> &gt;</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>forms the susceptance matrix (susceptance: imaginary part of admittance) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>paths</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>powerlines </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>susceptance matrix as double[][] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="345" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="345" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a346a0624cb6078e6cff89a3646952f20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] sgs.controller.simulation.DCPowerFlowCalculator.getRealBusPower</definition>
+        <argsstring>()</argsstring>
+        <name>getRealBusPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array with bus power for every bus </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="373" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="373" bodyend="379"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForVariables</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac2928692dc590133f3373ce29fb333fc">setPropertiesForVariables</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the algorithm specific variables with help of the super class methods. <simplesect kind="see"><para><ref refid="" kindref="compound">selectClass(Class)</ref>, <ref refid="" kindref="compound">setProperties(boolean,boolean,EnumPV[])</ref>, <ref refid="" kindref="compound">initializeVariables()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="249" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="249" bodyend="260"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" compoundref="_enum_p_v_8java" startline="21">sgs.model.variables.EnumPV.voltageAngle</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" compoundref="_enum_p_v_8java" startline="16">sgs.model.variables.EnumPV.powerProduction</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" compoundref="_enum_p_v_8java" startline="13">sgs.model.variables.EnumPV.powerConsumption</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" compoundref="_enum_p_v_8java" startline="26">sgs.model.variables.EnumPV.resistance</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" compoundref="_enum_p_v_8java" startline="27">sgs.model.variables.EnumPV.powerLineCharge</references>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a428afb4a318db40e279e33b2535f2988" compoundref="_enum_p_v_8java" startline="30">sgs.model.variables.EnumPV.currentPowerTransport</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aa106efb623337c2c8532dee15c38c994" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForBusAndPath</definition>
+        <argsstring>()</argsstring>
+        <name>setPropertiesForBusAndPath</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ae6eb61da1d9e7259cf934108bce0f4db">setPropertiesForBusAndPath</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classsgs_1_1model_1_1_sgs_grid_model_1a44245cedb90ee93a539e1b095a042776" kindref="member">SgsGridModel.resistanceAttributes</ref>, busVariableCollection, pathVariableCollection if used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="263" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a2936521aebc471448a586ade21d2c571" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.DCPowerFlowCalculator.unloadAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>unloadAlgorithm</name>
+        <reimplements refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a3458f6694fbfac2ccbb686749eaae2c0">unloadAlgorithm</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Free external resources used by this algorithm. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="269" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="269" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DC-Flow-Algorithm <simplesect kind="author"><para>Benjamin Breiling </para></simplesect>
+<simplesect kind="see"><para>TheoreticalStuff/DCPowerFlowEquations.pdf </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3168">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="3169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3169">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+      <node id="3167">
+        <label>sgs.controller.simulation.DCPowerFlowCalculator</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator"/>
+        <childnode refid="3168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3171">
+        <label>sgs.controller.simulation.AbstractDistributionAlgorithm</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm"/>
+        <childnode refid="3172" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3173" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="3172">
+        <label>sgs.controller.interfaces.GridChangeListener</label>
+        <link refid="interfacesgs_1_1controller_1_1interfaces_1_1_grid_change_listener"/>
+      </node>
+      <node id="3173">
+        <label>OutputStream</label>
+      </node>
+      <node id="3170">
+        <label>sgs.controller.simulation.DCPowerFlowCalculator</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator"/>
+        <childnode refid="3171" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/DCPowerFlowCalculator.java" bodystart="26" bodyend="383"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ad7d52c1647f862aa01232a5930044dbe" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>AbstractDistributionAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1adc825654d4e1d3aa947506c94db89253" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>B</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aeddee902741828c880db218ad140e2c1" prot="public" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>calculationStep</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a210b836d77ed6cf85d3df5be19fcb05d" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>closeLog</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abc84e2c9cea89490b1072e608753a532" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>createSusceptanceMatrix</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a9b93dc4b65de9daf9792f8fc16c5b7bc" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>DCPowerFlowCalculator</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a79f480bfda7396c6043ef4ef4b0f6c78" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>description</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a2dfe9c574dde7d3ee10d46b106929830" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>generateList</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a2734d162449113e2f083b31bf9ea0dce" prot="public" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a45b56e832736dde35a35af8827c3a1dc" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>getName</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a346a0624cb6078e6cff89a3646952f20" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>getRealBusPower</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abb3e03aa020719c4c5682f50dba72603" prot="public" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>gridChanged</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a3102a45ad47435eb5b61ebfb0cfed3db" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1abdb57ccb78e635ac9307b8facd7492e0" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1ae819a11f8da8e6a0a7f4869301d9e071" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>initializeAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1ac713997f4092fbb4c687f18978095cb9" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>initializeFull</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1aab2bc9b1ffec4ead68286376a0097cea" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a0f79de668e228b3d47319c70af85c9e3" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>log</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a1667218f7c71cc90f9fb0c4c3b88c900" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>realBusPower</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a647ef6cec86956a575772e303f1018a9" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>selectClass</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aea405b0f720d89e69d18c67b13ade27b" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setBusTypes</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setDefaultPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1ad3aa9d5e1423660ffb16ec4bddd318a2" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setPathPower</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1a68eee367fab4fbf191d571648de50ea5" prot="protected" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1aa106efb623337c2c8532dee15c38c994" prot="protected" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setPropertiesForBusAndPath</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" prot="protected" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>setPropertiesForVariables</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a0879bdcdd80b9796db0225e670d9d58f" prot="public" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>simulationStarted</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a214ef467a06c72e73e59d2b1ed751259" prot="public" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>simulationStopped</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a9c7d0e1cd9942c046d4b130e61188b15" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>typesOfBuses</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a2936521aebc471448a586ade21d2c571" prot="protected" virt="virtual"><scope>sgs::controller::simulation::DCPowerFlowCalculator</scope><name>unloadAlgorithm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

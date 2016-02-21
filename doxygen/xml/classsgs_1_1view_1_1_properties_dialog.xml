@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_properties_dialog" kind="class" prot="public">
+    <compoundname>sgs::view::PropertiesDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">KeyListener</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a65b8bfbfde0a6f0c4cc1375539e4ff20" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.PropertiesDialog.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 156465465L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1ae4fbb4945ccc030962e5cd1b180f81f7" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.PropertiesDialog.panel</definition>
+        <argsstring></argsstring>
+        <name>panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="45" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1afb67b8b49e1a92173b27b361563fec68" prot="private" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel sgs.view.PropertiesDialog.tablePanel</definition>
+        <argsstring></argsstring>
+        <name>tablePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1ac648f3c0645242552557757b7be78dc4" prot="private" static="no" mutable="no">
+        <type>JTable</type>
+        <definition>JTable sgs.view.PropertiesDialog.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="47" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a28163163a46470dba8b040cf76f05735" prot="private" static="no" mutable="no">
+        <type>JTable</type>
+        <definition>JTable sgs.view.PropertiesDialog.modelTable</definition>
+        <argsstring></argsstring>
+        <name>modelTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1afbb9bdf04adfe474120922960cea7f2f" prot="private" static="no" mutable="no">
+        <type>JComboBox&lt; String &gt;</type>
+        <definition>JComboBox&lt;String&gt; sgs.view.PropertiesDialog.modelComboBox</definition>
+        <argsstring></argsstring>
+        <name>modelComboBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1ae5af244d0f133f5e20a453d8f5169724" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.PropertiesDialog.modelHeader</definition>
+        <argsstring></argsstring>
+        <name>modelHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1af70b3ee1de553944adfc684089a6806e" prot="private" static="no" mutable="no">
+        <type>JTextArea</type>
+        <definition>JTextArea sgs.view.PropertiesDialog.modelDescription</definition>
+        <argsstring></argsstring>
+        <name>modelDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a3c727af05d7ea8d7491626bcf47eaedf" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.view.PropertiesDialog.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1ad4fd752a96f7c29969da053c88204015" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.view.PropertiesDialog.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1aa0b8f586a567cead3b3bfac88fdbea5d" prot="private" static="no" mutable="no">
+        <type>Container</type>
+        <definition>Container sgs.view.PropertiesDialog.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a9894510e8dc4de2416f5aa65a46a013a" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.view.PropertiesDialog.variableSet</definition>
+        <argsstring></argsstring>
+        <name>variableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a4f6ddc82d593a77025d735b6ac27eab6" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.view.PropertiesDialog.modelVars</definition>
+        <argsstring></argsstring>
+        <name>modelVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a321dbd591554dd5f131b10655d8f2e09" prot="private" static="no" mutable="no">
+        <type>final JFrame</type>
+        <definition>final JFrame sgs.view.PropertiesDialog.MainWindow</definition>
+        <argsstring></argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1aeffdbc6675462213f89bfece4c0e3aa1" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+        <definition>final SmartGridObject sgs.view.PropertiesDialog.gObj</definition>
+        <argsstring></argsstring>
+        <name>gObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a2a9b7eb00fc564f1f9f2e8819f904884" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.view.PropertiesDialog.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="60" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a56f75fa7dd9ac8a7cb02e54eda92109c" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Class&lt;?&gt; &gt;</type>
+        <definition>ArrayList&lt;Class&lt;?&gt; &gt; sgs.view.PropertiesDialog.modelClasses</definition>
+        <argsstring></argsstring>
+        <name>modelClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="61" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a05aeb42f757889c3597ce06d0d138956" prot="private" static="no" mutable="no">
+        <type>Class&lt;?&gt;</type>
+        <definition>Class&lt;?&gt; sgs.view.PropertiesDialog.abstractModelClass</definition>
+        <argsstring></argsstring>
+        <name>abstractModelClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a8a35a19e61f2ec6aca135cd72287d25e" prot="private" static="no" mutable="no">
+        <type>Class&lt;?&gt;</type>
+        <definition>Class&lt;?&gt; sgs.view.PropertiesDialog.prosumerClass</definition>
+        <argsstring></argsstring>
+        <name>prosumerClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1af7f023500f58a415d712c55bdce9a0f1" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton sgs.view.PropertiesDialog.bClose</definition>
+        <argsstring></argsstring>
+        <name>bClose</name>
+        <initializer>= new JButton(&quot;Close&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="65" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_properties_dialog_1a675acd02b8d2baf700ec2a18c5ce4dda" prot="private" static="no" mutable="no">
+        <type>final JButton</type>
+        <definition>final JButton sgs.view.PropertiesDialog.bRefresh</definition>
+        <argsstring></argsstring>
+        <name>bRefresh</name>
+        <initializer>= new JButton(&quot;refresh&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="66" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1aeeb176ed1236fdaa3d1770a428063bb5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>File</type>
+        <definition>static File sgs.view.PropertiesDialog.getf</definition>
+        <argsstring>()</argsstring>
+        <name>getf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="68" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a9a8900cd81370362022ef987f3072eea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.PropertiesDialog.PropertiesDialog</definition>
+        <argsstring>(SgsGridModel gridModel, int x, int y)</argsstring>
+        <name>PropertiesDialog</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="78" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1ac9acb7d617cd6f6588376d2903f05e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.PropertiesDialog.PropertiesDialog</definition>
+        <argsstring>(SgsGridModel gridModel, SmartGridObject gObject)</argsstring>
+        <name>PropertiesDialog</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>gObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Open a <ref refid="classsgs_1_1view_1_1_properties_dialog" kindref="compound">PropertiesDialog</ref> for the specified object. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="89" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="89" bodyend="160"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ada3b79b029e40e88b05513dbcd17f573" compoundref="_sgs_grid_model_8java" startline="41">sgs.model.SgsGridModel.mainView</references>
+        <references refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49">sgs.model.gridObjects.SmartGridObject.getEnum</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a36db0505a462cf448b7ecbfe89482790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.keyPressed</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyPressed</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="373" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="373" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a5a7b04e6fcd6b37c0ae6a88a92240d96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.keyReleased</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyReleased</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="377" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="377" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1abe74bb9c81a0dad7a2010c91b9908ffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.keyTyped</definition>
+        <argsstring>(KeyEvent e)</argsstring>
+        <name>keyTyped</name>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="384" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="384" bodyend="385"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a39a3b826f18482d5a993f4f6cf5d92a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.makePanel</definition>
+        <argsstring>()</argsstring>
+        <name>makePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make additional Panel with buttons. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="167" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="167" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a4cc85e12a001047f2b76f6363b13c762" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.exit</definition>
+        <argsstring>()</argsstring>
+        <name>exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exit dialog </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="236" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="236" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1ad67c1984f88d4f568d463a058c9c950d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.addObjectTable</definition>
+        <argsstring>()</argsstring>
+        <name>addObjectTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin create table with object-variables </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="247" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="247" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a5ce8b647325cbaf88db84403a0053f6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.addModelChooser</definition>
+        <argsstring>()</argsstring>
+        <name>addModelChooser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin create an add JCombobox to choose a model for the object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="259" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="259" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a5d776007d4e7f4ed97436cd4c8c161fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.addModelTable</definition>
+        <argsstring>()</argsstring>
+        <name>addModelTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin create table with model-variables </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="314" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="314" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1a2ee385031227e16c52bf9e4e5ff09a65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.addModelDescription</definition>
+        <argsstring>()</argsstring>
+        <name>addModelDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin adds a JTextArea which contains the description of the objects model </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="324" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="324" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1ab0fc25b31806e56a445a1cf2450ff4bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.PropertiesDialog.refreshModel</definition>
+        <argsstring>()</argsstring>
+        <name>refreshModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin refresh view after changing the model </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="338" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="338" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_properties_dialog_1ae9055b0ca40aea2dd35bdf9c68e0c35c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.view.PropertiesDialog.getDialogTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getDialogTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Title for dialog </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="350" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="350" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para></para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3748">
+        <label>KeyListener</label>
+      </node>
+      <node id="3746">
+        <label>sgs.view.PropertiesDialog</label>
+        <link refid="classsgs_1_1view_1_1_properties_dialog"/>
+        <childnode refid="3747" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3748" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3747">
+        <label>JDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3751">
+        <label>KeyListener</label>
+      </node>
+      <node id="3749">
+        <label>sgs.view.PropertiesDialog</label>
+        <link refid="classsgs_1_1view_1_1_properties_dialog"/>
+        <childnode refid="3750" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3751" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3750">
+        <label>JDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/PropertiesDialog.java" bodystart="42" bodyend="388"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a05aeb42f757889c3597ce06d0d138956" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>abstractModelClass</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a5ce8b647325cbaf88db84403a0053f6f" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>addModelChooser</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a2ee385031227e16c52bf9e4e5ff09a65" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>addModelDescription</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a5d776007d4e7f4ed97436cd4c8c161fa" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>addModelTable</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ad67c1984f88d4f568d463a058c9c950d" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>addObjectTable</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1af7f023500f58a415d712c55bdce9a0f1" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>bClose</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a675acd02b8d2baf700ec2a18c5ce4dda" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>bRefresh</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1aa0b8f586a567cead3b3bfac88fdbea5d" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>container</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a4cc85e12a001047f2b76f6363b13c762" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>exit</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ae9055b0ca40aea2dd35bdf9c68e0c35c" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>getDialogTitle</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1aeeb176ed1236fdaa3d1770a428063bb5" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>getf</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1aeffdbc6675462213f89bfece4c0e3aa1" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>gObj</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a2a9b7eb00fc564f1f9f2e8819f904884" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a36db0505a462cf448b7ecbfe89482790" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>keyPressed</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a5a7b04e6fcd6b37c0ae6a88a92240d96" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>keyReleased</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1abe74bb9c81a0dad7a2010c91b9908ffa" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>keyTyped</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a321dbd591554dd5f131b10655d8f2e09" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>MainWindow</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a39a3b826f18482d5a993f4f6cf5d92a4" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>makePanel</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a56f75fa7dd9ac8a7cb02e54eda92109c" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelClasses</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1afbb9bdf04adfe474120922960cea7f2f" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelComboBox</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1af70b3ee1de553944adfc684089a6806e" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelDescription</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ae5af244d0f133f5e20a453d8f5169724" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelHeader</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a28163163a46470dba8b040cf76f05735" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelTable</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a4f6ddc82d593a77025d735b6ac27eab6" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>modelVars</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ae4fbb4945ccc030962e5cd1b180f81f7" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>panel</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a9a8900cd81370362022ef987f3072eea" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>PropertiesDialog</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ac9acb7d617cd6f6588376d2903f05e83" prot="public" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>PropertiesDialog</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a8a35a19e61f2ec6aca135cd72287d25e" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>prosumerClass</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ab0fc25b31806e56a445a1cf2450ff4bc" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>refreshModel</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a65b8bfbfde0a6f0c4cc1375539e4ff20" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ac648f3c0645242552557757b7be78dc4" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>table</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1afb67b8b49e1a92173b27b361563fec68" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>tablePanel</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a9894510e8dc4de2416f5aa65a46a013a" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>variableSet</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1a3c727af05d7ea8d7491626bcf47eaedf" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>x</name></member>
+      <member refid="classsgs_1_1view_1_1_properties_dialog_1ad4fd752a96f7c29969da053c88204015" prot="private" virt="non-virtual"><scope>sgs::view::PropertiesDialog</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

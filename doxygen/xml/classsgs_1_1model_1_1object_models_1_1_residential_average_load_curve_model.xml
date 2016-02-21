@@ -1,0 +1,747 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model" kind="class" prot="public">
+    <compoundname>sgs::model::objectModels::ResidentialAverageLoadCurveModel</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model" prot="public" virt="non-virtual">sgs.model.objectModels.AbstractCustomConsumerModel</basecompoundref>
+    <basecompoundref refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" prot="public" virt="non-virtual">sgs.model.objectModels.TimeSeriesModel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ae3862af0a85e58a58d3896f28780c9d4" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.SEASON_WINTER</definition>
+        <argsstring></argsstring>
+        <name>SEASON_WINTER</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a934c77eb434b8ea25a671f82ebb2c81a" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.SEASON_SUMMER</definition>
+        <argsstring></argsstring>
+        <name>SEASON_SUMMER</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a93480f80063d92ef5dc535b1814ca19b" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.SEASON_INTERIM</definition>
+        <argsstring></argsstring>
+        <name>SEASON_INTERIM</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a63d1418eeac432968672f92554d19579" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.SATURDAY</definition>
+        <argsstring></argsstring>
+        <name>SATURDAY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1aea8d0b4e635a89e69dfafa54c1cdc850" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.SUNDAY</definition>
+        <argsstring></argsstring>
+        <name>SUNDAY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a40a2b8cf2c4aecc2aa6e71fa05fccbcb" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.WORKDAY</definition>
+        <argsstring></argsstring>
+        <name>WORKDAY</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ada529c133ec25b00075516d12ae5592d" prot="private" static="yes" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; sgs.model.objectModels.ResidentialAverageLoadCurveModel.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a09f709a4aee19dbe5663af22979a6fcf" prot="private" static="no" mutable="no">
+        <type>FileReader</type>
+        <definition>FileReader sgs.model.objectModels.ResidentialAverageLoadCurveModel.csvFile</definition>
+        <argsstring></argsstring>
+        <name>csvFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1abbd5a4dfaa897fb4168353a48e5935a3" prot="private" static="no" mutable="no">
+        <type>BufferedReader</type>
+        <definition>BufferedReader sgs.model.objectModels.ResidentialAverageLoadCurveModel.dataReader</definition>
+        <argsstring></argsstring>
+        <name>dataReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a50c8dd20c43e6d8ed8765a62916fa1e7" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.objectModels.ResidentialAverageLoadCurveModel.annualEnergyConsumption</definition>
+        <argsstring></argsstring>
+        <name>annualEnergyConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="35" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ac144ee3c7c88337d5dd8e4180bd496c3" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.model.objectModels.ResidentialAverageLoadCurveModel.fileRes</definition>
+        <argsstring></argsstring>
+        <name>fileRes</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="36" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a15d4693085f657f963771693bd100907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.objectModels.ResidentialAverageLoadCurveModel.ResidentialAverageLoadCurveModel</definition>
+        <argsstring>(CustomConsumer consumer)</argsstring>
+        <name>ResidentialAverageLoadCurveModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" kindref="compound">CustomConsumer</ref></type>
+          <declname>consumer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="38" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a2f52a22c77506cb141a37eb6b914ed8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.ResidentialAverageLoadCurveModel.updateVariables</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather, int resolution)</argsstring>
+        <name>updateVariables</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a50d89fc66ccf8147a9270fdabb2a3a48">updateVariables</reimplements>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Should be implemented in the model to calculate new variable values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a5278c874fb1dab278a5f993503865879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.ResidentialAverageLoadCurveModel.loadDataFromFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadDataFromFile</name>
+        <reimplements refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ac37085aaff6bcdb151bc3f33f1f967cc">loadDataFromFile</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="65" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="65" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a3d32dd4cbfcfdc460ac1b188eb8b9425" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.ResidentialAverageLoadCurveModel.initVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>initVariableSet</name>
+        <reimplements refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1abd4dc9fead63435958473208e0879b27">initVariableSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented in the model and called in the constructor of an AbstractObjectnameModel super-class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="51" bodyend="54"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a79841e3be984e7cef7de14b3c8fab1d6" compoundref="_enum_unit_8java" startline="25">sgs.model.variables.EnumUnit.kiloWattHour</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a46267820eb42b82a869395259b2f8c78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.objectModels.ResidentialAverageLoadCurveModel.getValueToTime</definition>
+        <argsstring>(GregorianCalendar currentTime, int resolution)</argsstring>
+        <name>getValueToTime</name>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="81" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="81" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a662519be393173520487bae85ec68d38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.ResidentialAverageLoadCurveModel.getSeasonOffset</definition>
+        <argsstring>(int monthOfYear, int dayOfMonth)</argsstring>
+        <name>getSeasonOffset</name>
+        <param>
+          <type>int</type>
+          <declname>monthOfYear</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dayOfMonth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="112" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="112" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ac2a4b4e17ec3dd88f3cd0289ae5a1757" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.objectModels.ResidentialAverageLoadCurveModel.getDayOffset</definition>
+        <argsstring>(int dayOfWeek)</argsstring>
+        <name>getDayOffset</name>
+        <param>
+          <type>int</type>
+          <declname>dayOfWeek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="125" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="125" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin, mpoechacker </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3875">
+        <label>sgs.model.objectModels.TimeSeriesModel</label>
+        <link refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model"/>
+      </node>
+      <node id="3873">
+        <label>sgs.model.objectModels.AbstractConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model"/>
+        <childnode refid="3874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3874">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+      </node>
+      <node id="3872">
+        <label>sgs.model.objectModels.AbstractCustomConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model"/>
+        <childnode refid="3873" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3871">
+        <label>sgs.model.objectModels.ResidentialAverageLoadCurveModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model"/>
+        <childnode refid="3872" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3875" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3919">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="3911">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="3893">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="3929">
+        <label>sgs.model.objectModels.TimeSeriesModel</label>
+        <link refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model"/>
+      </node>
+      <node id="3885">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="3886" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3928">
+        <label>sgs.model.variables.VariableProperties</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_properties"/>
+        <childnode refid="3928" relation="usage">
+          <edgelabel>DefaultProperties</edgelabel>
+        </childnode>
+      </node>
+      <node id="3883">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="3878">
+        <label>sgs.model.objectModels.AbstractConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model"/>
+        <childnode refid="3879" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3884" relation="usage">
+          <edgelabel>consumer</edgelabel>
+        </childnode>
+        <childnode refid="3926" relation="usage">
+          <edgelabel>powerDemand</edgelabel>
+        </childnode>
+      </node>
+      <node id="3895">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="3896" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3897" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="3898" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="3893" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="3886" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="3899" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="3901" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="3902" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="3903" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="3904" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="3905" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="3923" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="3924" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="3887">
+        <label>GridObject</label>
+      </node>
+      <node id="3879">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="3880" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="3881" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3897">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="3903">
+        <label>JFrame</label>
+      </node>
+      <node id="3892">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="3893" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="3892" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="3894" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="3881" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3925">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="3888">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="3921">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="3920">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="3921" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="3922" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="3922">
+        <label>Random</label>
+      </node>
+      <node id="3905">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="3906" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3907" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="3917" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="3919" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="3920" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="3927">
+        <label>Comparable&lt;SingleVariable&gt;</label>
+      </node>
+      <node id="3902">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="3896">
+        <label>GridModel</label>
+      </node>
+      <node id="3926">
+        <label>sgs.model.variables.SingleVariable</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_single_variable"/>
+        <childnode refid="3927" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3928" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+      </node>
+      <node id="3877">
+        <label>sgs.model.objectModels.AbstractCustomConsumerModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model"/>
+        <childnode refid="3878" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3881">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="3882" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3883" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="3913">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3915">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="3876">
+        <label>sgs.model.objectModels.ResidentialAverageLoadCurveModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model"/>
+        <childnode refid="3877" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3929" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3909">
+        <label>Application</label>
+      </node>
+      <node id="3916">
+        <label>File</label>
+      </node>
+      <node id="3891">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3904">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="3924">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="3907">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="3908" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="3895" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3912" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="3914" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="3911" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3910">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3880">
+        <label>ImageIcon</label>
+      </node>
+      <node id="3914">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="3915" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="3916" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="3918">
+        <label>JDialog</label>
+      </node>
+      <node id="3912">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="3913" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="3911" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3906">
+        <label>Thread</label>
+      </node>
+      <node id="3889">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3908">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="3909" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3910" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="3911" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3917">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="3918" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3900">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="3886">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="3887" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3888" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3889" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3890" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="3879" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="3892" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="3895" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3925" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="3881" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3901">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="3884">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="3885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3882">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="3898">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="3890">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3891" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3899">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="3900" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="3894">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="3923">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/ResidentialAverageLoadCurveModel.java" bodystart="22" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a4ec30e2cb10d6108c4a7a4a404866932" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>AbstractConsumerModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model_1a3791de5522963bc85637a501c25cf593" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>AbstractCustomConsumerModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a50c8dd20c43e6d8ed8765a62916fa1e7" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>annualEnergyConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a999b2e3778b4facf3694bf3ca13f334f" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>consumer</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a09f709a4aee19dbe5663af22979a6fcf" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>csvFile</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ada529c133ec25b00075516d12ae5592d" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>data</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1abbd5a4dfaa897fb4168353a48e5935a3" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>dataReader</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a13a13e6bce3ec245e7b7ccac125d64f0" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>description</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ac144ee3c7c88337d5dd8e4180bd496c3" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>fileRes</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ac2a4b4e17ec3dd88f3cd0289ae5a1757" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getDayOffset</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aab6b6e3456c4a6f6731cbf45b5c6aba8" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getDescription</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a719cdbd820ce2ed5df6edfa2a37eead9" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getIcon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa3bd398efe49804f0c68f756d5c84979" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getModelName</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a97bf119bd8051451c2125aca02519a3d" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getPowerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a662519be393173520487bae85ec68d38" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getSeasonOffset</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a46267820eb42b82a869395259b2f8c78" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getValueToTime</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a7fffe02d2cba9bad73d71aefae936d5d" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>getVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aa669bcbbe5a64b3fe83b1de9d2a4c1a9" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>icon</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ab9e982f18974b03326dcd48c26409c57" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1ac34fb3a929dd9b483cc2664ea65fefdf" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>initVariable</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a3d32dd4cbfcfdc460ac1b188eb8b9425" prot="protected" virt="virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>initVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a5278c874fb1dab278a5f993503865879" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>loadDataFromFile</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1a1953db914d79f57124614d8a1a9ec57e" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>modelName</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ae4616ed0cae9e59483cd413cde8baa39" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>PERIOD_ANNUALY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1ace832f1b64c5cfe2563ed90867b05af2" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>PERIOD_DAILY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a696c830ff94799a4beaafd8cf62c5859" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>PERIOD_MONTHLY</name></member>
+      <member refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model_1a08de046ef27ce3e3336469860364a3fa" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>PERIOD_WEEKLY</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1ab60f47987d6beeea54755651895393e5" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>powerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a15d4693085f657f963771693bd100907" prot="public" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>ResidentialAverageLoadCurveModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a63d1418eeac432968672f92554d19579" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>SATURDAY</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a93480f80063d92ef5dc535b1814ca19b" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>SEASON_INTERIM</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a934c77eb434b8ea25a671f82ebb2c81a" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>SEASON_SUMMER</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1ae3862af0a85e58a58d3896f28780c9d4" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>SEASON_WINTER</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a95d4fc48be8e3a02cc9e39dfde5dbc21" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>setPowerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1aea8d0b4e635a89e69dfafa54c1cdc850" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>SUNDAY</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a8051101801dd350888d114d88b1f811b" prot="public" virt="virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>updateModel</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a2f52a22c77506cb141a37eb6b914ed8a" prot="public" virt="virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>updateVariables</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_abstract_model_1aba199cfd7731c02c44ec8058095ba57c" prot="protected" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>variableSet</name></member>
+      <member refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model_1a40a2b8cf2c4aecc2aa6e71fa05fccbcb" prot="private" virt="non-virtual"><scope>sgs::model::objectModels::ResidentialAverageLoadCurveModel</scope><name>WORKDAY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

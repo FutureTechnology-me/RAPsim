@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_grid_pop_up_menu_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::GridPopUpMenuController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1a31872d4c471810a29901192c484bb537" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.GridPopUpMenuController.sgsModel</definition>
+        <argsstring></argsstring>
+        <name>sgsModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1ae695d6a0bf060693e002b33061f45180" prot="private" static="no" mutable="no">
+        <type>JFrame</type>
+        <definition>JFrame sgs.controller.GridPopUpMenuController.primaryViewI</definition>
+        <argsstring></argsstring>
+        <name>primaryViewI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1a159024bf395f2baf155bd457629f7613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.GridPopUpMenuController.GridPopUpMenuController</definition>
+        <argsstring>(SgsGridModel gridModel, int x, int y, JFrame view)</argsstring>
+        <name>GridPopUpMenuController</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>JFrame</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" bodystart="18" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Sabrina </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridPopUpMenuController.java" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1a159024bf395f2baf155bd457629f7613" prot="public" virt="non-virtual"><scope>sgs::controller::GridPopUpMenuController</scope><name>GridPopUpMenuController</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1ae695d6a0bf060693e002b33061f45180" prot="private" virt="non-virtual"><scope>sgs::controller::GridPopUpMenuController</scope><name>primaryViewI</name></member>
+      <member refid="classsgs_1_1controller_1_1_grid_pop_up_menu_controller_1a31872d4c471810a29901192c484bb537" prot="private" virt="non-virtual"><scope>sgs::controller::GridPopUpMenuController</scope><name>sgsModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

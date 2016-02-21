@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1view" kind="namespace">
+    <compoundname>sgs::view</compoundname>
+    <innerclass refid="classsgs_1_1view_1_1_about_dialog" prot="public">sgs::view::AboutDialog</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_algorithm_description_dialog" prot="public">sgs::view::AlgorithmDescriptionDialog</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_bottom_panel" prot="public">sgs::view::BottomPanel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_color_legend_panel" prot="public">sgs::view::ColorLegendPanel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1green_yellow_red___panel" prot="package">sgs::view::greenYellowRed_Panel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1black_white_black___panel" prot="package">sgs::view::blackWhiteBlack_Panel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1firebrick_midnightblue___panel" prot="package">sgs::view::firebrickMidnightblue_Panel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_first_start_window" prot="public">sgs::view::FirstStartWindow</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_grid_pop_up_menu" prot="public">sgs::view::GridPopUpMenu</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_j_table_s_g_s" prot="public">sgs::view::JTableSGS</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_properties_dialog" prot="public">sgs::view::PropertiesDialog</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_results_c_s_v_view" prot="public">sgs::view::ResultsCSVView</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1show_results_c_s_v_view" prot="public">sgs::view::showResultsCSVView</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_sim_options_dialog" prot="public">sgs::view::SimOptionsDialog</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_speed_changer" prot="public">sgs::view::SpeedChanger</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_top_panel" prot="public">sgs::view::TopPanel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_date_and_time_panel" prot="package">sgs::view::DateAndTimePanel</innerclass>
+    <innerclass refid="classsgs_1_1view_1_1_logo_panel" prot="package">sgs::view::LogoPanel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AboutDialog.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_grid_pop_up_menu" kind="class" prot="public">
+    <compoundname>sgs::view::GridPopUpMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_grid_pop_up_menu_1ae345d73967b0249e287b9c9e90878416" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.GridPopUpMenu.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_grid_pop_up_menu_1a2a27818bed20376319942f51e192df73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.GridPopUpMenu.GridPopUpMenu</definition>
+        <argsstring>(SgsGridModel gridModel, int x, int y)</argsstring>
+        <name>GridPopUpMenu</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" bodystart="23" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Huber if a single rightclick was detected by the GridMapListener , the popupmenu opens on the x/y coordinate of the object. </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3394">
+        <label>JPanel</label>
+      </node>
+      <node id="3393">
+        <label>sgs.view.GridPopUpMenu</label>
+        <link refid="classsgs_1_1view_1_1_grid_pop_up_menu"/>
+        <childnode refid="3394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3396">
+        <label>JPanel</label>
+      </node>
+      <node id="3395">
+        <label>sgs.view.GridPopUpMenu</label>
+        <link refid="classsgs_1_1view_1_1_grid_pop_up_menu"/>
+        <childnode refid="3396" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/GridPopUpMenu.java" bodystart="16" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_grid_pop_up_menu_1a2a27818bed20376319942f51e192df73" prot="public" virt="non-virtual"><scope>sgs::view::GridPopUpMenu</scope><name>GridPopUpMenu</name></member>
+      <member refid="classsgs_1_1view_1_1_grid_pop_up_menu_1ae345d73967b0249e287b9c9e90878416" prot="private" virt="non-virtual"><scope>sgs::view::GridPopUpMenu</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

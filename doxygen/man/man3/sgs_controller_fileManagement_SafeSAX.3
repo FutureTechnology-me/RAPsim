@@ -1,0 +1,80 @@
+.TH "sgs.controller.fileManagement.SafeSAX" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.fileManagement.SafeSAX \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBwrite\fP (File zipFile, Document doc)"
+.br
+.ti -1c
+.RI "static Document \fBread\fP (File loadFile, boolean zip)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBdefaultXmlFile\fP = 'data\&.xml'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Tobi, Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file SafeSAX\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static Document sgs\&.controller\&.fileManagement\&.SafeSAX\&.read (FileloadFile, booleanzip)\fC [static]\fP"
+Creates a new SAXReader and tries to load the given file into an XML document In case the dtd could not be loaded, the process is restarted using a generic resolver 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIloadFile\fP the file to be loaded from 
+.br
+\fIzip\fP if File is Ziped 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the XML document 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file SafeSAX\&.java\&.
+.SS "static void sgs\&.controller\&.fileManagement\&.SafeSAX\&.write (FilezipFile, Documentdoc)\fC [static]\fP"
+Write XML-document in a zip-file 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIwriteFile\fP 
+.br
+\fIzip\fP 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file SafeSAX\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final String sgs\&.controller\&.fileManagement\&.SafeSAX\&.defaultXmlFile = 'data\&.xml'\fC [static]\fP"
+
+.PP
+Definition at line 28 of file SafeSAX\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

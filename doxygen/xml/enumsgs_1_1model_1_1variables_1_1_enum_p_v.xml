@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kind="enum" prot="public">
+    <compoundname>sgs::model::variables::EnumPV</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerDemand</definition>
+        <argsstring></argsstring>
+        <name>powerDemand</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="12" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" compoundref="___testing_algorithm_8java" startline="46" endline="53">sgs.controller.simulation._TestingAlgorithm.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" compoundref="_simple_power_distribution_8java" startline="63" endline="164">sgs.controller.simulation.SimplePowerDistribution.calculationStep</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b1deb0cc320391398ba028c53824fc5" compoundref="_simple_power_distribution_8java" startline="189" endline="207">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1a53309d440930500f912678adf5a50d99" compoundref="_custom_consumer_8java" startline="12" endline="16">sgs.model.gridObjects.CustomConsumer.CustomConsumer</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_house_1a1deb79405fdc502787dc0a1532edc1e9" compoundref="_house_8java" startline="21" endline="25">sgs.model.gridObjects.House.House</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_house_1af20ed64d0c86fde7745d45d209ba1244" compoundref="_house_8java" startline="30" endline="32">sgs.model.gridObjects.House.setPowerDemand</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1b330e324f54ac8256da42cfd983b84f" compoundref="_smart_grid_object_8java" startline="185" endline="188">sgs.model.gridObjects.SmartGridObject.getPowerDemand</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a4ec30e2cb10d6108c4a7a4a404866932" compoundref="_abstract_consumer_model_8java" startline="22" endline="31">sgs.model.objectModels.AbstractConsumerModel.AbstractConsumerModel</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model_1a8051101801dd350888d114d88b1f811b" compoundref="_abstract_consumer_model_8java" startline="37" endline="42">sgs.model.objectModels.AbstractConsumerModel.updateModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerConsumption</definition>
+        <argsstring></argsstring>
+        <name>powerConsumption</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="13" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b1deb0cc320391398ba028c53824fc5" compoundref="_simple_power_distribution_8java" startline="189" endline="207">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad8ca87adf1436bc10304603da700de17" compoundref="_smart_grid_object_8java" startline="110" endline="113">sgs.model.gridObjects.SmartGridObject.getCurrentPowerConsumption</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" compoundref="_smart_grid_object_8java" startline="118" endline="121">sgs.model.gridObjects.SmartGridObject.setCurrentPowerConsumption</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" compoundref="_smart_grid_object_8java" startline="130" endline="134">sgs.model.gridObjects.SmartGridObject.resetCurrentPowerConsumption</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerProductionOptimal</definition>
+        <argsstring></argsstring>
+        <name>powerProductionOptimal</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="15" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" compoundref="___testing_algorithm_8java" startline="46" endline="53">sgs.controller.simulation._TestingAlgorithm.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power_1aea4b5e4a701f6da5693b3f62cc63e7b1" compoundref="_grid_power_8java" startline="25" endline="29">sgs.model.gridObjects.GridPower.GridPower</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a955defefa383f56174146d9a1a0d8225" compoundref="_pro_sumer_8java" startline="66" endline="71">sgs.model.gridObjects.ProSumer.setProductionToWeatherAndTime</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a96606b65df224d13090562e68e60f659" compoundref="_smart_grid_object_8java" startline="164" endline="166">sgs.model.gridObjects.SmartGridObject.setPeakPower</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5d4f90f9ed1c3cb2ef3b7dc619090c20" compoundref="_smart_grid_object_8java" startline="179" endline="181">sgs.model.gridObjects.SmartGridObject.getPeakPower</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant_1a81ca1c7d67a96fd98afaa004787bdeeb" compoundref="_solar_power_plant_8java" startline="16" endline="21">sgs.model.gridObjects.SolarPowerPlant.SolarPowerPlant</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant_1a45616bd04a3201e70d72f8ba4a4ad73c" compoundref="_wind_turbine_power_plant_8java" startline="16" endline="21">sgs.model.gridObjects.WindTurbinePowerPlant.WindTurbinePowerPlant</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a010d71faa179084a4024888eba87fa69" compoundref="_abstract_power_plant_model_8java" startline="24" endline="39">sgs.model.objectModels.AbstractPowerPlantModel.AbstractPowerPlantModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerProduction</definition>
+        <argsstring></argsstring>
+        <name>powerProduction</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" compoundref="___testing_algorithm_8java" startline="46" endline="53">sgs.controller.simulation._TestingAlgorithm.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" compoundref="_simple_power_distribution_8java" startline="63" endline="164">sgs.controller.simulation.SimplePowerDistribution.calculationStep</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a7b1deb0cc320391398ba028c53824fc5" compoundref="_simple_power_distribution_8java" startline="189" endline="207">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power_1aea4b5e4a701f6da5693b3f62cc63e7b1" compoundref="_grid_power_8java" startline="25" endline="29">sgs.model.gridObjects.GridPower.GridPower</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a955defefa383f56174146d9a1a0d8225" compoundref="_pro_sumer_8java" startline="66" endline="71">sgs.model.gridObjects.ProSumer.setProductionToWeatherAndTime</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" compoundref="_smart_grid_object_8java" startline="130" endline="134">sgs.model.gridObjects.SmartGridObject.resetCurrentPowerConsumption</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a38b86c8e0825c7fb0d31562bfcc502a1" compoundref="_smart_grid_object_8java" startline="139" endline="142">sgs.model.gridObjects.SmartGridObject.getPowerProduction</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1d551cd4ebc8949455051b876a408ec0" compoundref="_smart_grid_object_8java" startline="148" endline="150">sgs.model.gridObjects.SmartGridObject.setPowerProduction</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_1a010d71faa179084a4024888eba87fa69" compoundref="_abstract_power_plant_model_8java" startline="24" endline="39">sgs.model.objectModels.AbstractPowerPlantModel.AbstractPowerPlantModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af9fa561c705145b0b9fe04c981c3d822" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerProductionNeeded</definition>
+        <argsstring></argsstring>
+        <name>powerProductionNeeded</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" compoundref="_simple_power_distribution_8java" startline="63" endline="164">sgs.controller.simulation.SimplePowerDistribution.calculationStep</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0fd327f62dd8a6f346f9fc869bbaef98" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.nominalVoltage</definition>
+        <argsstring></argsstring>
+        <name>nominalVoltage</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a4795c541d8635e4f1a0e9c77c8f0ff4e" kindref="member">EnumUnit.volt</ref>, 1.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.currentVoltage</definition>
+        <argsstring></argsstring>
+        <name>currentVoltage</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a4795c541d8635e4f1a0e9c77c8f0ff4e" kindref="member">EnumUnit.volt</ref>, 1.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a48c4a6f92ef5495a8d33993c502c8ea8" compoundref="_a_c_power_flow_calculator_8java" startline="237" endline="240">sgs.controller.simulation.ACPowerFlowCalculator.unloadAlgorithm</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a1e57e12d5e1b0cc68991d290f21a8fdb" compoundref="_consumer_8java" startline="13" endline="17">sgs.model.gridObjects.Consumer.Consumer</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1a8eedcc5a7473d738d072b2e35e777273" compoundref="_power_plant_8java" startline="16" endline="20">sgs.model.gridObjects.PowerPlant.PowerPlant</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54c1d37b28f3b598abe635627fa6a571" compoundref="_smart_grid_object_8java" startline="214" endline="219">sgs.model.gridObjects.SmartGridObject.getCurrentVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a026f6229a75caa6ff916c7602b7d8ec2" compoundref="_smart_grid_object_8java" startline="221" endline="223">sgs.model.gridObjects.SmartGridObject.setCurrentVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a5c64f26a94e79f70ef372a535d94dae0" compoundref="_bus_8java" startline="157" endline="167">sgs.model.simulation.Bus.getBusVoltage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.voltageAngle</definition>
+        <argsstring></argsstring>
+        <name>voltageAngle</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1206ae6f8f049f75552f47d9f4aeeea3" kindref="member">EnumUnit.degree</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a1e57e12d5e1b0cc68991d290f21a8fdb" compoundref="_consumer_8java" startline="13" endline="17">sgs.model.gridObjects.Consumer.Consumer</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant_1a8eedcc5a7473d738d072b2e35e777273" compoundref="_power_plant_8java" startline="16" endline="20">sgs.model.gridObjects.PowerPlant.PowerPlant</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" compoundref="_smart_grid_object_8java" startline="229" endline="234">sgs.model.gridObjects.SmartGridObject.setCurrentVoltage</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1a8475b2bbb2d92c5f75dd0df16303c7b0" compoundref="_bus_8java" startline="145" endline="154">sgs.model.simulation.Bus.setBusVoltage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a53cb9460ed9e7652da700abf7d111dc6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.maxPowerTransport</definition>
+        <argsstring></argsstring>
+        <name>maxPowerTransport</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1___testing_algorithm_1a92f631fad5cc2a2d0d69569380142a79" compoundref="___testing_algorithm_8java" startline="46" endline="53">sgs.controller.simulation._TestingAlgorithm.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1a7d3580fceba9936f6273073c7220382d" compoundref="_connector_8java" startline="16" endline="21">sgs.model.gridObjects.Connector.Connector</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1abdf4852fadcea19487e21067bfe4d620" compoundref="_power_line_8java" startline="33" endline="36">sgs.model.gridObjects.PowerLine.setMaxPowerTransport</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a89e6711cd4cfc4ce52d3601438362224" compoundref="_smart_grid_object_8java" startline="193" endline="196">sgs.model.gridObjects.SmartGridObject.getMaxPowerTransport</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a8fbc35b51ea37605a3a1e3f243691f24" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.transportPowerDecrement</definition>
+        <argsstring></argsstring>
+        <name>transportPowerDecrement</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a301bf8b68dff6a4dc7f180c7dda8df9d" kindref="member">EnumUnit.none</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_connector_1a7d3580fceba9936f6273073c7220382d" compoundref="_connector_8java" startline="16" endline="21">sgs.model.gridObjects.Connector.Connector</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1a59d7de0555857fe43fbb9d7e9e75741b" compoundref="_power_line_8java" startline="41" endline="44">sgs.model.gridObjects.PowerLine.setTransportPowerDecrement</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7aeabf9c0b5b3a93c631b9d5bb665c2b" compoundref="_smart_grid_object_8java" startline="202" endline="204">sgs.model.gridObjects.SmartGridObject.getTransportPowerDecrement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.resistance</definition>
+        <argsstring></argsstring>
+        <name>resistance</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2ec1aada0f421879b28f9cb7cf3ccf64" kindref="member">EnumUnit.ohm</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" compoundref="_smart_grid_object_8java" startline="206" endline="208">sgs.model.gridObjects.SmartGridObject.setResistance</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1cd87a4e5474dc6de4fdc3a3b278a45d" compoundref="_smart_grid_object_8java" startline="210" endline="212">sgs.model.gridObjects.SmartGridObject.getResistance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.powerLineCharge</definition>
+        <argsstring></argsstring>
+        <name>powerLineCharge</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a2ec1aada0f421879b28f9cb7cf3ccf64" kindref="member">EnumUnit.ohm</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_1adb25d5af3a47fe16feb22a47be12cabf" compoundref="_abstract_distribution_algorithm_8java" startline="139" endline="164">sgs.controller.simulation.AbstractDistributionAlgorithm.setDefaultPropertiesForBusAndPath</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ad34f941b8fa9b88dac8b9c1abb6f925b" compoundref="_simple_power_distribution_8java" startline="171" endline="186">sgs.controller.simulation.SimplePowerDistribution.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8708fce37b2a022b7e5d8d9123d35fc2" compoundref="_smart_grid_object_8java" startline="254" endline="256">sgs.model.gridObjects.SmartGridObject.setPowerLineCharge</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a98c13be7c02e926ba5092994e2ca1c0b" compoundref="_smart_grid_object_8java" startline="258" endline="260">sgs.model.gridObjects.SmartGridObject.getLineCharge</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a916e36b5e5ed5d2494a15af454cbf848" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.currentCurrent</definition>
+        <argsstring></argsstring>
+        <name>currentCurrent</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1a1a148bb5187fa70a3561decb9f255d3f" kindref="member">EnumUnit.ampere</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1a8c7ce23974bfeae87908cc71c5f8d986" compoundref="_power_line_8java" startline="46" endline="48">sgs.model.gridObjects.PowerLine.setCurrentCurrent</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1aaf4af0e909211dca18fa78399e9fae82" compoundref="_power_line_8java" startline="54" endline="56">sgs.model.gridObjects.PowerLine.getCurrentCurrent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a5c123da15ac5ad655949720dee5f7a4c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.currentPowerLoss</definition>
+        <argsstring></argsstring>
+        <name>currentPowerLoss</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1a46ba15b210fd9b021f8b67542820a409" compoundref="_power_line_8java" startline="58" endline="60">sgs.model.gridObjects.PowerLine.setCurrentPowerLoss</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1aa4d1d285de88110826e252bdb91e80a3" compoundref="_power_line_8java" startline="66" endline="68">sgs.model.gridObjects.PowerLine.getCurrentPowerLoss</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a428afb4a318db40e279e33b2535f2988" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.currentPowerTransport</definition>
+        <argsstring></argsstring>
+        <name>currentPowerTransport</name>
+        <initializer>=(<ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit_1af236021ed03c4a2fe2cde7a0ff7b80a7" kindref="member">EnumUnit.watt</ref>, 0.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a9b68c29088039ff18763f8fe1e9b038e" compoundref="_a_c_power_flow_calculator_8java" startline="89" endline="112">sgs.controller.simulation.ACPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_d_c_power_flow_calculator_1a5c1243cb881fed45eb285836dc312cde" compoundref="_d_c_power_flow_calculator_8java" startline="249" endline="260">sgs.controller.simulation.DCPowerFlowCalculator.setPropertiesForVariables</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1af7fb6c2d760fde0e7f54d6e6629e45d7" compoundref="_power_line_8java" startline="70" endline="72">sgs.model.gridObjects.PowerLine.setCurrentPowerTransport</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_power_line_1ae2295ab518ce94019b1be5b76207ebf4" compoundref="_power_line_8java" startline="78" endline="80">sgs.model.gridObjects.PowerLine.getCurrentPowerTransport</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a592402e905fc642e4f87f6fb013ce992" prot="private" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+        <definition>EnumUnit sgs.model.variables.EnumPV.unit</definition>
+        <argsstring></argsstring>
+        <name>unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af0aac096adeea01357b22ce5d04e8252" prot="private" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object sgs.model.variables.EnumPV.defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a02827cd06421c38ef8f93980dad9511e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.EnumPV.EnumPV</definition>
+        <argsstring>(EnumUnit unit, Object defaultValue)</argsstring>
+        <name>EnumPV</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enum Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Unit from Enum , can be watt, ohm, degree, kilometers ... <ref refid="_enum_unit_8java" kindref="compound">EnumUnit.java</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1acf4ff80316e7eab458b5fcc1ec3f44b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_unit" kindref="compound">EnumUnit</ref></type>
+        <definition>EnumUnit sgs.model.variables.EnumPV.getUnit</definition>
+        <argsstring>()</argsstring>
+        <name>getUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the unit defined for this variable </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="50" bodyend="52"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a1e3fe9c4e31f36ebabca6a2b4f536419" compoundref="_single_variable_8java" startline="43" endline="46">sgs.model.variables.SingleVariable.SingleVariable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aaaca79e44fcdc824960668ef43c3328c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object sgs.model.variables.EnumPV.getDefaultValue</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the default value defined for this variable </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enum for predefined variables. Holds the variable name and their ISO unit.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/EnumPV.java" bodystart="10" bodyend="60"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a916e36b5e5ed5d2494a15af454cbf848" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>currentCurrent</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a5c123da15ac5ad655949720dee5f7a4c" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>currentPowerLoss</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a428afb4a318db40e279e33b2535f2988" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>currentPowerTransport</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3894ba61b5ea9e24781805e8a3c3f7c9" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>currentVoltage</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af0aac096adeea01357b22ce5d04e8252" prot="private" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>defaultValue</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a02827cd06421c38ef8f93980dad9511e" prot="private" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>EnumPV</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aaaca79e44fcdc824960668ef43c3328c" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>getDefaultValue</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1acf4ff80316e7eab458b5fcc1ec3f44b2" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>getUnit</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a53cb9460ed9e7652da700abf7d111dc6" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>maxPowerTransport</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0fd327f62dd8a6f346f9fc869bbaef98" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>nominalVoltage</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3b0673fad3f4fa68161454af3436a388" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerConsumption</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerDemand</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aff29d336415fe823afafcd863bb8e86a" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerLineCharge</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1aae5cf699517401de93ade9f75719acd4" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerProduction</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1af9fa561c705145b0b9fe04c981c3d822" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerProductionNeeded</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1ac8d6bec5240c68cd91017eb5646b30c3" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>powerProductionOptimal</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a3231d0750bd92fbe6233ca6734e2c4c0" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>resistance</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a8fbc35b51ea37605a3a1e3f243691f24" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>transportPowerDecrement</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a592402e905fc642e4f87f6fb013ce992" prot="private" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>unit</name></member>
+      <member refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a0a787b25e732e3c3d4c865122b34c800" prot="public" virt="non-virtual"><scope>sgs::model::variables::EnumPV</scope><name>voltageAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

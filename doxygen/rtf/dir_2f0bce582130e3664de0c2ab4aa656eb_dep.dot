@@ -1,0 +1,18 @@
+digraph "RAPSim/src/sgs/model" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_01a8656010585e8207038536504a8624 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sgs" fontname="Helvetica", fontsize="10", URL="dir_01a8656010585e8207038536504a8624.html"]
+  subgraph clusterdir_2f0bce582130e3664de0c2ab4aa656eb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2f0bce582130e3664de0c2ab4aa656eb.html"];
+    dir_2f0bce582130e3664de0c2ab4aa656eb [shape=plaintext label="model"];
+    dir_ebbc4f64bf1bebfe7f4bc97dc5a0b4a1 [shape=box label="gridData" color="black" fillcolor="white" style="filled" URL="dir_ebbc4f64bf1bebfe7f4bc97dc5a0b4a1.html"];
+    dir_2330b398352ac95b3de030165ab5d101 [shape=box label="gridObjects" color="black" fillcolor="white" style="filled" URL="dir_2330b398352ac95b3de030165ab5d101.html"];
+    dir_91f1ede7c937e1f930005bcd8bc1b745 [shape=box label="objectModels" color="black" fillcolor="white" style="filled" URL="dir_91f1ede7c937e1f930005bcd8bc1b745.html"];
+    dir_9180b4e6e04984c01a9682d14064f573 [shape=box label="other" color="black" fillcolor="white" style="filled" URL="dir_9180b4e6e04984c01a9682d14064f573.html"];
+    dir_bc5b6325453d08877d1e7d95e57c83b9 [shape=box label="simulation" color="black" fillcolor="white" style="filled" URL="dir_bc5b6325453d08877d1e7d95e57c83b9.html"];
+    dir_b23003d7924a12d8dc324a51cf627a32 [shape=box label="variables" color="red" fillcolor="white" style="filled" URL="dir_b23003d7924a12d8dc324a51cf627a32.html"];
+  }
+  }
+}

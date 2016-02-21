@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_program_constants_8java" kind="file">
+    <compoundname>ProgramConstants.java</compoundname>
+    <innerclass refid="interfacesgs_1_1model_1_1_program_constants" prot="public">sgs::model::ProgramConstants</innerclass>
+    <innernamespace refid="namespacesgs_1_1model">sgs::model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.io.File;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.text.DateFormat;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.text.SimpleDateFormat;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="interfacesgs_1_1model_1_1_program_constants" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacesgs_1_1model_1_1_program_constants" kindref="compound">ProgramConstants</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" kindref="member">dataPath</ref><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Data2/&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21" refid="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>File<sp/><ref refid="interfacesgs_1_1model_1_1_program_constants_1a64287dfff902916ff17a687ac1ed4c17" kindref="member">defaultSimulationFile</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>File(<ref refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" kindref="member">dataPath</ref>+</highlight><highlight class="stringliteral">&quot;data.zip&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>File<sp/><ref refid="interfacesgs_1_1model_1_1_program_constants_1aa37cdb3ddd45fe8b1f4f37494a787a6e" kindref="member">parameterFile</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>File(<ref refid="interfacesgs_1_1model_1_1_program_constants_1a6cd6295957c223371a34d455701d3e60" kindref="member">dataPath</ref>+</highlight><highlight class="stringliteral">&quot;parameters.zip&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="interfacesgs_1_1model_1_1_program_constants_1af65041493f5d367a414ac1332085c3ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>DateFormat<sp/><ref refid="interfacesgs_1_1model_1_1_program_constants_1af65041493f5d367a414ac1332085c3ad" kindref="member">df</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SimpleDateFormat(</highlight><highlight class="stringliteral">&quot;yyyy.MM.dd<sp/>-<sp/>HH:mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/ProgramConstants.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,445 @@
+.TH "sgs.model.variables.NumericValue" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.NumericValue \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNumericValue\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP (double real)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP (double real, double imaginary)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP (Complex c)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP (\fBNumericValue\fP n)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP (String complexValue)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (double real)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (Complex c)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (\fBNumericValue\fP v)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (String complex)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (double real, double imaginary)"
+.br
+.ti -1c
+.RI "void \fBsetReal\fP (double real)"
+.br
+.ti -1c
+.RI "void \fBsetImaginary\fP (double imaginary)"
+.br
+.ti -1c
+.RI "double \fBr\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetReal\fP ()"
+.br
+.ti -1c
+.RI "double \fBi\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetImaginary\fP ()"
+.br
+.ti -1c
+.RI "double \fBabs\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisReal\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisNaN\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetValue\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValueNumeric\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetValueDouble\fP ()"
+.br
+.ti -1c
+.RI "Complex \fBgetValueComplex\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBadd\fP (\fBNumericValue\fP val)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBsubtract\fP (\fBNumericValue\fP val)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBmultiply\fP (\fBNumericValue\fP val)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBdivide\fP (\fBNumericValue\fP val)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBconjugate\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBcopy\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBroundValue\fP (int roundPower)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain2\fP (String[] args)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "boolean \fBisReal\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+New value representing Double as well as Complex\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file NumericValue\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue ()"
+
+.PP
+Definition at line 19 of file NumericValue\&.java\&.
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue (doublereal)"
+
+.PP
+Definition at line 22 of file NumericValue\&.java\&.
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue (doublereal, doubleimaginary)"
+
+.PP
+Definition at line 25 of file NumericValue\&.java\&.
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue (Complexc)"
+
+.PP
+Definition at line 28 of file NumericValue\&.java\&.
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue (\fBNumericValue\fPn)"
+
+.PP
+Definition at line 31 of file NumericValue\&.java\&.
+.SS "sgs\&.model\&.variables\&.NumericValue\&.NumericValue (StringcomplexValue)"
+Constructor with String value\&. Stores object value, not String\&. Watch out for parsing exceptions\&. Accepted formats: 100,200 -> 100 + 200i 100 200 -> 100 + 200i 100 -> 100 + 200i 100,,,200 -> 100 + 200i Combinations with whitespaces at start, end and middle ,200 -> 0 + 200i  200 -> 200 + 0i 100 -> 100 + 0i
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file NumericValue\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.abs ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+sqrt(a^2+b^2) 
+.RE
+.PP
+
+.PP
+Definition at line 177 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.add (\fBNumericValue\fPval)"
+Add another \fBNumericValue\fP to this value\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIval\fP 
+.RE
+.PP
+
+.PP
+Definition at line 234 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.conjugate ()"
+Sets the imaginary part minus imaginary part\&. 
+.PP
+Definition at line 295 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.copy ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a Copy up to primitive variables from this Value\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 303 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.divide (\fBNumericValue\fPval)"
+Divide by another \fBNumericValue\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIval\fP 
+.RE
+.PP
+
+.PP
+Definition at line 274 of file NumericValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.getImaginary ()"
+
+.PP
+Definition at line 172 of file NumericValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.getReal ()"
+
+.PP
+Definition at line 165 of file NumericValue\&.java\&.
+.SS "String sgs\&.model\&.variables\&.NumericValue\&.getValue ()\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a object the specific value class\&. Should be of correct type\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a string representation of the value 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 203 of file NumericValue\&.java\&.
+.SS "Complex sgs\&.model\&.variables\&.NumericValue\&.getValueComplex ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a complex representation of the value, zero for non numeric values 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 226 of file NumericValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.getValueDouble ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the absolute value from the complex object 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 219 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.getValueNumeric ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a value object, handle with care 
+.PP
+a \fBNumericValue\fP object or null 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 214 of file NumericValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.i ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+imaginary part of value 
+.RE
+.PP
+
+.PP
+Definition at line 169 of file NumericValue\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.NumericValue\&.isNaN ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if real part and imaginary part are NaN 
+.RE
+.PP
+
+.PP
+Definition at line 188 of file NumericValue\&.java\&.
+.SS "boolean sgs\&.model\&.variables\&.NumericValue\&.isReal ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if it has real value only 
+.RE
+.PP
+
+.PP
+Definition at line 184 of file NumericValue\&.java\&.
+.SS "static void sgs\&.model\&.variables\&.NumericValue\&.main2 (String[]args)\fC [static]\fP"
+Testing 
+.PP
+Definition at line 326 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.multiply (\fBNumericValue\fPval)"
+Multiply by another \fBNumericValue\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIval\fP 
+.RE
+.PP
+
+.PP
+Definition at line 259 of file NumericValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.NumericValue\&.r ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Real part of value 
+.RE
+.PP
+
+.PP
+Definition at line 162 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.roundValue (introundPower)"
+
+.PP
+Definition at line 317 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setImaginary (doubleimaginary)"
+
+.PP
+Definition at line 114 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setReal (doublereal)"
+
+.PP
+Definition at line 110 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setValue (doubled)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fId\fP - a double value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 54 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setValue (Complexcomplex)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcomplex\fP - a Complex value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 59 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setValue (\fBNumericValue\fPnumericValue)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumericValue\fP - {real,imaginary}\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 63 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setValue (Stringvalue)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a String representation of the specific value class\&. Should be parsable\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 68 of file NumericValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.NumericValue\&.setValue (doublereal, doubleimaginary)"
+
+.PP
+Definition at line 104 of file NumericValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.NumericValue\&.subtract (\fBNumericValue\fPval)"
+Subtract another \fBNumericValue\fP from this value\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIval\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 247 of file NumericValue\&.java\&.
+.SS "String sgs\&.model\&.variables\&.NumericValue\&.toString ()"
+
+.PP
+Definition at line 308 of file NumericValue\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.variables\&.NumericValue\&.isReal"
+True if using only real value 
+.PP
+Definition at line 16 of file NumericValue\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

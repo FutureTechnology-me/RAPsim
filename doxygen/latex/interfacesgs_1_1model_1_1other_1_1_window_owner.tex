@@ -1,0 +1,107 @@
+\section{sgs.\-model.\-other.\-Window\-Owner Interface Reference}
+\label{interfacesgs_1_1model_1_1other_1_1_window_owner}\index{sgs.\-model.\-other.\-Window\-Owner@{sgs.\-model.\-other.\-Window\-Owner}}
+
+
+Inheritance diagram for sgs.\-model.\-other.\-Window\-Owner\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bf add\-Window} (Window w)
+\item 
+boolean {\bf remove\-Window} (Window w)
+\item 
+int {\bf close\-All\-Windows} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Objects may be directly related to windows, which means the window should stop to exist of this object stops to exist.
+
+This is a simple concept which could be advanced with adding a call to a special window interface, which would store the lated data and handle other closing relevant actions. (Not necessary in current context, therefore the simpler solution)
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 16 of file Window\-Owner.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::other\-::\-Window\-Owner@{sgs\-::model\-::other\-::\-Window\-Owner}!add\-Window@{add\-Window}}
+\index{add\-Window@{add\-Window}!sgs::model::other::WindowOwner@{sgs\-::model\-::other\-::\-Window\-Owner}}
+\subsubsection[{add\-Window}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-other.\-Window\-Owner.\-add\-Window (
+\begin{DoxyParamCaption}
+\item[{Window}]{w}
+\end{DoxyParamCaption}
+)}\label{interfacesgs_1_1model_1_1other_1_1_window_owner_a2c78f74c29328a28a6743e65539dc7b0}
+Adds a window w which is owned exclusively by this object. The window should be closed if this object stops to exist or will not be used any more.
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+like in \doxyref{Linked\-List\#add}{p.}{} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\doxyref{remove\-Window()}{p.}{interfacesgs_1_1model_1_1other_1_1_window_owner_a779f1b6f8d199252666935a14857d0d1} 
+
+\doxyref{close\-All\-Windows()}{p.}{interfacesgs_1_1model_1_1other_1_1_window_owner_a8a2da339635a3fc74562f5b99f47be34} 
+\end{DoxySeeAlso}
+
+
+Implemented in {\bf sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a54a026a3347df89d8dd4e47a625db88c}.
+
+\index{sgs\-::model\-::other\-::\-Window\-Owner@{sgs\-::model\-::other\-::\-Window\-Owner}!close\-All\-Windows@{close\-All\-Windows}}
+\index{close\-All\-Windows@{close\-All\-Windows}!sgs::model::other::WindowOwner@{sgs\-::model\-::other\-::\-Window\-Owner}}
+\subsubsection[{close\-All\-Windows}]{\setlength{\rightskip}{0pt plus 5cm}int sgs.\-model.\-other.\-Window\-Owner.\-close\-All\-Windows (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{interfacesgs_1_1model_1_1other_1_1_window_owner_a8a2da339635a3fc74562f5b99f47be34}
+Will close all windows owned exclusively by this object. Close is executed by calling  Window.\-dispose()\}
+
+\begin{DoxyReturn}{Returns}
+number of windows. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\#add(\-Window) 
+\end{DoxySeeAlso}
+
+
+Implemented in {\bf sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_acf800ec949fa142f0883b7cb7386a897}.
+
+\index{sgs\-::model\-::other\-::\-Window\-Owner@{sgs\-::model\-::other\-::\-Window\-Owner}!remove\-Window@{remove\-Window}}
+\index{remove\-Window@{remove\-Window}!sgs::model::other::WindowOwner@{sgs\-::model\-::other\-::\-Window\-Owner}}
+\subsubsection[{remove\-Window}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-other.\-Window\-Owner.\-remove\-Window (
+\begin{DoxyParamCaption}
+\item[{Window}]{w}
+\end{DoxyParamCaption}
+)}\label{interfacesgs_1_1model_1_1other_1_1_window_owner_a779f1b6f8d199252666935a14857d0d1}
+Remove a window w which was owned exclusively by this object. Should also call w.\-dispose().
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+like in \doxyref{Linked\-List\#remove}{p.}{} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\#remove\-All\-Windows() 
+
+\#add(\-Window) 
+\end{DoxySeeAlso}
+
+
+Implemented in {\bf sgs.\-model.\-grid\-Objects.\-Smart\-Grid\-Object} \doxyref{}{p.}{classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_a47eb62632690ed9e17471d9123b277b1}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/other/{\bf Window\-Owner.\-java}\end{DoxyCompactItemize}

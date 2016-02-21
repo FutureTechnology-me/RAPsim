@@ -1,0 +1,118 @@
+.TH "sgs.controller.undoableEdit.UndoRedoManager" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.undoableEdit.UndoRedoManager \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits UndoableEdit\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUndoRedoManager\fP (\fBGridController\fP gc, \fBSmartGridObject\fP sgs, boolean objectStatus)"
+.br
+.ti -1c
+.RI "boolean \fBaddEdit\fP (UndoableEdit arg0)"
+.br
+.ti -1c
+.RI "boolean \fBcanRedo\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcanUndo\fP ()"
+.br
+.ti -1c
+.RI "void \fBdie\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetPresentationName\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetRedoPresentationName\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetUndoPresentationName\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisSignificant\fP ()"
+.br
+.ti -1c
+.RI "void \fBredo\fP ()  throws CannotRedoException "
+.br
+.ti -1c
+.RI "boolean \fBreplaceEdit\fP (UndoableEdit arg0)"
+.br
+.ti -1c
+.RI "void \fBundo\fP ()  throws CannotUndoException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file UndoRedoManager\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.UndoRedoManager (\fBGridController\fPgc, \fBSmartGridObject\fPsgs, booleanobjectStatus)"
+Constructor for undoing an delete action in the GridMap 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgc\fP 
+.br
+\fIsgs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file UndoRedoManager\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.addEdit (UndoableEditarg0)"
+
+.PP
+Definition at line 36 of file UndoRedoManager\&.java\&.
+.SS "boolean sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.canRedo ()"
+
+.PP
+Definition at line 42 of file UndoRedoManager\&.java\&.
+.SS "boolean sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.canUndo ()"
+
+.PP
+Definition at line 47 of file UndoRedoManager\&.java\&.
+.SS "void sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.die ()"
+
+.PP
+Definition at line 52 of file UndoRedoManager\&.java\&.
+.SS "String sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.getPresentationName ()"
+
+.PP
+Definition at line 59 of file UndoRedoManager\&.java\&.
+.SS "String sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.getRedoPresentationName ()"
+
+.PP
+Definition at line 64 of file UndoRedoManager\&.java\&.
+.SS "String sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.getUndoPresentationName ()"
+
+.PP
+Definition at line 69 of file UndoRedoManager\&.java\&.
+.SS "boolean sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.isSignificant ()"
+
+.PP
+Definition at line 74 of file UndoRedoManager\&.java\&.
+.SS "void sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.redo () throws CannotRedoException"
+
+.PP
+Definition at line 79 of file UndoRedoManager\&.java\&.
+.SS "boolean sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.replaceEdit (UndoableEditarg0)"
+
+.PP
+Definition at line 100 of file UndoRedoManager\&.java\&.
+.SS "void sgs\&.controller\&.undoableEdit\&.UndoRedoManager\&.undo () throws CannotUndoException"
+
+.PP
+Definition at line 105 of file UndoRedoManager\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

@@ -1,0 +1,227 @@
+\section{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller Class Reference}
+\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller}\index{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller@{sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller}}
+
+
+Collaboration diagram for sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf C\-S\-V\-Controller} ({\bf Sgs\-Grid\-Model} {\bf grid\-Model})
+\item 
+void {\bf init\-Rest} ()
+\item 
+void {\bf run} ()
+\item 
+Tab\-Pane {\bf get\-Choice\-Tab\-Pane} ()
+\item 
+Tab\-Pane {\bf get\-Choosen\-Tab\-Pane} ()
+\item 
+void {\bf set\-C\-S\-V\-Specifications} (File file)
+\item 
+File {\bf get\-C\-S\-V\-File} ()
+\item 
+boolean {\bf is\-Have\-Data} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Collections\-Tree\-Tab} {\bf data\-Coll}
+\item 
+{\bf Object\-Tree\-Tab} {\bf data\-Obj}
+\item 
+{\bf Check\-Box\-Action\-Listener} {\bf cb\-Action\-Listener} = new {\bf Check\-Box\-Action\-Listener}()
+\item 
+{\bf C\-S\-V\-Model} {\bf csv\-Model}
+\item 
+{\bf Sgs\-Grid\-Model} {\bf grid\-Model}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Huber Sabrina its a bridge between the view and the java classes that generates and fill the Tab\-Pane with data. it also saves the the from the user specified filename and the path . 
+\end{DoxyAuthor}
+
+
+Definition at line 17 of file C\-S\-V\-Controller.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!C\-S\-V\-Controller@{C\-S\-V\-Controller}}
+\index{C\-S\-V\-Controller@{C\-S\-V\-Controller}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{C\-S\-V\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-C\-S\-V\-Controller (
+\begin{DoxyParamCaption}
+\item[{{\bf Sgs\-Grid\-Model}}]{grid\-Model}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_abd770b9c66b848082e2923af0774a1c8}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Model} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file C\-S\-V\-Controller.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!get\-Choice\-Tab\-Pane@{get\-Choice\-Tab\-Pane}}
+\index{get\-Choice\-Tab\-Pane@{get\-Choice\-Tab\-Pane}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{get\-Choice\-Tab\-Pane}]{\setlength{\rightskip}{0pt plus 5cm}Tab\-Pane sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-get\-Choice\-Tab\-Pane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_a89c9dfb54bea6946ba0484f238a18f9e}
+\begin{DoxyReturn}{Returns}
+results\-Panes -\/ in it are all Pane on the left Side of the window. in this we can choose what we want to save 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file C\-S\-V\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!get\-Choosen\-Tab\-Pane@{get\-Choosen\-Tab\-Pane}}
+\index{get\-Choosen\-Tab\-Pane@{get\-Choosen\-Tab\-Pane}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{get\-Choosen\-Tab\-Pane}]{\setlength{\rightskip}{0pt plus 5cm}Tab\-Pane sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-get\-Choosen\-Tab\-Pane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_ac68c0c4f98ed7bf3bc1c160b15241f65}
+\begin{DoxyReturn}{Returns}
+true\-List\-Panes -\/ in it are all Panes on the right side. It shows what we have choosen. 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file C\-S\-V\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!get\-C\-S\-V\-File@{get\-C\-S\-V\-File}}
+\index{get\-C\-S\-V\-File@{get\-C\-S\-V\-File}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{get\-C\-S\-V\-File}]{\setlength{\rightskip}{0pt plus 5cm}File sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-get\-C\-S\-V\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_ac5a6003455a22af429be23a8fe7b6dfc}
+
+
+Definition at line 115 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!init\-Rest@{init\-Rest}}
+\index{init\-Rest@{init\-Rest}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{init\-Rest}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-init\-Rest (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_aa290209ff8584a0b61cc3cb580c1b5bd}
+
+
+Definition at line 43 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!is\-Have\-Data@{is\-Have\-Data}}
+\index{is\-Have\-Data@{is\-Have\-Data}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{is\-Have\-Data}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-is\-Have\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_acd387706cc44a44d3f180923179d40be}
+\begin{DoxyReturn}{Returns}
+csv\-Filename -\/ the filename of the csv, specified by the user
+
+csv\-File\-Path -\/ the File\-Path 
+\end{DoxyReturn}
+
+
+Definition at line 141 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!run@{run}}
+\index{run@{run}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_a379753b4b5411a07425ecb41b57b244f}
+start creating the csv file 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Model} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file C\-S\-V\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!set\-C\-S\-V\-Specifications@{set\-C\-S\-V\-Specifications}}
+\index{set\-C\-S\-V\-Specifications@{set\-C\-S\-V\-Specifications}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{set\-C\-S\-V\-Specifications}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-set\-C\-S\-V\-Specifications (
+\begin{DoxyParamCaption}
+\item[{File}]{file}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_ab0f832888dcd98d14cb6d4ea79311fba}
+set the from user defined filename and the location where the file will be saved 
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+{\em path\-Of\-Save\-Location} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file C\-S\-V\-Controller.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!cb\-Action\-Listener@{cb\-Action\-Listener}}
+\index{cb\-Action\-Listener@{cb\-Action\-Listener}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{cb\-Action\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Check\-Box\-Action\-Listener} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-cb\-Action\-Listener = new {\bf Check\-Box\-Action\-Listener}()}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_a41b91914ea215c0eab1dd5315ad9de94}
+
+
+Definition at line 21 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!csv\-Model@{csv\-Model}}
+\index{csv\-Model@{csv\-Model}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{csv\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S\-V\-Model} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-csv\-Model}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_a944a8d26b79745b8d6cc4b580922805f}
+
+
+Definition at line 24 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!data\-Coll@{data\-Coll}}
+\index{data\-Coll@{data\-Coll}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{data\-Coll}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Collections\-Tree\-Tab} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-data\-Coll}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_ab4aefa09a2420e11fcfb42c9ebf8171f}
+
+
+Definition at line 19 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!data\-Obj@{data\-Obj}}
+\index{data\-Obj@{data\-Obj}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{data\-Obj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Object\-Tree\-Tab} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-data\-Obj}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_a56914722a14d6c429d57f4dfd680a945}
+
+
+Definition at line 20 of file C\-S\-V\-Controller.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}!grid\-Model@{grid\-Model}}
+\index{grid\-Model@{grid\-Model}!sgs::controller::fileManagement::csvConstruction::CSVController@{sgs\-::controller\-::file\-Management\-::csv\-Construction\-::\-C\-S\-V\-Controller}}
+\subsubsection[{grid\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sgs\-Grid\-Model} sgs.\-controller.\-file\-Management.\-csv\-Construction.\-C\-S\-V\-Controller.\-grid\-Model}\label{classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller_ab8dae78be7f83e4984f2f31bbf02cf80}
+
+
+Definition at line 25 of file C\-S\-V\-Controller.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/file\-Management/csv\-Construction/{\bf C\-S\-V\-Controller.\-java}\end{DoxyCompactItemize}

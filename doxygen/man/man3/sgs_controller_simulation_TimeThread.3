@@ -1,0 +1,229 @@
+.TH "sgs.controller.simulation.TimeThread" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.TimeThread \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Thread\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTimeThread\fP (\fBGridController\fP gridController, \fBButtonController\fP buttonController, \fBCSVController\fP \fBcsvController\fP)"
+.br
+.ti -1c
+.RI "synchronized void \fBstartOrStop\fP (boolean start)"
+.br
+.ti -1c
+.RI "\fBAbstractDistributionAlgorithm\fP \fBgetAlgorithm\fP ()"
+.br
+.ti -1c
+.RI "synchronized void \fBchangeAlgorithm\fP (\fBAbstractDistributionAlgorithm\fP newAlgorithm)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisDoRun\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDoRun\fP (boolean doRun)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBisRunning\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "boolean \fBrealTime\fP = true"
+.br
+.ti -1c
+.RI "GregorianCalendar \fBstartTime\fP"
+.br
+.ti -1c
+.RI "GregorianCalendar \fBcurrentTime\fP"
+.br
+.ti -1c
+.RI "GregorianCalendar \fBendTime\fP"
+.br
+.ti -1c
+.RI "int \fBsimulationResolutionMinutes\fP = 60"
+.br
+.ti -1c
+.RI "int \fBinterSimStepMiliSec\fP = 1000"
+.br
+.ti -1c
+.RI "\fBWeather\fP \fBcurrentWeather\fP = new \fBWeather\fP()"
+.br
+.ti -1c
+.RI "final \fBCSVController\fP \fBcsvController\fP"
+.br
+.ti -1c
+.RI "\fBSpeedChanger\fP \fBsliderDialog\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Time in a running simulation\&. Has time-relevant functions and parameters\&. Uses \fBGridController\fP and \fBButtonController\fP for interaction\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+tobi, Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file TimeThread\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.TimeThread\&.TimeThread (\fBGridController\fPgridController, \fBButtonController\fPbuttonController, \fBCSVController\fPcsvController)"
+Initialize and start time thread\&. Sets reference in GridModel
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridController\fP 
+.br
+\fIbuttonController\fP 
+.br
+\fIcsvController\fP 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file TimeThread\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "synchronized void sgs\&.controller\&.simulation\&.TimeThread\&.changeAlgorithm (\fBAbstractDistributionAlgorithm\fPnewAlgorithm)"
+Change the used algorithm\&.
+.IP "\(bu" 2
+does not stop running simulations
+.IP "\(bu" 2
+initializes the algorithm\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInewAlgorithm\fP 
+.RE
+.PP
+
+.PP
+
+.PP
+Definition at line 147 of file TimeThread\&.java\&.
+.SS "\fBAbstractDistributionAlgorithm\fP sgs\&.controller\&.simulation\&.TimeThread\&.getAlgorithm ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the currently used algorithm\&. 
+.RE
+.PP
+
+.PP
+Definition at line 138 of file TimeThread\&.java\&.
+.SS "boolean sgs\&.controller\&.simulation\&.TimeThread\&.isDoRun ()"
+getter for boolean doRun 
+.PP
+\fBReturns:\fP
+.RS 4
+doRun value 
+.RE
+.PP
+
+.PP
+Definition at line 248 of file TimeThread\&.java\&.
+.SS "static boolean sgs\&.controller\&.simulation\&.TimeThread\&.isRunning ()\fC [static]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+true if algorithm is currently still doing something or should start to do something\&. 
+.RE
+.PP
+
+.PP
+Definition at line 131 of file TimeThread\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.TimeThread\&.run ()"
+
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIIOException\fP e if not possible FileChooserController\&.createCSVController 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file TimeThread\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.TimeThread\&.setDoRun (booleandoRun)"
+Setter for doRun Boolean 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdoRun\fP 
+.RE
+.PP
+
+.PP
+Definition at line 256 of file TimeThread\&.java\&.
+.SS "synchronized void sgs\&.controller\&.simulation\&.TimeThread\&.startOrStop (booleanstart)"
+Start or stop time thread\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstart\fP 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file TimeThread\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final \fBCSVController\fP sgs\&.controller\&.simulation\&.TimeThread\&.csvController"
+
+.PP
+Definition at line 59 of file TimeThread\&.java\&.
+.SS "GregorianCalendar sgs\&.controller\&.simulation\&.TimeThread\&.currentTime"
+simulation current time 
+.PP
+Definition at line 48 of file TimeThread\&.java\&.
+.SS "\fBWeather\fP sgs\&.controller\&.simulation\&.TimeThread\&.currentWeather = new \fBWeather\fP()"
+
+.PP
+Definition at line 57 of file TimeThread\&.java\&.
+.SS "GregorianCalendar sgs\&.controller\&.simulation\&.TimeThread\&.endTime"
+simulation planned end 
+.PP
+Definition at line 50 of file TimeThread\&.java\&.
+.SS "int sgs\&.controller\&.simulation\&.TimeThread\&.interSimStepMiliSec = 1000"
+Realtime between two simulationsteps 
+.PP
+Definition at line 54 of file TimeThread\&.java\&.
+.SS "boolean sgs\&.controller\&.simulation\&.TimeThread\&.realTime = true"
+true -> run simulation slowly for user 
+.PP
+Definition at line 44 of file TimeThread\&.java\&.
+.SS "int sgs\&.controller\&.simulation\&.TimeThread\&.simulationResolutionMinutes = 60"
+simulated time between two simulation steps in minutes, e\&.g\&. 1 hour = 60 
+.PP
+Definition at line 52 of file TimeThread\&.java\&.
+.SS "\fBSpeedChanger\fP sgs\&.controller\&.simulation\&.TimeThread\&.sliderDialog"
+
+.PP
+Definition at line 64 of file TimeThread\&.java\&.
+.SS "GregorianCalendar sgs\&.controller\&.simulation\&.TimeThread\&.startTime"
+simulation start 
+.PP
+Definition at line 46 of file TimeThread\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

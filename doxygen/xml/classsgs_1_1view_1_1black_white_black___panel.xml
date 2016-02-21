@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1black_white_black___panel" kind="class" prot="package">
+    <compoundname>sgs::view::blackWhiteBlack_Panel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1black_white_black___panel_1af9734de94b198ef644d0ed0dc91848fc" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.blackWhiteBlack_Panel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="146" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1black_white_black___panel_1aefc744bc443a23757339fd0b385c1f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.blackWhiteBlack_Panel.blackWhiteBlack_Panel</definition>
+        <argsstring>()</argsstring>
+        <name>blackWhiteBlack_Panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="148" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="148" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1black_white_black___panel_1ac5849d9720f2b4cd6c7918af84f6f4a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.blackWhiteBlack_Panel.paintComponent</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>paintComponent</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="155" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="155" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2729">
+        <label>JPanel</label>
+      </node>
+      <node id="2728">
+        <label>sgs.view.blackWhiteBlack_Panel</label>
+        <childnode refid="2729" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2731">
+        <label>JPanel</label>
+      </node>
+      <node id="2730">
+        <label>sgs.view.blackWhiteBlack_Panel</label>
+        <childnode refid="2731" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="141" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="141" bodyend="190"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1black_white_black___panel_1aefc744bc443a23757339fd0b385c1f5c" prot="public" virt="non-virtual"><scope>sgs::view::blackWhiteBlack_Panel</scope><name>blackWhiteBlack_Panel</name></member>
+      <member refid="classsgs_1_1view_1_1black_white_black___panel_1ac5849d9720f2b4cd6c7918af84f6f4a3" prot="protected" virt="non-virtual"><scope>sgs::view::blackWhiteBlack_Panel</scope><name>paintComponent</name></member>
+      <member refid="classsgs_1_1view_1_1black_white_black___panel_1af9734de94b198ef644d0ed0dc91848fc" prot="private" virt="non-virtual"><scope>sgs::view::blackWhiteBlack_Panel</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

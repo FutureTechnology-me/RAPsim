@@ -1,0 +1,76 @@
+.TH "sgs.controller.simulation.NetworkAnalyser" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.NetworkAnalyser \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNetworkAnalyser\fP (\fBGridController\fP gridController)"
+.br
+.ti -1c
+.RI "void \fBcreateBusesAndFindPaths\fP ()"
+.br
+.ti -1c
+.RI "void \fBvalueUpdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBresetPowerConsumption\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class helps to find Buses and Paths as dynamically as possible\&. It uses the
+.PP
+.nf
+gridModel\&.lockBusesPaths() 
+
+.fi
+.PP
+ method for not manipulating the objects at the same time as they are used\&.
+.PP
+If the specific GridObject uses an attribute from
+.PP
+.nf
+gridModel\&.resistanceAttributes 
+
+.fi
+.PP
+ , 'uses' defined by VariableSet\&.isUsed(name), then it is handled as a resistor\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+tobi, Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file NetworkAnalyser\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.NetworkAnalyser\&.NetworkAnalyser (\fBGridController\fPgridController)"
+
+.PP
+Definition at line 31 of file NetworkAnalyser\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.simulation\&.NetworkAnalyser\&.createBusesAndFindPaths ()"
+Locks Buses and Paths\&. 
+.PP
+Definition at line 40 of file NetworkAnalyser\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.NetworkAnalyser\&.resetPowerConsumption ()"
+Old method\&. 
+.PP
+Definition at line 294 of file NetworkAnalyser\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.NetworkAnalyser\&.valueUpdate ()"
+Similar to \fBcreateBusesAndFindPaths()\fP, but does updates for new values only\&. 
+.PP
+Definition at line 86 of file NetworkAnalyser\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

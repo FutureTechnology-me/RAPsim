@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1controller_1_1file_management_1_1csv_construction" kind="namespace">
+    <compoundname>sgs::controller::fileManagement::csvConstruction</compoundname>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener" prot="public">sgs::controller::fileManagement::csvConstruction::CheckBoxActionListener</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab" prot="public">sgs::controller::fileManagement::csvConstruction::CollectionsTreeTab</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" prot="public">sgs::controller::fileManagement::csvConstruction::CSVController</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_give_data_time_weather" prot="public">sgs::controller::fileManagement::csvConstruction::GiveDataTimeWeather</innerclass>
+    <innerclass refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab" prot="public">sgs::controller::fileManagement::csvConstruction::ObjectTreeTab</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/csvConstruction/CheckBoxActionListener.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

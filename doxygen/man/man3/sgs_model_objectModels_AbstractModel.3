@@ -1,0 +1,167 @@
+.TH "sgs.model.objectModels.AbstractModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.objectModels.AbstractModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBsgs\&.model\&.objectModels\&.AbstractConsumerModel\fP, \fBsgs\&.model\&.objectModels\&.AbstractPowerLineModel\fP, and \fBsgs\&.model\&.objectModels\&.AbstractPowerPlantModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract void \fBupdateModel\fP (GregorianCalendar currentTime, \fBWeather\fP weather, int resolution)"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVariables\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetModelName\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetDescription\fP ()"
+.br
+.ti -1c
+.RI "ImageIcon \fBgetIcon\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract void \fBupdateVariables\fP (GregorianCalendar currentTime, \fBWeather\fP weather, int resolution)"
+.br
+.ti -1c
+.RI "abstract void \fBinitVariableSet\fP ()"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBinitVariable\fP (String name, \fBNumericValue\fP initValue, \fBEnumUnit\fP unit, boolean visible, boolean editable)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBinitVariable\fP (String name, \fBNumericValue\fP initValue, \fBEnumUnit\fP unit)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "String \fBmodelName\fP"
+.br
+.ti -1c
+.RI "String \fBdescription\fP"
+.br
+.ti -1c
+.RI "ImageIcon \fBicon\fP"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBvariableSet\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The AM describes all parameters for Model administration in RAPSim\&. The attributes are: modelName, description, icon and variableSet\&. For all four are get-methods implemented further methods are initVarible()
+.PP
+\fBAuthor:\fP
+.RS 4
+bbreilin, mpoechacker 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file AbstractModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "String sgs\&.model\&.objectModels\&.AbstractModel\&.getDescription ()"
+
+.PP
+Definition at line 50 of file AbstractModel\&.java\&.
+.SS "ImageIcon sgs\&.model\&.objectModels\&.AbstractModel\&.getIcon ()"
+
+.PP
+Definition at line 53 of file AbstractModel\&.java\&.
+.SS "String sgs\&.model\&.objectModels\&.AbstractModel\&.getModelName ()"
+
+.PP
+Definition at line 47 of file AbstractModel\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.objectModels\&.AbstractModel\&.getVariables ()"
+
+.PP
+Definition at line 43 of file AbstractModel\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.objectModels\&.AbstractModel\&.initVariable (Stringname, \fBNumericValue\fPinitValue, \fBEnumUnit\fPunit, booleanvisible, booleaneditable)\fC [protected]\fP"
+Initialize a single variable and specify whether it is visible and editable in the property window for the model\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIinitValue\fP 
+.br
+\fIunit\fP 
+.br
+\fIvisible\fP 
+.br
+\fIeditable\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 66 of file AbstractModel\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.objectModels\&.AbstractModel\&.initVariable (Stringname, \fBNumericValue\fPinitValue, \fBEnumUnit\fPunit)\fC [protected]\fP"
+Initialize a single variable for the model which is visible and editable\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fIinitValue\fP 
+.br
+\fIunit\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 79 of file AbstractModel\&.java\&.
+.SS "abstract void sgs\&.model\&.objectModels\&.AbstractModel\&.initVariableSet ()\fC [protected]\fP, \fC [pure virtual]\fP"
+Implemented in the model and called in the constructor of an AbstractObjectnameModel super-class 
+.PP
+Implemented in \fBsgs\&.model\&.objectModels\&.RandomWindTurbineModel\fP, \fBsgs\&.model\&.objectModels\&.FossilFuelModel\fP, \fBsgs\&.model\&.objectModels\&.SolarPeakPowerModel\fP, \fBsgs\&.model\&.objectModels\&.ResidentialAverageLoadCurveModel\fP, \fBsgs\&.model\&.objectModels\&.SolarSquareMeterModel\fP, \fBsgs\&.model\&.objectModels\&.PiEquivalentPowerLine\fP, \fBsgs\&.model\&.objectModels\&.ConstantPowerModel\fP, \fBsgs\&.model\&.objectModels\&.UsualWindTurbineModel\fP, and \fBsgs\&.model\&.objectModels\&.ConstantDemandModel\fP\&.
+.SS "abstract void sgs\&.model\&.objectModels\&.AbstractModel\&.updateModel (GregorianCalendarcurrentTime, \fBWeather\fPweather, intresolution)\fC [pure virtual]\fP"
+Should be implemented in the AbstractObjectnameModel and must contain the \fBupdateVariables()\fP method 
+.PP
+Implemented in \fBsgs\&.model\&.objectModels\&.AbstractPowerPlantModel\fP, \fBsgs\&.model\&.objectModels\&.AbstractConsumerModel\fP, and \fBsgs\&.model\&.objectModels\&.AbstractPowerLineModel\fP\&.
+.SS "abstract void sgs\&.model\&.objectModels\&.AbstractModel\&.updateVariables (GregorianCalendarcurrentTime, \fBWeather\fPweather, intresolution)\fC [protected]\fP, \fC [pure virtual]\fP"
+Should be implemented in the model to calculate new variable values 
+.PP
+Implemented in \fBsgs\&.model\&.objectModels\&.ResidentialAverageLoadCurveModel\fP, \fBsgs\&.model\&.objectModels\&.UsualWindTurbineModel\fP, \fBsgs\&.model\&.objectModels\&.FossilFuelModel\fP, \fBsgs\&.model\&.objectModels\&.RandomWindTurbineModel\fP, \fBsgs\&.model\&.objectModels\&.SolarPeakPowerModel\fP, \fBsgs\&.model\&.objectModels\&.PiEquivalentPowerLine\fP, \fBsgs\&.model\&.objectModels\&.SolarSquareMeterModel\fP, \fBsgs\&.model\&.objectModels\&.ConstantPowerModel\fP, and \fBsgs\&.model\&.objectModels\&.ConstantDemandModel\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "String sgs\&.model\&.objectModels\&.AbstractModel\&.description\fC [protected]\fP"
+
+.PP
+Definition at line 24 of file AbstractModel\&.java\&.
+.SS "ImageIcon sgs\&.model\&.objectModels\&.AbstractModel\&.icon\fC [protected]\fP"
+
+.PP
+Definition at line 25 of file AbstractModel\&.java\&.
+.SS "String sgs\&.model\&.objectModels\&.AbstractModel\&.modelName\fC [protected]\fP"
+
+.PP
+Definition at line 23 of file AbstractModel\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.objectModels\&.AbstractModel\&.variableSet\fC [protected]\fP"
+
+.PP
+Definition at line 26 of file AbstractModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

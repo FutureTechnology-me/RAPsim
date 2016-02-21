@@ -1,0 +1,83 @@
+.TH "sgs.model.gridData.OverlayList" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridData.OverlayList \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits SortedLinkedListSet< Overlay >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBOverlayList\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetOverlaySingle\fP (\fBOverlay\fP overlay)"
+.br
+.ti -1c
+.RI "void \fBsetOverlay\fP (\fBOverlay\fP overlay)"
+.br
+.ti -1c
+.RI "int \fBgetNumberOfOverlays\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+'List' of Overlays for a single Grid Object
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file OverlayList\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridData\&.OverlayList\&.OverlayList ()"
+Constructor: Sets overlay LayerComparator in super class\&. 
+.PP
+Definition at line 21 of file OverlayList\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int sgs\&.model\&.gridData\&.OverlayList\&.getNumberOfOverlays ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+size 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file OverlayList\&.java\&.
+.SS "void sgs\&.model\&.gridData\&.OverlayList\&.setOverlay (\fBOverlay\fPoverlay)"
+Set \fBOverlay\fP for specified layer\&. \fBOverlay\fP on equal layer will be replaced\&. Do not change layer (in \fBOverlay\fP) after adding\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoverlay\fP 
+.RE
+.PP
+
+.PP
+Definition at line 56 of file OverlayList\&.java\&.
+.SS "void sgs\&.model\&.gridData\&.OverlayList\&.setOverlaySingle (\fBOverlay\fPoverlay)"
+\fBOverlay\fP will be defined by GridController \fBOverlay\fP will not be used Set a single \fBOverlay\fP\&. Other Overlays will be deleted\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoverlay\fP 
+.RE
+.PP
+
+.PP
+Definition at line 44 of file OverlayList\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

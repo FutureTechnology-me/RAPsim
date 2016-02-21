@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg" kind="class" prot="public">
+    <compoundname>sgs::model::variables::collector::VariableCollectorAvg</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector" prot="public" virt="non-virtual">sgs.model.variables.collector.VariableCollector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1ae765084fbb6cef50c0f4fbb1555a25e2" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_sum" kindref="compound">VariableCollectorSum</ref></type>
+        <definition>VariableCollectorSum sgs.model.variables.collector.VariableCollectorAvg.sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="8" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1ad26e03b27a75f6d3b283508d8950ad64" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorAvg.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="9" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1aa26ed8ba9dc738fd68289aeb5e1016c4" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.collector.VariableCollectorAvg.isNew</definition>
+        <argsstring></argsstring>
+        <name>isNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a916b093f794eb8f36a540eb56b3b4e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.collector.VariableCollectorAvg.VariableCollectorAvg</definition>
+        <argsstring>(EnumPV variableName)</argsstring>
+        <name>VariableCollectorAvg</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>variableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for average collector. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>variableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="16" bodyend="21"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a5d39690ac71ac46bfff6f16a60f184f0" compoundref="_variable_collector_avg_8java" startline="58" endline="64">sgs.model.variables.collector.VariableCollectorAvg.copy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a60eba25ad500837d28142d1e0d018813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_numeric_value" kindref="compound">NumericValue</ref></type>
+        <definition>NumericValue sgs.model.variables.collector.VariableCollectorAvg.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1aafa53635c29d137ed70912b31fe75e6a">getValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the collected numeric value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="24" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a61e5766327fa1d008e2fa0be5139ab02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int sgs.model.variables.collector.VariableCollectorAvg.getNumberOfValues</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af7069a996dfec379cbc334f294b5511a">getNumberOfValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of collected values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="39" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a11eaddd18e8811a3a96f5812882c76c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.collector.VariableCollectorAvg.restValues</definition>
+        <argsstring>()</argsstring>
+        <name>restValues</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a54200215ba9e58439e720502bbedb507">restValues</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets values to zero. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a8a4de567b52c4d6ea940d0bbf8a6ad6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.collector.VariableCollectorAvg.collectFrom</definition>
+        <argsstring>(VariableOwner owner)</argsstring>
+        <name>collectFrom</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a7771a65b96725beb168579ff6003f6e6">collectFrom</reimplements>
+        <param>
+          <type><ref refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kindref="compound">VariableOwner</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds interesting variable values from the variable owner <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if a value was collected </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a5d39690ac71ac46bfff6f16a60f184f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg" kindref="compound">VariableCollectorAvg</ref></type>
+        <definition>VariableCollectorAvg sgs.model.variables.collector.VariableCollectorAvg.copy</definition>
+        <argsstring>()</argsstring>
+        <name>copy</name>
+        <reimplements refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af657fdd311577e7f5f155283a8e816ff">copy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a copy of this Collector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="58" bodyend="64"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a916b093f794eb8f36a540eb56b3b4e1e" compoundref="_variable_collector_avg_8java" startline="16" endline="21">sgs.model.variables.collector.VariableCollectorAvg.VariableCollectorAvg</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" compoundref="_variable_collector_8java" startline="10">sgs.model.variables.collector.VariableCollector.variableName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4421">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+      </node>
+      <node id="4420">
+        <label>sgs.model.variables.collector.VariableCollectorAvg</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg"/>
+        <childnode refid="4421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4423">
+        <label>sgs.model.variables.collector.VariableCollector</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector"/>
+        <childnode refid="4424" relation="usage">
+          <edgelabel>variableName</edgelabel>
+        </childnode>
+      </node>
+      <node id="4422">
+        <label>sgs.model.variables.collector.VariableCollectorAvg</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg"/>
+        <childnode refid="4423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4424">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" line="6" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableCollectorAvg.java" bodystart="6" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a8a4de567b52c4d6ea940d0bbf8a6ad6f" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>collectFrom</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a5d39690ac71ac46bfff6f16a60f184f0" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>copy</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a61e5766327fa1d008e2fa0be5139ab02" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>getNumberOfValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a6812701367b992972241901ca2e6d5c4" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>getSingleVariable</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a60eba25ad500837d28142d1e0d018813" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>getValue</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1adc69dc2f026ba66dd7838f970661c56a" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>getVariableName</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1aa26ed8ba9dc738fd68289aeb5e1016c4" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>isNew</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a11eaddd18e8811a3a96f5812882c76c4" prot="public" virt="virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>restValues</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1ae765084fbb6cef50c0f4fbb1555a25e2" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>sum</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a0b595f78b3304a12f5a3538c8ea40f27" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1ad26e03b27a75f6d3b283508d8950ad64" prot="private" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>value</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1af5ca5b1481c5433ba4ca9d75a8501206" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>VariableCollector</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_avg_1a916b093f794eb8f36a540eb56b3b4e1e" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>VariableCollectorAvg</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collector_1a74d0063f34aee84055449e78ff1dac65" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableCollectorAvg</scope><name>variableName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

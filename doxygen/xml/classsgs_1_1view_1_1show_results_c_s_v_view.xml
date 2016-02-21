@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1show_results_c_s_v_view" kind="class" prot="public">
+    <compoundname>sgs::view::showResultsCSVView</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1show_results_c_s_v_view_1a7214d053bdd4a1ee437bb43e8f5fb040" prot="private" static="yes" mutable="no">
+        <type>JFXPanel</type>
+        <definition>JFXPanel sgs.view.showResultsCSVView.resultsFXPanel</definition>
+        <argsstring></argsstring>
+        <name>resultsFXPanel</name>
+        <initializer>= new JFXPanel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1show_results_c_s_v_view_1a6296f7ddd2528c1ff3ae46d0d04f112f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.showResultsCSVView.showResultsCSVView</definition>
+        <argsstring>()</argsstring>
+        <name>showResultsCSVView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="31" bodyend="70"/>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ada3b79b029e40e88b05513dbcd17f573" compoundref="_sgs_grid_model_8java" startline="41">sgs.model.SgsGridModel.mainView</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1show_results_c_s_v_view_1a3518867b4e15eeecc1a0ad70d046b545" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.showResultsCSVView.initFX</definition>
+        <argsstring>(JFXPanel fxPanel)</argsstring>
+        <name>initFX</name>
+        <param>
+          <type>JFXPanel</type>
+          <declname>fxPanel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates the GUI creates an java swing frame, set the title and the size of it. it also initialize the fx libary to create the resultsFXPanel Initialize the scene, get the data from the function createScene() and add the result to the fxPanel. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fxPanel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="85" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1show_results_c_s_v_view_1a8af89e3498b3c7bb30f1bc719c0c1da0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Scene</type>
+        <definition>Scene sgs.view.showResultsCSVView.createScene</definition>
+        <argsstring>()</argsstring>
+        <name>createScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create the fx scene. into a group of the scene, the tree will be added <simplesect kind="return"><para>the resultsScene </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="98" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="98" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1show_results_c_s_v_view_1a9d297dd72153b163340e8314ee17fb04" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.showResultsCSVView.recExpandTree</definition>
+        <argsstring>(TreeItem&lt; String &gt; tree)</argsstring>
+        <name>recExpandTree</name>
+        <param>
+          <type>TreeItem&lt; String &gt;</type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>expands the tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="129" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="129" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>called by the MenuController, when the user wants to know the parameters of the objects to save during the simulation, that he has choosen. <simplesect kind="author"><para>Sabrina Huber </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/showResultsCSVView.java" bodystart="25" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1show_results_c_s_v_view_1a8af89e3498b3c7bb30f1bc719c0c1da0" prot="private" virt="non-virtual"><scope>sgs::view::showResultsCSVView</scope><name>createScene</name></member>
+      <member refid="classsgs_1_1view_1_1show_results_c_s_v_view_1a3518867b4e15eeecc1a0ad70d046b545" prot="private" virt="non-virtual"><scope>sgs::view::showResultsCSVView</scope><name>initFX</name></member>
+      <member refid="classsgs_1_1view_1_1show_results_c_s_v_view_1a9d297dd72153b163340e8314ee17fb04" prot="private" virt="non-virtual"><scope>sgs::view::showResultsCSVView</scope><name>recExpandTree</name></member>
+      <member refid="classsgs_1_1view_1_1show_results_c_s_v_view_1a7214d053bdd4a1ee437bb43e8f5fb040" prot="private" virt="non-virtual"><scope>sgs::view::showResultsCSVView</scope><name>resultsFXPanel</name></member>
+      <member refid="classsgs_1_1view_1_1show_results_c_s_v_view_1a6296f7ddd2528c1ff3ae46d0d04f112f" prot="public" virt="non-virtual"><scope>sgs::view::showResultsCSVView</scope><name>showResultsCSVView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

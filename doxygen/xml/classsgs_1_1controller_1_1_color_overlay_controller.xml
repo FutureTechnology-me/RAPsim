@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_color_overlay_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::ColorOverlayController</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1aa97dd7574071ee1d8d44f33281960af9" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1view_1_1_color_legend_panel" kindref="compound">ColorLegendPanel</ref></type>
+        <definition>ColorLegendPanel sgs.controller.ColorOverlayController.legendPanel</definition>
+        <argsstring></argsstring>
+        <name>legendPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1a95dd47cfa15950c32fd4ae23a1b04bde" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.ColorOverlayController.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1aa7f0af9f29ceee9ec8451bea24bb6deb" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.ColorOverlayController.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1a0f22f49b4e4ddf0e50342100deb0f15a" prot="private" static="no" mutable="no">
+        <type>final PrimaryViewI</type>
+        <definition>final PrimaryViewI sgs.controller.ColorOverlayController.view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1a59956a64369367a842b1a69ba869c170" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1view_1_1_color_legend_panel" kindref="compound">ColorLegendPanel</ref></type>
+        <definition>final ColorLegendPanel sgs.controller.ColorOverlayController.eastColorPanel</definition>
+        <argsstring></argsstring>
+        <name>eastColorPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1af95437a54b987001e13e0ca8e90a1ebd" prot="private" static="no" mutable="no">
+        <type>BufferedImage</type>
+        <definition>BufferedImage sgs.controller.ColorOverlayController.img</definition>
+        <argsstring></argsstring>
+        <name>img</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_color_overlay_controller_1adaf04dff510ff690ec0377c8938203bd" prot="private" static="no" mutable="no">
+        <type>final boolean[]</type>
+        <definition>final boolean [] sgs.controller.ColorOverlayController.overlayNumberArray</definition>
+        <argsstring></argsstring>
+        <name>overlayNumberArray</name>
+        <initializer>= {false, false, false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1abb9a1ce61db95bd7f5a11b0e28191e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.ColorOverlayController.ColorOverlayController</definition>
+        <argsstring>(GridController gridController2, PrimaryViewI view)</argsstring>
+        <name>ColorOverlayController</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController2</declname>
+        </param>
+        <param>
+          <type>PrimaryViewI</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridController2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>view</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="41" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a700d41da6b76cec62401e9f446b4ccf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.init</definition>
+        <argsstring>(int legendNumber)</argsstring>
+        <name>init</name>
+        <param>
+          <type>int</type>
+          <declname>legendNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called from <ref refid="_menu_controller_8java" kindref="compound">MenuController.java</ref> Initialize the colorOvelay, the legend and the overlay on the grid <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>legendNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="63" bodyend="80"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" compoundref="_color_overlay_controller_8java" startline="337" endline="363">sgs.controller.ColorOverlayController.repaint</references>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1a7e3b677edb0f53e292048a07b3a005aa" compoundref="_color_overlay_controller_8java" startline="418" endline="425">sgs.controller.ColorOverlayController.initAll</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a3c9cfa1d5bd8616ef0b9844b000330d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.ColorOverlayController.checkOverlayUse</definition>
+        <argsstring>()</argsstring>
+        <name>checkOverlayUse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check if a legend is activated if yes, set the overlayUse to booelan value true, else to false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="89" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="89" bodyend="111"/>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" compoundref="_color_overlay_controller_8java" startline="337" endline="363">sgs.controller.ColorOverlayController.repaint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1ab524db0457abc299a0ed20a1f40b3884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.mark</definition>
+        <argsstring>(int orgX, int orgY, int[][][] gridData3D)</argsstring>
+        <name>mark</name>
+        <param>
+          <type>int</type>
+          <declname>orgX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>orgY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gridData3D</declname>
+          <array>[][][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="114" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="114" bodyend="129"/>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1ac26fb05f05e50235cb3b835cac70e6d3" compoundref="_color_overlay_controller_8java" startline="134" endline="147">sgs.controller.ColorOverlayController.markAll</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1ac41e3185321b7c4ed84dd29c0277b737" compoundref="_color_overlay_controller_8java" startline="155" endline="174">sgs.controller.ColorOverlayController.markOne</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1ac26fb05f05e50235cb3b835cac70e6d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.markAll</definition>
+        <argsstring>()</argsstring>
+        <name>markAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>method marks every single grid tile </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="134" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="134" bodyend="147"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1ab524db0457abc299a0ed20a1f40b3884" compoundref="_color_overlay_controller_8java" startline="114" endline="129">sgs.controller.ColorOverlayController.mark</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1ac41e3185321b7c4ed84dd29c0277b737" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.markOne</definition>
+        <argsstring>(int orgX, int orgY, boolean markMore)</argsstring>
+        <name>markOne</name>
+        <param>
+          <type>int</type>
+          <declname>orgX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>orgY</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>markMore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>we mark the clicked spot with a transparent overlay <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>markMore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- boolean to check if more objects should be marked. Method still mark only one object at the time, but dont delete the other marks </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- x coordination of object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- y coordination of object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="155" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="155" bodyend="174"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1ab524db0457abc299a0ed20a1f40b3884" compoundref="_color_overlay_controller_8java" startline="114" endline="129">sgs.controller.ColorOverlayController.mark</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.repaint</definition>
+        <argsstring>()</argsstring>
+        <name>repaint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>repaints the grid, and the legends </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="337" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="337" bodyend="363"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1a3c9cfa1d5bd8616ef0b9844b000330d5" compoundref="_color_overlay_controller_8java" startline="89" endline="111">sgs.controller.ColorOverlayController.checkOverlayUse</references>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1a49f2ed942c2558a214b6f197e0899aa5" compoundref="_sgs_grid_model_8java" startline="50">sgs.model.SgsGridModel.gridObjectList</references>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1ae497140136b731d54ff958e1cf8c0d5c" compoundref="_sgs_grid_model_8java" startline="55">sgs.model.SgsGridModel.overlayMode</references>
+        <references refid="classsgs_1_1model_1_1_sgs_grid_model_1af2326b1fe72eb68995c4bfd70e5e6817" compoundref="_sgs_grid_model_8java" startline="46">sgs.model.SgsGridModel.gridData3D</references>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1a700d41da6b76cec62401e9f446b4ccf7" compoundref="_color_overlay_controller_8java" startline="63" endline="80">sgs.controller.ColorOverlayController.init</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_color_overlay_controller_1ae5e7769ae253e0338b8ea74dcdfe5167" compoundref="_color_overlay_controller_8java" startline="396" endline="402">sgs.controller.ColorOverlayController.repaintData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1ae5e7769ae253e0338b8ea74dcdfe5167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.repaintData</definition>
+        <argsstring>()</argsstring>
+        <name>repaintData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this methode was called from other classes, to repaint the grid. they dont know which overlay is actually in use, so they also dont know the number which is needed in the <ref refid="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" kindref="member">repaint()</ref> methode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="396" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="396" bodyend="402"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" compoundref="_color_overlay_controller_8java" startline="337" endline="363">sgs.controller.ColorOverlayController.repaint</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1aa8592bbe59b6e7782596df95fdf9c3af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean[]</type>
+        <definition>boolean [] sgs.controller.ColorOverlayController.getOverlayNumberArray</definition>
+        <argsstring>()</argsstring>
+        <name>getOverlayNumberArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>we save all checked overlay <simplesect kind="return"><para>an array of the overlays by number </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="409" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="409" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a7e3b677edb0f53e292048a07b3a005aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.initAll</definition>
+        <argsstring>()</argsstring>
+        <name>initAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this method inis all legends and their overlays. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="418" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="418" bodyend="425"/>
+        <references refid="classsgs_1_1controller_1_1_color_overlay_controller_1a700d41da6b76cec62401e9f446b4ccf7" compoundref="_color_overlay_controller_8java" startline="63" endline="80">sgs.controller.ColorOverlayController.init</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1ac35514236a8cfcc3ef0afc04833bdcb8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.addOverlay</definition>
+        <argsstring>(int x, int y, int z, Color color, int overlayIndex, int[][][] gridData3D)</argsstring>
+        <name>addOverlay</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>overlayIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gridData3D</declname>
+          <array>[][][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add Overlay color to jGridMap and ID to gridData <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x coordinate of object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y coordinate of object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of tile </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>calculated color </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>overlayIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unused </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridData3D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="186" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="186" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a699972158cc964d4d69430895b45fc8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color sgs.controller.ColorOverlayController.colorOverlay2</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>colorOverlay2</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calculate new value for result. if result is greater than 1, retun 1, or if result is smaller than zero, return zero. if we are not doing that, the formula will calculate us another color, which is not black, white, or gray shaded. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- which object is it </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the voltageAngle value for the given sgo object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="220" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="220" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a045e3ce2d06851635b7c63dc5d48b885" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color sgs.controller.ColorOverlayController.colorOverlay3</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>colorOverlay3</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="243" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="243" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a372a598672a7816647bea8810e59deb3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.ColorOverlayController.resetOverlayData</definition>
+        <argsstring>(int[][][] gridData3D)</argsstring>
+        <name>resetOverlayData</name>
+        <param>
+          <type>int</type>
+          <declname>gridData3D</declname>
+          <array>[][][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset overlay data in grid. (z&gt;1) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridData3D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="286" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="286" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a0b6265d341a7696599754699a5f814ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.controller.ColorOverlayController.setOverlay</definition>
+        <argsstring>(int[][][] gridData3D, SmartGridObject sgo, OverlayMode overlayMode, int overlayIndex)</argsstring>
+        <name>setOverlay</name>
+        <param>
+          <type>int</type>
+          <declname>gridData3D</declname>
+          <array>[][][]</array>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode" kindref="compound">OverlayMode</ref></type>
+          <declname>overlayMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>overlayIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridData3D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- data for objects and overlays (z&gt;0) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- object for overlays </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>overlayIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- current overlayIndex (unused) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>new overlayIndex (unused) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="308" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="308" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_color_overlay_controller_1a33ccef6bed22b602368f21574f641749" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color sgs.controller.ColorOverlayController.getClassicOverlayColor</definition>
+        <argsstring>(SmartGridObject sgo)</argsstring>
+        <name>getClassicOverlayColor</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Classical consumption and production in red/green <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>overlayData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="370" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="370" bodyend="389"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2779">
+        <label>JPanel</label>
+      </node>
+      <node id="2777">
+        <label>sgs.controller.ColorOverlayController</label>
+        <link refid="classsgs_1_1controller_1_1_color_overlay_controller"/>
+        <childnode refid="2778" relation="usage">
+          <edgelabel>legendPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2778">
+        <label>sgs.view.ColorLegendPanel</label>
+        <link refid="classsgs_1_1view_1_1_color_legend_panel"/>
+        <childnode refid="2779" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/ColorOverlayController.java" bodystart="19" bodyend="431"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1ac35514236a8cfcc3ef0afc04833bdcb8" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>addOverlay</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a3c9cfa1d5bd8616ef0b9844b000330d5" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>checkOverlayUse</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a699972158cc964d4d69430895b45fc8d" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>colorOverlay2</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a045e3ce2d06851635b7c63dc5d48b885" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>colorOverlay3</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1abb9a1ce61db95bd7f5a11b0e28191e14" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>ColorOverlayController</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a59956a64369367a842b1a69ba869c170" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>eastColorPanel</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a33ccef6bed22b602368f21574f641749" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>getClassicOverlayColor</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1aa8592bbe59b6e7782596df95fdf9c3af" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>getOverlayNumberArray</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a95dd47cfa15950c32fd4ae23a1b04bde" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1aa7f0af9f29ceee9ec8451bea24bb6deb" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1af95437a54b987001e13e0ca8e90a1ebd" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>img</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a700d41da6b76cec62401e9f446b4ccf7" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>init</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a7e3b677edb0f53e292048a07b3a005aa" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>initAll</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1aa97dd7574071ee1d8d44f33281960af9" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>legendPanel</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1ab524db0457abc299a0ed20a1f40b3884" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>mark</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1ac26fb05f05e50235cb3b835cac70e6d3" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>markAll</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1ac41e3185321b7c4ed84dd29c0277b737" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>markOne</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1adaf04dff510ff690ec0377c8938203bd" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>overlayNumberArray</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a8d83080a830c0f1c42c08dc9b8f8a25e" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>repaint</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1ae5e7769ae253e0338b8ea74dcdfe5167" prot="public" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>repaintData</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a372a598672a7816647bea8810e59deb3" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>resetOverlayData</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a0b6265d341a7696599754699a5f814ae" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>setOverlay</name></member>
+      <member refid="classsgs_1_1controller_1_1_color_overlay_controller_1a0f22f49b4e4ddf0e50342100deb0f15a" prot="private" virt="non-virtual"><scope>sgs::controller::ColorOverlayController</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

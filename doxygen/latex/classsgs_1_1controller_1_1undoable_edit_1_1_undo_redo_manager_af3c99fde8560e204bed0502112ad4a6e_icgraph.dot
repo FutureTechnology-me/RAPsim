@@ -1,0 +1,11 @@
+digraph "sgs.controller.undoableEdit.UndoRedoManager.getPresentationName"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.undoableEdit.\lUndoRedoManager.getPresentationName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.undoableEdit.\lUndoRedoManager.getRedoPresentationName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager.html#a89ed1d95c14e80b4455a482ada0a543b"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="sgs.controller.undoableEdit.\lUndoRedoManager.getUndoPresentationName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager.html#a5f9194d2f313b62b0a10583fd6e1c9ca"];
+}

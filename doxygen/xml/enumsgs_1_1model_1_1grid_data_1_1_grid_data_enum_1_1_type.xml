@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type" kind="enum" prot="public">
+    <compoundname>sgs::model::gridData::GridDataEnum::Type</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a4f7dbc1f957aaee018554c498711c4e0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.ICON</definition>
+        <argsstring></argsstring>
+        <name>ICON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="174" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="174" bodyend="-1"/>
+        <referencedby refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a30dcc8693730e57ec41c1288766ad7fc" compoundref="_grid_data_enum_8java" startline="259" endline="261">sgs.model.gridData.GridDataEnum.getIcon</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1aeb9ac957a45becf808b5213ee5a68372" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LRUD</definition>
+        <argsstring></argsstring>
+        <name>MAP_LRUD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="175" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="175" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1ad47df913c488e5483a2d6e51645e115c" compoundref="_grid_controller_8java" startline="122" endline="135">sgs.controller.GridController.addGridObject</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+        <referencedby refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a4153a65df8d1098666f63f5275f966de" compoundref="_grid_data_enum_8java" startline="290" endline="298">sgs.model.gridData.GridDataEnum.isMapElement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1af1292617c64d78a00826d24a1d18bede" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LRU</definition>
+        <argsstring></argsstring>
+        <name>MAP_LRU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="176" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="176" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a756b45d05ec20ad282c76a55760e00b3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LRD</definition>
+        <argsstring></argsstring>
+        <name>MAP_LRD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="176" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="176" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a64972a8f4be5586e3b3906c68693ddc3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LUD</definition>
+        <argsstring></argsstring>
+        <name>MAP_LUD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="176" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="176" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3cde02f5987a289c5a72b5c92422b105" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_RUD</definition>
+        <argsstring></argsstring>
+        <name>MAP_RUD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="176" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="176" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3f8538e6ab0d89a73bd9a09b725322c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LR</definition>
+        <argsstring></argsstring>
+        <name>MAP_LR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1ae777470ebfbeb7842b92a4ffa2346876" compoundref="_grid_controller_8java" startline="173" endline="226">sgs.controller.GridController.calculatePowerLines</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a34b7f670d7a5342506dbadf3df582d01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_UD</definition>
+        <argsstring></argsstring>
+        <name>MAP_UD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1ae777470ebfbeb7842b92a4ffa2346876" compoundref="_grid_controller_8java" startline="173" endline="226">sgs.controller.GridController.calculatePowerLines</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3a734ff89354ccb81db9c8599c80d84f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LU</definition>
+        <argsstring></argsstring>
+        <name>MAP_LU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a2c758be14d8abfb4ffeb496024e33667" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_RU</definition>
+        <argsstring></argsstring>
+        <name>MAP_RU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1acffcd7c52eca0c3878d11287023236a5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_RD</definition>
+        <argsstring></argsstring>
+        <name>MAP_RD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="177" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a9ec09ce1efd0736d3542fa56c949b0c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.gridData.GridDataEnum.Type.MAP_LD</definition>
+        <argsstring></argsstring>
+        <name>MAP_LD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="179" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_grid_controller_1aa027456957639536e48a5c9edf13224c" compoundref="_grid_controller_8java" startline="236" endline="355">sgs.controller.GridController.calculateSupraLines</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Map elements can be different depending on surrounding elements. <blockquote><para>An icon must always exist. Pure control icons do not have a map element. The default and minimum definition for a map elements is the</para><para></para></blockquote>LeftRightUpDown type &apos;MAP_LRUD&apos;.</para><para>Naming and order: 1.Left, 2.Right, 3.Up, 4.Down </para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" line="172" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/GridDataEnum.java" bodystart="172" bodyend="179"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a4f7dbc1f957aaee018554c498711c4e0" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>ICON</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a9ec09ce1efd0736d3542fa56c949b0c8" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3f8538e6ab0d89a73bd9a09b725322c1" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LR</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a756b45d05ec20ad282c76a55760e00b3" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LRD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1af1292617c64d78a00826d24a1d18bede" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LRU</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1aeb9ac957a45becf808b5213ee5a68372" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LRUD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3a734ff89354ccb81db9c8599c80d84f" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LU</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a64972a8f4be5586e3b3906c68693ddc3" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_LUD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1acffcd7c52eca0c3878d11287023236a5" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_RD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a2c758be14d8abfb4ffeb496024e33667" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_RU</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a3cde02f5987a289c5a72b5c92422b105" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_RUD</name></member>
+      <member refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1_1_type_1a34b7f670d7a5342506dbadf3df582d01" prot="public" virt="non-virtual"><scope>sgs::model::gridData::GridDataEnum::Type</scope><name>MAP_UD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

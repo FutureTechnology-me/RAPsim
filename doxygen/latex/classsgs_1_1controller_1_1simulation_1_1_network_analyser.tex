@@ -1,0 +1,100 @@
+\section{sgs.\-controller.\-simulation.\-Network\-Analyser Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1_network_analyser}\index{sgs.\-controller.\-simulation.\-Network\-Analyser@{sgs.\-controller.\-simulation.\-Network\-Analyser}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Network\-Analyser} ({\bf Grid\-Controller} grid\-Controller)
+\item 
+void {\bf create\-Buses\-And\-Find\-Paths} ()
+\item 
+void {\bf value\-Update} ()
+\item 
+void {\bf reset\-Power\-Consumption} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class helps to find Buses and Paths as dynamically as possible. It uses the
+\begin{DoxyCode}
+gridModel.lockBusesPaths() 
+\end{DoxyCode}
+ method for not manipulating the objects at the same time as they are used.
+
+If the specific Grid\-Object uses an attribute from
+\begin{DoxyCode}
+gridModel.resistanceAttributes 
+\end{DoxyCode}
+ , \char`\"{}uses\char`\"{} defined by Variable\-Set.\-is\-Used(name), then it is handled as a resistor.
+
+\begin{DoxyAuthor}{Author}
+tobi, Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 24 of file Network\-Analyser.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Network\-Analyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}!Network\-Analyser@{Network\-Analyser}}
+\index{Network\-Analyser@{Network\-Analyser}!sgs::controller::simulation::NetworkAnalyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}}
+\subsubsection[{Network\-Analyser}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-Network\-Analyser.\-Network\-Analyser (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_network_analyser_aaa27b8d3e28d17e6a4f2167ba05467ae}
+
+
+Definition at line 31 of file Network\-Analyser.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Network\-Analyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}!create\-Buses\-And\-Find\-Paths@{create\-Buses\-And\-Find\-Paths}}
+\index{create\-Buses\-And\-Find\-Paths@{create\-Buses\-And\-Find\-Paths}!sgs::controller::simulation::NetworkAnalyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}}
+\subsubsection[{create\-Buses\-And\-Find\-Paths}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Network\-Analyser.\-create\-Buses\-And\-Find\-Paths (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_network_analyser_a12610c4ac2fe29b9f1d22d298364eac3}
+Locks Buses and Paths. 
+
+Definition at line 40 of file Network\-Analyser.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-Network\-Analyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}!reset\-Power\-Consumption@{reset\-Power\-Consumption}}
+\index{reset\-Power\-Consumption@{reset\-Power\-Consumption}!sgs::controller::simulation::NetworkAnalyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}}
+\subsubsection[{reset\-Power\-Consumption}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Network\-Analyser.\-reset\-Power\-Consumption (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_network_analyser_a6d5fe010ab0db0ee3d8091044f5c2e15}
+Old method. 
+
+Definition at line 294 of file Network\-Analyser.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Network\-Analyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}!value\-Update@{value\-Update}}
+\index{value\-Update@{value\-Update}!sgs::controller::simulation::NetworkAnalyser@{sgs\-::controller\-::simulation\-::\-Network\-Analyser}}
+\subsubsection[{value\-Update}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Network\-Analyser.\-value\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_network_analyser_a3358c650d35e301d8cb390bbd7a31aa8}
+Similar to \doxyref{create\-Buses\-And\-Find\-Paths()}{p.}{classsgs_1_1controller_1_1simulation_1_1_network_analyser_a12610c4ac2fe29b9f1d22d298364eac3}, but does updates for new values only. 
+
+Definition at line 86 of file Network\-Analyser.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/{\bf Network\-Analyser.\-java}\end{DoxyCompactItemize}

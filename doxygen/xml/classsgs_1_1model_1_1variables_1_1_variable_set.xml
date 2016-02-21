@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1variables_1_1_variable_set" kind="class" prot="public">
+    <compoundname>sgs::model::variables::VariableSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">java::util::TreeSet&lt; SingleVariable &gt;</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a509244b61fd9d21524665ccd7f3fd9ac" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.model.variables.VariableSet.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a5f6430e7138398169d9c0eae2970ffbf" prot="protected" static="no" mutable="no">
+        <type>LinkedList&lt; String &gt;</type>
+        <definition>LinkedList&lt;String&gt; sgs.model.variables.VariableSet.modified</definition>
+        <argsstring></argsstring>
+        <name>modified</name>
+        <initializer>= new LinkedList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.variables.VariableSet.VariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>VariableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="27" bodyend="29"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f617e7c69a54f340bfdf6bf5aeb8cc7" compoundref="_variable_set_8java" startline="279" endline="291">sgs.model.variables.VariableSet.combine</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1fb0c9fb20db2d68b06abec31af40d69" compoundref="_variable_set_8java" startline="296" endline="304">sgs.model.variables.VariableSet.copyKeepProperties</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a3e0eb26dac85adff36a7d168b6a665de" compoundref="_variable_set_8java" startline="309" endline="320">sgs.model.variables.VariableSet.makeDefaultVariableSet</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f84a91f4bef081e4bd7c04c7d2e8f52" compoundref="_variable_set_8java" startline="325" endline="332">sgs.model.variables.VariableSet.getVisibles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.add</definition>
+        <argsstring>(SingleVariable a)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Does not allow overwriting names! <simplesect kind="return"><para>true. </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>SecurityException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if you try to overwrite a name. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="37" bodyend="45"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" compoundref="_smart_grid_object_8java" startline="309" endline="317">sgs.model.gridObjects.SmartGridObject.getData</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f84a91f4bef081e4bd7c04c7d2e8f52" compoundref="_variable_set_8java" startline="325" endline="332">sgs.model.variables.VariableSet.getVisibles</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a01d583642db39cdba8cd4761ff271cdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.variables.VariableSet.add</definition>
+        <argsstring>(EnumPV name)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Factory method <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currentpowerconsumption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="53" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a9a16f44d2e26fe6351f09c93acbeeddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.addIfNotContained</definition>
+        <argsstring>(SingleVariable a)</argsstring>
+        <name>addIfNotContained</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>see <ref refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" kindref="member">add()</ref> </para><simplesectsep/><para>true if name was not contained (added) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="94" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a435dd68b0b4727cce8fc4ed2df0f0b37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.addAllIfNotContained</definition>
+        <argsstring>(VariableSet a)</argsstring>
+        <name>addAllIfNotContained</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>see <ref refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" kindref="member">add()</ref> </para><simplesectsep/><para>true if name was not contained (added) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="103" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1affa9555fdc4fdf7b98421d54cdbb3797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.remove</definition>
+        <argsstring>(Object o)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>Object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="109" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1adb6e82e354ae2354e0dd12f29fb065f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.remove</definition>
+        <argsstring>(EnumPV name)</argsstring>
+        <name>remove</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove attribute with name. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if success </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="119" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1ac70ad7287d4f4645b3a341917e95bb86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.remove</definition>
+        <argsstring>(String name)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>remove(PredefinedVariablesEnum) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="125" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="125" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1ad1787a80b16fdd5dffb06947f24dd18c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.remove</definition>
+        <argsstring>(SingleVariable a)</argsstring>
+        <name>remove</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>remove(PredefinedVariablesEnum) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="131" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a72d2e18285ede6d20ac73cbea7fe1821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.variables.VariableSet.get</definition>
+        <argsstring>(EnumPV name)</argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>attribute with &apos;name&apos; or null. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="140" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1ae87af0fab94e11039a9f21b368e862d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.variables.VariableSet.get</definition>
+        <argsstring>(int row)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="145" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="145" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1aa96ce3a470c263da3e488512aa7d20f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.contains</definition>
+        <argsstring>(String name)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>contains(PredefinedVariablesEnum) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="180" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="180" bodyend="182"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a09bd53e876470a32ad3139b8d142b9f2" compoundref="_variable_set_8java" startline="174" endline="176">sgs.model.variables.VariableSet.contains</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a843d2c9e016aa28507b14e79cda69a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.contains</definition>
+        <argsstring>(SingleVariable a)</argsstring>
+        <name>contains</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>contains(PredefinedVariablesEnum) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="186" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a1759b3dce7f191f146c2a2373377aadd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.VariableSet.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="191" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="191" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a5a3dc6101985b4e5d2b6b96313451ffe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.variables.VariableSet.toStringFull</definition>
+        <argsstring>()</argsstring>
+        <name>toStringFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>full content of set. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="206" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="206" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1abe34ca54b6acd52c74f0d8c42c532afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object[][]</type>
+        <definition>Object [][] sgs.model.variables.VariableSet.getObjectArray</definition>
+        <argsstring>()</argsstring>
+        <name>getObjectArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Object array with dimensions [size][2] where array[i][0] = name array[i][1] = value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="224" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="224" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1af5bfd99d6d5ccbfdd99163e7960a2f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.VariableSet.set</definition>
+        <argsstring>(String name, String value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set an EXISTING variable with name &apos;name&apos;. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="244" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="244" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a7c0d9d518a45bd4ecb83d0848066aa8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.variables.VariableSet.set</definition>
+        <argsstring>(EnumPV name, Object value)</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set an EXISTING variable with name &apos;name&apos;. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="257" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="257" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a2fdfa26a267f266150fae834b699e161" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.isUsed</definition>
+        <argsstring>(EnumPV name)</argsstring>
+        <name>isUsed</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if Variable exists AND isVisible OR isEditable (definition) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="265" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="265" bodyend="270"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a74813b9157fa5a684bb2b6e493593429" compoundref="_single_variable_8java" startline="18">sgs.model.variables.SingleVariable.properties</references>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1ac801f00cefbd6436f2530ff8c85e94dc" compoundref="_simple_power_distribution_8java" startline="63" endline="164">sgs.controller.simulation.SimplePowerDistribution.calculationStep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a1fb0c9fb20db2d68b06abec31af40d69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.variables.VariableSet.copyKeepProperties</definition>
+        <argsstring>()</argsstring>
+        <name>copyKeepProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a Copy up to value from this Set. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="296" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="296" bodyend="304"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" compoundref="_variable_set_8java" startline="27" endline="29">sgs.model.variables.VariableSet.VariableSet</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f84a91f4bef081e4bd7c04c7d2e8f52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.variables.VariableSet.getVisibles</definition>
+        <argsstring>()</argsstring>
+        <name>getVisibles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a variable set containing only the visible ones. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="325" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="325" bodyend="332"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" compoundref="_variable_set_8java" startline="27" endline="29">sgs.model.variables.VariableSet.VariableSet</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1a74813b9157fa5a684bb2b6e493593429" compoundref="_single_variable_8java" startline="18">sgs.model.variables.SingleVariable.properties</references>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" compoundref="_variable_set_8java" startline="37" endline="45">sgs.model.variables.VariableSet.add</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a0393f829d9002d1bcfcff8e1cb366022" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_single_variable" kindref="compound">SingleVariable</ref></type>
+        <definition>SingleVariable sgs.model.variables.VariableSet.get</definition>
+        <argsstring>(String name)</argsstring>
+        <name>get</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>get(PredefinedVariablesEnum) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="159" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="159" bodyend="168"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_single_variable_1acd978d1e3d69e8f554ecef59e65ddda4" compoundref="_single_variable_8java" startline="126" endline="129">sgs.model.variables.SingleVariable.compareTo</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a09bd53e876470a32ad3139b8d142b9f2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.variables.VariableSet.contains</definition>
+        <argsstring>(EnumPV name)</argsstring>
+        <name>contains</name>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if name is contained in set </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="174" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="174" bodyend="176"/>
+        <referencedby refid="classsgs_1_1model_1_1variables_1_1_variable_set_1aa96ce3a470c263da3e488512aa7d20f4" compoundref="_variable_set_8java" startline="180" endline="182">sgs.model.variables.VariableSet.contains</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f617e7c69a54f340bfdf6bf5aeb8cc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>static VariableSet sgs.model.variables.VariableSet.combine</definition>
+        <argsstring>(VariableSet a, VariableSet b)</argsstring>
+        <name>combine</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get combined variable set. Makes no deep copy! <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>new set with variables from a and b. Prefers variables in b. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="279" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="279" bodyend="291"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" compoundref="_variable_set_8java" startline="27" endline="29">sgs.model.variables.VariableSet.VariableSet</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1variables_1_1_variable_set_1a3e0eb26dac85adff36a7d168b6a665de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>static VariableSet sgs.model.variables.VariableSet.makeDefaultVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>makeDefaultVariableSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a variableSet with all possible variables </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="309" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="309" bodyend="320"/>
+        <references refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" compoundref="_variable_set_8java" startline="27" endline="29">sgs.model.variables.VariableSet.VariableSet</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Based an TreeSet. Holds a set of variables for grid objects.</para><para>Only one variable with a certain name (ignore case) is allowed in the set. Remove variables before overwriting them.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4460">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4461" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4461">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4464">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4462">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4463" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4464" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4463">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/VariableSet.java" bodystart="18" bodyend="335"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a77709c7a2d4b064f2549d408c1683cd7" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>add</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a01d583642db39cdba8cd4761ff271cdf" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>add</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a435dd68b0b4727cce8fc4ed2df0f0b37" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>addAllIfNotContained</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a9a16f44d2e26fe6351f09c93acbeeddc" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>addIfNotContained</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f617e7c69a54f340bfdf6bf5aeb8cc7" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>combine</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a09bd53e876470a32ad3139b8d142b9f2" prot="protected" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>contains</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1aa96ce3a470c263da3e488512aa7d20f4" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>contains</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a843d2c9e016aa28507b14e79cda69a0c" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>contains</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1fb0c9fb20db2d68b06abec31af40d69" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>copyKeepProperties</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a72d2e18285ede6d20ac73cbea7fe1821" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>get</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1ae87af0fab94e11039a9f21b368e862d7" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>get</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a0393f829d9002d1bcfcff8e1cb366022" prot="protected" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>get</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1abe34ca54b6acd52c74f0d8c42c532afc" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>getObjectArray</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1f84a91f4bef081e4bd7c04c7d2e8f52" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>getVisibles</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a2fdfa26a267f266150fae834b699e161" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>isUsed</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a3e0eb26dac85adff36a7d168b6a665de" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>makeDefaultVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a5f6430e7138398169d9c0eae2970ffbf" prot="protected" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>modified</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1affa9555fdc4fdf7b98421d54cdbb3797" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>remove</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1adb6e82e354ae2354e0dd12f29fb065f8" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>remove</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1ac70ad7287d4f4645b3a341917e95bb86" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>remove</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1ad1787a80b16fdd5dffb06947f24dd18c" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>remove</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a509244b61fd9d21524665ccd7f3fd9ac" prot="private" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1af5bfd99d6d5ccbfdd99163e7960a2f41" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>set</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a7c0d9d518a45bd4ecb83d0848066aa8e" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>set</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a1759b3dce7f191f146c2a2373377aadd" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a5a3dc6101985b4e5d2b6b96313451ffe" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>toStringFull</name></member>
+      <member refid="classsgs_1_1model_1_1variables_1_1_variable_set_1a4403c975c3001aedc704634b476b609c" prot="public" virt="non-virtual"><scope>sgs::model::variables::VariableSet</scope><name>VariableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

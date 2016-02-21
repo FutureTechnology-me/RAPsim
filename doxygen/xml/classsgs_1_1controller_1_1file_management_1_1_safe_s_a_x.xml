@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x" kind="class" prot="public">
+    <compoundname>sgs::controller::fileManagement::SafeSAX</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a823c3a0d603f7065a88d91587a069aaa" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String sgs.controller.fileManagement.SafeSAX.defaultXmlFile</definition>
+        <argsstring></argsstring>
+        <name>defaultXmlFile</name>
+        <initializer>= &quot;data.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a387d58ae46e49c965ad6a1eea4082289" compoundref="_safe_s_a_x_8java" startline="81" endline="134">sgs.controller.fileManagement.SafeSAX.read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a5faacc59b3ad11dd904b4c3c94f66df3" prot="package" static="yes" mutable="no">
+        <type>EntityResolver</type>
+        <definition>EntityResolver sgs.controller.fileManagement.SafeSAX.resolver</definition>
+        <argsstring></argsstring>
+        <name>resolver</name>
+        <initializer>= new EntityResolver() {
+        @Override
+		public InputSource resolveEntity(String publicId, String systemId) {
+            return new InputSource(new ByteArrayInputStream(&quot;&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&quot;.getBytes()));
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ignorant implementation of a dtd resolver, does not try to read a dtd but delivers a generic xml dtd description instead </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a29caed42822fff212e0113deae0e3237" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.controller.fileManagement.SafeSAX.write</definition>
+        <argsstring>(File zipFile, Document doc)</argsstring>
+        <name>write</name>
+        <param>
+          <type>File</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>Document</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write XML-document in a zip-file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>writeFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" bodystart="46" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a387d58ae46e49c965ad6a1eea4082289" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Document</type>
+        <definition>static Document sgs.controller.fileManagement.SafeSAX.read</definition>
+        <argsstring>(File loadFile, boolean zip)</argsstring>
+        <name>read</name>
+        <param>
+          <type>File</type>
+          <declname>loadFile</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>zip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new SAXReader and tries to load the given file into an XML document In case the dtd could not be loaded, the process is restarted using a generic resolver <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loadFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file to be loaded from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if File is Ziped </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the XML document </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" line="81" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" bodystart="81" bodyend="134"/>
+        <references refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a823c3a0d603f7065a88d91587a069aaa" compoundref="_safe_s_a_x_8java" startline="28">sgs.controller.fileManagement.SafeSAX.defaultXmlFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Tobi, Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3981">
+        <label>sgs.controller.fileManagement.SafeSAX</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x"/>
+        <childnode refid="3982" relation="usage">
+          <edgelabel>resolver</edgelabel>
+        </childnode>
+      </node>
+      <node id="3982">
+        <label>EntityResolver</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" line="26" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/fileManagement/SafeSAX.java" bodystart="26" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a823c3a0d603f7065a88d91587a069aaa" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::SafeSAX</scope><name>defaultXmlFile</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a387d58ae46e49c965ad6a1eea4082289" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::SafeSAX</scope><name>read</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a5faacc59b3ad11dd904b4c3c94f66df3" prot="package" virt="non-virtual"><scope>sgs::controller::fileManagement::SafeSAX</scope><name>resolver</name></member>
+      <member refid="classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_1a29caed42822fff212e0113deae0e3237" prot="public" virt="non-virtual"><scope>sgs::controller::fileManagement::SafeSAX</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

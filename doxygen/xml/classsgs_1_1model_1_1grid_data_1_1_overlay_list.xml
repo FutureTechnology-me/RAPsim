@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_data_1_1_overlay_list" kind="class" prot="public">
+    <compoundname>sgs::model::gridData::OverlayList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">sgs::util::SortedLinkedListSet&lt; Overlay &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a204841b07e7aab21b0b63c2581b3edd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.OverlayList.OverlayList</definition>
+        <argsstring>()</argsstring>
+        <name>OverlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor: Sets overlay LayerComparator in super class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="21" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a658654d282c6eee007942da00e6882ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridData.OverlayList.setOverlaySingle</definition>
+        <argsstring>(Overlay overlay)</argsstring>
+        <name>setOverlaySingle</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref></type>
+          <declname>overlay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> will be defined by GridController <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> will not be used Set a single <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref>. Other Overlays will be deleted. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>overlay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a6ce50cecdd155996aacbf54f19ae2f90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridData.OverlayList.setOverlay</definition>
+        <argsstring>(Overlay overlay)</argsstring>
+        <name>setOverlay</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref></type>
+          <declname>overlay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> for specified layer. <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref> on equal layer will be replaced. Do not change layer (in <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref>) after adding. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>overlay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1ad031b5eb9df3417458453f9c99bbb6e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.OverlayList.getNumberOfOverlays</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfOverlays</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>size </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="62" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>&quot;List&quot; of Overlays for a single Grid Object</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3553">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3552">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3553" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3555">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3554">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3555" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/OverlayList.java" bodystart="10" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1ad031b5eb9df3417458453f9c99bbb6e8" prot="public" virt="non-virtual"><scope>sgs::model::gridData::OverlayList</scope><name>getNumberOfOverlays</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a204841b07e7aab21b0b63c2581b3edd3" prot="public" virt="non-virtual"><scope>sgs::model::gridData::OverlayList</scope><name>OverlayList</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a6ce50cecdd155996aacbf54f19ae2f90" prot="public" virt="non-virtual"><scope>sgs::model::gridData::OverlayList</scope><name>setOverlay</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list_1a658654d282c6eee007942da00e6882ec" prot="public" virt="non-virtual"><scope>sgs::model::gridData::OverlayList</scope><name>setOverlaySingle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

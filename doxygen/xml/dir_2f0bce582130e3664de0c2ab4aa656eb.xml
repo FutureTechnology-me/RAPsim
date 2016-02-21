@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_2f0bce582130e3664de0c2ab4aa656eb" kind="dir">
+    <compoundname>RAPSim/src/sgs/model</compoundname>
+    <innerdir refid="dir_ebbc4f64bf1bebfe7f4bc97dc5a0b4a1">RAPSim/src/sgs/model/gridData</innerdir>
+    <innerdir refid="dir_2330b398352ac95b3de030165ab5d101">RAPSim/src/sgs/model/gridObjects</innerdir>
+    <innerdir refid="dir_91f1ede7c937e1f930005bcd8bc1b745">RAPSim/src/sgs/model/objectModels</innerdir>
+    <innerdir refid="dir_9180b4e6e04984c01a9682d14064f573">RAPSim/src/sgs/model/other</innerdir>
+    <innerdir refid="dir_bc5b6325453d08877d1e7d95e57c83b9">RAPSim/src/sgs/model/simulation</innerdir>
+    <innerdir refid="dir_b23003d7924a12d8dc324a51cf627a32">RAPSim/src/sgs/model/variables</innerdir>
+    <innerfile refid="_c_s_v_model_8java">CSVModel.java</innerfile>
+    <innerfile refid="_file_chooser_model_8java">FileChooserModel.java</innerfile>
+    <innerfile refid="_program_constants_8java">ProgramConstants.java</innerfile>
+    <innerfile refid="_program_parameters_saved_8java">ProgramParametersSaved.java</innerfile>
+    <innerfile refid="_sgs_grid_model_8java">SgsGridModel.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_abstract_fossil_fuel_power_plant_model_8java" kind="file">
+    <compoundname>AbstractFossilFuelPowerPlantModel.java</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model" prot="public">sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</innerclass>
+    <innernamespace refid="namespacesgs_1_1model_1_1object_models">sgs::model::objectModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">sgs.model.objectModels;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant" kindref="compound">sgs.model.gridObjects.FossilFuelPowerPlant</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model" kindref="compound">AbstractFossilFuelPowerPlantModel</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model" kindref="compound">AbstractPowerPlantModel</ref>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model_1a5021d8e642ebfb11d768f17be9eb5751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model_1a5021d8e642ebfb11d768f17be9eb5751" kindref="member">AbstractFossilFuelPowerPlantModel</ref>(<ref refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant" kindref="compound">FossilFuelPowerPlant</ref><sp/>powerplant)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(powerplant);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractFossilFuelPowerPlantModel.java"/>
+  </compounddef>
+</doxygen>

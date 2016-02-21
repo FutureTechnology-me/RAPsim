@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_2330b398352ac95b3de030165ab5d101" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/gridObjects</compoundname>
+    <innerfile refid="_connector_8java">Connector.java</innerfile>
+    <innerfile refid="_consumer_8java">Consumer.java</innerfile>
+    <innerfile refid="_custom_consumer_8java">CustomConsumer.java</innerfile>
+    <innerfile refid="_custom_power_plant_8java">CustomPowerPlant.java</innerfile>
+    <innerfile refid="_fossil_fuel_power_plant_8java">FossilFuelPowerPlant.java</innerfile>
+    <innerfile refid="_grid_power_8java">GridPower.java</innerfile>
+    <innerfile refid="_house_8java">House.java</innerfile>
+    <innerfile refid="_power_line_8java">PowerLine.java</innerfile>
+    <innerfile refid="_power_plant_8java">PowerPlant.java</innerfile>
+    <innerfile refid="_power_transport_8java">PowerTransport.java</innerfile>
+    <innerfile refid="_pro_sumer_8java">ProSumer.java</innerfile>
+    <innerfile refid="_smart_grid_object_8java">SmartGridObject.java</innerfile>
+    <innerfile refid="_solar_power_plant_8java">SolarPowerPlant.java</innerfile>
+    <innerfile refid="_wind_turbine_power_plant_8java">WindTurbinePowerPlant.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/"/>
+  </compounddef>
+</doxygen>

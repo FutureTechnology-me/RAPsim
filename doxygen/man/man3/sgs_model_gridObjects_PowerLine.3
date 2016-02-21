@@ -1,0 +1,149 @@
+.TH "sgs.model.gridObjects.PowerLine" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridObjects.PowerLine \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.gridObjects\&.PowerTransport\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPowerLine\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMaxPowerTransport\fP (double maxEnergy)"
+.br
+.ti -1c
+.RI "void \fBsetTransportPowerDecrement\fP (double transportPowerDecrement)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentCurrent\fP (\fBNumericValue\fP current)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBgetCurrentCurrent\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPowerLoss\fP (\fBNumericValue\fP currentPowerLoss)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBgetCurrentPowerLoss\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPowerTransport\fP (\fBNumericValue\fP currentPowerTransport)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBgetCurrentPowerTransport\fP ()"
+.br
+.ti -1c
+.RI "\fBGridDataEnum\fP \fBgetEnum\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+A \fBSmartGridObject\fP\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+tobi, Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file PowerLine\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridObjects\&.PowerLine\&.PowerLine ()"
+Constructor 
+.PP
+Definition at line 20 of file PowerLine\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBSingleVariable\fP sgs\&.model\&.gridObjects\&.PowerLine\&.getCurrentCurrent ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+variableSet\&.get(\fBEnumPV\&.currentCurrent\fP) 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file PowerLine\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.gridObjects\&.PowerLine\&.getCurrentPowerLoss ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+variableSet\&.get(\fBEnumPV\&.currentPowerLoss\fP) 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file PowerLine\&.java\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.gridObjects\&.PowerLine\&.getCurrentPowerTransport ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+variableSet\&.get(\fBEnumPV\&.currentPowerTransport\fP) 
+.RE
+.PP
+
+.PP
+Definition at line 78 of file PowerLine\&.java\&.
+.SS "\fBGridDataEnum\fP sgs\&.model\&.gridObjects\&.PowerLine\&.getEnum ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+corresponding enum for this object\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.gridObjects\&.SmartGridObject\fP\&.
+.PP
+Definition at line 95 of file PowerLine\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.PowerLine\&.setCurrentCurrent (\fBNumericValue\fPcurrent)"
+
+.PP
+Definition at line 46 of file PowerLine\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.PowerLine\&.setCurrentPowerLoss (\fBNumericValue\fPcurrentPowerLoss)"
+
+.PP
+Definition at line 58 of file PowerLine\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.PowerLine\&.setCurrentPowerTransport (\fBNumericValue\fPcurrentPowerTransport)"
+
+.PP
+Definition at line 70 of file PowerLine\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.PowerLine\&.setMaxPowerTransport (doublemaxEnergy)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaxEnergy\fP 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file PowerLine\&.java\&.
+.SS "void sgs\&.model\&.gridObjects\&.PowerLine\&.setTransportPowerDecrement (doubletransportPowerDecrement)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIenergyDecrement\fP 
+.RE
+.PP
+
+.PP
+Definition at line 41 of file PowerLine\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

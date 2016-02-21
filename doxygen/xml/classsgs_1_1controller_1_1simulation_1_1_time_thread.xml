@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1simulation_1_1_time_thread" kind="class" prot="public">
+    <compoundname>sgs::controller::simulation::TimeThread</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Thread</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a39377b3083afed24947951ed9039f3de" prot="private" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" kindref="compound">AbstractDistributionAlgorithm</ref></type>
+        <definition>AbstractDistributionAlgorithm sgs.controller.simulation.TimeThread.algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The used algorithm, abstract class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a9ed763bb3bee6c8c01a5702d2e00115c" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.simulation.TimeThread.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The grid controller for interaction/control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a09b57d46a1b1fe4c1000d05ace5ccfc5" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_button_controller" kindref="compound">ButtonController</ref></type>
+        <definition>final ButtonController sgs.controller.simulation.TimeThread.buttonController</definition>
+        <argsstring></argsstring>
+        <name>buttonController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The button controller for interaction/control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a765d559f68e8b2fa1e9f79a4170d96dd" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.controller.simulation.TimeThread.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the model </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a995eb860da80cb5f6bb8096f8e4159f9" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.TimeThread.doRun</definition>
+        <argsstring></argsstring>
+        <name>doRun</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true while <ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref> should run </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="37" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a932571dfeeb3c89b6bbb14b4ecd317da" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int sgs.controller.simulation.TimeThread.weatherChangeLimit</definition>
+        <argsstring></argsstring>
+        <name>weatherChangeLimit</name>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>weather changes at least once every X minutes, but may be the same weather. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a98883846265c7e8f0f027e4b9c3d0563" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.TimeThread.isRunning</definition>
+        <argsstring></argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true while <ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref> is running </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="42" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0369efed7941c53c48b3d390c8e647c3" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.TimeThread.realTime</definition>
+        <argsstring></argsstring>
+        <name>realTime</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>true -&gt; run simulation slowly for user </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="44" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1_button_controller_1a2462c7d35f6aace7c98aa3f31b4922ab" compoundref="_button_controller_8java" startline="247" endline="275">sgs.controller.ButtonController.actionFor_bStartStopSim</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" compoundref="_time_thread_8java" startline="100" endline="127">sgs.controller.simulation.TimeThread.startOrStop</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a19b50cb2e3ab59b215f662ed7e261ea7" prot="public" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.controller.simulation.TimeThread.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>simulation start </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a31563755fada2c65e118ab7df02deba1" prot="public" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.controller.simulation.TimeThread.currentTime</definition>
+        <argsstring></argsstring>
+        <name>currentTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>simulation current time </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a27e369c067205f100ed1827012557144" compoundref="_time_thread_8java" startline="76" endline="93">sgs.controller.simulation.TimeThread.TimeThread</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0ebd0a74406b2f4cf0a7389b767a6a68" prot="public" static="no" mutable="no">
+        <type>GregorianCalendar</type>
+        <definition>GregorianCalendar sgs.controller.simulation.TimeThread.endTime</definition>
+        <argsstring></argsstring>
+        <name>endTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>simulation planned end </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a5490c15de541357bc21d2de2158897ee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.simulation.TimeThread.simulationResolutionMinutes</definition>
+        <argsstring></argsstring>
+        <name>simulationResolutionMinutes</name>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>simulated time between two simulation steps in minutes, e.g. 1 hour = 60 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ada0d013353f29066d2b335aec29fd0fe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sgs.controller.simulation.TimeThread.interSimStepMiliSec</definition>
+        <argsstring></argsstring>
+        <name>interSimStepMiliSec</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Realtime between two simulationsteps </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="54" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a928e23ffdf86b95d503342a0c04a7beb" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+        <definition>Weather sgs.controller.simulation.TimeThread.currentWeather</definition>
+        <argsstring></argsstring>
+        <name>currentWeather</name>
+        <initializer>= new <ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a27e369c067205f100ed1827012557144" compoundref="_time_thread_8java" startline="76" endline="93">sgs.controller.simulation.TimeThread.TimeThread</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1abd1e353c5c69b1e9dad291d113d41e12" prot="public" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kindref="compound">CSVController</ref></type>
+        <definition>final CSVController sgs.controller.simulation.TimeThread.csvController</definition>
+        <argsstring></argsstring>
+        <name>csvController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ac814812e5bfb249372131a1f91e460c0" prot="public" static="no" mutable="no">
+        <type><ref refid="classsgs_1_1view_1_1_speed_changer" kindref="compound">SpeedChanger</ref></type>
+        <definition>SpeedChanger sgs.controller.simulation.TimeThread.sliderDialog</definition>
+        <argsstring></argsstring>
+        <name>sliderDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" compoundref="_time_thread_8java" startline="100" endline="127">sgs.controller.simulation.TimeThread.startOrStop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a27e369c067205f100ed1827012557144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.simulation.TimeThread.TimeThread</definition>
+        <argsstring>(GridController gridController, ButtonController buttonController, CSVController csvController)</argsstring>
+        <name>TimeThread</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_button_controller" kindref="compound">ButtonController</ref></type>
+          <declname>buttonController</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller" kindref="compound">CSVController</ref></type>
+          <declname>csvController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize and start time thread. Sets reference in GridModel</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buttonController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>csvController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="76" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="76" bodyend="93"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a31563755fada2c65e118ab7df02deba1" compoundref="_time_thread_8java" startline="48">sgs.controller.simulation.TimeThread.currentTime</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a928e23ffdf86b95d503342a0c04a7beb" compoundref="_time_thread_8java" startline="57">sgs.controller.simulation.TimeThread.currentWeather</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void sgs.controller.simulation.TimeThread.startOrStop</definition>
+        <argsstring>(boolean start)</argsstring>
+        <name>startOrStop</name>
+        <param>
+          <type>boolean</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start or stop time thread.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="100" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="100" bodyend="127"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a04e6331dad1da069f22536dadc26737d" compoundref="_time_thread_8java" startline="131" endline="133">sgs.controller.simulation.TimeThread.isRunning</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0369efed7941c53c48b3d390c8e647c3" compoundref="_time_thread_8java" startline="44">sgs.controller.simulation.TimeThread.realTime</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ac814812e5bfb249372131a1f91e460c0" compoundref="_time_thread_8java" startline="64">sgs.controller.simulation.TimeThread.sliderDialog</references>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a640a7343c5123c59c0f9d72ed5bae3d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" kindref="compound">AbstractDistributionAlgorithm</ref></type>
+        <definition>AbstractDistributionAlgorithm sgs.controller.simulation.TimeThread.getAlgorithm</definition>
+        <argsstring>()</argsstring>
+        <name>getAlgorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the currently used algorithm. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="138" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a37d7640d101dd5e92d2dfb3ffb9ec2c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void sgs.controller.simulation.TimeThread.changeAlgorithm</definition>
+        <argsstring>(AbstractDistributionAlgorithm newAlgorithm)</argsstring>
+        <name>changeAlgorithm</name>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" kindref="compound">AbstractDistributionAlgorithm</ref></type>
+          <declname>newAlgorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change the used algorithm.<itemizedlist>
+<listitem><para>does not stop running simulations</para></listitem><listitem><para>initializes the algorithm. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newAlgorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="147" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="147" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.TimeThread.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e if not possible FileChooserController.createCSVController </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="172" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="172" bodyend="242"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a04e6331dad1da069f22536dadc26737d" compoundref="_time_thread_8java" startline="131" endline="133">sgs.controller.simulation.TimeThread.isRunning</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a31563755fada2c65e118ab7df02deba1" compoundref="_time_thread_8java" startline="48">sgs.controller.simulation.TimeThread.currentTime</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0ebd0a74406b2f4cf0a7389b767a6a68" compoundref="_time_thread_8java" startline="50">sgs.controller.simulation.TimeThread.endTime</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0369efed7941c53c48b3d390c8e647c3" compoundref="_time_thread_8java" startline="44">sgs.controller.simulation.TimeThread.realTime</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ada0d013353f29066d2b335aec29fd0fe" compoundref="_time_thread_8java" startline="54">sgs.controller.simulation.TimeThread.interSimStepMiliSec</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a5490c15de541357bc21d2de2158897ee" compoundref="_time_thread_8java" startline="52">sgs.controller.simulation.TimeThread.simulationResolutionMinutes</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a928e23ffdf86b95d503342a0c04a7beb" compoundref="_time_thread_8java" startline="57">sgs.controller.simulation.TimeThread.currentWeather</references>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" compoundref="_time_thread_8java" startline="100" endline="127">sgs.controller.simulation.TimeThread.startOrStop</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a507fec7067389273059cf1535ff0dfb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.simulation.TimeThread.isDoRun</definition>
+        <argsstring>()</argsstring>
+        <name>isDoRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getter for boolean doRun <simplesect kind="return"><para>doRun value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="248" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="248" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1aceb0274423f2635b57c9133ed7cad936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.TimeThread.setDoRun</definition>
+        <argsstring>(boolean doRun)</argsstring>
+        <name>setDoRun</name>
+        <param>
+          <type>boolean</type>
+          <declname>doRun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setter for doRun Boolean <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doRun</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="256" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="256" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a04e6331dad1da069f22536dadc26737d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean sgs.controller.simulation.TimeThread.isRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if algorithm is currently still doing something or should start to do something. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="131" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="131" bodyend="133"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" compoundref="_time_thread_8java" startline="100" endline="127">sgs.controller.simulation.TimeThread.startOrStop</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" compoundref="_time_thread_8java" startline="172" endline="242">sgs.controller.simulation.TimeThread.run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a2b3ccbb3f370a14549f3dcf2f1a11c08" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long sgs.controller.simulation.TimeThread.getSleepTimeMS</definition>
+        <argsstring>(long interSimStepSec, long t0, long t1)</argsstring>
+        <name>getSleepTimeMS</name>
+        <param>
+          <type>long</type>
+          <declname>interSimStepSec</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>t0</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>t1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interSimStepMiliSec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- time to sleep in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- start, time before algorithm execution </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- stop, time before sleep </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>time left to sleep </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="269" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="269" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1aa0cbf76cecf77d2b20ae534d31932fa8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.TimeThread.simStep</definition>
+        <argsstring>()</argsstring>
+        <name>simStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A single simulation step, locking Buses and Paths. Also sets production according to weather and time. Repaints View/Grid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="279" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="279" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ad72394450b193ab187566157a752ceb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.TimeThread.changeWeather</definition>
+        <argsstring>()</argsstring>
+        <name>changeWeather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change &apos;currentWeather&apos; randomly depending on &apos;weatherChangeLimit&apos; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="299" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="299" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a4cbeb7b1fd283948f43522275970bc88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.simulation.TimeThread.updateGridObjects</definition>
+        <argsstring>(GregorianCalendar currentTime, Weather weather)</argsstring>
+        <name>updateGridObjects</name>
+        <param>
+          <type>GregorianCalendar</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>weather</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set production of all SmartSimObjects to weather and time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="321" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="321" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Time in a running simulation. Has time-relevant functions and parameters. Uses <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref> and <ref refid="classsgs_1_1controller_1_1_button_controller" kindref="compound">ButtonController</ref> for interaction.</para><para><simplesect kind="author"><para>tobi, Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4291">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4292" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4292">
+        <label>Thread</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4334">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="4299">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="4304">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="4315">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="4300">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="4301" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4302" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="4303" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="4304" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="4305" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="4319" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="4321" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="4322" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="4323" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="4324" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="4293" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="4325" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="4326" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="4306">
+        <label>GridObject</label>
+      </node>
+      <node id="4311">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="4312" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="4313" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4302">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="4323">
+        <label>JFrame</label>
+      </node>
+      <node id="4316">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="4304" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="4316" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="4317" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="4313" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4318">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="4307">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="4336">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="4335">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="4336" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="4337" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="4337">
+        <label>Random</label>
+      </node>
+      <node id="4293">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="4294" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4295" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="4332" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="4334" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="4335" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="4322">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="4301">
+        <label>GridModel</label>
+      </node>
+      <node id="4313">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="4314" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4315" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="4328">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4330">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="4297">
+        <label>Application</label>
+      </node>
+      <node id="4331">
+        <label>File</label>
+      </node>
+      <node id="4310">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="4324">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="4326">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="4295">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="4296" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="4300" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4327" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="4329" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="4299" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4298">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="4312">
+        <label>ImageIcon</label>
+      </node>
+      <node id="4329">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="4330" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="4331" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4333">
+        <label>JDialog</label>
+      </node>
+      <node id="4327">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="4328" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="4299" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4294">
+        <label>Thread</label>
+      </node>
+      <node id="4308">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4296">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="4297" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4298" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="4299" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4332">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="4333" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4320">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="4305">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4306" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4307" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4308" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4309" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="4311" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="4316" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="4300" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="4318" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="4313" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="4321">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="4314">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="4303">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="4309">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="4310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4319">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="4320" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4317">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="4325">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" line="24" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/simulation/TimeThread.java" bodystart="24" bodyend="336"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a39377b3083afed24947951ed9039f3de" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>algorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a09b57d46a1b1fe4c1000d05ace5ccfc5" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>buttonController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a37d7640d101dd5e92d2dfb3ffb9ec2c3" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>changeAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ad72394450b193ab187566157a752ceb7" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>changeWeather</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1abd1e353c5c69b1e9dad291d113d41e12" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>csvController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a31563755fada2c65e118ab7df02deba1" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>currentTime</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a928e23ffdf86b95d503342a0c04a7beb" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>currentWeather</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a995eb860da80cb5f6bb8096f8e4159f9" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>doRun</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0ebd0a74406b2f4cf0a7389b767a6a68" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>endTime</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a640a7343c5123c59c0f9d72ed5bae3d5" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>getAlgorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a2b3ccbb3f370a14549f3dcf2f1a11c08" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>getSleepTimeMS</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a9ed763bb3bee6c8c01a5702d2e00115c" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a765d559f68e8b2fa1e9f79a4170d96dd" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ada0d013353f29066d2b335aec29fd0fe" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>interSimStepMiliSec</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a507fec7067389273059cf1535ff0dfb4" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>isDoRun</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a98883846265c7e8f0f027e4b9c3d0563" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>isRunning</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a04e6331dad1da069f22536dadc26737d" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>isRunning</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a0369efed7941c53c48b3d390c8e647c3" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>realTime</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a6507d1cd731e226a9c550c272425d169" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>run</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1aceb0274423f2635b57c9133ed7cad936" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>setDoRun</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1aa0cbf76cecf77d2b20ae534d31932fa8" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>simStep</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a5490c15de541357bc21d2de2158897ee" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>simulationResolutionMinutes</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1ac814812e5bfb249372131a1f91e460c0" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>sliderDialog</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a057eb8af126cce41d5c79960824abf2f" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>startOrStop</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a19b50cb2e3ab59b215f662ed7e261ea7" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>startTime</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a27e369c067205f100ed1827012557144" prot="public" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>TimeThread</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a4cbeb7b1fd283948f43522275970bc88" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>updateGridObjects</name></member>
+      <member refid="classsgs_1_1controller_1_1simulation_1_1_time_thread_1a932571dfeeb3c89b6bbb14b4ecd317da" prot="private" virt="non-virtual"><scope>sgs::controller::simulation::TimeThread</scope><name>weatherChangeLimit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

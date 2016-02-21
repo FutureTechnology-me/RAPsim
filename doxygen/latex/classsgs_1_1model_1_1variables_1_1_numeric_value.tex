@@ -1,0 +1,746 @@
+\section{sgs.\-model.\-variables.\-Numeric\-Value Class Reference}
+\label{classsgs_1_1model_1_1variables_1_1_numeric_value}\index{sgs.\-model.\-variables.\-Numeric\-Value@{sgs.\-model.\-variables.\-Numeric\-Value}}
+
+
+Inheritance diagram for sgs.\-model.\-variables.\-Numeric\-Value\-:
+
+
+Collaboration diagram for sgs.\-model.\-variables.\-Numeric\-Value\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Numeric\-Value} ()
+\item 
+{\bf Numeric\-Value} (double real)
+\item 
+{\bf Numeric\-Value} (double real, double imaginary)
+\item 
+{\bf Numeric\-Value} (Complex c)
+\item 
+{\bf Numeric\-Value} ({\bf Numeric\-Value} n)
+\item 
+{\bf Numeric\-Value} (String complex\-Value)
+\item 
+void {\bf set\-Value} (double real)
+\item 
+void {\bf set\-Value} (Complex c)
+\item 
+void {\bf set\-Value} ({\bf Numeric\-Value} v)
+\item 
+void {\bf set\-Value} (String complex)
+\item 
+void {\bf set\-Value} (double real, double imaginary)
+\item 
+void {\bf set\-Real} (double real)
+\item 
+void {\bf set\-Imaginary} (double imaginary)
+\item 
+double {\bf r} ()
+\item 
+double {\bf get\-Real} ()
+\item 
+double {\bf i} ()
+\item 
+double {\bf get\-Imaginary} ()
+\item 
+double {\bf abs} ()
+\item 
+boolean {\bf is\-Real} ()
+\item 
+boolean {\bf is\-Na\-N} ()
+\item 
+String {\bf get\-Value} ()
+\item 
+{\bf Numeric\-Value} {\bf get\-Value\-Numeric} ()
+\item 
+double {\bf get\-Value\-Double} ()
+\item 
+Complex {\bf get\-Value\-Complex} ()
+\item 
+{\bf Numeric\-Value} {\bf add} ({\bf Numeric\-Value} val)
+\item 
+{\bf Numeric\-Value} {\bf subtract} ({\bf Numeric\-Value} val)
+\item 
+{\bf Numeric\-Value} {\bf multiply} ({\bf Numeric\-Value} val)
+\item 
+{\bf Numeric\-Value} {\bf divide} ({\bf Numeric\-Value} val)
+\item 
+{\bf Numeric\-Value} {\bf conjugate} ()
+\item 
+{\bf Numeric\-Value} {\bf copy} ()
+\item 
+String {\bf to\-String} ()
+\item 
+{\bf Numeric\-Value} {\bf round\-Value} (int round\-Power)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf main2} (String[$\,$] args)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bf is\-Real}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+New value representing Double as well as Complex.
+
+\begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 10 of file Numeric\-Value.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a75b5e86e8fbfa8a073c0db6423657744}
+
+
+Definition at line 19 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{real}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_aee225d937bd78a5b642a3b564eac74f5}
+
+
+Definition at line 22 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{real, }
+\item[{double}]{imaginary}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ab2710a3b9daceb85f28a728d8888ef1c}
+
+
+Definition at line 25 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+\item[{Complex}]{c}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ad555efe83158bbc54259688c5a0ae1c5}
+
+
+Definition at line 28 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{n}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a4697714a8e3147af4c56adb1f5f3d71d}
+
+
+Definition at line 31 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!Numeric\-Value@{Numeric\-Value}}
+\index{Numeric\-Value@{Numeric\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{Numeric\-Value}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-variables.\-Numeric\-Value.\-Numeric\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{complex\-Value}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ac99fe155032ef15c0d14fc8cf7d8de5b}
+Constructor with String value. Stores object value, not String. Watch out for parsing exceptions. Accepted formats\-: 100,200 -\/$>$ 100 + 200i 100 200 -\/$>$ 100 + 200i 100 -\/$>$ 100 + 200i 100,,,200 -\/$>$ 100 + 200i Combinations with whitespaces at start, end and middle ,200 -\/$>$ 0 + 200i  200 -\/$>$ 200 + 0i 100 -\/$>$ 100 + 0i
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 49 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!abs@{abs}}
+\index{abs@{abs}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{abs}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-abs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ae39843020dfa0a5bfdc490cdf7a85759}
+\begin{DoxyReturn}{Returns}
+sqrt(a$^\wedge$2+b$^\wedge$2) 
+\end{DoxyReturn}
+
+
+Definition at line 177 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!add@{add}}
+\index{add@{add}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{val}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_abe757864eb97592e2a2292e1fb264829}
+Add another \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value} to this value. 
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 234 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!conjugate@{conjugate}}
+\index{conjugate@{conjugate}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{conjugate}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-conjugate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_aa902b787bac8402d61d24e9ca9e02dd0}
+Sets the imaginary part minus imaginary part. 
+
+Definition at line 295 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!copy@{copy}}
+\index{copy@{copy}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a67b3d7415b97441e6873dd0a7baf2faa}
+\begin{DoxyReturn}{Returns}
+a Copy up to primitive variables from this Value. 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_af49900974715ee7e126a5ff1a2447e54}.
+
+
+
+Definition at line 303 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!divide@{divide}}
+\index{divide@{divide}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{divide}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-divide (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{val}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a9488498e975f1d24933582c4e893696a}
+Divide by another \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value}. 
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 274 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Imaginary@{get\-Imaginary}}
+\index{get\-Imaginary@{get\-Imaginary}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Imaginary}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Imaginary (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a13269bae634bbbee22c86c0cc163796a}
+
+
+Definition at line 172 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Real@{get\-Real}}
+\index{get\-Real@{get\-Real}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Real}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Real (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a1871255b3da82d2740d30bcc8cf8ed69}
+
+
+Definition at line 165 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a94328f735bb9f46802eaaaac3d1be22a}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ a object the specific value class. Should be of correct type. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a string representation of the value 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_a3a5d5a21d3bd1495a1838b8c80577ced}.
+
+
+
+Definition at line 203 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Value\-Complex@{get\-Value\-Complex}}
+\index{get\-Value\-Complex@{get\-Value\-Complex}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Value\-Complex}]{\setlength{\rightskip}{0pt plus 5cm}Complex sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Value\-Complex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a86e37d661cc4037723e741a72381548a}
+\begin{DoxyReturn}{Returns}
+a complex representation of the value, zero for non numeric values 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_ab64f2f85962cbd5f64a3d6fcec48c7f7}.
+
+
+
+Definition at line 226 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Value\-Double@{get\-Value\-Double}}
+\index{get\-Value\-Double@{get\-Value\-Double}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Value\-Double}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Value\-Double (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_aef1deef65282bd1a11e38b13ff28c170}
+\begin{DoxyReturn}{Returns}
+the absolute value from the complex object 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_a32847acbd987b208d7476d27533b03aa}.
+
+
+
+Definition at line 219 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!get\-Value\-Numeric@{get\-Value\-Numeric}}
+\index{get\-Value\-Numeric@{get\-Value\-Numeric}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{get\-Value\-Numeric}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-get\-Value\-Numeric (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ab6641fd048ee59f445583d0766146fc1}
+\begin{DoxyReturn}{Returns}
+a value object, handle with care 
+
+a \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value} object or null 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_afac060f54bacf38fadef479f2fdaa3e7}.
+
+
+
+Definition at line 214 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!i@{i}}
+\index{i@{i}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-i (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a442b745f5f0bea8cd9338d5ea7df953e}
+\begin{DoxyReturn}{Returns}
+imaginary part of value 
+\end{DoxyReturn}
+
+
+Definition at line 169 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!is\-Na\-N@{is\-Na\-N}}
+\index{is\-Na\-N@{is\-Na\-N}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{is\-Na\-N}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Numeric\-Value.\-is\-Na\-N (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_adb490d5fa8dc08a1198e258e3ff68514}
+\begin{DoxyReturn}{Returns}
+true if real part and imaginary part are Na\-N 
+\end{DoxyReturn}
+
+
+Definition at line 188 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!is\-Real@{is\-Real}}
+\index{is\-Real@{is\-Real}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{is\-Real}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Numeric\-Value.\-is\-Real (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a93ade4560b939ba7f2e0aea70728335f}
+\begin{DoxyReturn}{Returns}
+true if it has real value only 
+\end{DoxyReturn}
+
+
+Definition at line 184 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!main2@{main2}}
+\index{main2@{main2}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{main2}]{\setlength{\rightskip}{0pt plus 5cm}static void sgs.\-model.\-variables.\-Numeric\-Value.\-main2 (
+\begin{DoxyParamCaption}
+\item[{String[$\,$]}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a36907e69832fcd0920ab90932e20b047}
+Testing 
+
+Definition at line 326 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!multiply@{multiply}}
+\index{multiply@{multiply}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{multiply}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-multiply (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{val}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ab502ae22f5d9d2f38629b2c13704410f}
+Multiply by another \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value}. 
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 259 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!r@{r}}
+\index{r@{r}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}double sgs.\-model.\-variables.\-Numeric\-Value.\-r (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a562d445284cacc74c854adb75ebe5fea}
+\begin{DoxyReturn}{Returns}
+Real part of value 
+\end{DoxyReturn}
+
+
+Definition at line 162 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!round\-Value@{round\-Value}}
+\index{round\-Value@{round\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{round\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-round\-Value (
+\begin{DoxyParamCaption}
+\item[{int}]{round\-Power}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ab361d33d10de3f46d3ec5ffa69b5d6a2}
+
+
+Definition at line 317 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Imaginary@{set\-Imaginary}}
+\index{set\-Imaginary@{set\-Imaginary}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Imaginary}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Imaginary (
+\begin{DoxyParamCaption}
+\item[{double}]{imaginary}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a42d7037b9c29c2ade6888f3a9e6ea4af}
+
+
+Definition at line 114 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Real@{set\-Real}}
+\index{set\-Real@{set\-Real}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Real}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Real (
+\begin{DoxyParamCaption}
+\item[{double}]{real}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a890ceb137403372b90478fa83212bee4}
+
+
+Definition at line 110 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a43bb45b608188594bbf7b64cb6477ed9}
+
+\begin{DoxyParams}{Parameters}
+{\em d} & -\/ a double value. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_ae9f192f5db113e7a60c6d0aa3ecf0f49}.
+
+
+
+Definition at line 54 of file Numeric\-Value.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{Complex}]{complex}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ac36c5aeceb7a8fc4b1ff3fda50a8f084}
+
+\begin{DoxyParams}{Parameters}
+{\em complex} & -\/ a Complex value. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_a485cf1c7245763fe5a9fc9f7f129e319}.
+
+
+
+Definition at line 59 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{numeric\-Value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_aca633fddcade38eaf819194831eaea29}
+
+\begin{DoxyParams}{Parameters}
+{\em numeric\-Value} & -\/ \{real,imaginary\}. May not be fully compatible with every value class. \\
+\hline
+\end{DoxyParams}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_ae8d35bb0e455101bdc967dbe93d64302}.
+
+
+
+Definition at line 63 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a517ee688776cd27ed63dd757b2c6eb2a}
+
+\begin{DoxyParams}{Parameters}
+{\em value} & -\/ a String representation of the specific value class. Should be parsable. \\
+\hline
+\end{DoxyParams}
+
+
+Implements {\bf sgs.\-model.\-variables.\-Abstract\-Value} \doxyref{}{p.}{classsgs_1_1model_1_1variables_1_1_abstract_value_a2fa5c112dbbda6b5ccd79ec01b1f60ef}.
+
+
+
+Definition at line 68 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!set\-Value@{set\-Value}}
+\index{set\-Value@{set\-Value}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{set\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-variables.\-Numeric\-Value.\-set\-Value (
+\begin{DoxyParamCaption}
+\item[{double}]{real, }
+\item[{double}]{imaginary}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a3430e4ecb634b443a1dfd4858fc2bb79}
+
+
+Definition at line 104 of file Numeric\-Value.\-java.
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!subtract@{subtract}}
+\index{subtract@{subtract}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{subtract}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-variables.\-Numeric\-Value.\-subtract (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{val}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_ae1012188c65ac61454a190eaa2f442fc}
+Subtract another \doxyref{Numeric\-Value}{p.}{classsgs_1_1model_1_1variables_1_1_numeric_value} from this value. 
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+this 
+\end{DoxyReturn}
+
+
+Definition at line 247 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-model.\-variables.\-Numeric\-Value.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a5aa9c1dfeb2aaddf8d356a4232ecf47b}
+
+
+Definition at line 308 of file Numeric\-Value.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::variables\-::\-Numeric\-Value@{sgs\-::model\-::variables\-::\-Numeric\-Value}!is\-Real@{is\-Real}}
+\index{is\-Real@{is\-Real}!sgs::model::variables::NumericValue@{sgs\-::model\-::variables\-::\-Numeric\-Value}}
+\subsubsection[{is\-Real}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-model.\-variables.\-Numeric\-Value.\-is\-Real}\label{classsgs_1_1model_1_1variables_1_1_numeric_value_a10b25cfec3e78502927f4a63ffe1ad10}
+True if using only real value 
+
+Definition at line 16 of file Numeric\-Value.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/variables/{\bf Numeric\-Value.\-java}\end{DoxyCompactItemize}

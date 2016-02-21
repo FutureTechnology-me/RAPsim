@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_algorithm_description_dialog" kind="class" prot="public">
+    <compoundname>sgs::view::AlgorithmDescriptionDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JDialog</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_algorithm_description_dialog_1a177dd642e05eba94ce15adefbd1e9cc9" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.AlgorithmDescriptionDialog.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_algorithm_description_dialog_1aa161d5f4a5dd7c215e5379077aa4d61f" prot="private" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel sgs.view.AlgorithmDescriptionDialog.algorithmNameL</definition>
+        <argsstring></argsstring>
+        <name>algorithmNameL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_algorithm_description_dialog_1ad0e85f5837bfd1afd6ad6d6a74db793a" prot="private" static="no" mutable="no">
+        <type>JTextArea</type>
+        <definition>JTextArea sgs.view.AlgorithmDescriptionDialog.algorithmDescriptionTF</definition>
+        <argsstring></argsstring>
+        <name>algorithmDescriptionTF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_algorithm_description_dialog_1aeaed17ab556e3c1cb4b68b59193d8bc4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.view.AlgorithmDescriptionDialog.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated main method to display this JDialog </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="34" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_algorithm_description_dialog_1a414853a496e3be29cf5c6fec8758cb64" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.AlgorithmDescriptionDialog.AlgorithmDescriptionDialog</definition>
+        <argsstring>(JFrame owner)</argsstring>
+        <name>AlgorithmDescriptionDialog</name>
+        <param>
+          <type>JFrame</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for editor and testing. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_algorithm_description_dialog_1ad861af84f2890f16dd8f467c2d14143a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.AlgorithmDescriptionDialog.initGUI</definition>
+        <argsstring>()</argsstring>
+        <name>initGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="78" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="78" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_algorithm_description_dialog_1a0c3ecca852d72d15a067f368dfe6daa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.AlgorithmDescriptionDialog.AlgorithmDescriptionDialog</definition>
+        <argsstring>(JFrame owner, AbstractDistributionAlgorithm algorithm)</argsstring>
+        <name>AlgorithmDescriptionDialog</name>
+        <param>
+          <type>JFrame</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm" kindref="compound">AbstractDistributionAlgorithm</ref></type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="57" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This code was edited or generated using CloudGarden&apos;s Jigloo SWT/Swing GUI Builder, which is free for non-commercial use. If Jigloo is being used commercially (ie, by a corporation, company or business for any purpose whatever) then you should purchase a license for each developer using Jigloo. Please visit www.cloudgarden.com for details. Use of Jigloo implies acceptance of these licensing terms. A COMMERCIAL LICENSE HAS NOT BEEN PURCHASED FOR THIS MACHINE, SO JIGLOO OR THIS CODE CANNOT BE USED LEGALLY FOR ANY CORPORATE OR COMMERCIAL PURPOSE. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2725">
+        <label>JDialog</label>
+      </node>
+      <node id="2724">
+        <label>sgs.view.AlgorithmDescriptionDialog</label>
+        <link refid="classsgs_1_1view_1_1_algorithm_description_dialog"/>
+        <childnode refid="2725" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2727">
+        <label>JDialog</label>
+      </node>
+      <node id="2726">
+        <label>sgs.view.AlgorithmDescriptionDialog</label>
+        <link refid="classsgs_1_1view_1_1_algorithm_description_dialog"/>
+        <childnode refid="2727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/AlgorithmDescriptionDialog.java" bodystart="25" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1a414853a496e3be29cf5c6fec8758cb64" prot="private" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>AlgorithmDescriptionDialog</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1a0c3ecca852d72d15a067f368dfe6daa9" prot="public" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>AlgorithmDescriptionDialog</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1ad0e85f5837bfd1afd6ad6d6a74db793a" prot="private" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>algorithmDescriptionTF</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1aa161d5f4a5dd7c215e5379077aa4d61f" prot="private" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>algorithmNameL</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1ad861af84f2890f16dd8f467c2d14143a" prot="private" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>initGUI</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1aeaed17ab556e3c1cb4b68b59193d8bc4" prot="public" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>main</name></member>
+      <member refid="classsgs_1_1view_1_1_algorithm_description_dialog_1a177dd642e05eba94ce15adefbd1e9cc9" prot="private" virt="non-virtual"><scope>sgs::view::AlgorithmDescriptionDialog</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

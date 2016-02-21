@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_9180b4e6e04984c01a9682d14064f573" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/other</compoundname>
+    <innerfile refid="_j_table_model_s_g_s_8java">JTableModelSGS.java</innerfile>
+    <innerfile refid="_j_table_model_variables_8java">JTableModelVariables.java</innerfile>
+    <innerfile refid="_window_owner_8java">WindowOwner.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/other/"/>
+  </compounddef>
+</doxygen>

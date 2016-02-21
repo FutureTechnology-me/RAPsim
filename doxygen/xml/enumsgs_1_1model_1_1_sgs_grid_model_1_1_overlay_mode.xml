@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode" kind="enum" prot="public">
+    <compoundname>sgs::model::SgsGridModel::OverlayMode</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode_1a07138582f1081e6f1b42d1bc68c45cc4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.model.SgsGridModel.OverlayMode.AUTOMATIC</definition>
+        <argsstring></argsstring>
+        <name>AUTOMATIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overlays will be drawn by GridController function, based on Production and Consumption. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/SgsGridModel.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/SgsGridModel.java" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1a580eadc8b70bcc51f204ec43b0adf19d" compoundref="_a_c_power_flow_calculator_8java" startline="54" endline="66">sgs.controller.simulation.ACPowerFlowCalculator.ACPowerFlowCalculator</referencedby>
+        <referencedby refid="classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_1a9fba5574df08e3941fdb03fba1d9428a" compoundref="_simple_power_distribution_8java" startline="46" endline="56">sgs.controller.simulation.SimplePowerDistribution.SimplePowerDistribution</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Modes for drawing Overlay. See implementation in GridController </para>    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/SgsGridModel.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/SgsGridModel.java" bodystart="57" bodyend="62"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode_1a07138582f1081e6f1b42d1bc68c45cc4" prot="public" virt="non-virtual"><scope>sgs::model::SgsGridModel::OverlayMode</scope><name>AUTOMATIC</name></member>
+      <member refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode_1ae17ee3cfcffd37763d977afa1444d0c4" prot="public" virt="non-virtual"><scope>sgs::model::SgsGridModel::OverlayMode</scope><name>BY_ALGORITHM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

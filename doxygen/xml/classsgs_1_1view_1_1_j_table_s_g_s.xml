@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_j_table_s_g_s" kind="class" prot="public">
+    <compoundname>sgs::view::JTableSGS</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JTable</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_j_table_s_g_s_1a1467421dea5c33d004c600a4a0ee2092" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.JTableSGS.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_j_table_s_g_s_1abc8f490a8b3dc07c660abc7c3357411f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.JTableSGS.JTableSGS</definition>
+        <argsstring>(VariableSet variableSet)</argsstring>
+        <name>JTableSGS</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>variableSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" line="22" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_j_table_s_g_s_1af44c648a097a74755132354fb3ac87d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.view.JTableSGS.editCellAt</definition>
+        <argsstring>(int row, int column, EventObject e)</argsstring>
+        <name>editCellAt</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>EventObject</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" bodystart="28" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_j_table_s_g_s_1a3475fef614b09bd258657116375b00fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.JTableSGS.setTableModelVariables</definition>
+        <argsstring>(VariableSet variableSet)</argsstring>
+        <name>setTableModelVariables</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+          <declname>variableSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>JTable selecting all text on cell edit.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3515">
+        <label>sgs.view.JTableSGS</label>
+        <link refid="classsgs_1_1view_1_1_j_table_s_g_s"/>
+        <childnode refid="3516" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3516">
+        <label>JTable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3517">
+        <label>sgs.view.JTableSGS</label>
+        <link refid="classsgs_1_1view_1_1_j_table_s_g_s"/>
+        <childnode refid="3518" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3518">
+        <label>JTable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/JTableSGS.java" bodystart="18" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_j_table_s_g_s_1af44c648a097a74755132354fb3ac87d6" prot="public" virt="non-virtual"><scope>sgs::view::JTableSGS</scope><name>editCellAt</name></member>
+      <member refid="classsgs_1_1view_1_1_j_table_s_g_s_1abc8f490a8b3dc07c660abc7c3357411f" prot="public" virt="non-virtual"><scope>sgs::view::JTableSGS</scope><name>JTableSGS</name></member>
+      <member refid="classsgs_1_1view_1_1_j_table_s_g_s_1a1467421dea5c33d004c600a4a0ee2092" prot="private" virt="non-virtual"><scope>sgs::view::JTableSGS</scope><name>serialVersionUID</name></member>
+      <member refid="classsgs_1_1view_1_1_j_table_s_g_s_1a3475fef614b09bd258657116375b00fe" prot="public" virt="non-virtual"><scope>sgs::view::JTableSGS</scope><name>setTableModelVariables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

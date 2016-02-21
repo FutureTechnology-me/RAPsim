@@ -1,0 +1,155 @@
+.TH "sgs.model.variables.collector.VariableCollector" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.collector.VariableCollector \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableCollector\fP (\fBEnumPV\fP \fBvariableName\fP)"
+.br
+.ti -1c
+.RI "\fBSingleVariable\fP \fBgetSingleVariable\fP ()"
+.br
+.ti -1c
+.RI "\fBEnumPV\fP \fBgetVariableName\fP ()"
+.br
+.ti -1c
+.RI "abstract \fBNumericValue\fP \fBgetValue\fP ()"
+.br
+.ti -1c
+.RI "abstract int \fBgetNumberOfValues\fP ()"
+.br
+.ti -1c
+.RI "abstract void \fBrestValues\fP ()"
+.br
+.ti -1c
+.RI "abstract boolean \fBcollectFrom\fP (\fBVariableOwner\fP owner)"
+.br
+.ti -1c
+.RI "abstract \fBVariableCollector\fP \fBcopy\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "final \fBEnumPV\fP \fBvariableName\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file VariableCollector\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.collector\&.VariableCollector\&.VariableCollector (\fBEnumPV\fPvariableName)"
+Basic abstract constructor with the variable name\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvariableName\fP 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file VariableCollector\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract boolean sgs\&.model\&.variables\&.collector\&.VariableCollector\&.collectFrom (\fBVariableOwner\fPowner)\fC [pure virtual]\fP"
+Adds interesting variable values from the variable owner 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner1\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if a value was collected 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "abstract \fBVariableCollector\fP sgs\&.model\&.variables\&.collector\&.VariableCollector\&.copy ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a copy of this Collector 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "abstract int sgs\&.model\&.variables\&.collector\&.VariableCollector\&.getNumberOfValues ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the number of collected values 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "\fBSingleVariable\fP sgs\&.model\&.variables\&.collector\&.VariableCollector\&.getSingleVariable ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+\fBSingleVariable\fP from this collector 
+.RE
+.PP
+
+.PP
+Definition at line 23 of file VariableCollector\&.java\&.
+.SS "abstract \fBNumericValue\fP sgs\&.model\&.variables\&.collector\&.VariableCollector\&.getValue ()\fC [pure virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the collected numeric value 
+.RE
+.PP
+
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "\fBEnumPV\fP sgs\&.model\&.variables\&.collector\&.VariableCollector\&.getVariableName ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the variable name which should be collected\&. 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file VariableCollector\&.java\&.
+.SS "abstract void sgs\&.model\&.variables\&.collector\&.VariableCollector\&.restValues ()\fC [pure virtual]\fP"
+resets values to zero\&. 
+.PP
+Implemented in \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorAvg\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMax\fP, \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorMin\fP, and \fBsgs\&.model\&.variables\&.collector\&.VariableCollectorSum\fP\&.
+.SS "String sgs\&.model\&.variables\&.collector\&.VariableCollector\&.toString ()"
+
+.PP
+Definition at line 63 of file VariableCollector\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final \fBEnumPV\fP sgs\&.model\&.variables\&.collector\&.VariableCollector\&.variableName"
+The variable to collect 
+.PP
+Definition at line 10 of file VariableCollector\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

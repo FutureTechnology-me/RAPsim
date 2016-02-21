@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer" kind="class" prot="public">
+    <compoundname>sgs::model::gridObjects::CustomConsumer</compoundname>
+    <basecompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_consumer" prot="public" virt="non-virtual">sgs.model.gridObjects.Consumer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1a53309d440930500f912678adf5a50d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridObjects.CustomConsumer.CustomConsumer</definition>
+        <argsstring>()</argsstring>
+        <name>CustomConsumer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" line="12" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" bodystart="12" bodyend="16"/>
+        <references refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v_1a1670fe5188c6f53894693fc9f3d4ffaf" compoundref="_enum_p_v_8java" startline="12">sgs.model.variables.EnumPV.powerDemand</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum" kindref="compound">GridDataEnum</ref></type>
+        <definition>GridDataEnum sgs.model.gridObjects.CustomConsumer.getEnum</definition>
+        <argsstring>()</argsstring>
+        <name>getEnum</name>
+        <reimplements refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1aad248e3bdbae03a7d6222fb6927a8a49">getEnum</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>corresponding enum for this object. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" line="17" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" bodystart="17" bodyend="20"/>
+        <references refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum_1a81436f6525c31c22d727bb88ce77a59b" compoundref="_grid_data_enum_8java" startline="59">sgs.model.gridData.GridDataEnum.CUSTOM_CONSUMER</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>bbreilin </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3054">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="3055" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3056">
+        <label>GridObject</label>
+      </node>
+      <node id="3057">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="3052">
+        <label>sgs.model.gridObjects.CustomConsumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer"/>
+        <childnode refid="3053" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3058">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3055">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="3056" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3057" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3058" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3053">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="3054" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3100">
+        <label>GregorianCalendar</label>
+      </node>
+      <node id="3092">
+        <label>sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener"/>
+      </node>
+      <node id="3074">
+        <label>sgs.model.gridData.GridDataEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_grid_data_enum"/>
+      </node>
+      <node id="3061">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="3062" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3072">
+        <label>LinkedList&lt; String &gt;</label>
+      </node>
+      <node id="3076">
+        <label>sgs.model.SgsGridModel</label>
+        <link refid="classsgs_1_1model_1_1_sgs_grid_model"/>
+        <childnode refid="3077" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3078" relation="usage">
+          <edgelabel>overlayMode</edgelabel>
+        </childnode>
+        <childnode refid="3079" relation="usage">
+          <edgelabel>programParameters</edgelabel>
+        </childnode>
+        <childnode refid="3074" relation="usage">
+          <edgelabel>currentPointer</edgelabel>
+        </childnode>
+        <childnode refid="3062" relation="usage">
+          <edgelabel>gridObjects</edgelabel>
+        </childnode>
+        <childnode refid="3080" relation="usage">
+          <edgelabel>busVariableCollection</edgelabel>
+          <edgelabel>pathVariableCollection</edgelabel>
+        </childnode>
+        <childnode refid="3082" relation="usage">
+          <edgelabel>buses</edgelabel>
+        </childnode>
+        <childnode refid="3083" relation="usage">
+          <edgelabel>modelConstructor</edgelabel>
+        </childnode>
+        <childnode refid="3084" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+        <childnode refid="3085" relation="usage">
+          <edgelabel>resistanceAttributes</edgelabel>
+        </childnode>
+        <childnode refid="3086" relation="usage">
+          <edgelabel>timeThread</edgelabel>
+        </childnode>
+        <childnode refid="3104" relation="usage">
+          <edgelabel>gridObjectList</edgelabel>
+        </childnode>
+        <childnode refid="3105" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="3063">
+        <label>GridObject</label>
+      </node>
+      <node id="3068">
+        <label>sgs.model.objectModels.AbstractModel</label>
+        <link refid="classsgs_1_1model_1_1object_models_1_1_abstract_model"/>
+        <childnode refid="3069" relation="usage">
+          <edgelabel>icon</edgelabel>
+        </childnode>
+        <childnode refid="3070" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3078">
+        <label>sgs.model.SgsGridModel.OverlayMode</label>
+        <link refid="enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode"/>
+      </node>
+      <node id="3084">
+        <label>JFrame</label>
+      </node>
+      <node id="3073">
+        <label>sgs.model.gridData.GridDataNode</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_grid_data_node"/>
+        <childnode refid="3074" relation="usage">
+          <edgelabel>nodeEnum</edgelabel>
+        </childnode>
+        <childnode refid="3073" relation="usage">
+          <edgelabel>superNode</edgelabel>
+        </childnode>
+        <childnode refid="3075" relation="usage">
+          <edgelabel>subNodes</edgelabel>
+        </childnode>
+        <childnode refid="3070" relation="usage">
+          <edgelabel>nodeVariableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3106">
+        <label>LinkedList&lt; Window &gt;</label>
+      </node>
+      <node id="3064">
+        <label>sgs.model.other.WindowOwner</label>
+        <link refid="interfacesgs_1_1model_1_1other_1_1_window_owner"/>
+      </node>
+      <node id="3102">
+        <label>sgs.controller.simulation.Weather.WEATHER</label>
+        <link refid="enumsgs_1_1controller_1_1simulation_1_1_weather_1_1_w_e_a_t_h_e_r"/>
+      </node>
+      <node id="3101">
+        <label>sgs.controller.simulation.Weather</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_weather"/>
+        <childnode refid="3102" relation="usage">
+          <edgelabel>state</edgelabel>
+        </childnode>
+        <childnode refid="3103" relation="usage">
+          <edgelabel>RAND</edgelabel>
+        </childnode>
+      </node>
+      <node id="3103">
+        <label>Random</label>
+      </node>
+      <node id="3086">
+        <label>sgs.controller.simulation.TimeThread</label>
+        <link refid="classsgs_1_1controller_1_1simulation_1_1_time_thread"/>
+        <childnode refid="3087" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3088" relation="usage">
+          <edgelabel>csvController</edgelabel>
+        </childnode>
+        <childnode refid="3098" relation="usage">
+          <edgelabel>sliderDialog</edgelabel>
+        </childnode>
+        <childnode refid="3100" relation="usage">
+          <edgelabel>endTime</edgelabel>
+          <edgelabel>currentTime</edgelabel>
+          <edgelabel>startTime</edgelabel>
+        </childnode>
+        <childnode refid="3101" relation="usage">
+          <edgelabel>currentWeather</edgelabel>
+        </childnode>
+      </node>
+      <node id="3083">
+        <label>Constructor&lt;?&gt;</label>
+      </node>
+      <node id="3077">
+        <label>GridModel</label>
+      </node>
+      <node id="3070">
+        <label>sgs.model.variables.VariableSet</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1_variable_set"/>
+        <childnode refid="3071" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3072" relation="usage">
+          <edgelabel>modified</edgelabel>
+        </childnode>
+      </node>
+      <node id="3094">
+        <label>CheckBoxTreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3096">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="3090">
+        <label>Application</label>
+      </node>
+      <node id="3097">
+        <label>File</label>
+      </node>
+      <node id="3067">
+        <label>sgs::util::SortedLinkedListSet&lt; Overlay &gt;</label>
+      </node>
+      <node id="3085">
+        <label>TreeSet&lt; sgs.model.variables.EnumPV &gt;</label>
+      </node>
+      <node id="3105">
+        <label>LinkedList&lt; sgs.model.simulation.Path &gt;</label>
+      </node>
+      <node id="3088">
+        <label>sgs.controller.fileManagement.csvConstruction.CSVController</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_c_s_v_controller"/>
+        <childnode refid="3089" relation="usage">
+          <edgelabel>dataColl</edgelabel>
+        </childnode>
+        <childnode refid="3076" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3093" relation="usage">
+          <edgelabel>dataObj</edgelabel>
+        </childnode>
+        <childnode refid="3095" relation="usage">
+          <edgelabel>csvModel</edgelabel>
+        </childnode>
+        <childnode refid="3092" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3091">
+        <label>TreeItem&lt; String &gt;</label>
+      </node>
+      <node id="3069">
+        <label>ImageIcon</label>
+      </node>
+      <node id="3095">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="3096" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="3097" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="3059">
+        <label>sgs.model.gridObjects.CustomConsumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer"/>
+        <childnode refid="3060" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3099">
+        <label>JDialog</label>
+      </node>
+      <node id="3093">
+        <label>sgs.controller.fileManagement.csvConstruction.ObjectTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_object_tree_tab"/>
+        <childnode refid="3094" relation="usage">
+          <edgelabel>objectTree</edgelabel>
+        </childnode>
+        <childnode refid="3092" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3087">
+        <label>Thread</label>
+      </node>
+      <node id="3065">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="3089">
+        <label>sgs.controller.fileManagement.csvConstruction.CollectionsTreeTab</label>
+        <link refid="classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_collections_tree_tab"/>
+        <childnode refid="3090" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3091" relation="usage">
+          <edgelabel>savedTree</edgelabel>
+        </childnode>
+        <childnode refid="3092" relation="usage">
+          <edgelabel>cbActionListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3098">
+        <label>sgs.view.SpeedChanger</label>
+        <link refid="classsgs_1_1view_1_1_speed_changer"/>
+        <childnode refid="3099" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3081">
+        <label>ArrayList&lt; sgs.model.variables.collector.VariableCollector &gt;</label>
+      </node>
+      <node id="3062">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="3063" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3064" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3065" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3066" relation="usage">
+          <edgelabel>overlays</edgelabel>
+        </childnode>
+        <childnode refid="3068" relation="usage">
+          <edgelabel>model</edgelabel>
+        </childnode>
+        <childnode refid="3073" relation="usage">
+          <edgelabel>selectedNode</edgelabel>
+        </childnode>
+        <childnode refid="3076" relation="usage">
+          <edgelabel>gridModel</edgelabel>
+        </childnode>
+        <childnode refid="3106" relation="usage">
+          <edgelabel>ownedWindows</edgelabel>
+        </childnode>
+        <childnode refid="3070" relation="usage">
+          <edgelabel>variableSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="3082">
+        <label>LinkedList&lt; sgs.model.simulation.Bus &gt;</label>
+      </node>
+      <node id="3060">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="3061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3071">
+        <label>java::util::TreeSet&lt; SingleVariable &gt;</label>
+      </node>
+      <node id="3079">
+        <label>sgs.model.ProgramParametersSaved</label>
+        <link refid="classsgs_1_1model_1_1_program_parameters_saved"/>
+      </node>
+      <node id="3066">
+        <label>sgs.model.gridData.OverlayList</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay_list"/>
+        <childnode refid="3067" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3080">
+        <label>sgs.model.variables.collector.VariableCollection</label>
+        <link refid="classsgs_1_1model_1_1variables_1_1collector_1_1_variable_collection"/>
+        <childnode refid="3081" relation="usage">
+          <edgelabel>collectors</edgelabel>
+        </childnode>
+      </node>
+      <node id="3075">
+        <label>ArrayList&lt; sgs.model.gridData.GridDataNode &gt;</label>
+      </node>
+      <node id="3104">
+        <label>LinkedList&lt; sgs.model.gridObjects.SmartGridObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" line="11" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridObjects/CustomConsumer.java" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54a026a3347df89d8dd4e47a625db88c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>addWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1acf800ec949fa142f0883b7cb7386a897" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>closeAllWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a1e57e12d5e1b0cc68991d290f21a8fdb" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>Consumer</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1a53309d440930500f912678adf5a50d99" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>CustomConsumer</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a9530781fc61505d9376829f897325301" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>draggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1df529325f3acfd35897ae2b5774c275" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>factory</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae8bdc2184254269c1a259f136af9b6a6" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getBus</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7a1416e45c36c61b1cdcc805d7716704" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad15e88279d11216fca5b158018f514a2" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getBusVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ad8ca87adf1436bc10304603da700de17" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a54c1d37b28f3b598abe635627fa6a571" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abf83ed7908852229d62060e7c4016634" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getData</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer_1ae4c25801f0b5dc12bb64300dd41e3de4" prot="public" virt="virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a98c13be7c02e926ba5092994e2ca1c0b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a89e6711cd4cfc4ce52d3601438362224" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getMaxPowerTransport</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1af1ce3e23cd9bcdfdb7feb380d4860699" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a262c5a7010f8f7ca2547d450a911215e" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getObjectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4bb57a5690a7c612dbb5b79872981f16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getParameterOfSGO</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a5d4f90f9ed1c3cb2ef3b7dc619090c20" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1b330e324f54ac8256da42cfd983b84f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getPowerDemand</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a38b86c8e0825c7fb0d31562bfcc502a1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1cd87a4e5474dc6de4fdc3a3b278a45d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a7aeabf9c0b5b3a93c631b9d5bb665c2b" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getTransportPowerDecrement</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>getVariableSet</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4652fb1a16e502b31aff75686f3b3e75" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a3dad540a8c17c2bbd724f84a905dfeee" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>isDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab39e23c1e7f0f7fae31f557ce85c0e23" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>model</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab1fdc83f9086dda3d3be3984a1e563f3" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>objectName</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a84827fa0f7834650292e9655e67076a2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>overlays</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1e4441a0a8004af70f2626723c597fc8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>ownedWindows</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a00fe30d15dc24e05bcb406962ef8bd99" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>ProSumer</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a47eb62632690ed9e17471d9123b277b1" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>removeWindow</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a185f462b343367ffa8fa2345649cf895" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>resetCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8d5703aa46cb9fe362cbfbaa931fd1cc" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>selectedNode</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ab6e73c06a9c7332f289bbd885d5c41ca" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setBusNumber</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a62f393fa6e1f88601efa388995639578" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0c03efa78e2066bbf5f61702c49d6193" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setCurrentPowerConsumption</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a026f6229a75caa6ff916c7602b7d8ec2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ae46e489d906d0d7965e6d6a4253eeadc" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setCurrentVoltage</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a86bc79e907ee061f83b09c67ba481c8d" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setDraggable</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_consumer_1a2b7837fa42f6f9499d548e9ea97195d4" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a92c1bf6efcc57ae3acddc503dc60ae41" prot="public" virt="non-virtual" ambiguityscope="sgs::model::gridObjects::ProSumer."><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setModel</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a96606b65df224d13090562e68e60f659" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0143b19bf953fb4f1d49c85df2e2fd7c" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setPeakPower</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a8708fce37b2a022b7e5d8d9123d35fc2" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setPowerLineCharge</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a1d551cd4ebc8949455051b876a408ec0" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a880025d424bfe13f38d8abd4a8533efb" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setPowerProduction</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer_1a955defefa383f56174146d9a1a0d8225" prot="public" virt="virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setProductionToWeatherAndTime</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a03dd4b7e4dcdb83cba0e63482aa62e9c" prot="protected" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setProperties</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a0e5592828ffc4b0265ee542792bd5ce8" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>setResistance</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1ac9a1a7e550abdb48afd69dfe669a3fa5" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>SmartGridObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a74d1946ece91a28fb6fe5a5402978fd9" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>toString</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a4d8ce62cbe114ac99de2bce46aed3d39" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>updateObject</name></member>
+      <member refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1a75d5cbe5ec21a625a3fcf21cf5b8ec16" prot="public" virt="non-virtual"><scope>sgs::model::gridObjects::CustomConsumer</scope><name>variableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

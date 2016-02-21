@@ -1,0 +1,130 @@
+.TH "sgs.model.variables.collector.VariableCollection" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.collector.VariableCollection \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVariableCollection\fP (VariableCollector\&.\&.\&.collectors)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValue\fP (\fBEnumPV\fP variableName)"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVariableSet\fP ()"
+.br
+.ti -1c
+.RI "void \fBrestValues\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcollectFrom\fP (\fBVariableOwner\fP owner)"
+.br
+.ti -1c
+.RI "\fBVariableCollection\fP \fBcopy\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBVariableCollector\fP > \fBcollectors\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file VariableCollection\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.collector\&.VariableCollection\&.VariableCollection (VariableCollector\&.\&.\&.collectors)"
+Constructor with 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcollectors\fP 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file VariableCollection\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.variables\&.collector\&.VariableCollection\&.collectFrom (\fBVariableOwner\fPowner)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIowner\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if at least one value was collected 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file VariableCollection\&.java\&.
+.SS "\fBVariableCollection\fP sgs\&.model\&.variables\&.collector\&.VariableCollection\&.copy ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a deep copy of this collector\&. 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file VariableCollection\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.collector\&.VariableCollection\&.getValue (\fBEnumPV\fPvariableName)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvariableName\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+value for variable or null 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file VariableCollection\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.variables\&.collector\&.VariableCollection\&.getVariableSet ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+\fBVariableSet\fP build from this collection 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file VariableCollection\&.java\&.
+.SS "void sgs\&.model\&.variables\&.collector\&.VariableCollection\&.restValues ()"
+Reset all contained values\&. 
+.PP
+Definition at line 49 of file VariableCollection\&.java\&.
+.SS "String sgs\&.model\&.variables\&.collector\&.VariableCollection\&.toString ()"
+
+.PP
+Definition at line 80 of file VariableCollection\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBVariableCollector\fP> sgs\&.model\&.variables\&.collector\&.VariableCollection\&.collectors"
+all relevant collectors, may be added later 
+.PP
+Definition at line 12 of file VariableCollection\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

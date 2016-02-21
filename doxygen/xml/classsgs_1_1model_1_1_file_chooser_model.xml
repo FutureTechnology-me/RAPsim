@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1_file_chooser_model" kind="class" prot="public">
+    <compoundname>sgs::model::FileChooserModel</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_file_chooser_model_1a0d89285c723bee6a58cf2f76845d0c7c" prot="public" static="yes" mutable="no">
+        <type>File</type>
+        <definition>File sgs.model.FileChooserModel.csv</definition>
+        <argsstring></argsstring>
+        <name>csv</name>
+        <initializer>= new File(&quot;./simulation.csv&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1_file_chooser_model_1acdcabe8d2c04760bfdb9172af939daff" compoundref="_file_chooser_model_8java" startline="23" endline="48">sgs.model.FileChooserModel.createHead</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1_file_chooser_model_1a051ab03cd754319b23abb288cfbb47db" compoundref="_file_chooser_model_8java" startline="57" endline="68">sgs.model.FileChooserModel.createCSV</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1_file_chooser_model_1aaacf360ca83ee6d4921ebc0aed473aa6" compoundref="_file_chooser_model_8java" startline="83" endline="85">sgs.model.FileChooserModel.getCSV</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1_file_chooser_model_1acdcabe8d2c04760bfdb9172af939daff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.model.FileChooserModel.createHead</definition>
+        <argsstring>(int algo)</argsstring>
+        <name>createHead</name>
+        <param>
+          <type>int</type>
+          <declname>algo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create the header in the csv-file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="23" bodyend="48"/>
+        <references refid="classsgs_1_1model_1_1_file_chooser_model_1a0d89285c723bee6a58cf2f76845d0c7c" compoundref="_file_chooser_model_8java" startline="16">sgs.model.FileChooserModel.csv</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_file_chooser_model_1a051ab03cd754319b23abb288cfbb47db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.model.FileChooserModel.createCSV</definition>
+        <argsstring>(String data)</argsstring>
+        <name>createCSV</name>
+        <param>
+          <type>String</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>write all other data, without a header <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Header </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>every data that algorithem gives </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="57" bodyend="68"/>
+        <references refid="classsgs_1_1model_1_1_file_chooser_model_1a0d89285c723bee6a58cf2f76845d0c7c" compoundref="_file_chooser_model_8java" startline="16">sgs.model.FileChooserModel.csv</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_file_chooser_model_1aa5ef2ae14e371e607538b556a6d381f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.model.FileChooserModel.deleteCSV</definition>
+        <argsstring>()</argsstring>
+        <name>deleteCSV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>delete the CSV-File </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_file_chooser_model_1aaacf360ca83ee6d4921ebc0aed473aa6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>File</type>
+        <definition>static File sgs.model.FileChooserModel.getCSV</definition>
+        <argsstring>()</argsstring>
+        <name>getCSV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>csv type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="83" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="83" bodyend="85"/>
+        <references refid="classsgs_1_1model_1_1_file_chooser_model_1a0d89285c723bee6a58cf2f76845d0c7c" compoundref="_file_chooser_model_8java" startline="16">sgs.model.FileChooserModel.csv</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>hs Model to create the csv file </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3182">
+        <label>sgs.model.FileChooserModel</label>
+        <link refid="classsgs_1_1model_1_1_file_chooser_model"/>
+        <childnode refid="3183" relation="usage">
+          <edgelabel>csv</edgelabel>
+        </childnode>
+      </node>
+      <node id="3183">
+        <label>File</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" line="14" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/FileChooserModel.java" bodystart="14" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1_file_chooser_model_1a051ab03cd754319b23abb288cfbb47db" prot="public" virt="non-virtual"><scope>sgs::model::FileChooserModel</scope><name>createCSV</name></member>
+      <member refid="classsgs_1_1model_1_1_file_chooser_model_1acdcabe8d2c04760bfdb9172af939daff" prot="public" virt="non-virtual"><scope>sgs::model::FileChooserModel</scope><name>createHead</name></member>
+      <member refid="classsgs_1_1model_1_1_file_chooser_model_1a0d89285c723bee6a58cf2f76845d0c7c" prot="public" virt="non-virtual"><scope>sgs::model::FileChooserModel</scope><name>csv</name></member>
+      <member refid="classsgs_1_1model_1_1_file_chooser_model_1aa5ef2ae14e371e607538b556a6d381f5" prot="public" virt="non-virtual"><scope>sgs::model::FileChooserModel</scope><name>deleteCSV</name></member>
+      <member refid="classsgs_1_1model_1_1_file_chooser_model_1aaacf360ca83ee6d4921ebc0aed473aa6" prot="public" virt="non-virtual"><scope>sgs::model::FileChooserModel</scope><name>getCSV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1grid_data_1_1_overlay" kind="class" prot="public">
+    <compoundname>sgs::model::gridData::Overlay</compoundname>
+    <innerclass refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum" prot="public">sgs::model::gridData::Overlay::OverlayColorEnum</innerclass>
+    <innerclass refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum" prot="public">sgs::model::gridData::Overlay::OverlayLevelEnum</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1a77f83c19743a92b078aeeef4d6d19a35" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sgs.model.gridData.Overlay.overlayValue</definition>
+        <argsstring></argsstring>
+        <name>overlayValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a6abaa2ebce2e706e2c40787003d5947a" compoundref="_overlay_8java" startline="64" endline="69">sgs.model.gridData.Overlay.Overlay</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a84569bd2acaf2575dbab0be59840394c" compoundref="_overlay_8java" startline="91" endline="148">sgs.model.gridData.Overlay.getOverlayColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1ad339a4468003d095fa1c3d0ca5387328" prot="public" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum" kindref="compound">OverlayColorEnum</ref></type>
+        <definition>OverlayColorEnum sgs.model.gridData.Overlay.colorEnum</definition>
+        <argsstring></argsstring>
+        <name>colorEnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a84569bd2acaf2575dbab0be59840394c" compoundref="_overlay_8java" startline="91" endline="148">sgs.model.gridData.Overlay.getOverlayColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1ad485de49c0dd7c75eef38eaa19d4feac" prot="public" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum" kindref="compound">OverlayLevelEnum</ref></type>
+        <definition>OverlayLevelEnum sgs.model.gridData.Overlay.levelEnum</definition>
+        <argsstring></argsstring>
+        <name>levelEnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1a0d70a47f4bac11e447ac18985c36c605" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.Overlay.inUsed</definition>
+        <argsstring></argsstring>
+        <name>inUsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="53" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1a6abaa2ebce2e706e2c40787003d5947a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.gridData.Overlay.Overlay</definition>
+        <argsstring>(double overlayValue, OverlayColorEnum color, OverlayLevelEnum level, boolean isUsed)</argsstring>
+        <name>Overlay</name>
+        <param>
+          <type>double</type>
+          <declname>overlayValue</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum" kindref="compound">OverlayColorEnum</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum" kindref="compound">OverlayLevelEnum</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isUsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="64" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="64" bodyend="69"/>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a77f83c19743a92b078aeeef4d6d19a35" compoundref="_overlay_8java" startline="50">sgs.model.gridData.Overlay.overlayValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1aecd49268361bdca721a28a1a8bd341d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int sgs.model.gridData.Overlay.getLevelNr</definition>
+        <argsstring>()</argsstring>
+        <name>getLevelNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>level starting at 1. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="74" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1a93a351439541c8a0bb4a3f27ad8dc7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean sgs.model.gridData.Overlay.getIsUsed</definition>
+        <argsstring>()</argsstring>
+        <name>getIsUsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="78" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1abbc402f658e3843db6941c0f03e3da36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.gridData.Overlay.setIsUsed</definition>
+        <argsstring>(boolean newUsedStatus)</argsstring>
+        <name>setIsUsed</name>
+        <param>
+          <type>boolean</type>
+          <declname>newUsedStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="82" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1grid_data_1_1_overlay_1a84569bd2acaf2575dbab0be59840394c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color sgs.model.gridData.Overlay.getOverlayColor</definition>
+        <argsstring>()</argsstring>
+        <name>getOverlayColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Defined for color enum, except OFF and DEFAULT <simplesect kind="return"><para>Color defined in Enum or null if color for type not defined in here. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="91" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="91" bodyend="148"/>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a77f83c19743a92b078aeeef4d6d19a35" compoundref="_overlay_8java" startline="50">sgs.model.gridData.Overlay.overlayValue</references>
+        <references refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1ad339a4468003d095fa1c3d0ca5387328" compoundref="_overlay_8java" startline="51">sgs.model.gridData.Overlay.colorEnum</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Single <ref refid="classsgs_1_1model_1_1grid_data_1_1_overlay" kindref="compound">Overlay</ref>, defined by Level and Color.</para><para><simplesect kind="author"><para>Kristofer Schweiger </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3545">
+        <label>sgs.model.gridData.Overlay</label>
+        <link refid="classsgs_1_1model_1_1grid_data_1_1_overlay"/>
+        <childnode refid="3546" relation="usage">
+          <edgelabel>colorEnum</edgelabel>
+        </childnode>
+        <childnode refid="3547" relation="usage">
+          <edgelabel>levelEnum</edgelabel>
+        </childnode>
+      </node>
+      <node id="3546">
+        <label>sgs.model.gridData.Overlay.OverlayColorEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum"/>
+      </node>
+      <node id="3547">
+        <label>sgs.model.gridData.Overlay.OverlayLevelEnum</label>
+        <link refid="enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_level_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" line="10" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/Overlay.java" bodystart="10" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1ad339a4468003d095fa1c3d0ca5387328" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>colorEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a93a351439541c8a0bb4a3f27ad8dc7c6" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>getIsUsed</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1aecd49268361bdca721a28a1a8bd341d4" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>getLevelNr</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a84569bd2acaf2575dbab0be59840394c" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>getOverlayColor</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a0d70a47f4bac11e447ac18985c36c605" prot="private" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>inUsed</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1ad485de49c0dd7c75eef38eaa19d4feac" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>levelEnum</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a6abaa2ebce2e706e2c40787003d5947a" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>Overlay</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1a77f83c19743a92b078aeeef4d6d19a35" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>overlayValue</name></member>
+      <member refid="classsgs_1_1model_1_1grid_data_1_1_overlay_1abbc402f658e3843db6941c0f03e3da36" prot="public" virt="non-virtual"><scope>sgs::model::gridData::Overlay</scope><name>setIsUsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

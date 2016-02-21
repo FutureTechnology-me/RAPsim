@@ -1,0 +1,203 @@
+.TH "sgs.model.variables.StringValue" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.variables.StringValue \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStringValue\fP (String value)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (String value)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (double d)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (Complex complex)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (\fBNumericValue\fP numericValue)"
+.br
+.ti -1c
+.RI "String \fBgetValue\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValueNumeric\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetValueDouble\fP ()"
+.br
+.ti -1c
+.RI "Complex \fBgetValueComplex\fP ()"
+.br
+.ti -1c
+.RI "\fBAbstractValue\fP \fBcopy\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Holds a String value\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file StringValue\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.variables\&.StringValue\&.StringValue (Stringvalue)"
+
+.PP
+Definition at line 14 of file StringValue\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBAbstractValue\fP sgs\&.model\&.variables\&.StringValue\&.copy ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a Copy up to primitive variables from this Value\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 79 of file StringValue\&.java\&.
+.SS "String sgs\&.model\&.variables\&.StringValue\&.getValue ()\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a object the specific value class\&. Should be of correct type\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a string representation of the value 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 42 of file StringValue\&.java\&.
+.SS "Complex sgs\&.model\&.variables\&.StringValue\&.getValueComplex ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Strings have a complex value of zero\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 57 of file StringValue\&.java\&.
+.SS "double sgs\&.model\&.variables\&.StringValue\&.getValueDouble ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+Strings have a double value of zero\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 52 of file StringValue\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.variables\&.StringValue\&.getValueNumeric ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+a value object, handle with care 
+.PP
+a \fBNumericValue\fP object or null 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 47 of file StringValue\&.java\&.
+.SS "static void sgs\&.model\&.variables\&.StringValue\&.main (String[]args)\fC [static]\fP"
+TEST 
+.PP
+Definition at line 65 of file StringValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.StringValue\&.setValue (Stringvalue)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalue\fP - a String representation of the specific value class\&. Should be parsable\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 19 of file StringValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.StringValue\&.setValue (doubled)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fId\fP - a double value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 23 of file StringValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.StringValue\&.setValue (Complexcomplex)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcomplex\fP - a Complex value\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 28 of file StringValue\&.java\&.
+.SS "void sgs\&.model\&.variables\&.StringValue\&.setValue (\fBNumericValue\fPnumericValue)\fC [virtual]\fP"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumericValue\fP - {real,imaginary}\&. May not be fully compatible with every value class\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.AbstractValue\fP\&.
+.PP
+Definition at line 33 of file StringValue\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

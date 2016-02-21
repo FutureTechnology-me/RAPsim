@@ -1,0 +1,248 @@
+.TH "sgs.model.SgsGridModel" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.SgsGridModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits GridModel\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBOverlayMode\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSgsGridModel\fP (int nrOfCellsWidth, int nrOfCellsHeight, int gridWidth, int gridHeight)"
+.br
+.ti -1c
+.RI "int \fBgetNrOfCellsWidth\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNrOfCellsHeight\fP ()"
+.br
+.ti -1c
+.RI "void \fBlockBusesPaths\fP ()"
+.br
+.ti -1c
+.RI "void \fBunlockBusesPaths\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int[][][] \fBgridData3D\fP"
+.br
+.ti -1c
+.RI "\fBSmartGridObject\fP[][] \fBgridObjects\fP"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBgridObjectList\fP"
+.br
+.ti -1c
+.RI "boolean \fBoverlayUse\fP = false"
+.br
+.ti -1c
+.RI "\fBOverlayMode\fP \fBoverlayMode\fP = \fBOverlayMode\&.AUTOMATIC\fP"
+.br
+.ti -1c
+.RI "\fBGridDataEnum\fP \fBcurrentPointer\fP"
+.br
+.ti -1c
+.RI "Constructor<?> \fBmodelConstructor\fP"
+.br
+.ti -1c
+.RI "boolean \fBsaveSimResultsToFile\fP = false"
+.br
+.ti -1c
+.RI "LinkedList< \fBBus\fP > \fBbuses\fP = new LinkedList<>()"
+.br
+.ti -1c
+.RI "LinkedList< \fBPath\fP > \fBpaths\fP = new LinkedList<>()"
+.br
+.ti -1c
+.RI "TreeSet< \fBEnumPV\fP > \fBresistanceAttributes\fP = new TreeSet<\fBEnumPV\fP>()"
+.br
+.ti -1c
+.RI "\fBVariableCollection\fP \fBbusVariableCollection\fP = null"
+.br
+.ti -1c
+.RI "\fBVariableCollection\fP \fBpathVariableCollection\fP = null"
+.br
+.ti -1c
+.RI "\fBTimeThread\fP \fBtimeThread\fP"
+.br
+.ti -1c
+.RI "\fBProgramParametersSaved\fP \fBprogramParameters\fP = null"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static JFrame \fBmainView\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The model for the SGS which is extending JGridMaps GridModel class, i\&.e\&. all displayed data shown in the Grid\&. It contains the list with all the GridObjects\&. It contains a list for the Collections, witch are Buses and Paths\&. It contains the settings for ColorOverlays\&.
+.PP
+Most methods for for editing the GridModel are provided by the GridController\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file SgsGridModel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.SgsGridModel\&.SgsGridModel (intnrOfCellsWidth, intnrOfCellsHeight, intgridWidth, intgridHeight)"
+Constructor: full 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInrOfCellsWidth\fP - amount of cells, width 
+.br
+\fInrOfCellsHeight\fP - amount of cells , height 
+.br
+\fIgridWidth\fP - initial width in pixels 
+.br
+\fIgridHeight\fP - initial height in pixels 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file SgsGridModel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int sgs\&.model\&.SgsGridModel\&.getNrOfCellsHeight ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+amount of cells, height 
+.RE
+.PP
+
+.PP
+Definition at line 143 of file SgsGridModel\&.java\&.
+.SS "int sgs\&.model\&.SgsGridModel\&.getNrOfCellsWidth ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+amount of cells, width 
+.RE
+.PP
+
+.PP
+Definition at line 139 of file SgsGridModel\&.java\&.
+.SS "void sgs\&.model\&.SgsGridModel\&.lockBusesPaths ()"
+Locks buses and paths lists for read and write\&.
+.PP
+.nf
+lockedBusesPaths = true; 
+
+.fi
+.PP
+ 
+.PP
+Definition at line 150 of file SgsGridModel\&.java\&.
+.SS "void sgs\&.model\&.SgsGridModel\&.unlockBusesPaths ()"
+Unlocks buses and paths lists after read and write\&.
+.PP
+.nf
+lockedBusesPaths = false; 
+
+.fi
+.PP
+ 
+.PP
+Definition at line 165 of file SgsGridModel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "LinkedList<\fBBus\fP> sgs\&.model\&.SgsGridModel\&.buses = new LinkedList<>()"
+File for simulation results, when
+.PP
+.nf
+saveSimResultsToFile = true; 
+
+.fi
+.PP
+ manual by the user in the simulation => \fBProgramParametersSaved\fP A bus is a list of GridObjects which are directly connected, meaning they have the same voltage and no resistance in between\&. 
+.PP
+Definition at line 80 of file SgsGridModel\&.java\&.
+.SS "\fBVariableCollection\fP sgs\&.model\&.SgsGridModel\&.busVariableCollection = null"
+VariableCollection for bus 
+.PP
+Definition at line 95 of file SgsGridModel\&.java\&.
+.SS "\fBGridDataEnum\fP sgs\&.model\&.SgsGridModel\&.currentPointer"
+What tool is currently activated\&. When clicked creates a house etc\&. according to the buttons which were pressed before 
+.PP
+Definition at line 62 of file SgsGridModel\&.java\&.
+.SS "int [][][] sgs\&.model\&.SgsGridModel\&.gridData3D"
+slider dialog (change simulation speed etc\&.) for reference Drawing data for JGridMap, int-values refer to images in the JGM 
+.PP
+Definition at line 46 of file SgsGridModel\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.model\&.SgsGridModel\&.gridObjectList"
+List of all GridObjects (redundant to \fBgridObjects\fP) 
+.PP
+Definition at line 50 of file SgsGridModel\&.java\&.
+.SS "\fBSmartGridObject\fP [][] sgs\&.model\&.SgsGridModel\&.gridObjects"
+Actual objects in Grid at corresponding position 
+.PP
+Definition at line 48 of file SgsGridModel\&.java\&.
+.SS "JFrame sgs\&.model\&.SgsGridModel\&.mainView\fC [static]\fP"
+Frame for adjusting window positions 
+.PP
+Definition at line 41 of file SgsGridModel\&.java\&.
+.SS "Constructor<?> sgs\&.model\&.SgsGridModel\&.modelConstructor"
+
+.PP
+Definition at line 66 of file SgsGridModel\&.java\&.
+.SS "\fBOverlayMode\fP sgs\&.model\&.SgsGridModel\&.overlayMode = \fBOverlayMode\&.AUTOMATIC\fP"
+Overlay can be (a) automatically defined by GridController or (b) manually by the Algorithm\&. 
+.PP
+Definition at line 55 of file SgsGridModel\&.java\&.
+.SS "boolean sgs\&.model\&.SgsGridModel\&.overlayUse = false"
+true if overlays should be drawn 
+.PP
+Definition at line 53 of file SgsGridModel\&.java\&.
+.SS "LinkedList<\fBPath\fP> sgs\&.model\&.SgsGridModel\&.paths = new LinkedList<>()"
+Paths are connections between buses\&. They have for example an electrical resistance\&. 
+.PP
+Definition at line 85 of file SgsGridModel\&.java\&.
+.SS "\fBVariableCollection\fP sgs\&.model\&.SgsGridModel\&.pathVariableCollection = null"
+VariableCollection for path 
+.PP
+Definition at line 97 of file SgsGridModel\&.java\&.
+.SS "\fBProgramParametersSaved\fP sgs\&.model\&.SgsGridModel\&.programParameters = null"
+saved parameters for adjusting the program to the specific user 
+.PP
+Definition at line 101 of file SgsGridModel\&.java\&.
+.SS "TreeSet<\fBEnumPV\fP> sgs\&.model\&.SgsGridModel\&.resistanceAttributes = new TreeSet<\fBEnumPV\fP>()"
+Defines where to split Buses (visible, >0) for NetworkAnalyzer 
+.PP
+Definition at line 93 of file SgsGridModel\&.java\&.
+.SS "boolean sgs\&.model\&.SgsGridModel\&.saveSimResultsToFile = false"
+true if results should be saved 
+.PP
+Definition at line 68 of file SgsGridModel\&.java\&.
+.SS "\fBTimeThread\fP sgs\&.model\&.SgsGridModel\&.timeThread"
+currently used instance of TimeThread, set by TimeThread, may be null\&. 
+.PP
+Definition at line 99 of file SgsGridModel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

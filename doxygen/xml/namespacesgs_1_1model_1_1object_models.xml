@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacesgs_1_1model_1_1object_models" kind="namespace">
+    <compoundname>sgs::model::objectModels</compoundname>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_consumer_model" prot="public">sgs::model::objectModels::AbstractConsumerModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_consumer_model" prot="public">sgs::model::objectModels::AbstractCustomConsumerModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_custom_power_plant_model" prot="public">sgs::model::objectModels::AbstractCustomPowerPlantModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_fossil_fuel_power_plant_model" prot="public">sgs::model::objectModels::AbstractFossilFuelPowerPlantModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_model" prot="public">sgs::model::objectModels::AbstractModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_line_model" prot="public">sgs::model::objectModels::AbstractPowerLineModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model" prot="public">sgs::model::objectModels::AbstractPowerPlantModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_solar_power_plant_model" prot="public">sgs::model::objectModels::AbstractSolarPowerPlantModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_abstract_wind_power_plant_model" prot="public">sgs::model::objectModels::AbstractWindPowerPlantModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_constant_demand_model" prot="public">sgs::model::objectModels::ConstantDemandModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_constant_power_model" prot="public">sgs::model::objectModels::ConstantPowerModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_fossil_fuel_model" prot="public">sgs::model::objectModels::FossilFuelModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_pi_equivalent_power_line" prot="public">sgs::model::objectModels::PiEquivalentPowerLine</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_random_wind_turbine_model" prot="public">sgs::model::objectModels::RandomWindTurbineModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_residential_average_load_curve_model" prot="public">sgs::model::objectModels::ResidentialAverageLoadCurveModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_solar_peak_power_model" prot="public">sgs::model::objectModels::SolarPeakPowerModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_solar_square_meter_model" prot="public">sgs::model::objectModels::SolarSquareMeterModel</innerclass>
+    <innerclass refid="interfacesgs_1_1model_1_1object_models_1_1_time_series_model" prot="public">sgs::model::objectModels::TimeSeriesModel</innerclass>
+    <innerclass refid="classsgs_1_1model_1_1object_models_1_1_usual_wind_turbine_model" prot="public">sgs::model::objectModels::UsualWindTurbineModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/objectModels/AbstractConsumerModel.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

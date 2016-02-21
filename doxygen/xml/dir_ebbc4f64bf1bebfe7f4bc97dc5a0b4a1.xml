@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_ebbc4f64bf1bebfe7f4bc97dc5a0b4a1" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/gridData</compoundname>
+    <innerfile refid="_grid_data_enum_8java">GridDataEnum.java</innerfile>
+    <innerfile refid="_grid_data_node_8java">GridDataNode.java</innerfile>
+    <innerfile refid="_grid_data_tree_8java">GridDataTree.java</innerfile>
+    <innerfile refid="_overlay_8java">Overlay.java</innerfile>
+    <innerfile refid="_overlay_list_8java">OverlayList.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/gridData/"/>
+  </compounddef>
+</doxygen>

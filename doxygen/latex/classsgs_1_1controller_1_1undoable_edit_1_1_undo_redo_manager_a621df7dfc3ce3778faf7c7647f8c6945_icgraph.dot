@@ -1,0 +1,9 @@
+digraph "sgs.controller.undoableEdit.UndoRedoManager.canUndo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.undoableEdit.\lUndoRedoManager.canUndo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="sgs.controller.undoableEdit.\lUndoRedoManager.die",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1undoable_edit_1_1_undo_redo_manager.html#ab1e6611f0147dd52678ddb749707ab02"];
+}

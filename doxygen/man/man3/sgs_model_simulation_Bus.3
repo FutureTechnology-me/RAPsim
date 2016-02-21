@@ -1,0 +1,309 @@
+.TH "sgs.model.simulation.Bus" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.simulation.Bus \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBus\fP (int busNumber, LinkedList< \fBSmartGridObject\fP > \fBbusGridObjects\fP, \fBVariableCollection\fP \fBvariableCollection\fP)"
+.br
+.ti -1c
+.RI "boolean \fBisLoadBus\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisGeneratorBus\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetNettoPowerProduction\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (\fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "boolean \fBcontainsInstanceOf\fP (\fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "void \fBaddObject\fP (\fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "void \fBsetGridObjects\fP (LinkedList< \fBSmartGridObject\fP > objects)"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBgetGridObjects\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNumber\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBusNumber\fP (int busNumber)"
+.br
+.ti -1c
+.RI "void \fBsetBusVoltage\fP (\fBNumericValue\fP voltage)"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetBusVoltage\fP ()"
+.br
+.ti -1c
+.RI "\fBVariableSet\fP \fBgetVariableSet\fP ()"
+.br
+.ti -1c
+.RI "\fBNumericValue\fP \fBgetValue\fP (\fBEnumPV\fP variableName)"
+.br
+.ti -1c
+.RI "void \fBrefreshValues\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBbusGridObjects\fP"
+.br
+.ti -1c
+.RI "\fBVariableCollection\fP \fBvariableCollection\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A bus combines multiple (1 or more) grid objects, which are not seperated by any resistance\&.
+.PP
+(Was named Cluster before) 
+.PP
+\fBAuthor:\fP
+.RS 4
+Tobi, Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file Bus\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.simulation\&.Bus\&.Bus (intbusNumber, LinkedList< \fBSmartGridObject\fP >busGridObjects, \fBVariableCollection\fPvariableCollection)"
+Constructor: 
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumber\fP 
+.br
+\fIbusGridObjects\fP 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file Bus\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.model\&.simulation\&.Bus\&.addObject (\fBSmartGridObject\fPsgo)"
+Add object to bus 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsgo\fP 
+.RE
+.PP
+
+.PP
+Definition at line 116 of file Bus\&.java\&.
+.SS "boolean sgs\&.model\&.simulation\&.Bus\&.contains (\fBSmartGridObject\fPsgo)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsgo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true, if object is contained in bus 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file Bus\&.java\&.
+.SS "boolean sgs\&.model\&.simulation\&.Bus\&.containsInstanceOf (\fBSmartGridObject\fPsgo)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsgo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true, if any object of the same type as sgo is contained in the bus\&. recommended to use with constructor as argument sgo 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file Bus\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.simulation\&.Bus\&.getBusVoltage ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the \fBBus\fP voltage (should be equal for whole bus), stored locally 
+.RE
+.PP
+
+.PP
+Definition at line 157 of file Bus\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.model\&.simulation\&.Bus\&.getGridObjects ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the contained grid objects 
+.RE
+.PP
+
+.PP
+Definition at line 130 of file Bus\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.simulation\&.Bus\&.getNettoPowerProduction ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+(powerProduction-powerDemand) or null, if values do not exist 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Bus\&.java\&.
+.SS "int sgs\&.model\&.simulation\&.Bus\&.getNumber ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the busNumber 
+.RE
+.PP
+
+.PP
+Definition at line 135 of file Bus\&.java\&.
+.SS "\fBNumericValue\fP sgs\&.model\&.simulation\&.Bus\&.getValue (\fBEnumPV\fPvariableName)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvariableName\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+value for variableName, or null if name is not found\&. 
+.RE
+.PP
+
+.PP
+Definition at line 178 of file Bus\&.java\&.
+.SS "\fBVariableSet\fP sgs\&.model\&.simulation\&.Bus\&.getVariableSet ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the VariableSet owned by this object; or null (no owned variable set) 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.model\&.variables\&.collector\&.VariableOwner\fP\&.
+.PP
+Definition at line 170 of file Bus\&.java\&.
+.SS "boolean sgs\&.model\&.simulation\&.Bus\&.isGeneratorBus ()"
+Call after values were refreshed\&.
+.PP
+\fBReturns:\fP
+.RS 4
+true if real netto power production >= 0\&. false otherwise or at error\&. 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB#isLoadBus(), #isSwingBus()\fP} 
+.RE
+.PP
+
+.PP
+Definition at line 59 of file Bus\&.java\&.
+.SS "boolean sgs\&.model\&.simulation\&.Bus\&.isLoadBus ()"
+Call after values were refreshed\&.
+.PP
+\fBReturns:\fP
+.RS 4
+true if real netto power production <= 0 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fB#isGeneratorBus(), #isSwingBus()\fP} 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file Bus\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Bus\&.refreshValues ()"
+Collects current simulation values with variableCollector 
+.PP
+Definition at line 185 of file Bus\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Bus\&.setBusNumber (intbusNumber)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbusNumber\fP - busNumber to set 
+.RE
+.PP
+
+.PP
+Definition at line 140 of file Bus\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Bus\&.setBusVoltage (\fBNumericValue\fPvoltage)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoltage\fP - voltage to set for every object (special) 
+.RE
+.PP
+
+.PP
+Definition at line 145 of file Bus\&.java\&.
+.SS "void sgs\&.model\&.simulation\&.Bus\&.setGridObjects (LinkedList< \fBSmartGridObject\fP >objects)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjects\fP the objects to set 
+.RE
+.PP
+
+.PP
+Definition at line 123 of file Bus\&.java\&.
+.SS "String sgs\&.model\&.simulation\&.Bus\&.toString ()"
+
+.PP
+Definition at line 195 of file Bus\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.model\&.simulation\&.Bus\&.busGridObjects"
+
+.PP
+Definition at line 21 of file Bus\&.java\&.
+.SS "\fBVariableCollection\fP sgs\&.model\&.simulation\&.Bus\&.variableCollection"
+
+.PP
+Definition at line 22 of file Bus\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

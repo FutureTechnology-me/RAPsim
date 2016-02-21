@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1controller_1_1_menu_controller" kind="class" prot="public">
+    <compoundname>sgs::controller::MenuController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1affc1e1209585151092540a8cd7ca626d" prot="private" static="no" mutable="no">
+        <type>final JFrame</type>
+        <definition>final JFrame sgs.controller.MenuController.frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="48" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a0ec82604b5726ff0af3c1d301c22cd2a" prot="private" static="no" mutable="no">
+        <type>final MenuViewI</type>
+        <definition>final MenuViewI sgs.controller.MenuController.menuView</definition>
+        <argsstring></argsstring>
+        <name>menuView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="49" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a1d5d43d442567e2521cbcd33586bd844" prot="private" static="no" mutable="no">
+        <type>FileChooser</type>
+        <definition>FileChooser sgs.controller.MenuController.fileChooser</definition>
+        <argsstring></argsstring>
+        <name>fileChooser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="55" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a2b79b0fcec4e7b79dd165199ec953f8e" prot="private" static="no" mutable="no">
+        <type>FileFilter</type>
+        <definition>FileFilter sgs.controller.MenuController.fileFilter</definition>
+        <argsstring></argsstring>
+        <name>fileFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="56" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a6d5b44e76504ab44221ac8b757dec28b" prot="private" static="no" mutable="no">
+        <type>final FileManager</type>
+        <definition>final FileManager sgs.controller.MenuController.fileManager</definition>
+        <argsstring></argsstring>
+        <name>fileManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="57" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a06fd885f1f9cd89c0ed012d7a08981e5" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+        <definition>final GridController sgs.controller.MenuController.gridController</definition>
+        <argsstring></argsstring>
+        <name>gridController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="58" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a19ba1f9b0933143d445a74ff036c164d" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+        <definition>final TimeThread sgs.controller.MenuController.timeThread</definition>
+        <argsstring></argsstring>
+        <name>timeThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="59" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a8ca9574d24fe1f8d4af1959f8bff7e5b" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1controller_1_1_color_overlay_controller" kindref="compound">ColorOverlayController</ref></type>
+        <definition>final ColorOverlayController sgs.controller.MenuController.colorOverlayController</definition>
+        <argsstring></argsstring>
+        <name>colorOverlayController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="61" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a6c08ebb112b33a783509277822355738" prot="private" static="yes" mutable="no">
+        <type>JMenuItem</type>
+        <definition>JMenuItem sgs.controller.MenuController.showResults</definition>
+        <argsstring></argsstring>
+        <name>showResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="50" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1adbcfdb169919286ca01605925cc5fba6" prot="public" static="yes" mutable="no">
+        <type>JMenuItem</type>
+        <definition>JMenuItem sgs.controller.MenuController.openSlider</definition>
+        <argsstring></argsstring>
+        <name>openSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="51" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a8c8cd310d5fbd02203ca812697632fb4" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.controller.MenuController.treeNotEmpty</definition>
+        <argsstring></argsstring>
+        <name>treeNotEmpty</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="60" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a208e189996cb11ed4d33ae2fca459196" prot="public" static="no" mutable="no">
+        <type>JCheckBoxMenuItem</type>
+        <definition>JCheckBoxMenuItem sgs.controller.MenuController.allLegendsCB</definition>
+        <argsstring></argsstring>
+        <name>allLegendsCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a60c09a10c1c77824fdfe558252928e6e" prot="package" static="no" mutable="no">
+        <type>JCheckBoxMenuItem</type>
+        <definition>JCheckBoxMenuItem sgs.controller.MenuController.nominalPowerCB</definition>
+        <argsstring></argsstring>
+        <name>nominalPowerCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a89ca4fcd172df76f910ae0158ea37d09" prot="package" static="no" mutable="no">
+        <type>JCheckBoxMenuItem</type>
+        <definition>JCheckBoxMenuItem sgs.controller.MenuController.voltageAngleCB</definition>
+        <argsstring></argsstring>
+        <name>voltageAngleCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1controller_1_1_menu_controller_1a20e87afa370c9997d9271f9ad6a2c938" prot="package" static="no" mutable="no">
+        <type>JCheckBoxMenuItem</type>
+        <definition>JCheckBoxMenuItem sgs.controller.MenuController.nominalVoltageCB</definition>
+        <argsstring></argsstring>
+        <name>nominalVoltageCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1acceaeb652529dd484514be042d9bd9a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.controller.MenuController.MenuController</definition>
+        <argsstring>(MenuViewI menuView, JFrame frame, GridController gridController, TimeThread timeThread, PrimaryView primaryView)</argsstring>
+        <name>MenuController</name>
+        <param>
+          <type>MenuViewI</type>
+          <declname>menuView</declname>
+        </param>
+        <param>
+          <type>JFrame</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1_grid_controller" kindref="compound">GridController</ref></type>
+          <declname>gridController</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_time_thread" kindref="compound">TimeThread</ref></type>
+          <declname>timeThread</declname>
+        </param>
+        <param>
+          <type>PrimaryView</type>
+          <declname>primaryView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for controller <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>menuView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridController</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeThread</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>primaryView</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="72" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="72" bodyend="83"/>
+        <references refid="classsgs_1_1controller_1_1_menu_controller_1a627d48e2a41fc26079762c21de10b11f" compoundref="_menu_controller_8java" startline="114" endline="133">sgs.controller.MenuController.addMenu</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a627d48e2a41fc26079762c21de10b11f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.addMenu</definition>
+        <argsstring>()</argsstring>
+        <name>addMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="114" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="114" bodyend="133"/>
+        <referencedby refid="classsgs_1_1controller_1_1_menu_controller_1acceaeb652529dd484514be042d9bd9a8" compoundref="_menu_controller_8java" startline="72" endline="83">sgs.controller.MenuController.MenuController</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1ae484bdbd64641abe66e5f8c7e252101b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.initFileChooser</definition>
+        <argsstring>()</argsstring>
+        <name>initFileChooser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FileChooser related initialization. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="90" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="90" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a0de70b119a029293076e09fc9f72b107" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.addMenu_File</definition>
+        <argsstring>()</argsstring>
+        <name>addMenu_File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="137" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="137" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1abe0ae7c4f856d9955010f007189b69d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.addMenu_Edit</definition>
+        <argsstring>()</argsstring>
+        <name>addMenu_Edit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><simplesect kind="author"><para>hs expansion of the function Edit Undo deleted Objects, Open&amp;Close&amp;Refresh all Property Windows</para></simplesect>
+Undo only deleted Objects</para><para>ReDo deleted Objects</para><para>Copy Sgs Obj, put it on Stack limited to 5 Obj</para><para>Paste Sgs Obj, pop out the Stack limited to the max</para><para>Refresh all Property Windows count open Windows</para><para>Close all open Property Windows</para><para>Open speed Changer</para>        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="205" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="205" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1aff21e0547ebf343510549c5342d9c985" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.addMenu_Algorithm</definition>
+        <argsstring>()</argsstring>
+        <name>addMenu_Algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="457" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="457" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a42f091bcb9582aedd47e1bab34461868" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.addMenu_Results</definition>
+        <argsstring>()</argsstring>
+        <name>addMenu_Results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="506" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="506" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1afe72bfd0622caa3e597bfbde181cf172" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.actionFor_ColorOverlays</definition>
+        <argsstring>(int overlayNumber)</argsstring>
+        <name>actionFor_ColorOverlays</name>
+        <param>
+          <type>int</type>
+          <declname>overlayNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>action performance for Overlays activate all, or just the wished overlay. call init-methode in <ref refid="classsgs_1_1controller_1_1_color_overlay_controller" kindref="compound">ColorOverlayController</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>overlayNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="554" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="554" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a8d4ed4e8e21d5a0c37b69cf2b5a85a74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.actionFor_new</definition>
+        <argsstring>()</argsstring>
+        <name>actionFor_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create new save file, clear Grid </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="593" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="593" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1adc81cfeef5bd02d72c9b3841b49ad43f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.actionFor_open</definition>
+        <argsstring>()</argsstring>
+        <name>actionFor_open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Open a save file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="613" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="613" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a4b193c56309d69ab18485f30a816a8bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.actionFor_save</definition>
+        <argsstring>()</argsstring>
+        <name>actionFor_save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Save to current file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="625" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="625" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a1574e4e1b6ca6e059d163a663c3e569c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.controller.MenuController.actionFor_saveAs</definition>
+        <argsstring>()</argsstring>
+        <name>actionFor_saveAs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Save to other file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="630" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="630" bodyend="638"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsgs_1_1controller_1_1_menu_controller_1a60d3694b3efa69be25069f95983c9546" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void sgs.controller.MenuController.setTreeNotEmpty</definition>
+        <argsstring>(boolean b)</argsstring>
+        <name>setTreeNotEmpty</name>
+        <param>
+          <type>boolean</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="641" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="641" bodyend="645"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Controller component for the menu. <simplesect kind="author"><para>Tobi, Kristofer Schweiger, Huber </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3530">
+        <label>JMenuItem</label>
+      </node>
+      <node id="3531">
+        <label>JCheckBoxMenuItem</label>
+      </node>
+      <node id="3529">
+        <label>sgs.controller.MenuController</label>
+        <link refid="classsgs_1_1controller_1_1_menu_controller"/>
+        <childnode refid="3530" relation="usage">
+          <edgelabel>openSlider</edgelabel>
+        </childnode>
+        <childnode refid="3531" relation="usage">
+          <edgelabel>voltageAngleCB</edgelabel>
+          <edgelabel>nominalVoltageCB</edgelabel>
+          <edgelabel>nominalPowerCB</edgelabel>
+          <edgelabel>allLegendsCB</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" line="46" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/MenuController.java" bodystart="46" bodyend="647"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1afe72bfd0622caa3e597bfbde181cf172" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>actionFor_ColorOverlays</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a8d4ed4e8e21d5a0c37b69cf2b5a85a74" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>actionFor_new</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1adc81cfeef5bd02d72c9b3841b49ad43f" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>actionFor_open</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a4b193c56309d69ab18485f30a816a8bb" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>actionFor_save</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a1574e4e1b6ca6e059d163a663c3e569c" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>actionFor_saveAs</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a627d48e2a41fc26079762c21de10b11f" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>addMenu</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1aff21e0547ebf343510549c5342d9c985" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>addMenu_Algorithm</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1abe0ae7c4f856d9955010f007189b69d2" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>addMenu_Edit</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a0de70b119a029293076e09fc9f72b107" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>addMenu_File</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a42f091bcb9582aedd47e1bab34461868" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>addMenu_Results</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a208e189996cb11ed4d33ae2fca459196" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>allLegendsCB</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a8ca9574d24fe1f8d4af1959f8bff7e5b" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>colorOverlayController</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a1d5d43d442567e2521cbcd33586bd844" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>fileChooser</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a2b79b0fcec4e7b79dd165199ec953f8e" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>fileFilter</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a6d5b44e76504ab44221ac8b757dec28b" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>fileManager</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1affc1e1209585151092540a8cd7ca626d" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>frame</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a06fd885f1f9cd89c0ed012d7a08981e5" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>gridController</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1ae484bdbd64641abe66e5f8c7e252101b" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>initFileChooser</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1acceaeb652529dd484514be042d9bd9a8" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>MenuController</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a0ec82604b5726ff0af3c1d301c22cd2a" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>menuView</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a60c09a10c1c77824fdfe558252928e6e" prot="package" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>nominalPowerCB</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a20e87afa370c9997d9271f9ad6a2c938" prot="package" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>nominalVoltageCB</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1adbcfdb169919286ca01605925cc5fba6" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>openSlider</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a60d3694b3efa69be25069f95983c9546" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>setTreeNotEmpty</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a6c08ebb112b33a783509277822355738" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>showResults</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a19ba1f9b0933143d445a74ff036c164d" prot="private" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>timeThread</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a8c8cd310d5fbd02203ca812697632fb4" prot="public" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>treeNotEmpty</name></member>
+      <member refid="classsgs_1_1controller_1_1_menu_controller_1a89ca4fcd172df76f910ae0158ea37d09" prot="package" virt="non-virtual"><scope>sgs::controller::MenuController</scope><name>voltageAngleCB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

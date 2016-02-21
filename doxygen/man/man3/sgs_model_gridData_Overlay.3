@@ -1,0 +1,118 @@
+.TH "sgs.model.gridData.Overlay" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.model.gridData.Overlay \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "enum \fBOverlayColorEnum\fP"
+.br
+.ti -1c
+.RI "enum \fBOverlayLevelEnum\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBOverlay\fP (double \fBoverlayValue\fP, \fBOverlayColorEnum\fP color, \fBOverlayLevelEnum\fP level, boolean isUsed)"
+.br
+.ti -1c
+.RI "int \fBgetLevelNr\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBgetIsUsed\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetIsUsed\fP (boolean newUsedStatus)"
+.br
+.ti -1c
+.RI "Color \fBgetOverlayColor\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "double \fBoverlayValue\fP"
+.br
+.ti -1c
+.RI "\fBOverlayColorEnum\fP \fBcolorEnum\fP"
+.br
+.ti -1c
+.RI "\fBOverlayLevelEnum\fP \fBlevelEnum\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Single \fBOverlay\fP, defined by Level and Color\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file Overlay\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.model\&.gridData\&.Overlay\&.Overlay (doubleoverlayValue, \fBOverlayColorEnum\fPcolor, \fBOverlayLevelEnum\fPlevel, booleanisUsed)"
+
+.PP
+Definition at line 64 of file Overlay\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.model\&.gridData\&.Overlay\&.getIsUsed ()"
+
+.PP
+Definition at line 78 of file Overlay\&.java\&.
+.SS "int sgs\&.model\&.gridData\&.Overlay\&.getLevelNr ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+level starting at 1\&. 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file Overlay\&.java\&.
+.SS "Color sgs\&.model\&.gridData\&.Overlay\&.getOverlayColor ()"
+Defined for color enum, except OFF and DEFAULT 
+.PP
+\fBReturns:\fP
+.RS 4
+Color defined in Enum or null if color for type not defined in here\&. 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file Overlay\&.java\&.
+.SS "void sgs\&.model\&.gridData\&.Overlay\&.setIsUsed (booleannewUsedStatus)"
+
+.PP
+Definition at line 82 of file Overlay\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBOverlayColorEnum\fP sgs\&.model\&.gridData\&.Overlay\&.colorEnum"
+
+.PP
+Definition at line 51 of file Overlay\&.java\&.
+.SS "\fBOverlayLevelEnum\fP sgs\&.model\&.gridData\&.Overlay\&.levelEnum"
+
+.PP
+Definition at line 52 of file Overlay\&.java\&.
+.SS "double sgs\&.model\&.gridData\&.Overlay\&.overlayValue"
+
+.PP
+Definition at line 50 of file Overlay\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

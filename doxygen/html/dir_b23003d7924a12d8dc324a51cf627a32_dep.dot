@@ -1,0 +1,13 @@
+digraph "RAPSim/src/sgs/model/variables" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2f0bce582130e3664de0c2ab4aa656eb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="model" fontname="Helvetica", fontsize="10", URL="dir_2f0bce582130e3664de0c2ab4aa656eb.html"]
+  subgraph clusterdir_b23003d7924a12d8dc324a51cf627a32 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b23003d7924a12d8dc324a51cf627a32.html"];
+    dir_b23003d7924a12d8dc324a51cf627a32 [shape=plaintext label="variables"];
+    dir_6c31ab5fdac2611d1bca327d645f4b83 [shape=box label="collector" color="black" fillcolor="white" style="filled" URL="dir_6c31ab5fdac2611d1bca327d645f4b83.html"];
+  }
+  }
+}

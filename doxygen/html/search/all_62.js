@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['black_5fblue',['BLACK_BLUE',['../enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum.html#a1b228780aedb202be8fff48336af7a86',1,'sgs::model::gridData::Overlay::OverlayColorEnum']]],
+  ['black_5fwhite',['BLACK_WHITE',['../enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum.html#ada6efb8716689d267a7e55701810f536',1,'sgs::model::gridData::Overlay::OverlayColorEnum']]],
+  ['black_5fwhite_5fblack',['BLACK_WHITE_BLACK',['../enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum.html#afbd2961e0e83bedb7cdcd46680c92b59',1,'sgs::model::gridData::Overlay::OverlayColorEnum']]],
+  ['blue',['BLUE',['../enumsgs_1_1model_1_1grid_data_1_1_overlay_1_1_overlay_color_enum.html#a63b58ff9dd8f3398d461cb329452a199',1,'sgs::model::gridData::Overlay::OverlayColorEnum']]],
+  ['bottompanel',['BottomPanel',['../classsgs_1_1view_1_1_bottom_panel.html',1,'sgs::view']]],
+  ['bottompanel',['bottomPanel',['../classsgs_1_1controller_1_1_button_controller.html#a5657f82a32f7446c0d2f2c53c0b15a6a',1,'sgs::controller::ButtonController']]],
+  ['bottompanel_2ejava',['BottomPanel.java',['../_bottom_panel_8java.html',1,'']]],
+  ['bus',['Bus',['../classsgs_1_1model_1_1simulation_1_1_bus.html',1,'sgs::model::simulation']]],
+  ['bus',['Bus',['../classsgs_1_1model_1_1simulation_1_1_bus.html#a43e60386a00388aa17bd2f6c7d5ce87c',1,'sgs::model::simulation::Bus']]],
+  ['bus_2ejava',['Bus.java',['../_bus_8java.html',1,'']]],
+  ['buses',['buses',['../classsgs_1_1model_1_1_sgs_grid_model.html#a69cc42a53259eb1a9ec9120be308466e',1,'sgs::model::SgsGridModel']]],
+  ['busgridobjects',['busGridObjects',['../classsgs_1_1model_1_1simulation_1_1_bus.html#a4cd025e5e16ddc41403c703ca5ec602e',1,'sgs::model::simulation::Bus']]],
+  ['busnettopowercomparator',['BusNettoPowerComparator',['../classsgs_1_1controller_1_1simulation_1_1_bus_netto_power_comparator.html',1,'sgs::controller::simulation']]],
+  ['busnettopowercomparator_2ejava',['BusNettoPowerComparator.java',['../_bus_netto_power_comparator_8java.html',1,'']]],
+  ['bustypes',['busTypes',['../enumsgs_1_1controller_1_1simulation_1_1_a_c_power_flow_calculator_1_1bus_types.html',1,'sgs::controller::simulation::ACPowerFlowCalculator']]],
+  ['busvariablecollection',['busVariableCollection',['../classsgs_1_1model_1_1_sgs_grid_model.html#a3114ef7b1f78c5898b1024becf808b39',1,'sgs::model::SgsGridModel']]],
+  ['buttoncontroller',['ButtonController',['../classsgs_1_1controller_1_1_button_controller.html#a81a85971dd72e117601a32ce691bfbce',1,'sgs::controller::ButtonController']]],
+  ['buttoncontroller',['ButtonController',['../classsgs_1_1controller_1_1_button_controller.html',1,'sgs::controller']]],
+  ['buttoncontroller_2ejava',['ButtonController.java',['../_button_controller_8java.html',1,'']]],
+  ['buttonpanel',['buttonPanel',['../classsgs_1_1view_1_1_top_panel.html#a032fa607b34752171d58048a7916c0f4',1,'sgs::view::TopPanel']]],
+  ['by_5falgorithm',['BY_ALGORITHM',['../enumsgs_1_1model_1_1_sgs_grid_model_1_1_overlay_mode.html#ae17ee3cfcffd37763d977afa1444d0c4',1,'sgs::model::SgsGridModel::OverlayMode']]]
+];

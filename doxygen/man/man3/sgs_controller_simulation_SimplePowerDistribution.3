@@ -1,0 +1,149 @@
+.TH "sgs.controller.simulation.SimplePowerDistribution" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.simulation.SimplePowerDistribution \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSimplePowerDistribution\fP (\fBGridController\fP gridController)"
+.br
+.ti -1c
+.RI "void \fBcalculationStep\fP ()"
+.br
+.ti -1c
+.RI "void \fBinitializeAlgorithm\fP ()"
+.br
+.ti -1c
+.RI "void \fBgridChanged\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStarted\fP ()"
+.br
+.ti -1c
+.RI "void \fBsimulationStopped\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetDescription\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBTEST_OVERLAYS\fP = false"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetPropertiesForVariables\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPropertiesForBusAndPath\fP ()"
+.br
+.ti -1c
+.RI "void \fBunloadAlgorithm\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file SimplePowerDistribution\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.SimplePowerDistribution (\fBGridController\fPgridController)"
+Constructor for reflection\&. Must (only) use parameter \fBGridController\fP\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file SimplePowerDistribution\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.calculationStep ()\fC [virtual]\fP"
+Calculate grid for one simulation step\&. 
+.PP
+.RS 4
+Buses and Paths are locked before\&. Grid/View-Repaint is automatically called after the function\&. 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 63 of file SimplePowerDistribution\&.java\&.
+.SS "String sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.getDescription ()\fC [virtual]\fP"
+
+.PP
+\fBReturns:\fP
+.RS 4
+description of the specific algorithm used for the 'Info' button 
+.RE
+.PP
+
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 282 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.gridChanged ()\fC [virtual]\fP"
+Is called if the Grid is modified\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 250 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.initializeAlgorithm ()"
+
+.PP
+Definition at line 215 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.setPropertiesForBusAndPath ()\fC [protected]\fP, \fC [virtual]\fP"
+Set \fBSgsGridModel\&.resistanceAttributes\fP, busVariableCollection, pathVariableCollection if used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 189 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.setPropertiesForVariables ()\fC [protected]\fP, \fC [virtual]\fP"
+give( readable, editable, variablename) variablename is out of EnumPV 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 171 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.simulationStarted ()\fC [virtual]\fP"
+Called by time thread\&. Write interesting contents of the simulation to a file\&. Called directly after the simulation was started\&. Use this to make a LOG file if one is used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 255 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.simulationStopped ()\fC [virtual]\fP"
+Called directly after the simulation was stopped\&. Use this to flush/close a log file if one was used\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 268 of file SimplePowerDistribution\&.java\&.
+.SS "void sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.unloadAlgorithm ()\fC [protected]\fP, \fC [virtual]\fP"
+Free external resources used by this algorithm\&. 
+.PP
+Implements \fBsgs\&.controller\&.simulation\&.AbstractDistributionAlgorithm\fP\&.
+.PP
+Definition at line 240 of file SimplePowerDistribution\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean sgs\&.controller\&.simulation\&.SimplePowerDistribution\&.TEST_OVERLAYS = false\fC [static]\fP"
+
+.PP
+Definition at line 30 of file SimplePowerDistribution\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

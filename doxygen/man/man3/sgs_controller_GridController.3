@@ -1,0 +1,356 @@
+.TH "sgs.controller.GridController" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.GridController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGridController\fP (\fBSgsGridModel\fP \fBgridModel\fP, PrimaryViewI view)"
+.br
+.ti -1c
+.RI "void \fBactionfor_pasteCopiedObject\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddGridObject\fP (\fBGridDataEnum\fP enu, int x, int y)"
+.br
+.ti -1c
+.RI "\fBSmartGridObject\fP \fBaddGridObject\fP (\fBSmartGridObject\fP sso, int x, int y)"
+.br
+.ti -1c
+.RI "void \fBcalculatePowerLines\fP (int x, int y, int checkNeighbours)"
+.br
+.ti -1c
+.RI "void \fBcalculateSupraLines\fP (int x, int y, int CheckNeighbours)"
+.br
+.ti -1c
+.RI "void \fBclearGrid\fP ()"
+.br
+.ti -1c
+.RI "void \fBcloseAllObjectParameterWindows\fP ()"
+.br
+.ti -1c
+.RI "void \fBactionfor_copyGridObject\fP ()"
+.br
+.ti -1c
+.RI "void \fBactionfor_deleteObject\fP ()"
+.br
+.ti -1c
+.RI "void \fBactionfor_cutOffObject\fP ()"
+.br
+.ti -1c
+.RI "void \fBdeleteGridObject\fP (int x, int y)"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBgetAllNeighborsFrom\fP (LinkedList< \fBSmartGridObject\fP > toVisit, \fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "boolean \fBgetCellStatus\fP (int x, int y)"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBgetDirectNeighborsFrom\fP (LinkedList< \fBSmartGridObject\fP > toVisit, \fBSmartGridObject\fP sgo)"
+.br
+.ti -1c
+.RI "LinkedList< \fBSmartGridObject\fP > \fBgetDirectNeighborsFrom\fP (LinkedList< \fBSmartGridObject\fP > notVisited, LinkedList< \fBSmartGridObject\fP > startObjects)"
+.br
+.ti -1c
+.RI "\fBSgsGridModel\fP \fBgetModel\fP ()"
+.br
+.ti -1c
+.RI "void \fBrefreshAllObjectParameterWindows\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetUndoManager\fP (UndoManager \fBundoManager\fP)"
+.br
+.ti -1c
+.RI "void \fBactionfor_undo\fP ()"
+.br
+.ti -1c
+.RI "void \fBactionfor_redo\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "final \fBGridMapListener\fP \fBgridMapListener\fP"
+.br
+.ti -1c
+.RI "final \fBSgsGridModel\fP \fBgridModel\fP"
+.br
+.ti -1c
+.RI "final \fBColorOverlayController\fP \fBcolorOverlayController\fP"
+.br
+.ti -1c
+.RI "int[] \fBtempRememberMarkObject\fP"
+.br
+.ti -1c
+.RI "UndoManager \fBundoManager\fP = new UndoManager()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Provides most methods for editing the GridModel\&.
+.PP
+Initializes the \fBGridMapListener\fP\&. Loads images for the JGM (loadImagesNew) Adds and deletes GridObjects\&. Provides logics for neighbor detection and power-line drawing\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Kristofer Schweiger, Sabrina Huber 
+.RE
+.PP
+
+.PP
+Definition at line 38 of file GridController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.GridController\&.GridController (\fBSgsGridModel\fPgridModel, PrimaryViewIview)"
+Constructor:
+.IP "\(bu" 2
+Creates \fBGridMapListener\fP\&.
+.IP "\(bu" 2
+Loads Object Images\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridModel\fP 
+.br
+\fIview\fP 
+.RE
+.PP
+
+.PP
+
+.PP
+Definition at line 59 of file GridController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void sgs\&.controller\&.GridController\&.actionfor_copyGridObject ()"
+
+.PP
+Definition at line 402 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.actionfor_cutOffObject ()"
+gridController action for cut off an object from the grid\&. 
+.PP
+Definition at line 437 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.actionfor_deleteObject ()"
+gridController action for deleting an object from the grid this method only deletes an object wich has a mark on it\&. 
+.PP
+Definition at line 420 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.actionfor_pasteCopiedObject ()"
+
+.PP
+Definition at line 72 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.actionfor_redo ()"
+
+.PP
+Definition at line 692 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.actionfor_undo ()"
+
+.PP
+Definition at line 678 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.addGridObject (\fBGridDataEnum\fPenu, intx, inty)"
+Add an grid object with it's corresponding enum\&. Initializes the object with the choosen model 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIenu\fP - enum for an SmartSimObject 
+.br
+\fIx\fP - new coordinate 
+.br
+\fIy\fP - new coordinate 
+.RE
+.PP
+
+.PP
+Definition at line 101 of file GridController\&.java\&.
+.SS "\fBSmartGridObject\fP sgs\&.controller\&.GridController\&.addGridObject (\fBSmartGridObject\fPsso, intx, inty)"
+Add an grid object directly\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIenu\fP - enum for an SmartSimObject 
+.br
+\fIx\fP - new coordinate 
+.br
+\fIy\fP - new coordinate 
+.RE
+.PP
+
+.PP
+Definition at line 122 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.calculatePowerLines (intx, inty, intcheckNeighbours)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.br
+\fIcheckNeighbours\fP 
+.RE
+.PP
+
+.PP
+Definition at line 173 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.calculateSupraLines (intx, inty, intCheckNeighbours)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.br
+\fICheckNeighbours\fP 
+.RE
+.PP
+
+.PP
+Definition at line 236 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.clearGrid ()"
+
+.PP
+Definition at line 359 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.closeAllObjectParameterWindows ()"
+Closes all opened parameter windows\&. 
+.PP
+Definition at line 384 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.deleteGridObject (intx, inty)"
+Delete an instance in the JGM at the coordinates\&. In 2D Object Array, 2D ID Array and 1D List\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+
+.PP
+Definition at line 451 of file GridController\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.controller\&.GridController\&.getAllNeighborsFrom (LinkedList< \fBSmartGridObject\fP >toVisit, \fBSmartGridObject\fPsgo)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoVisit\fP - only these objects will be used\&. Null = use all grid objects 
+.br
+\fIsgo\fP - start point 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+all neighbors from object and from the neighbors of neighbors\&. 
+.RE
+.PP
+
+.PP
+Definition at line 496 of file GridController\&.java\&.
+.SS "boolean sgs\&.controller\&.GridController\&.getCellStatus (intx, inty)"
+Doesn't just read the array but checks if it's out of the array\&. Furthermore, this returns true if it's not empty\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if coordinate is not empty, false in all other cases\&. 
+.RE
+.PP
+
+.PP
+Definition at line 524 of file GridController\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.controller\&.GridController\&.getDirectNeighborsFrom (LinkedList< \fBSmartGridObject\fP >toVisit, \fBSmartGridObject\fPsgo)"
+Based on all SmartGridObjects in Model\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoVisit\fP - only these objects will be used\&. Found objects will be removed\&. Null = use all grid objects 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+List of neighbors which were in the list 
+.RE
+.PP
+
+.PP
+Definition at line 543 of file GridController\&.java\&.
+.SS "LinkedList<\fBSmartGridObject\fP> sgs\&.controller\&.GridController\&.getDirectNeighborsFrom (LinkedList< \fBSmartGridObject\fP >notVisited, LinkedList< \fBSmartGridObject\fP >startObjects)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fInotVisited\fP - only these objects will be 'visited', may also be startObjects\&. null\&.\&.\&. use all grid objects EXCLUDING startObjects\&. 
+.br
+\fIstartObjects\fP - objects to start from (normally a cluster of objects), not changed 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+List with direct neighbors of objects in sgos\&. 
+.RE
+.PP
+
+.PP
+Definition at line 571 of file GridController\&.java\&.
+.SS "\fBSgsGridModel\fP sgs\&.controller\&.GridController\&.getModel ()"
+
+.PP
+Definition at line 588 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.refreshAllObjectParameterWindows ()"
+Closes all opened parameter windows\&. 
+.PP
+Definition at line 653 of file GridController\&.java\&.
+.SS "void sgs\&.controller\&.GridController\&.setUndoManager (UndoManagerundoManager)"
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Sabrina Huber received from the \fBPrimaryController\fP an UndoManger, Set the correct undo manager 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIundoManager\fP 
+.RE
+.PP
+
+.PP
+Definition at line 672 of file GridController\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final \fBColorOverlayController\fP sgs\&.controller\&.GridController\&.colorOverlayController"
+
+.PP
+Definition at line 42 of file GridController\&.java\&.
+.SS "final \fBGridMapListener\fP sgs\&.controller\&.GridController\&.gridMapListener"
+
+.PP
+Definition at line 40 of file GridController\&.java\&.
+.SS "final \fBSgsGridModel\fP sgs\&.controller\&.GridController\&.gridModel"
+
+.PP
+Definition at line 41 of file GridController\&.java\&.
+.SS "int [] sgs\&.controller\&.GridController\&.tempRememberMarkObject"
+
+.PP
+Definition at line 47 of file GridController\&.java\&.
+.SS "UndoManager sgs\&.controller\&.GridController\&.undoManager = new UndoManager()"
+
+.PP
+Definition at line 48 of file GridController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

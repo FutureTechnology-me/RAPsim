@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key" kind="enum" prot="package">
+    <compoundname>sgs::controller::GridMapListener::MouseKey</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1ae1bda1283a979751e5f96a5359b0ce1e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.GridMapListener.MouseKey.LEFT</definition>
+        <argsstring></argsstring>
+        <name>LEFT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1ad4e13c88e4c30207bc37d329b5a48003" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.GridMapListener.MouseKey.RIGHT</definition>
+        <argsstring></argsstring>
+        <name>RIGHT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1a3ca9321b33c9bc65593c1d18fa3f81c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sgs.controller.GridMapListener.MouseKey.NONE</definition>
+        <argsstring></argsstring>
+        <name>NONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" line="41" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/controller/GridMapListener.java" bodystart="41" bodyend="41"/>
+    <listofallmembers>
+      <member refid="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1ae1bda1283a979751e5f96a5359b0ce1e" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener::MouseKey</scope><name>LEFT</name></member>
+      <member refid="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1a3ca9321b33c9bc65593c1d18fa3f81c1" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener::MouseKey</scope><name>NONE</name></member>
+      <member refid="enumsgs_1_1controller_1_1_grid_map_listener_1_1_mouse_key_1ad4e13c88e4c30207bc37d329b5a48003" prot="public" virt="non-virtual"><scope>sgs::controller::GridMapListener::MouseKey</scope><name>RIGHT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,250 @@
+\section{sgs.\-controller.\-Color\-Overlay\-Controller Class Reference}
+\label{classsgs_1_1controller_1_1_color_overlay_controller}\index{sgs.\-controller.\-Color\-Overlay\-Controller@{sgs.\-controller.\-Color\-Overlay\-Controller}}
+
+
+Collaboration diagram for sgs.\-controller.\-Color\-Overlay\-Controller\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Color\-Overlay\-Controller} ({\bf Grid\-Controller} grid\-Controller2, Primary\-View\-I view)
+\item 
+void {\bf init} (int legend\-Number)
+\item 
+boolean {\bf check\-Overlay\-Use} ()
+\item 
+void {\bf mark} (int org\-X, int org\-Y, int[$\,$][$\,$][$\,$] grid\-Data3\-D)
+\item 
+void {\bf mark\-All} ()
+\item 
+void {\bf mark\-One} (int org\-X, int org\-Y, boolean mark\-More)
+\item 
+void {\bf repaint} ()
+\item 
+void {\bf repaint\-Data} ()
+\item 
+boolean[$\,$] {\bf get\-Overlay\-Number\-Array} ()
+\item 
+void {\bf init\-All} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Color\-Legend\-Panel} {\bf legend\-Panel}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 19 of file Color\-Overlay\-Controller.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!Color\-Overlay\-Controller@{Color\-Overlay\-Controller}}
+\index{Color\-Overlay\-Controller@{Color\-Overlay\-Controller}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{Color\-Overlay\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-Color\-Overlay\-Controller.\-Color\-Overlay\-Controller (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller2, }
+\item[{Primary\-View\-I}]{view}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_abb9a1ce61db95bd7f5a11b0e28191e14}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em grid\-Controller2} & \\
+\hline
+{\em view} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file Color\-Overlay\-Controller.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!check\-Overlay\-Use@{check\-Overlay\-Use}}
+\index{check\-Overlay\-Use@{check\-Overlay\-Use}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{check\-Overlay\-Use}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-Color\-Overlay\-Controller.\-check\-Overlay\-Use (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_a3c9cfa1d5bd8616ef0b9844b000330d5}
+check if a legend is activated if yes, set the overlay\-Use to booelan value true, else to false 
+
+Definition at line 89 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!get\-Overlay\-Number\-Array@{get\-Overlay\-Number\-Array}}
+\index{get\-Overlay\-Number\-Array@{get\-Overlay\-Number\-Array}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{get\-Overlay\-Number\-Array}]{\setlength{\rightskip}{0pt plus 5cm}boolean [$\,$] sgs.\-controller.\-Color\-Overlay\-Controller.\-get\-Overlay\-Number\-Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_aa8592bbe59b6e7782596df95fdf9c3af}
+we save all checked overlay \begin{DoxyReturn}{Returns}
+an array of the overlays by number 
+\end{DoxyReturn}
+
+
+Definition at line 409 of file Color\-Overlay\-Controller.\-java.
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!init@{init}}
+\index{init@{init}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-init (
+\begin{DoxyParamCaption}
+\item[{int}]{legend\-Number}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_a700d41da6b76cec62401e9f446b4ccf7}
+called from \doxyref{Menu\-Controller.\-java}{p.}{_menu_controller_8java} Initialize the color\-Ovelay, the legend and the overlay on the grid 
+\begin{DoxyParams}{Parameters}
+{\em legend\-Number} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 63 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!init\-All@{init\-All}}
+\index{init\-All@{init\-All}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{init\-All}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-init\-All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_a7e3b677edb0f53e292048a07b3a005aa}
+this method inis all legends and their overlays. 
+
+Definition at line 418 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!mark@{mark}}
+\index{mark@{mark}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{mark}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-mark (
+\begin{DoxyParamCaption}
+\item[{int}]{org\-X, }
+\item[{int}]{org\-Y, }
+\item[{intgrid\-Data3\-D}]{[$\,$][$\,$][$\,$]}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_ab524db0457abc299a0ed20a1f40b3884}
+
+
+Definition at line 114 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!mark\-All@{mark\-All}}
+\index{mark\-All@{mark\-All}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{mark\-All}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-mark\-All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_ac26fb05f05e50235cb3b835cac70e6d3}
+method marks every single grid tile 
+
+Definition at line 134 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!mark\-One@{mark\-One}}
+\index{mark\-One@{mark\-One}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{mark\-One}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-mark\-One (
+\begin{DoxyParamCaption}
+\item[{int}]{org\-X, }
+\item[{int}]{org\-Y, }
+\item[{boolean}]{mark\-More}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_ac41e3185321b7c4ed84dd29c0277b737}
+we mark the clicked spot with a transparent overlay 
+\begin{DoxyParams}{Parameters}
+{\em mark\-More} & -\/ boolean to check if more objects should be marked. Method still mark only one object at the time, but dont delete the other marks \\
+\hline
+{\em x} & -\/ x coordination of object \\
+\hline
+{\em y} & -\/ y coordination of object \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 155 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!repaint@{repaint}}
+\index{repaint@{repaint}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{repaint}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-repaint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_a8d83080a830c0f1c42c08dc9b8f8a25e}
+repaints the grid, and the legends 
+
+Definition at line 337 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+Here is the caller graph for this function\-:
+
+
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!repaint\-Data@{repaint\-Data}}
+\index{repaint\-Data@{repaint\-Data}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{repaint\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-Color\-Overlay\-Controller.\-repaint\-Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1_color_overlay_controller_ae5e7769ae253e0338b8ea74dcdfe5167}
+this methode was called from other classes, to repaint the grid. they dont know which overlay is actually in use, so they also dont know the number which is needed in the \doxyref{repaint()}{p.}{classsgs_1_1controller_1_1_color_overlay_controller_a8d83080a830c0f1c42c08dc9b8f8a25e} methode. 
+
+Definition at line 396 of file Color\-Overlay\-Controller.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::\-Color\-Overlay\-Controller@{sgs\-::controller\-::\-Color\-Overlay\-Controller}!legend\-Panel@{legend\-Panel}}
+\index{legend\-Panel@{legend\-Panel}!sgs::controller::ColorOverlayController@{sgs\-::controller\-::\-Color\-Overlay\-Controller}}
+\subsubsection[{legend\-Panel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Color\-Legend\-Panel} sgs.\-controller.\-Color\-Overlay\-Controller.\-legend\-Panel}\label{classsgs_1_1controller_1_1_color_overlay_controller_aa97dd7574071ee1d8d44f33281960af9}
+
+
+Definition at line 21 of file Color\-Overlay\-Controller.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/{\bf Color\-Overlay\-Controller.\-java}\end{DoxyCompactItemize}

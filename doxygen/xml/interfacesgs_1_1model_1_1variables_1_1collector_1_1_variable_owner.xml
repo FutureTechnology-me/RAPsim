@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner" kind="interface" prot="public">
+    <compoundname>sgs::model::variables::collector::VariableOwner</compoundname>
+    <derivedcompoundref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" prot="public" virt="non-virtual">sgs.model.gridObjects.SmartGridObject</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1simulation_1_1_bus" prot="public" virt="non-virtual">sgs.model.simulation.Bus</derivedcompoundref>
+    <derivedcompoundref refid="classsgs_1_1model_1_1simulation_1_1_path" prot="public" virt="non-virtual">sgs.model.simulation.Path</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref></type>
+        <definition>VariableSet sgs.model.variables.collector.VariableOwner.getVariableSet</definition>
+        <argsstring>()</argsstring>
+        <name>getVariableSet</name>
+        <reimplementedby refid="classsgs_1_1model_1_1simulation_1_1_path_1aa3656714af28a591ca62c562efd31d54">getVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1simulation_1_1_bus_1af8d5a1e3ad102e7ec8a57c660b08347d">getVariableSet</reimplementedby>
+        <reimplementedby refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object_1abb2f5f3db9e03418f8189eb6d020200f">getVariableSet</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the <ref refid="classsgs_1_1model_1_1variables_1_1_variable_set" kindref="compound">VariableSet</ref> owned by this object; or null (no owned variable set) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableOwner.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4445">
+        <label>sgs.model.gridObjects.ProSumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_pro_sumer"/>
+        <childnode refid="4441" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4444">
+        <label>sgs.model.gridObjects.PowerLine</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_line"/>
+        <childnode refid="4442" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4453">
+        <label>sgs.model.gridObjects.SolarPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_solar_power_plant"/>
+        <childnode refid="4450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4454">
+        <label>sgs.model.gridObjects.WindTurbinePowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_wind_turbine_power_plant"/>
+        <childnode refid="4450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4449">
+        <label>sgs.model.gridObjects.GridPower</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_grid_power"/>
+        <childnode refid="4445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4448">
+        <label>sgs.model.gridObjects.House</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_house"/>
+        <childnode refid="4446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4442">
+        <label>sgs.model.gridObjects.PowerTransport</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_transport"/>
+        <childnode refid="4441" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4452">
+        <label>sgs.model.gridObjects.FossilFuelPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_fossil_fuel_power_plant"/>
+        <childnode refid="4450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4450">
+        <label>sgs.model.gridObjects.PowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_power_plant"/>
+        <childnode refid="4445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4456">
+        <label>sgs.model.simulation.Path</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_path"/>
+        <childnode refid="4440" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4447">
+        <label>sgs.model.gridObjects.CustomConsumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_consumer"/>
+        <childnode refid="4446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4440">
+        <label>sgs.model.variables.collector.VariableOwner</label>
+        <link refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner"/>
+      </node>
+      <node id="4441">
+        <label>sgs.model.gridObjects.SmartGridObject</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object"/>
+        <childnode refid="4440" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4446">
+        <label>sgs.model.gridObjects.Consumer</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_consumer"/>
+        <childnode refid="4445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4443">
+        <label>sgs.model.gridObjects.Connector</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_connector"/>
+        <childnode refid="4442" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4451">
+        <label>sgs.model.gridObjects.CustomPowerPlant</label>
+        <link refid="classsgs_1_1model_1_1grid_objects_1_1_custom_power_plant"/>
+        <childnode refid="4450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4455">
+        <label>sgs.model.simulation.Bus</label>
+        <link refid="classsgs_1_1model_1_1simulation_1_1_bus"/>
+        <childnode refid="4440" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableOwner.java" line="5" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/VariableOwner.java" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="interfacesgs_1_1model_1_1variables_1_1collector_1_1_variable_owner_1ae9768e375d5653aa6d8acc8e3e13a47c" prot="public" virt="non-virtual"><scope>sgs::model::variables::collector::VariableOwner</scope><name>getVariableSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

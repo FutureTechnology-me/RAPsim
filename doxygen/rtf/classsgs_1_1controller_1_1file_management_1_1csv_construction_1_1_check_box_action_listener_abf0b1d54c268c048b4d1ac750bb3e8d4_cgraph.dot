@@ -1,0 +1,11 @@
+digraph "sgs.controller.fileManagement.csvConstruction.CheckBoxActionListener.getSavedCollection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sgs.controller.fileManagement.csv\lConstruction.CheckBoxActionListener.get\lSavedCollection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sgs.controller.fileManagement.csv\lConstruction.CheckBoxActionListener.rec\lAllLeafes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener.html#ad1417902ef6b4826d44c76d2fba89e76"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sgs.controller.fileManagement.csv\lConstruction.CheckBoxActionListener.add\lNodeChoosenCollectionTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1controller_1_1file_management_1_1csv_construction_1_1_check_box_action_listener.html#a23dc8d322a4aacd232cce460ddad7b23"];
+}

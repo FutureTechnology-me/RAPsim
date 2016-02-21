@@ -1,0 +1,86 @@
+\section{sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X Class Reference}
+\label{classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x}\index{sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X@{sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X}}
+
+
+Collaboration diagram for sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X\-:
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf write} (File zip\-File, Document doc)
+\item 
+static Document {\bf read} (File load\-File, boolean zip)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String {\bf default\-Xml\-File} = \char`\"{}data.\-xml\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Tobi, Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 26 of file Safe\-S\-A\-X.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}!read@{read}}
+\index{read@{read}!sgs::controller::fileManagement::SafeSAX@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}static Document sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X.\-read (
+\begin{DoxyParamCaption}
+\item[{File}]{load\-File, }
+\item[{boolean}]{zip}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_a387d58ae46e49c965ad6a1eea4082289}
+Creates a new S\-A\-X\-Reader and tries to load the given file into an X\-M\-L document In case the dtd could not be loaded, the process is restarted using a generic resolver 
+\begin{DoxyParams}{Parameters}
+{\em load\-File} & the file to be loaded from \\
+\hline
+{\em zip} & if File is Ziped \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the X\-M\-L document 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file Safe\-S\-A\-X.\-java.
+
+\index{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}!write@{write}}
+\index{write@{write}!sgs::controller::fileManagement::SafeSAX@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}static void sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X.\-write (
+\begin{DoxyParamCaption}
+\item[{File}]{zip\-File, }
+\item[{Document}]{doc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_a29caed42822fff212e0113deae0e3237}
+Write X\-M\-L-\/document in a zip-\/file 
+\begin{DoxyParams}{Parameters}
+{\em write\-File} & \\
+\hline
+{\em zip} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 46 of file Safe\-S\-A\-X.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}!default\-Xml\-File@{default\-Xml\-File}}
+\index{default\-Xml\-File@{default\-Xml\-File}!sgs::controller::fileManagement::SafeSAX@{sgs\-::controller\-::file\-Management\-::\-Safe\-S\-A\-X}}
+\subsubsection[{default\-Xml\-File}]{\setlength{\rightskip}{0pt plus 5cm}final String sgs.\-controller.\-file\-Management.\-Safe\-S\-A\-X.\-default\-Xml\-File = \char`\"{}data.\-xml\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1file_management_1_1_safe_s_a_x_a823c3a0d603f7065a88d91587a069aaa}
+
+
+Definition at line 28 of file Safe\-S\-A\-X.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/file\-Management/{\bf Safe\-S\-A\-X.\-java}\end{DoxyCompactItemize}

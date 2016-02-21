@@ -1,0 +1,140 @@
+.TH "sgs.controller.ColorOverlayController" 3 "Wed Oct 28 2015" "Version 0.92" "RAPSim" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sgs.controller.ColorOverlayController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBColorOverlayController\fP (\fBGridController\fP gridController2, PrimaryViewI view)"
+.br
+.ti -1c
+.RI "void \fBinit\fP (int legendNumber)"
+.br
+.ti -1c
+.RI "boolean \fBcheckOverlayUse\fP ()"
+.br
+.ti -1c
+.RI "void \fBmark\fP (int orgX, int orgY, int[][][] gridData3D)"
+.br
+.ti -1c
+.RI "void \fBmarkAll\fP ()"
+.br
+.ti -1c
+.RI "void \fBmarkOne\fP (int orgX, int orgY, boolean markMore)"
+.br
+.ti -1c
+.RI "void \fBrepaint\fP ()"
+.br
+.ti -1c
+.RI "void \fBrepaintData\fP ()"
+.br
+.ti -1c
+.RI "boolean[] \fBgetOverlayNumberArray\fP ()"
+.br
+.ti -1c
+.RI "void \fBinitAll\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBColorLegendPanel\fP \fBlegendPanel\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 19 of file ColorOverlayController\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "sgs\&.controller\&.ColorOverlayController\&.ColorOverlayController (\fBGridController\fPgridController2, PrimaryViewIview)"
+constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgridController2\fP 
+.br
+\fIview\fP 
+.RE
+.PP
+
+.PP
+Definition at line 41 of file ColorOverlayController\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean sgs\&.controller\&.ColorOverlayController\&.checkOverlayUse ()"
+check if a legend is activated if yes, set the overlayUse to booelan value true, else to false 
+.PP
+Definition at line 89 of file ColorOverlayController\&.java\&.
+.SS "boolean [] sgs\&.controller\&.ColorOverlayController\&.getOverlayNumberArray ()"
+we save all checked overlay 
+.PP
+\fBReturns:\fP
+.RS 4
+an array of the overlays by number 
+.RE
+.PP
+
+.PP
+Definition at line 409 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.init (intlegendNumber)"
+called from \fBMenuController\&.java\fP Initialize the colorOvelay, the legend and the overlay on the grid 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlegendNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 63 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.initAll ()"
+this method inis all legends and their overlays\&. 
+.PP
+Definition at line 418 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.mark (intorgX, intorgY, intgridData3D[][][])"
+
+.PP
+Definition at line 114 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.markAll ()"
+method marks every single grid tile 
+.PP
+Definition at line 134 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.markOne (intorgX, intorgY, booleanmarkMore)"
+we mark the clicked spot with a transparent overlay 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImarkMore\fP - boolean to check if more objects should be marked\&. Method still mark only one object at the time, but dont delete the other marks 
+.br
+\fIx\fP - x coordination of object 
+.br
+\fIy\fP - y coordination of object 
+.RE
+.PP
+
+.PP
+Definition at line 155 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.repaint ()"
+repaints the grid, and the legends 
+.PP
+Definition at line 337 of file ColorOverlayController\&.java\&.
+.SS "void sgs\&.controller\&.ColorOverlayController\&.repaintData ()"
+this methode was called from other classes, to repaint the grid\&. they dont know which overlay is actually in use, so they also dont know the number which is needed in the \fBrepaint()\fP methode\&. 
+.PP
+Definition at line 396 of file ColorOverlayController\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBColorLegendPanel\fP sgs\&.controller\&.ColorOverlayController\&.legendPanel"
+
+.PP
+Definition at line 21 of file ColorOverlayController\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RAPSim from the source code\&.

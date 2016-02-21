@@ -1,0 +1,33 @@
+digraph "sgs.controller.ButtonController"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="sgs.controller.ButtonController",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelmenu" ];
+  Node2 [label="JPopupMenu",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bottomPanel" ];
+  Node3 [label="sgs.view.BottomPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1view_1_1_bottom_panel.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="JToolBar",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultButtonDimension" ];
+  Node5 [label="Dimension",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" primaryView" ];
+  Node6 [label="PrimaryViewI",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" topPanel" ];
+  Node7 [label="sgs.view.TopPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsgs_1_1view_1_1_top_panel.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buttonPanel" ];
+  Node8 [label="JPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" logoPanel" ];
+  Node9 [label="sgs.view.LogoPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" RAPSimIcon" ];
+  Node10 [label="ImageIcon",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dateAndTimePanel" ];
+  Node11 [label="sgs.view.DateAndTimePanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" weatherLabel1\nweatherLabel2\ntimeLabel" ];
+  Node12 [label="JLabel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelClasses" ];
+  Node13 [label="ArrayList\< Class\<?\> \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,152 @@
+\section{sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model Class Reference}
+\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model}\index{sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model@{sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model}}
+
+
+Inheritance diagram for sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model\-:
+
+
+Collaboration diagram for sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Abstract\-Power\-Plant\-Model} ({\bf Power\-Plant} {\bf power\-Plant})
+\item 
+void {\bf update\-Model} (Gregorian\-Calendar current\-Time, {\bf Weather} weather, int resolution)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Numeric\-Value} {\bf get\-Rated\-Power} ()
+\item 
+void {\bf set\-Rated\-Power} ({\bf Numeric\-Value} peak\-Power)
+\item 
+{\bf Numeric\-Value} {\bf get\-Power\-Production} ()
+\item 
+void {\bf set\-Power\-Production} ({\bf Numeric\-Value} {\bf power\-Production})
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Single\-Variable} {\bf rated\-Power}
+\item 
+{\bf Single\-Variable} {\bf power\-Production}
+\item 
+{\bf Power\-Plant} {\bf power\-Plant}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Initializes the variable\-Set. Initializes the variables power\-Production\-Optimal and power\-Production with values from the Object. Handles the update of the object variables (rounded to 4 digits) and provides set-\/ and get-\/methods for the two variables. \begin{DoxyAuthor}{Author}
+bbreilin, Poechacker 
+\end{DoxyAuthor}
+
+
+Definition at line 18 of file Abstract\-Power\-Plant\-Model.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!Abstract\-Power\-Plant\-Model@{Abstract\-Power\-Plant\-Model}}
+\index{Abstract\-Power\-Plant\-Model@{Abstract\-Power\-Plant\-Model}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{Abstract\-Power\-Plant\-Model}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-Abstract\-Power\-Plant\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Power\-Plant}}]{power\-Plant}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a010d71faa179084a4024888eba87fa69}
+
+
+Definition at line 24 of file Abstract\-Power\-Plant\-Model.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!get\-Power\-Production@{get\-Power\-Production}}
+\index{get\-Power\-Production@{get\-Power\-Production}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{get\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-get\-Power\-Production (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a86dd58f5fcf6e7b3038bcd12b47011bb}
+
+
+Definition at line 59 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!get\-Rated\-Power@{get\-Rated\-Power}}
+\index{get\-Rated\-Power@{get\-Rated\-Power}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{get\-Rated\-Power}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Numeric\-Value} sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-get\-Rated\-Power (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a5d597ca683c3f150bd2ab49a6e2e2e97}
+
+
+Definition at line 51 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!set\-Power\-Production@{set\-Power\-Production}}
+\index{set\-Power\-Production@{set\-Power\-Production}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{set\-Power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-set\-Power\-Production (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{power\-Production}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a99233e916c14accd59b8891a74dcbb97}
+
+
+Definition at line 63 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!set\-Rated\-Power@{set\-Rated\-Power}}
+\index{set\-Rated\-Power@{set\-Rated\-Power}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{set\-Rated\-Power}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-set\-Rated\-Power (
+\begin{DoxyParamCaption}
+\item[{{\bf Numeric\-Value}}]{peak\-Power}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a14d9ca1899b6be730ce8bca1f15fc41f}
+
+
+Definition at line 55 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!update\-Model@{update\-Model}}
+\index{update\-Model@{update\-Model}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{update\-Model}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-update\-Model (
+\begin{DoxyParamCaption}
+\item[{Gregorian\-Calendar}]{current\-Time, }
+\item[{{\bf Weather}}]{weather, }
+\item[{int}]{resolution}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a5280690e14a78779cb2ee22d6a8ded98}
+The method calls \doxyref{update\-Variables()}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_model_a50d89fc66ccf8147a9270fdabb2a3a48} and sets the variable values for to the Power\-Plant Object 
+
+Implements {\bf sgs.\-model.\-object\-Models.\-Abstract\-Model} \doxyref{}{p.}{classsgs_1_1model_1_1object_models_1_1_abstract_model_a0167b994a0f88c2b632cee4f8452feea}.
+
+
+
+Definition at line 45 of file Abstract\-Power\-Plant\-Model.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!power\-Plant@{power\-Plant}}
+\index{power\-Plant@{power\-Plant}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{power\-Plant}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Power\-Plant} sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-power\-Plant\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_a8930f9cfc3db27d0c36c27daf4f6180e}
+
+
+Definition at line 22 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!power\-Production@{power\-Production}}
+\index{power\-Production@{power\-Production}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{power\-Production}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-power\-Production\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_aa696e160156ef992b43e7f0632dd7744}
+
+
+Definition at line 21 of file Abstract\-Power\-Plant\-Model.\-java.
+
+\index{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}!rated\-Power@{rated\-Power}}
+\index{rated\-Power@{rated\-Power}!sgs::model::objectModels::AbstractPowerPlantModel@{sgs\-::model\-::object\-Models\-::\-Abstract\-Power\-Plant\-Model}}
+\subsubsection[{rated\-Power}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Single\-Variable} sgs.\-model.\-object\-Models.\-Abstract\-Power\-Plant\-Model.\-rated\-Power\hspace{0.3cm}{\ttfamily [protected]}}\label{classsgs_1_1model_1_1object_models_1_1_abstract_power_plant_model_af9349e90d3e206f023dfa1605551bf22}
+
+
+Definition at line 20 of file Abstract\-Power\-Plant\-Model.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/model/object\-Models/{\bf Abstract\-Power\-Plant\-Model.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1model_1_1_c_s_v_model" kind="class" prot="public">
+    <compoundname>sgs::model::CSVModel</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a590c5de80e35c244860e80abd647f015" prot="public" static="yes" mutable="no">
+        <type>File</type>
+        <definition>File sgs.model.CSVModel.csv</definition>
+        <argsstring></argsstring>
+        <name>csv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="27" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classsgs_1_1model_1_1_c_s_v_model_1ad813d09f3ecd96155bfecf3a07f07466" compoundref="_c_s_v_model_8java" startline="161" endline="189">sgs.model.CSVModel.createCSVLine</referencedby>
+        <referencedby refid="classsgs_1_1model_1_1_c_s_v_model_1ab88a87a056bf05522c487ee1b44f1dd9" compoundref="_c_s_v_model_8java" startline="287" endline="290">sgs.model.CSVModel.setCSVFile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1acc17700fe6091fe7a1902a0b115c3b4b" prot="public" static="no" mutable="no">
+        <type>File</type>
+        <definition>File sgs.model.CSVModel.newCSVFile</definition>
+        <argsstring></argsstring>
+        <name>newCSVFile</name>
+        <initializer>= new File(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="28" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a5b83360188c3c79a5c408f31e300c891" prot="public" static="no" mutable="no">
+        <type><ref refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v" kindref="compound">EnumPV</ref>[]</type>
+        <definition>EnumPV [] sgs.model.CSVModel.enums</definition>
+        <argsstring></argsstring>
+        <name>enums</name>
+        <initializer>= EnumPV.values()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="29" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a41aab41fc205f03eab57cc213073895a" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.CSVModel.setNewFileName</definition>
+        <argsstring></argsstring>
+        <name>setNewFileName</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="34" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a4aab27f257c743d67ed39f49f4a2c3e0" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+        <definition>final SgsGridModel sgs.model.CSVModel.gridModel</definition>
+        <argsstring></argsstring>
+        <name>gridModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="30" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a8f985c3e155a9a7fb98a43e751ddaadd" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String sgs.model.CSVModel.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="32" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a5278a4acc27b80da61a4f50557cf9483" prot="private" static="yes" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; sgs.model.CSVModel.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="31" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1model_1_1_c_s_v_model_1a304f24d937a7ed5bb36ad77456bc3385" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean sgs.model.CSVModel.havePermission</definition>
+        <argsstring></argsstring>
+        <name>havePermission</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="33" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1a2a7dfdc3a2b3604977fe2d69959cf8f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.CSVModel.setPermission</definition>
+        <argsstring>(boolean value)</argsstring>
+        <name>setPermission</name>
+        <param>
+          <type>boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the user needs to activate the option to save the specified data into a csvfile, with activating a checkbox in the simulationStart window. if its checked true, we have the permission to save the specified data. we need that, so that the timeThread stop doing anything, bevor its starts. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="43" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1af40ca509fddec6ef87f96ddcfc292796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.model.CSVModel.CSVModel</definition>
+        <argsstring>(SgsGridModel gridModel)</argsstring>
+        <name>CSVModel</name>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1_sgs_grid_model" kindref="compound">SgsGridModel</ref></type>
+          <declname>gridModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1ad813d09f3ecd96155bfecf3a07f07466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.CSVModel.createCSVLine</definition>
+        <argsstring>(String currentTime, Weather currentWeather)</argsstring>
+        <name>createCSVLine</name>
+        <param>
+          <type>String</type>
+          <declname>currentTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1controller_1_1simulation_1_1_weather" kindref="compound">Weather</ref></type>
+          <declname>currentWeather</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>write all other data, without a header <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Header </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>every data that algorithem gives </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="161" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="161" bodyend="189"/>
+        <references refid="classsgs_1_1controller_1_1simulation_1_1_weather_1a9d36b8f3f17b3f343fae34e0bf7ed23b" compoundref="_weather_8java" startline="68" endline="72">sgs.controller.simulation.Weather.getWindSpeed</references>
+        <references refid="classsgs_1_1model_1_1_c_s_v_model_1a590c5de80e35c244860e80abd647f015" compoundref="_c_s_v_model_8java" startline="27">sgs.model.CSVModel.csv</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1a1d5a8a83616038f4c0eb453ecf83dd83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.CSVModel.run</definition>
+        <argsstring>(List&lt; String &gt; choosenData, boolean permissionToSave, StringBuilder header)</argsstring>
+        <name>run</name>
+        <param>
+          <type>List&lt; String &gt;</type>
+          <declname>choosenData</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>permissionToSave</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start csv Model and duty <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>choosenData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- to save the list from GiveDataCollections </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="274" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="274" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1ab88a87a056bf05522c487ee1b44f1dd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.CSVModel.setCSVFile</definition>
+        <argsstring>(File file)</argsstring>
+        <name>setCSVFile</name>
+        <param>
+          <type>File</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>receive file from the gui <ref refid="_results_c_s_v_view_8java" kindref="compound">ResultsCSVView.java</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- selected path + filename + .csv file format </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="287" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="287" bodyend="290"/>
+        <references refid="classsgs_1_1model_1_1_c_s_v_model_1a590c5de80e35c244860e80abd647f015" compoundref="_c_s_v_model_8java" startline="27">sgs.model.CSVModel.csv</references>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1ab29693258ad0b1572075095762b328fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.CSVModel.getFileName</definition>
+        <argsstring>()</argsstring>
+        <name>getFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the name of the csvfile </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="297" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="297" bodyend="299"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1a18b962936d475ce94d47df27db79af3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.CSVModel.createData</definition>
+        <argsstring>(String[] splitColumn)</argsstring>
+        <name>createData</name>
+        <param>
+          <type>String[]</type>
+          <declname>splitColumn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>splitColumn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- data from one column </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>dataString - return the data for that column </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="63" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="63" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1ae788e5fa22daeb2223ec9af51641da3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.model.CSVModel.createHead</definition>
+        <argsstring>(StringBuilder newHeader)</argsstring>
+        <name>createHead</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>newHeader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create the header in the csv-file <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newHeader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="121" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="121" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1a219c37cc810cd96b4f36eeed83d2572f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.CSVModel.cleanString</definition>
+        <argsstring>(String stringToClean)</argsstring>
+        <name>cleanString</name>
+        <param>
+          <type>String</type>
+          <declname>stringToClean</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>csv do not allow special caracters in the body. so every string that write into it, has to be cleaned. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stringToClean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>stringToClean replaceAll(&quot;[:.]&quot;, &quot;.&quot;).replaceAll(&quot;[- ()]&quot;, &quot; &quot;) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="197" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1model_1_1_c_s_v_model_1a9d4bf5dfce0959c2532f343986a5b2c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String sgs.model.CSVModel.getDataParameter</definition>
+        <argsstring>(String p, SmartGridObject sgsObj, PowerLine plObj)</argsstring>
+        <name>getDataParameter</name>
+        <param>
+          <type>String</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_smart_grid_object" kindref="compound">SmartGridObject</ref></type>
+          <declname>sgsObj</declname>
+        </param>
+        <param>
+          <type><ref refid="classsgs_1_1model_1_1grid_objects_1_1_power_line" kindref="compound">PowerLine</ref></type>
+          <declname>plObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sgo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- smartgridobject </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>plo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- powerlineobject </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>dataParameter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="211" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="211" bodyend="266"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Huber Sabrina Model to create the csv file from the list &quot;data&quot; it collects all necessary infos to know from which objects, which parameter it needs, and write them into the csv file </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3050">
+        <label>sgs.model.variables.EnumPV</label>
+        <link refid="enumsgs_1_1model_1_1variables_1_1_enum_p_v"/>
+      </node>
+      <node id="3051">
+        <label>File</label>
+      </node>
+      <node id="3049">
+        <label>sgs.model.CSVModel</label>
+        <link refid="classsgs_1_1model_1_1_c_s_v_model"/>
+        <childnode refid="3050" relation="usage">
+          <edgelabel>enums</edgelabel>
+        </childnode>
+        <childnode refid="3051" relation="usage">
+          <edgelabel>csv</edgelabel>
+          <edgelabel>newCSVFile</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" line="25" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/CSVModel.java" bodystart="25" bodyend="302"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a219c37cc810cd96b4f36eeed83d2572f" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>cleanString</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1ad813d09f3ecd96155bfecf3a07f07466" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>createCSVLine</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a18b962936d475ce94d47df27db79af3c" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>createData</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1ae788e5fa22daeb2223ec9af51641da3d" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>createHead</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a590c5de80e35c244860e80abd647f015" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>csv</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1af40ca509fddec6ef87f96ddcfc292796" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>CSVModel</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a5278a4acc27b80da61a4f50557cf9483" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>data</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a5b83360188c3c79a5c408f31e300c891" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>enums</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a8f985c3e155a9a7fb98a43e751ddaadd" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>filename</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a9d4bf5dfce0959c2532f343986a5b2c6" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>getDataParameter</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1ab29693258ad0b1572075095762b328fc" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>getFileName</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a4aab27f257c743d67ed39f49f4a2c3e0" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>gridModel</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a304f24d937a7ed5bb36ad77456bc3385" prot="private" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>havePermission</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1acc17700fe6091fe7a1902a0b115c3b4b" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>newCSVFile</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a1d5a8a83616038f4c0eb453ecf83dd83" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>run</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1ab88a87a056bf05522c487ee1b44f1dd9" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>setCSVFile</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a41aab41fc205f03eab57cc213073895a" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>setNewFileName</name></member>
+      <member refid="classsgs_1_1model_1_1_c_s_v_model_1a2a7dfdc3a2b3604977fe2d69959cf8f6" prot="public" virt="non-virtual"><scope>sgs::model::CSVModel</scope><name>setPermission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

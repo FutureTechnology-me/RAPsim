@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classsgs_1_1view_1_1_color_legend_panel" kind="class" prot="public">
+    <compoundname>sgs::view::ColorLegendPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_color_legend_panel_1a54e3e209c8100638a8ea4c92634a4f9b" prot="private" static="yes" mutable="no">
+        <type>final long</type>
+        <definition>final long sgs.view.ColorLegendPanel.serialVersionUID</definition>
+        <argsstring></argsstring>
+        <name>serialVersionUID</name>
+        <initializer>= 1L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="16" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_color_legend_panel_1a6cebf01d670ea282754d26e502bf39bc" prot="private" static="no" mutable="no">
+        <type>final greenYellowRed_Panel</type>
+        <definition>final greenYellowRed_Panel sgs.view.ColorLegendPanel.gyrPanel</definition>
+        <argsstring></argsstring>
+        <name>gyrPanel</name>
+        <initializer>= new greenYellowRed_Panel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="18" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_color_legend_panel_1a14de62ee62d42ee2ad2d63a800b11028" prot="private" static="no" mutable="no">
+        <type>final blackWhiteBlack_Panel</type>
+        <definition>final blackWhiteBlack_Panel sgs.view.ColorLegendPanel.bwbPanel</definition>
+        <argsstring></argsstring>
+        <name>bwbPanel</name>
+        <initializer>= new blackWhiteBlack_Panel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="19" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsgs_1_1view_1_1_color_legend_panel_1ad55dee39f173aff54e08f46d0e7908db" prot="private" static="no" mutable="no">
+        <type>final firebrickMidnightblue_Panel</type>
+        <definition>final firebrickMidnightblue_Panel sgs.view.ColorLegendPanel.fmPanel</definition>
+        <argsstring></argsstring>
+        <name>fmPanel</name>
+        <initializer>= new firebrickMidnightblue_Panel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="20" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsgs_1_1view_1_1_color_legend_panel_1ab4fd2910e8783441196233642c0a6346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgs.view.ColorLegendPanel.ColorLegendPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ColorLegendPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="23" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="23" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classsgs_1_1view_1_1_color_legend_panel_1a60305a8b66ededfae97580c225877d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgs.view.ColorLegendPanel.repaintLegend</definition>
+        <argsstring>(boolean[] overlayNumberArray)</argsstring>
+        <name>repaintLegend</name>
+        <param>
+          <type>boolean[]</type>
+          <declname>overlayNumberArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="52" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="52" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2773">
+        <label>JPanel</label>
+      </node>
+      <node id="2772">
+        <label>sgs.view.ColorLegendPanel</label>
+        <link refid="classsgs_1_1view_1_1_color_legend_panel"/>
+        <childnode refid="2773" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2775">
+        <label>JPanel</label>
+      </node>
+      <node id="2774">
+        <label>sgs.view.ColorLegendPanel</label>
+        <link refid="classsgs_1_1view_1_1_color_legend_panel"/>
+        <childnode refid="2775" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" line="14" column="1" bodyfile="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/view/ColorLegendPanel.java" bodystart="14" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1a14de62ee62d42ee2ad2d63a800b11028" prot="private" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>bwbPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1ab4fd2910e8783441196233642c0a6346" prot="public" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>ColorLegendPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1ad55dee39f173aff54e08f46d0e7908db" prot="private" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>fmPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1a6cebf01d670ea282754d26e502bf39bc" prot="private" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>gyrPanel</name></member>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1a60305a8b66ededfae97580c225877d86" prot="public" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>repaintLegend</name></member>
+      <member refid="classsgs_1_1view_1_1_color_legend_panel_1a54e3e209c8100638a8ea4c92634a4f9b" prot="private" virt="non-virtual"><scope>sgs::view::ColorLegendPanel</scope><name>serialVersionUID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

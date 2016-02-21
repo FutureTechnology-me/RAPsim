@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_6c31ab5fdac2611d1bca327d645f4b83" kind="dir">
+    <compoundname>RAPSim/src/sgs/model/variables/collector</compoundname>
+    <innerfile refid="_variable_collection_8java">VariableCollection.java</innerfile>
+    <innerfile refid="_variable_collector_8java">VariableCollector.java</innerfile>
+    <innerfile refid="_variable_collector_avg_8java">VariableCollectorAvg.java</innerfile>
+    <innerfile refid="_variable_collector_max_8java">VariableCollectorMax.java</innerfile>
+    <innerfile refid="_variable_collector_min_8java">VariableCollectorMin.java</innerfile>
+    <innerfile refid="_variable_collector_sum_8java">VariableCollectorSum.java</innerfile>
+    <innerfile refid="_variable_owner_8java">VariableOwner.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Poechacker/Documents/SmartGridSimulator/Release_RAPSim/RAPSim/src/sgs/model/variables/collector/"/>
+  </compounddef>
+</doxygen>

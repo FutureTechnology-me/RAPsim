@@ -1,0 +1,233 @@
+\section{sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution Class Reference}
+\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution}\index{sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution@{sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution}}
+
+
+Inheritance diagram for sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution\-:
+
+
+Collaboration diagram for sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Simple\-Power\-Distribution} ({\bf Grid\-Controller} grid\-Controller)
+\item 
+void {\bf calculation\-Step} ()
+\item 
+void {\bf initialize\-Algorithm} ()
+\item 
+void {\bf grid\-Changed} ()
+\item 
+void {\bf simulation\-Started} ()
+\item 
+void {\bf simulation\-Stopped} ()
+\item 
+String {\bf get\-Description} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static boolean {\bf T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S} = false
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf set\-Properties\-For\-Variables} ()
+\item 
+void {\bf set\-Properties\-For\-Bus\-And\-Path} ()
+\item 
+void {\bf unload\-Algorithm} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 21 of file Simple\-Power\-Distribution.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!Simple\-Power\-Distribution@{Simple\-Power\-Distribution}}
+\index{Simple\-Power\-Distribution@{Simple\-Power\-Distribution}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{Simple\-Power\-Distribution}]{\setlength{\rightskip}{0pt plus 5cm}sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-Simple\-Power\-Distribution (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid\-Controller}}]{grid\-Controller}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_a9fba5574df08e3941fdb03fba1d9428a}
+Constructor for reflection. Must (only) use parameter \doxyref{Grid\-Controller}{p.}{classsgs_1_1controller_1_1_grid_controller}. \begin{DoxyAuthor}{Author}
+Kristofer Schweiger 
+\end{DoxyAuthor}
+
+
+Definition at line 46 of file Simple\-Power\-Distribution.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!calculation\-Step@{calculation\-Step}}
+\index{calculation\-Step@{calculation\-Step}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{calculation\-Step}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-calculation\-Step (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_ac801f00cefbd6436f2530ff8c85e94dc}
+Calculate grid for one simulation step. \begin{quotation}
+Buses and Paths are locked before. Grid/\-View-\/\-Repaint is automatically called after the function. \end{quotation}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac4c9507877dc020250921cddc16ba2ef}.
+
+
+
+Definition at line 63 of file Simple\-Power\-Distribution.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!get\-Description@{get\-Description}}
+\index{get\-Description@{get\-Description}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{get\-Description}]{\setlength{\rightskip}{0pt plus 5cm}String sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-get\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_a25c70cf04dd65cb59d56efb40e64482f}
+\begin{DoxyReturn}{Returns}
+description of the specific algorithm used for the \char`\"{}\-Info\char`\"{} button 
+\end{DoxyReturn}
+
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_afb5870e926bf78477e3d31ae34ab9432}.
+
+
+
+Definition at line 282 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!grid\-Changed@{grid\-Changed}}
+\index{grid\-Changed@{grid\-Changed}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{grid\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-grid\-Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_ae27c7d5988ac5d1492dcd7c253fffa95}
+Is called if the Grid is modified. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a1448c4593f3a851aa5e524b7e4316c0d}.
+
+
+
+Definition at line 250 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!initialize\-Algorithm@{initialize\-Algorithm}}
+\index{initialize\-Algorithm@{initialize\-Algorithm}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{initialize\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-initialize\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_aa85531b2c3ceb414f72e305059316259}
+
+
+Definition at line 215 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}}
+\index{set\-Properties\-For\-Bus\-And\-Path@{set\-Properties\-For\-Bus\-And\-Path}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{set\-Properties\-For\-Bus\-And\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-set\-Properties\-For\-Bus\-And\-Path (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_a7b1deb0cc320391398ba028c53824fc5}
+Set \doxyref{Sgs\-Grid\-Model.\-resistance\-Attributes}{p.}{classsgs_1_1model_1_1_sgs_grid_model_a44245cedb90ee93a539e1b095a042776}, bus\-Variable\-Collection, path\-Variable\-Collection if used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ae6eb61da1d9e7259cf934108bce0f4db}.
+
+
+
+Definition at line 189 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}}
+\index{set\-Properties\-For\-Variables@{set\-Properties\-For\-Variables}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{set\-Properties\-For\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-set\-Properties\-For\-Variables (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_ad34f941b8fa9b88dac8b9c1abb6f925b}
+give( readable, editable, variablename) variablename is out of Enum\-P\-V 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_ac2928692dc590133f3373ce29fb333fc}.
+
+
+
+Definition at line 171 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!simulation\-Started@{simulation\-Started}}
+\index{simulation\-Started@{simulation\-Started}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{simulation\-Started}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-simulation\-Started (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_abb11e56f4df4d069de116101a60ee35e}
+Called by time thread. Write interesting contents of the simulation to a file. Called directly after the simulation was started. Use this to make a L\-O\-G file if one is used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a38463f403753d238505c4db484394650}.
+
+
+
+Definition at line 255 of file Simple\-Power\-Distribution.\-java.
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!simulation\-Stopped@{simulation\-Stopped}}
+\index{simulation\-Stopped@{simulation\-Stopped}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{simulation\-Stopped}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-simulation\-Stopped (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_ab6514ab26075a1840932a05fc7d44ee7}
+Called directly after the simulation was stopped. Use this to flush/close a log file if one was used. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a665185f0afb464260b8237a0fb43846a}.
+
+
+
+Definition at line 268 of file Simple\-Power\-Distribution.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!unload\-Algorithm@{unload\-Algorithm}}
+\index{unload\-Algorithm@{unload\-Algorithm}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{unload\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-unload\-Algorithm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_a25a37ccde51c32084a664a6d5a6bdc58}
+Free external resources used by this algorithm. 
+
+Implements {\bf sgs.\-controller.\-simulation.\-Abstract\-Distribution\-Algorithm} \doxyref{}{p.}{classsgs_1_1controller_1_1simulation_1_1_abstract_distribution_algorithm_a3458f6694fbfac2ccbb686749eaae2c0}.
+
+
+
+Definition at line 240 of file Simple\-Power\-Distribution.\-java.
+
+
+
+Here is the call graph for this function\-:
+
+
+
+
+\subsection{Member Data Documentation}
+\index{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}!T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S@{T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S}}
+\index{T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S@{T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S}!sgs::controller::simulation::SimplePowerDistribution@{sgs\-::controller\-::simulation\-::\-Simple\-Power\-Distribution}}
+\subsubsection[{T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S}]{\setlength{\rightskip}{0pt plus 5cm}boolean sgs.\-controller.\-simulation.\-Simple\-Power\-Distribution.\-T\-E\-S\-T\-\_\-\-O\-V\-E\-R\-L\-A\-Y\-S = false\hspace{0.3cm}{\ttfamily [static]}}\label{classsgs_1_1controller_1_1simulation_1_1_simple_power_distribution_adc2e459a84258a3c68f3f78c2dbdc4cc}
+
+
+Definition at line 30 of file Simple\-Power\-Distribution.\-java.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+R\-A\-P\-Sim/src/sgs/controller/simulation/{\bf Simple\-Power\-Distribution.\-java}\end{DoxyCompactItemize}
